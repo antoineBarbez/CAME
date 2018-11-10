@@ -30,7 +30,7 @@ public class CreateMetricFiles {
 				repositoryPath = args[i].split(":")[1];
 				break;
 			case "dirs":
-				dirsToAnalyze = args[i].split(":")[1].split("@", -1);
+				dirsToAnalyze = args[i].split(":", -1)[1].split("@", -1);
 				break;
 			case "output":
 				metricFilesDir = args[i].split(":")[1];
@@ -57,7 +57,7 @@ public class CreateMetricFiles {
 	
 	
 	private static void createMetricFiles() {
-		System.out.println("Creating metric file...");
+		System.out.println("Creating metric files at " + metricFilesDir);
 		
 		// Checkout to the desired version of the system
 		checkout(snapshot);
@@ -88,6 +88,7 @@ public class CreateMetricFiles {
 				if (createMetricFile())
 					nbCommit++;
 		}
+		System.out.println("");
 	}
 	
 	private static void setClasses() {

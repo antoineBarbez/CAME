@@ -147,7 +147,6 @@ public class ASTReader {
 		File rootDir = new File(repositoryPath);
 		sources = getSourcepathEntries(rootDir);
 	}
-
 	private Set<String> getSourcepathEntries(File directory) {
 		Set<String> sourcepathEntries = new HashSet<String>();
 		Set<File> subDirectories = getDirectories(directory);
@@ -160,7 +159,7 @@ public class ASTReader {
 				e.printStackTrace();
 			}
 			if (sourceDir != null) {
-				sourcepathEntries.add("/"+sourceDir);
+				sourcepathEntries.add(sourceDir);
 			}
 		}
 		return sourcepathEntries;
@@ -185,9 +184,12 @@ public class ASTReader {
 				String fileString = FileUtils.readFileToString(file, "UTF-8");
 				Pattern p = Pattern.compile("package\\s+(.+);");
 				Matcher m = p.matcher(fileString);
-				if(m.find())
-					return directory.getAbsolutePath().substring(1,directory.getAbsolutePath().length()- m.group(1).length());
-				
+				if(m.find()) {
+					String sourcePath = "/"+ directory.getAbsolutePath().substring(1,directory.getAbsolutePath().length()- m.group(1).length());
+					File sourceFile = new File(sourcePath);
+					if (sourceFile.exists())
+						return sourcePath;
+				}
 			}
 		}
 		return null;
