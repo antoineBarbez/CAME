@@ -1,0 +1,898 @@
+Method;TargetClass;ATFD;ATSD;FDP;DIST_EC;DIST_TC;LOC_M;LOC_EC;LOC_TC
+org.javacc.parser.LexGen.writeTemplate(java.lang.Object[], java.lang.String);org.javacc.parser.CodeGenerator;1;0;3;1.0;0.9761904761904762;32;857;265
+org.javacc.jjtree.JJTreeParser.notTailOfExpansionUnit();org.javacc.jjtree.Token;1;1;1;0.9982174688057041;0.9285714285714286;6;9644;31
+org.javacc.jjtree.CPPCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.ASTProduction;1;3;5;1.0;0.9375;19;298;14
+org.javacc.parser.ParseGenCPP.start();org.javacc.parser.CodeGenerator;13;0;6;1.0;0.6904761904761905;433;436;265
+org.javacc.parser.Semanticize.action(org.javacc.parser.Expansion);org.javacc.parser.LookaheadCalc;0;0;5;1.0;1.0;25;528;223
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.JJTJJTreeParserState;1;3;15;0.8695652173913043;0.9722222222222222;89;151;74
+org.javacc.parser.LexGen.start();org.javacc.parser.Options;0;9;11;0.8260869565217391;1.0;145;857;393
+org.javacc.parser.LexGen.writeTemplate(java.lang.Object[], java.lang.String);org.javacc.parser.Options;0;0;3;1.0;1.0;32;857;393
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.JavaCCGlobals;0;7;15;0.8928571428571429;1.0;151;1154;321
+org.javacc.parser.JavaCCParser.getNextToken();org.javacc.parser.Token;0;2;2;0.9964476021314387;1.0;7;8311;31
+org.javacc.jjtree.JJTreeNode.print(org.javacc.jjtree.IO, org.javacc.jjtree.Token);org.javacc.jjtree.TokenUtils;0;2;4;0.8181818181818181;1.0;47;94;154
+org.javacc.parser.OutputFile.getPrintWriter();org.javacc.parser.JavaCCGlobals;0;6;3;0.7142857142857143;1.0;19;153;321
+org.javacc.jjtree.JJTreeParser.expansion(org.javacc.jjtree.ASTProduction);org.javacc.jjtree.JJTJJTreeParserState;6;11;2;0.9806338028169014;0.8529411764705882;141;9644;74
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.Choice;1;7;15;0.8928571428571429;0.9666666666666667;151;1154;27
+org.javacc.parser.RStringLiteral.GenerateDfa(int, org.javacc.parser.CodeGenerator);org.javacc.parser.RegularExpression;1;1;7;0.95;0.9545454545454546;40;908;9
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTCompilationUnit);org.javacc.jjtree.Token;1;0;2;1.0;0.9;15;298;31
+org.javacc.jjtree.JJTreeParser.javacc_options();org.javacc.jjtree.JJTJJTreeParserState;4;9;3;0.9841549295774648;0.9117647058823529;59;9644;74
+org.javacc.parser.TryBlock.dump(int, java.util.Set);org.javacc.parser.Expansion;1;0;1;1.0;0.9411764705882353;7;7;34
+org.javacc.parser.JavaCCParserTokenManager.jjFillToken();org.javacc.parser.JavaCharStream;5;1;2;0.9852941176470589;0.9;20;1893;355
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.SimpleNode;1;4;5;0.962962962962963;0.9523809523809523;10;331;68
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.NonTerminal;1;3;9;0.9230769230769231;0.9230769230769231;48;1154;28
+org.javacc.parser.JavaCCParser.Arguments(java.util.List);org.javacc.parser.Token;0;7;1;0.9883720930232558;1.0;61;8311;31
+org.javacc.parser.ParseEngine.buildLookaheadChecker(java.lang.String[], org.javacc.parser.Lookahead[]);org.javacc.parser.Semanticize;0;8;5;0.8222222222222222;1.0;162;1154;528
+org.javacc.utils.ConditionParser.jj_consume_token(int);org.javacc.utils.ConditionParserTokenManager;1;4;2;0.8571428571428572;0.9782608695652174;13;329;594
+org.javacc.utils.ConditionParser.ReInit(java.io.Reader);org.javacc.utils.ConditionParserTokenManager;1;3;2;0.8928571428571429;0.9777777777777777;8;329;594
+org.javacc.parser.ParseEngine.generateCPPMethodheader(org.javacc.parser.BNFProduction, org.javacc.parser.Token);org.javacc.parser.Token;3;1;3;0.9811320754716981;0.8846153846153846;41;1154;31
+org.javacc.parser.NfaState.DumpNonAsciiMoveMethod(org.javacc.parser.CodeGenerator);org.javacc.parser.LexGen;0;3;4;0.9523809523809523;1.0;37;1797;857
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.NodeFiles;0;3;15;0.8695652173913043;1.0;89;151;217
+org.javacc.parser.LexGen.DumpFillToken();org.javacc.parser.Options;0;0;3;1.0;1.0;69;857;393
+org.javacc.parser.ROneOrMore.GenerateNfa(boolean);org.javacc.parser.Nfa;0;0;3;1.0;1.0;10;17;8
+org.javacc.utils.ConditionParserTokenManager.getNextToken();org.javacc.utils.Token;0;13;3;0.7234042553191489;1.0;113;594;24
+org.javacc.jjtree.JJTreeParser.jj_scan_token(int);org.javacc.jjtree.Token;1;4;2;0.992818671454219;0.9230769230769231;26;9644;31
+org.javacc.parser.ParseEngine.minimumSize(int, org.javacc.parser.Expansion);org.javacc.parser.Sequence;1;2;7;0.975609756097561;0.9;70;1154;19
+org.javacc.jjtree.NodeScope.getNodeDescriptorText();org.javacc.jjtree.ASTNodeDescriptor;1;0;1;1.0;0.9285714285714286;3;53;92
+org.javacc.parser.JavaCCParser.expansion(org.javacc.parser.Container);org.javacc.parser.Container;1;10;7;0.9826689774696707;0.96;44;8311;0
+org.javacc.parser.ParseGenCPP.start();org.javacc.parser.Token;0;0;6;1.0;1.0;433;436;31
+org.javacc.parser.JavaCCParser.getToken(int);org.javacc.parser.JavaCCParserTokenManager;1;1;2;0.9982238010657194;0.9833333333333333;8;8311;1893
+org.javacc.parser.JavaCCParser.complex_regular_expression_unit(org.javacc.parser.Container);org.javacc.parser.RZeroOrOne;0;11;5;0.9811643835616438;1.0;93;8311;10
+org.javacc.parser.LexGenCPP.DumpMoreActions();org.javacc.parser.LexGen;0;0;4;1.0;1.0;44;757;857
+org.javacc.jjtree.JJTreeParser.node_descriptor();org.javacc.jjtree.Token;1;9;3;0.9845360824742269;0.9767441860465116;92;9644;31
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa4_0(long, long, long, long, long, long);org.javacc.parser.JavaCharStream;1;7;1;0.8833333333333333;0.9807692307692307;78;1893;355
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.NonTerminal;0;3;11;0.9230769230769231;1.0;54;1154;28
+org.javacc.parser.RChoice.CompressCharLists();org.javacc.parser.RCharacterList;3;2;3;0.875;0.8333333333333334;17;60;211
+org.javacc.parser.ParseEngine.buildPhase2Routine(org.javacc.parser.Lookahead);org.javacc.parser.Options;0;3;4;0.925;1.0;27;1154;393
+org.javacc.parser.test.NfaStateTest.setUp();org.javacc.parser.Main;0;0;2;1.0;1.0;5;112;205
+org.javacc.jjtree.JavaCodeGenerator.insertCloseNodeCode(boolean, java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.ASTNodeDescriptor;1;0;4;1.0;0.9473684210526316;16;331;92
+org.javacc.jjtree.JJTreeParser.ReInit(org.javacc.jjtree.JJTreeParserTokenManager);org.javacc.jjtree.JJTJJTreeParserState;1;4;1;0.9928057553956835;0.9473684210526316;9;9644;74
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.Options;0;4;15;0.9491525423728814;1.0;245;1154;393
+org.javacc.parser.OptionsTest.testNormalize();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;14;128;82
+org.javacc.parser.ParseEngine.buildPhase2Routine(org.javacc.parser.Lookahead);org.javacc.parser.Lookahead;1;3;4;0.925;0.9230769230769231;27;1154;28
+org.javacc.parser.LexGenCPP.DumpStaticVarDeclarations();org.javacc.parser.CodeGenerator;4;0;3;1.0;0.8888888888888888;42;757;265
+org.javacc.parser.JavaCCParser.ReInit(java.io.Reader);org.javacc.parser.JavaCCParserTokenManager;1;4;2;0.9929078014184397;0.984375;9;8311;1893
+org.javacc.parser.ParseEngine.buildLookaheadChecker(java.lang.String[], org.javacc.parser.Lookahead[]);org.javacc.parser.Expansion;1;8;5;0.8222222222222222;0.96875;162;1154;34
+org.javacc.parser.ExpansionTest.setUp();org.javacc.parser.Expansion;2;0;2;1.0;0.8666666666666667;8;72;34
+org.javacc.jjtree.JJTreeParser.regular_expression();org.javacc.jjtree.JJTJJTreeParserState;4;12;1;0.9789473684210527;0.9230769230769231;164;9644;74
+org.javacc.parser.RSequence.GenerateNfa(boolean);org.javacc.parser.RegularExpression;1;1;3;0.8333333333333334;1.0;20;26;9
+org.javacc.parser.NfaState.AddChar(char);org.javacc.parser.LexGen;0;4;4;0.9285714285714286;1.0;30;1797;857
+org.javacc.parser.ParseEngine.genReturn(boolean);org.javacc.parser.Expansion;1;0;4;1.0;0.9285714285714286;13;1154;34
+org.javacc.parser.test.NfaStateTest.testDumpCharAndRangeMovesInitialised();org.javacc.parser.NfaState;0;1;2;0.9642857142857143;1.0;6;112;1797
+org.javacc.jjtree.JavaCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.TokenUtils;1;3;5;1.0;1.0;19;331;154
+org.javacc.utils.ConditionParserTokenManager.jjMoveStringLiteralDfa1_2(long);org.javacc.utils.JavaCharStream;1;2;1;0.9523809523809523;0.9787234042553191;16;594;355
+org.javacc.jjtree.JJTreeParser.expansion(org.javacc.jjtree.ASTProduction);org.javacc.jjtree.ASTExpansionNodeScope;0;11;2;0.9806338028169014;1.0;141;9644;6
+org.javacc.parser.NfaState.AddChar(char);org.javacc.parser.Options;0;4;4;0.9285714285714286;1.0;30;1797;393
+org.javacc.parser.ParseEngine.buildPhase2Routine(org.javacc.parser.Lookahead);org.javacc.parser.CodeGenerator;1;3;4;0.925;0.9772727272727273;27;1154;265
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa1_0(long, long, long);org.javacc.parser.JavaCharStream;1;8;1;0.8666666666666667;0.9811320754716981;112;1893;355
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.Choice;1;3;11;0.9230769230769231;0.9;54;1154;27
+org.javacc.parser.ZeroOrOne.dump(int, java.util.Set);org.javacc.parser.Expansion;1;0;1;1.0;0.9411764705882353;7;15;34
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.ASTBNFDeclaration;0;3;6;1.0;1.0;19;331;6
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.parser.JavaCCGlobals;1;0;5;1.0;1.0;6;298;321
+org.javacc.parser.ParseEngine.minimumSize(int, org.javacc.parser.Expansion);org.javacc.parser.OneOrMore;0;2;7;0.975609756097561;1.0;70;1154;15
+org.javacc.utils.ConditionParser.jj_consume_token(int);org.javacc.utils.Token;1;4;2;0.8571428571428572;0.9166666666666666;13;329;24
+org.javacc.parser.test.NfaStateTest.testDumpCharAndRangeMovesInitialised();org.javacc.parser.CodeGenerator;1;1;2;0.9642857142857143;0.972972972972973;6;112;265
+org.javacc.parser.RCharacterList.GenerateNfa(boolean);org.javacc.parser.SingleCharacter;1;6;6;0.6;0.9333333333333333;29;211;17
+org.javacc.parser.test.NfaStateTest.testDumpStatesForKind();org.javacc.parser.NfaState;0;0;2;1.0;1.0;5;112;1797
+org.javacc.jjtree.JJTreeOptionsTest.testValidateReturnType();org.javacc.jjtree.JJTreeOptions;0;0;3;1.0;1.0;18;77;103
+org.javacc.parser.JavaCCParser.expansion_choices(org.javacc.parser.Container);org.javacc.parser.Container;1;6;3;0.9894179894179894;0.9090909090909091;32;8311;0
+org.javacc.parser.LexGenCPP.DumpStaticVarDeclarations();org.javacc.parser.LexGen;0;0;3;1.0;1.0;42;757;857
+org.javacc.parser.JavaCCParser.jj_consume_token(int);org.javacc.parser.Token;1;8;2;0.9858156028368794;0.9411764705882353;23;8311;31
+org.javacc.parser.RZeroOrOne.GenerateNfa(boolean);org.javacc.parser.NfaState;1;0;3;1.0;0.9824561403508771;10;10;1797
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.RegularExpression;3;4;15;0.9491525423728814;0.9090909090909091;245;1154;9
+org.javacc.parser.LexGen.PrintClassHead();org.javacc.parser.Token;4;0;4;1.0;0.8518518518518519;63;857;31
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.OneOrMore;0;3;11;0.9230769230769231;1.0;54;1154;15
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.JJTreeNode;1;4;5;0.9655172413793104;0.9333333333333333;33;298;94
+org.javacc.jjtree.JJTreeParser.javacc_options();org.javacc.jjtree.Token;1;9;3;0.9841549295774648;0.9655172413793104;59;9644;31
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.IO;1;4;5;1.0;0.95;16;331;100
+org.javacc.parser.JavaCCParser.jj_ntk();org.javacc.parser.Token;1;1;2;0.99822695035461;0.9;4;8311;31
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTLHS);org.javacc.jjtree.JJTreeNode;0;0;4;1.0;1.0;10;331;94
+org.javacc.jjdoc.HTMLGenerator.print(java.lang.String);org.javacc.jjdoc.TextGenerator;1;0;1;1.0;0.9615384615384616;3;141;111
+org.javacc.parser.LexGen.start();org.javacc.parser.CodeGenerator;2;9;11;0.8260869565217391;0.974025974025974;145;857;265
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa8_0(long, long, long, long);org.javacc.parser.JavaCharStream;1;6;1;0.9;0.9803921568627451;46;1893;355
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.ZeroOrMore;0;3;11;0.9230769230769231;1.0;54;1154;15
+org.javacc.parser.JavaCCParser.bnf_production();org.javacc.parser.Container;1;14;5;0.9758620689655172;0.96875;51;8311;0
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.NodeScope;1;4;5;0.9655172413793104;0.9411764705882353;33;298;53
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.Sequence;1;3;9;0.9230769230769231;0.9;48;1154;19
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFNodeScope);org.javacc.jjtree.ASTNodeDescriptor;1;4;4;0.9615384615384616;0.95;11;298;92
+org.javacc.parser.LexGenCPP.DumpStaticVarDeclarations();org.javacc.parser.Options;0;0;3;1.0;1.0;42;757;393
+org.javacc.jjtree.JJTreeParser.node_descriptor();org.javacc.jjtree.JJTJJTreeParserState;5;9;3;0.9845360824742269;0.9148936170212766;92;9644;74
+org.javacc.parser.JavaCCParser.regular_expr_production();org.javacc.parser.JavaCCErrors;0;9;5;0.9846153846153847;1.0;89;8311;82
+org.javacc.jjtree.JJTreeParser.jj_scan_token(int);org.javacc.jjtree.JJTreeParserTokenManager;1;4;2;0.992818671454219;0.9824561403508771;26;9644;1827
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa5_0(long, long, long, long);org.javacc.parser.JavaCharStream;1;5;1;0.9166666666666666;0.98;64;1893;355
+org.javacc.parser.RStringLiteral.GenerateDfa(int, org.javacc.parser.CodeGenerator);org.javacc.parser.NfaState;0;1;7;0.95;1.0;40;908;1797
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.TryBlock;0;7;15;0.8928571428571429;1.0;151;1154;7
+org.javacc.parser.ParseEngine.generate3R(org.javacc.parser.Expansion, org.javacc.parser.Phase3Data);org.javacc.parser.Phase3Data;1;3;6;0.9318181818181819;0.9285714285714286;33;1154;4
+org.javacc.jjtree.JJTreeOptionsTest.testValidate();org.javacc.parser.JavaCCErrors;0;0;3;1.0;1.0;18;77;82
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.NormalProduction;0;3;9;0.9230769230769231;1.0;48;1154;99
+org.javacc.parser.Lookahead.dump(int, java.util.Set);org.javacc.parser.Expansion;1;1;1;0.8888888888888888;0.9444444444444444;7;28;34
+org.javacc.parser.RZeroOrOne.GenerateNfa(boolean);org.javacc.parser.RegularExpression;1;0;3;1.0;1.0;10;10;9
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.TryBlock;0;1;10;0.9743589743589743;1.0;58;1154;7
+org.javacc.parser.test.NfaStateTest.testDumpStateSets();org.javacc.parser.NfaState;0;0;2;1.0;1.0;5;112;1797
+org.javacc.jjtree.CPPCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.IO;2;3;5;1.0;0.9090909090909091;19;298;100
+org.javacc.parser.JavaCCParser.ReturnStatement();org.javacc.parser.Token;1;8;2;0.9867330016583747;0.9821428571428571;57;8311;31
+org.javacc.jjtree.JJTreeParser.expansion_unit(org.javacc.jjtree.ASTProduction);org.javacc.jjtree.JJTJJTreeParserState;7;20;2;0.966044142614601;0.921875;378;9644;74
+org.javacc.parser.ParseEngine.dumpFormattedString(java.lang.String);org.javacc.parser.CodeGenerator;2;2;1;0.9459459459459459;0.9487179487179487;34;1154;265
+org.javacc.parser.ExpansionTest.testRZeroOrMoreConstructor();org.javacc.parser.Expansion;2;0;3;1.0;0.8666666666666667;7;72;34
+org.javacc.parser.JavaCCParser.complex_regular_expression_unit(org.javacc.parser.Container);org.javacc.parser.Token;2;11;5;0.9811643835616438;0.9487179487179487;93;8311;31
+org.javacc.parser.RStringLiteral.GenerateDfa(int, org.javacc.parser.CodeGenerator);org.javacc.parser.KindInfo;2;1;7;0.95;0.9;40;908;12
+org.javacc.jjtree.JJTreeParser.bnf_production();org.javacc.jjtree.ASTBNFNodeScope;0;17;7;0.973015873015873;1.0;242;9644;6
+org.javacc.parser.ParseGen.start(boolean);org.javacc.parser.JavaCCErrors;0;0;5;1.0;1.0;775;778;82
+org.javacc.jjtree.JJTreeParser.eatUptoCloseBrace();org.javacc.jjtree.Token;1;2;1;0.9964221824686941;0.9230769230769231;7;9644;31
+org.javacc.parser.ParseEngine.genReturn(boolean);org.javacc.parser.Options;0;0;4;1.0;1.0;13;1154;393
+org.javacc.parser.OutputFile.checkOptions(java.io.File, java.lang.String[]);org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;21;153;82
+org.javacc.jjtree.ASTOptionBinding.initialize(java.lang.String, java.lang.String);org.javacc.jjtree.JJTreeGlobals;0;2;1;0.6;1.0;6;26;34
+org.javacc.jjtree.JJTreeParser.character_descriptor();org.javacc.jjtree.JJTJJTreeParserState;4;8;1;0.9857397504456328;0.8846153846153846;46;9644;74
+org.javacc.jjtree.JJTreeParser.getNextToken();org.javacc.jjtree.Token;0;2;2;0.9964028776978417;1.0;7;9644;31
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.Choice;1;1;10;0.9743589743589743;0.875;58;1154;27
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.Expansion;1;4;15;0.9491525423728814;0.975609756097561;245;1154;34
+org.javacc.jjtree.JJTreeNode.print(org.javacc.jjtree.IO, org.javacc.jjtree.Token);org.javacc.jjtree.NodeScope;1;2;4;0.8181818181818181;0.9285714285714286;47;94;53
+org.javacc.parser.JavaCCParser.bnf_production();org.javacc.parser.JavaCCParserInternals;0;14;5;0.9758620689655172;1.0;51;8311;263
+org.javacc.parser.JavaCCParser.regular_expression(org.javacc.parser.Container);org.javacc.parser.Token;2;11;5;0.9809688581314879;0.9393939393939394;77;8311;31
+org.javacc.parser.LexGenCPP.DumpFillToken();org.javacc.parser.JavaFiles;0;0;4;1.0;1.0;76;757;349
+org.javacc.jjtree.ASTNodeDescriptor.translateImage(org.javacc.jjtree.Token);org.javacc.jjtree.JJTreeNode;1;0;1;1.0;0.8333333333333334;3;92;94
+org.javacc.jjtree.CPPCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.NodeScope;3;3;5;1.0;0.8125;19;298;53
+org.javacc.utils.ConditionParserTokenManager.getNextToken();org.javacc.utils.JavaCharStream;6;13;3;0.7234042553191489;0.896551724137931;113;594;355
+org.javacc.parser.JavaCCParser.jj_consume_token(int);org.javacc.parser.JavaCCParserTokenManager;1;8;2;0.9858156028368794;0.9852941176470589;23;8311;1893
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.JavaCCErrors;0;21;11;0.9650582362728786;1.0;212;8311;82
+org.javacc.jjtree.JJTreeParser.javacode_production();org.javacc.jjtree.ASTProduction;2;18;6;0.9713831478537361;0.9791666666666666;202;9644;14
+org.javacc.parser.JavaCCParser.regexpr_spec(org.javacc.parser.TokenProduction);org.javacc.parser.RegularExpression;1;8;8;0.986013986013986;0.9583333333333334;40;8311;9
+org.javacc.jjtree.JJTreeParser.CompilationUnit();org.javacc.jjtree.JJTreeGlobals;0;9;1;0.984182776801406;1.0;46;9644;34
+org.javacc.parser.OptionsTest.testSetBooleanOption();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;17;128;82
+org.javacc.jjtree.ASTGrammar.generate(org.javacc.jjtree.IO);org.javacc.jjtree.CPPCodeGenerator;1;0;4;1.0;1.0;13;19;298
+org.javacc.jjtree.CPPCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.parser.Options;0;0;6;1.0;1.0;33;298;393
+org.javacc.parser.RZeroOrMore.GenerateNfa(boolean);org.javacc.parser.NfaState;1;0;3;1.0;0.9824561403508771;11;18;1797
+org.javacc.parser.ZeroOrMore.dump(int, java.util.Set);org.javacc.parser.Expansion;1;0;1;1.0;0.9411764705882353;7;15;34
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.CodeGenerator;5;7;15;0.8928571428571429;0.9152542372881356;151;1154;265
+org.javacc.parser.JavaCCParser.character_descriptor(org.javacc.parser.Container);org.javacc.parser.SingleCharacter;3;7;5;0.9878260869565217;0.85;34;8311;17
+org.javacc.parser.LexGenCPP.DumpFillToken();org.javacc.parser.LexGen;0;0;4;1.0;1.0;76;757;857
+org.javacc.jjdoc.HTMLGenerator.productionEnd(org.javacc.parser.NormalProduction);org.javacc.jjdoc.JJDocOptions;0;1;1;0.9565217391304348;1.0;6;141;30
+org.javacc.jjtree.JJTreeParser.jj_consume_token(int);org.javacc.jjtree.Token;1;8;2;0.9856373429084381;0.9411764705882353;23;9644;31
+org.javacc.jjtree.JJTreeParserTokenManager.TokenLexicalActions(org.javacc.jjtree.Token);org.javacc.jjtree.JavaCharStream;1;3;2;0.9508196721311475;0.9821428571428571;24;1827;355
+org.javacc.parser.RCharacterList.GenerateNfa(boolean);org.javacc.parser.JavaCCErrors;0;6;6;0.6;1.0;29;211;82
+org.javacc.jjtree.JJTreeParser.javacode_production();org.javacc.jjtree.Token;2;18;6;0.9713831478537361;0.9795918367346939;202;9644;31
+org.javacc.parser.JavaCCParserTokenManager.jjMoveNfa_0(int, int);org.javacc.parser.JavaCharStream;1;11;1;0.8166666666666667;0.9821428571428571;356;1893;355
+org.javacc.parser.JavaCCParser.javacode_production();org.javacc.parser.JavaCCParserInternals;0;12;4;0.9791666666666666;1.0;44;8311;263
+org.javacc.jjdoc.TextGenerator.create_output_stream();org.javacc.jjdoc.JJDocOptions;0;2;2;0.9333333333333333;1.0;40;111;30
+org.javacc.parser.JavaCCParser.ClassOrInterfaceDeclaration(int, java.util.List);org.javacc.parser.Token;1;13;2;0.9772329246935202;0.9655172413793104;54;8311;31
+org.javacc.parser.JavaCCParser.javacode_production();org.javacc.parser.JavaCodeProduction;1;12;4;0.9791666666666666;0.9615384615384616;44;8311;3
+org.javacc.parser.NormalProduction.dump(int, java.util.Set);org.javacc.parser.Expansion;1;4;1;0.8461538461538461;0.9583333333333334;10;99;34
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.LexGen;1;9;12;0.8163265306122449;1.0;150;757;857
+org.javacc.jjtree.CPPCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.CPPNodeFiles;0;0;6;1.0;1.0;33;298;308
+org.javacc.jjtree.JJTreeParser.node_descriptor_expression();org.javacc.jjtree.Token;1;4;2;0.9928698752228164;0.9411764705882353;28;9644;31
+org.javacc.jjtree.CPPCodeGenerator.tryExpansionUnit(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.JJTreeNode, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;2;4;3;1.0;0.9047619047619048;19;298;100
+org.javacc.jjtree.JJTreeOptionsTest.testValidateReturnType();org.javacc.parser.Options;0;0;3;1.0;1.0;18;77;393
+org.javacc.parser.test.NfaStateTest.testDumpStatesForKind();org.javacc.parser.CodeGenerator;1;0;2;1.0;0.9722222222222222;5;112;265
+org.javacc.jjtree.DefaultJJTreeVisitor.defaultVisit(java.lang.Object, org.javacc.jjtree.SimpleNode);org.javacc.jjtree.SimpleNode;1;0;1;1.0;1.0;3;129;68
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa8_0(long, long, long, long, long, long);org.javacc.jjtree.JavaCharStream;1;5;1;0.9056603773584906;0.98;41;1827;355
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.TokenUtils;0;3;6;1.0;1.0;19;298;154
+org.javacc.parser.ParseEngine.genReturn(boolean);org.javacc.parser.JavaCCGlobals;0;0;4;1.0;1.0;13;1154;321
+org.javacc.parser.JavaCCParser.character_descriptor(org.javacc.parser.Container);org.javacc.parser.CharacterRange;4;7;5;0.9878260869565217;0.8;34;8311;31
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.JJTreeNode;0;4;5;1.0;1.0;16;298;94
+org.javacc.jjtree.ASTOptionBinding.translateImage(org.javacc.jjtree.Token);org.javacc.jjtree.Token;1;1;2;0.8571428571428572;0.9;8;26;31
+org.javacc.parser.OptionsTest.testSetStringOption();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;15;128;82
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.NodeScope;0;4;5;0.962962962962963;1.0;10;298;53
+org.javacc.parser.OptionsTest.testOptionsString();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;9;128;82
+org.javacc.parser.RChoice.CompressCharLists();org.javacc.parser.RJustName;0;2;3;0.875;1.0;17;60;10
+org.javacc.parser.CodeGenerator.saveOutput(java.lang.String);org.javacc.parser.Options;0;5;1;0.8837209302325582;1.0;18;265;393
+org.javacc.parser.NfaState.AddRange(char, char);org.javacc.parser.Options;0;3;4;0.9464285714285714;1.0;36;1797;393
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa7_0(long, long, long, long, long, long);org.javacc.jjtree.JavaCharStream;1;5;1;0.9056603773584906;0.98;42;1827;355
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTCompilationUnit);org.javacc.jjtree.NodeFiles;0;1;6;1.0;1.0;38;331;217
+org.javacc.parser.LexGenCPP.DumpTokenActions();org.javacc.parser.RStringLiteral;0;0;4;1.0;1.0;51;757;908
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.Options;0;9;12;0.8163265306122449;1.0;150;757;393
+org.javacc.parser.RStringLiteral.GenerateDfa(int, org.javacc.parser.CodeGenerator);org.javacc.parser.Options;0;1;7;0.95;1.0;40;908;393
+org.javacc.parser.ExpansionTest.testZeroOrOneConstructor();org.javacc.parser.Expansion;3;0;3;1.0;0.8;7;72;34
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa11_0(long, long, long, long);org.javacc.parser.JavaCharStream;1;5;1;0.9166666666666666;0.98;25;1893;355
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.Container;1;21;11;0.9650582362728786;0.9833333333333333;212;8311;0
+org.javacc.utils.ConditionParser.getNextToken();org.javacc.utils.ConditionParserTokenManager;1;2;2;0.9259259259259259;0.9767441860465116;7;329;594
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.ZeroOrOne;0;7;15;0.8928571428571429;1.0;151;1154;15
+org.javacc.jjtree.JJTreeParser.javacode_production();org.javacc.jjtree.ASTJavacode;0;18;6;0.9713831478537361;1.0;202;9644;6
+org.javacc.jjtree.JJTreeParser.ClassOrInterfaceDeclaration();org.javacc.jjtree.JJTreeGlobals;0;11;1;0.9803921568627451;1.0;52;9644;34
+org.javacc.parser.ExpansionTest.testZeroOrOneConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8181818181818181;7;72;31
+org.javacc.parser.JavaCCParser.token_manager_decls();org.javacc.parser.JavaCCParserInternals;1;9;1;0.9840989399293286;1.0;20;8311;263
+org.javacc.parser.JavaCCParser.regular_expression(org.javacc.parser.Container);org.javacc.parser.Container;1;11;5;0.9809688581314879;0.962962962962963;77;8311;0
+org.javacc.parser.Semanticize.action(org.javacc.parser.Expansion);org.javacc.parser.Options;0;0;5;1.0;1.0;25;528;393
+org.javacc.parser.ExpansionTest.testROneOrMoreConstructor();org.javacc.parser.Expansion;2;0;3;1.0;0.8666666666666667;7;72;34
+org.javacc.jjdoc.test.JJDocMainTest.testMainProgramHTML();org.javacc.jjdoc.JJDocMain;0;0;2;1.0;1.0;3;17;129
+org.javacc.jjdoc.HTMLGenerator.nonterminalsEnd();org.javacc.jjdoc.JJDocOptions;0;1;1;0.9565217391304348;1.0;5;141;30
+org.javacc.parser.CodeGenerator.genAnnotation(java.lang.String);org.javacc.parser.Options;0;1;1;0.9722222222222222;1.0;11;265;393
+org.javacc.utils.JavaFileGenerator.evaluate(java.lang.String);org.javacc.utils.ConditionParser;1;1;1;0.9333333333333333;0.9642857142857143;9;107;329
+org.javacc.parser.OptionsTest.testSetBooleanOption();org.javacc.parser.Options;0;0;2;1.0;1.0;17;128;393
+org.javacc.jjdoc.TextGenerator.create_output_stream();org.javacc.jjdoc.JJDocGlobals;0;2;2;0.9333333333333333;1.0;40;111;47
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.Action;1;21;11;0.9650582362728786;0.9836065573770492;212;8311;11
+org.javacc.utils.ConditionParserTokenManager.jjStartNfaWithStates_0(int, int, int);org.javacc.utils.JavaCharStream;1;4;1;0.9047619047619048;0.9795918367346939;11;594;355
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.Choice;1;3;9;0.9230769230769231;0.9;48;1154;27
+org.javacc.parser.RChoice.GenerateNfa(boolean);org.javacc.parser.Nfa;0;2;3;0.7777777777777778;1.0;15;60;8
+org.javacc.jjtree.JJTreeParserTokenManager.getNextToken();org.javacc.jjtree.JavaCharStream;6;14;3;0.7586206896551724;0.8983050847457628;107;1827;355
+org.javacc.jjtree.JJTreeOptionsTest.testOutputDirectory();org.javacc.jjtree.JJTreeOptions;0;0;3;1.0;1.0;16;77;103
+org.javacc.parser.test.NfaStateTest.testDumpNonAsciiMoveMethodsInitialised();org.javacc.parser.CodeGenerator;1;1;2;0.9642857142857143;0.972972972972973;6;112;265
+org.javacc.parser.RStringLiteral.GenerateDfa(int, org.javacc.parser.CodeGenerator);org.javacc.parser.JavaCCErrors;0;1;7;0.95;1.0;40;908;82
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.SimpleNode;1;4;5;0.9655172413793104;0.9565217391304348;33;298;68
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFNodeScope);org.javacc.jjtree.IO;1;4;4;0.9615384615384616;0.9473684210526316;11;298;100
+org.javacc.parser.OutputFile.checkVersion(java.io.File, java.lang.String);org.javacc.parser.JavaCCGlobals;0;1;2;0.9545454545454546;1.0;22;153;321
+org.javacc.parser.JavaCCParser.character_list(org.javacc.parser.Container);org.javacc.parser.Token;2;7;4;0.9878260869565217;0.9230769230769231;41;8311;31
+org.javacc.jjtree.ASTNodeDescriptor.toString();org.javacc.jjtree.SimpleNode;1;2;1;0.8666666666666667;0.9375;8;92;68
+org.javacc.jjtree.JavaCodeGenerator.insertCatchBlocks(java.lang.String, java.util.Enumeration, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;1;0;2;1.0;0.9473684210526316;21;331;100
+org.javacc.parser.RChoice.CheckUnmatchability();org.javacc.parser.RegularExpression;3;1;4;0.9;0.7;11;60;9
+org.javacc.parser.RCharacterList.ToCaseNeutral();org.javacc.parser.CharacterRange;2;1;2;0.9375;0.8181818181818181;69;211;31
+org.javacc.jjtree.JavaCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.ASTNodeDescriptor;3;0;6;1.0;0.8636363636363636;33;331;92
+org.javacc.utils.ParseException.getMessage();org.javacc.utils.Token;4;5;1;0.6428571428571428;0.75;43;102;24
+org.javacc.jjtree.JJTreeParserTokenManager.jjFillToken();org.javacc.jjtree.Token;4;1;2;0.9836065573770492;0.7142857142857143;20;1827;31
+org.javacc.parser.CodeGenerator.getStringToPrint(org.javacc.parser.Token);org.javacc.parser.Token;0;1;1;0.9714285714285714;1.0;12;265;31
+org.javacc.parser.JavaCCParser.CompilationUnit();org.javacc.parser.JavaCCParserInternals;0;9;2;0.9844290657439446;1.0;49;8311;263
+org.javacc.parser.LexGenCPP.DumpGetNextToken();org.javacc.parser.NfaState;2;0;4;1.0;0.9682539682539683;219;757;1797
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.ZeroOrMore;0;7;15;0.8928571428571429;1.0;151;1154;15
+org.javacc.jjtree.JavaCodeGenerator.tryExpansionUnit(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.JJTreeNode, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeScope;2;4;3;1.0;0.875;19;331;53
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.RegularExpression;1;3;11;0.9230769230769231;0.9333333333333333;54;1154;9
+org.javacc.parser.JavaCCParser.eatUptoCloseBrace(java.util.List);org.javacc.parser.Token;1;2;1;0.9964726631393298;0.9285714285714286;12;8311;31
+org.javacc.parser.ParseEngine.build(org.javacc.parser.CodeGenerator);org.javacc.parser.Token;3;8;7;0.8852459016393442;0.925;91;1154;31
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.NodeScope;2;4;5;1.0;0.8571428571428572;16;331;53
+org.javacc.parser.ROneOrMore.GenerateNfa(boolean);org.javacc.parser.RegularExpression;1;0;3;1.0;1.0;10;17;9
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTCompilationUnit);org.javacc.jjtree.IO;1;1;6;1.0;0.9473684210526316;38;331;100
+org.javacc.jjdoc.HTMLGenerator.handleTokenProduction(org.javacc.parser.TokenProduction);org.javacc.jjdoc.JJDoc;0;2;1;0.9130434782608696;1.0;11;141;348
+org.javacc.parser.Sequence.dump(int, java.util.Set);org.javacc.parser.Expansion;2;1;1;0.9285714285714286;0.9166666666666666;12;19;34
+org.javacc.jjtree.JJTreeParser.javacode_production();org.javacc.jjtree.JJTJJTreeParserState;4;18;6;0.9713831478537361;0.9711538461538461;202;9644;74
+org.javacc.parser.ExpansionTest.testRStringLiteralConstructor();org.javacc.parser.Expansion;2;0;3;1.0;0.875;6;72;34
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.Sequence;1;3;11;0.9230769230769231;0.9;54;1154;19
+org.javacc.parser.CodeGenerator.saveOutput(java.lang.String, java.lang.StringBuffer);org.javacc.parser.JavaCCErrors;0;2;1;0.9473684210526316;1.0;19;265;82
+org.javacc.jjtree.ASTBNFAction.getScopingParent(org.javacc.jjtree.NodeScope);org.javacc.jjtree.ASTExpansionNodeScope;0;0;3;1.0;1.0;15;21;6
+org.javacc.parser.JavaCCParser.ReInit(java.io.Reader);org.javacc.parser.JavaCharStream;1;4;2;0.9929078014184397;1.0;9;8311;355
+org.javacc.parser.RChoice.CheckUnmatchability();org.javacc.parser.LexGen;0;1;4;0.9;1.0;11;60;857
+org.javacc.utils.ConditionParserTokenManager.jjMoveNfa_0(int, int);org.javacc.utils.JavaCharStream;1;8;1;0.8095238095238095;0.9811320754716981;95;594;355
+org.javacc.parser.JavaCCParser.Block(java.util.List);org.javacc.parser.Token;0;9;1;0.9855769230769231;1.0;90;8311;31
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFNodeScope);org.javacc.jjtree.IO;1;4;4;0.9615384615384616;0.9473684210526316;11;331;100
+org.javacc.jjtree.JavaCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeFiles;1;0;6;1.0;1.0;33;331;217
+org.javacc.jjtree.JJTreeOptionsTest.testNodeFactory();org.javacc.jjtree.JJTreeOptions;0;0;3;1.0;1.0;18;77;103
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.ASTNodeDescriptor;0;3;15;0.8695652173913043;1.0;89;151;92
+org.javacc.jjtree.JJTreeParser.bnf_production();org.javacc.jjtree.JJTJJTreeParserState;4;17;7;0.973015873015873;0.9711538461538461;242;9644;74
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.parser.JavaCCGlobals;0;3;15;0.8695652173913043;1.0;89;151;321
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.parser.Options;0;3;15;0.8695652173913043;1.0;89;151;393
+org.javacc.parser.ExpansionTest.testOneOrMoreConstructor();org.javacc.parser.Expansion;3;0;3;1.0;0.8;8;72;34
+org.javacc.parser.test.NfaStateTest.testDumpCharAndRangeMoves();org.javacc.parser.NfaState;0;0;2;1.0;1.0;5;112;1797
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTCompilationUnit);org.javacc.jjtree.JJTreeNode;1;1;6;1.0;1.0;38;331;94
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa7_0(long, long, long, long);org.javacc.parser.JavaCharStream;1;5;1;0.9166666666666666;0.98;46;1893;355
+org.javacc.parser.RSequence.GenerateNfa(boolean);org.javacc.parser.NfaState;1;1;3;0.8333333333333334;0.9833333333333333;20;26;1797
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa12_0(long, long, long, long);org.javacc.parser.JavaCharStream;1;5;1;0.9166666666666666;0.98;22;1893;355
+org.javacc.parser.JavaCCParser.ReInit(java.io.InputStream, java.lang.String);org.javacc.parser.JavaCharStream;1;4;2;0.9929078014184397;1.0;14;8311;355
+org.javacc.parser.JavaCCParser.javacode_production();org.javacc.parser.NormalProduction;7;12;4;0.9791666666666666;0.8108108108108107;44;8311;99
+org.javacc.parser.JavaCCParser.local_lookahead();org.javacc.parser.Token;3;12;4;0.9804560260586319;0.9565217391304348;113;8311;31
+org.javacc.parser.LexGen.DumpMoreActions();org.javacc.parser.CodeGenerator;5;0;3;1.0;0.868421052631579;44;857;265
+org.javacc.parser.RStringLiteral.GenerateNfa(boolean);org.javacc.parser.NfaState;2;1;3;0.9166666666666666;0.967741935483871;23;908;1797
+org.javacc.jjtree.JJTreeOptionsTest.testOutputDirectory();org.javacc.parser.Options;1;0;3;1.0;1.0;16;77;393
+org.javacc.parser.JavaCCParser.ReturnStatement();org.javacc.parser.Options;0;8;2;0.9867330016583747;1.0;57;8311;393
+org.javacc.jjtree.CPPCodeGenerator.insertCatchBlocks(java.lang.String, java.util.Enumeration, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;1;0;2;1.0;0.9375;12;298;100
+org.javacc.parser.ParseException.getMessage();org.javacc.parser.Token;4;5;1;0.6428571428571428;0.7647058823529411;43;102;31
+org.javacc.parser.ParseEngine.minimumSize(int, org.javacc.parser.Expansion);org.javacc.parser.Choice;1;2;7;0.975609756097561;0.9;70;1154;27
+org.javacc.parser.JavaCCParser.AccessModifier(org.javacc.parser.NormalProduction);org.javacc.parser.NormalProduction;1;5;2;0.9911816578483246;0.962962962962963;30;8311;99
+org.javacc.parser.ParseEngine.minimumSize(int, org.javacc.parser.Expansion);org.javacc.parser.NonTerminal;1;2;7;0.975609756097561;0.9230769230769231;70;1154;28
+org.javacc.parser.NfaState.DumpAsciiMove(boolean[], int, org.javacc.parser.CodeGenerator);org.javacc.parser.CodeGenerator;2;8;1;0.875;0.9591836734693877;84;1797;265
+org.javacc.parser.test.NfaStateTest.setupState();org.javacc.parser.JavaCCGlobals;0;1;5;0.9642857142857143;1.0;9;112;321
+org.javacc.jjtree.JJTreeParser.bnf_production();org.javacc.jjtree.ASTBNFDeclaration;0;17;7;0.973015873015873;1.0;242;9644;6
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.Token;1;4;5;1.0;0.9333333333333333;16;331;31
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.RegularExpression;4;9;12;0.8163265306122449;0.9423076923076923;150;757;9
+org.javacc.parser.JavaCCParser.ClassOrInterfaceBody(boolean, java.util.List);org.javacc.parser.Token;0;7;1;0.988155668358714;1.0;54;8311;31
+org.javacc.jjtree.JJTreeParser.javacc_input();org.javacc.jjtree.JJTreeOptions;0;14;5;0.9763513513513513;1.0;167;9644;103
+org.javacc.jjtree.JJTreeParser.ReInit(java.io.InputStream, java.lang.String);org.javacc.jjtree.JJTJJTreeParserState;1;4;3;0.992831541218638;0.9523809523809523;15;9644;74
+org.javacc.parser.RCharacterList.SortDescriptors();org.javacc.parser.CharacterRange;2;1;2;0.9375;0.8181818181818181;59;211;31
+org.javacc.parser.JavaCCParser.expansion(org.javacc.parser.Container);org.javacc.parser.Options;0;10;7;0.9826689774696707;1.0;44;8311;393
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.SimpleNode;3;0;3;1.0;0.875;25;298;68
+org.javacc.parser.JavaCCParser.expansion(org.javacc.parser.Container);org.javacc.parser.Lookahead;2;10;7;0.9826689774696707;0.9259259259259259;44;8311;28
+org.javacc.jjtree.JJTreeParserTokenManager.SwitchTo(int);org.javacc.jjtree.TokenMgrError;0;1;1;0.9807692307692307;1.0;4;1827;59
+org.javacc.jjdoc.BNFGenerator.handleTokenProduction(org.javacc.parser.TokenProduction);org.javacc.jjdoc.JJDoc;0;2;1;0.9333333333333333;1.0;6;115;348
+org.javacc.jjdoc.BNFGenerator.create_output_stream();org.javacc.jjdoc.JJDocGlobals;0;2;2;0.9428571428571428;1.0;34;115;47
+org.javacc.parser.JavaCCParserTokenManager.SwitchTo(int);org.javacc.parser.TokenMgrError;0;1;1;0.9830508474576272;1.0;4;1893;59
+org.javacc.parser.LexGenCPP.DumpSkipActions();org.javacc.parser.RStringLiteral;0;0;4;1.0;1.0;45;757;908
+org.javacc.parser.JavaCCParser.StringLiteral();org.javacc.parser.Token;1;1;2;0.9982300884955753;0.9090909090909091;8;8311;31
+org.javacc.parser.RChoice.CheckUnmatchability();org.javacc.parser.JavaCCErrors;0;1;4;0.9;1.0;11;60;82
+org.javacc.parser.OptionsTest.testSetNonexistentOption();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;10;128;82
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.Lookahead;1;1;10;0.9743589743589743;0.9;58;1154;28
+org.javacc.jjtree.JJTreeParser.jjtreeCloseNodeScope(org.javacc.jjtree.Node);org.javacc.jjtree.JJTreeNode;0;1;1;0.9981981981981982;1.0;3;9644;94
+org.javacc.jjdoc.test.JJDocMainTest.testMainProgramText();org.javacc.JavaCCTestCase;2;0;2;1.0;0.0;3;17;12
+org.javacc.parser.JavaCCParser.regexpr_spec(org.javacc.parser.TokenProduction);org.javacc.parser.Action;1;8;8;0.986013986013986;0.9473684210526316;40;8311;11
+org.javacc.parser.NfaState.AddChar(char);org.javacc.parser.Main;0;4;4;0.9285714285714286;1.0;30;1797;205
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa2_0(long, long, long, long, long, long);org.javacc.jjtree.JavaCharStream;1;8;1;0.8490566037735849;0.9811320754716981;84;1827;355
+org.javacc.parser.JavaCCParser.jj_scan_token(int);org.javacc.parser.Token;1;4;2;0.9929078014184397;0.9230769230769231;26;8311;31
+org.javacc.jjtree.JJTreeParserTokenManager.jjFillToken();org.javacc.jjtree.JavaCharStream;5;1;2;0.9836065573770492;0.9;20;1827;355
+org.javacc.parser.ExpansionTest.testSequenceConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8333333333333334;7;72;31
+org.javacc.jjtree.JJTreeParser.regexpr_spec();org.javacc.jjtree.JJTJJTreeParserState;4;9;1;0.9840142095914742;0.896551724137931;54;9644;74
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.Sequence;1;1;10;0.9743589743589743;0.875;58;1154;19
+org.javacc.jjtree.JJTreeParser.complex_regular_expression_unit();org.javacc.jjtree.JJTreeNode;0;12;2;0.979381443298969;1.0;192;9644;94
+org.javacc.jjtree.CPPCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.TokenUtils;1;3;5;1.0;1.0;19;298;154
+org.javacc.parser.Semanticize.action(org.javacc.parser.Expansion);org.javacc.parser.OneOrMore;0;0;5;1.0;1.0;25;528;15
+org.javacc.parser.ParseGenCPP.start();org.javacc.parser.Options;0;0;6;1.0;1.0;433;436;393
+org.javacc.parser.RChoice.GenerateNfa(boolean);org.javacc.parser.NfaState;1;2;3;0.7777777777777778;0.9836065573770492;15;60;1797
+org.javacc.parser.JavaCCParser.bnf_production();org.javacc.parser.NormalProduction;7;14;5;0.9758620689655172;0.8372093023255813;51;8311;99
+org.javacc.jjtree.JJTreeParser.ReInit(java.io.Reader);org.javacc.jjtree.JJTJJTreeParserState;1;4;3;0.992831541218638;0.9523809523809523;10;9644;74
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.RStringLiteral;2;9;12;0.8163265306122449;0.9807692307692307;150;757;908
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa1_3(long);org.javacc.jjtree.JavaCharStream;1;2;1;0.9622641509433962;0.9787234042553191;16;1827;355
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa12_0(long, long, long, long);org.javacc.jjtree.JavaCharStream;1;5;1;0.9056603773584906;0.98;20;1827;355
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.ZeroOrOne;0;1;10;0.9743589743589743;1.0;58;1154;15
+org.javacc.parser.JavaCCParser.jj_ntk();org.javacc.parser.JavaCCParserTokenManager;1;1;2;0.99822695035461;0.9836065573770492;4;8311;1893
+org.javacc.jjtree.JJTreeParser.PackageDeclaration();org.javacc.jjtree.JJTreeGlobals;0;3;1;0.9946140035906643;1.0;8;9644;34
+org.javacc.parser.ParseEngine.phase1NewLine();org.javacc.parser.CodeGenerator;2;1;1;0.9714285714285714;0.9444444444444444;6;1154;265
+org.javacc.parser.LexGen.DumpGetNextToken();org.javacc.parser.CodeGenerator;1;0;3;1.0;0.975;212;857;265
+org.javacc.parser.RChoice.CheckUnmatchability();org.javacc.parser.Main;0;1;4;0.9;1.0;11;60;205
+org.javacc.parser.JavaCCParserTokenManager.getNextToken();org.javacc.parser.Token;0;15;3;0.7692307692307692;1.0;125;1893;31
+org.javacc.parser.JavaCCParser.regular_expr_production();org.javacc.parser.Token;3;9;5;0.9846153846153847;0.9189189189189189;89;8311;31
+org.javacc.parser.JavaCCParser.RSIGNEDSHIFT();org.javacc.parser.Token;2;2;1;0.9964726631393298;0.8461538461538461;10;8311;31
+org.javacc.utils.ConditionParserTokenManager.jjFillToken();org.javacc.utils.Token;4;1;2;0.98;0.6923076923076923;20;594;24
+org.javacc.jjtree.JJTreeNode.print(org.javacc.jjtree.IO, org.javacc.jjtree.Token);org.javacc.jjtree.IO;1;2;4;0.8181818181818181;0.9473684210526316;47;94;100
+org.javacc.jjtree.JJTreeParserDefaultVisitor.defaultVisit(java.lang.Object, org.javacc.jjtree.SimpleNode);org.javacc.jjtree.SimpleNode;1;0;1;1.0;1.0;4;130;68
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFNodeScope);org.javacc.jjtree.ASTBNFNodeScope;0;4;4;0.9615384615384616;1.0;11;331;6
+org.javacc.parser.JavaCCParser.ThrowStatement();org.javacc.parser.Token;1;4;1;0.9929203539823008;0.9285714285714286;13;8311;31
+org.javacc.jjdoc.test.JJDocMainTest.testMainProgramText();org.javacc.jjdoc.JJDocMain;0;0;2;1.0;1.0;3;17;129
+org.javacc.parser.ExpansionTest.testROneOrMoreConstructor();org.javacc.parser.ROneOrMore;0;0;3;1.0;1.0;7;72;17
+org.javacc.jjtree.JJTreeParser.local_lookahead(org.javacc.jjtree.ASTProduction);org.javacc.jjtree.Token;1;11;1;0.9816053511705686;0.9836065573770492;89;9644;31
+org.javacc.parser.ParseEngine.build(org.javacc.parser.CodeGenerator);org.javacc.parser.JavaCCErrors;0;8;7;0.8852459016393442;1.0;91;1154;82
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.JJTreeNode;0;4;5;1.0;1.0;16;331;94
+org.javacc.parser.LexGen.start();org.javacc.parser.Action;1;9;11;0.8260869565217391;0.9777777777777777;145;857;11
+org.javacc.parser.test.NfaStateTest.testDumpStatesForStateInitialised();org.javacc.parser.NfaState;0;1;2;0.9642857142857143;1.0;6;112;1797
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTCompilationUnit);org.javacc.jjtree.JJTreeGlobals;0;1;6;1.0;1.0;38;331;34
+org.javacc.parser.OutputFile.checkOptions(java.io.File, java.lang.String[]);org.javacc.parser.Options;0;0;2;1.0;1.0;21;153;393
+org.javacc.parser.ExpansionTest.testOneOrMoreConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8181818181818181;8;72;31
+org.javacc.parser.JavaCCParser.character_list(org.javacc.parser.Container);org.javacc.parser.Expansion;2;7;4;0.9878260869565217;0.935483870967742;41;8311;34
+org.javacc.parser.JavaCCParser.complex_regular_expression_unit(org.javacc.parser.Container);org.javacc.parser.RRepetitionRange;3;11;5;0.9811643835616438;0.9117647058823529;93;8311;20
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.ZeroOrMore;0;1;10;0.9743589743589743;1.0;58;1154;15
+org.javacc.parser.JavaCCParser.expansion(org.javacc.parser.Container);org.javacc.parser.Expansion;4;10;7;0.9826689774696707;0.8823529411764706;44;8311;34
+org.javacc.parser.LexGenCPP.DumpGetNextToken();org.javacc.parser.Options;0;0;4;1.0;1.0;219;757;393
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.RegExprSpec;1;9;12;0.8163265306122449;0.9791666666666666;150;757;0
+org.javacc.jjtree.JJTree.initializeOptions();org.javacc.jjtree.JJTreeOptions;0;0;2;1.0;1.0;4;151;103
+org.javacc.utils.ConditionParser.jj_ntk();org.javacc.utils.ConditionParserTokenManager;1;1;2;0.9642857142857143;0.9767441860465116;4;329;594
+org.javacc.parser.LexGenCPP.DumpMoreActions();org.javacc.parser.CodeGenerator;6;0;4;1.0;0.8421052631578947;44;757;265
+org.javacc.parser.LexGen.DumpGetNextToken();org.javacc.parser.NfaState;2;0;3;1.0;0.9666666666666667;212;857;1797
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.SimpleNode;1;4;5;0.9655172413793104;0.9565217391304348;33;331;68
+org.javacc.jjdoc.XTextGenerator.print(java.lang.String);org.javacc.jjdoc.TextGenerator;1;0;1;1.0;0.9615384615384616;3;73;111
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.Lookahead;1;7;15;0.8928571428571429;0.96875;151;1154;28
+org.javacc.jjtree.CPPCodeGenerator.insertCloseNodeAction(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;1;1;1;1.0;0.9285714285714286;5;298;100
+org.javacc.parser.LexGen.start();org.javacc.parser.RegExprSpec;1;9;11;0.8260869565217391;0.9772727272727273;145;857;0
+org.javacc.jjtree.JJTreeParser.RUNSIGNEDSHIFT();org.javacc.jjtree.Token;2;2;1;0.9964221824686941;0.8333333333333334;11;9644;31
+org.javacc.jjdoc.HTMLGenerator.productionStart(org.javacc.parser.NormalProduction);org.javacc.parser.NormalProduction;1;3;2;0.875;0.9523809523809523;11;141;99
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTLHS);org.javacc.jjtree.Token;0;0;4;1.0;1.0;10;298;31
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.JJTreeState;0;3;15;0.8695652173913043;1.0;89;151;164
+org.javacc.parser.JavaCCParser.expansion_choices(org.javacc.parser.Container);org.javacc.parser.Expansion;1;6;3;0.9894179894179894;0.9565217391304348;32;8311;34
+org.javacc.jjtree.JJTreeParser.ReInit(java.io.InputStream, java.lang.String);org.javacc.jjtree.JJTreeParserTokenManager;1;4;3;0.992831541218638;0.9827586206896551;15;9644;1827
+org.javacc.jjtree.CPPCodeGenerator.insertCatchBlocks(java.lang.String, java.util.Enumeration, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeScope;3;0;2;1.0;0.6666666666666667;12;298;53
+org.javacc.parser.NfaState.MergeMoves(org.javacc.parser.NfaState);org.javacc.parser.JavaCCErrors;0;8;1;0.8596491228070176;1.0;29;1797;82
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.IO;8;3;15;0.8695652173913043;0.7037037037037037;89;151;100
+org.javacc.parser.LexGenCPP.PrintClassHead();org.javacc.parser.CodeGenerator;9;0;5;1.0;0.7804878048780488;55;757;265
+org.javacc.parser.ParseGen.start(boolean);org.javacc.parser.Options;0;0;5;1.0;1.0;775;778;393
+org.javacc.parser.ParseEngine.generate3R(org.javacc.parser.Expansion, org.javacc.parser.Phase3Data);org.javacc.parser.Expansion;1;3;6;0.9318181818181819;0.9615384615384616;33;1154;34
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.NodeScope;1;4;5;0.9655172413793104;0.9411764705882353;33;331;53
+org.javacc.jjtree.ASTBNFAction.getScopingParent(org.javacc.jjtree.NodeScope);org.javacc.jjtree.ASTBNFNodeScope;0;0;3;1.0;1.0;15;21;6
+org.javacc.parser.JavaCCParser.getToken(int);org.javacc.parser.Token;0;1;2;0.9982238010657194;1.0;8;8311;31
+org.javacc.jjdoc.HTMLGenerator.nonTerminalStart(org.javacc.parser.NonTerminal);org.javacc.parser.NonTerminal;1;2;1;0.9166666666666666;0.8571428571428572;3;141;28
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.parser.JavaCCGlobals;1;0;4;1.0;1.0;6;331;321
+org.javacc.parser.RChoice.CompressCharLists();org.javacc.parser.RStringLiteral;1;2;3;0.875;0.9411764705882353;17;60;908
+org.javacc.jjtree.ASTNodeDescriptorExpression.translateImage(org.javacc.jjtree.Token);org.javacc.jjtree.JJTreeNode;1;0;1;1.0;0.8333333333333334;3;9;94
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa13_0(long, long);org.javacc.parser.JavaCharStream;1;5;1;0.9166666666666666;0.98;20;1893;355
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.Semanticize;0;1;10;0.9743589743589743;1.0;58;1154;528
+org.javacc.parser.OptionsTest.testIntBooleanOption();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;17;128;82
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.RegularExpression;1;21;11;0.9650582362728786;0.9848484848484849;212;8311;9
+org.javacc.parser.LexGen.DumpTokenActions();org.javacc.parser.CodeGenerator;5;0;3;1.0;0.868421052631579;51;857;265
+org.javacc.parser.LexGen.DumpTokenActions();org.javacc.parser.Action;1;0;3;1.0;0.8888888888888888;51;857;11
+org.javacc.parser.JavaCCParser.regexpr_spec(org.javacc.parser.TokenProduction);org.javacc.parser.Options;0;8;8;0.986013986013986;1.0;40;8311;393
+org.javacc.parser.RCharacterList.ToCaseNeutral();org.javacc.parser.SingleCharacter;1;1;2;0.9375;0.9090909090909091;69;211;17
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.TokenProduction;3;9;12;0.8163265306122449;0.9423076923076923;150;757;12
+org.javacc.utils.ConditionParserTokenManager.jjMoveStringLiteralDfa2_0(long, long);org.javacc.utils.JavaCharStream;1;4;1;0.9047619047619048;0.9795918367346939;19;594;355
+org.javacc.jjtree.JJTreeParser.jj_3R_84();org.javacc.jjtree.Token;2;5;1;0.9910554561717353;0.8666666666666667;9;9644;31
+org.javacc.parser.LexGenCPP.DumpSkipActions();org.javacc.parser.LexGen;0;0;4;1.0;1.0;45;757;857
+org.javacc.jjdoc.XTextGenerator.documentStart();org.javacc.jjdoc.JJDocGlobals;0;1;2;0.96;1.0;6;73;47
+org.javacc.parser.JavaCCParser.CompilationUnit();org.javacc.parser.Options;0;9;2;0.9844290657439446;1.0;49;8311;393
+org.javacc.jjtree.JJTreeParser.expansion_choices(org.javacc.jjtree.ASTProduction);org.javacc.jjtree.JJTJJTreeParserState;6;8;1;0.9857904085257548;0.8076923076923077;56;9644;74
+org.javacc.jjtree.JavaCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;2;0;6;1.0;0.9090909090909091;33;331;100
+org.javacc.utils.ConditionParserTokenManager.jjFillToken();org.javacc.utils.JavaCharStream;5;1;2;0.98;0.9;20;594;355
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.NonTerminal;0;1;10;0.9743589743589743;1.0;58;1154;28
+org.javacc.parser.NonTerminal.dump(int, java.util.Set);org.javacc.parser.Expansion;1;1;1;0.875;0.9375;4;28;34
+org.javacc.parser.OptionsTest.testNormalize();org.javacc.parser.Options;0;0;2;1.0;1.0;14;128;393
+org.javacc.jjtree.JJTreeParser.jjtreeOpenNodeScope(org.javacc.jjtree.Node);org.javacc.jjtree.JJTreeNode;0;1;1;0.9981981981981982;1.0;3;9644;94
+org.javacc.parser.JavaCCParser.regular_expression(org.javacc.parser.Container);org.javacc.parser.Expansion;2;11;5;0.9809688581314879;0.9473684210526316;77;8311;34
+org.javacc.jjtree.JJTreeParserTokenManager.jjStartNfaWithStates_0(int, int, int);org.javacc.jjtree.JavaCharStream;1;4;1;0.9245283018867925;0.9795918367346939;11;1827;355
+org.javacc.jjtree.CPPCodeGenerator.insertCloseNodeCode(boolean, java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.JJTreeOptions;0;0;4;1.0;1.0;15;298;103
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.OneOrMore;0;4;15;0.9491525423728814;1.0;245;1154;15
+org.javacc.parser.LexGenCPP.DumpSkipActions();org.javacc.parser.Action;1;0;4;1.0;0.9;45;757;11
+org.javacc.jjtree.JJTreeOptionsTest.testValidate();org.javacc.parser.Options;0;0;3;1.0;1.0;18;77;393
+org.javacc.parser.OptionsTest.testIntBooleanOption();org.javacc.parser.Options;1;0;2;1.0;1.0;17;128;393
+org.javacc.parser.ParseEngine.minimumSize(int, org.javacc.parser.Expansion);org.javacc.parser.TryBlock;0;2;7;0.975609756097561;1.0;70;1154;7
+org.javacc.jjtree.JavaCodeGenerator.insertCloseNodeCode(boolean, java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeScope;3;0;4;1.0;0.7272727272727273;16;331;53
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.NfaState;7;9;12;0.8163265306122449;0.9278350515463918;150;757;1797
+org.javacc.parser.ExpansionTest.testRJustNameConstructor();org.javacc.parser.RegularExpression;1;0;3;1.0;0.9090909090909091;6;72;9
+org.javacc.parser.ExpansionTest.testChoiceConstructor();org.javacc.parser.Expansion;2;0;3;1.0;0.8823529411764706;9;72;34
+org.javacc.parser.JavaCCParser.Name(java.util.List);org.javacc.parser.Token;0;4;1;0.9929078014184397;1.0;22;8311;31
+org.javacc.jjtree.JJTreeParser.token_manager_decls();org.javacc.jjtree.JJTJJTreeParserState;4;11;1;0.9804618117229129;0.9032258064516129;51;9644;74
+org.javacc.parser.NfaState.DumpNonAsciiMoveForCompositeState(org.javacc.parser.CodeGenerator);org.javacc.parser.Options;0;8;2;0.8769230769230769;1.0;50;1797;393
+org.javacc.jjtree.CPPCodeGenerator.getIndentation(int, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.Token;1;0;2;1.0;0.875;7;298;31
+org.javacc.jjtree.JJTreeParser.RSIGNEDSHIFT();org.javacc.jjtree.Token;2;2;1;0.9964221824686941;0.8333333333333334;10;9644;31
+org.javacc.parser.JavaCCParserTokenManager.MoreLexicalActions();org.javacc.parser.JavaCharStream;4;6;1;0.90625;0.9230769230769231;19;1893;355
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveNfa_0(int, int);org.javacc.jjtree.JavaCharStream;1;11;1;0.7924528301886793;0.9821428571428571;356;1827;355
+org.javacc.parser.JavaCCParser.identifier();org.javacc.parser.Token;1;1;1;0.99822695035461;0.9;8;8311;31
+org.javacc.utils.ConditionParserTokenManager.jjMoveStringLiteralDfa4_0(long, long);org.javacc.utils.JavaCharStream;1;4;1;0.9047619047619048;0.9795918367346939;18;594;355
+org.javacc.parser.JavaCCParser.expansion(org.javacc.parser.Container);org.javacc.parser.JavaCCErrors;0;10;7;0.9826689774696707;1.0;44;8311;82
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.NodeScope;2;3;6;1.0;0.8461538461538461;19;298;53
+org.javacc.parser.ExpansionTest.testRJustNameConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8181818181818181;6;72;31
+org.javacc.jjtree.JJTreeParser.getToken(int);org.javacc.jjtree.JJTreeParserTokenManager;1;1;2;0.9982014388489209;0.9811320754716981;8;9644;1827
+org.javacc.parser.ParseEngine.buildPhase1Routine(org.javacc.parser.BNFProduction);org.javacc.parser.NormalProduction;5;5;6;0.9122807017543859;0.8809523809523809;93;1154;99
+org.javacc.jjtree.JJTreeParser.bnf_production();org.javacc.jjtree.Token;1;17;7;0.973015873015873;0.98989898989899;242;9644;31
+org.javacc.jjtree.JJTreeParser.javacc_input();org.javacc.jjtree.JJTJJTreeParserState;4;14;5;0.9763513513513513;0.9523809523809523;167;9644;74
+org.javacc.parser.NfaState.DumpAsciiMoveForCompositeState(boolean, int, org.javacc.parser.CodeGenerator);org.javacc.parser.CodeGenerator;2;7;1;0.8888888888888888;0.9574468085106383;53;1797;265
+org.javacc.parser.LexGen.start();org.javacc.parser.TokenProduction;3;9;11;0.8260869565217391;0.9375;145;857;12
+org.javacc.jjtree.ASTBNF.toString();org.javacc.jjtree.SimpleNode;1;0;2;1.0;0.9333333333333333;3;11;68
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa6_0(long, long, long, long);org.javacc.parser.JavaCharStream;1;5;1;0.9166666666666666;0.98;53;1893;355
+org.javacc.parser.OptionsTest.testSetStringOption();org.javacc.parser.Options;1;0;2;1.0;1.0;15;128;393
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.Token;1;3;6;1.0;0.9285714285714286;19;331;31
+org.javacc.parser.test.NfaStateTest.setupState();org.javacc.parser.LexGen;1;1;5;0.9642857142857143;0.9166666666666666;9;112;857
+org.javacc.parser.ParseGen.start(boolean);org.javacc.parser.Token;1;0;5;1.0;0.9565217391304348;775;778;31
+org.javacc.jjdoc.XTextGenerator.documentStart();org.javacc.jjdoc.TextGenerator;2;1;2;0.96;0.9230769230769231;6;73;111
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.ASTExpansionNodeScope;0;4;5;0.962962962962963;1.0;10;298;6
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.Options;0;7;15;0.8928571428571429;1.0;151;1154;393
+org.javacc.parser.RCharacterList.GenerateNfa(boolean);org.javacc.parser.NfaState;2;6;6;0.6;0.9701492537313433;29;211;1797
+org.javacc.jjtree.CPPCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.Token;0;3;5;1.0;1.0;19;298;31
+org.javacc.parser.LexGen.start();org.javacc.parser.RChoice;1;9;11;0.8260869565217391;0.9791666666666666;145;857;60
+org.javacc.jjtree.JJTreeParser.regular_expr_production();org.javacc.jjtree.JJTJJTreeParserState;4;10;1;0.9825174825174825;0.9230769230769231;100;9644;74
+org.javacc.parser.ExpansionTest.testChoiceConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8333333333333334;9;72;31
+org.javacc.parser.RStringLiteral.GenerateDfa(int, org.javacc.parser.CodeGenerator);org.javacc.parser.Main;0;1;7;0.95;1.0;40;908;205
+org.javacc.parser.ParseEngine.generateCPPMethodheader(org.javacc.parser.BNFProduction, org.javacc.parser.Token);org.javacc.parser.NormalProduction;4;1;3;0.9811320754716981;0.8857142857142857;41;1154;99
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFNodeScope);org.javacc.jjtree.ASTBNFNodeScope;0;4;4;0.9615384615384616;1.0;11;298;6
+org.javacc.parser.ExpansionTest.testRStringLiteralConstructor();org.javacc.parser.RStringLiteral;1;0;3;1.0;0.8888888888888888;6;72;908
+org.javacc.parser.RStringLiteral.GenerateNfa(boolean);org.javacc.parser.RCharacterList;1;1;3;0.9166666666666666;0.9333333333333333;23;908;211
+org.javacc.parser.RSequence.GenerateNfa(boolean);org.javacc.parser.Nfa;0;1;3;0.8333333333333334;1.0;20;26;8
+org.javacc.parser.RStringLiteral.GenerateDfa(int, org.javacc.parser.CodeGenerator);org.javacc.parser.LexGen;0;1;7;0.95;1.0;40;908;857
+org.javacc.parser.OutputFile.checkVersion(java.io.File, java.lang.String);org.javacc.parser.JavaCCErrors;0;1;2;0.9545454545454546;1.0;22;153;82
+org.javacc.parser.JavaCCParser.option_binding();org.javacc.parser.Options;1;9;2;0.9843478260869565;1.0;50;8311;393
+org.javacc.parser.ParseEngine.generate3R(org.javacc.parser.Expansion, org.javacc.parser.Phase3Data);org.javacc.parser.Sequence;1;3;6;0.9318181818181819;0.9333333333333333;33;1154;19
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa11_0(long, long, long, long);org.javacc.jjtree.JavaCharStream;1;5;1;0.9056603773584906;0.98;23;1827;355
+org.javacc.parser.ParseEngine.buildPhase1Routine(org.javacc.parser.BNFProduction);org.javacc.parser.JavaCCGlobals;0;5;6;0.9122807017543859;1.0;93;1154;321
+org.javacc.parser.JavaCCParser.javacc_input();org.javacc.parser.Options;0;14;4;0.9761904761904762;1.0;58;8311;393
+org.javacc.parser.test.NfaStateTest.testDumpMoveNfa();org.javacc.parser.CodeGenerator;1;0;2;1.0;0.9714285714285714;11;112;265
+org.javacc.parser.CodeGenerator.getStringForTokenOnly(org.javacc.parser.Token);org.javacc.parser.Token;6;2;1;0.9555555555555556;0.5714285714285714;22;265;31
+org.javacc.parser.RZeroOrOne.GenerateNfa(boolean);org.javacc.parser.Nfa;0;0;3;1.0;1.0;10;10;8
+org.javacc.parser.NfaState.DumpNonAsciiMoveMethod(org.javacc.parser.CodeGenerator);org.javacc.parser.Main;0;3;4;0.9523809523809523;1.0;37;1797;205
+org.javacc.parser.RChoice.GenerateNfa(boolean);org.javacc.parser.RegularExpression;1;2;3;0.7777777777777778;1.0;15;60;9
+org.javacc.utils.ConditionParserTokenManager.SwitchTo(int);org.javacc.utils.TokenMgrError;0;1;1;0.975609756097561;1.0;4;594;59
+org.javacc.parser.test.NfaStateTest.testDumpNonAsciiMoveMethods();org.javacc.parser.NfaState;0;0;2;1.0;1.0;5;112;1797
+org.javacc.parser.ParseEngine.minimumSize(int, org.javacc.parser.Expansion);org.javacc.parser.NormalProduction;0;2;7;0.975609756097561;1.0;70;1154;99
+org.javacc.jjtree.JJTreeParser.complex_regular_expression();org.javacc.jjtree.JJTJJTreeParserState;5;7;1;0.9876325088339223;0.8620689655172413;51;9644;74
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.ASTJavacodeBody;0;4;5;1.0;1.0;16;331;6
+org.javacc.parser.ROneOrMore.GenerateNfa(boolean);org.javacc.parser.NfaState;1;0;3;1.0;0.9824561403508771;10;17;1797
+org.javacc.parser.ExpansionTest.testRStringLiteralConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8181818181818181;6;72;31
+org.javacc.parser.LexGen.DumpGetNextToken();org.javacc.parser.Options;0;0;3;1.0;1.0;212;857;393
+org.javacc.utils.ConditionParser.getToken(int);org.javacc.utils.ConditionParserTokenManager;1;0;2;1.0;0.975609756097561;8;329;594
+org.javacc.parser.NfaState.AddRange(char, char);org.javacc.parser.JavaCCErrors;0;3;4;0.9464285714285714;1.0;36;1797;82
+org.javacc.parser.JavaCCParser.JavaIdentifier();org.javacc.parser.Token;1;6;1;0.9895652173913043;0.9615384615384616;50;8311;31
+org.javacc.parser.JavaCCParser.character_descriptor(org.javacc.parser.Container);org.javacc.parser.Token;2;7;5;0.9878260869565217;0.9230769230769231;34;8311;31
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa6_0(long, long, long, long, long, long);org.javacc.jjtree.JavaCharStream;1;5;1;0.9056603773584906;0.98;53;1827;355
+org.javacc.parser.JavaCCParser.jj_scan_token(int);org.javacc.parser.JavaCCParserTokenManager;1;4;2;0.9929078014184397;0.984375;26;8311;1893
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa3_0(long, long, long, long, long, long);org.javacc.jjtree.JavaCharStream;1;6;1;0.8867924528301887;0.9803921568627451;79;1827;355
+org.javacc.parser.LexGenCPP.DumpMoreActions();org.javacc.parser.Action;1;0;4;1.0;0.9;44;757;11
+org.javacc.parser.LexGenCPP.PrintClassHead();org.javacc.parser.LexGen;0;0;5;1.0;1.0;55;757;857
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.NonTerminal;1;7;15;0.8928571428571429;0.9696969696969697;151;1154;28
+org.javacc.jjtree.JJTreeOptionsTest.testValidate();org.javacc.jjtree.JJTreeOptions;0;0;3;1.0;1.0;18;77;103
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.IO;1;4;5;0.9655172413793104;0.9545454545454546;33;331;100
+org.javacc.parser.JavaCCParser.javacc_input();org.javacc.parser.Token;1;14;4;0.9761904761904762;0.9787234042553191;58;8311;31
+org.javacc.parser.JavaCCParser.javacc_input();org.javacc.parser.JavaCCParserInternals;1;14;4;0.9761904761904762;1.0;58;8311;263
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFNodeScope);org.javacc.jjtree.NodeScope;1;4;4;0.9615384615384616;0.9285714285714286;11;331;53
+org.javacc.jjtree.JJTreeParser.javacode_production();org.javacc.jjtree.ASTJavacodeBody;0;18;6;0.9713831478537361;1.0;202;9644;6
+org.javacc.parser.LexGen.DumpTokenActions();org.javacc.parser.RStringLiteral;0;0;3;1.0;1.0;51;857;908
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.Token;4;21;11;0.9650582362728786;0.9375;212;8311;31
+org.javacc.parser.JavaCCParser.regexpr_spec(org.javacc.parser.TokenProduction);org.javacc.parser.JavaCCErrors;0;8;8;0.986013986013986;1.0;40;8311;82
+org.javacc.jjtree.JJTreeParser.JavaIdentifier();org.javacc.jjtree.Token;1;5;1;0.9911971830985915;0.96;48;9644;31
+org.javacc.parser.test.NfaStateTest.setupState();org.javacc.parser.JavaCCParser;1;1;5;0.9642857142857143;0.99822695035461;9;112;8311
+org.javacc.parser.ParseEngine.dumpLookaheads(java.lang.String[], org.javacc.parser.Lookahead[]);org.javacc.parser.Lookahead;1;0;1;1.0;0.875;7;1154;28
+org.javacc.jjdoc.HTMLGenerator.nonterminalsStart();org.javacc.jjdoc.JJDocOptions;0;1;1;0.9565217391304348;1.0;6;141;30
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.IO;1;3;6;1.0;0.9473684210526316;19;331;100
+org.javacc.parser.Semanticize.action(org.javacc.parser.Expansion);org.javacc.parser.ZeroOrOne;0;0;5;1.0;1.0;25;528;15
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.Action;1;9;12;0.8163265306122449;0.9795918367346939;150;757;11
+org.javacc.parser.test.NfaStateTest.setupState();org.javacc.parser.Options;0;1;5;0.9642857142857143;1.0;9;112;393
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa1_0(long, long, long);org.javacc.jjtree.JavaCharStream;1;8;1;0.8490566037735849;0.9811320754716981;109;1827;355
+org.javacc.jjtree.CPPCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeScope;3;0;6;1.0;0.8;33;298;53
+org.javacc.jjtree.JJTreeParserTokenManager.MoreLexicalActions();org.javacc.jjtree.JavaCharStream;2;5;1;0.9090909090909091;0.9607843137254902;13;1827;355
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa1_4(long);org.javacc.parser.JavaCharStream;1;2;1;0.9666666666666667;0.9787234042553191;16;1893;355
+org.javacc.parser.JavaCCParserTokenManager.getNextToken();org.javacc.parser.JavaCharStream;6;15;3;0.7692307692307692;0.9;125;1893;355
+org.javacc.parser.LexGen.DumpSkipActions();org.javacc.parser.Action;1;0;3;1.0;0.8888888888888888;45;857;11
+org.javacc.parser.ParseEngine.generate3R(org.javacc.parser.Expansion, org.javacc.parser.Phase3Data);org.javacc.parser.NormalProduction;0;3;6;0.9318181818181819;1.0;33;1154;99
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.jjtree.SimpleNode;1;0;5;1.0;1.0;6;298;68
+org.javacc.jjtree.JJTreeParser.option_binding();org.javacc.jjtree.JJTJJTreeParserState;4;10;5;0.9826086956521739;0.9285714285714286;80;9644;74
+org.javacc.parser.NfaState.AddChar(char);org.javacc.parser.JavaCCErrors;0;4;4;0.9285714285714286;1.0;30;1797;82
+org.javacc.jjtree.JJTreeParser.bnf_production();org.javacc.jjtree.ASTBNF;0;17;7;0.973015873015873;1.0;242;9644;11
+org.javacc.parser.OptionsTest.testOptionsString();org.javacc.parser.Options;0;0;2;1.0;1.0;9;128;393
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.SimpleNode;3;0;3;1.0;0.875;25;331;68
+org.javacc.parser.ParseEngine.build(org.javacc.parser.CodeGenerator);org.javacc.parser.CodeGenerator;10;8;7;0.8852459016393442;0.8333333333333334;91;1154;265
+org.javacc.utils.ConditionParser.Name();org.javacc.utils.Token;1;3;1;0.9090909090909091;0.9375;21;329;24
+org.javacc.parser.JavaCCParser.option_binding();org.javacc.parser.Token;1;9;2;0.9843478260869565;0.9655172413793104;50;8311;31
+org.javacc.jjdoc.XTextGenerator.handleTokenProduction(org.javacc.parser.TokenProduction);org.javacc.parser.TokenProduction;1;0;4;1.0;0.9166666666666666;12;73;12
+org.javacc.jjtree.JavaCodeGenerator.insertOpenNodeAction(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;1;1;1;1.0;0.9285714285714286;5;331;100
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.parser.Main;0;3;15;0.8695652173913043;1.0;89;151;205
+org.javacc.jjtree.JJTreeParser.bnf_production();org.javacc.jjtree.ASTProduction;2;17;7;0.973015873015873;0.9791666666666666;242;9644;14
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTLHS);org.javacc.jjtree.NodeScope;1;0;4;1.0;0.8888888888888888;10;298;53
+org.javacc.parser.JavaCCParser.character_list(org.javacc.parser.Container);org.javacc.parser.Container;1;7;4;0.9878260869565217;0.95;41;8311;0
+org.javacc.parser.ExpansionTest.testZeroOrOneConstructor();org.javacc.parser.ZeroOrOne;0;0;3;1.0;1.0;7;72;15
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.JJTreeNode;0;3;6;1.0;1.0;19;298;94
+org.javacc.parser.JavaCCParser.complex_regular_expression_choices(org.javacc.parser.Container);org.javacc.parser.Container;1;6;3;0.9894366197183099;0.9166666666666666;32;8311;0
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.NormalProduction;1;7;15;0.8928571428571429;0.9782608695652174;151;1154;99
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.Phase3Data;1;7;15;0.8928571428571429;0.9655172413793104;151;1154;4
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.NodeScope;2;4;5;1.0;0.8571428571428572;16;298;53
+org.javacc.parser.CodeGenerator.isJavaLanguage();org.javacc.parser.Options;0;0;1;1.0;1.0;3;265;393
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.Token;1;4;5;1.0;0.9333333333333333;16;298;31
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.Expansion;2;7;15;0.8928571428571429;0.95;151;1154;34
+org.javacc.jjtree.JJTreeParser.javacc_options();org.javacc.parser.Options;0;9;3;0.9841549295774648;1.0;59;9644;393
+org.javacc.parser.NfaState.DumpNonAsciiMove(boolean[], org.javacc.parser.CodeGenerator);org.javacc.parser.Options;0;9;2;0.8636363636363636;1.0;74;1797;393
+org.javacc.jjtree.JJTreeParser.PrimaryExpression();org.javacc.jjtree.JJTJJTreeParserState;4;5;1;0.9910714285714286;0.8636363636363636;46;9644;74
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.Sequence;1;7;15;0.8928571428571429;0.9666666666666667;151;1154;19
+org.javacc.utils.ConditionParser.ReInit(java.io.Reader);org.javacc.utils.JavaCharStream;1;3;2;0.8928571428571429;1.0;8;329;355
+org.javacc.jjtree.JJTreeParser.option_binding();org.javacc.jjtree.Token;1;10;5;0.9826086956521739;0.972972972972973;80;9644;31
+org.javacc.jjtree.JJTree.initializeOptions();org.javacc.jjtree.JJTreeGlobals;0;0;2;1.0;1.0;4;151;34
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.jjtree.JJTreeGlobals;0;0;5;1.0;1.0;6;298;34
+org.javacc.parser.ExpansionTest.testROneOrMoreConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8;7;72;31
+org.javacc.jjtree.JJTreeParser.jj_3R_85();org.javacc.jjtree.Token;2;5;1;0.9910554561717353;0.8666666666666667;10;9644;31
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.CPPNodeFiles;0;3;15;0.8695652173913043;1.0;89;151;308
+org.javacc.parser.ParseEngine.build(org.javacc.parser.CodeGenerator);org.javacc.parser.NormalProduction;5;8;7;0.8852459016393442;0.8958333333333334;91;1154;99
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.SimpleNode;1;4;5;0.962962962962963;0.9523809523809523;10;298;68
+org.javacc.parser.OptionsTest.testDefaults();org.javacc.parser.Options;0;0;2;1.0;1.0;35;128;393
+org.javacc.jjtree.JJTreeParser.jj_ntk();org.javacc.jjtree.Token;1;1;2;0.9982046678635548;0.9;4;9644;31
+org.javacc.jjtree.JJTreeOptionsTest.testNodeClass();org.javacc.jjtree.JJTreeOptions;0;0;2;1.0;1.0;7;77;103
+org.javacc.jjtree.JavaCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.ASTProduction;1;3;5;1.0;0.9375;19;331;14
+org.javacc.jjtree.NodeScope.isVoid();org.javacc.jjtree.ASTNodeDescriptor;1;0;1;1.0;0.9285714285714286;3;53;92
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.TryBlock;0;3;9;0.9230769230769231;1.0;48;1154;7
+org.javacc.parser.RCharacterList.SortDescriptors();org.javacc.parser.SingleCharacter;1;1;2;0.9375;0.9090909090909091;59;211;17
+org.javacc.parser.ParseEngine.build(org.javacc.parser.CodeGenerator);org.javacc.parser.JavaCCGlobals;0;8;7;0.8852459016393442;1.0;91;1154;321
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.IO;1;4;5;0.962962962962963;0.95;10;331;100
+org.javacc.jjtree.JJTreeParserTokenManager.TokenLexicalActions(org.javacc.jjtree.Token);org.javacc.jjtree.Token;3;3;2;0.9508196721311475;0.8235294117647058;24;1827;31
+org.javacc.parser.OptionsTest.testSetNonexistentOption();org.javacc.parser.Options;1;0;2;1.0;1.0;10;128;393
+org.javacc.jjtree.CPPCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.ASTNodeDescriptor;3;0;6;1.0;0.8571428571428572;33;298;92
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.NodeScope;0;4;5;0.962962962962963;1.0;10;331;53
+org.javacc.utils.ConditionParserTokenManager.MoreLexicalActions();org.javacc.utils.JavaCharStream;2;5;1;0.8863636363636364;0.9607843137254902;13;594;355
+org.javacc.parser.ExpansionTest.testRZeroOrMoreConstructor();org.javacc.parser.RZeroOrMore;0;0;3;1.0;1.0;7;72;18
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa1_2(long);org.javacc.jjtree.JavaCharStream;1;2;1;0.9622641509433962;0.9787234042553191;16;1827;355
+org.javacc.jjdoc.TextGenerator.productionStart(org.javacc.parser.NormalProduction);org.javacc.parser.NormalProduction;1;1;1;0.962962962962963;0.95;3;111;99
+org.javacc.parser.LexGenCPP.dumpBoilerPlateInHeader();org.javacc.parser.Options;0;0;3;1.0;1.0;14;757;393
+org.javacc.parser.CodeGenerator.printTokenSetup(org.javacc.parser.Token);org.javacc.parser.Token;2;2;1;0.9459459459459459;0.8;8;265;31
+org.javacc.parser.ParseEngine.generateCPPMethodheader(org.javacc.parser.BNFProduction, org.javacc.parser.Token);org.javacc.parser.CodeGenerator;5;1;3;0.9811320754716981;0.9019607843137255;41;1154;265
+org.javacc.parser.RRepetitionRange.GenerateNfa(boolean);org.javacc.parser.RZeroOrMore;0;3;3;0.5;1.0;20;20;18
+org.javacc.jjtree.JJTreeParser.node_descriptor_expression();org.javacc.jjtree.JJTJJTreeParserState;2;4;2;0.9928698752228164;0.9583333333333334;28;9644;74
+org.javacc.parser.JavaCCParser.regular_expression(org.javacc.parser.Container);org.javacc.parser.RSequence;1;11;5;0.9809688581314879;0.9642857142857143;77;8311;26
+org.javacc.parser.ParseEngine.generate3R(org.javacc.parser.Expansion, org.javacc.parser.Phase3Data);org.javacc.parser.RegularExpression;1;3;6;0.9318181818181819;0.95;33;1154;9
+org.javacc.parser.NfaState.DumpNonAsciiMoveMethod(org.javacc.parser.CodeGenerator);org.javacc.parser.CodeGenerator;3;3;4;0.9523809523809523;0.9285714285714286;37;1797;265
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.OneOrMore;0;1;10;0.9743589743589743;1.0;58;1154;15
+org.javacc.parser.JavaCCParser.regexpr_spec(org.javacc.parser.TokenProduction);org.javacc.parser.Container;1;8;8;0.986013986013986;0.9444444444444444;40;8311;0
+org.javacc.parser.test.NfaStateTest.testDumpMoveNfa();org.javacc.parser.NfaState;0;0;2;1.0;1.0;11;112;1797
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.IO;1;4;5;0.9655172413793104;0.9545454545454546;33;298;100
+org.javacc.parser.ExpansionTest.testOneOrMoreConstructor();org.javacc.parser.OneOrMore;0;0;3;1.0;1.0;8;72;15
+org.javacc.parser.JavaCCParser.complex_regular_expression(org.javacc.parser.Container);org.javacc.parser.Container;1;5;3;0.9912587412587412;0.9333333333333333;37;8311;0
+org.javacc.jjtree.IO.setOutput();org.javacc.jjtree.JJTreeOptions;0;4;2;0.7142857142857143;1.0;11;100;103
+org.javacc.parser.OptionsTest.testSetWrongTypeForOption();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;11;128;82
+org.javacc.parser.test.NfaStateTest.testDumpStateSetsInitialised();org.javacc.parser.NfaState;0;1;2;0.9642857142857143;1.0;6;112;1797
+org.javacc.jjdoc.HTMLGenerator.documentStart();org.javacc.jjdoc.JJDocOptions;0;1;3;0.9615384615384616;1.0;18;141;30
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTLHS);org.javacc.jjtree.JJTreeNode;0;0;4;1.0;1.0;10;298;94
+org.javacc.parser.JavaCCParserTokenManager.jjMoveNfa_2(int, int);org.javacc.parser.JavaCharStream;1;7;1;0.8833333333333333;0.9807692307692307;69;1893;355
+org.javacc.parser.test.NfaStateTest.testDumpNonAsciiMoveMethods();org.javacc.parser.CodeGenerator;1;0;2;1.0;0.9714285714285714;5;112;265
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.ASTExpansionNodeScope;0;4;5;0.962962962962963;1.0;10;331;6
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.RChoice;1;9;12;0.8163265306122449;0.9807692307692307;150;757;60
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTCompilationUnit);org.javacc.jjtree.JJTreeState;0;1;6;1.0;1.0;38;331;164
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.NonTerminal;3;4;15;0.9491525423728814;0.9032258064516129;245;1154;28
+org.javacc.jjtree.ASTGrammar.generate(org.javacc.jjtree.IO);org.javacc.parser.Options;0;0;4;1.0;1.0;13;19;393
+org.javacc.jjtree.JJTreeOptionsTest.testNodeFactory();org.javacc.parser.Options;1;0;3;1.0;1.0;18;77;393
+org.javacc.parser.OptionsTest.testDefaults();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;35;128;82
+org.javacc.parser.ParseGenCPP.start();org.javacc.parser.JavaCCErrors;0;0;6;1.0;1.0;433;436;82
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.ZeroOrOne;0;3;11;0.9230769230769231;1.0;54;1154;15
+org.javacc.parser.LexGenCPP.dumpBoilerPlateInHeader();org.javacc.parser.CodeGenerator;2;0;3;1.0;0.9428571428571428;14;757;265
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.JJTreeNode;1;0;3;1.0;1.0;25;331;94
+org.javacc.parser.Choice.dump(int, java.util.Set);org.javacc.parser.Expansion;1;1;1;0.9;0.9523809523809523;10;27;34
+org.javacc.jjtree.CPPCodeGenerator.getIndentation(int, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.JJTreeNode;0;0;2;1.0;1.0;7;298;94
+org.javacc.parser.RRepetitionRange.GenerateNfa(boolean);org.javacc.parser.RZeroOrOne;0;3;3;0.5;1.0;20;20;10
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.ASTBNFAction;1;4;5;0.9655172413793104;0.9090909090909091;33;331;21
+org.javacc.jjtree.ASTNodeDescriptor.expression_text();org.javacc.jjtree.Token;1;0;2;1.0;0.8888888888888888;15;92;31
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTLHS);org.javacc.jjtree.TokenUtils;1;0;4;1.0;1.0;10;331;154
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.TokenUtils;0;3;6;1.0;1.0;19;331;154
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa3_0(long, long, long, long, long, long);org.javacc.parser.JavaCharStream;1;6;1;0.9;0.9803921568627451;79;1893;355
+org.javacc.parser.JavaCCParser.jj_3R_93();org.javacc.parser.Token;2;5;1;0.9911816578483246;0.875;10;8311;31
+org.javacc.parser.JavaCCParserTokenManager.restoreBeginLineCol();org.javacc.parser.JavaCharStream;1;3;1;0.9838709677419355;0.9791666666666666;4;1893;355
+org.javacc.parser.JavaCCParser.complex_regular_expression_choices(org.javacc.parser.Container);org.javacc.parser.Expansion;2;6;3;0.9894366197183099;0.9130434782608696;32;8311;34
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.ZeroOrOne;0;3;9;0.9230769230769231;1.0;48;1154;15
+org.javacc.parser.JavaCCParser.expansion(org.javacc.parser.Container);org.javacc.parser.Token;2;10;7;0.9826689774696707;0.935483870967742;44;8311;31
+org.javacc.parser.LexGen.start();org.javacc.parser.JavaCCErrors;0;9;11;0.8260869565217391;1.0;145;857;82
+org.javacc.parser.JavaCCParser.regular_expr_production();org.javacc.parser.JavaCCParserInternals;0;9;5;0.9846153846153847;1.0;89;8311;263
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.Choice;1;4;15;0.9491525423728814;0.9666666666666667;245;1154;27
+org.javacc.parser.ExpansionTest.testZeroOrMoreConstructor();org.javacc.parser.ZeroOrMore;0;0;3;1.0;1.0;7;72;15
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.Phase3Data;1;3;9;0.9230769230769231;0.8888888888888888;48;1154;4
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.ASTNodeDescriptor;2;4;5;0.962962962962963;0.9523809523809523;10;331;92
+org.javacc.jjtree.JavaCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.Token;0;3;5;1.0;1.0;19;331;31
+org.javacc.jjtree.JJTreeParser.complex_regular_expression_unit();org.javacc.jjtree.JJTJJTreeParserState;6;12;2;0.979381443298969;0.92;192;9644;74
+org.javacc.utils.ConditionParser.getToken(int);org.javacc.utils.Token;0;0;2;1.0;1.0;8;329;24
+org.javacc.jjdoc.XTextGenerator.handleTokenProduction(org.javacc.parser.TokenProduction);org.javacc.parser.RegExprSpec;0;0;4;1.0;1.0;12;73;0
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.IO;1;3;6;1.0;0.9473684210526316;19;298;100
+org.javacc.parser.Semanticize.action(org.javacc.parser.Expansion);org.javacc.parser.ZeroOrMore;0;0;5;1.0;1.0;25;528;15
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.JJTreeParser;1;3;15;0.8695652173913043;0.9982638888888888;89;151;9644
+org.javacc.parser.LexGen.start();org.javacc.parser.NfaState;7;9;11;0.8260869565217391;0.9247311827956989;145;857;1797
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.JJTreeOptions;0;3;15;0.8695652173913043;1.0;89;151;103
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.Lookahead;1;3;11;0.9230769230769231;0.9166666666666666;54;1154;28
+org.javacc.jjtree.JavaCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.parser.Options;0;0;6;1.0;1.0;33;331;393
+org.javacc.jjtree.ASTBNFAction.getScopingParent(org.javacc.jjtree.NodeScope);org.javacc.jjtree.SimpleNode;1;0;3;1.0;0.9333333333333333;15;21;68
+org.javacc.parser.JavaCCParser.ReInit(java.io.InputStream, java.lang.String);org.javacc.parser.JavaCCParserTokenManager;1;4;2;0.9929078014184397;0.984375;14;8311;1893
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.Choice;1;21;11;0.9650582362728786;0.9836065573770492;212;8311;27
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.CodeGenerator;5;9;12;0.8163265306122449;0.9358974358974359;150;757;265
+org.javacc.parser.JavaCCParserTokenManager.getNextToken();org.javacc.parser.TokenMgrError;0;15;3;0.7692307692307692;1.0;125;1893;59
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.NonTerminal;3;21;11;0.9650582362728786;0.9516129032258065;212;8311;28
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.Sequence;1;4;15;0.9491525423728814;0.9666666666666667;245;1154;19
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa10_0(long, long, long, long);org.javacc.jjtree.JavaCharStream;1;5;1;0.9056603773584906;0.98;26;1827;355
+org.javacc.jjtree.JJTreeOptionsTest.testNodeFactory();org.javacc.parser.JavaCCErrors;0;0;3;1.0;1.0;18;77;82
+org.javacc.parser.ParseEngine.buildPhase1Routine(org.javacc.parser.BNFProduction);org.javacc.parser.CodeGenerator;7;5;6;0.9122807017543859;0.8771929824561404;93;1154;265
+org.javacc.jjtree.JJTreeParser.ReInit(java.io.Reader);org.javacc.jjtree.JavaCharStream;1;4;3;0.992831541218638;1.0;10;9644;355
+org.javacc.parser.ParseEngine.build(org.javacc.parser.CodeGenerator);org.javacc.parser.JavaCodeProduction;1;8;7;0.8852459016393442;0.9714285714285714;91;1154;3
+org.javacc.jjtree.IO.setInput(java.lang.String);org.javacc.parser.Options;0;2;2;0.8823529411764706;1.0;28;100;393
+org.javacc.parser.ParseEngine.buildPhase1Routine(org.javacc.parser.BNFProduction);org.javacc.parser.BNFProduction;2;5;6;0.9122807017543859;0.9310344827586207;93;1154;9
+org.javacc.parser.JavaCCParser.character_descriptor(org.javacc.parser.Container);org.javacc.parser.Container;1;7;5;0.9878260869565217;0.95;34;8311;0
+org.javacc.parser.ExpansionTest.testZeroOrMoreConstructor();org.javacc.parser.Expansion;3;0;3;1.0;0.8;7;72;34
+org.javacc.parser.LexGenCPP.PrintClassHead();org.javacc.parser.Token;2;0;5;1.0;0.9047619047619048;55;757;31
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.RegularExpression;2;7;15;0.8928571428571429;0.9411764705882353;151;1154;9
+org.javacc.jjtree.JavaCodeGenerator.insertCatchBlocks(java.lang.String, java.util.Enumeration, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeScope;4;0;2;1.0;0.6363636363636364;21;331;53
+org.javacc.parser.ExpansionTest.testSequenceConstructor();org.javacc.parser.Sequence;1;0;3;1.0;0.8571428571428572;7;72;19
+org.javacc.parser.test.NfaStateTest.testDumpStatesForKindInitialised();org.javacc.parser.CodeGenerator;1;1;2;0.9642857142857143;0.972972972972973;6;112;265
+org.javacc.parser.JavaCCParser.local_lookahead();org.javacc.parser.Container;1;12;4;0.9804560260586319;0.984375;113;8311;0
+org.javacc.parser.LexGen.DumpFillToken();org.javacc.parser.CodeGenerator;1;0;3;1.0;0.9722222222222222;69;857;265
+org.javacc.parser.JavaCCParser.regular_expr_production();org.javacc.parser.Options;0;9;5;0.9846153846153847;1.0;89;8311;393
+org.javacc.parser.NfaState.GenerateNonAsciiMoves(org.javacc.parser.CodeGenerator);org.javacc.parser.CodeGenerator;4;5;2;0.9253731343283582;0.9148936170212766;110;1797;265
+org.javacc.parser.test.NfaStateTest.setUp();org.javacc.parser.Options;0;0;2;1.0;1.0;5;112;393
+org.javacc.parser.ParseEngine.buildPhase1Routine(org.javacc.parser.BNFProduction);org.javacc.parser.Token;4;5;6;0.9122807017543859;0.8787878787878788;93;1154;31
+org.javacc.jjtree.ASTNodeDescriptor.expression_text();org.javacc.jjtree.JJTreeNode;0;0;2;1.0;1.0;15;92;94
+org.javacc.parser.JavaCCParser.complex_regular_expression_unit(org.javacc.parser.Container);org.javacc.parser.Container;1;11;5;0.9811643835616438;0.9696969696969697;93;8311;0
+org.javacc.jjtree.JJTreeNode.print(org.javacc.jjtree.IO, org.javacc.jjtree.Token);org.javacc.jjtree.Token;1;2;4;0.8181818181818181;0.9285714285714286;47;94;31
+org.javacc.parser.JavaCCParser.regexpr_spec(org.javacc.parser.TokenProduction);org.javacc.parser.Token;1;8;8;0.986013986013986;0.96;40;8311;31
+org.javacc.utils.ConditionParserTokenManager.jjMoveNfa_1(int, int);org.javacc.utils.JavaCharStream;1;7;1;0.8333333333333334;0.9807692307692307;69;594;355
+org.javacc.jjtree.CPPCodeGenerator.insertCloseNodeCode(boolean, java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.ASTNodeDescriptor;1;0;4;1.0;0.9444444444444444;15;298;92
+org.javacc.jjtree.JavaCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.JJTreeOptions;0;0;6;1.0;1.0;33;331;103
+org.javacc.jjtree.JJTreeOptionsTest.testNodeClass();org.javacc.parser.JavaCCErrors;0;0;2;1.0;1.0;7;77;82
+org.javacc.jjtree.JJTreeParser.javacc_input();org.javacc.jjtree.JJTreeGlobals;0;14;5;0.9763513513513513;1.0;167;9644;34
+org.javacc.parser.JavaCCParser.notTailOfExpansionUnit();org.javacc.parser.Token;1;1;1;0.9982394366197183;0.9285714285714286;6;8311;31
+org.javacc.parser.JavaCCParser.AccessModifier(org.javacc.parser.NormalProduction);org.javacc.parser.Token;1;5;2;0.9911816578483246;0.9411764705882353;30;8311;31
+org.javacc.parser.ParseEngine.buildPhase2Routine(org.javacc.parser.Lookahead);org.javacc.parser.Expansion;1;3;4;0.925;0.9545454545454546;27;1154;34
+org.javacc.parser.LexGen.DumpMoreActions();org.javacc.parser.RStringLiteral;0;0;3;1.0;1.0;44;857;908
+org.javacc.parser.RChoice.CompressChoices();org.javacc.parser.RJustName;0;1;1;0.8888888888888888;1.0;11;60;10
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.Token;0;0;3;1.0;1.0;25;298;31
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa13_0(long, long);org.javacc.jjtree.JavaCharStream;1;4;1;0.9245283018867925;0.9795918367346939;17;1827;355
+org.javacc.parser.LexGen.DumpSkipActions();org.javacc.parser.RStringLiteral;0;0;3;1.0;1.0;45;857;908
+org.javacc.jjtree.CPPCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;2;0;6;1.0;0.9047619047619048;33;298;100
+org.javacc.jjdoc.HTMLGenerator.documentStart();org.javacc.jjdoc.TextGenerator;2;1;3;0.9615384615384616;0.9259259259259259;18;141;111
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa9_0(long, long, long, long);org.javacc.jjtree.JavaCharStream;1;5;1;0.9056603773584906;0.98;34;1827;355
+org.javacc.parser.LexGenCPP.DumpFillToken();org.javacc.parser.CodeGenerator;3;0;4;1.0;0.9166666666666666;76;757;265
+org.javacc.parser.NfaState.DumpNonAsciiMoveForCompositeState(org.javacc.parser.CodeGenerator);org.javacc.parser.CodeGenerator;2;8;2;0.8769230769230769;0.96;50;1797;265
+org.javacc.jjtree.JJTreeParser.getToken(int);org.javacc.jjtree.Token;0;1;2;0.9982014388489209;1.0;8;9644;31
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.JJTreeNode;0;3;6;1.0;1.0;19;331;94
+org.javacc.jjtree.CPPCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.JJTreeOptions;0;0;6;1.0;1.0;33;298;103
+org.javacc.parser.JavaCCParser.complex_regular_expression(org.javacc.parser.Container);org.javacc.parser.RSequence;1;5;3;0.9912587412587412;0.9375;37;8311;26
+org.javacc.jjtree.JJTreeParserTokenManager.getNextToken();org.javacc.jjtree.Token;0;14;3;0.7586206896551724;1.0;107;1827;31
+org.javacc.parser.ParseEngine.javaCodeCheck(org.javacc.parser.Expansion);org.javacc.parser.NormalProduction;0;1;10;0.9743589743589743;1.0;58;1154;99
+org.javacc.parser.RCharacterList.RemoveNegation();org.javacc.parser.SingleCharacter;1;3;4;0.7857142857142857;0.9090909090909091;34;211;17
+org.javacc.parser.OptionsTest.testSetWrongTypeForOption();org.javacc.parser.Options;1;0;2;1.0;1.0;11;128;393
+org.javacc.parser.LexGen.PrintClassHead();org.javacc.parser.CodeGenerator;8;0;4;1.0;0.84;63;857;265
+org.javacc.parser.RCharacterList.RemoveNegation();org.javacc.parser.Options;0;3;4;0.7857142857142857;1.0;34;211;393
+org.javacc.jjtree.JavaCodeGenerator.tryExpansionUnit(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.JJTreeNode, org.javacc.jjtree.NodeScope);org.javacc.jjtree.SimpleNode;1;4;3;1.0;1.0;19;331;68
+org.javacc.parser.LexGen.DumpFillToken();org.javacc.parser.JavaFiles;0;0;3;1.0;1.0;69;857;349
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.JJTreeNode;1;4;5;0.9655172413793104;0.9333333333333333;33;331;94
+org.javacc.jjtree.ASTGrammar.generate(org.javacc.jjtree.IO);org.javacc.jjtree.JavaCodeGenerator;1;0;4;1.0;1.0;13;19;331
+org.javacc.parser.RCharacterList.GenerateNfa(boolean);org.javacc.parser.Options;0;6;6;0.6;1.0;29;211;393
+org.javacc.parser.RStringLiteral.dump(int, java.util.Set);org.javacc.parser.RegularExpression;1;1;1;0.875;0.9;4;908;9
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa14_0(long, long);org.javacc.jjtree.JavaCharStream;1;4;1;0.9245283018867925;0.9795918367346939;18;1827;355
+org.javacc.jjtree.JJTreeParser.option_binding();org.javacc.jjtree.ASTOptionBinding;1;10;5;0.9826086956521739;0.9705882352941176;80;9644;26
+org.javacc.parser.JavaCCParserTokenManager.SkipLexicalActions(org.javacc.parser.Token);org.javacc.parser.JavaCharStream;2;6;1;0.9032258064516129;0.9615384615384616;12;1893;355
+org.javacc.parser.JavaCCParserTokenManager.jjStartNfaWithStates_0(int, int, int);org.javacc.parser.JavaCharStream;1;4;1;0.9333333333333333;0.9795918367346939;11;1893;355
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa2_0(long, long, long, long, long, long);org.javacc.parser.JavaCharStream;1;8;1;0.8666666666666667;0.9811320754716981;86;1893;355
+org.javacc.parser.LexGen.start();org.javacc.parser.Nfa;0;9;11;0.8260869565217391;1.0;145;857;8
+org.javacc.jjtree.JJTreeParser.option_binding();org.javacc.parser.Options;1;10;5;0.9826086956521739;1.0;80;9644;393
+org.javacc.parser.JavaCCParser.IntegerLiteral();org.javacc.parser.Token;1;1;1;0.9982300884955753;0.9090909090909091;14;8311;31
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.ZeroOrMore;0;4;15;0.9491525423728814;1.0;245;1154;15
+org.javacc.parser.JavaCCParser.complex_regular_expression_choices(org.javacc.parser.Container);org.javacc.parser.RChoice;1;6;3;0.9894366197183099;0.9375;32;8311;60
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.parser.Options;0;0;5;1.0;1.0;6;298;393
+org.javacc.parser.ParseGen.start(boolean);org.javacc.parser.ParseEngine;1;0;5;1.0;0.9791666666666666;775;778;1154
+org.javacc.parser.LexGenCPP.DumpGetNextToken();org.javacc.parser.CodeGenerator;4;0;4;1.0;0.9;219;757;265
+org.javacc.jjtree.JavaCodeGenerator.insertCloseNodeAction(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;1;1;1;1.0;0.9285714285714286;5;331;100
+org.javacc.parser.LexGen.DumpStaticVarDeclarations(java.lang.String);org.javacc.parser.CodeGenerator;3;1;1;1.0;0.9189189189189189;52;857;265
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveNfa_1(int, int);org.javacc.jjtree.JavaCharStream;1;7;1;0.8679245283018868;0.9807692307692307;69;1827;355
+org.javacc.parser.test.NfaStateTest.testDumpStatesForStateInitialised();org.javacc.parser.CodeGenerator;1;1;2;0.9642857142857143;0.972972972972973;6;112;265
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.CPPJJTreeState;0;3;15;0.8695652173913043;1.0;89;151;11
+org.javacc.parser.JavaCCParserTokenManager.jjFillToken();org.javacc.parser.Token;4;1;2;0.9852941176470589;0.7142857142857143;20;1893;31
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.JavaCCGlobals;0;4;15;0.9491525423728814;1.0;245;1154;321
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.ZeroOrOne;0;4;15;0.9491525423728814;1.0;245;1154;15
+org.javacc.parser.LexGenCPP.DumpMoreActions();org.javacc.parser.RStringLiteral;0;0;4;1.0;1.0;44;757;908
+org.javacc.parser.ParseEngine.minimumSize(int, org.javacc.parser.Expansion);org.javacc.parser.Expansion;1;2;7;0.975609756097561;0.9523809523809523;70;1154;34
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.jjtree.SimpleNode;1;0;4;1.0;1.0;6;331;68
+org.javacc.utils.ConditionParserTokenManager.getNextToken();org.javacc.utils.TokenMgrError;0;13;3;0.7234042553191489;1.0;113;594;59
+org.javacc.parser.NfaState.GenerateNonAsciiMoves(org.javacc.parser.CodeGenerator);org.javacc.parser.Options;0;5;2;0.9253731343283582;1.0;110;1797;393
+org.javacc.parser.LexGenCPP.DumpFillToken();org.javacc.parser.Options;0;0;4;1.0;1.0;76;757;393
+org.javacc.parser.JavaCCParser.complex_regular_expression_unit(org.javacc.parser.Container);org.javacc.parser.Expansion;2;11;5;0.9811643835616438;0.9545454545454546;93;8311;34
+org.javacc.jjtree.JJTreeParser.jj_ntk();org.javacc.jjtree.JJTreeParserTokenManager;1;1;2;0.9982046678635548;0.9814814814814815;4;9644;1827
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.Semanticize;0;3;11;0.9230769230769231;1.0;54;1154;528
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa1_3(long);org.javacc.parser.JavaCharStream;1;2;1;0.9666666666666667;0.9787234042553191;16;1893;355
+org.javacc.parser.ParseEngine.build(org.javacc.parser.CodeGenerator);org.javacc.parser.Options;0;8;7;0.8852459016393442;1.0;91;1154;393
+org.javacc.parser.test.NfaStateTest.testDumpMoveNfaInitialised();org.javacc.parser.CodeGenerator;1;1;2;0.9642857142857143;0.972972972972973;6;112;265
+org.javacc.parser.JavaCCParser.bnf_production();org.javacc.parser.BNFProduction;2;14;5;0.9758620689655172;0.9375;51;8311;9
+org.javacc.jjtree.JJTreeOptionsTest.testOutputDirectory();org.javacc.parser.JavaCCErrors;0;0;3;1.0;1.0;16;77;82
+org.javacc.jjtree.JJTreeParserTokenManager.getNextToken();org.javacc.jjtree.TokenMgrError;0;14;3;0.7586206896551724;1.0;107;1827;59
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.Token;0;0;3;1.0;1.0;25;331;31
+org.javacc.jjtree.JJTreeParser.expansion_unit(org.javacc.jjtree.ASTProduction);org.javacc.jjtree.JJTreeNode;0;20;2;0.966044142614601;1.0;378;9644;94
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.IO;1;4;5;0.962962962962963;0.95;10;298;100
+org.javacc.parser.ParseEngine.genReturn(boolean);org.javacc.parser.NormalProduction;1;0;4;1.0;0.9473684210526316;13;1154;99
+org.javacc.jjdoc.HTMLGenerator.documentEnd();org.javacc.jjdoc.TextGenerator;1;1;1;0.96;0.962962962962963;5;141;111
+org.javacc.parser.JavaCCParser.character_descriptor(org.javacc.parser.Container);org.javacc.parser.JavaCCParserInternals;2;7;5;0.9878260869565217;1.0;34;8311;263
+org.javacc.jjdoc.test.JJDocMainTest.testMainProgramHTML();org.javacc.JavaCCTestCase;2;0;2;1.0;0.0;3;17;12
+org.javacc.jjtree.ASTNodeDescriptor.getNodeType();org.javacc.jjtree.JJTreeOptions;0;1;1;0.9285714285714286;1.0;8;92;103
+org.javacc.parser.OneOrMore.dump(int, java.util.Set);org.javacc.parser.Expansion;1;0;1;1.0;0.9411764705882353;7;15;34
+org.javacc.parser.RZeroOrMore.GenerateNfa(boolean);org.javacc.parser.RegularExpression;1;0;3;1.0;1.0;11;18;9
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.JJTreeGlobals;0;3;15;0.8695652173913043;1.0;89;151;34
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFAction);org.javacc.jjtree.ASTBNFAction;1;4;5;0.9655172413793104;0.9090909090909091;33;298;21
+org.javacc.parser.NfaState.PrintNoBreak(boolean[], int, org.javacc.parser.CodeGenerator);org.javacc.parser.CodeGenerator;1;6;1;0.9137931034482758;0.975609756097561;17;1797;265
+org.javacc.parser.test.NfaStateTest.testDumpStatesForState();org.javacc.parser.NfaState;0;0;2;1.0;1.0;5;112;1797
+org.javacc.parser.LexGenCPP.DumpGetNextToken();org.javacc.parser.LexGen;0;0;4;1.0;1.0;219;757;857
+org.javacc.parser.NfaState.AddRange(char, char);org.javacc.parser.LexGen;0;3;4;0.9464285714285714;1.0;36;1797;857
+org.javacc.parser.RStringLiteral.GenerateNfa(boolean);org.javacc.parser.Options;0;1;3;0.9166666666666666;1.0;23;908;393
+org.javacc.parser.test.NfaStateTest.testDumpStateSetsInitialised();org.javacc.parser.CodeGenerator;1;1;2;0.9642857142857143;0.972972972972973;6;112;265
+org.javacc.jjtree.JavaCodeGenerator.tryExpansionUnit(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.JJTreeNode, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;2;4;3;1.0;0.9047619047619048;19;331;100
+org.javacc.parser.RCharacterList.RemoveNegation();org.javacc.parser.NfaState;0;3;4;0.7857142857142857;1.0;34;211;1797
+org.javacc.jjdoc.BNFGenerator.productionStart(org.javacc.parser.NormalProduction);org.javacc.parser.NormalProduction;1;2;1;0.935483870967742;0.95;4;115;99
+org.javacc.jjtree.JJTreeParser.character_list();org.javacc.jjtree.JJTJJTreeParserState;4;8;1;0.9858407079646018;0.9;66;9644;74
+org.javacc.utils.ConditionParser.ReInit(java.io.InputStream, java.lang.String);org.javacc.utils.ConditionParserTokenManager;1;3;2;0.8928571428571429;0.9777777777777777;13;329;594
+org.javacc.parser.JavaCCParser.javacc_input();org.javacc.parser.JavaCCGlobals;0;14;4;0.9761904761904762;1.0;58;8311;321
+org.javacc.jjtree.JJTreeParser.node_descriptor();org.javacc.jjtree.ASTNodeDescriptor;3;9;3;0.9845360824742269;0.9361702127659575;92;9644;92
+org.javacc.parser.JavaCCParser.regexpr_kind(org.javacc.parser.TokenProduction);org.javacc.parser.TokenProduction;1;5;1;0.9911816578483246;0.9375;24;8311;12
+org.javacc.parser.ExpansionTest.testRJustNameConstructor();org.javacc.parser.Expansion;2;0;3;1.0;0.875;6;72;34
+org.javacc.parser.JavaCCParser.StringLiteral();org.javacc.parser.JavaCCParserInternals;1;1;2;0.9982300884955753;1.0;8;8311;263
+org.javacc.parser.JavaCCParser.javacc_options();org.javacc.parser.Options;0;7;2;0.9877408056042032;1.0;26;8311;393
+org.javacc.parser.JavaCCParser.FormalParameters(java.util.List);org.javacc.parser.Token;0;7;1;0.9880546075085325;1.0;56;8311;31
+org.javacc.parser.LexGenCPP.DumpTokenActions();org.javacc.parser.LexGen;0;0;4;1.0;1.0;51;757;857
+org.javacc.parser.LexGenCPP.PrintClassHead();org.javacc.parser.Options;0;0;5;1.0;1.0;55;757;393
+org.javacc.parser.JavaCCParser.regular_expression(org.javacc.parser.Container);org.javacc.parser.RegularExpression;3;11;5;0.9809688581314879;0.9032258064516129;77;8311;9
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTCompilationUnit);org.javacc.jjtree.Token;1;1;6;1.0;0.9285714285714286;38;331;31
+org.javacc.jjtree.IO.setOutput();org.javacc.parser.JavaCCGlobals;0;4;2;0.7142857142857143;1.0;11;100;321
+org.javacc.jjtree.JavaCodeGenerator.insertCloseNodeCode(boolean, java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;1;0;4;1.0;0.9444444444444444;16;331;100
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.Action;1;4;15;0.9491525423728814;0.9666666666666667;245;1154;11
+org.javacc.jjtree.JJTreeParser.ReInit(java.io.InputStream, java.lang.String);org.javacc.jjtree.JavaCharStream;1;4;3;0.992831541218638;1.0;15;9644;355
+org.javacc.jjtree.IO.setInput(java.lang.String);org.javacc.parser.JavaCCGlobals;0;2;2;0.8823529411764706;1.0;28;100;321
+org.javacc.jjtree.JJTreeParser.option_binding();org.javacc.jjtree.TokenUtils;1;10;5;0.9826086956521739;1.0;80;9644;154
+org.javacc.parser.ExpansionTest.testChoiceConstructor();org.javacc.parser.Choice;1;0;3;1.0;0.8571428571428572;9;72;27
+org.javacc.parser.JavaCCParser.bnf_production();org.javacc.parser.Token;2;14;5;0.9758620689655172;0.9473684210526316;51;8311;31
+org.javacc.parser.ExpansionTest.testSequenceConstructor();org.javacc.parser.Expansion;2;0;3;1.0;0.8823529411764706;7;72;34
+org.javacc.jjtree.JJTreeParser.bnf_production();org.javacc.jjtree.JJTreeGlobals;0;17;7;0.973015873015873;1.0;242;9644;34
+org.javacc.parser.test.NfaStateTest.setupState();org.javacc.parser.Semanticize;0;1;5;0.9642857142857143;1.0;9;112;528
+org.javacc.jjtree.ParseException.getMessage();org.javacc.jjtree.Token;4;5;1;0.6428571428571428;0.7647058823529411;43;102;31
+org.javacc.jjdoc.XTextGenerator.handleTokenProduction(org.javacc.parser.TokenProduction);org.javacc.parser.Token;1;0;4;1.0;0.9230769230769231;12;73;31
+org.javacc.parser.JavaCCParser.ResultType(java.util.List);org.javacc.parser.Token;0;7;1;0.987783595113438;1.0;31;8311;31
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.Sequence;1;21;11;0.9650582362728786;0.9836065573770492;212;8311;19
+org.javacc.utils.ConditionParserTokenManager.jjMoveStringLiteralDfa1_3(long);org.javacc.utils.JavaCharStream;1;2;1;0.9523809523809523;0.9787234042553191;16;594;355
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.JJTreeNode;1;0;3;1.0;1.0;25;298;94
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.SimpleNode;1;3;15;0.8695652173913043;0.9714285714285714;89;151;68
+org.javacc.jjtree.JJTreeNode.jjtAddChild(int, org.javacc.jjtree.Node);org.javacc.jjtree.SimpleNode;1;1;1;0.8571428571428572;1.0;4;94;68
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa4_0(long, long, long, long, long, long);org.javacc.jjtree.JavaCharStream;1;7;1;0.8679245283018868;0.9807692307692307;76;1827;355
+org.javacc.utils.ConditionParser.ReInit(java.io.InputStream, java.lang.String);org.javacc.utils.JavaCharStream;1;3;2;0.8928571428571429;1.0;13;329;355
+org.javacc.parser.test.NfaStateTest.testDumpStatesForState();org.javacc.parser.CodeGenerator;1;0;2;1.0;0.9722222222222222;5;112;265
+org.javacc.parser.Action.dump(int, java.util.Set);org.javacc.parser.Expansion;1;1;1;0.875;0.9473684210526316;8;11;34
+org.javacc.jjtree.CPPCodeGenerator.insertCloseNodeCode(boolean, java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeScope;3;0;4;1.0;0.7;15;298;53
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFNodeScope);org.javacc.jjtree.ASTNodeDescriptor;1;4;4;0.9615384615384616;0.95;11;331;92
+org.javacc.parser.test.NfaStateTest.testDumpStateSets();org.javacc.parser.CodeGenerator;1;0;2;1.0;0.9722222222222222;5;112;265
+org.javacc.jjtree.ASTBNF.toString();org.javacc.jjtree.ASTProduction;1;0;2;1.0;0.8571428571428572;3;11;14
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.Lookahead;1;4;15;0.9491525423728814;0.96875;245;1154;28
+org.javacc.jjtree.CPPCodeGenerator.insertCloseNodeCode(boolean, java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;1;0;4;1.0;0.9411764705882353;15;298;100
+org.javacc.parser.JavaCCParser.regexpr_spec(org.javacc.parser.TokenProduction);org.javacc.parser.RegExprSpec;1;8;8;0.986013986013986;0.9444444444444444;40;8311;0
+org.javacc.parser.JavaCCParser.complex_regular_expression(org.javacc.parser.Container);org.javacc.parser.Expansion;2;5;3;0.9912587412587412;0.9230769230769231;37;8311;34
+org.javacc.jjtree.CPPCodeGenerator.tryExpansionUnit(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.JJTreeNode, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeScope;2;4;3;1.0;0.875;19;298;53
+org.javacc.parser.JavaCCParserTokenManager.TokenLexicalActions(org.javacc.parser.Token);org.javacc.parser.Token;3;3;2;0.9558823529411765;0.8235294117647058;24;1893;31
+org.javacc.jjdoc.TextGenerator.handleTokenProduction(org.javacc.parser.TokenProduction);org.javacc.jjdoc.JJDoc;0;1;1;0.96;1.0;4;111;348
+org.javacc.jjtree.CPPCodeGenerator.insertOpenNodeAction(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.IO;1;1;1;1.0;0.9285714285714286;5;298;100
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.Token;1;3;6;1.0;0.9285714285714286;19;298;31
+org.javacc.parser.LexGen.start();org.javacc.parser.RStringLiteral;2;9;11;0.8260869565217391;0.9791666666666666;145;857;908
+org.javacc.parser.test.NfaStateTest.testDumpStatesForKindInitialised();org.javacc.parser.NfaState;0;1;2;0.9642857142857143;1.0;6;112;1797
+org.javacc.parser.ParseEngine.buildLookaheadChecker(java.lang.String[], org.javacc.parser.Lookahead[]);org.javacc.parser.CodeGenerator;3;8;5;0.8222222222222222;0.9423076923076923;162;1154;265
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.Token;1;4;15;0.9491525423728814;0.9722222222222222;245;1154;31
+org.javacc.parser.RJustName.GenerateNfa(boolean);org.javacc.parser.RegularExpression;1;0;1;1.0;1.0;3;10;9
+org.javacc.jjtree.ASTGrammar.generate(org.javacc.jjtree.IO);org.javacc.jjtree.CPPNodeFiles;0;0;4;1.0;1.0;13;19;308
+org.javacc.parser.ExpansionTest.testZeroOrMoreConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8181818181818181;7;72;31
+org.javacc.parser.JavaCCParser.javacc_options();org.javacc.parser.Token;1;7;2;0.9877408056042032;0.9565217391304348;26;8311;31
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.IO;1;4;5;1.0;0.95;16;298;100
+org.javacc.jjtree.JJTreeNode.whiteOut(org.javacc.jjtree.Token);org.javacc.jjtree.Token;1;0;1;1.0;0.9166666666666666;13;94;31
+org.javacc.jjdoc.HTMLGenerator.documentStart();org.javacc.jjdoc.JJDocGlobals;0;1;3;0.9615384615384616;1.0;18;141;47
+org.javacc.parser.ParseGen.start(boolean);org.javacc.parser.CodeGenerator;7;0;5;1.0;0.8409090909090909;775;778;265
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.NodeScope;2;3;6;1.0;0.8461538461538461;19;331;53
+org.javacc.parser.JavaCCParser.ClassOrInterfaceDeclaration(int, java.util.List);org.javacc.parser.JavaCCParserInternals;1;13;2;0.9772329246935202;1.0;54;8311;263
+org.javacc.parser.LexGen.DumpSkipActions();org.javacc.parser.CodeGenerator;5;0;3;1.0;0.868421052631579;45;857;265
+org.javacc.parser.ExpansionTest.testRZeroOrMoreConstructor();org.javacc.parser.Token;2;0;3;1.0;0.8;7;72;31
+org.javacc.parser.LexGenCPP.dumpBoilerPlateInHeader();org.javacc.parser.LexGen;0;0;3;1.0;1.0;14;757;857
+org.javacc.parser.ParseEngine.buildLookaheadChecker(java.lang.String[], org.javacc.parser.Lookahead[]);org.javacc.parser.Lookahead;2;8;5;0.8222222222222222;0.9090909090909091;162;1154;28
+org.javacc.utils.ConditionParser.getNextToken();org.javacc.utils.Token;0;2;2;0.9259259259259259;1.0;7;329;24
+org.javacc.jjtree.JavaCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.NodeScope;3;3;5;1.0;0.8125;19;331;53
+org.javacc.parser.CodeGenerator.getLeadingComments(org.javacc.parser.Token);org.javacc.parser.Token;1;3;1;0.9166666666666666;0.9090909090909091;16;265;31
+org.javacc.parser.LexGenCPP.PrintClassHead();org.javacc.parser.JavaCCErrors;0;0;5;1.0;1.0;55;757;82
+org.javacc.jjdoc.HTMLGenerator.productionStart(org.javacc.parser.NormalProduction);org.javacc.jjdoc.JJDocOptions;0;3;2;0.875;1.0;11;141;30
+org.javacc.parser.ParseGenCPP.start();org.javacc.parser.JavaCCGlobals;0;0;6;1.0;1.0;433;436;321
+org.javacc.parser.ParseEngine.genjj_3Call(org.javacc.parser.Expansion);org.javacc.parser.Expansion;1;0;1;1.0;0.9285714285714286;4;1154;34
+org.javacc.jjtree.JavaCodeGenerator.getIndentation(int, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.Token;1;0;2;1.0;0.875;7;331;31
+org.javacc.parser.JavaCCParser.javacode_production();org.javacc.parser.Token;2;12;4;0.9791666666666666;0.9375;44;8311;31
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.jjtree.IO;3;0;5;1.0;0.8125;6;298;100
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa14_0(long, long);org.javacc.parser.JavaCharStream;1;4;1;0.9333333333333333;0.9795918367346939;18;1893;355
+org.javacc.parser.ParseEngine.buildLookaheadChecker(java.lang.String[], org.javacc.parser.Lookahead[]);org.javacc.parser.Options;0;8;5;0.8222222222222222;1.0;162;1154;393
+org.javacc.parser.RStringLiteral.toString();org.javacc.parser.Expansion;1;1;1;0.8333333333333334;0.9285714285714286;3;908;34
+org.javacc.jjdoc.XTextGenerator.documentEnd();org.javacc.jjdoc.TextGenerator;1;0;1;1.0;0.9615384615384616;3;73;111
+org.javacc.parser.JavaCCParser.regexpr_spec(org.javacc.parser.TokenProduction);org.javacc.parser.TokenProduction;1;8;8;0.986013986013986;0.9583333333333334;40;8311;12
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.jjtree.IO;3;0;4;1.0;0.8125;6;331;100
+org.javacc.parser.JavaCCParserTokenManager.TokenLexicalActions(org.javacc.parser.Token);org.javacc.parser.JavaCharStream;1;3;2;0.9558823529411765;0.9821428571428571;24;1893;355
+org.javacc.parser.LexGen.DumpMoreActions();org.javacc.parser.Action;1;0;3;1.0;0.8888888888888888;44;857;11
+org.javacc.parser.LexGen.writeTemplate(java.lang.Object[], java.lang.String);org.javacc.utils.JavaFileGenerator;1;0;3;1.0;0.95;32;857;107
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTGrammar);org.javacc.jjtree.JJTreeGlobals;0;0;4;1.0;1.0;6;331;34
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.Expansion;4;21;11;0.9650582362728786;0.9420289855072463;212;8311;34
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFNodeScope);org.javacc.jjtree.NodeScope;1;4;4;0.9615384615384616;0.9285714285714286;11;298;53
+org.javacc.parser.NfaState.DumpNonAsciiMoveMethod(org.javacc.parser.CodeGenerator);org.javacc.parser.Options;0;3;4;0.9523809523809523;1.0;37;1797;393
+org.javacc.parser.JavaCCParser.local_lookahead();org.javacc.parser.Expansion;2;12;4;0.9804560260586319;0.9733333333333334;113;8311;34
+org.javacc.parser.JavaCCParser.expansion_choices(org.javacc.parser.Container);org.javacc.parser.Choice;1;6;3;0.9894179894179894;0.9166666666666666;32;8311;27
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.TryBlock;4;4;15;0.9491525423728814;0.8666666666666667;245;1154;7
+org.javacc.jjtree.JJTreeParser.complex_regular_expression_choices();org.javacc.jjtree.JJTJJTreeParserState;5;8;1;0.9857651245551602;0.8461538461538461;49;9644;74
+org.javacc.jjtree.JavaCodeGenerator.tryTokenSequence(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope, org.javacc.jjtree.Token, org.javacc.jjtree.Token);org.javacc.jjtree.IO;2;3;5;1.0;0.9090909090909091;19;331;100
+org.javacc.parser.test.NfaStateTest.testDumpMoveNfaInitialised();org.javacc.parser.NfaState;0;1;2;0.9642857142857143;1.0;6;112;1797
+org.javacc.parser.ParseEngine.buildPhase1Routine(org.javacc.parser.BNFProduction);org.javacc.parser.Options;0;5;6;0.9122807017543859;1.0;93;1154;393
+org.javacc.parser.JavaCCParser.getNextToken();org.javacc.parser.JavaCCParserTokenManager;1;2;2;0.9964476021314387;0.9836065573770492;7;8311;1893
+org.javacc.parser.CodeGenerator.getTrailingComments(org.javacc.parser.Token);org.javacc.parser.Token;0;1;1;0.9714285714285714;1.0;4;265;31
+org.javacc.parser.LexGenCPP.DumpSkipActions();org.javacc.parser.CodeGenerator;6;0;4;1.0;0.8421052631578947;45;757;265
+org.javacc.parser.CodeGenerator.genClassStart(java.lang.String, java.lang.String, java.lang.String[], java.lang.String[]);org.javacc.parser.Options;0;5;1;0.8611111111111112;1.0;26;265;393
+org.javacc.parser.test.NfaStateTest.testDumpCharAndRangeMoves();org.javacc.parser.CodeGenerator;1;0;2;1.0;0.9722222222222222;5;112;265
+org.javacc.parser.JavaCCParser.expansion(org.javacc.parser.Container);org.javacc.parser.Sequence;1;10;7;0.9826689774696707;0.9615384615384616;44;8311;19
+org.javacc.jjdoc.BNFGenerator.create_output_stream();org.javacc.jjdoc.JJDocOptions;0;2;2;0.9428571428571428;1.0;34;115;30
+org.javacc.jjtree.JJTreeOptionsTest.testValidateReturnType();org.javacc.parser.JavaCCErrors;0;0;3;1.0;1.0;18;77;82
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTExpansionNodeScope);org.javacc.jjtree.ASTNodeDescriptor;2;4;5;0.962962962962963;0.9523809523809523;10;298;92
+org.javacc.parser.JavaCCParser.local_lookahead();org.javacc.parser.Lookahead;3;12;4;0.9804560260586319;0.9538461538461538;113;8311;28
+org.javacc.parser.RCharacterList.GenerateNfa(boolean);org.javacc.parser.Nfa;0;6;6;0.6;1.0;29;211;8
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.JavaCCParserInternals;1;21;11;0.9650582362728786;1.0;212;8311;263
+org.javacc.parser.LexGen.PrintClassHead();org.javacc.parser.Options;0;0;4;1.0;1.0;63;857;393
+org.javacc.parser.LexGenCPP.DumpTokenActions();org.javacc.parser.Action;1;0;4;1.0;0.9;51;757;11
+org.javacc.parser.RCharacterList.RemoveNegation();org.javacc.parser.CharacterRange;2;3;4;0.7857142857142857;0.8181818181818181;34;211;31
+org.javacc.jjtree.CPPCodeGenerator.tryExpansionUnit(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.JJTreeNode, org.javacc.jjtree.NodeScope);org.javacc.jjtree.SimpleNode;1;4;3;1.0;1.0;19;298;68
+org.javacc.parser.JavaCCParser.Expression(java.util.List);org.javacc.parser.Token;0;5;1;0.9911190053285968;1.0;19;8311;31
+org.javacc.parser.JavaCCParser.character_list(org.javacc.parser.Container);org.javacc.parser.RCharacterList;2;7;4;0.9878260869565217;0.9230769230769231;41;8311;211
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa10_0(long, long, long, long);org.javacc.parser.JavaCharStream;1;5;1;0.9166666666666666;0.98;28;1893;355
+org.javacc.parser.ParseEngine.buildPhase3Routine(boolean, org.javacc.parser.Phase3Data);org.javacc.parser.OneOrMore;0;7;15;0.8928571428571429;1.0;151;1154;15
+org.javacc.parser.RRepetitionRange.GenerateNfa(boolean);org.javacc.parser.RSequence;1;3;3;0.5;0.8333333333333334;20;20;26
+org.javacc.parser.NfaState.AddRange(char, char);org.javacc.parser.Main;0;3;4;0.9464285714285714;1.0;36;1797;205
+org.javacc.jjtree.IO.create_output_file_name(java.lang.String);org.javacc.jjtree.JJTreeOptions;0;0;1;1.0;1.0;23;100;103
+org.javacc.jjtree.JJTreeParser.javacc_input();org.javacc.jjtree.Token;2;14;5;0.9763513513513513;0.9649122807017544;167;9644;31
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTJavacodeBody);org.javacc.jjtree.ASTJavacodeBody;0;4;5;1.0;1.0;16;298;6
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.OneOrMore;0;3;9;0.9230769230769231;1.0;48;1154;15
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.NormalProduction;0;3;11;0.9230769230769231;1.0;54;1154;99
+org.javacc.parser.LexGenCPP.DumpDebugMethods();org.javacc.parser.LexGen;1;0;1;1.0;1.0;3;757;857
+org.javacc.parser.ExpansionTest.setUp();org.javacc.parser.Token;2;0;2;1.0;0.8;8;72;31
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTLHS);org.javacc.jjtree.Token;0;0;4;1.0;1.0;10;331;31
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.JavaCCErrors;0;9;12;0.8163265306122449;1.0;150;757;82
+org.javacc.parser.OutputFile.getPrintWriter();org.javacc.parser.Options;0;6;3;0.7142857142857143;1.0;19;153;393
+org.javacc.parser.RegularExpression.dump(int, java.util.Set);org.javacc.parser.Expansion;1;1;1;0.9090909090909091;0.9411764705882353;6;9;34
+org.javacc.jjtree.JJTree.p(java.lang.String);org.javacc.jjtree.IO;1;0;1;1.0;0.9285714285714286;3;151;100
+org.javacc.parser.ParseEngine.generate3R(org.javacc.parser.Expansion, org.javacc.parser.Phase3Data);org.javacc.parser.NonTerminal;1;3;6;0.9318181818181819;0.9444444444444444;33;1154;28
+org.javacc.jjtree.JavaCodeGenerator.insertCloseNodeCode(boolean, java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.JJTreeOptions;0;0;4;1.0;1.0;16;331;103
+org.javacc.parser.JavaCCParserTokenManager.jjMoveStringLiteralDfa9_0(long, long, long, long);org.javacc.parser.JavaCharStream;1;5;1;0.9166666666666666;0.98;36;1893;355
+org.javacc.parser.JavaCCParser.expansion_unit(org.javacc.parser.Container);org.javacc.parser.Lookahead;2;21;11;0.9650582362728786;0.967741935483871;212;8311;28
+org.javacc.jjtree.JJTree.main(java.lang.String[]);org.javacc.jjtree.ASTGrammar;1;3;15;0.8695652173913043;0.9565217391304348;89;151;19
+org.javacc.parser.LexGen.PrintClassHead();org.javacc.parser.JavaCCErrors;0;0;4;1.0;1.0;63;857;82
+org.javacc.parser.RCharacterList.GenerateNfa(boolean);org.javacc.parser.CharacterRange;2;6;6;0.6;0.8666666666666667;29;211;31
+org.javacc.jjtree.JJTreeNode.translateImage(org.javacc.jjtree.Token);org.javacc.jjtree.Token;1;0;1;1.0;0.875;3;94;31
+org.javacc.parser.test.NfaStateTest.testDumpNonAsciiMoveMethodsInitialised();org.javacc.parser.NfaState;0;1;2;0.9642857142857143;1.0;6;112;1797
+org.javacc.parser.ParseEngine.genFirstSet(org.javacc.parser.Expansion);org.javacc.parser.TryBlock;0;3;11;0.9230769230769231;1.0;54;1154;7
+org.javacc.parser.RZeroOrMore.GenerateNfa(boolean);org.javacc.parser.Nfa;0;0;3;1.0;1.0;11;18;8
+org.javacc.jjtree.JJTreeParser.jj_consume_token(int);org.javacc.jjtree.JJTreeParserTokenManager;1;8;2;0.9856373429084381;0.9836065573770492;23;9644;1827
+org.javacc.parser.ParseEngine.phase1ExpansionGen(org.javacc.parser.Expansion);org.javacc.parser.CodeGenerator;3;4;15;0.9491525423728814;0.9508196721311475;245;1154;265
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTCompilationUnit);org.javacc.jjtree.JJTreeNode;1;0;2;1.0;1.0;15;298;94
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTBNFDeclaration);org.javacc.jjtree.ASTBNFDeclaration;0;3;6;1.0;1.0;19;298;6
+org.javacc.parser.NfaState.DumpNonAsciiMove(boolean[], org.javacc.parser.CodeGenerator);org.javacc.parser.CodeGenerator;2;9;2;0.8636363636363636;0.9615384615384616;74;1797;265
+org.javacc.parser.ParseEngine.setupPhase3Builds(org.javacc.parser.Phase3Data);org.javacc.parser.ZeroOrMore;0;3;9;0.9230769230769231;1.0;48;1154;15
+org.javacc.parser.JavaCCParser.jj_3R_92();org.javacc.parser.Token;2;5;1;0.9911816578483246;0.875;9;8311;31
+org.javacc.jjdoc.XTextGenerator.handleTokenProduction(org.javacc.parser.TokenProduction);org.javacc.jjdoc.JJDoc;0;0;4;1.0;1.0;12;73;348
+org.javacc.jjtree.JJTreeParser.getNextToken();org.javacc.jjtree.JJTreeParserTokenManager;1;2;2;0.9964028776978417;0.9814814814814815;7;9644;1827
+org.javacc.jjtree.JavaCodeGenerator.insertOpenNodeCode(java.lang.String, org.javacc.jjtree.IO, org.javacc.jjtree.NodeScope);org.javacc.jjtree.NodeScope;3;0;6;1.0;0.8125;33;331;53
+org.javacc.utils.ConditionParser.jj_ntk();org.javacc.utils.Token;1;1;2;0.9642857142857143;0.8888888888888888;4;329;24
+org.javacc.jjtree.ASTOptionBinding.translateImage(org.javacc.jjtree.Token);org.javacc.jjtree.JJTreeNode;1;1;2;0.8571428571428572;0.875;8;26;94
+org.javacc.parser.JavaCCParser.regular_expr_production();org.javacc.parser.TokenProduction;5;9;5;0.9846153846153847;0.8529411764705882;89;8311;12
+org.javacc.parser.OutputFile.getPrintWriter();org.javacc.Version;0;6;3;0.7142857142857143;1.0;19;153;2
+org.javacc.parser.LexGenCPP.start();org.javacc.parser.Nfa;0;9;12;0.8163265306122449;1.0;150;757;8
+org.javacc.utils.ConditionParserTokenManager.jjMoveStringLiteralDfa3_0(long, long);org.javacc.utils.JavaCharStream;1;5;1;0.8809523809523809;0.98;20;594;355
+org.javacc.parser.LexGen.start();org.javacc.parser.RegularExpression;4;9;11;0.8260869565217391;0.9375;145;857;9
+org.javacc.parser.ParseGenCPP.start();org.javacc.parser.ParseEngine;1;0;6;1.0;0.9807692307692307;433;436;1154
+org.javacc.jjtree.JavaCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTLHS);org.javacc.jjtree.NodeScope;1;0;4;1.0;0.8888888888888888;10;331;53
+org.javacc.jjtree.JJTreeParser.ReInit(java.io.Reader);org.javacc.jjtree.JJTreeParserTokenManager;1;4;3;0.992831541218638;0.9827586206896551;10;9644;1827
+org.javacc.jjtree.JJTreeParserTokenManager.jjMoveStringLiteralDfa5_0(long, long, long, long, long, long);org.javacc.jjtree.JavaCharStream;1;5;1;0.9056603773584906;0.98;64;1827;355
+org.javacc.parser.LexGenCPP.DumpTokenActions();org.javacc.parser.CodeGenerator;6;0;4;1.0;0.8421052631578947;51;757;265
+org.javacc.jjtree.JJTreeParser.javacc_input();org.javacc.parser.Options;0;14;5;0.9763513513513513;1.0;167;9644;393
+org.javacc.parser.JavaCCParser.RUNSIGNEDSHIFT();org.javacc.parser.Token;2;2;1;0.9964726631393298;0.8461538461538461;11;8311;31
+org.javacc.jjtree.JJTreeParser.javacode_production();org.javacc.jjtree.JJTreeGlobals;0;18;6;0.9713831478537361;1.0;202;9644;34
+org.javacc.jjtree.JavaCodeGenerator.getIndentation(int, org.javacc.jjtree.JJTreeNode);org.javacc.jjtree.JJTreeNode;0;0;2;1.0;1.0;7;331;94
+org.javacc.jjtree.CPPCodeGenerator.visit(java.lang.Object, org.javacc.jjtree.ASTLHS);org.javacc.jjtree.TokenUtils;1;0;4;1.0;1.0;10;298;154
+org.javacc.utils.ConditionParserTokenManager.jjMoveStringLiteralDfa1_0(long);org.javacc.utils.JavaCharStream;1;6;1;0.8571428571428572;0.9803921568627451;30;594;355

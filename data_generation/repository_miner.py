@@ -21,14 +21,15 @@ class RepositoryMiner(object):
 		if not os.path.exists(TEMP):
 			os.makedirs(TEMP)
 
-		#cloneCommand = 'git clone ' + self.repositoryURL + ' ' + self.REPOSITORY_DIR
-		#subprocess.call(cloneCommand, shell=True)
+		cloneCommand = 'git clone ' + self.repositoryURL + ' ' + self.REPOSITORY_DIR
+		subprocess.call(cloneCommand, shell=True)
 
 
 	def mine(self, system):
 		self.setup(system)
 
 		self.__createMetricFiles('god_class')
+		self.__createMetricFiles('feature_envy')
 
 	
 	def __createMetricFiles(self, antipattern):
@@ -48,19 +49,6 @@ class RepositoryMiner(object):
 
 
 if __name__ == "__main__":
-	'''rm = RepositoryMiner()
-	for system in systems.systems_git + systems.systems_svn:
-		rm.mine(system)'''
-
-	stms = [
-		{
-		"name"     :'apache-lucene', 
-		"url"      :'https://github.com/apache/lucene-solr.git', 
-		"snapshot" :'39f6dc1', 
-		"directory":['src/java/']
-		}
-	]
-
 	rm = RepositoryMiner()
-	for system in stms:
+	for system in systems.systems_git + systems.systems_svn:
 		rm.mine(system)
