@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/ubuntu/CAME/neural_networks/came/trained_models/god_class/network4"
+all_model_checkpoint_paths: "/home/ubuntu/CAME/neural_networks/came/trained_models/god_class/network0"
+all_model_checkpoint_paths: "/home/ubuntu/CAME/neural_networks/came/trained_models/god_class/network1"
+all_model_checkpoint_paths: "/home/ubuntu/CAME/neural_networks/came/trained_models/god_class/network2"
+all_model_checkpoint_paths: "/home/ubuntu/CAME/neural_networks/came/trained_models/god_class/network3"
+all_model_checkpoint_paths: "/home/ubuntu/CAME/neural_networks/came/trained_models/god_class/network4"

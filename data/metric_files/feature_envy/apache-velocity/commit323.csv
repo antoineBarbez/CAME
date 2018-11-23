@@ -1,46 +1,46 @@
 Method;TargetClass;ATFD;ATSD;FDP;DIST_EC;DIST_TC;LOC_M;LOC_EC;LOC_TC
-org.apache.velocity.runtime.directive.VelocimacroProxy.parseTree(java.lang.String[]);org.apache.velocity.util.StringUtils;0;0;0;0;0
-org.apache.velocity.test.MultiLoaderTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0
+org.apache.velocity.runtime.directive.VelocimacroProxy.parseTree(java.lang.String[]);org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
+org.apache.velocity.test.MultiLoaderTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.jj_scan_token(int);org.apache.velocity.runtime.parser.Token;1;3;2;0.9820359281437125;0.9090909090909091;24;3140;9
 org.apache.velocity.runtime.parser.node.ASTDirective.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.directive.Directive;1;3;4;0.7857142857142857;0.9;17;45;4
-org.apache.velocity.util.introspection.IntrospectorBase.getMethod(java.lang.Class, java.lang.Object[], java.lang.String);org.apache.velocity.util.introspection.ClassMap;0;0;0;0;0
+org.apache.velocity.util.introspection.IntrospectorBase.getMethod(java.lang.Class, java.lang.Object[], java.lang.String);org.apache.velocity.util.introspection.ClassMap;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTEscapedDirective.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;1;0;2;1.0;0.875;4;13;9
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTIdentifier);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.parser.node.BooleanPropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.BooleanPropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.getNextToken();org.apache.velocity.runtime.parser.Token;0;2;2;0.9879518072289156;1.0;7;3140;9
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTObjectArray);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.app.VelocityEngine.setExtendedProperties(org.apache.velocity.app.ExtendedProperties);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.setExtendedProperties(org.apache.velocity.app.ExtendedProperties);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.util.introspection.ClassMap.populateMethodCache();org.apache.velocity.util.introspection.MethodMap;1;3;1;0.7;0.9090909090909091;10;57;38
-org.apache.velocity.runtime.resource.loader.JarResourceLoader.loadJar(java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.JarResourceLoader.loadJar(java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTAssignment);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.resource.loader.JarResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.runtime.resource.loader.JarHolder;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.JarResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.runtime.resource.loader.JarHolder;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTGTNode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.9642857142857143;4;13;129
 org.apache.velocity.runtime.parser.Parser.Word();org.apache.velocity.runtime.parser.JJTParserState;2;1;1;0.9940828402366864;0.9473684210526316;13;3140;74
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTTrue);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.parser.node.ASTMethod.doIntrospection(java.lang.Class, java.lang.Object[], org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTMethod.doIntrospection(java.lang.Class, java.lang.Object[], org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.MultiplicativeExpression();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.9657142857142857;0.8928571428571429;129;3140;74
-org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTLTNode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.9642857142857143;4;13;129
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.SimpleNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.Parser.False();org.apache.velocity.runtime.parser.JJTParserState;2;1;1;0.9940828402366864;0.9473684210526316;13;3140;74
 org.apache.velocity.runtime.parser.node.SimpleNode.jjtClose();org.apache.velocity.runtime.parser.Parser;1;0;1;1.0;0.9939393939393939;3;129;3140
-org.apache.velocity.texen.ant.TexenTask.execute();org.apache.velocity.exception.MethodInvocationException;0;0;0;0;0
-org.apache.velocity.runtime.directive.VelocimacroProxy.parseTree(java.lang.String[]);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
+org.apache.velocity.texen.ant.TexenTask.execute();org.apache.velocity.exception.MethodInvocationException;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.directive.VelocimacroProxy.parseTree(java.lang.String[]);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTElseIfStatement);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.node.ASTExpression.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;3;15;129
-org.apache.velocity.runtime.RuntimeInstance.initializeLogger();org.apache.velocity.runtime.log.PrimordialLogSystem;0;0;0;0;0
-org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.isSourceModified(org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0
-org.apache.velocity.anakia.XPathTool.applyTo(java.lang.String, org.apache.velocity.anakia.Document);org.apache.velocity.anakia.XPathCache;0;0;0;0;0
-org.apache.velocity.test.MultipleFileResourcePathTest.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.initializeLogger();org.apache.velocity.runtime.log.PrimordialLogSystem;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.isSourceModified(org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0;0;0;0
+org.apache.velocity.anakia.XPathTool.applyTo(java.lang.String, org.apache.velocity.anakia.Document);org.apache.velocity.anakia.XPathCache;0;0;0;0;0;0;0;0
+org.apache.velocity.test.MultipleFileResourcePathTest.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTIfStatement);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.app.VelocityEngine.mergeTemplate(java.io.Writer, java.lang.String, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.Template;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.mergeTemplate(java.io.Writer, java.lang.String, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.Template;0;0;0;0;0;0;0;0
 org.apache.velocity.context.VMContext.get(java.lang.String);org.apache.velocity.runtime.directive.VMProxyArg;1;4;1;0.7894736842105263;0.9444444444444444;19;78;161
-org.apache.velocity.test.ClassloaderChangeTest.runTest();org.apache.velocity.app.VelocityEngine;0;0;0;0;0
+org.apache.velocity.test.ClassloaderChangeTest.runTest();org.apache.velocity.app.VelocityEngine;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTGENode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.9642857142857143;4;13;129
 org.apache.velocity.runtime.parser.ParserTokenManager.TokenLexicalActions(org.apache.velocity.runtime.parser.Token);org.apache.velocity.runtime.parser.Token;2;16;2;0.8699186991869918;0.9411764705882353;110;2870;9
-org.apache.velocity.app.VelocityEngine.setConfiguration(org.apache.velocity.runtime.configuration.Configuration);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.setConfiguration(org.apache.velocity.runtime.configuration.Configuration);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTExpression.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;3;15;129
-org.apache.velocity.app.VelocityEngine.clearProperty(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.clearProperty(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTStringLiteral);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.Parser.ElseStatement();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.968421052631579;0.9302325581395349;95;3140;74
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTBlock);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
@@ -50,346 +50,346 @@ org.apache.velocity.runtime.directive.VMProxyArg.setObject(java.lang.Object, org
 org.apache.velocity.runtime.parser.node.SimpleNode.literal();org.apache.velocity.runtime.parser.Token;1;0;1;1.0;0.8888888888888888;9;129;9
 org.apache.velocity.runtime.parser.node.ASTMulNode.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;3;0;2;1.0;0.896551724137931;13;22;129
 org.apache.velocity.runtime.parser.ParserTokenManager.SwitchTo(int);org.apache.velocity.runtime.parser.TokenMgrError;0;1;1;0.990909090909091;1.0;4;2870;59
-org.apache.velocity.runtime.resource.loader.JarResourceLoader.init(org.apache.velocity.runtime.resource.loader.ExtendedProperties);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
-org.apache.velocity.runtime.parser.Parser.parse(java.io.Reader, java.lang.String);org.apache.velocity.runtime.parser.ParseException;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.JarResourceLoader.init(org.apache.velocity.runtime.resource.loader.ExtendedProperties);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.Parser.parse(java.io.Reader, java.lang.String);org.apache.velocity.runtime.parser.ParseException;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.NodeViewMode.showNode(java.lang.Object, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.parser.Token;1;3;1;0.9318181818181819;0.9333333333333333;15;124;9
-org.apache.velocity.test.ClasspathResourceTest.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
-org.apache.velocity.test.IntrospectorTestCase2.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
+org.apache.velocity.test.ClasspathResourceTest.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
+org.apache.velocity.test.IntrospectorTestCase2.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.Expression();org.apache.velocity.runtime.parser.JJTParserState;4;8;1;0.9555555555555556;0.9142857142857143;57;3140;74
 org.apache.velocity.runtime.parser.Parser.IfStatement();org.apache.velocity.runtime.parser.JJTParserState;4;9;1;0.9533678756476685;0.9387755102040817;133;3140;74
-org.apache.velocity.texen.Generator.getTemplate(java.lang.String, java.lang.String);org.apache.velocity.app.Velocity;0;0;0;0;0
-org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.init(org.apache.velocity.runtime.resource.loader.ExtendedProperties);org.apache.velocity.runtime.Runtime;0;0;0;0;0
-org.apache.velocity.anakia.AnakiaTask.process(java.io.File, java.io.File, java.lang.String, org.apache.velocity.anakia.Document);org.apache.velocity.app.VelocityEngine;0;0;0;0;0
+org.apache.velocity.texen.Generator.getTemplate(java.lang.String, java.lang.String);org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.init(org.apache.velocity.runtime.resource.loader.ExtendedProperties);org.apache.velocity.runtime.Runtime;0;0;0;0;0;0;0;0
+org.apache.velocity.anakia.AnakiaTask.process(java.io.File, java.io.File, java.lang.String, org.apache.velocity.anakia.Document);org.apache.velocity.app.VelocityEngine;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTIdentifier.doIntrospection(java.lang.Class);org.apache.velocity.runtime.parser.node.AbstractExecutor;1;1;1;0.8571428571428572;0.6666666666666667;6;46;4
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTLENode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.util.introspection.ClassMap.findMethod(java.lang.Object[], java.lang.String);org.apache.velocity.util.introspection.MethodMap;1;2;1;0.8888888888888888;1.0;17;57;38
 org.apache.velocity.runtime.directive.Include.renderOutput(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.resource.Resource;1;0;2;1.0;0.9166666666666666;23;51;45
-org.apache.velocity.runtime.parser.node.ASTIdentifier.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTIdentifier.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.GetExecutor.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.AbstractExecutor;1;1;1;0.75;0.75;9;13;4
 org.apache.velocity.runtime.directive.VMProxyArg.getObject(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;4;6;2;0.7777777777777778;0.9318181818181819;57;161;129
-org.apache.velocity.test.EncodingTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.test.EncodingTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.VelocimacroFactory.dumpVMNamespace(java.lang.String);org.apache.velocity.runtime.VelocimacroManager;1;0;1;1.0;0.9444444444444444;3;127;98
 org.apache.velocity.runtime.parser.node.ASTReference.getRoot();org.apache.velocity.runtime.parser.node.SimpleNode;1;5;3;0.7916666666666666;0.9743589743589743;52;147;129
-org.apache.velocity.test.MultiLoaderTestCase.runTest();org.apache.velocity.Template;0;0;0;0;0
-org.apache.velocity.servlet.VelocityServlet.init(org.apache.velocity.servlet.ServletConfig);org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.addProperty(java.lang.Object, java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.test.MultiLoaderTestCase.runTest();org.apache.velocity.Template;0;0;0;0;0;0;0;0
+org.apache.velocity.servlet.VelocityServlet.init(org.apache.velocity.servlet.ServletConfig);org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.addProperty(java.lang.Object, java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.ParserTokenManager.getNextToken();org.apache.velocity.runtime.parser.TokenMgrError;0;19;3;0.8362068965517242;1.0;145;2870;59
-org.apache.velocity.test.EncodingTestCase.runTest();org.apache.velocity.Template;0;0;0;0;0
+org.apache.velocity.test.EncodingTestCase.runTest();org.apache.velocity.Template;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.process();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.9680851063829787;0.926829268292683;69;3140;74
-org.apache.velocity.Template.initDocument();org.apache.velocity.context.InternalContextAdapterImpl;0;0;0;0;0
-org.apache.velocity.anakia.XPathTool.applyTo(java.lang.String, org.apache.velocity.anakia.Element);org.apache.velocity.anakia.XPathCache;0;0;0;0;0
+org.apache.velocity.Template.initDocument();org.apache.velocity.context.InternalContextAdapterImpl;0;0;0;0;0;0;0;0
+org.apache.velocity.anakia.XPathTool.applyTo(java.lang.String, org.apache.velocity.anakia.Element);org.apache.velocity.anakia.XPathCache;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTBlock.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;2;0;1;1.0;0.9259259259259259;5;14;129
 org.apache.velocity.Template.process();org.apache.velocity.runtime.resource.Resource;2;1;3;0.875;0.8333333333333334;18;33;45
-org.apache.velocity.runtime.parser.node.ASTIdentifier.doIntrospection(java.lang.Class);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
-org.apache.velocity.test.IntrospectorTestCase2.runTest();org.apache.velocity.util.introspection.Introspector;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTIdentifier.doIntrospection(java.lang.Class);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
+org.apache.velocity.test.IntrospectorTestCase2.runTest();org.apache.velocity.util.introspection.Introspector;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTAndNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.parser.Parser.ReInit(org.apache.velocity.runtime.parser.CharStream);org.apache.velocity.runtime.parser.JJTParserState;0;0;0;0;0
-org.apache.velocity.test.IntrospectorTestCase.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
-org.apache.velocity.anakia.XPathTool.applyTo(java.lang.String, java.util.List);org.apache.velocity.anakia.XPathCache;0;0;0;0;0
+org.apache.velocity.runtime.parser.Parser.ReInit(org.apache.velocity.runtime.parser.CharStream);org.apache.velocity.runtime.parser.JJTParserState;0;0;0;0;0;0;0;0
+org.apache.velocity.test.IntrospectorTestCase.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
+org.apache.velocity.anakia.XPathTool.applyTo(java.lang.String, java.util.List);org.apache.velocity.anakia.XPathCache;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTReference);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.readLastModified(java.lang.String, org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.readLastModified(java.lang.String, org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.ParserTokenManager.jjFillToken();org.apache.velocity.runtime.parser.Token;6;1;2;0.9917355371900827;0.5384615384615384;11;2870;9
 org.apache.velocity.runtime.parser.node.ASTElseIfStatement.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;3;15;129
-org.apache.velocity.runtime.parser.node.ASTNumberLiteral.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTNumberLiteral.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.VelocimacroFactory.addVelocimacro(java.lang.String, java.lang.String, java.lang.String, java.lang.String[]);org.apache.velocity.runtime.VelocimacroManager;1;6;1;0.5384615384615384;1.0;31;127;98
-org.apache.velocity.test.CommonsExtPropTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
-org.apache.velocity.runtime.parser.node.ASTMethod.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.app.event.EventCartridge;0;0;0;0;0
+org.apache.velocity.test.CommonsExtPropTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTMethod.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.app.event.EventCartridge;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.EscapedDirective();org.apache.velocity.runtime.parser.JJTParserState;2;2;2;0.9882352941176471;0.9523809523809523;17;3140;74
-org.apache.velocity.runtime.RuntimeInstance.initializeLogger();org.apache.velocity.runtime.log.LogManager;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.initializeLogger();org.apache.velocity.runtime.log.LogManager;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTIntegerRange.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;3;0;2;1.0;0.9032258064516129;24;33;129
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTGTNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.Parser.jj_scan_token(int);org.apache.velocity.runtime.parser.ParserTokenManager;1;3;2;0.9820359281437125;0.9912280701754386;24;3140;2870
-org.apache.velocity.app.VelocityEngine.mergeTemplate(java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.runtime.RuntimeInstance.init();org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.mergeTemplate(java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.init();org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.VelocimacroFactory.isVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.VelocimacroManager;1;0;1;1.0;0.9444444444444444;6;127;98
 org.apache.velocity.anakia.AnakiaTask.getRelativePath(java.lang.String);org.apache.velocity.util.StringUtils;1;0;1;1.0;1.0;11;136;149
-org.apache.velocity.runtime.resource.loader.JarResourceLoader.loadJar(java.lang.String);org.apache.velocity.runtime.resource.loader.JarHolder;0;0;0;0;0
-org.apache.velocity.texen.ant.TexenTask.execute();org.apache.velocity.util.StringUtils;0;0;0;0;0
-org.apache.velocity.runtime.resource.loader.JarResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.JarResourceLoader.loadJar(java.lang.String);org.apache.velocity.runtime.resource.loader.JarHolder;0;0;0;0;0;0;0;0
+org.apache.velocity.texen.ant.TexenTask.execute();org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.JarResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.Comment();org.apache.velocity.runtime.parser.JJTParserState;2;5;1;0.9707602339181287;0.96;27;3140;74
-org.apache.velocity.runtime.visitor.VMReferenceMungeVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTReference);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
+org.apache.velocity.runtime.visitor.VMReferenceMungeVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTReference);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTMulNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.test.ExternalLoggerTest.runTest();org.apache.velocity.app.VelocityEngine;0;0;0;0;0
+org.apache.velocity.test.ExternalLoggerTest.runTest();org.apache.velocity.app.VelocityEngine;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.ConditionalOrExpression();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.9649122807017544;0.875;47;3140;74
-org.apache.velocity.test.BaseTestCase.isMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0
+org.apache.velocity.test.BaseTestCase.isMatch(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
 org.apache.velocity.context.VMContext.addVMProxyArg(org.apache.velocity.runtime.directive.VMProxyArg);org.apache.velocity.runtime.directive.VMProxyArg;3;3;1;0.85;0.8125;9;78;161
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTSetDirective);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.node.ASTMethod.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;2;3;2;0.7;0.967741935483871;7;56;129
-org.apache.velocity.anakia.AnakiaTask.process(java.io.File, java.io.File, java.lang.String, org.apache.velocity.anakia.Document);org.apache.velocity.context.AbstractContext;0;0;0;0;0
+org.apache.velocity.anakia.AnakiaTask.process(java.io.File, java.io.File, java.lang.String, org.apache.velocity.anakia.Document);org.apache.velocity.context.AbstractContext;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTText);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.test.EventHandlingTestCase.runTest();org.apache.velocity.context.AbstractContext;0;0;0;0;0
+org.apache.velocity.test.EventHandlingTestCase.runTest();org.apache.velocity.context.AbstractContext;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTDirective.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Parser;2;3;4;0.7857142857142857;0.9884393063583815;17;45;3140
-org.apache.velocity.util.introspection.Introspector.clearCache();org.apache.velocity.util.introspection.IntrospectorBase;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.setConfiguration(org.apache.velocity.runtime.configuration.Configuration);org.apache.velocity.runtime.configuration.Configuration;0;0;0;0;0
+org.apache.velocity.util.introspection.Introspector.clearCache();org.apache.velocity.util.introspection.IntrospectorBase;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.setConfiguration(org.apache.velocity.runtime.configuration.Configuration);org.apache.velocity.runtime.configuration.Configuration;0;0;0;0;0;0;0;0
 org.apache.velocity.test.InlineScopeVMTestCase.runTest();org.apache.velocity.Template;1;1;2;0.8571428571428572;1.0;23;63;33
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTprocess);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTExpression);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.anakia.AnakiaTask.process(java.io.File, java.io.File, java.lang.String, org.apache.velocity.anakia.Document);org.apache.velocity.Template;0;0;0;0;0
-org.apache.velocity.anakia.NodeList.selectNodes(java.lang.String);org.apache.velocity.anakia.XPathCache;0;0;0;0;0
-org.apache.velocity.test.VelocityAppTestCase.runTest();org.apache.velocity.context.AbstractContext;0;0;0;0;0
-org.apache.velocity.test.ConfigurationTestCase.runTest();org.apache.velocity.runtime.configuration.Configuration;0;0;0;0;0
+org.apache.velocity.anakia.AnakiaTask.process(java.io.File, java.io.File, java.lang.String, org.apache.velocity.anakia.Document);org.apache.velocity.Template;0;0;0;0;0;0;0;0
+org.apache.velocity.anakia.NodeList.selectNodes(java.lang.String);org.apache.velocity.anakia.XPathCache;0;0;0;0;0;0;0;0
+org.apache.velocity.test.VelocityAppTestCase.runTest();org.apache.velocity.context.AbstractContext;0;0;0;0;0;0;0;0
+org.apache.velocity.test.ConfigurationTestCase.runTest();org.apache.velocity.runtime.configuration.Configuration;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.directive.VelocimacroProxy.getArgArray(org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.parser.Token;1;1;1;0.96;0.9375;26;101;9
-org.apache.velocity.servlet.VelocityServlet.getTemplate(java.lang.String, java.lang.String);org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
+org.apache.velocity.servlet.VelocityServlet.getTemplate(java.lang.String, java.lang.String);org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.directive.VelocimacroProxy.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.parser.node.SimpleNode;2;4;4;0.8;1.0;23;101;129
-org.apache.velocity.test.MultipleFileResourcePathTest.runTest();org.apache.velocity.Template;0;0;0;0;0
+org.apache.velocity.test.MultipleFileResourcePathTest.runTest();org.apache.velocity.Template;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTModNode.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;3;0;2;1.0;0.896551724137931;17;26;129
-org.apache.velocity.app.VelocityEngine.init(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.runtime.visitor.VMReferenceMungeVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTReference);org.apache.velocity.runtime.parser.node.ASTReference;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.init(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.visitor.VMReferenceMungeVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTReference);org.apache.velocity.runtime.parser.node.ASTReference;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.VelocimacroFactory.initVelocimacro();org.apache.velocity.runtime.VelocimacroManager;2;4;2;0.8181818181818181;0.9333333333333333;54;127;98
-org.apache.velocity.Template.merge(java.io.Writer, org.apache.velocity.context.Context);org.apache.velocity.context.InternalContextAdapterImpl;0;0;0;0;0
+org.apache.velocity.Template.merge(java.io.Writer, org.apache.velocity.context.Context);org.apache.velocity.context.InternalContextAdapterImpl;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTReference.getRoot();org.apache.velocity.runtime.parser.Token;1;5;3;0.7916666666666666;0.95;52;147;9
-org.apache.velocity.test.ClasspathResourceTest.runTest();org.apache.velocity.Template;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.getTemplate(java.lang.String, java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.test.ClasspathResourceTest.runTest();org.apache.velocity.Template;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.getTemplate(java.lang.String, java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.Directive();org.apache.velocity.runtime.directive.Macro;1;9;7;0.9563106796116505;1.0;158;3140;65
 org.apache.velocity.runtime.parser.Parser.SetDirective();org.apache.velocity.runtime.parser.JJTParserState;4;8;1;0.9562841530054644;0.9210526315789473;74;3140;74
-org.apache.velocity.runtime.directive.Foreach.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.parser.Token;0;0;0;0;0
+org.apache.velocity.runtime.directive.Foreach.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.parser.Token;0;0;0;0;0;0;0;0
 org.apache.velocity.test.TemplateTestCase.setUp();org.apache.velocity.context.AbstractContext;1;3;2;0.8125;1.0;23;79;44
-org.apache.velocity.runtime.RuntimeInstance.isVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.isVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTIdentifier.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;1;2;2;0.75;0.9;6;46;9
 org.apache.velocity.runtime.parser.Parser.AdditiveExpression();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.9653179190751445;0.8846153846153846;92;3140;74
 org.apache.velocity.runtime.parser.node.ASTElseIfStatement.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;3;15;129
-org.apache.velocity.texen.ant.Texen.execute();org.apache.velocity.exception.MethodInvocationException;0;0;0;0;0
+org.apache.velocity.texen.ant.Texen.execute();org.apache.velocity.exception.MethodInvocationException;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.EqualityExpression();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.9653179190751445;0.8846153846153846;92;3140;74
-org.apache.velocity.runtime.parser.node.PropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.runtime.parser.node.AbstractExecutor;0;0;0;0;0
-org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.PropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.runtime.parser.node.AbstractExecutor;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTMethod.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;3;3;0.8888888888888888;0.9736842105263158;35;56;129
-org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.readLastModified(java.lang.String, org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.Runtime;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.readLastModified(java.lang.String, org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.Runtime;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.ObjectArray();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.9666666666666667;0.9090909090909091;63;3140;74
 org.apache.velocity.runtime.parser.Parser.UnaryExpression();org.apache.velocity.runtime.parser.JJTParserState;4;8;1;0.9555555555555556;0.9142857142857143;65;3140;74
-org.apache.velocity.runtime.resource.loader.JarResourceLoader.closeJar(java.lang.String);org.apache.velocity.runtime.resource.loader.JarHolder;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.JarResourceLoader.closeJar(java.lang.String);org.apache.velocity.runtime.resource.loader.JarHolder;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTIfStatement.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;2;0;1;1.0;0.9285714285714286;14;25;129
-org.apache.velocity.runtime.parser.node.ASTReference.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.exception.MethodInvocationException;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTReference.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.exception.MethodInvocationException;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.Directive();org.apache.velocity.runtime.directive.Directive;1;9;7;0.9563106796116505;1.0;158;3140;4
-org.apache.velocity.test.MultiLoaderTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.test.MultiLoaderTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTSetDirective.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;1;6;3;0.5714285714285714;0.9411764705882353;17;43;9
-org.apache.velocity.runtime.VelocimacroFactory.getVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
+org.apache.velocity.runtime.VelocimacroFactory.getVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.True();org.apache.velocity.runtime.parser.JJTParserState;2;1;1;0.9940828402366864;0.9473684210526316;13;3140;74
 org.apache.velocity.runtime.parser.node.ASTEQNode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.967741935483871;6;15;129
-org.apache.velocity.runtime.VelocimacroFactory.getVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.init();org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.test.MethodInvocationExceptionTest.runTest();org.apache.velocity.context.AbstractContext;0;0;0;0;0
+org.apache.velocity.runtime.VelocimacroFactory.getVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.init();org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.test.MethodInvocationExceptionTest.runTest();org.apache.velocity.context.AbstractContext;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTStringLiteral.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;2;2;2;0.8;1.0;18;33;129
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTEQNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.directive.Include.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
-org.apache.velocity.runtime.parser.Parser.ReInit(org.apache.velocity.runtime.parser.CharStream);org.apache.velocity.runtime.parser.ParserTokenManager;0;0;0;0;0
-org.apache.velocity.runtime.RuntimeInstance.parse(boolean, java.io.Reader, java.lang.String);org.apache.velocity.runtime.parser.Parser;0;0;0;0;0
+org.apache.velocity.runtime.directive.Include.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.Parser.ReInit(org.apache.velocity.runtime.parser.CharStream);org.apache.velocity.runtime.parser.ParserTokenManager;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.parse(boolean, java.io.Reader, java.lang.String);org.apache.velocity.runtime.parser.Parser;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTSetDirective.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;6;3;0.5714285714285714;1.0;17;43;129
-org.apache.velocity.test.ContextSafetyTestCase.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
+org.apache.velocity.test.ContextSafetyTestCase.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTEscape.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;1;2;0.8;1.0;4;17;129
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTSubtractNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTReference.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;2;1;0.875;1.0;5;147;129
 org.apache.velocity.runtime.parser.Parser.Reference();org.apache.velocity.runtime.parser.JJTParserState;4;9;1;0.9482758620689655;0.9;82;3140;74
 org.apache.velocity.runtime.parser.node.ASTMethod.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;1;3;2;0.7;0.9166666666666666;7;56;9
-org.apache.velocity.Template.process();org.apache.velocity.runtime.parser.ParseException;0;0;0;0;0
-org.apache.velocity.test.MethodInvocationExceptionTest.runTest();org.apache.velocity.exception.MethodInvocationException;0;0;0;0;0
+org.apache.velocity.Template.process();org.apache.velocity.runtime.parser.ParseException;0;0;0;0;0;0;0;0
+org.apache.velocity.test.MethodInvocationExceptionTest.runTest();org.apache.velocity.exception.MethodInvocationException;0;0;0;0;0;0;0;0
 org.apache.velocity.test.provider.TestProvider.showPerson(org.apache.velocity.test.provider.Person);org.apache.velocity.test.provider.Person;1;0;1;1.0;0.0;3;163;3
-org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTDirective);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
+org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTDirective);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
 org.apache.velocity.Template.merge(java.io.Writer, org.apache.velocity.context.Context);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;3;1.0;1.0;8;33;129
 org.apache.velocity.runtime.parser.Parser.Assignment();org.apache.velocity.runtime.parser.JJTParserState;4;3;1;0.9824561403508771;0.8571428571428572;37;3140;74
-org.apache.velocity.runtime.parser.node.ASTNumberLiteral.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTNumberLiteral.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTLENode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.9642857142857143;4;13;129
 org.apache.velocity.runtime.parser.ParserTokenManager.getNextToken();org.apache.velocity.runtime.parser.Token;0;19;3;0.8362068965517242;1.0;145;2870;9
 org.apache.velocity.runtime.directive.Foreach.getIterator(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.parser.Token;1;0;4;1.0;0.95;36;62;9
 org.apache.velocity.runtime.parser.node.ASTDivNode.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;3;0;2;1.0;0.896551724137931;17;26;129
 org.apache.velocity.Template.initDocument();org.apache.velocity.runtime.resource.Resource;2;0;2;1.0;0.8;5;33;45
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTLTNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader.init(org.apache.velocity.runtime.resource.loader.ExtendedProperties);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader.init(org.apache.velocity.runtime.resource.loader.ExtendedProperties);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTComment);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.Parser.Directive();org.apache.velocity.runtime.parser.Token;1;9;7;0.9563106796116505;0.9821428571428571;158;3140;9
-org.apache.velocity.test.ConfigurationTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.test.ConfigurationTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.Template.process();org.apache.velocity.runtime.resource.loader.ResourceLoader;1;1;3;0.875;1.0;18;33;20
 org.apache.velocity.runtime.parser.Parser.ConditionalAndExpression();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.9649122807017544;0.875;47;3140;74
-org.apache.velocity.runtime.resource.ResourceManagerImpl.refreshResource(java.lang.String, org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0
-org.apache.velocity.runtime.directive.Literal.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.refreshResource(java.lang.String, org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.directive.Literal.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTEscape.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;1;1;2;0.8;0.875;4;17;9
-org.apache.velocity.texen.ant.Texen.execute();org.apache.velocity.util.StringUtils;0;0;0;0;0
-org.apache.velocity.runtime.directive.Foreach.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
+org.apache.velocity.texen.ant.Texen.execute();org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.directive.Foreach.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.jj_ntk();org.apache.velocity.runtime.parser.ParserTokenManager;1;1;2;0.9940119760479041;0.9910714285714286;4;3140;2870
-org.apache.velocity.runtime.RuntimeInstance.loadDirective(java.lang.String, java.lang.String);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
-org.apache.velocity.test.MethodInvocationExceptionTest.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.evaluate(java.io.Reader, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.context.InternalContextAdapterImpl;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.loadDirective(java.lang.String, java.lang.String);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
+org.apache.velocity.test.MethodInvocationExceptionTest.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.evaluate(java.io.Reader, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.context.InternalContextAdapterImpl;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTModNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.texen.ant.Texen.execute();org.apache.velocity.texen.Generator;0;0;0;0;0
-org.apache.velocity.runtime.parser.Parser.parse(java.io.Reader, java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0
-org.apache.velocity.anakia.AnakiaTask.execute();org.apache.velocity.app.VelocityEngine;0;0;0;0;0
-org.apache.velocity.test.ClassloaderChangeTest.logVelocityMessage(int, java.lang.String);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0
-org.apache.velocity.texen.Generator.parse(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);org.apache.velocity.Template;0;0;0;0;0
-org.apache.velocity.test.VelocityAppTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0
+org.apache.velocity.texen.ant.Texen.execute();org.apache.velocity.texen.Generator;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.Parser.parse(java.io.Reader, java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
+org.apache.velocity.anakia.AnakiaTask.execute();org.apache.velocity.app.VelocityEngine;0;0;0;0;0;0;0;0
+org.apache.velocity.test.ClassloaderChangeTest.logVelocityMessage(int, java.lang.String);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0;0;0;0
+org.apache.velocity.texen.Generator.parse(java.lang.Object, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);org.apache.velocity.Template;0;0;0;0;0;0;0;0
+org.apache.velocity.test.VelocityAppTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.Identifier();org.apache.velocity.runtime.parser.JJTParserState;2;1;1;0.9940828402366864;0.9473684210526316;13;3140;74
 org.apache.velocity.runtime.parser.Parser.Directive();org.apache.velocity.runtime.parser.ParserTokenManager;3;9;7;0.9563106796116505;0.9808917197452229;158;3140;2870
-org.apache.velocity.runtime.parser.node.ASTReference.literal();org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.info(java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.test.MiscTestCase.runTest();org.apache.velocity.util.StringUtils;0;0;0;0;0
-org.apache.velocity.test.InlineScopeVMTestCase.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTReference.literal();org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.info(java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.test.MiscTestCase.runTest();org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
+org.apache.velocity.test.InlineScopeVMTestCase.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
 org.apache.velocity.test.ContextSafetyTestCase.runTest();org.apache.velocity.context.AbstractContext;1;1;3;0.8888888888888888;1.0;32;58;44
 org.apache.velocity.runtime.directive.Parse.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.resource.Resource;1;2;4;0.8461538461538461;0.9444444444444444;39;50;45
-org.apache.velocity.app.VelocityEngine.error(java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.error(java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTDivNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.Template.merge(java.io.Writer, org.apache.velocity.context.Context);org.apache.velocity.runtime.resource.Resource;2;0;3;1.0;0.8;8;33;45
-org.apache.velocity.app.VelocityEngine.debug(java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.debug(java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.directive.VelocimacroProxy.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.util.StringUtils;0;4;4;0.8;1.0;23;101;149
-org.apache.velocity.runtime.directive.Include.renderOutput(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
-org.apache.velocity.runtime.parser.node.ASTReference.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.app.event.EventCartridge;0;0;0;0;0
+org.apache.velocity.runtime.directive.Include.renderOutput(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTReference.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.app.event.EventCartridge;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.jj_consume_token(int);org.apache.velocity.runtime.parser.ParserTokenManager;1;8;2;0.9520958083832335;0.9915966386554622;23;3140;2870
-org.apache.velocity.test.VelocimacroTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0
+org.apache.velocity.test.VelocimacroTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.SimpleNode.getColumn();org.apache.velocity.runtime.parser.Token;1;0;1;1.0;0.8571428571428572;3;129;9
-org.apache.velocity.runtime.directive.Foreach.getIterator(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
+org.apache.velocity.runtime.directive.Foreach.getIterator(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTStringLiteral.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;2;3;0.8461538461538461;1.0;6;33;129
 org.apache.velocity.runtime.VelocimacroFactory.getVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.VelocimacroManager;1;1;1;0.9230769230769231;0.9473684210526316;8;127;98
-org.apache.velocity.test.InlineScopeVMTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.test.InlineScopeVMTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.Method();org.apache.velocity.runtime.parser.JJTParserState;4;7;1;0.9613259668508287;0.9142857142857143;64;3140;74
-org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0
-org.apache.velocity.runtime.resource.ResourceManagerImpl.initialize(org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.resource.loader.ResourceLoaderFactory;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.getResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.Resource;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.initialize(org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.resource.loader.ResourceLoaderFactory;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTSetDirective.getLeftHandSide();org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;3;43;129
 org.apache.velocity.runtime.directive.VMProxyArg.setup();org.apache.velocity.util.StringUtils;0;4;3;0.84;1.0;48;161;149
-org.apache.velocity.app.VelocityEngine.mergeTemplate(java.io.Writer, java.lang.String, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.closeDbConnection(java.sql.Connection);org.apache.velocity.runtime.Runtime;0;0;0;0;0
-org.apache.velocity.test.TemplateTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.mergeTemplate(java.io.Writer, java.lang.String, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.closeDbConnection(java.sql.Connection);org.apache.velocity.runtime.Runtime;0;0;0;0;0;0;0;0
+org.apache.velocity.test.TemplateTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.Template.initDocument();org.apache.velocity.runtime.parser.node.SimpleNode;1;0;2;1.0;1.0;5;33;129
-org.apache.velocity.test.EventHandlingTestCase.runTest();org.apache.velocity.app.event.EventCartridge;0;0;0;0;0
-org.apache.velocity.texen.ant.Texen.execute();org.apache.velocity.app.Velocity;0;0;0;0;0
-org.apache.velocity.runtime.parser.Parser.parse(java.io.Reader, java.lang.String);org.apache.velocity.runtime.parser.VelocityCharStream;0;0;0;0;0
-org.apache.velocity.servlet.VelocityServlet.initVelocity(org.apache.velocity.servlet.ServletConfig);org.apache.velocity.app.Velocity;0;0;0;0;0
+org.apache.velocity.test.EventHandlingTestCase.runTest();org.apache.velocity.app.event.EventCartridge;0;0;0;0;0;0;0;0
+org.apache.velocity.texen.ant.Texen.execute();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.Parser.parse(java.io.Reader, java.lang.String);org.apache.velocity.runtime.parser.VelocityCharStream;0;0;0;0;0;0;0;0
+org.apache.velocity.servlet.VelocityServlet.initVelocity(org.apache.velocity.servlet.ServletConfig);org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTAddNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTGENode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.test.ContextSafetyTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.test.ContextSafetyTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTNENode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.967741935483871;6;15;129
 org.apache.velocity.runtime.parser.node.ASTNotNode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;4;13;129
-org.apache.velocity.servlet.VelocityServlet.mergeTemplate(org.apache.velocity.context.Context, org.apache.velocity.servlet.HttpServletResponse, org.apache.velocity.Template);org.apache.velocity.io.VelocityWriter;0;0;0;0;0
-org.apache.velocity.runtime.resource.loader.FileResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
+org.apache.velocity.servlet.VelocityServlet.mergeTemplate(org.apache.velocity.context.Context, org.apache.velocity.servlet.HttpServletResponse, org.apache.velocity.Template);org.apache.velocity.io.VelocityWriter;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.FileResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTSetDirective.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.ASTReference;1;4;4;0.7777777777777778;1.0;11;43;147
-org.apache.velocity.anakia.AnakiaElement.selectNodes(java.lang.String);org.apache.velocity.anakia.XPathCache;0;0;0;0;0
+org.apache.velocity.anakia.AnakiaElement.selectNodes(java.lang.String);org.apache.velocity.anakia.XPathCache;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTText.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;1;3;0.8333333333333334;1.0;6;19;129
 org.apache.velocity.runtime.parser.Parser.RelationalExpression();org.apache.velocity.runtime.parser.JJTParserState;4;6;1;0.9661016949152542;0.9;166;3140;74
-org.apache.velocity.runtime.RuntimeInstance.log(int, java.lang.Object);org.apache.velocity.util.StringUtils;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.log(int, java.lang.Object);org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.directive.Foreach.getIterator(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.util.introspection.IntrospectionCacheData;2;0;4;1.0;0.8571428571428572;36;62;0
 org.apache.velocity.runtime.parser.node.ASTStringLiteral.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;1;2;3;0.8461538461538461;0.9375;6;33;9
 org.apache.velocity.runtime.parser.Parser.IntegerRange();org.apache.velocity.runtime.parser.JJTParserState;4;7;1;0.96045197740113;0.9032258064516129;95;3140;74
-org.apache.velocity.runtime.VelocimacroFactory.initVelocimacro();org.apache.velocity.runtime.resource.Resource;0;0;0;0;0
-org.apache.velocity.runtime.directive.VelocimacroProxy.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
+org.apache.velocity.runtime.VelocimacroFactory.initVelocimacro();org.apache.velocity.runtime.resource.Resource;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.directive.VelocimacroProxy.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTEscapedDirective.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;2;1.0;1.0;4;13;129
-org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.ResourceFactory;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.loadResource(int, java.lang.String, java.lang.String);org.apache.velocity.runtime.resource.ResourceFactory;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.jj_consume_token(int);org.apache.velocity.runtime.parser.Token;1;8;2;0.9520958083832335;0.9375;23;3140;9
 org.apache.velocity.runtime.parser.Parser.Directive();org.apache.velocity.runtime.parser.JJTParserState;4;9;7;0.9563106796116505;0.9516129032258065;158;3140;74
-org.apache.velocity.runtime.RuntimeInstance.createNewParser();org.apache.velocity.runtime.parser.Parser;0;0;0;0;0
-org.apache.velocity.runtime.parser.node.ASTReference.setValue(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0
-org.apache.velocity.runtime.directive.VelocimacroProxy.parseTree(java.lang.String[]);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.evaluate(java.io.InputStream, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.test.ClasspathResourceTest.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.createNewParser();org.apache.velocity.runtime.parser.Parser;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTReference.setValue(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.directive.VelocimacroProxy.parseTree(java.lang.String[]);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.evaluate(java.io.InputStream, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.test.ClasspathResourceTest.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.directive.VMProxyArg.setup();org.apache.velocity.runtime.parser.node.SimpleNode;3;4;3;0.84;0.9512195121951219;48;161;129
 org.apache.velocity.runtime.parser.Parser.EscapedDirective();org.apache.velocity.runtime.parser.Token;1;2;2;0.9882352941176471;0.9230769230769231;17;3140;9
 org.apache.velocity.test.IntrospectorTestCase.runTest();org.apache.velocity.util.introspection.Introspector;1;4;1;0.8181818181818181;1.0;54;86;21
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTElseStatement);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.directive.VelocimacroProxy.setupProxyArgs(int[], java.lang.String[]);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
-org.apache.velocity.test.AnakiaTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.runtime.directive.VelocimacroProxy.setupProxyArgs(int[], java.lang.String[]);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
+org.apache.velocity.test.AnakiaTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.Escape();org.apache.velocity.runtime.parser.JJTParserState;2;4;3;0.9774011299435028;0.9666666666666667;40;3140;74
 org.apache.velocity.test.TemplateTestCase.runTest();org.apache.velocity.Template;1;2;2;0.8333333333333334;1.0;17;79;33
 org.apache.velocity.runtime.parser.Parser.getToken(int);org.apache.velocity.runtime.parser.Token;0;1;2;0.9939759036144579;1.0;8;3140;9
-org.apache.velocity.runtime.parser.node.ASTReference.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTReference.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.Token;0;0;0;0;0;0;0;0
 org.apache.velocity.texen.ant.TexenTask.execute();org.apache.velocity.texen.Generator;3;6;2;0.7692307692307692;0.9142857142857143;39;78;108
-org.apache.velocity.runtime.resource.ResourceManagerImpl.getLoaderNameForResource(java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
-org.apache.velocity.runtime.resource.loader.JarResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.getLoaderNameForResource(java.lang.String);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.JarResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTSetDirective.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;3;4;4;0.7777777777777778;0.9166666666666666;11;43;129
-org.apache.velocity.runtime.parser.Parser.parse(java.io.Reader, java.lang.String);org.apache.velocity.runtime.parser.ParserTokenManager;0;0;0;0;0
+org.apache.velocity.runtime.parser.Parser.parse(java.io.Reader, java.lang.String);org.apache.velocity.runtime.parser.ParserTokenManager;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.ReInit(org.apache.velocity.runtime.parser.ParserTokenManager);org.apache.velocity.runtime.parser.JJTParserState;1;4;1;0.9759036144578314;0.9473684210526316;9;3140;74
-org.apache.velocity.app.VelocityEngine.setProperty(java.lang.Object, java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.test.TemplateTestCase.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
-org.apache.velocity.runtime.resource.loader.FileResourceLoader.init(org.apache.velocity.runtime.resource.loader.ExtendedProperties);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.evaluate(java.io.Reader, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.setProperty(java.lang.Object, java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.test.TemplateTestCase.runTest();org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.FileResourceLoader.init(org.apache.velocity.runtime.resource.loader.ExtendedProperties);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.evaluate(java.io.Reader, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.parser.node.SimpleNode;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.resource.Resource.isSourceModified();org.apache.velocity.runtime.resource.loader.ResourceLoader;1;0;1;1.0;1.0;3;45;20
-org.apache.velocity.runtime.parser.node.ASTMethod.doIntrospection(java.lang.Class, java.lang.Object[], org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.evaluate(java.io.Reader, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTMethod.doIntrospection(java.lang.Class, java.lang.Object[], org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.evaluate(java.io.Reader, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTReference.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;5;3;0.75;1.0;16;147;129
-org.apache.velocity.runtime.RuntimeInstance.getVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0
-org.apache.velocity.test.TexenClasspathTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.getVelocimacro(java.lang.String, java.lang.String);org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0;0;0;0
+org.apache.velocity.test.TexenClasspathTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTDirective.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;0;3;4;0.7857142857142857;1.0;17;45;129
 org.apache.velocity.convert.WebMacro.convertTemplate(java.lang.String);org.apache.velocity.util.StringUtils;0;3;1;0.7;1.0;7;68;149
 org.apache.velocity.runtime.parser.node.ASTDirective.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.directive.Directive;1;2;1;0.7777777777777778;1.0;9;45;4
-org.apache.velocity.test.MultipleFileResourcePathTest.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
-org.apache.velocity.test.ClassloaderChangeTest.runTest();org.apache.velocity.context.AbstractContext;0;0;0;0;0
+org.apache.velocity.test.MultipleFileResourcePathTest.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
+org.apache.velocity.test.ClassloaderChangeTest.runTest();org.apache.velocity.context.AbstractContext;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTAndNode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;8;17;129
 org.apache.velocity.runtime.parser.node.ASTIdentifier.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.util.introspection.IntrospectionCacheData;2;2;2;0.8666666666666667;0.8181818181818181;25;46;0
-org.apache.velocity.texen.ant.TexenTask.execute();org.apache.velocity.app.Velocity;0;0;0;0;0
+org.apache.velocity.texen.ant.TexenTask.execute();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTSubtractNode.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;3;0;2;1.0;0.896551724137931;13;22;129
-org.apache.velocity.runtime.directive.Parse.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
+org.apache.velocity.runtime.directive.Parse.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
 org.apache.velocity.test.TemplateTestCase.setUp();org.apache.velocity.test.provider.TestProvider;5;3;2;0.8125;0.8837209302325582;23;79;163
-org.apache.velocity.texen.util.PropertiesUtil.load(java.lang.String);org.apache.velocity.texen.Generator;0;0;0;0;0
-org.apache.velocity.runtime.parser.node.ASTSetDirective.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.app.event.EventCartridge;0;0;0;0;0
+org.apache.velocity.texen.util.PropertiesUtil.load(java.lang.String);org.apache.velocity.texen.Generator;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.ASTSetDirective.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.app.event.EventCartridge;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.SimpleNode.jjtOpen();org.apache.velocity.runtime.parser.Parser;1;0;1;1.0;0.9939393939393939;3;129;3140
-org.apache.velocity.runtime.RuntimeInstance.dumpVMNamespace(java.lang.String);org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.dumpVMNamespace(java.lang.String);org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTNotNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.test.IntrospectorTestCase2.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0
+org.apache.velocity.test.IntrospectorTestCase2.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTSetDirective.getRightHandSide();org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;3;43;129
-org.apache.velocity.runtime.RuntimeInstance.initializeParserPool();org.apache.velocity.util.SimplePool;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.initializeParserPool();org.apache.velocity.util.SimplePool;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTAddNode.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;3;0;2;1.0;0.896551724137931;13;22;129
-org.apache.velocity.servlet.VelocityServlet.mergeTemplate(org.apache.velocity.context.Context, org.apache.velocity.servlet.HttpServletResponse, org.apache.velocity.Template);org.apache.velocity.util.SimplePool;0;0;0;0;0
-org.apache.velocity.texen.util.PropertiesUtil.loadFromTemplatePath(java.lang.String);org.apache.velocity.texen.Generator;0;0;0;0;0
-org.apache.velocity.test.EventHandlingTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0
-org.apache.velocity.runtime.parser.node.PropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0
+org.apache.velocity.servlet.VelocityServlet.mergeTemplate(org.apache.velocity.context.Context, org.apache.velocity.servlet.HttpServletResponse, org.apache.velocity.Template);org.apache.velocity.util.SimplePool;0;0;0;0;0;0;0;0
+org.apache.velocity.texen.util.PropertiesUtil.loadFromTemplatePath(java.lang.String);org.apache.velocity.texen.Generator;0;0;0;0;0;0;0;0
+org.apache.velocity.test.EventHandlingTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.PropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.util.introspection.Introspector;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTObjectArray.value(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;2;0;1;1.0;0.9285714285714286;8;17;129
 org.apache.velocity.runtime.parser.Parser.jj_ntk();org.apache.velocity.runtime.parser.Token;1;1;2;0.9940119760479041;0.8888888888888888;4;3140;9
 org.apache.velocity.context.VMContext.put(java.lang.Object, java.lang.String);org.apache.velocity.runtime.directive.VMProxyArg;1;4;1;0.8095238095238095;1.0;19;78;161
 org.apache.velocity.runtime.parser.node.SimpleNode.getLine();org.apache.velocity.runtime.parser.Token;1;0;1;1.0;0.8571428571428572;3;129;9
-org.apache.velocity.test.EncodingTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0
+org.apache.velocity.test.EncodingTestCase.runTest();org.apache.velocity.app.Velocity;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.directive.VelocimacroProxy.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.context.VMContext;1;4;4;0.8;0.9565217391304348;23;101;78
 org.apache.velocity.runtime.resource.ContentResource.process();org.apache.velocity.runtime.resource.Resource;2;0;3;1.0;0.8571428571428572;15;17;45
 org.apache.velocity.runtime.parser.node.PropertyExecutor.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.AbstractExecutor;1;0;1;1.0;0.6666666666666667;9;16;4
-org.apache.velocity.app.VelocityEngine.templateExists(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.servlet.VelocityServlet.getTemplate(java.lang.String);org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.invokeVelocimacro(java.io.Writer, java.lang.String, java.lang.String, java.lang.String[], org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.templateExists(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.servlet.VelocityServlet.getTemplate(java.lang.String);org.apache.velocity.runtime.RuntimeSingleton;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.invokeVelocimacro(java.io.Writer, java.lang.String, java.lang.String, java.lang.String[], org.apache.velocity.context.Context);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTMethod);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.servlet.VelocityServlet.createContext(org.apache.velocity.servlet.HttpServletRequest, org.apache.velocity.servlet.HttpServletResponse);org.apache.velocity.context.AbstractContext;0;0;0;0;0
-org.apache.velocity.runtime.directive.Include.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
+org.apache.velocity.servlet.VelocityServlet.createContext(org.apache.velocity.servlet.HttpServletRequest, org.apache.velocity.servlet.HttpServletResponse);org.apache.velocity.context.AbstractContext;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.directive.Include.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
 org.apache.velocity.anakia.AnakiaTask.execute();org.apache.velocity.runtime.resource.Resource;1;9;2;0.6666666666666667;0.9565217391304348;40;136;45
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTOrNode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.Parser.ElseIfStatement();org.apache.velocity.runtime.parser.JJTParserState;4;7;1;0.9633507853403142;0.9333333333333333;106;3140;74
 org.apache.velocity.runtime.directive.Parse.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.parser.node.SimpleNode;3;2;4;0.8461538461538461;1.0;39;50;129
 org.apache.velocity.runtime.parser.Parser.Text();org.apache.velocity.runtime.parser.JJTParserState;2;5;1;0.9714285714285714;0.9655172413793104;39;3140;74
-org.apache.velocity.test.TexenTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0
+org.apache.velocity.test.TexenTestCase.runTest();org.apache.velocity.test.BaseTestCase;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTNENode);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.Parser.getNextToken();org.apache.velocity.runtime.parser.ParserTokenManager;1;2;2;0.9879518072289156;0.9910714285714286;7;3140;2870
-org.apache.velocity.runtime.parser.node.PropertyExecutor.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.app.event.EventCartridge;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.PropertyExecutor.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.app.event.EventCartridge;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTNumberLiteral);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
-org.apache.velocity.runtime.parser.node.BooleanPropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.runtime.parser.node.AbstractExecutor;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.BooleanPropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.runtime.parser.node.AbstractExecutor;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTOrNode.evaluate(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;0.962962962962963;7;16;129
 org.apache.velocity.runtime.parser.node.ASTMethod.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.util.introspection.IntrospectionCacheData;2;3;3;0.8888888888888888;0.8461538461538461;35;56;0
-org.apache.velocity.app.VelocityEngine.evaluate(java.io.Reader, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.parser.ParseException;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.evaluate(java.io.Reader, java.io.Writer, java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.runtime.parser.ParseException;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.resource.ContentResource.process();org.apache.velocity.runtime.resource.loader.ResourceLoader;1;0;3;1.0;1.0;15;17;20
-org.apache.velocity.runtime.directive.Macro.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
-org.apache.velocity.runtime.parser.node.BooleanPropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.runtime.parser.node.PropertyExecutor;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.init(java.util.Properties);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.getProperty(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
-org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.runtime.Runtime;0;0;0;0;0
+org.apache.velocity.runtime.directive.Macro.init(org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node, org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.node.BooleanPropertyExecutor.discover(java.lang.Class, java.lang.String);org.apache.velocity.runtime.parser.node.PropertyExecutor;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.init(java.util.Properties);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.getProperty(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.loader.DataSourceResourceLoader.getResourceStream(java.lang.String);org.apache.velocity.runtime.Runtime;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.VelocimacroManager.parseTree(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.util.StringUtils;0;2;3;0.9;1.0;10;98;149
-org.apache.velocity.app.VelocityEngine.getTemplate(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.getTemplate(java.lang.String);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTWord);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.parser.node.ASTIdentifier.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.AbstractExecutor;1;2;2;0.8666666666666667;1.0;25;46;4
-org.apache.velocity.runtime.directive.VelocimacroProxy.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0
+org.apache.velocity.runtime.directive.VelocimacroProxy.render(java.io.Writer, org.apache.velocity.context.InternalContextAdapter, org.apache.velocity.runtime.parser.node.Node);org.apache.velocity.runtime.directive.Directive;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.VelocimacroManager.parseTree(org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;2;3;0.9;1.0;10;98;129
-org.apache.velocity.runtime.RuntimeInstance.addVelocimacro(java.lang.String, java.lang.String, java.lang.String, java.lang.String[]);org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.addVelocimacro(java.lang.String, java.lang.String, java.lang.String, java.lang.String[]);org.apache.velocity.runtime.VelocimacroFactory;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.Escape();org.apache.velocity.runtime.parser.Token;2;4;3;0.9774011299435028;0.9047619047619048;40;3140;9
 org.apache.velocity.runtime.parser.Parser.StringLiteral();org.apache.velocity.runtime.parser.JJTParserState;2;1;1;0.9940828402366864;0.9473684210526316;13;3140;74
-org.apache.velocity.app.VelocityEngine.warn(java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.warn(java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.visitor.BaseVisitor.visit(java.lang.Object, org.apache.velocity.runtime.parser.node.ASTFalse);org.apache.velocity.runtime.parser.node.SimpleNode;1;0;1;1.0;1.0;4;142;129
 org.apache.velocity.runtime.resource.loader.FileResourceLoader.isSourceModified(org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.Resource;2;1;1;0.8888888888888888;0.8333333333333334;8;37;45
-org.apache.velocity.runtime.VelocimacroManager.createVelocimacro(java.lang.String);org.apache.velocity.runtime.directive.VelocimacroProxy;0;0;0;0;0
-org.apache.velocity.runtime.parser.Parser.SetDirective();org.apache.velocity.runtime.parser.ParserTokenManager;0;0;0;0;0
+org.apache.velocity.runtime.VelocimacroManager.createVelocimacro(java.lang.String);org.apache.velocity.runtime.directive.VelocimacroProxy;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.parser.Parser.SetDirective();org.apache.velocity.runtime.parser.ParserTokenManager;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.NumberLiteral();org.apache.velocity.runtime.parser.JJTParserState;2;1;1;0.9940828402366864;0.9473684210526316;13;3140;74
 org.apache.velocity.texen.Generator.parse(java.lang.String, org.apache.velocity.context.Context);org.apache.velocity.Template;1;3;2;0.8125;1.0;9;108;33
 org.apache.velocity.runtime.resource.loader.FileResourceLoader.getLastModified(org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.Resource;1;1;1;0.875;0.9166666666666666;5;37;45
-org.apache.velocity.texen.ant.TexenTask.setContextProperties(java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0
+org.apache.velocity.texen.ant.TexenTask.setContextProperties(java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTReference.execute(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;2;2;1;0.9473684210526316;0.9310344827586207;7;147;129
-org.apache.velocity.runtime.RuntimeInstance.parse(boolean, java.io.Reader, java.lang.String);org.apache.velocity.util.SimplePool;0;0;0;0;0
-org.apache.velocity.runtime.resource.ResourceManagerImpl.refreshResource(java.lang.String, org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
-org.apache.velocity.runtime.resource.ResourceManagerImpl.initialize(org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0
-org.apache.velocity.app.VelocityEngine.setApplicationAttribute(java.lang.Object, java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0
+org.apache.velocity.runtime.RuntimeInstance.parse(boolean, java.io.Reader, java.lang.String);org.apache.velocity.util.SimplePool;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.refreshResource(java.lang.String, org.apache.velocity.runtime.resource.Resource);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
+org.apache.velocity.runtime.resource.ResourceManagerImpl.initialize(org.apache.velocity.runtime.RuntimeServices);org.apache.velocity.runtime.resource.loader.ResourceLoader;0;0;0;0;0;0;0;0
+org.apache.velocity.app.VelocityEngine.setApplicationAttribute(java.lang.Object, java.lang.Object);org.apache.velocity.runtime.RuntimeInstance;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.node.ASTReference.setValue(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;4;2;3;0.9642857142857143;0.8888888888888888;43;147;129
-org.apache.velocity.util.introspection.Introspector.getMethod(java.lang.Class, java.lang.Object[], java.lang.String);org.apache.velocity.util.introspection.IntrospectorBase;0;0;0;0;0
+org.apache.velocity.util.introspection.Introspector.getMethod(java.lang.Class, java.lang.Object[], java.lang.String);org.apache.velocity.util.introspection.IntrospectorBase;0;0;0;0;0;0;0;0
 org.apache.velocity.test.ContextSafetyTestCase.runTest();org.apache.velocity.Template;1;1;3;0.8888888888888888;1.0;32;58;33
-org.apache.velocity.servlet.VelocityServlet.mergeTemplate(org.apache.velocity.context.Context, org.apache.velocity.servlet.HttpServletResponse, org.apache.velocity.Template);org.apache.velocity.Template;0;0;0;0;0
+org.apache.velocity.servlet.VelocityServlet.mergeTemplate(org.apache.velocity.context.Context, org.apache.velocity.servlet.HttpServletResponse, org.apache.velocity.Template);org.apache.velocity.Template;0;0;0;0;0;0;0;0
 org.apache.velocity.runtime.parser.Parser.getToken(int);org.apache.velocity.runtime.parser.ParserTokenManager;1;1;2;0.9939759036144579;0.990990990990991;8;3140;2870
 org.apache.velocity.runtime.parser.ParseException.getMessage();org.apache.velocity.runtime.parser.Token;4;5;1;0.5454545454545454;0.6923076923076923;39;98;9
 org.apache.velocity.runtime.parser.node.ASTIdentifier.init(java.lang.Object, org.apache.velocity.context.InternalContextAdapter);org.apache.velocity.runtime.parser.node.SimpleNode;1;2;2;0.75;1.0;6;46;129
 org.apache.velocity.runtime.parser.Parser.Directive();org.apache.velocity.runtime.parser.node.ASTDirective;1;9;7;0.9563106796116505;0.9821428571428571;158;3140;45
-org.apache.velocity.texen.ant.Texen.processContextProperties(java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0
+org.apache.velocity.texen.ant.Texen.processContextProperties(java.lang.String);org.apache.velocity.util.StringUtils;0;0;0;0;0;0;0;0

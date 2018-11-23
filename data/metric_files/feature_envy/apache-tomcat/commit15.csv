@@ -633,7 +633,7 @@ org.apache.catalina.startup.TldConfig.lifecycleEvent(org.apache.catalina.Lifecyc
 org.apache.catalina.ha.session.ReplicatedSession.readObjectData(java.io.ObjectInputStream);org.apache.catalina.session.StandardSession;1;0;1;1.0;0.9868421052631579;3;122;604
 org.apache.coyote.ajp.AjpMessage.appendByteChunk(org.apache.tomcat.util.buf.ByteChunk);org.apache.tomcat.util.buf.ByteChunk;3;3;2;0.896551724137931;0.94;9;235;425
 org.apache.jasper.compiler.Generator.generatePreamble();org.apache.jasper.compiler.ServletWriter;4;2;1;0.9833333333333333;0.7777777777777778;19;2649;54
-org.apache.catalina.connector.Request.getHost();org.apache.tomcat.util.http.mapper.MappingData;0;0;0;0;0
+org.apache.catalina.connector.Request.getHost();org.apache.tomcat.util.http.mapper.MappingData;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.PlugIn);org.apache.jasper.compiler.JspUtil;1;2;3;1.0;1.0;23;1036;619
 org.apache.coyote.http11.InternalAprInputBuffer.parseHeader();org.apache.coyote.http11.Constants;0;1;5;0.9411764705882353;1.0;90;303;0
 org.apache.catalina.connector.RequestFacade.getLocales();org.apache.catalina.Globals;0;0;3;1.0;1.0;11;468;0
@@ -1153,7 +1153,7 @@ org.apache.catalina.startup.IgnoreAnnotationsRule.begin(java.lang.String, java.l
 org.apache.catalina.ant.jmx.JMXAccessorGetTask.jmxGet(java.lang.String, javax.management.MBeanServerConnection);org.apache.catalina.ant.jmx.JMXAccessorTask;3;1;2;0.8888888888888888;0.9473684210526316;13;31;361
 org.apache.jasper.servlet.JspServletWrapper.handleJspException(java.lang.Exception);org.apache.jasper.compiler.JavacErrorDetail;3;2;5;0.9487179487179487;0.8571428571428572;41;326;89
 org.apache.catalina.connector.Response.clearEncoders();org.apache.catalina.connector.OutputBuffer;1;0;1;1.0;0.9714285714285714;3;619;210
-org.apache.el.lang.ExpressionBuilder.createMethodExpression(java.lang.Class<?>, java.lang.Class<?>[]);org.apache.el.util.MessageFactory;0;0;0;0;0
+org.apache.el.lang.ExpressionBuilder.createMethodExpression(java.lang.Class<?>, java.lang.Class<?>[]);org.apache.el.util.MessageFactory;0;0;0;0;0;0;0;0
 org.apache.naming.NamingContext.lookup(boolean, javax.naming.Name);org.apache.naming.NamingEntry;2;4;2;0.9245283018867925;0.92;47;282;16
 org.apache.coyote.ajp.AjpProtocol.init();org.apache.tomcat.util.net.AbstractEndpoint;1;2;3;0.9692307692307692;0.9864864864864865;14;319;392
 org.apache.catalina.session.StandardSession.writeObject(java.io.ObjectOutputStream);org.apache.tomcat.util.res.StringManager;1;12;1;0.8817204301075269;1.0;38;604;52
@@ -1551,7 +1551,7 @@ org.apache.catalina.ha.session.DeltaManager.handleGET_ALL_SESSIONS(org.apache.ca
 org.apache.coyote.http11.Http11AprProcessor.prepareRequest();org.apache.coyote.Response;1;3;9;0.9454545454545454;0.987012987012987;132;767;250
 org.apache.catalina.realm.JAASRealm.authenticate(java.lang.String, javax.security.auth.callback.CallbackHandler);org.apache.catalina.realm.RealmBase;0;3;2;0.9411764705882353;1.0;68;195;616
 org.apache.tomcat.util.http.Cookies.processCookies(org.apache.tomcat.util.http.MimeHeaders);org.apache.tomcat.util.buf.ByteChunk;3;1;3;0.9523809523809523;0.9454545454545454;22;247;425
-org.apache.catalina.loader.VirtualWebappLoader.startInternal();org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.loader.VirtualWebappLoader.startInternal();org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.buf.CharChunk.toString();org.apache.tomcat.util.buf.StringCache;0;3;1;0.9574468085106383;1.0;9;393;373
 org.apache.coyote.http11.Http11NioProtocol.setPollerThreadPriority(int);org.apache.tomcat.util.net.NioEndpoint;1;0;2;1.0;0.9902912621359223;4;302;962
 org.apache.catalina.startup.ContextConfig.scan(java.io.File);org.apache.tomcat.util.ExceptionUtils;0;2;2;0.984375;1.0;34;1472;8
@@ -5617,7 +5617,7 @@ org.apache.catalina.ha.deploy.FarmWarDeployer.install(java.lang.String, java.net
 org.apache.catalina.startup.ContextConfig.processAnnotationWebInitParams(org.apache.tomcat.util.bcel.classfile.ElementValue);org.apache.tomcat.util.bcel.classfile.ArrayElementValue;1;0;5;1.0;0.8888888888888888;25;1472;35
 org.apache.coyote.http11.Http11Processor.process(org.apache.tomcat.util.net.SocketWrapper<java.net.Socket>);org.apache.coyote.Constants;0;6;10;0.8867924528301887;1.0;137;686;0
 org.apache.jasper.compiler.Generator.generateJspFragment(java.lang.String, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Node;1;11;2;0.9426229508196722;0.99375;23;2649;1053
-org.apache.catalina.core.StandardContext.getObjectKeyPropertiesNameOnly();org.apache.catalina.core.ContainerBase;0;0;0;0;0
+org.apache.catalina.core.StandardContext.getObjectKeyPropertiesNameOnly();org.apache.catalina.core.ContainerBase;0;0;0;0;0;0;0;0
 org.apache.catalina.startup.Embedded.removeEngine(org.apache.catalina.Engine);org.apache.catalina.core.StandardService;2;1;2;1.0;0.9722222222222222;37;365;262
 org.apache.catalina.core.ApplicationContext.getRequestDispatcher(java.lang.String);org.apache.catalina.util.RequestUtil;0;2;7;0.9767441860465116;1.0;47;660;189
 org.apache.tomcat.util.bcel.classfile.AnnotationDefault.dump(java.io.DataOutputStream);org.apache.tomcat.util.bcel.classfile.Attribute;1;0;2;1.0;0.875;4;18;97

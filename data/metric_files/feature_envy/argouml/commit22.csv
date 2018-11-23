@@ -25,7 +25,7 @@ org.argouml.uml.ui.SaveGraphicsManager.setDefaultFilterBySuffix(java.lang.String
 org.argouml.uml.diagram.state.ui.FigState.setOwner(java.lang.Object);org.argouml.uml.diagram.ui.FigNodeModelElement;1;2;2;0.8333333333333334;0.9871794871794872;7;106;751
 org.argouml.ui.ProjectBrowser.targetAdded(org.argouml.ui.targetmanager.TargetEvent);org.argouml.ui.targetmanager.TargetEvent;1;2;1;0.9459459459459459;0.9166666666666666;7;539;50
 org.argouml.model.uml.UmlModelEventPump.addModelEventListener(java.lang.Object, java.lang.Object);org.argouml.model.uml.EventListenerHashMap;2;0;2;1.0;1.0;19;311;27
-org.argouml.uml.diagram.static_structure.ui.FigComment.setOwner(java.lang.Object);org.argouml.uml.diagram.ui.FigNodeModelElement;0;0;0;0;0
+org.argouml.uml.diagram.static_structure.ui.FigComment.setOwner(java.lang.Object);org.argouml.uml.diagram.ui.FigNodeModelElement;0;0;0;0;0;0;0;0
 org.argouml.uml.cognitive.critics.CrSubclassReference.predicate2(java.lang.Object, org.argouml.cognitive.Designer);org.argouml.cognitive.critics.Critic;0;1;1;0.8333333333333334;1.0;7;57;276
 org.argouml.util.QuotedStringSeparator.tokenLength();org.argouml.util.CustomSeparator;1;1;1;0.9090909090909091;0.8888888888888888;3;43;36
 org.argouml.cognitive.ui.ToDoByPriority.toDoItemsAdded(org.argouml.cognitive.ToDoListEvent);org.argouml.cognitive.ui.ToDoPerspective;1;0;6;1.0;0.9411764705882353;30;88;49
@@ -169,7 +169,7 @@ org.argouml.uml.diagram.state.ui.FigSimpleState.clone();org.argouml.uml.diagram.
 org.argouml.uml.ui.behavior.collaborations.UMLCollaborationRepresentedClassifierListModel.buildModelList();org.argouml.uml.ui.UMLModelElementListModel2;2;0;1;1.0;0.9090909090909091;4;10;197
 org.argouml.uml.cognitive.critics.WizTooMany.canFinish();org.argouml.cognitive.ui.WizStepTextField;1;0;2;1.0;0.8571428571428572;13;47;61
 org.argouml.uml.ui.behavior.state_machines.ActionNewEvent.actionPerformed(java.awt.event.ActionEvent);org.argouml.uml.ui.UMLAction;1;1;5;1.0;0.9444444444444444;14;23;59
-org.argouml.uml.notation.java.ModelElementNameNotationJava.getParsingHelp();org.argouml.uml.notation.ModelElementNameNotation;0;0;0;0;0
+org.argouml.uml.notation.java.ModelElementNameNotationJava.getParsingHelp();org.argouml.uml.notation.ModelElementNameNotation;0;0;0;0;0;0;0;0
 org.argouml.uml.ui.behavior.state_machines.ActionNewGuard.actionPerformed(java.awt.event.ActionEvent);org.argouml.ui.targetmanager.TargetManager;1;0;2;1.0;0.9787234042553191;4;10;362
 org.argouml.model.uml.StateMachinesHelperImpl.getAllSubStates(java.lang.Object);org.argouml.model.uml.NSUMLModelImplementation;1;1;1;0.9777777777777777;0.9722222222222222;15;336;117
 org.argouml.uml.ui.foundation.core.PropPanelStructuralFeature.getTypeComboBox();org.argouml.uml.ui.foundation.core.ActionSetStructuralFeatureType;0;0;1;1.0;1.0;9;34;31
@@ -307,7 +307,7 @@ org.argouml.uml.diagram.sequence.ui.FigClassifierRole.removeFigMessagePort(org.a
 org.argouml.uml.ui.foundation.core.UMLClassOperationListModel.swap(int, int);org.argouml.uml.ui.UMLModelElementListModel2;1;1;1;0.9090909090909091;0.962962962962963;14;25;197
 org.argouml.uml.diagram.use_case.ui.UMLUseCaseDiagram.setNamespace(java.lang.Object);org.argouml.uml.diagram.UMLMutableGraphSupport;1;0;2;1.0;0.9615384615384616;15;143;200
 org.argouml.uml.reveng.java.Modeller.addJavadocTagContents(java.lang.Object, java.lang.String, java.lang.String);org.argouml.ocl.OCLUtil;0;1;1;0.9838709677419355;1.0;25;776;49
-org.argouml.uml.diagram.sequence.ui.FigMessage.getDestMessageNode();org.argouml.uml.diagram.sequence.ui.FigMessagePort;0;0;0;0;0
+org.argouml.uml.diagram.sequence.ui.FigMessage.getDestMessageNode();org.argouml.uml.diagram.sequence.ui.FigMessagePort;0;0;0;0;0;0;0;0
 org.argouml.cognitive.ui.ToDoByPriority.toDoItemsAdded(org.argouml.cognitive.ToDoListEvent);org.argouml.cognitive.Designer;0;0;6;1.0;1.0;30;88;333
 org.argouml.uml.notation.java.TransitionNotationJava.parse(java.lang.String);org.argouml.ui.ProjectBrowser;0;1;2;0.75;1.0;4;13;539
 org.argouml.model.uml.CollaborationsFactoryImpl.createAssociationEndRole();org.argouml.model.uml.AbstractUmlModelFactory;1;0;1;1.0;0.5;5;287;25
@@ -345,7 +345,7 @@ org.argouml.model.uml.CoreFactoryImpl.buildClass(java.lang.String);org.argouml.m
 org.argouml.ui.FindDialog.initNameLocTab();org.argouml.i18n.Translator;0;9;1;0.8421052631578947;1.0;89;295;106
 org.argouml.uml.reveng.ui.RESequenceDiagramDialog.buildSequenceDiagram(java.lang.Object);org.argouml.kernel.Project;1;1;4;0.975609756097561;0.9859154929577465;7;494;620
 org.argouml.uml.ui.PropPanel.formatCollection(java.util.Iterator);org.argouml.uml.Profile;1;2;1;0.9375;1.0;4;229;0
-org.argouml.persistence.OpenException.printStackTrace(java.io.PrintStream);org.argouml.persistence.PersistenceException;0;0;0;0;0
+org.argouml.persistence.OpenException.printStackTrace(java.io.PrintStream);org.argouml.persistence.PersistenceException;0;0;0;0;0;0;0;0
 org.argouml.uml.cognitive.critics.CrNoInstanceVariables.predicate2(java.lang.Object, org.argouml.cognitive.Designer);org.argouml.cognitive.critics.Critic;0;1;1;1.0;1.0;11;46;276
 org.argouml.uml.ui.UMLExpressionExpressionModel.setExpression(java.lang.Object);org.argouml.ui.targetmanager.TargetManager;1;0;1;1.0;0.9782608695652174;3;12;362
 org.argouml.uml.diagram.ui.FigClassAssociationClass.damage();org.argouml.uml.diagram.ui.FigAssociationClass;1;0;2;1.0;0.9090909090909091;6;30;188
@@ -459,7 +459,7 @@ org.argouml.cognitive.ui.WizStepChoice.actionPerformed(java.awt.event.ActionEven
 org.argouml.ui.explorer.rules.GoClassToNavigableClass.getRuleName();org.argouml.i18n.Translator;0;0;1;1.0;1.0;3;49;106
 org.argouml.uml.ui.ActionSetSourcePath.getNewDirectory();org.argouml.ui.ProjectBrowser;0;0;5;1.0;1.0;44;56;539
 org.argouml.uml.diagram.sequence.ui.FigMessage.getSourcePortFig();org.argouml.uml.diagram.sequence.ui.FigClassifierRole;1;1;1;0.9444444444444444;0.9836065573770492;8;130;750
-org.argouml.uml.diagram.sequence.ui.ModeCreateMessage.mouseReleased(java.awt.event.MouseEvent);org.argouml.uml.diagram.sequence.ui.FigClassifierRole;0;0;0;0;0
+org.argouml.uml.diagram.sequence.ui.ModeCreateMessage.mouseReleased(java.awt.event.MouseEvent);org.argouml.uml.diagram.sequence.ui.FigClassifierRole;0;0;0;0;0;0;0;0
 org.argouml.ui.cmd.ActionGotoDiagram.doCommand(java.lang.String);org.argouml.kernel.Project;1;0;3;1.0;0.9846153846153847;9;15;620
 org.argouml.uml.diagram.activity.ui.FigObjectFlowState.modelChanged(java.beans.PropertyChangeEvent);org.argouml.uml.diagram.ui.FigNodeModelElement;1;1;1;0.9655172413793104;0.987012987012987;6;176;751
 org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel.canAddEdge(java.lang.Object);org.argouml.uml.diagram.UMLMutableGraphSupport;1;0;2;1.0;0.9722222222222222;26;236;200
@@ -759,7 +759,7 @@ org.argouml.ui.explorer.PerspectiveConfigurator.updateRuleLabel();org.argouml.i1
 org.argouml.uml.cognitive.critics.CrDisambigClassName.initWizard(org.argouml.cognitive.ui.Wizard);org.argouml.cognitive.ListSet;1;0;4;1.0;0.9811320754716981;11;66;262
 org.argouml.uml.diagram.static_structure.ui.UMLClassDiagram.getCompositionActions();org.argouml.uml.diagram.ui.UMLDiagram;1;2;1;0.9636363636363636;0.96875;5;210;231
 org.argouml.uml.ui.UMLEditableComboBox.setItem(java.lang.Object);org.argouml.uml.ui.UMLComboBoxModel2;1;3;3;0.9090909090909091;0.9736842105263158;7;82;300
-org.argouml.uml.diagram.activity.ui.FigActionState.initNotationProviders(java.lang.Object);org.argouml.uml.diagram.ui.FigNodeModelElement;0;0;0;0;0
+org.argouml.uml.diagram.activity.ui.FigActionState.initNotationProviders(java.lang.Object);org.argouml.uml.diagram.ui.FigNodeModelElement;0;0;0;0;0;0;0;0
 org.argouml.language.java.generator.GeneratorJava.generateAscEndName(java.lang.Object);org.argouml.uml.generator.Generator2;2;0;1;1.0;0.8888888888888888;15;1114;179
 org.argouml.ui.cmd.GenericArgoMenuBar.addFileSaved(java.lang.String);org.argouml.ui.cmd.LastRecentlyUsedMenuList;1;0;1;1.0;0.8888888888888888;3;366;58
 org.argouml.uml.diagram.static_structure.layout.ClassdiagramNoteEdge.layout();org.argouml.uml.diagram.static_structure.layout.ClassdiagramEdge;4;1;1;0.8333333333333334;0.19999999999999996;13;25;31
@@ -806,7 +806,7 @@ org.argouml.uml.diagram.sequence.ui.FigClassifierRole.setOwner(java.lang.Object)
 org.argouml.uml.TMResults.getColumnName(int);org.argouml.i18n.Translator;0;1;1;0.9166666666666666;1.0;7;88;106
 org.argouml.uml.diagram.static_structure.ui.FigClass.setBoundsImpl(int, int, int, int);org.argouml.uml.diagram.ui.FigNodeModelElement;4;4;4;0.9047619047619048;0.9634146341463414;39;674;751
 org.argouml.uml.ui.behavior.state_machines.UMLGuardTransitionListModel.buildModelList();org.argouml.uml.ui.UMLModelElementListModel2;2;0;1;1.0;0.9090909090909091;4;10;197
-org.argouml.uml.diagram.state.ui.FigState.initNotationProviders(java.lang.Object);org.argouml.uml.diagram.ui.FigNodeModelElement;0;0;0;0;0
+org.argouml.uml.diagram.state.ui.FigState.initNotationProviders(java.lang.Object);org.argouml.uml.diagram.ui.FigNodeModelElement;0;0;0;0;0;0;0;0
 org.argouml.uml.diagram.activity.ActivityDiagramGraphModel.canAddEdge(java.lang.Object);org.argouml.uml.diagram.state.StateDiagramGraphModel;1;0;1;1.0;0.9375;4;13;216
 org.argouml.uml.diagram.ui.FigAssociationEnd.updateEnd(org.argouml.uml.diagram.ui.FigText, org.argouml.uml.diagram.ui.FigText, org.argouml.uml.diagram.ui.FigText);org.argouml.notation.Notation;1;1;2;0.9545454545454546;1.0;24;122;333
 org.argouml.uml.diagram.ui.FigNodeModelElement.deleteFromModel();org.argouml.kernel.Project;1;0;2;1.0;0.9848484848484849;11;751;620
@@ -1112,7 +1112,7 @@ org.argouml.uml.generator.GeneratorDisplay.generateAttribute(boolean, java.lang.
 org.argouml.uml.cognitive.ProjectMemberTodoList.getToDoList();org.argouml.cognitive.Designer;0;0;3;1.0;1.0;24;56;333
 org.argouml.uml.diagram.ui.ActionAddConcurrentRegion.actionPerformed(java.awt.event.ActionEvent);org.argouml.uml.diagram.UMLMutableGraphSupport;1;0;6;1.0;0.9772727272727273;53;70;200
 org.argouml.cognitive.ui.GoListToTypeToItem.getChildCount(java.lang.Object);org.argouml.cognitive.ToDoList;1;0;4;1.0;0.9791666666666666;16;60;352
-org.argouml.uml.diagram.static_structure.ui.FigClassifierBox.createFeatureIn(java.awt.event.InputEvent, org.argouml.uml.diagram.static_structure.ui.FigGroup);org.argouml.uml.diagram.ui.FigFeaturesCompartment;0;0;0;0;0
+org.argouml.uml.diagram.static_structure.ui.FigClassifierBox.createFeatureIn(java.awt.event.InputEvent, org.argouml.uml.diagram.static_structure.ui.FigGroup);org.argouml.uml.diagram.ui.FigFeaturesCompartment;0;0;0;0;0;0;0;0
 org.argouml.uml.reveng.java.Modeller.addInterface(java.lang.String, java.lang.String, java.util.Vector, short);org.argouml.uml.reveng.java.Context;1;6;1;0.9107142857142857;1.0;19;776;21
 org.argouml.uml.ui.behavior.state_machines.UMLStateMachineTopListModel.buildModelList();org.argouml.uml.ui.UMLModelElementListModel2;2;0;1;1.0;0.9090909090909091;4;10;197
 org.argouml.uml.diagram.static_structure.ClassDiagramGraphModel.addEdge(java.lang.Object);org.argouml.uml.diagram.UMLMutableGraphSupport;4;1;1;0.9655172413793104;0.875;20;328;200
@@ -1161,7 +1161,7 @@ org.argouml.uml.ui.foundation.core.ActionSetGeneralizableElementAbstract.actionP
 org.argouml.ui.ActionExportXMI.actionPerformed(java.awt.event.ActionEvent);org.argouml.application.api.Configuration;1;0;4;1.0;1.0;23;26;92
 org.argouml.uml.ui.TabStyle.setTarget(java.lang.Object);org.argouml.kernel.ProjectManager;1;7;3;0.8157894736842105;0.9736842105263158;54;208;116
 org.argouml.uml.ui.behavior.state_machines.ActionNewSimpleState.actionPerformed(java.awt.event.ActionEvent);org.argouml.uml.ui.AbstractActionNewModelElement;1;0;1;1.0;0.6666666666666667;4;11;12
-org.argouml.uml.diagram.activity.ui.FigActionState.initNotationProviders(java.lang.Object);org.argouml.notation.NotationProviderFactory2;0;0;0;0;0
+org.argouml.uml.diagram.activity.ui.FigActionState.initNotationProviders(java.lang.Object);org.argouml.notation.NotationProviderFactory2;0;0;0;0;0;0;0;0
 org.argouml.ui.ProjectBrowser.trySave(boolean, java.io.File);org.argouml.persistence.PersistenceManager;2;2;7;0.9811320754716981;0.9333333333333333;38;539;121
 org.argouml.uml.cognitive.critics.CrMissingAttrName.initWizard(org.argouml.cognitive.ui.Wizard);org.argouml.cognitive.ToDoItem;1;0;4;1.0;0.9736842105263158;16;36;211
 org.argouml.ui.ProjectBrowser.propertyChange(java.beans.PropertyChangeEvent);org.argouml.kernel.ProjectManager;0;2;4;0.9523809523809523;1.0;13;539;116
@@ -1509,7 +1509,7 @@ org.argouml.uml.diagram.collaboration.CollabDiagramGraphModel.canAddEdge(java.la
 org.argouml.uml.diagram.deployment.DeploymentDiagramGraphModel.vetoableChange(java.beans.PropertyChangeEvent);org.argouml.uml.diagram.UMLMutableGraphSupport;2;0;1;1.0;0.9487179487179487;43;236;200
 org.argouml.uml.ui.ActionSaveProjectAs.getNewFile();org.argouml.persistence.PersistenceManager;1;0;7;1.0;0.96875;37;55;121
 org.argouml.uml.ui.foundation.core.UMLAssociationLinkListModel.buildModelList();org.argouml.uml.ui.UMLModelElementListModel2;2;0;1;1.0;0.9047619047619048;5;11;197
-org.argouml.uml.notation.uml.ActionStateNotationUml.toString();org.argouml.uml.notation.ActionStateNotation;0;0;0;0;0
+org.argouml.uml.notation.uml.ActionStateNotationUml.toString();org.argouml.uml.notation.ActionStateNotation;0;0;0;0;0;0;0;0
 org.argouml.cognitive.ToDoItem.getProgress();org.argouml.cognitive.ui.Wizard;1;0;1;1.0;0.9444444444444444;6;211;70
 org.argouml.cognitive.checklist.ui.TabChecklist.setTarget(java.lang.Object);org.argouml.cognitive.checklist.CheckManager;0;4;2;0.7142857142857143;1.0;16;89;43
 org.argouml.uml.cognitive.critics.CrInvalidFork.predicate2(java.lang.Object, org.argouml.cognitive.Designer);org.argouml.cognitive.critics.Critic;0;0;1;1.0;1.0;20;25;276
@@ -1599,7 +1599,7 @@ org.argouml.uml.diagram.ui.ActionAddConcurrentRegion.actionPerformed(java.awt.ev
 org.argouml.uml.cognitive.critics.CrMissingClassName.initWizard(org.argouml.cognitive.ui.Wizard);org.argouml.cognitive.ui.Wizard;1;0;4;1.0;0.962962962962963;15;38;70
 org.argouml.uml.ui.foundation.core.UMLModelElementNamespaceComboBoxModel.isValidElement(java.lang.Object);org.argouml.uml.ui.UMLComboBoxModel2;1;0;1;1.0;0.96875;3;25;300
 org.argouml.uml.ui.ActionSaveProject.actionPerformed(java.awt.event.ActionEvent);org.argouml.uml.ui.ActionSaveProjectAs;1;0;4;1.0;0.8333333333333334;10;19;55
-org.argouml.uml.diagram.static_structure.ui.FigClassifierBox.createFeatureIn(java.awt.event.InputEvent, org.argouml.uml.diagram.static_structure.ui.FigGroup);org.argouml.uml.diagram.ui.CompartmentFigText;0;0;0;0;0
+org.argouml.uml.diagram.static_structure.ui.FigClassifierBox.createFeatureIn(java.awt.event.InputEvent, org.argouml.uml.diagram.static_structure.ui.FigGroup);org.argouml.uml.diagram.ui.CompartmentFigText;0;0;0;0;0;0;0;0
 org.argouml.persistence.TodoParser.handleEndElement(org.argouml.persistence.XMLElement);org.argouml.persistence.XMLTokenTableBase;1;8;3;0.6666666666666667;1.0;40;210;39
 org.argouml.uml.cognitive.checklist.UMLCheckItem.expand(java.lang.Object, java.lang.String);org.argouml.ocl.CriticOclEvaluator;1;0;1;1.0;0.8;20;26;70
 org.argouml.uml.diagram.static_structure.ui.ClassDiagramRenderer.getFigNodeFor(java.lang.Object, java.util.Map, org.argouml.uml.diagram.static_structure.ui.GraphModel, org.argouml.uml.diagram.static_structure.ui.Layer);org.argouml.uml.diagram.ui.FigNodeModelElement;1;0;2;1.0;0.9882352941176471;36;150;751
@@ -1649,7 +1649,7 @@ org.argouml.uml.diagram.static_structure.ui.FigPackage.setFillColor(java.awt.Col
 org.argouml.cognitive.ui.DismissToDoItemDialog.badDec(java.awt.event.ActionEvent);org.argouml.ui.ProjectBrowser;0;0;1;1.0;1.0;4;117;539
 org.argouml.persistence.ArgoParser.handleStartElement(org.argouml.persistence.XMLElement);org.argouml.persistence.ArgoTokenTable;0;2;4;0.875;1.0;18;118;12
 org.argouml.ui.StylePanel.shouldBeEnabled(java.lang.Object);org.argouml.kernel.Project;0;0;3;1.0;1.0;5;63;620
-org.argouml.uml.notation.uml.ActionStateNotationUml.toString();org.argouml.uml.generator.GeneratorDisplay;0;0;0;0;0
+org.argouml.uml.notation.uml.ActionStateNotationUml.toString();org.argouml.uml.generator.GeneratorDisplay;0;0;0;0;0;0;0;0
 org.argouml.model.uml.CoreHelperImpl.getFirstSharedNamespace(java.lang.Object, java.lang.Object);org.argouml.model.uml.NSUMLModelImplementation;1;1;1;0.9934640522875817;0.96875;23;1948;117
 org.argouml.uml.diagram.static_structure.ui.FigComment.modelChanged(java.beans.PropertyChangeEvent);org.argouml.uml.diagram.ui.FigNodeModelElement;1;4;1;0.9166666666666666;0.987012987012987;11;396;751
 org.argouml.cognitive.ui.GoListToOffenderToItem.getChildren(java.lang.Object);org.argouml.cognitive.ToDoList;2;0;5;1.0;0.9607843137254902;20;46;352
@@ -1968,7 +1968,7 @@ org.argouml.uml.notation.uml.TransitionNotationUml.parse(java.lang.String);org.a
 org.argouml.uml.ui.behavior.collaborations.PropPanelAssociationEndRole.positionControls();org.argouml.i18n.Translator;0;0;3;1.0;1.0;6;13;106
 org.argouml.uml.cognitive.critics.CrReservedName.isBuiltin(java.lang.String);org.argouml.kernel.Project;1;0;2;1.0;0.984375;5;44;620
 org.argouml.uml.ui.foundation.core.UMLGeneralizableElementSpecializationListModel.buildModelList();org.argouml.uml.ui.UMLModelElementListModel2;2;0;1;1.0;0.9047619047619048;5;11;197
-org.argouml.uml.diagram.state.ui.FigState.initNotationProviders(java.lang.Object);org.argouml.notation.NotationProviderFactory2;0;0;0;0;0
+org.argouml.uml.diagram.state.ui.FigState.initNotationProviders(java.lang.Object);org.argouml.notation.NotationProviderFactory2;0;0;0;0;0;0;0;0
 org.argouml.uml.diagram.static_structure.ui.FigPackage.classNameAndBounds();org.argouml.uml.diagram.ui.FigNodeModelElement;1;2;1;0.9512195121951219;0.9866666666666667;3;424;751
 org.argouml.uml.cognitive.critics.CrUnconventionalOperName.initWizard(org.argouml.cognitive.ui.Wizard);org.argouml.uml.cognitive.critics.WizMEName;2;2;5;0.875;0.875;17;97;50
 org.argouml.uml.cognitive.critics.CrUnconventionalAttrName.stillValid(org.argouml.cognitive.Designer, org.argouml.cognitive.ToDoItem);org.argouml.uml.cognitive.critics.CrUML;1;1;4;0.9230769230769231;0.9166666666666666;13;106;67
@@ -2031,7 +2031,7 @@ org.argouml.model.uml.UmlFactoryImpl.getCommonBehavior();org.argouml.model.uml.N
 org.argouml.ui.GraphChangeAdapter.createElement(java.lang.Object, org.argouml.ui.GraphModel);org.argouml.uml.diagram.UMLMutableGraphSupport;1;0;1;1.0;0.9583333333333334;6;62;200
 org.argouml.cognitive.critics.Critic.unsnooze();org.argouml.cognitive.critics.SnoozeOrder;1;1;1;0.9836065573770492;0.9166666666666666;3;276;37
 org.argouml.uml.ui.behavior.collaborations.UMLMessageActivatorComboBox.doIt(java.awt.event.ActionEvent);org.argouml.uml.ui.UMLComboBox2;1;0;1;1.0;0.9285714285714286;8;12;39
-org.argouml.persistence.OpenException.printStackTrace();org.argouml.persistence.PersistenceException;0;0;0;0;0
+org.argouml.persistence.OpenException.printStackTrace();org.argouml.persistence.PersistenceException;0;0;0;0;0;0;0;0
 org.argouml.cognitive.checklist.ui.TableModelChecklist.getColumnName(int);org.argouml.cognitive.Translator;0;0;1;1.0;1.0;9;105;9
 org.argouml.uml.notation.uml.TransitionNotationUml.parse(java.lang.String);org.argouml.uml.notation.TransitionNotation;1;1;5;0.8888888888888888;0.875;11;20;8
 org.argouml.model.uml.CommonBehaviorFactoryImpl.buildStimulus(java.lang.Object);org.argouml.model.uml.NSUMLModelImplementation;3;1;1;0.9830508474576272;0.9142857142857143;12;300;117
@@ -2290,7 +2290,7 @@ org.argouml.moduleloader.ModuleLoader2.isSelectedInternal(java.lang.String);org.
 org.argouml.model.uml.ModelManagementHelperImpl.getOwnerShipPath(java.lang.Object);org.argouml.model.uml.NSUMLModelImplementation;1;0;1;1.0;0.967741935483871;12;241;117
 org.argouml.cognitive.critics.Critic.beInactive();org.argouml.application.api.Configuration;1;2;1;0.9672131147540983;1.0;6;276;92
 org.argouml.ui.StylePanelFig.itemStateChanged(java.awt.event.ItemEvent);org.argouml.ui.StylePanel;1;5;1;0.8461538461538461;0.9583333333333334;17;263;63
-org.argouml.uml.diagram.sequence.ui.ModeCreateMessage.mouseReleased(java.awt.event.MouseEvent);org.argouml.uml.diagram.ui.FigNodeModelElement;0;0;0;0;0
+org.argouml.uml.diagram.sequence.ui.ModeCreateMessage.mouseReleased(java.awt.event.MouseEvent);org.argouml.uml.diagram.ui.FigNodeModelElement;0;0;0;0;0;0;0;0
 org.argouml.uml.notation.java.ModelElementNameNotationJava.generatePath();org.argouml.uml.notation.ModelElementNameNotation;1;0;2;1.0;0.9166666666666666;21;50;6
 org.argouml.uml.diagram.ui.AddExistingNodeCommand.execute();org.argouml.i18n.Translator;1;3;3;0.8125;1.0;27;44;106
 org.argouml.uml.cognitive.critics.WizBreakCircularComp.getOptions2();org.argouml.uml.generator.GeneratorDisplay;0;1;2;0.9583333333333334;1.0;22;126;752
@@ -2406,7 +2406,7 @@ org.argouml.model.uml.StateMachinesFactoryImpl.createCallEvent();org.argouml.mod
 org.argouml.model.uml.CoreFactoryImpl.createAttribute();org.argouml.model.uml.AbstractUmlModelFactory;1;0;1;1.0;0.5;5;1022;25
 org.argouml.uml.diagram.state.ui.FigSimpleState.clone();org.argouml.uml.diagram.state.ui.FigState;1;2;2;0.9130434782608696;0.9285714285714286;10;93;106
 org.argouml.persistence.ModelMemberFilePersister.save(java.io.Writer, java.lang.Integer, org.argouml.kernel.ProjectMember);org.argouml.uml.ProjectMemberModel;1;0;2;1.0;0.8571428571428572;29;51;17
-org.argouml.uml.ui.foundation.core.UMLStructuralFeatureTypeComboBoxModel.propertyChange(java.beans.PropertyChangeEvent);org.argouml.uml.ui.UMLComboBoxModel2;0;0;0;0;0
+org.argouml.uml.ui.foundation.core.UMLStructuralFeatureTypeComboBoxModel.propertyChange(java.beans.PropertyChangeEvent);org.argouml.uml.ui.UMLComboBoxModel2;0;0;0;0;0;0;0;0
 org.argouml.uml.diagram.static_structure.layout.ClassdiagramLayouter.adjustRowNodes();org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode;4;2;1;0.9428571428571428;0.8709677419354839;19;258;148
 org.argouml.uml.ui.behavior.activity_graphs.UMLObjectFlowStateClassifierComboBoxModel.getSelectedModelElement();org.argouml.uml.ui.UMLComboBoxModel2;1;0;1;1.0;0.9666666666666667;6;17;300
 org.argouml.ui.cmd.ActionEmailExpert.actionPerformed(java.awt.event.ActionEvent);org.argouml.cognitive.ToDoItem;2;0;5;1.0;0.9473684210526316;24;30;211
@@ -2551,7 +2551,7 @@ org.argouml.cognitive.ui.WizStep.doHelp();org.argouml.util.osdep.StartBrowser;0;
 org.argouml.uml.cognitive.critics.WizTooMany.doAction(int);org.argouml.uml.cognitive.critics.AbstractCrTooMany;1;0;4;1.0;0.8571428571428572;16;47;9
 org.argouml.uml.diagram.static_structure.ui.FigSubsystem.setBoundsImpl(int, int, int, int);org.argouml.uml.diagram.static_structure.ui.FigPackage;1;1;1;0.8571428571428572;0.9772727272727273;7;26;424
 org.argouml.ui.StylePanelFigNodeModelElement.refresh();org.argouml.ui.StylePanelFig;2;3;3;0.8235294117647058;0.9285714285714286;17;63;263
-org.argouml.uml.notation.uml.ActionStateNotationUml.parse(java.lang.String);org.argouml.uml.notation.ActionStateNotation;0;0;0;0;0
+org.argouml.uml.notation.uml.ActionStateNotationUml.parse(java.lang.String);org.argouml.uml.notation.ActionStateNotation;0;0;0;0;0;0;0;0
 org.argouml.uml.notation.uml.ModelElementNameNotationUml.generateVisibility();org.argouml.uml.notation.ModelElementNameNotation;1;0;3;1.0;0.8888888888888888;13;57;6
 org.argouml.cognitive.critics.EnabledCM.isRelevant(org.argouml.cognitive.critics.Critic, org.argouml.cognitive.Designer);org.argouml.cognitive.critics.Critic;1;0;1;1.0;0.9833333333333333;3;3;276
 org.argouml.language.java.generator.ClassifierEndCodePiece.getStartPosition();org.argouml.language.java.generator.CodePiece;1;0;1;1.0;1.0;3;45;0
@@ -2565,7 +2565,7 @@ org.argouml.ui.ProjectBrowser.jumpToDiagramShowing(java.util.Vector);org.argouml
 org.argouml.uml.ui.UMLTreeCellRenderer.getTreeCellRendererComponent(boolean, boolean, boolean, boolean, int, java.lang.Object, javax.swing.JTree);org.argouml.application.helpers.ResourceLoaderWrapper;1;0;2;1.0;0.9285714285714286;36;36;113
 org.argouml.uml.diagram.static_structure.layout.ClassdiagramLayouter.doSplit(int, int);org.argouml.uml.diagram.static_structure.layout.ClassdiagramNode;3;4;1;0.8974358974358975;0.9210526315789473;33;258;148
 org.argouml.ui.explorer.ExplorerTreeModel.itemStateChanged(java.awt.event.ItemEvent);org.argouml.ui.explorer.ExplorerPerspective;1;3;1;0.9032258064516129;0.9090909090909091;9;330;27
-org.argouml.uml.notation.uml.ModelElementNameNotationUml.getParsingHelp();org.argouml.uml.notation.ModelElementNameNotation;0;0;0;0;0
+org.argouml.uml.notation.uml.ModelElementNameNotationUml.getParsingHelp();org.argouml.uml.notation.ModelElementNameNotation;0;0;0;0;0;0;0;0
 org.argouml.uml.diagram.sequence.ui.UMLSequenceDiagram.getNamespace();org.argouml.uml.diagram.sequence.SequenceDiagramGraphModel;1;0;1;1.0;0.9583333333333334;3;68;254
 org.argouml.uml.ui.foundation.core.UMLParameterDirectionKindRadioButtonPanel.buildModel();org.argouml.uml.ui.UMLRadioButtonPanel;2;0;2;1.0;0.8823529411764706;18;21;77
 org.argouml.model.uml.CoreFactoryImpl.buildPermission(java.lang.Object, java.lang.Object);org.argouml.model.uml.NSUMLModelImplementation;1;1;1;0.9902912621359223;0.967741935483871;18;1022;117
@@ -2662,7 +2662,7 @@ org.argouml.ui.explorer.DnDExplorerTree.dragOver(java.awt.dnd.DropTargetDragEven
 org.argouml.kernel.MemberList.remove(java.lang.Object);org.argouml.kernel.AbstractProjectMember;1;3;1;0.9;0.9;19;205;54
 org.argouml.uml.ui.ActionRevertToSaved.actionPerformed(java.awt.event.ActionEvent);org.argouml.i18n.Translator;0;0;4;1.0;1.0;12;15;106
 org.argouml.uml.ui.foundation.core.ActionSetAssociationEndNavigable.actionPerformed(java.awt.event.ActionEvent);org.argouml.uml.ui.UMLCheckBox2;1;0;1;1.0;0.9230769230769231;11;17;33
-org.argouml.persistence.XMIParser.registerModelAndDiagrams(java.util.Collection);org.argouml.kernel.Project;0;0;0;0;0
+org.argouml.persistence.XMIParser.registerModelAndDiagrams(java.util.Collection);org.argouml.kernel.Project;0;0;0;0;0;0;0;0
 org.argouml.cognitive.critics.ui.CriticBrowserDialog.setTarget(java.lang.Object);org.argouml.cognitive.critics.SnoozeOrder;1;10;3;0.7777777777777778;0.9696969696969697;25;228;37
 org.argouml.cognitive.ui.GoListToGoalsToItems.getChildCount(java.lang.Object);org.argouml.cognitive.ToDoList;1;1;3;0.9285714285714286;0.9795918367346939;16;63;352
 org.argouml.uml.reveng.java.OuterClassifierContext.getInterface(java.lang.String);org.argouml.uml.reveng.java.Context;1;4;2;0.7333333333333334;1.0;45;96;21
@@ -2728,7 +2728,7 @@ org.argouml.uml.cognitive.critics.CrNodeInsideElement.stillValid(org.argouml.cog
 org.argouml.uml.cognitive.critics.CrTooManyClasses.predicate2(java.lang.Object, org.argouml.cognitive.Designer);org.argouml.cognitive.critics.Critic;0;0;2;1.0;1.0;7;12;276
 org.argouml.cognitive.critics.DesignGoalsCM.isRelevant(org.argouml.cognitive.critics.Critic, org.argouml.cognitive.Designer);org.argouml.cognitive.critics.Critic;1;0;1;1.0;0.9833333333333333;3;3;276
 org.argouml.model.uml.EventListenerList.getListenerCount(java.lang.Object[], org.argouml.model.uml.EventKey);org.argouml.model.uml.EventKey;2;0;1;1.0;0.75;23;138;42
-org.argouml.uml.diagram.sequence.ui.FigMessage.getSourceMessageNode();org.argouml.uml.diagram.sequence.ui.FigMessagePort;0;0;0;0;0
+org.argouml.uml.diagram.sequence.ui.FigMessage.getSourceMessageNode();org.argouml.uml.diagram.sequence.ui.FigMessagePort;0;0;0;0;0;0;0;0
 org.argouml.cognitive.ui.GoListToDecisionsToItems.getChildCountCond(boolean, java.lang.Object);org.argouml.cognitive.ToDoList;1;1;3;0.9375;0.9795918367346939;17;70;352
 org.argouml.uml.diagram.static_structure.ui.FigInterface.updateOperations();org.argouml.uml.diagram.ui.FigOperationsCompartment;1;0;6;1.0;0.9090909090909091;16;436;54
 org.argouml.ui.GotoDialog.actionPerformed(java.awt.event.ActionEvent);org.argouml.ui.TabResults;1;0;1;1.0;0.9655172413793104;8;23;157
@@ -2818,7 +2818,7 @@ org.argouml.cognitive.ui.GoListToGoalsToItems.getIndexOfChild(java.lang.Object, 
 org.argouml.cognitive.ui.ToDoByPriority.toDoItemsRemoved(org.argouml.cognitive.ToDoListEvent);org.argouml.ui.TreeModelSupport;1;0;5;1.0;0.9473684210526316;22;88;59
 org.argouml.uml.ui.foundation.core.PropPanelOperation.addMethod(java.lang.Integer);org.argouml.uml.ui.PropPanel;1;0;2;1.0;0.975609756097561;11;79;229
 org.argouml.model.uml.StateMachinesFactoryImpl.createSynchState();org.argouml.model.uml.AbstractUmlModelFactory;1;0;1;1.0;0.5;5;374;25
-org.argouml.uml.notation.uml.ActionStateNotationUml.parse(java.lang.String);org.argouml.uml.generator.ParserDisplay;0;0;0;0;0
+org.argouml.uml.notation.uml.ActionStateNotationUml.parse(java.lang.String);org.argouml.uml.generator.ParserDisplay;0;0;0;0;0;0;0;0
 org.argouml.uml.ui.behavior.common_behavior.PropPanelStimulus.setAssociation(java.lang.Object);org.argouml.uml.ui.PropPanel;1;0;1;1.0;0.9761904761904762;18;78;229
 org.argouml.uml.diagram.ui.FigNodeAssociation.setBoundsImpl(int, int, int, int);org.argouml.uml.diagram.ui.FigNodeModelElement;4;1;1;0.9523809523809523;0.96;10;157;751
 org.argouml.uml.diagram.ui.ActionAddExistingEdge.shouldBeEnabled();org.argouml.ui.targetmanager.TargetManager;1;0;3;1.0;0.9777777777777777;7;19;362
@@ -2955,7 +2955,7 @@ org.argouml.uml.ui.foundation.core.UMLAssociationConnectionListModel.swap(int, i
 org.argouml.uml.diagram.ui.FigGeneralization.postLoad();org.argouml.uml.diagram.ui.FigEdgeModelElement;1;1;1;0.9;0.98;7;87;514
 org.argouml.uml.diagram.ui.FigDependency.modelChanged(java.beans.PropertyChangeEvent);org.argouml.uml.diagram.ui.FigEdgeModelElement;1;0;1;1.0;0.9795918367346939;3;65;514
 org.argouml.uml.diagram.state.ui.FigConcurrentRegion.setBoundsImpl(int, int, int, int);org.argouml.uml.diagram.state.ui.FigState;1;4;3;0.9111111111111111;0.9615384615384616;54;259;106
-org.argouml.persistence.OpenException.printStackTrace(java.io.PrintWriter);org.argouml.persistence.PersistenceException;0;0;0;0;0
+org.argouml.persistence.OpenException.printStackTrace(java.io.PrintWriter);org.argouml.persistence.PersistenceException;0;0;0;0;0;0;0;0
 org.argouml.model.uml.UmlModelEventPump.getListenerList(org.argouml.model.uml.MElementEvent);org.argouml.model.uml.EventListenerHashMap;1;0;1;1.0;1.0;3;311;27
 org.argouml.language.java.generator.CodePieceCollector.add(org.argouml.language.java.generator.NamedCodePiece);org.argouml.language.java.generator.CodePiece;2;1;1;0.8888888888888888;1.0;10;53;0
 org.argouml.ui.explorer.PerspectiveManager.toString();org.argouml.ui.explorer.ExplorerPerspective;2;1;1;0.9583333333333334;0.8333333333333334;19;223;27
@@ -3388,7 +3388,7 @@ org.argouml.uml.ui.behavior.state_machines.UMLTransitionTargetListModel.isValidE
 org.argouml.cognitive.checklist.Checklist.toString();org.argouml.cognitive.checklist.CheckItem;1;1;1;0.9333333333333333;0.9285714285714286;11;45;52
 org.argouml.uml.diagram.state.ui.FigConcurrentRegion.clone();org.argouml.uml.diagram.ui.FigNodeModelElement;3;2;2;0.9428571428571428;0.9743589743589743;10;259;751
 org.argouml.language.java.generator.ClassifierEndCodePiece.write(java.io.BufferedReader, java.io.BufferedWriter, java.util.Stack);org.argouml.language.java.generator.CodeGenerator;4;0;4;1.0;1.0;27;45;78
-org.argouml.persistence.FigEdgeHandler.getFigNode(java.lang.String, org.argouml.persistence.PGMLStackParser);org.argouml.uml.diagram.ui.FigEdgeModelElement;0;0;0;0;0
+org.argouml.persistence.FigEdgeHandler.getFigNode(java.lang.String, org.argouml.persistence.PGMLStackParser);org.argouml.uml.diagram.ui.FigEdgeModelElement;0;0;0;0;0;0;0;0
 org.argouml.uml.cognitive.critics.CrMultipleShallowHistoryStates.stillValid(org.argouml.cognitive.Designer, org.argouml.cognitive.ToDoItem);org.argouml.cognitive.ToDoItem;1;1;3;0.875;0.9696969696969697;8;52;211
 org.argouml.uml.cognitive.critics.CrMultipleDeepHistoryStates.stillValid(org.argouml.cognitive.Designer, org.argouml.cognitive.ToDoItem);org.argouml.cognitive.critics.Critic;1;1;3;0.875;0.984375;8;52;276
 org.argouml.uml.ui.foundation.core.PropPanelClassifier.addAttribute();org.argouml.uml.ui.PropPanel;1;0;4;1.0;0.975;11;149;229

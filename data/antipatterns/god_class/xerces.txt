@@ -1,0 +1,15 @@
+org.apache.xerces.impl.XMLEntityManager
+org.apache.xerces.impl.xs.traversers.XSDHandler
+org.apache.xerces.dom.DOMNormalizer
+org.apache.xerces.impl.dtd.XMLDTDValidator
+org.apache.xerces.parsers.XML11DTDConfiguration
+org.apache.xerces.impl.xs.XMLSchemaValidator
+org.apache.xerces.parsers.AbstractDOMParser
+org.apache.xerces.parsers.DTDConfiguration
+org.apache.xerces.impl.xs.traversers.XSAttributeChecker
+org.apache.xerces.parsers.XML11NonValidatingConfiguration
+org.apache.xerces.parsers.XML11Configuration
+org.apache.xerces.parsers.NonValidatingConfiguration
+org.apache.xml.serialize.BaseMarkupSerializer
+org.apache.xerces.xinclude.XIncludeHandler
+org.apache.xerces.impl.dtd.DTDGrammar

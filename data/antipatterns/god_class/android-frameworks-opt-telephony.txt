@@ -1,0 +1,10 @@
+com.android.internal.telephony.DataConnection
+com.android.internal.telephony.CallManager
+com.android.internal.telephony.DataConnectionTracker
+com.android.internal.telephony.PhoneBase
+com.android.internal.telephony.cdma.CdmaLteServiceStateTracker
+com.android.internal.telephony.cdma.CdmaServiceStateTracker
+com.android.internal.telephony.gsm.GsmServiceStateTracker
+com.android.internal.telephony.gsm.GsmDataConnectionTracker
+com.android.internal.telephony.cdma.CdmaDataConnectionTracker
+com.android.internal.telephony.cdma.sms.BearerData

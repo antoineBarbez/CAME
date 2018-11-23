@@ -1295,7 +1295,7 @@ net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver.visit(java.lang.O
 net.sourceforge.pmd.util.viewer.model.ViewerModel.appendToXPathExpression(java.lang.Object, java.lang.String);net.sourceforge.pmd.util.viewer.model.ViewerModelEvent;0;1;1;0.9090909090909091;1.0;3;57;17
 net.sourceforge.pmd.RuleSetFactory.parseRuleReferenceNode(java.lang.String, net.sourceforge.pmd.RuleSet, net.sourceforge.pmd.RuleSetReferenceId, org.w3c.dom.Node);net.sourceforge.pmd.RuleSetReference;2;6;6;0.9166666666666666;0.9473684210526316;69;432;26
 net.sourceforge.pmd.cpd.CsTokenizer.tokenize(net.sourceforge.pmd.cpd.SourceCode, net.sourceforge.pmd.cpd.Tokens);net.sourceforge.pmd.cpd.SourceCode;2;0;3;1.0;0.92;166;166;68
-net.sourceforge.pmd.lang.java.rule.coupling.LawOfDemeterRule.isFactory(net.sourceforge.pmd.lang.java.ast.ASTVariableDeclarator);net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0
+net.sourceforge.pmd.lang.java.rule.coupling.LawOfDemeterRule.isFactory(net.sourceforge.pmd.lang.java.ast.ASTVariableDeclarator);net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.isSuppressed(net.sourceforge.pmd.lang.ast.Node);net.sourceforge.pmd.lang.java.rule.JavaRuleViolation;0;0;1;1.0;1.0;3;378;74
 net.sourceforge.pmd.lang.rule.properties.MethodMultiProperty.asString(java.lang.Object);net.sourceforge.pmd.lang.rule.properties.MethodProperty;0;0;1;1.0;1.0;3;36;121
 net.sourceforge.pmd.lang.plsql.rule.PLSQLRuleChainVisitor.visit(java.lang.Object, net.sourceforge.pmd.lang.plsql.ast.PLSQLNode);net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor;1;0;2;1.0;0.875;4;33;78

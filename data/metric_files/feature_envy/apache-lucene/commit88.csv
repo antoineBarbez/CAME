@@ -1,268 +1,268 @@
 Method;TargetClass;ATFD;ATSD;FDP;DIST_EC;DIST_TC;LOC_M;LOC_EC;LOC_TC
-org.apache.lucene.index.MultiReader.doUndeleteAll();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.TermQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.index.MultiReader.doUndeleteAll();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.TermQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.store.Lock;1;4;6;0.8857142857142857;0.95;32;199;35
 org.apache.lucene.search.PhraseQuery.sumOfSquaredWeights();org.apache.lucene.search.Query;1;3;3;0.85;0.9090909090909091;5;128;49
-org.apache.lucene.search.ConjunctionScorer.skipTo(int);org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.index.MultiReader.getIndexedFieldNames(boolean);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.document(int);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.norms(java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.skipTo(int);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.getIndexedFieldNames(boolean);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.document(int);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.norms(java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMergeQueue.close();org.apache.lucene.index.SegmentMergeInfo;1;0;2;1.0;0.8333333333333334;3;13;31
 org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.Posting;2;0;5;1.0;0.7777777777777778;33;173;6
-org.apache.lucene.search.ConjunctionScorer.sortScorers();org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.index.TermVectorsWriter.writeDoc();org.apache.lucene.store.OutputStream;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.sortScorers();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermVectorsWriter.writeDoc();org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiTermQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;1;1;3;1.0;0.9166666666666666;19;41;49
-org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.search.SortComparator;0;0;0;0;0
-org.apache.lucene.search.spans.NearSpans.min();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.search.SortComparator;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.NearSpans.min();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.maxDoc();org.apache.lucene.index.FieldsReader;1;0;1;1.0;0.6666666666666667;3;160;27
 org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.TermInfo;1;0;5;1.0;0.9230769230769231;33;173;22
-org.apache.lucene.search.PhraseScorer.skipTo(int);org.apache.lucene.search.PhrasePositions;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.skipTo(int);org.apache.lucene.search.PhrasePositions;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.writeNorms(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.index.FieldInfos;1;2;6;0.9;0.96;17;173;73
 org.apache.lucene.index.TermInfosReader.close();org.apache.lucene.index.SegmentTermEnum;1;0;1;1.0;0.9375;3;88;72
 org.apache.lucene.index.IndexWriter.docCount();org.apache.lucene.index.SegmentInfo;1;0;2;1.0;0.75;8;199;5
-org.apache.lucene.index.SegmentTermPositions.skipProx(long);org.apache.lucene.store.InputStream;0;0;0;0;0
-org.apache.lucene.search.spans.SpanTermQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.index.SegmentTermPositions.skipProx(long);org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanTermQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermEnum.growBuffer(int);org.apache.lucene.index.Term;1;1;1;0.9473684210526316;0.9090909090909091;4;72;36
 org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.store.Directory;1;2;7;0.92;1.0;28;159;0
 org.apache.lucene.search.BooleanQuery.normalize(float);org.apache.lucene.search.BooleanClause;1;2;2;0.9130434782608696;0.9;8;164;13
-org.apache.lucene.search.spans.SpanNotQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNotQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.index.FieldInfos.write(org.apache.lucene.store.OutputStream);org.apache.lucene.index.FieldInfo;2;2;2;0.8947368421052632;0.75;8;73;5
 org.apache.lucene.search.WildcardQuery.getEnum(org.apache.lucene.index.IndexReader);org.apache.lucene.search.MultiTermQuery;0;0;1;1.0;1.0;3;6;41
-org.apache.lucene.search.spans.NearSpans.queueToList();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
-org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.TermVectorsReader;0;0;0;0;0
+org.apache.lucene.search.spans.NearSpans.queueToList();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.TermVectorsReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.BooleanQuery.toString(java.lang.String);org.apache.lucene.search.Query;2;1;2;0.962962962962963;0.9375;24;164;49
 org.apache.lucene.search.PrefixQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;3;0;5;1.0;1.0;24;44;0
 org.apache.lucene.search.IndexSearcher.search(org.apache.lucene.search.Filter, org.apache.lucene.search.HitCollector, org.apache.lucene.search.Query);org.apache.lucene.search.Scorer;1;1;5;1.0;1.0;17;72;6
 org.apache.lucene.search.WildcardTermEnum.close();org.apache.lucene.search.FilteredTermEnum;1;2;1;0.8;0.8333333333333334;6;84;37
 org.apache.lucene.index.SegmentInfos.write(org.apache.lucene.store.Directory);org.apache.lucene.store.Directory;2;2;3;0.8333333333333334;1.0;16;32;0
-org.apache.lucene.index.SegmentMerger.bufferSkip(int);org.apache.lucene.store.OutputStream;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.bufferSkip(int);org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.index.TermInfosReader.readIndex();org.apache.lucene.index.SegmentTermEnum;5;4;2;0.8181818181818181;0.7619047619047619;17;88;72
-org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.store.Lock;0;0;0;0;0
+org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.store.Lock;0;0;0;0;0;0;0;0
 org.apache.lucene.store.FSOutputStream.close();org.apache.lucene.store.OutputStream;1;1;1;0.875;0.9411764705882353;4;20;67
 org.apache.lucene.index.SegmentMergeQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.index.SegmentMergeInfo;1;0;2;1.0;0.8;7;13;31
 org.apache.lucene.analysis.standard.StandardTokenizer.jj_consume_token(int);org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;4;2;0.7777777777777778;0.9655172413793104;13;147;776
 org.apache.lucene.search.BooleanQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Explanation;4;2;4;0.9285714285714286;0.75;38;164;63
-org.apache.lucene.search.spans.SpanWeight.sumOfSquaredWeights();org.apache.lucene.search.Similarity;0;0;0;0;0
-org.apache.lucene.index.CompoundFileReader.touchFile(java.lang.String);org.apache.lucene.store.Directory;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.sumOfSquaredWeights();org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
+org.apache.lucene.index.CompoundFileReader.touchFile(java.lang.String);org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermPositions.seek(org.apache.lucene.index.TermInfo);org.apache.lucene.index.SegmentTermDocs;1;1;3;0.9090909090909091;0.9230769230769231;5;32;67
-org.apache.lucene.search.spans.SpanTermQuery.getField();org.apache.lucene.index.Term;0;0;0;0;0
+org.apache.lucene.search.spans.SpanTermQuery.getField();org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhrasePrefixQuery.toString(java.lang.String);org.apache.lucene.index.Term;1;3;2;0.8888888888888888;0.95;23;118;36
 org.apache.lucene.analysis.StopFilter.next();org.apache.lucene.analysis.TokenFilter;0;1;3;0.8;1.0;4;17;8
 org.apache.lucene.search.FilteredTermEnum.close();org.apache.lucene.index.TermEnum;1;0;1;1.0;1.0;5;37;0
-org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.index.IndexWriter;0;0;0;0;0
-org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.search.MultiSearcherThread;0;0;0;0;0
+org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.index.IndexWriter;0;0;0;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.search.MultiSearcherThread;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermQuery.equals(java.lang.Object);org.apache.lucene.search.Query;1;0;2;1.0;0.875;5;83;49
-org.apache.lucene.search.FieldCacheImpl.getInts(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0
-org.apache.lucene.index.IndexWriter.addIndexes(org.apache.lucene.index.IndexReader[]);org.apache.lucene.store.Directory;0;0;0;0;0
-org.apache.lucene.search.MultiSearcherThread.hits();org.apache.lucene.search.TopDocs;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getInts(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexWriter.addIndexes(org.apache.lucene.index.IndexReader[]);org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
+org.apache.lucene.search.MultiSearcherThread.hits();org.apache.lucene.search.TopDocs;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.getFieldNames(boolean);org.apache.lucene.index.FieldInfos;2;0;2;1.0;0.8823529411764706;8;160;73
-org.apache.lucene.search.PhraseQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.search.PhraseQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhrasePrefixQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Scorer;1;5;5;0.782608695652174;1.0;28;118;6
 org.apache.lucene.search.PrefixQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;2;0;5;1.0;0.8666666666666667;24;44;36
 org.apache.lucene.search.MultiTermQuery.toString(java.lang.String);org.apache.lucene.search.Query;1;0;2;1.0;0.9230769230769231;13;41;49
-org.apache.lucene.index.FilterIndexReader.norms(byte[], int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.norms(byte[], int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.util.PriorityQueue;3;2;3;0.9047619047619048;0.8333333333333334;17;89;78
 org.apache.lucene.search.TermQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Similarity;0;4;6;0.8095238095238095;1.0;29;83;48
 org.apache.lucene.analysis.ru.RussianLowerCaseFilter.next();org.apache.lucene.analysis.Token;3;1;4;0.8571428571428572;0.6666666666666667;12;16;30
-org.apache.lucene.search.PhraseScorer.sort();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.sort();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.search.SloppyPhraseScorer.phraseFreq();org.apache.lucene.search.PhrasePositions;3;1;5;0.9;0.7857142857142857;29;33;25
 org.apache.lucene.index.SegmentReader.getFieldNames();org.apache.lucene.index.FieldInfo;1;0;2;1.0;0.8333333333333334;8;160;5
-org.apache.lucene.index.SegmentReader.openNorms(org.apache.lucene.store.Directory);org.apache.lucene.index.FieldInfos;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.openNorms(org.apache.lucene.store.Directory);org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.search.TermQuery;0;6;4;0.7;1.0;20;57;83
 org.apache.lucene.index.DocumentWriter.invertDocument(org.apache.lucene.document.Document);org.apache.lucene.analysis.TokenStream;2;4;6;0.8846153846153846;0.9473684210526316;33;173;2
-org.apache.lucene.search.PhraseScorer.doNext();org.apache.lucene.search.PhrasePositions;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.doNext();org.apache.lucene.search.PhrasePositions;0;0;0;0;0;0;0;0
 org.apache.lucene.search.RangeQuery.getField();org.apache.lucene.index.Term;1;0;1;1.0;0.875;3;71;36
 org.apache.lucene.index.IndexWriter.readDeleteableFiles();org.apache.lucene.store.InputStream;3;0;2;1.0;0.9090909090909091;12;199;98
 org.apache.lucene.index.SegmentReader.terms(org.apache.lucene.index.Term);org.apache.lucene.index.TermInfosReader;1;0;1;1.0;0.9375;3;160;88
 org.apache.lucene.search.PhraseQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Similarity;0;6;6;0.8064516129032258;1.0;43;128;48
 org.apache.lucene.store.RAMDirectory.makeLock(java.lang.String);org.apache.lucene.store.OutputStream;1;7;1;0.5625;0.9545454545454546;20;98;67
 org.apache.lucene.analysis.ru.RussianStemFilter.next();org.apache.lucene.analysis.Token;4;0;4;1.0;0.5555555555555556;12;21;30
-org.apache.lucene.index.FilterIndexReader.getTermFreqVectors(int);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.getTermFreqVectors(int);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.Term(java.lang.String);org.apache.lucene.queryParser.Token;2;10;3;0.9;0.9523809523809523;218;738;9
 org.apache.lucene.queryParser.QueryParser.getToken(int);org.apache.lucene.queryParser.Token;0;1;2;0.9803921568627451;1.0;8;738;9
 org.apache.lucene.search.BooleanQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.BooleanClause;2;2;3;0.9166666666666666;0.8;11;164;13
 org.apache.lucene.index.IndexWriter.readDeleteableFiles();org.apache.lucene.store.Directory;2;0;2;1.0;1.0;12;199;0
-org.apache.lucene.index.FilterIndexReader.hasDeletions();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.hasDeletions();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.Hits.getMoreDocs(int);org.apache.lucene.search.TopDocs;2;2;2;0.8888888888888888;0.7777777777777778;11;59;4
 org.apache.lucene.index.SegmentTermEnum.clone();org.apache.lucene.index.Term;1;1;2;0.95;0.9166666666666666;12;72;36
-org.apache.lucene.index.SegmentReader.reWrite();org.apache.lucene.store.OutputStream;0;0;0;0;0
-org.apache.lucene.search.FieldSortedHitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.SortField;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.reWrite();org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldSortedHitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiSearcher.collect(float, int);org.apache.lucene.search.HitCollector;1;0;1;1.0;1.0;3;89;0
-org.apache.lucene.index.DocumentWriter.writeNorms(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.index.FieldInfo;0;0;0;0;0
+org.apache.lucene.index.DocumentWriter.writeNorms(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.index.FieldInfo;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.invertDocument(org.apache.lucene.document.Document);org.apache.lucene.analysis.Token;2;4;6;0.8846153846153846;0.9130434782608696;33;173;30
 org.apache.lucene.search.DateFilter.bits(org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;1;3;3;0.8235294117647058;0.9545454545454546;29;71;36
 org.apache.lucene.search.TermQuery.toString(java.lang.String);org.apache.lucene.index.Term;2;0;2;1.0;0.8461538461538461;13;83;36
-org.apache.lucene.index.TermEnum.skipTo(org.apache.lucene.index.Term);org.apache.lucene.index.Term;0;0;0;0;0
+org.apache.lucene.index.TermEnum.skipTo(org.apache.lucene.index.Term);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.Term);org.apache.lucene.index.SegmentReader;0;1;2;0.9090909090909091;1.0;4;67;160
 org.apache.lucene.search.IndexSearcher.maxDoc();org.apache.lucene.index.IndexReader;1;0;1;1.0;1.0;3;72;106
-org.apache.lucene.search.PhraseScorer.score();org.apache.lucene.search.PhrasePositions;0;0;0;0;0
-org.apache.lucene.search.BooleanScorer.next();org.apache.lucene.search.HitCollector;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.score();org.apache.lucene.search.PhrasePositions;0;0;0;0;0;0;0;0
+org.apache.lucene.search.BooleanScorer.next();org.apache.lucene.search.HitCollector;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.LowerCaseFilter.next();org.apache.lucene.analysis.TokenFilter;0;0;3;1.0;1.0;6;9;8
 org.apache.lucene.index.DocumentWriter.addDocument(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.document.Document;1;7;3;0.75;0.9545454545454546;20;173;57
 org.apache.lucene.search.PhrasePrefixQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Similarity;0;5;5;0.782608695652174;1.0;28;118;48
-org.apache.lucene.search.FieldCacheImpl.getStrings(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getStrings(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMerger.mergeTerms();org.apache.lucene.store.OutputStream;1;2;4;0.8666666666666667;0.95;14;159;67
 org.apache.lucene.search.BooleanQuery.toString(java.lang.String);org.apache.lucene.search.BooleanClause;2;1;2;0.962962962962963;0.8333333333333334;24;164;13
 org.apache.lucene.analysis.standard.StandardFilter.next();org.apache.lucene.analysis.Token;4;0;3;1.0;0.6923076923076923;20;23;30
 org.apache.lucene.search.RangeQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;2;2;5;0.8571428571428572;0.8823529411764706;32;71;36
 org.apache.lucene.search.RangeQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;1;2;5;0.8571428571428572;0.9411764705882353;32;71;49
-org.apache.lucene.search.ParallelMultiSearcher.rewrite(org.apache.lucene.search.Query);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.search.FilteredQuery.next();org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.rewrite(org.apache.lucene.search.Query);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.next();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermPositions.seek(org.apache.lucene.index.TermInfo);org.apache.lucene.index.TermInfo;1;1;3;0.9090909090909091;0.875;5;32;22
-org.apache.lucene.index.TermVectorsReader.checkValidFormat(org.apache.lucene.store.InputStream);org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.checkValidFormat(org.apache.lucene.store.InputStream);org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0;0;0;0
 org.apache.lucene.search.IndexSearcher.collect(float, int);org.apache.lucene.search.HitCollector;1;0;1;1.0;1.0;5;72;0
 org.apache.lucene.analysis.ru.RussianLowerCaseFilter.next();org.apache.lucene.analysis.TokenStream;1;1;4;0.8571428571428572;1.0;12;16;2
-org.apache.lucene.search.spans.SpanScorer.explain(int);org.apache.lucene.search.Similarity;0;0;0;0;0
-org.apache.lucene.search.FilteredQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.search.SortComparator.compare(org.apache.lucene.search.ScoreDoc, org.apache.lucene.search.ScoreDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.explain(int);org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.search.SortComparator.compare(org.apache.lucene.search.ScoreDoc, org.apache.lucene.search.ScoreDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;2;0;3;1.0;0.8888888888888888;5;83;106
 org.apache.lucene.index.SegmentTermDocs.read(int[], int[]);org.apache.lucene.util.BitVector;1;3;2;0.75;0.9166666666666666;17;67;50
 org.apache.lucene.index.MultipleTermPositions.skipTo(int);org.apache.lucene.util.PriorityQueue;2;3;1;0.8846153846153846;0.8888888888888888;8;85;78
-org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.writeNorms(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.search.Similarity;1;2;6;0.9;1.0;17;173;48
-org.apache.lucene.index.SegmentReader.openNorms(org.apache.lucene.store.Directory);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.MultiReader.docFreq(org.apache.lucene.index.Term);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.openNorms(org.apache.lucene.store.Directory);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.docFreq(org.apache.lucene.index.Term);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.document.Document.getFields(java.lang.String);org.apache.lucene.document.Field;1;0;2;1.0;0.9166666666666666;15;57;64
 org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermInfo);org.apache.lucene.index.TermInfo;2;2;2;0.8461538461538461;0.75;10;67;22
 org.apache.lucene.queryParser.QueryParser.jj_scan_token(int);org.apache.lucene.queryParser.Token;1;4;2;0.9230769230769231;0.9090909090909091;26;738;9
-org.apache.lucene.search.FilteredQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Explanation;0;0;0;0;0
-org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.CompoundFileWriter;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Explanation;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.CompoundFileWriter;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMerger.mergeTerms();org.apache.lucene.index.TermInfosWriter;1;2;4;0.8666666666666667;0.9166666666666666;14;159;52
 org.apache.lucene.store.RAMOutputStream.reset();org.apache.lucene.store.RAMFile;1;1;1;0.8571428571428572;0.8;9;33;0
 org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.index.SegmentMerger;2;4;6;0.8857142857142857;0.9259259259259259;32;199;159
-org.apache.lucene.search.FieldCacheImpl.getStringIndex(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getStringIndex(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;1;4;6;0.8095238095238095;0.9444444444444444;29;83;49
 org.apache.lucene.index.TermInfosReader.get(org.apache.lucene.index.Term);org.apache.lucene.index.SegmentTermEnum;1;5;3;0.7222222222222222;0.9545454545454546;9;88;72
 org.apache.lucene.search.BooleanQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.BooleanScorer;1;2;3;0.9166666666666666;1.0;11;164;81
 org.apache.lucene.index.FieldsWriter.addDocument(org.apache.lucene.document.Document);org.apache.lucene.document.Document;1;0;4;1.0;0.95;21;30;57
 org.apache.lucene.index.SegmentMerger.mergeTermInfo(int, org.apache.lucene.index.SegmentMergeInfo[]);org.apache.lucene.index.TermInfo;1;1;4;1.0;0.875;9;159;22
 org.apache.lucene.queryParser.QueryParser.getFieldQuery(java.lang.String, java.lang.String, org.apache.lucene.analysis.Analyzer);org.apache.lucene.analysis.Token;1;1;4;0.9827586206896551;0.9285714285714286;25;738;30
-org.apache.lucene.index.SegmentMerger.mergeVectors();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.mergeVectors();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermPositions.nextPosition();org.apache.lucene.store.InputStream;1;2;1;0.7777777777777778;0.95;4;32;98
-org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.store.Directory;0;0;0;0;0
+org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.search.TopDocs;2;2;3;0.9047619047619048;0.7777777777777778;17;89;4
-org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.index.SegmentMergeInfo;0;0;0;0;0
+org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.index.SegmentMergeInfo;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.terms();org.apache.lucene.index.TermInfosReader;1;0;1;1.0;0.9375;3;160;88
 org.apache.lucene.search.PhrasePrefixQuery.toString(java.lang.String);org.apache.lucene.search.Query;1;3;2;0.8888888888888888;0.9473684210526316;23;118;49
 org.apache.lucene.index.DocumentWriter.writeNorms(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.store.Directory;1;2;6;0.9;1.0;17;173;0
 org.apache.lucene.index.IndexWriter.flushRamSegments();org.apache.lucene.index.SegmentInfos;1;2;2;0.9166666666666666;0.875;11;199;32
 org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.index.Term;1;2;4;0.9565217391304348;0.95;29;159;36
-org.apache.lucene.search.PhraseScorer.next();org.apache.lucene.search.PhrasePositions;0;0;0;0;0
-org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.util.PriorityQueue;0;0;0;0;0
-org.apache.lucene.search.FilteredQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Filter;0;0;0;0;0
-org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.ScoreDoc;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.initialize(org.apache.lucene.index.SegmentInfo);org.apache.lucene.index.FieldInfos;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.next();org.apache.lucene.search.PhrasePositions;0;0;0;0;0;0;0;0
+org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Filter;0;0;0;0;0;0;0;0
+org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.initialize(org.apache.lucene.index.SegmentInfo);org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.files();org.apache.lucene.index.IndexReader;0;1;4;0.9666666666666667;1.0;16;160;106
 org.apache.lucene.index.SegmentMerger.mergeTermInfo(int, org.apache.lucene.index.SegmentMergeInfo[]);org.apache.lucene.store.OutputStream;1;1;4;1.0;0.9444444444444444;9;159;67
 org.apache.lucene.document.Document.toString();org.apache.lucene.document.Field;1;0;2;1.0;0.9;10;57;64
 org.apache.lucene.index.SegmentTermEnum.next();org.apache.lucene.store.InputStream;2;5;2;0.7619047619047619;0.9230769230769231;13;72;98
 org.apache.lucene.index.SegmentMerger.mergeTerms();org.apache.lucene.index.SegmentMergeQueue;1;2;4;0.8666666666666667;0.8571428571428572;14;159;13
-org.apache.lucene.search.spans.SpanOrQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
-org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.TopFieldDocs;0;0;0;0;0
+org.apache.lucene.search.spans.SpanOrQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.TopFieldDocs;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiTermQuery.toString(java.lang.String);org.apache.lucene.index.Term;2;0;2;1.0;0.8461538461538461;13;41;36
-org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.Filter;0;0;0;0;0
-org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.TopDocs;0;0;0;0;0
+org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.Filter;0;0;0;0;0;0;0;0
+org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.TopDocs;0;0;0;0;0;0;0;0
 org.apache.lucene.search.FilteredTermEnum.docFreq();org.apache.lucene.index.TermEnum;1;0;1;1.0;1.0;4;37;0
 org.apache.lucene.index.SegmentTermEnum.termInfo(org.apache.lucene.index.TermInfo);org.apache.lucene.index.TermInfo;1;0;1;1.0;0.8;3;72;22
-org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.index.Term;0;0;0;0;0
-org.apache.lucene.index.TermVectorsReader.readTermVector(java.lang.String, long);org.apache.lucene.store.InputStream;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.readTermVector(java.lang.String, long);org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiTermQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.FilteredTermEnum;3;1;3;1.0;0.75;19;41;37
-org.apache.lucene.search.FieldSortedHitQueue.sortType();org.apache.lucene.search.SortField;0;0;0;0;0
+org.apache.lucene.search.FieldSortedHitQueue.sortType();org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.doDelete(int);org.apache.lucene.util.BitVector;1;2;1;0.9230769230769231;0.9;5;160;50
 org.apache.lucene.search.PhrasePrefixQuery.sumOfSquaredWeights();org.apache.lucene.search.Query;1;3;3;0.8636363636363636;0.9285714285714286;9;118;49
 org.apache.lucene.index.SegmentReader.document(int);org.apache.lucene.index.FieldsReader;1;1;1;0.9615384615384616;0.75;4;160;27
 org.apache.lucene.search.PhraseScorer.explain(int);org.apache.lucene.search.Scorer;0;3;4;0.9333333333333333;1.0;12;63;6
 org.apache.lucene.index.DocumentWriter.addDocument(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.index.FieldsWriter;2;7;3;0.75;0.8666666666666667;20;173;30
 org.apache.lucene.analysis.standard.StandardTokenizer.getNextToken();org.apache.lucene.analysis.standard.Token;0;2;2;0.8823529411764706;1.0;7;147;9
-org.apache.lucene.search.FieldCacheImpl.getInts(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.TermVectorsReader;0;0;0;0;0
-org.apache.lucene.search.ConjunctionScorer.score();org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.search.PhraseScorer.init();org.apache.lucene.search.PhrasePositions;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getInts(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.TermVectorsReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.score();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.init();org.apache.lucene.search.PhrasePositions;0;0;0;0;0;0;0;0
 org.apache.lucene.search.DateFilter.bits(org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;3;3;3;0.8235294117647058;1.0;29;71;0
 org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.store.Directory;1;0;5;1.0;1.0;33;173;0
 org.apache.lucene.search.IndexSearcher.search(org.apache.lucene.search.Filter, org.apache.lucene.search.HitCollector, org.apache.lucene.search.Query);org.apache.lucene.search.Query;1;1;5;1.0;0.9285714285714286;17;72;49
-org.apache.lucene.index.FieldInfos.add(boolean, boolean, java.lang.String);org.apache.lucene.index.FieldInfo;0;0;0;0;0
-org.apache.lucene.search.spans.SpanNearQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
-org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
-org.apache.lucene.search.FieldCacheImpl.getAuto(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0
-org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.search.SortField;0;0;0;0;0
-org.apache.lucene.index.SegmentMerger.writeSkip();org.apache.lucene.store.OutputStream;0;0;0;0;0
+org.apache.lucene.index.FieldInfos.add(boolean, boolean, java.lang.String);org.apache.lucene.index.FieldInfo;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNearQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getAuto(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.writeSkip();org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.jj_consume_token(int);org.apache.lucene.queryParser.QueryParserTokenManager;1;8;2;0.8461538461538461;0.9803921568627451;23;738;817
 org.apache.lucene.search.PhrasePrefixQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;1;5;5;0.782608695652174;0.9411764705882353;28;118;49
-org.apache.lucene.search.FieldCacheImpl.getAuto(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getAuto(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.addPosition(int, java.lang.String, java.lang.String);org.apache.lucene.index.Posting;2;1;2;0.9333333333333333;0.6666666666666667;19;173;6
 org.apache.lucene.analysis.StopFilter.next();org.apache.lucene.analysis.Token;1;1;3;0.8;0.8888888888888888;4;17;30
 org.apache.lucene.index.IndexWriter.deleteSegments(java.util.Vector);org.apache.lucene.index.SegmentReader;1;4;2;0.8333333333333334;0.967741935483871;10;199;160
-org.apache.lucene.search.spans.SpanOrQuery.getTerms();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
+org.apache.lucene.search.spans.SpanOrQuery.getTerms();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
 org.apache.lucene.index.TermInfosReader.getPosition(org.apache.lucene.index.Term);org.apache.lucene.index.SegmentTermEnum;2;3;2;0.8421052631578947;0.9;9;88;72
 org.apache.lucene.index.DocumentWriter.writeNorms(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.store.OutputStream;2;2;6;0.9;0.92;17;173;67
 org.apache.lucene.search.ExactPhraseScorer.phraseFreq();org.apache.lucene.util.PriorityQueue;1;0;3;1.0;0.9411764705882353;20;23;78
 org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.store.InputStream;1;5;8;0.8529411764705882;1.0;22;160;98
 org.apache.lucene.index.TermInfosWriter.add(org.apache.lucene.index.Term, org.apache.lucene.index.TermInfo);org.apache.lucene.index.TermInfo;4;5;3;0.6666666666666667;0.7142857142857143;16;52;22
-org.apache.lucene.search.SortComparator.sortValue(org.apache.lucene.search.ScoreDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0
+org.apache.lucene.search.SortComparator.sortValue(org.apache.lucene.search.ScoreDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
 org.apache.lucene.index.TermInfosReader.getPosition(org.apache.lucene.index.Term);org.apache.lucene.index.Term;1;3;2;0.8421052631578947;0.9230769230769231;9;88;36
-org.apache.lucene.index.SegmentReader.getTermFreqVectors(int);org.apache.lucene.index.TermVectorsReader;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.termPositions();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.getTermFreqVectors(int);org.apache.lucene.index.TermVectorsReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.termPositions();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.DateFilter.toString();org.apache.lucene.document.DateField;0;3;1;0.625;1.0;9;71;31
 org.apache.lucene.analysis.standard.StandardTokenizer.next();org.apache.lucene.analysis.standard.Token;4;5;1;0.8275862068965517;0.8;44;147;9
 org.apache.lucene.search.BooleanScorer.computeCoordFactors();org.apache.lucene.search.Similarity;1;2;2;0.9259259259259259;1.0;4;81;48
-org.apache.lucene.index.TermVectorsReader.get(int, java.lang.String);org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.FieldInfo;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.get(int, java.lang.String);org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.FieldInfo;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.invertDocument(org.apache.lucene.document.Document);org.apache.lucene.index.FieldInfos;1;4;6;0.8846153846153846;0.96875;33;173;73
 org.apache.lucene.index.SegmentTermEnum.docFreq();org.apache.lucene.index.TermInfo;1;0;1;1.0;0.8;3;72;22
 org.apache.lucene.index.SegmentReader.norms(byte[], int, java.lang.String);org.apache.lucene.store.InputStream;2;2;1;0.9259259259259259;0.9523809523809523;10;160;98
 org.apache.lucene.index.FieldsReader.doc(int);org.apache.lucene.document.Document;1;0;4;1.0;0.9375;14;27;57
 org.apache.lucene.queryParser.QueryParser.jj_ntk();org.apache.lucene.queryParser.QueryParserTokenManager;1;1;2;0.9807692307692307;0.9772727272727273;4;738;817
-org.apache.lucene.index.TermVectorsWriter.openDocument();org.apache.lucene.store.OutputStream;0;0;0;0;0
-org.apache.lucene.search.spans.SpanOrQuery.top();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
-org.apache.lucene.index.FieldInfos.hasVectors();org.apache.lucene.index.FieldInfo;0;0;0;0;0
+org.apache.lucene.index.TermVectorsWriter.openDocument();org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanOrQuery.top();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FieldInfos.hasVectors();org.apache.lucene.index.FieldInfo;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParserTokenManager.getNextToken();org.apache.lucene.queryParser.TokenMgrError;0;10;1;0.7916666666666666;1.0;72;817;59
 org.apache.lucene.analysis.ru.RussianStemFilter.next();org.apache.lucene.analysis.TokenStream;1;0;4;1.0;1.0;12;21;2
-org.apache.lucene.index.IndexReader.commit();org.apache.lucene.store.Lock;0;0;0;0;0
+org.apache.lucene.index.IndexReader.commit();org.apache.lucene.store.Lock;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermEnum.close();org.apache.lucene.store.InputStream;1;0;1;1.0;1.0;3;72;98
 org.apache.lucene.search.PhraseQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;2;3;2;0.8636363636363636;0.9230769230769231;11;128;106
-org.apache.lucene.search.PhraseScorer.score();org.apache.lucene.search.Similarity;0;0;0;0;0
-org.apache.lucene.index.TermInfosWriter.writeTerm(org.apache.lucene.index.Term);org.apache.lucene.util.StringHelper;0;0;0;0;0
-org.apache.lucene.search.spans.SpanNotQuery.getField();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.initialize(org.apache.lucene.index.SegmentInfo);org.apache.lucene.index.SegmentInfo;0;0;0;0;0
-org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.score();org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermInfosWriter.writeTerm(org.apache.lucene.index.Term);org.apache.lucene.util.StringHelper;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNotQuery.getField();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.initialize(org.apache.lucene.index.SegmentInfo);org.apache.lucene.index.SegmentInfo;0;0;0;0;0;0;0;0
+org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMerger.mergeTermInfo(int, org.apache.lucene.index.SegmentMergeInfo[]);org.apache.lucene.index.SegmentMergeInfo;0;1;4;1.0;1.0;9;159;31
 org.apache.lucene.search.ExactPhraseScorer.phraseFreq();org.apache.lucene.search.PhraseScorer;2;0;3;1.0;0.8461538461538461;20;23;63
 org.apache.lucene.analysis.de.GermanAnalyzer.setStemExclusionTable(java.lang.String[]);org.apache.lucene.analysis.StopFilter;0;1;1;0.8333333333333334;1.0;3;28;17
 org.apache.lucene.search.PhraseScorer.pqToList();org.apache.lucene.util.PriorityQueue;2;0;2;1.0;0.8333333333333334;12;63;78
 org.apache.lucene.index.SegmentTermPositions.next();org.apache.lucene.index.SegmentTermDocs;2;2;2;0.8181818181818181;0.8461538461538461;9;32;67
 org.apache.lucene.search.BooleanQuery.normalize(float);org.apache.lucene.search.Query;1;2;2;0.9130434782608696;0.9230769230769231;8;164;49
-org.apache.lucene.search.SortComparator.newComparator(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.ScoreDoc;0;0;0;0;0
+org.apache.lucene.search.SortComparator.newComparator(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.CharTokenizer.next();org.apache.lucene.analysis.Tokenizer;1;7;1;0.4;0.9;25;31;8
-org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.store.Directory;0;0;0;0;0
-org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.MultiSearcherThread;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.MultiSearcherThread;0;0;0;0;0;0;0;0
 org.apache.lucene.index.TermInfosWriter.initialize(boolean, java.lang.String, org.apache.lucene.index.FieldInfos, org.apache.lucene.store.Directory);org.apache.lucene.store.Directory;1;1;2;0.8888888888888888;1.0;6;52;0
 org.apache.lucene.store.RAMOutputStream.writeTo(org.apache.lucene.store.OutputStream);org.apache.lucene.store.OutputStream;2;0;2;1.0;0.8888888888888888;15;33;67
-org.apache.lucene.index.FilterIndexReader.getFieldNames();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.getFieldNames();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.docCount();org.apache.lucene.index.SegmentInfos;1;0;2;1.0;0.8333333333333334;8;199;32
 org.apache.lucene.index.TermInfosReader.seekEnum(int);org.apache.lucene.index.SegmentTermEnum;1;3;2;0.8235294117647058;1.0;3;88;72
-org.apache.lucene.search.SortComparator.newComparator(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0
-org.apache.lucene.search.spans.SpanOrQuery.toString();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.SortComparator.newComparator(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanOrQuery.toString();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.getFieldQuery(java.lang.String, java.lang.String, org.apache.lucene.analysis.Analyzer);org.apache.lucene.search.PhraseQuery;2;1;4;0.9827586206896551;0.92;25;738;128
 org.apache.lucene.index.SegmentMerger.mergeTermInfo(int, org.apache.lucene.index.SegmentMergeInfo[]);org.apache.lucene.index.TermInfosWriter;1;1;4;1.0;0.9;9;159;52
 org.apache.lucene.index.SegmentTermEnum.seek(int, long, org.apache.lucene.index.Term, org.apache.lucene.index.TermInfo);org.apache.lucene.index.TermInfo;1;2;3;0.9;0.9;8;72;22
-org.apache.lucene.index.SegmentReader.initialize(org.apache.lucene.index.SegmentInfo);org.apache.lucene.store.Directory;0;0;0;0;0
-org.apache.lucene.search.FieldCacheImpl.getFloats(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.initialize(org.apache.lucene.index.SegmentInfo);org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getFloats(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.search.Scorer;1;1;5;1.0;1.0;19;72;6
 org.apache.lucene.search.RangeQuery.toString(java.lang.String);org.apache.lucene.index.Term;1;2;2;0.8181818181818181;0.9333333333333333;17;71;36
-org.apache.lucene.index.FilterIndexReader.maxDoc();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.reWrite();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.MultiReader.document(int);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.maxDoc();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.reWrite();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.document(int);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.FieldInfos.write(org.apache.lucene.store.OutputStream);org.apache.lucene.store.OutputStream;3;2;2;0.8947368421052632;0.8421052631578947;8;73;67
 org.apache.lucene.search.BooleanQuery.hashCode();org.apache.lucene.search.Query;1;1;1;0.9523809523809523;0.9;3;164;49
-org.apache.lucene.index.SegmentMerger.closeReaders();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.closeReaders();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.store.Directory;1;4;6;0.8857142857142857;1.0;32;199;0
 org.apache.lucene.search.PhrasePrefixQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Explanation;3;5;5;0.782608695652174;0.8125;28;118;63
-org.apache.lucene.search.spans.NearSpans.firstNonOrderedNextToPartialList();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
-org.apache.lucene.index.IndexReader.close();org.apache.lucene.store.Directory;0;0;0;0;0
+org.apache.lucene.search.spans.NearSpans.firstNonOrderedNextToPartialList();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexReader.close();org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseQuery.sumOfSquaredWeights();org.apache.lucene.search.Similarity;1;3;3;0.85;0.8571428571428572;5;128;48
 org.apache.lucene.analysis.standard.StandardTokenizer.jj_ntk();org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;1;2;0.9444444444444444;0.9615384615384616;4;147;776
 org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermInfo);org.apache.lucene.store.InputStream;1;2;2;0.8461538461538461;0.9545454545454546;10;67;98
@@ -270,28 +270,28 @@ org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.index.Field
 org.apache.lucene.index.IndexWriter.finalize();org.apache.lucene.store.Lock;1;0;1;1.0;1.0;6;199;35
 org.apache.lucene.index.SegmentReader.files();org.apache.lucene.store.Directory;1;1;4;0.9666666666666667;1.0;16;160;0
 org.apache.lucene.store.FSInputStream.readInternal(byte[], int, int);org.apache.lucene.store.InputStream;1;2;1;0.8181818181818181;0.9545454545454546;17;37;98
-org.apache.lucene.index.MultiReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.MultiReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;1;4;6;0.8095238095238095;1.0;29;83;106
 org.apache.lucene.index.SegmentReader.files();org.apache.lucene.index.FieldInfos;2;1;4;0.9666666666666667;0.8888888888888888;16;160;73
 org.apache.lucene.index.DocumentWriter.addDocument(java.lang.String, org.apache.lucene.document.Document);org.apache.lucene.index.FieldInfos;3;7;3;0.75;0.9259259259259259;20;173;73
 org.apache.lucene.index.IndexWriter.optimize();org.apache.lucene.index.SegmentInfos;1;3;3;0.8695652173913043;0.875;7;199;32
-org.apache.lucene.search.FilteredQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Explanation;0;0;0;0;0
-org.apache.lucene.search.spans.SpanFirstQuery.getField();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
-org.apache.lucene.search.spans.SpanScorer.skipTo(int);org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Explanation;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanFirstQuery.getField();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.skipTo(int);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentInfos.read(org.apache.lucene.store.Directory);org.apache.lucene.store.Directory;1;1;2;0.8888888888888888;1.0;13;32;0
-org.apache.lucene.search.Sort.toString();org.apache.lucene.search.SortField;0;0;0;0;0
+org.apache.lucene.search.Sort.toString();org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.writeDeleteableFiles(java.util.Vector);org.apache.lucene.store.Directory;2;0;2;1.0;1.0;11;199;0
 org.apache.lucene.search.Hits.remove(org.apache.lucene.search.HitDoc);org.apache.lucene.search.HitDoc;0;1;1;0.9090909090909091;1.0;8;59;4
-org.apache.lucene.index.TermVectorsReader.get(int, java.lang.String);org.apache.lucene.store.InputStream;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.get(int, java.lang.String);org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Scorer;1;6;6;0.8064516129032258;1.0;43;128;6
-org.apache.lucene.search.Sort.setSort(java.lang.String[]);org.apache.lucene.search.SortField;0;0;0;0;0
+org.apache.lucene.search.Sort.setSort(java.lang.String[]);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.Term(java.lang.String);org.apache.lucene.search.Query;1;10;3;0.9;0.9772727272727273;218;738;49
-org.apache.lucene.search.spans.NearSpans.partialListToQueue();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.spans.NearSpans.partialListToQueue();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.search.IndexSearcher.doc(int);org.apache.lucene.index.IndexReader;1;0;1;1.0;1.0;3;72;106
-org.apache.lucene.index.FilterIndexReader.getIndexedFieldNames(boolean);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.getIndexedFieldNames(boolean);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermQuery.sumOfSquaredWeights();org.apache.lucene.search.Query;1;2;3;0.8666666666666667;0.9;5;83;49
-org.apache.lucene.search.FieldCacheImpl.getStringIndex(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.MultiTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getStringIndex(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.index.TermInfosWriter.writeTerm(org.apache.lucene.index.Term);org.apache.lucene.index.Term;2;0;3;1.0;0.8333333333333334;9;52;36
 org.apache.lucene.index.TermInfosWriter.add(org.apache.lucene.index.Term, org.apache.lucene.index.TermInfo);org.apache.lucene.index.Term;1;5;3;0.6666666666666667;0.95;16;52;36
 org.apache.lucene.search.IndexSearcher.rewrite(org.apache.lucene.search.Query);org.apache.lucene.search.Query;1;0;1;1.0;0.8571428571428572;7;72;49
@@ -302,44 +302,44 @@ org.apache.lucene.search.TermQuery.hashCode();org.apache.lucene.search.Query;1;0
 org.apache.lucene.search.PhrasePrefixQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;2;3;2;0.8571428571428572;0.9230769230769231;14;118;106
 org.apache.lucene.queryParser.QueryParser.Clause(java.lang.String);org.apache.lucene.search.Query;1;8;2;0.8769230769230769;0.9655172413793104;54;738;49
 org.apache.lucene.index.IndexWriter.optimize();org.apache.lucene.index.SegmentReader;0;3;3;0.8695652173913043;1.0;7;199;160
-org.apache.lucene.search.spans.SpanTermQuery.toString(java.lang.String);org.apache.lucene.index.Term;0;0;0;0;0
-org.apache.lucene.index.CompoundFileReader.readInternal(byte[], int, int);org.apache.lucene.store.InputStream;0;0;0;0;0
+org.apache.lucene.search.spans.SpanTermQuery.toString(java.lang.String);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
+org.apache.lucene.index.CompoundFileReader.readInternal(byte[], int, int);org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.util.PriorityQueue;3;1;5;1.0;0.8421052631578947;19;72;78
-org.apache.lucene.search.ConjunctionScorer.init();org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.init();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.search.Hits.getMoreDocs(int);org.apache.lucene.search.ScoreDoc;2;2;2;0.8888888888888888;0.7777777777777778;11;59;4
-org.apache.lucene.search.TermScorer.score();org.apache.lucene.search.Similarity;0;0;0;0;0
+org.apache.lucene.search.TermScorer.score();org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.Clause(java.lang.String);org.apache.lucene.queryParser.Token;1;8;2;0.8769230769230769;0.9642857142857143;54;738;9
-org.apache.lucene.search.ConjunctionScorer.equals(java.lang.Object, java.lang.Object);org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.equals(java.lang.Object, java.lang.Object);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.getFieldQuery(java.lang.String, java.lang.String, org.apache.lucene.analysis.Analyzer);org.apache.lucene.analysis.Analyzer;1;1;4;0.9827586206896551;1.0;25;738;6
 org.apache.lucene.search.PhraseQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;1;6;6;0.8064516129032258;0.96;43;128;49
 org.apache.lucene.search.PhraseQuery.hashCode();org.apache.lucene.search.Query;1;2;1;0.9047619047619048;0.9090909090909091;3;128;49
-org.apache.lucene.index.IndexReader.commit();org.apache.lucene.store.Directory;0;0;0;0;0
+org.apache.lucene.index.IndexReader.commit();org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermPositions.next();org.apache.lucene.store.InputStream;1;2;2;0.8181818181818181;0.9545454545454546;9;32;98
-org.apache.lucene.search.spans.SpanScorer.explain(int);org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.explain(int);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.getRangeQuery(boolean, java.lang.String, java.lang.String, java.lang.String, org.apache.lucene.analysis.Analyzer);org.apache.lucene.document.DateField;0;0;1;1.0;1.0;17;738;31
 org.apache.lucene.analysis.de.GermanStemFilter.next();org.apache.lucene.analysis.Token;4;1;4;0.9090909090909091;0.6363636363636364;15;31;30
 org.apache.lucene.analysis.de.GermanStemFilter.next();org.apache.lucene.analysis.de.GermanStemmer;1;1;4;0.9090909090909091;0.9444444444444444;15;31;153
-org.apache.lucene.index.FilterIndexReader.next();org.apache.lucene.index.TermEnum;0;0;0;0;0
-org.apache.lucene.search.spans.NearSpans.next();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.next();org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.NearSpans.next();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.jj_scan_token(int);org.apache.lucene.queryParser.QueryParserTokenManager;1;4;2;0.9230769230769231;0.9787234042553191;26;738;817
-org.apache.lucene.search.spans.SpanOrQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.spans.SpanOrQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermEnum.readTerm();org.apache.lucene.index.FieldInfos;1;2;2;0.8947368421052632;0.9444444444444444;8;72;73
 org.apache.lucene.queryParser.QueryParserTokenManager.SwitchTo(int);org.apache.lucene.queryParser.TokenMgrError;0;1;1;0.9761904761904762;1.0;4;817;59
-org.apache.lucene.search.FilteredQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.search.FieldCacheImpl.getInts(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getInts(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseScorer.explain(int);org.apache.lucene.search.Similarity;1;3;4;0.9333333333333333;1.0;12;63;48
 org.apache.lucene.search.FilteredTermEnum.next();org.apache.lucene.index.TermEnum;2;2;1;1.0;1.0;17;37;0
 org.apache.lucene.index.SegmentTermEnum.seek(int, long, org.apache.lucene.index.Term, org.apache.lucene.index.TermInfo);org.apache.lucene.store.InputStream;1;2;3;0.9;0.9565217391304348;8;72;98
 org.apache.lucene.search.IndexSearcher.search(org.apache.lucene.search.Filter, org.apache.lucene.search.HitCollector, org.apache.lucene.search.Query);org.apache.lucene.search.Filter;1;1;5;1.0;1.0;17;72;0
-org.apache.lucene.search.spans.SpanFirstQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
+org.apache.lucene.search.spans.SpanFirstQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
 org.apache.lucene.search.ExactPhraseScorer.phraseFreq();org.apache.lucene.search.PhrasePositions;3;0;3;1.0;0.7272727272727273;20;23;25
-org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;1;6;6;0.8064516129032258;0.9615384615384616;43;128;36
 org.apache.lucene.index.SegmentTermDocs.close();org.apache.lucene.store.InputStream;1;0;1;1.0;1.0;3;67;98
 org.apache.lucene.index.FieldsReader.doc(int);org.apache.lucene.index.FieldInfo;2;0;4;1.0;0.8;14;27;5
 org.apache.lucene.index.SegmentTermEnum.seek(int, long, org.apache.lucene.index.Term, org.apache.lucene.index.TermInfo);org.apache.lucene.index.Term;1;2;3;0.9;0.9230769230769231;8;72;36
 org.apache.lucene.search.PhraseQuery.equals(java.lang.Object);org.apache.lucene.search.Query;1;2;1;0.9;0.9;5;128;49
-org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.standard.StandardTokenizer.jj_consume_token(int);org.apache.lucene.analysis.standard.Token;1;4;2;0.7777777777777778;0.9090909090909091;13;147;9
 org.apache.lucene.queryParser.QueryParser.jj_ntk();org.apache.lucene.queryParser.Token;1;1;2;0.9807692307692307;0.875;4;738;9
 org.apache.lucene.index.SegmentReader.getFieldNames();org.apache.lucene.index.FieldInfos;2;0;2;1.0;0.875;8;160;73
@@ -349,264 +349,264 @@ org.apache.lucene.index.SegmentReader.getFieldNames(boolean);org.apache.lucene.i
 org.apache.lucene.analysis.LowerCaseFilter.next();org.apache.lucene.analysis.Token;1;0;3;1.0;0.875;6;9;30
 org.apache.lucene.search.QueryFilter.bits(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;1;2;2;0.8888888888888888;1.0;17;23;106
 org.apache.lucene.search.PhraseScorer.explain(int);org.apache.lucene.search.Explanation;2;3;4;0.9333333333333333;0.8461538461538461;12;63;63
-org.apache.lucene.search.FieldSortedHitQueue.fillFields(org.apache.lucene.search.FieldDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0
-org.apache.lucene.search.FieldCacheImpl.getStrings(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.termDocs();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.FieldSortedHitQueue.fillFields(org.apache.lucene.search.FieldDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getStrings(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.termDocs();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.PorterStemFilter.next();org.apache.lucene.analysis.PorterStemmer;1;0;4;1.0;0.967741935483871;9;13;406
 org.apache.lucene.index.SegmentTermPositions.seek(org.apache.lucene.index.TermInfo);org.apache.lucene.store.InputStream;1;1;3;0.9090909090909091;0.9523809523809523;5;32;98
-org.apache.lucene.search.FieldCacheImpl.getStrings(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0
-org.apache.lucene.search.FieldSortedHitQueue.compare(org.apache.lucene.search.ScoreDoc, org.apache.lucene.search.ScoreDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getStrings(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldSortedHitQueue.compare(org.apache.lucene.search.ScoreDoc, org.apache.lucene.search.ScoreDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentInfos.write(org.apache.lucene.store.Directory);org.apache.lucene.index.SegmentInfo;2;2;3;0.8333333333333334;0.8;16;32;5
 org.apache.lucene.store.RAMOutputStream.seek(long);org.apache.lucene.store.OutputStream;1;1;1;0.8333333333333334;0.9375;4;33;67
 org.apache.lucene.search.BooleanQuery.clone();org.apache.lucene.search.Query;1;1;1;0.95;0.8888888888888888;5;164;49
-org.apache.lucene.index.SegmentTermDocs.skipTo(int);org.apache.lucene.store.InputStream;0;0;0;0;0
-org.apache.lucene.search.BooleanQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.index.SegmentTermDocs.skipTo(int);org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.BooleanQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.store.OutputStream;3;0;5;1.0;0.8571428571428572;33;173;67
 org.apache.lucene.queryParser.QueryParser.getBooleanQuery(java.util.Vector);org.apache.lucene.search.BooleanQuery;1;0;1;1.0;0.95;7;738;164
 org.apache.lucene.index.SegmentReader.docFreq(org.apache.lucene.index.Term);org.apache.lucene.index.TermInfo;1;0;2;1.0;0.8333333333333334;5;160;22
 org.apache.lucene.analysis.standard.StandardTokenizer.ReInit(org.apache.lucene.analysis.standard.CharStream);org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;3;1;0.8235294117647058;0.962962962962963;7;147;776
 org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.index.SegmentMergeInfo;2;2;4;0.9565217391304348;0.8666666666666667;29;159;31
-org.apache.lucene.search.ParallelMultiSearcher.search(org.apache.lucene.search.Filter, org.apache.lucene.search.HitCollector, org.apache.lucene.search.Query);org.apache.lucene.search.HitCollector;0;0;0;0;0
-org.apache.lucene.index.TermVectorsWriter.writeField();org.apache.lucene.util.StringHelper;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.search(org.apache.lucene.search.Filter, org.apache.lucene.search.HitCollector, org.apache.lucene.search.Query);org.apache.lucene.search.HitCollector;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermVectorsWriter.writeField();org.apache.lucene.util.StringHelper;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMerger.mergeTerms();org.apache.lucene.store.Directory;1;2;4;0.8666666666666667;1.0;14;159;0
-org.apache.lucene.search.FilteredQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Filter;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Filter;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermDocs.next();org.apache.lucene.util.BitVector;1;4;2;0.6666666666666667;0.9230769230769231;13;67;50
 org.apache.lucene.search.IndexSearcher.close();org.apache.lucene.index.IndexReader;1;0;1;1.0;0.8571428571428572;3;72;106
 org.apache.lucene.queryParser.QueryParser.getNextToken();org.apache.lucene.queryParser.QueryParserTokenManager;1;2;2;0.9607843137254902;0.9772727272727273;7;738;817
 org.apache.lucene.index.FieldsWriter.addDocument(org.apache.lucene.document.Document);org.apache.lucene.store.OutputStream;5;0;4;1.0;0.782608695652174;21;30;67
-org.apache.lucene.index.MultiReader.getFieldNames();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.MultiReader.getFieldNames();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.store.RAMDirectory.obtain();org.apache.lucene.store.OutputStream;1;3;1;0.8125;0.9444444444444444;9;98;67
-org.apache.lucene.index.FilterIndexReader.terms();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.BooleanQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.terms();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.BooleanQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermQuery.toString(java.lang.String);org.apache.lucene.search.Query;1;0;2;1.0;0.9230769230769231;13;83;49
-org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.util.PriorityQueue;0;0;0;0;0
-org.apache.lucene.index.MultiReader.isDeleted(int);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.isDeleted(int);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.getFieldQuery(java.lang.String, java.lang.String, org.apache.lucene.analysis.Analyzer);org.apache.lucene.analysis.TokenStream;1;1;4;0.9827586206896551;1.0;25;738;2
 org.apache.lucene.search.TermQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Explanation;3;4;6;0.8095238095238095;0.8235294117647058;29;83;63
 org.apache.lucene.search.TermQuery.hashCode();org.apache.lucene.index.Term;1;0;2;1.0;0.9;3;83;36
 org.apache.lucene.index.FieldInfos.write(java.lang.String, org.apache.lucene.store.Directory);org.apache.lucene.store.OutputStream;1;1;2;0.9375;0.9411764705882353;9;73;67
-org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.FieldInfos;0;0;0;0;0
+org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.PorterStemFilter.next();org.apache.lucene.analysis.TokenStream;1;0;4;1.0;1.0;9;13;2
 org.apache.lucene.index.TermInfosReader.terms(org.apache.lucene.index.Term);org.apache.lucene.index.SegmentTermEnum;1;1;1;0.9411764705882353;0.9411764705882353;4;88;72
 org.apache.lucene.index.TermInfosReader.terms();org.apache.lucene.index.SegmentTermEnum;2;1;1;0.9444444444444444;0.8823529411764706;4;88;72
-org.apache.lucene.index.SegmentMergeInfo.next();org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.index.SegmentMergeInfo.next();org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.search.FuzzyTermEnum.close();org.apache.lucene.search.FilteredTermEnum;1;2;1;0.8333333333333334;0.8333333333333334;6;56;37
-org.apache.lucene.search.spans.SpanFirstQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.index.MultiReader.numDocs();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.spans.SpanFirstQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.numDocs();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMerger.mergeFields();org.apache.lucene.index.FieldInfos;2;2;4;0.9;0.9583333333333334;20;159;73
 org.apache.lucene.analysis.de.GermanAnalyzer.setStemExclusionTable(java.io.File);org.apache.lucene.analysis.de.WordlistLoader;0;1;1;0.8333333333333334;1.0;3;28;45
 org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.util.PriorityQueue;4;2;4;0.9565217391304348;0.8095238095238095;29;159;78
 org.apache.lucene.index.SegmentMerger.appendPostings(int, org.apache.lucene.index.SegmentMergeInfo[]);org.apache.lucene.store.OutputStream;1;0;5;1.0;0.9565217391304348;36;159;67
 org.apache.lucene.index.FieldsReader.doc(int);org.apache.lucene.index.FieldInfos;1;0;4;1.0;0.9545454545454546;14;27;73
-org.apache.lucene.index.IndexReader.commit();org.apache.lucene.index.IndexWriter;0;0;0;0;0
+org.apache.lucene.index.IndexReader.commit();org.apache.lucene.index.IndexWriter;0;0;0;0;0;0;0;0
 org.apache.lucene.store.RAMOutputStream.close();org.apache.lucene.store.OutputStream;1;0;1;1.0;0.9333333333333333;3;33;67
 org.apache.lucene.search.PhraseQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Query;2;1;1;0.9545454545454546;0.8;9;128;49
 org.apache.lucene.store.RAMInputStream.readInternal(byte[], int, int);org.apache.lucene.store.InputStream;0;1;2;0.8571428571428572;1.0;16;25;98
-org.apache.lucene.index.FilterIndexReader.close();org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.close();org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexReader.finalize();org.apache.lucene.store.Lock;1;0;1;1.0;1.0;6;106;35
-org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.SegmentReader;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.docFreq();org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.SegmentReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.docFreq();org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.store.RAMOutputStream.length();org.apache.lucene.store.RAMFile;1;0;1;1.0;0.6666666666666667;3;33;0
 org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.search.Scorer;0;6;4;0.7;1.0;20;57;6
-org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.TermInfosReader;0;0;0;0;0
+org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.TermInfosReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.BooleanScorer.computeCoordFactors();org.apache.lucene.search.Scorer;0;2;2;0.9259259259259259;1.0;4;81;6
-org.apache.lucene.index.SegmentMerger.merge();org.apache.lucene.index.FieldInfos;0;0;0;0;0
-org.apache.lucene.search.spans.NearSpans.listToQueue();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
-org.apache.lucene.queryParser.QueryParser.parse(java.lang.String);org.apache.lucene.queryParser.TokenMgrError;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.merge();org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.NearSpans.listToQueue();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.queryParser.QueryParser.parse(java.lang.String);org.apache.lucene.queryParser.TokenMgrError;0;0;0;0;0;0;0;0
 org.apache.lucene.search.BooleanQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;3;2;2;0.9230769230769231;0.7857142857142857;26;164;49
 org.apache.lucene.search.PrefixQuery.toString(java.lang.String);org.apache.lucene.search.Query;1;0;2;1.0;0.9285714285714286;14;44;49
 org.apache.lucene.search.SloppyPhraseScorer.phraseFreq();org.apache.lucene.util.PriorityQueue;4;1;5;0.9;0.7647058823529411;29;33;78
-org.apache.lucene.index.SegmentReader.getIndexedFieldNames(boolean);org.apache.lucene.index.FieldInfo;0;0;0;0;0
-org.apache.lucene.search.CachingWrapperFilter.bits(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Filter;0;0;0;0;0
-org.apache.lucene.search.spans.SpanWeight.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
-org.apache.lucene.index.TermVectorsWriter.close();org.apache.lucene.store.OutputStream;0;0;0;0;0
-org.apache.lucene.search.FieldDocSortedHitQueue.hasCollators(org.apache.lucene.search.SortField[]);org.apache.lucene.search.SortField;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.getIndexedFieldNames(boolean);org.apache.lucene.index.FieldInfo;0;0;0;0;0;0;0;0
+org.apache.lucene.search.CachingWrapperFilter.bits(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Filter;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermVectorsWriter.close();org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldDocSortedHitQueue.hasCollators(org.apache.lucene.search.SortField[]);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.addPosition(int, java.lang.String, java.lang.String);org.apache.lucene.index.Term;1;1;2;0.9333333333333333;0.9230769230769231;19;173;36
-org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.FieldDocSortedHitQueue;0;0;0;0;0
-org.apache.lucene.analysis.PerFieldAnalyzerWrapper.tokenStream(java.io.Reader, java.lang.String);org.apache.lucene.analysis.Analyzer;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.FieldDocSortedHitQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.analysis.PerFieldAnalyzerWrapper.tokenStream(java.io.Reader, java.lang.String);org.apache.lucene.analysis.Analyzer;0;0;0;0;0;0;0;0
 org.apache.lucene.search.BooleanQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Similarity;1;2;4;0.9285714285714286;1.0;38;164;48
 org.apache.lucene.index.SegmentTermPositions.skippingDoc();org.apache.lucene.store.InputStream;1;0;2;1.0;0.9473684210526316;3;32;98
-org.apache.lucene.search.spans.SpanScorer.next();org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.next();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.index.FieldInfos.add(org.apache.lucene.document.Document);org.apache.lucene.document.Document;1;1;2;1.0;0.9230769230769231;7;73;57
-org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.index.FieldInfos;0;0;0;0;0
-org.apache.lucene.search.spans.NearSpans.skipTo(int);org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.NearSpans.skipTo(int);org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhrasePrefixQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;1;5;5;0.782608695652174;1.0;28;118;106
 org.apache.lucene.index.FieldsWriter.close();org.apache.lucene.store.OutputStream;1;0;1;1.0;0.9333333333333333;4;30;67
-org.apache.lucene.search.FieldCacheImpl.getAuto(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.CompoundFileWriter.copyFile(byte[], org.apache.lucene.index.CompoundFileWriter.FileEntry, org.apache.lucene.store.OutputStream);org.apache.lucene.store.Directory;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getAuto(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.CompoundFileWriter.copyFile(byte[], org.apache.lucene.index.CompoundFileWriter.FileEntry, org.apache.lucene.store.OutputStream);org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.invertDocument(org.apache.lucene.document.Document);org.apache.lucene.document.Document;1;4;6;0.8846153846153846;0.9615384615384616;33;173;57
-org.apache.lucene.index.SegmentMerger.mergeVectors();org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0
-org.apache.lucene.search.FieldSortedHitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.ScoreDoc;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.mergeVectors();org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldSortedHitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
 org.apache.lucene.index.FieldInfos.write(java.lang.String, org.apache.lucene.store.Directory);org.apache.lucene.store.Directory;1;1;2;0.9375;1.0;9;73;0
-org.apache.lucene.search.FieldCacheImpl.getFloats(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getFloats(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMerger.mergeFields();org.apache.lucene.index.FieldsWriter;2;2;4;0.9;0.8181818181818181;20;159;30
 org.apache.lucene.queryParser.QueryParser.getToken(int);org.apache.lucene.queryParser.QueryParserTokenManager;1;1;2;0.9803921568627451;0.9767441860465116;8;738;817
-org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Similarity;0;0;0;0;0
-org.apache.lucene.search.spans.SpanNearQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.numDocs();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.ParallelMultiSearcher.collect(float, int);org.apache.lucene.search.HitCollector;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNearQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.numDocs();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.collect(float, int);org.apache.lucene.search.HitCollector;0;0;0;0;0;0;0;0
 org.apache.lucene.store.RAMOutputStream.flushBuffer(byte[], int);org.apache.lucene.store.RAMFile;3;1;2;0.9230769230769231;0.6666666666666667;20;33;0
-org.apache.lucene.document.Document.removeFields(java.lang.String);org.apache.lucene.document.Field;0;0;0;0;0
+org.apache.lucene.document.Document.removeFields(java.lang.String);org.apache.lucene.document.Field;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParserTokenManager.jjFillToken();org.apache.lucene.queryParser.Token;6;2;1;0.9622641509433962;0.5384615384615384;11;817;9
 org.apache.lucene.index.TermInfosWriter.writeTerm(org.apache.lucene.index.Term);org.apache.lucene.store.OutputStream;2;0;3;1.0;0.95;9;52;67
 org.apache.lucene.index.FieldsWriter.addDocument(org.apache.lucene.document.Document);org.apache.lucene.index.FieldInfos;1;0;4;1.0;0.9615384615384616;21;30;73
-org.apache.lucene.index.SegmentMerger.mergeFields();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.mergeFields();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.invertDocument(org.apache.lucene.document.Document);org.apache.lucene.document.Field;6;4;6;0.8846153846153846;0.7142857142857143;33;173;64
-org.apache.lucene.index.FilterIndexReader.docFreq(org.apache.lucene.index.Term);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.docFreq(org.apache.lucene.index.Term);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;1;6;6;0.8064516129032258;1.0;43;128;106
-org.apache.lucene.search.PhraseScorer.sort();org.apache.lucene.search.PhrasePositions;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.openNorms(org.apache.lucene.store.Directory);org.apache.lucene.store.Directory;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.doSetNorm(byte, int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.sort();org.apache.lucene.search.PhrasePositions;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.openNorms(org.apache.lucene.store.Directory);org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.doSetNorm(byte, int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhrasePrefixQuery.add(org.apache.lucene.index.Term[]);org.apache.lucene.index.Term;1;2;1;0.9;0.9166666666666666;9;118;36
 org.apache.lucene.search.SloppyPhraseScorer.phraseFreq();org.apache.lucene.search.PhraseScorer;0;1;5;0.9;1.0;29;33;63
-org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.index.TermVectorsWriter.writeField();org.apache.lucene.store.OutputStream;0;0;0;0;0
-org.apache.lucene.search.FieldDocSortedHitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.SortField;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.doUndeleteAll();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermVectorsWriter.writeField();org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldDocSortedHitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.doUndeleteAll();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.PorterStemFilter.next();org.apache.lucene.analysis.Token;1;0;4;1.0;0.875;9;13;30
 org.apache.lucene.search.PhrasePrefixQuery.sumOfSquaredWeights();org.apache.lucene.search.Similarity;1;3;3;0.8636363636363636;0.9;9;118;48
 org.apache.lucene.search.PrefixQuery.combine(org.apache.lucene.search.Query[]);org.apache.lucene.search.Query;0;0;1;1.0;1.0;3;44;49
-org.apache.lucene.search.PhraseScorer.doc();org.apache.lucene.search.PhrasePositions;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.doc();org.apache.lucene.search.PhrasePositions;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermEnum.proxPointer();org.apache.lucene.index.TermInfo;1;0;1;1.0;0.8;3;72;22
 org.apache.lucene.util.BitVector.write(java.lang.String, org.apache.lucene.store.Directory);org.apache.lucene.store.OutputStream;3;3;2;0.75;0.8421052631578947;11;50;67
 org.apache.lucene.index.MultipleTermPositions.close();org.apache.lucene.util.PriorityQueue;2;1;1;0.9583333333333334;0.8571428571428572;3;85;78
 org.apache.lucene.index.SegmentTermDocs.read(int[], int[]);org.apache.lucene.store.InputStream;1;3;2;0.75;0.9545454545454546;17;67;98
 org.apache.lucene.search.TermQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;1;4;6;0.8095238095238095;0.9473684210526316;29;83;36
-org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.CompoundFileReader;0;0;0;0;0
-org.apache.lucene.search.FieldDocSortedHitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.FieldDoc;0;0;0;0;0
-org.apache.lucene.search.spans.SpanScorer.score();org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.CompoundFileReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldDocSortedHitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.FieldDoc;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.score();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiTermQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.BooleanQuery;1;1;3;1.0;1.0;19;41;164
-org.apache.lucene.index.SegmentReader.reWrite();org.apache.lucene.store.Directory;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.reWrite();org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.ru.RussianLowerCaseFilter.next();org.apache.lucene.analysis.TokenFilter;0;1;4;0.8571428571428572;1.0;12;16;8
-org.apache.lucene.index.FilterIndexReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.WildcardTermEnum.termCompare(org.apache.lucene.index.Term);org.apache.lucene.index.Term;2;6;1;0.6153846153846154;0.8666666666666667;10;84;36
-org.apache.lucene.search.FieldCacheImpl.getAuto(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getAuto(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.document.Document.getValues(java.lang.String);org.apache.lucene.document.Field;1;1;1;0.8888888888888888;0.8888888888888888;9;57;64
 org.apache.lucene.index.TermInfosReader.get(org.apache.lucene.index.Term);org.apache.lucene.index.Term;1;5;3;0.7222222222222222;0.9285714285714286;9;88;36
 org.apache.lucene.search.MultiSearcher.rewrite(org.apache.lucene.search.Query);org.apache.lucene.search.Query;1;1;1;0.9375;0.8888888888888888;7;89;49
-org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.SegmentTermEnum;0;0;0;0;0
+org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.TermEnum);org.apache.lucene.index.SegmentTermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.store.RAMDirectory.fileLength(java.lang.String);org.apache.lucene.store.RAMFile;1;1;1;0.9411764705882353;0.8;4;98;0
 org.apache.lucene.queryParser.ParseException.getMessage();org.apache.lucene.queryParser.Token;4;5;1;0.5454545454545454;0.6666666666666667;40;99;9
-org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.FieldInfo;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.FieldInfo;0;0;0;0;0;0;0;0
 org.apache.lucene.search.Hits.score(int);org.apache.lucene.search.HitDoc;1;1;1;0.9166666666666666;0.6666666666666667;3;59;4
-org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.index.Term;0;0;0;0;0
+org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseScorer.firstToLast();org.apache.lucene.search.PhrasePositions;0;0;1;1.0;1.0;6;63;25
 org.apache.lucene.analysis.standard.StandardTokenizer.getToken(int);org.apache.lucene.analysis.standard.Token;0;0;2;1.0;1.0;8;147;9
-org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.MultiTermDocs.termDocs(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiTermDocs.termDocs(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.files();org.apache.lucene.index.FieldInfo;1;1;4;0.9666666666666667;0.875;16;160;5
-org.apache.lucene.search.FieldCacheImpl.getStringIndex(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getStringIndex(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.search.BooleanQuery.getValue();org.apache.lucene.search.Query;1;0;1;1.0;0.8571428571428572;3;164;49
-org.apache.lucene.index.SegmentReader.initialize(org.apache.lucene.index.SegmentInfo);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.initialize(org.apache.lucene.index.SegmentInfo);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.docFreq(org.apache.lucene.index.Term);org.apache.lucene.index.TermInfosReader;1;0;2;1.0;0.9411764705882353;5;160;88
 org.apache.lucene.analysis.de.GermanStemFilter.next();org.apache.lucene.analysis.TokenStream;1;1;4;0.9090909090909091;1.0;15;31;2
 org.apache.lucene.search.PhraseQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Explanation;3;6;6;0.8064516129032258;0.875;43;128;63
 org.apache.lucene.search.BooleanQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.BooleanClause;2;2;2;0.9230769230769231;0.8333333333333334;26;164;13
 org.apache.lucene.queryParser.QueryParser.ReInit(org.apache.lucene.queryParser.CharStream);org.apache.lucene.queryParser.QueryParserTokenManager;1;4;1;0.9215686274509804;0.9782608695652174;8;738;817
 org.apache.lucene.search.RangeQuery.toString(java.lang.String);org.apache.lucene.search.Query;1;2;2;0.8181818181818181;0.9285714285714286;17;71;49
-org.apache.lucene.search.spans.NearSpans.toString();org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.search.spans.NearSpans.toString();org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermEnum.clone();org.apache.lucene.store.InputStream;1;1;2;0.95;0.9545454545454546;12;72;98
 org.apache.lucene.index.TermInfosReader.scanEnum(org.apache.lucene.index.Term);org.apache.lucene.index.SegmentTermEnum;2;0;2;1.0;0.8823529411764706;6;88;72
-org.apache.lucene.index.TermVectorsWriter.openField(java.lang.String);org.apache.lucene.index.FieldInfos;0;0;0;0;0
+org.apache.lucene.index.TermVectorsWriter.openField(java.lang.String);org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
 org.apache.lucene.store.RAMOutputStream.writeTo(org.apache.lucene.store.OutputStream);org.apache.lucene.store.RAMFile;2;0;2;1.0;0.6666666666666667;15;33;0
 org.apache.lucene.index.TermInfosReader.get(int);org.apache.lucene.index.SegmentTermEnum;1;3;2;0.8235294117647058;0.9473684210526316;6;88;72
 org.apache.lucene.analysis.standard.StandardFilter.next();org.apache.lucene.analysis.TokenStream;1;0;3;1.0;1.0;20;23;2
 org.apache.lucene.store.RAMInputStream.readInternal(byte[], int, int);org.apache.lucene.store.RAMFile;1;1;2;0.8571428571428572;0.8333333333333334;16;25;0
 org.apache.lucene.index.SegmentTermPositions.skippingDoc();org.apache.lucene.index.SegmentTermDocs;1;0;2;1.0;0.9090909090909091;3;32;67
-org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.Sort;0;0;0;0;0
+org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.Sort;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.standard.StandardTokenizer.getToken(int);org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;0;2;1.0;0.9583333333333334;8;147;776
-org.apache.lucene.search.FieldCacheImpl.getFloats(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getFloats(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.closeNorms();org.apache.lucene.store.InputStream;1;1;1;0.9655172413793104;1.0;9;160;98
 org.apache.lucene.search.RangeQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;1;2;5;0.8571428571428572;1.0;32;71;106
 org.apache.lucene.search.PrefixQuery.toString(java.lang.String);org.apache.lucene.index.Term;2;0;2;1.0;0.8571428571428572;14;44;36
 org.apache.lucene.store.RAMDirectory.touchFile(java.lang.String);org.apache.lucene.store.RAMFile;1;1;1;0.9444444444444444;0.8333333333333334;4;98;0
-org.apache.lucene.index.CompoundFileWriter.close();org.apache.lucene.store.Directory;0;0;0;0;0
+org.apache.lucene.index.CompoundFileWriter.close();org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.search.ScoreDoc;1;2;3;0.9047619047619048;0.9;17;89;4
 org.apache.lucene.store.RAMOutputStream.flushBuffer(byte[], int);org.apache.lucene.store.OutputStream;0;1;2;0.9230769230769231;1.0;20;33;67
 org.apache.lucene.search.PhrasePrefixQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.BooleanQuery;2;1;2;0.9545454545454546;0.9565217391304348;12;118;164
 org.apache.lucene.index.IndexWriter.close();org.apache.lucene.store.Directory;1;1;2;0.9565217391304348;1.0;7;199;0
-org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.openNorms(org.apache.lucene.store.Directory);org.apache.lucene.index.FieldInfo;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.openNorms(org.apache.lucene.store.Directory);org.apache.lucene.index.FieldInfo;0;0;0;0;0;0;0;0
 org.apache.lucene.index.FieldInfos.read(org.apache.lucene.store.InputStream);org.apache.lucene.store.InputStream;3;1;1;1.0;0.85;4;73;98
-org.apache.lucene.index.CompoundFileWriter.copyFile(byte[], org.apache.lucene.index.CompoundFileWriter.FileEntry, org.apache.lucene.store.OutputStream);org.apache.lucene.store.InputStream;0;0;0;0;0
-org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.MultiReader.getTermFreqVectors(int);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.CompoundFileWriter.copyFile(byte[], org.apache.lucene.index.CompoundFileWriter.FileEntry, org.apache.lucene.store.OutputStream);org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.getTermFreqVectors(int);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.TokenFilter.close();org.apache.lucene.analysis.TokenStream;1;0;1;1.0;0.0;3;8;2
 org.apache.lucene.queryParser.QueryParser.addClause(int, int, java.util.Vector, org.apache.lucene.search.Query);org.apache.lucene.search.BooleanClause;2;1;1;0.9818181818181818;0.75;24;738;13
 org.apache.lucene.search.PrefixQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.BooleanQuery;1;0;5;1.0;1.0;24;44;164
-org.apache.lucene.index.SegmentMergeInfo.close();org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.index.SegmentMergeInfo.close();org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.search.IndexSearcher.search(org.apache.lucene.search.Filter, org.apache.lucene.search.HitCollector, org.apache.lucene.search.Query);org.apache.lucene.search.HitCollector;1;1;5;1.0;1.0;17;72;0
 org.apache.lucene.index.IndexWriter.addDocument(org.apache.lucene.analysis.Analyzer, org.apache.lucene.document.Document);org.apache.lucene.index.DocumentWriter;1;3;1;0.8695652173913043;0.9285714285714286;9;199;173
 org.apache.lucene.index.TermInfosReader.scanEnum(int);org.apache.lucene.index.SegmentTermEnum;2;0;1;1.0;0.875;4;88;72
 org.apache.lucene.index.SegmentTermPositions.close();org.apache.lucene.store.InputStream;1;0;2;1.0;1.0;4;32;98
 org.apache.lucene.document.Document.getField(java.lang.String);org.apache.lucene.document.Field;1;0;2;1.0;0.8888888888888888;4;57;64
-org.apache.lucene.index.MultiReader.getFieldNames(boolean);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.MultiReader.getFieldNames(boolean);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.SwitchTo(int);org.apache.lucene.analysis.standard.TokenMgrError;0;1;1;0.9583333333333334;1.0;4;776;59
 org.apache.lucene.search.MultiSearcher.search(org.apache.lucene.search.Filter, org.apache.lucene.search.HitCollector, org.apache.lucene.search.Query);org.apache.lucene.search.HitCollector;1;3;1;0.8823529411764706;1.0;11;89;0
 org.apache.lucene.index.FieldInfos.add(org.apache.lucene.document.Document);org.apache.lucene.document.Field;2;1;2;1.0;0.8333333333333334;7;73;64
 org.apache.lucene.index.SegmentInfos.read(org.apache.lucene.store.Directory);org.apache.lucene.store.InputStream;3;1;2;0.8888888888888888;0.9090909090909091;13;32;98
 org.apache.lucene.search.IndexSearcher.explain(int, org.apache.lucene.search.Query);org.apache.lucene.search.Query;1;0;1;1.0;0.875;3;72;49
 org.apache.lucene.index.SegmentMergeQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.index.Term;1;0;2;1.0;0.8888888888888888;7;13;36
-org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0
-org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0
-org.apache.lucene.index.SegmentMerger.resetSkip();org.apache.lucene.store.OutputStream;0;0;0;0;0
-org.apache.lucene.search.spans.SpanTermQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.TermVectorsWriter;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.resetSkip();org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanTermQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.Hits.doc(int);org.apache.lucene.search.HitDoc;1;5;1;0.6153846153846154;0.875;12;59;4
-org.apache.lucene.index.TermVectorsReader.checkValidFormat(org.apache.lucene.store.InputStream);org.apache.lucene.store.InputStream;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.checkValidFormat(org.apache.lucene.store.InputStream);org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentInfos.write(org.apache.lucene.store.Directory);org.apache.lucene.store.OutputStream;3;2;3;0.8333333333333334;0.8636363636363636;16;32;67
 org.apache.lucene.search.PrefixQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;1;0;5;1.0;1.0;24;44;106
 org.apache.lucene.search.BooleanQuery.sumOfSquaredWeights();org.apache.lucene.search.Query;1;2;2;0.9130434782608696;0.9230769230769231;10;164;49
 org.apache.lucene.search.PhraseScorer.pqToList();org.apache.lucene.search.PhrasePositions;0;0;2;1.0;1.0;12;63;25
-org.apache.lucene.search.FilteredQuery.explain(int);org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.index.IndexWriter.addIndexes(org.apache.lucene.index.IndexReader[]);org.apache.lucene.index.SegmentMerger;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.explain(int);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexWriter.addIndexes(org.apache.lucene.index.IndexReader[]);org.apache.lucene.index.SegmentMerger;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.deleteFiles(java.util.Vector, java.util.Vector);org.apache.lucene.store.Directory;2;1;1;0.9642857142857143;1.0;14;199;0
 org.apache.lucene.index.MultipleTermPositions.peek();org.apache.lucene.util.PriorityQueue;1;0;1;1.0;0.9166666666666666;3;85;78
 org.apache.lucene.search.SloppyPhraseScorer.phraseFreq();org.apache.lucene.search.Scorer;0;1;5;0.9;1.0;29;33;6
 org.apache.lucene.index.IndexReader.doBody();org.apache.lucene.index.SegmentInfos;2;0;1;1.0;0.6;8;106;32
-org.apache.lucene.search.FilteredQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.index.IndexWriter.addIndexes(org.apache.lucene.index.IndexReader[]);org.apache.lucene.index.SegmentInfos;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.getFieldNames(boolean);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexWriter.addIndexes(org.apache.lucene.index.IndexReader[]);org.apache.lucene.index.SegmentInfos;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.getFieldNames(boolean);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.BooleanQuery.equals(java.lang.Object);org.apache.lucene.search.Query;1;1;1;0.95;0.8888888888888888;5;164;49
 org.apache.lucene.index.TermInfosWriter.initialize(boolean, java.lang.String, org.apache.lucene.index.FieldInfos, org.apache.lucene.store.Directory);org.apache.lucene.store.OutputStream;1;1;2;0.8888888888888888;0.9411764705882353;6;52;67
-org.apache.lucene.index.SegmentMerger.resetSkip();org.apache.lucene.store.RAMOutputStream;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.resetSkip();org.apache.lucene.store.RAMOutputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.index.FieldsReader.doc(int);org.apache.lucene.store.InputStream;5;0;4;1.0;0.7727272727272727;14;27;98
 org.apache.lucene.index.MultipleTermPositions.next();org.apache.lucene.util.PriorityQueue;3;9;1;0.6896551724137931;0.8846153846153846;19;85;78
-org.apache.lucene.index.SegmentReader.doCommit();org.apache.lucene.store.Directory;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.doCommit();org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.search.Similarity;1;6;4;0.7;0.9375;20;57;48
 org.apache.lucene.index.IndexWriter.close();org.apache.lucene.store.Lock;1;1;2;0.9565217391304348;1.0;7;199;35
-org.apache.lucene.index.SegmentMerger.writeSkip();org.apache.lucene.store.RAMOutputStream;0;0;0;0;0
-org.apache.lucene.search.FieldCacheImpl.getInts(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0
-org.apache.lucene.search.FieldCacheImpl.getFloats(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0
-org.apache.lucene.index.MultiTermPositions.termDocs(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.getIndexedFieldNames(boolean);org.apache.lucene.index.FieldInfos;0;0;0;0;0
-org.apache.lucene.search.PhrasePrefixQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.writeSkip();org.apache.lucene.store.RAMOutputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getInts(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getFloats(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiTermPositions.termDocs(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.getIndexedFieldNames(boolean);org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
+org.apache.lucene.search.PhrasePrefixQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.maybeMergeSegments();org.apache.lucene.index.SegmentInfos;1;3;2;0.875;0.8888888888888888;15;199;32
 org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.search.Explanation;2;6;4;0.7;0.9;20;57;63
-org.apache.lucene.index.CompoundFileWriter.copyFile(byte[], org.apache.lucene.index.CompoundFileWriter.FileEntry, org.apache.lucene.store.OutputStream);org.apache.lucene.store.OutputStream;0;0;0;0;0
+org.apache.lucene.index.CompoundFileWriter.copyFile(byte[], org.apache.lucene.index.CompoundFileWriter.FileEntry, org.apache.lucene.store.OutputStream);org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.deleteSegments(java.util.Vector);org.apache.lucene.index.IndexReader;0;4;2;0.8333333333333334;1.0;10;199;106
-org.apache.lucene.search.ConjunctionScorer.next();org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.next();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.isDeleted(int);org.apache.lucene.util.BitVector;1;0;1;1.0;0.875;3;160;50
 org.apache.lucene.store.FSInputStream.clone();org.apache.lucene.store.InputStream;1;1;1;0.8888888888888888;0.9473684210526316;5;37;98
-org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.spans.SpanFirstQuery.toString();org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanFirstQuery.toString();org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseQuery.add(org.apache.lucene.index.Term);org.apache.lucene.index.Term;1;2;1;0.9047619047619048;0.9166666666666666;5;128;36
-org.apache.lucene.index.MultiReader.doSetNorm(byte, int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.FilteredQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.index.MultiReader.doSetNorm(byte, int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.search.HitQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.ScoreDoc;2;0;1;1.0;0.0;6;9;4
-org.apache.lucene.search.BooleanScorer.next();org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.search.Scorer.score(org.apache.lucene.search.HitCollector);org.apache.lucene.search.HitCollector;0;0;0;0;0
-org.apache.lucene.index.MultiReader.norms(java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.terms(org.apache.lucene.index.Term);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.BooleanScorer.next();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.search.Scorer.score(org.apache.lucene.search.HitCollector);org.apache.lucene.search.HitCollector;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.norms(java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.terms(org.apache.lucene.index.Term);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.FuzzyTermEnum.termCompare(org.apache.lucene.index.Term);org.apache.lucene.index.Term;2;6;1;0.6875;0.875;11;56;36
-org.apache.lucene.search.spans.SpanOrQuery.next();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.spans.SpanOrQuery.next();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.search.MultiTermQuery.combine(org.apache.lucene.search.Query[]);org.apache.lucene.search.Query;0;0;1;1.0;1.0;3;41;49
-org.apache.lucene.search.FieldSortedHitQueue.sortValue(org.apache.lucene.search.ScoreDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0
-org.apache.lucene.search.ConjunctionScorer.compare(java.lang.Object, java.lang.Object);org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.index.TermInfosReader.getSkipInterval();org.apache.lucene.index.SegmentTermEnum;0;0;0;0;0
-org.apache.lucene.index.CompoundFileWriter.close();org.apache.lucene.store.OutputStream;0;0;0;0;0
-org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.search.spans.SpanOrQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
-org.apache.lucene.index.SegmentReader.doCommit();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.FieldSortedHitQueue.sortValue(org.apache.lucene.search.ScoreDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.compare(java.lang.Object, java.lang.Object);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermInfosReader.getSkipInterval();org.apache.lucene.index.SegmentTermEnum;0;0;0;0;0;0;0;0
+org.apache.lucene.index.CompoundFileWriter.close();org.apache.lucene.store.OutputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanOrQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.doCommit();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhrasePrefixQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Query;1;1;2;0.9545454545454546;0.9166666666666666;12;118;49
 org.apache.lucene.analysis.PorterStemFilter.next();org.apache.lucene.analysis.TokenFilter;0;0;4;1.0;1.0;9;13;8
 org.apache.lucene.search.SloppyPhraseScorer.phraseFreq();org.apache.lucene.search.Similarity;1;1;5;0.9;1.0;29;33;48
@@ -614,144 +614,144 @@ org.apache.lucene.index.FieldsReader.close();org.apache.lucene.store.InputStream
 org.apache.lucene.analysis.LowerCaseFilter.next();org.apache.lucene.analysis.TokenStream;1;0;3;1.0;1.0;6;9;2
 org.apache.lucene.search.Query.weight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Similarity;1;1;2;0.9090909090909091;1.0;8;49;48
 org.apache.lucene.search.QueryFilter.bits(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Searcher;1;2;2;0.8888888888888888;1.0;17;23;15
-org.apache.lucene.search.FilteredQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.createWeight(org.apache.lucene.search.Searcher);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.ru.RussianStemFilter.next();org.apache.lucene.analysis.ru.RussianStemmer;1;0;4;1.0;0.9642857142857143;12;21;184
-org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.TopDocs;0;0;0;0;0
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.TopDocs;0;0;0;0;0;0;0;0
 org.apache.lucene.util.BitVector.write(java.lang.String, org.apache.lucene.store.Directory);org.apache.lucene.store.Directory;1;3;2;0.75;1.0;11;50;0
 org.apache.lucene.analysis.standard.StandardTokenizer.jj_ntk();org.apache.lucene.analysis.standard.Token;1;1;2;0.9444444444444444;0.875;4;147;9
 org.apache.lucene.index.SegmentTermEnum.readTerm();org.apache.lucene.store.InputStream;2;2;2;0.8947368421052632;0.9047619047619048;8;72;98
 org.apache.lucene.search.IndexSearcher.docFreq(org.apache.lucene.index.Term);org.apache.lucene.index.IndexReader;1;0;1;1.0;1.0;3;72;106
-org.apache.lucene.index.FilterIndexReader.doDelete(int);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.spans.SpanNotQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.search.spans.SpanNearQuery.getTerms();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
-org.apache.lucene.index.TermVectorsReader.get(int, java.lang.String);org.apache.lucene.index.FieldInfos;0;0;0;0;0
-org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.doDelete(int);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNotQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNearQuery.getTerms();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.get(int, java.lang.String);org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseQueue.lessThan(java.lang.Object, java.lang.Object);org.apache.lucene.search.PhrasePositions;2;0;1;1.0;0.75;6;9;25
-org.apache.lucene.search.Query.getSimilarity(org.apache.lucene.search.Searcher);org.apache.lucene.search.Searcher;0;0;0;0;0
-org.apache.lucene.search.FilteredQuery.skipTo(int);org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.Query.getSimilarity(org.apache.lucene.search.Searcher);org.apache.lucene.search.Searcher;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.skipTo(int);org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.search.RangeQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.BooleanQuery;1;2;5;0.8571428571428572;1.0;32;71;164
-org.apache.lucene.search.spans.SpanTermQuery.toString();org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.search.spans.SpanTermQuery.toString();org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermQuery.sumOfSquaredWeights();org.apache.lucene.search.Similarity;1;2;3;0.8666666666666667;0.8333333333333334;5;83;48
-org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getCustom(java.lang.String, org.apache.lucene.index.IndexReader, org.apache.lucene.search.SortComparator);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.index.TermInfosReader.scanEnum(org.apache.lucene.index.Term);org.apache.lucene.index.Term;1;0;2;1.0;0.9;6;88;36
 org.apache.lucene.index.TermInfosWriter.add(org.apache.lucene.index.Term, org.apache.lucene.index.TermInfo);org.apache.lucene.store.OutputStream;3;5;3;0.6666666666666667;0.88;16;52;67
-org.apache.lucene.index.SegmentReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.FieldInfos;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.getTermFreqVector(int, java.lang.String);org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
 org.apache.lucene.index.TermInfosWriter.close();org.apache.lucene.store.OutputStream;3;3;1;0.7;0.8333333333333334;6;52;67
 org.apache.lucene.index.TermInfosWriter.writeTerm(org.apache.lucene.index.Term);org.apache.lucene.index.FieldInfos;1;0;3;1.0;0.9473684210526316;9;52;73
-org.apache.lucene.search.spans.SpanScorer.score();org.apache.lucene.search.Similarity;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.score();org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
 org.apache.lucene.document.Document.get(java.lang.String);org.apache.lucene.document.Field;1;1;1;0.8888888888888888;0.8888888888888888;5;57;64
 org.apache.lucene.search.BooleanQuery.sumOfSquaredWeights();org.apache.lucene.search.BooleanClause;1;2;2;0.9130434782608696;0.9;10;164;13
 org.apache.lucene.index.SegmentTermPositions.close();org.apache.lucene.index.SegmentTermDocs;1;0;2;1.0;0.9090909090909091;4;32;67
-org.apache.lucene.search.FilteredQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.optimize();org.apache.lucene.index.SegmentInfo;0;3;3;0.8695652173913043;1.0;7;199;5
-org.apache.lucene.index.MultiReader.norms(byte[], int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.spans.SpanFirstQuery.getTerms();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
+org.apache.lucene.index.MultiReader.norms(byte[], int, java.lang.String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanFirstQuery.getTerms();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
 org.apache.lucene.index.FieldInfos.fieldName(int);org.apache.lucene.index.FieldInfo;1;1;1;0.9333333333333333;0.75;3;73;5
 org.apache.lucene.index.IndexWriter.maybeMergeSegments();org.apache.lucene.index.SegmentInfo;1;3;2;0.875;0.8571428571428572;15;199;5
 org.apache.lucene.index.SegmentTermDocs.seek(org.apache.lucene.index.Term);org.apache.lucene.index.TermInfosReader;1;1;2;0.9090909090909091;0.9411764705882353;4;67;88
 org.apache.lucene.index.FieldInfos.fieldNumber(java.lang.String);org.apache.lucene.index.FieldInfo;1;1;1;0.9333333333333333;0.75;5;73;5
-org.apache.lucene.search.spans.SpanWeight.sumOfSquaredWeights();org.apache.lucene.search.Query;0;0;0;0;0
-org.apache.lucene.index.IndexReader.setNorm(float, int, java.lang.String);org.apache.lucene.search.Similarity;0;0;0;0;0
-org.apache.lucene.index.IndexWriter.addIndexes(org.apache.lucene.index.IndexReader[]);org.apache.lucene.store.Lock;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.sumOfSquaredWeights();org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexReader.setNorm(float, int, java.lang.String);org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexWriter.addIndexes(org.apache.lucene.index.IndexReader[]);org.apache.lucene.store.Lock;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.store.OutputStream;2;2;7;0.92;0.9310344827586207;28;159;67
 org.apache.lucene.search.FuzzyQuery.toString(java.lang.String);org.apache.lucene.search.MultiTermQuery;1;0;1;1.0;0.6666666666666667;3;9;41
 org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.jjFillToken();org.apache.lucene.analysis.standard.Token;6;2;1;0.9428571428571428;0.5384615384615384;11;776;9
 org.apache.lucene.search.DateFilter.bits(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;3;3;3;0.8235294117647058;1.0;29;71;106
-org.apache.lucene.search.FieldCacheImpl.getStrings(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.BooleanQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.ConjunctionScorer;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getStrings(java.lang.String, org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.BooleanQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.ConjunctionScorer;0;0;0;0;0;0;0;0
 org.apache.lucene.queryParser.QueryParser.jj_consume_token(int);org.apache.lucene.queryParser.Token;1;8;2;0.8461538461538461;0.9333333333333333;23;738;9
 org.apache.lucene.search.BooleanQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.BooleanClause;2;2;4;0.9285714285714286;0.8571428571428572;38;164;13
 org.apache.lucene.index.IndexWriter.doBody();org.apache.lucene.index.SegmentInfos;1;1;1;0.9545454545454546;0.8;5;199;32
 org.apache.lucene.index.IndexWriter.writeDeleteableFiles(java.util.Vector);org.apache.lucene.store.OutputStream;3;0;2;1.0;0.8421052631578947;11;199;67
-org.apache.lucene.index.FilterIndexReader.isDeleted(int);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.spans.SpanScorer.explain(int);org.apache.lucene.search.Explanation;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.isDeleted(int);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.explain(int);org.apache.lucene.search.Explanation;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.standard.StandardFilter.next();org.apache.lucene.analysis.TokenFilter;0;0;3;1.0;1.0;20;23;8
 org.apache.lucene.search.TermQuery.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.index.Term;1;0;3;1.0;0.9;5;83;36
-org.apache.lucene.search.ConjunctionScorer.doNext();org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.search.ConjunctionScorer.init();org.apache.lucene.search.Similarity;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.doNext();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.init();org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
 org.apache.lucene.index.TermInfosReader.readIndex();org.apache.lucene.store.Directory;1;4;2;0.8181818181818181;1.0;17;88;0
 org.apache.lucene.index.SegmentTermDocs.next();org.apache.lucene.store.InputStream;1;4;2;0.6666666666666667;0.9565217391304348;13;67;98
-org.apache.lucene.index.MultiReader.doDelete(int);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.FieldDocSortedHitQueue;0;0;0;0;0
+org.apache.lucene.index.MultiReader.doDelete(int);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.MultiSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.FieldDocSortedHitQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.ru.RussianLowerCaseFilter.next();org.apache.lucene.analysis.ru.RussianCharsets;0;1;4;0.8571428571428572;1.0;12;16;27
 org.apache.lucene.analysis.StopFilter.next();org.apache.lucene.analysis.TokenStream;1;1;3;0.8;1.0;4;17;2
-org.apache.lucene.search.FilteredQuery.explain(int);org.apache.lucene.search.Explanation;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.explain(int);org.apache.lucene.search.Explanation;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.FieldsReader;1;5;8;0.8529411764705882;0.9375;22;160;27
-org.apache.lucene.search.ConjunctionScorer.doc();org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.search.spans.SpanScorer.next();org.apache.lucene.search.Similarity;0;0;0;0;0
+org.apache.lucene.search.ConjunctionScorer.doc();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.next();org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
 org.apache.lucene.search.Hits.id(int);org.apache.lucene.search.HitDoc;1;1;1;0.9166666666666666;0.6666666666666667;3;59;4
-org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.Term;0;0;0;0;0
+org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.index.FieldInfos;2;2;7;0.92;0.9285714285714286;28;159;73
-org.apache.lucene.search.spans.SpanOrQuery.skipTo(int);org.apache.lucene.util.PriorityQueue;0;0;0;0;0
+org.apache.lucene.search.spans.SpanOrQuery.skipTo(int);org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.search.Query;1;1;5;1.0;0.9375;19;72;49
-org.apache.lucene.document.Document.removeField(java.lang.String);org.apache.lucene.document.Field;0;0;0;0;0
+org.apache.lucene.document.Document.removeField(java.lang.String);org.apache.lucene.document.Field;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.deleteFiles(java.util.Vector, org.apache.lucene.store.Directory);org.apache.lucene.store.Directory;1;0;1;1.0;1.0;3;199;0
 org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query);org.apache.lucene.search.Filter;1;1;5;1.0;1.0;19;72;0
 org.apache.lucene.analysis.standard.ParseException.getMessage();org.apache.lucene.analysis.standard.Token;4;5;1;0.5454545454545454;0.6666666666666667;39;98;9
-org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Explanation;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Explanation;0;0;0;0;0;0;0;0
 org.apache.lucene.search.RangeQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.index.TermEnum;3;2;5;0.8571428571428572;1.0;32;71;0
-org.apache.lucene.index.SegmentReader.doCommit();org.apache.lucene.util.BitVector;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.doCommit();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.doCommit();org.apache.lucene.util.BitVector;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.doCommit();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.TermInfosReader;1;5;8;0.8529411764705882;0.9655172413793104;22;160;88
-org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.store.InputStream;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
 org.apache.lucene.index.DocumentWriter.invertDocument(org.apache.lucene.document.Document);org.apache.lucene.analysis.Analyzer;1;4;6;0.8846153846153846;1.0;33;173;6
-org.apache.lucene.search.spans.SpanNotQuery.getTerms();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNotQuery.getTerms();org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
 org.apache.lucene.search.Hits.addToFront(org.apache.lucene.search.HitDoc);org.apache.lucene.search.HitDoc;0;1;1;0.9090909090909091;1.0;8;59;4
-org.apache.lucene.index.MultiTermPositions.nextPosition();org.apache.lucene.index.MultiTermDocs;0;0;0;0;0
+org.apache.lucene.index.MultiTermPositions.nextPosition();org.apache.lucene.index.MultiTermDocs;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PrefixQuery.rewrite(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;1;0;5;1.0;0.9333333333333333;24;44;49
 org.apache.lucene.search.TermQuery.equals(java.lang.Object);org.apache.lucene.index.Term;1;0;2;1.0;0.8888888888888888;5;83;36
-org.apache.lucene.index.FilterIndexReader.doClose();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.Sort.setSort(boolean, java.lang.String);org.apache.lucene.search.SortField;0;0;0;0;0
-org.apache.lucene.search.spans.SpanScorer.skipTo(int);org.apache.lucene.search.Similarity;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.doClose();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.Sort.setSort(boolean, java.lang.String);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.skipTo(int);org.apache.lucene.search.Similarity;0;0;0;0;0;0;0;0
 org.apache.lucene.search.FilteredTermEnum.setEnum(org.apache.lucene.index.TermEnum);org.apache.lucene.index.TermEnum;1;2;1;0.8333333333333334;1.0;6;37;0
-org.apache.lucene.search.PhraseScorer.score();org.apache.lucene.search.Scorer;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.score();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseQuery.toString(java.lang.String);org.apache.lucene.index.Term;1;3;2;0.8888888888888888;0.9473684210526316;22;128;36
-org.apache.lucene.search.FilteredQuery.doc();org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.FieldInfos;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.doc();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.FieldInfos;0;0;0;0;0;0;0;0
 org.apache.lucene.search.TermQuery.explain(int, org.apache.lucene.index.IndexReader);org.apache.lucene.search.Scorer;1;4;6;0.8095238095238095;1.0;29;83;6
-org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.ScoreDoc;0;0;0;0;0
-org.apache.lucene.search.FilteredQuery.score();org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.FieldInfo;0;0;0;0;0
-org.apache.lucene.index.MultiReader.initialize(org.apache.lucene.index.IndexReader[]);org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FilteredQuery.score();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.FieldInfo;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.initialize(org.apache.lucene.index.IndexReader[]);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.newSegmentName();org.apache.lucene.index.SegmentInfos;1;0;1;1.0;0.8333333333333334;3;199;32
-org.apache.lucene.search.spans.SpanFirstQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.search.spans.SpanFirstQuery.toString(java.lang.String);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.getNextToken();org.apache.lucene.analysis.standard.TokenMgrError;0;7;1;0.7666666666666666;1.0;54;776;59
-org.apache.lucene.search.spans.SpanNotQuery.toString();org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNotQuery.toString();org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.ru.RussianStemFilter.next();org.apache.lucene.analysis.TokenFilter;0;0;4;1.0;1.0;12;21;8
-org.apache.lucene.index.IndexWriter.getSegmentsCounter();org.apache.lucene.index.SegmentInfos;0;0;0;0;0
-org.apache.lucene.search.spans.SpanNearQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanOrQuery;0;0;0;0;0
-org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.index.SegmentInfos;0;0;0;0;0
+org.apache.lucene.index.IndexWriter.getSegmentsCounter();org.apache.lucene.index.SegmentInfos;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNearQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanOrQuery;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.index.SegmentInfos;0;0;0;0;0;0;0;0
 org.apache.lucene.index.FieldsWriter.addDocument(org.apache.lucene.document.Document);org.apache.lucene.document.Field;4;0;4;1.0;0.7647058823529411;21;30;64
-org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.FieldDocSortedHitQueue;0;0;0;0;0
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.FieldDocSortedHitQueue;0;0;0;0;0;0;0;0
 org.apache.lucene.analysis.de.GermanStemFilter.next();org.apache.lucene.analysis.TokenFilter;0;1;4;0.9090909090909091;1.0;15;31;8
-org.apache.lucene.search.SortComparator.sortType();org.apache.lucene.search.SortField;0;0;0;0;0
-org.apache.lucene.index.CompoundFileReader.fileModified(java.lang.String);org.apache.lucene.store.Directory;0;0;0;0;0
-org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.FieldSortedHitQueue;0;0;0;0;0
-org.apache.lucene.index.TermVectorsReader.close();org.apache.lucene.store.InputStream;0;0;0;0;0
-org.apache.lucene.search.spans.SpanNotQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0
+org.apache.lucene.search.SortComparator.sortType();org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0
+org.apache.lucene.index.CompoundFileReader.fileModified(java.lang.String);org.apache.lucene.store.Directory;0;0;0;0;0;0;0;0
+org.apache.lucene.search.IndexSearcher.search(int, org.apache.lucene.search.Filter, org.apache.lucene.search.Query, org.apache.lucene.search.Sort);org.apache.lucene.search.FieldSortedHitQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermVectorsReader.close();org.apache.lucene.store.InputStream;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanNotQuery.getSpans(org.apache.lucene.index.IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;0;0;0;0;0;0
 org.apache.lucene.store.FSOutputStream.seek(long);org.apache.lucene.store.OutputStream;1;1;1;0.875;0.9411764705882353;4;20;67
 org.apache.lucene.index.DocumentWriter.writePostings(java.lang.String, org.apache.lucene.index.Posting[]);org.apache.lucene.index.TermInfosWriter;2;0;5;1.0;0.8571428571428572;33;173;52
 org.apache.lucene.index.TermInfosReader.getIndexOffset(org.apache.lucene.index.Term);org.apache.lucene.index.Term;1;1;1;0.9411764705882353;0.8888888888888888;12;88;36
 org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.index.SegmentInfos;2;4;6;0.8857142857142857;0.9;32;199;32
-org.apache.lucene.search.FieldSortedHitQueue.fillFields(org.apache.lucene.search.FieldDoc);org.apache.lucene.search.FieldDoc;0;0;0;0;0
+org.apache.lucene.search.FieldSortedHitQueue.fillFields(org.apache.lucene.search.FieldDoc);org.apache.lucene.search.FieldDoc;0;0;0;0;0;0;0;0
 org.apache.lucene.index.SegmentTermEnum.next();org.apache.lucene.index.TermInfo;3;5;2;0.7619047619047619;0.75;13;72;22
-org.apache.lucene.search.spans.SpanWeight.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.search.TermScorer.score();org.apache.lucene.search.Scorer;0;0;0;0;0
-org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.TopFieldDocs;0;0;0;0;0
-org.apache.lucene.search.spans.SpanWeight.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.search.TermScorer.score();org.apache.lucene.search.Scorer;0;0;0;0;0;0;0;0
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.TopFieldDocs;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanWeight.scorer(org.apache.lucene.index.IndexReader);org.apache.lucene.search.Query;0;0;0;0;0;0;0;0
 org.apache.lucene.search.PhraseQuery.toString(java.lang.String);org.apache.lucene.search.Query;1;3;2;0.8888888888888888;0.9444444444444444;22;128;49
 org.apache.lucene.search.RangeQuery.combine(org.apache.lucene.search.Query[]);org.apache.lucene.search.Query;0;0;1;1.0;1.0;3;71;49
 org.apache.lucene.queryParser.QueryParser.getNextToken();org.apache.lucene.queryParser.Token;0;2;2;0.9607843137254902;1.0;7;738;9
 org.apache.lucene.analysis.standard.StandardTokenizer.getNextToken();org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;2;2;0.8823529411764706;0.9615384615384616;7;147;776
-org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.index.IndexReader;0;4;6;0.8857142857142857;1.0;32;199;106
-org.apache.lucene.index.MultiReader.doCommit();org.apache.lucene.index.IndexReader;0;0;0;0;0
-org.apache.lucene.index.IndexReader.commit();org.apache.lucene.index.SegmentInfos;0;0;0;0;0
-org.apache.lucene.index.MultiReader.doClose();org.apache.lucene.index.IndexReader;0;0;0;0;0
+org.apache.lucene.index.MultiReader.doCommit();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexReader.commit();org.apache.lucene.index.SegmentInfos;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiReader.doClose();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0
 org.apache.lucene.store.RAMDirectory.fileModified(java.lang.String);org.apache.lucene.store.RAMFile;1;1;1;0.9411764705882353;0.8;4;98;0
 org.apache.lucene.index.SegmentMergeQueue.close();org.apache.lucene.util.PriorityQueue;2;0;2;1.0;0.8461538461538461;3;13;78
-org.apache.lucene.index.MultiTermEnum.close();org.apache.lucene.index.SegmentMergeQueue;0;0;0;0;0
-org.apache.lucene.index.FilterIndexReader.term();org.apache.lucene.index.TermEnum;0;0;0;0;0
+org.apache.lucene.index.MultiTermEnum.close();org.apache.lucene.index.SegmentMergeQueue;0;0;0;0;0;0;0;0
+org.apache.lucene.index.FilterIndexReader.term();org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0
 org.apache.lucene.search.FuzzyQuery.getEnum(org.apache.lucene.index.IndexReader);org.apache.lucene.search.MultiTermQuery;0;0;1;1.0;1.0;3;9;41
-org.apache.lucene.queryParser.QueryParser.getFieldQuery(int, java.lang.String, java.lang.String, org.apache.lucene.analysis.Analyzer);org.apache.lucene.search.PhraseQuery;0;0;0;0;0
+org.apache.lucene.queryParser.QueryParser.getFieldQuery(int, java.lang.String, java.lang.String, org.apache.lucene.analysis.Analyzer);org.apache.lucene.search.PhraseQuery;0;0;0;0;0;0;0;0
 org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.index.SegmentInfo;2;4;6;0.8857142857142857;0.8888888888888888;32;199;5

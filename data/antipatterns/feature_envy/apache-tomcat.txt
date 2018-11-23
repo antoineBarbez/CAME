@@ -1,0 +1,57 @@
+org.apache.catalina.ssi.SSIFsize.process(printwriter, ssimediator, string, string, string);org.apache.catalina.ssi.SSIMediator
+org.apache.coyote.http11.AbstractHttp11Processor.findBytes(byte, bytechunk);org.apache.tomcat.util.buf.ByteChunk
+org.apache.jasper.compiler.ParserController.hasJspRoot(jspreader);org.apache.jasper.compiler.JspReader
+org.apache.catalina.ssi.SSIMediator.formatDate(date, timezone);org.apache.catalina.util.Strftime
+org.apache.coyote.ajp.AjpProcessor.readMessage(ajpmessage);org.apache.coyote.ajp.AjpMessage
+org.apache.catalina.authenticator.FormAuthenticator.matchRequest(request);org.apache.catalina.connector.Request
+org.apache.catalina.authenticator.FormAuthenticator.saveRequest(request, session);org.apache.catalina.connector.Request
+org.apache.catalina.authenticator.FormAuthenticator.restoreRequest(request, session);org.apache.catalina.connector.Request
+org.apache.catalina.connector.CoyoteAdapter.parseSessionSslId(request);org.apache.catalina.connector.Request
+org.apache.catalina.connector.CoyoteAdapter.convertMB(messagebytes);org.apache.tomcat.util.buf.MessageBytes
+org.apache.catalina.deploy.WebXml.mergeMultipartDef(boolean, multipartdef, multipartdef);org.apache.catalina.deploy.MultipartDef
+org.apache.catalina.deploy.WebXml.mergeServlet(boolean, servletdef, servletdef);org.apache.catalina.deploy.ServletDef
+org.apache.catalina.core.StandardContext.validateFilterMap(filtermap);org.apache.catalina.deploy.FilterMap
+org.apache.catalina.core.StandardContext.buildInjectionMap(namingresources);org.apache.catalina.deploy.NamingResources
+org.apache.jasper.servlet.JspServlet.periodicEvent();org.apache.jasper.compiler.JspRuntimeContext
+org.apache.jasper.compiler.DefaultErrorHandler.javacError(javacerrordetail);org.apache.jasper.compiler.JavacErrorDetail
+org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.createData(coordinationmessage, memberimpl);org.apache.catalina.tribes.io.ChannelData
+org.apache.catalina.ha.authenticator.ClusterSingleSignOnListener.messageReceived(clustermessage);org.apache.catalina.ha.authenticator.SingleSignOnMessage
+org.apache.tomcat.util.net.AbstractEndpoint.setSoLinger(int);org.apache.tomcat.util.net.SocketProperties
+org.apache.catalina.mbeans.MBeanFactory.createJDBCRealm(string, string, string, string, string);org.apache.catalina.realm.JDBCRealm
+org.apache.catalina.mbeans.MBeanFactory.createDataSourceRealm(string, string, string, string, string, string, string);org.apache.catalina.realm.DataSourceRealm
+org.apache.catalina.mbeans.MBeanFactory.createStandardHost(boolean, boolean, boolean, boolean, string, string, string);org.apache.catalina.core.StandardHost
+org.apache.catalina.mbeans.MBeanFactory.createConnector(boolean, boolean, int, string, string);org.apache.catalina.connector.Connector
+org.apache.tomcat.util.http.Cookies.unescapeDoubleQuotes(bytechunk);org.apache.tomcat.util.buf.ByteChunk
+org.apache.tomcat.util.http.Cookies.getTokenEndPosition(boolean, byte, int, int, int);org.apache.tomcat.util.http.CookieSupport
+org.apache.catalina.core.NamingContextListener.addEjb(contextejb);org.apache.catalina.deploy.ContextEjb
+org.apache.jasper.compiler.Validator.isExpression(boolean, node, string);org.apache.jasper.compiler.PageInfo
+org.apache.catalina.core.ApplicationFilterFactory.matchFiltersURL(filtermap, string);org.apache.catalina.deploy.FilterMap
+org.apache.catalina.core.ApplicationFilterFactory.matchDispatcher(dispatchertype, filtermap);org.apache.catalina.deploy.FilterMap
+org.apache.catalina.core.ApplicationFilterFactory.matchFiltersServlet(filtermap, string);org.apache.catalina.deploy.FilterMap
+org.apache.jasper.compiler.Compiler.isOutDated(boolean);org.apache.jasper.JspCompilationContext
+org.apache.coyote.ajp.AjpAprProcessor.prepareResponse();org.apache.coyote.ajp.AjpProcessor
+org.apache.el.parser.AstIdentifier.setValue(evaluationcontext, object);org.apache.el.lang.EvaluationContext
+org.apache.el.parser.AstIdentifier.getType(evaluationcontext);org.apache.el.lang.EvaluationContext
+org.apache.el.parser.AstIdentifier.isReadOnly(evaluationcontext);org.apache.el.lang.EvaluationContext
+org.apache.el.parser.AstIdentifier.getValue(evaluationcontext);org.apache.el.lang.EvaluationContext
+org.apache.tomcat.util.modeler.modules.MbeansSource.processArg(node);org.apache.tomcat.util.DomUtil
+org.apache.catalina.connector.Request.parseLocalesHeader(string);org.apache.catalina.util.StringParser
+org.apache.catalina.connector.Request.isSSLAttribute(string);org.apache.catalina.Globals
+org.apache.catalina.startup.SetContextPropertiesRule.begin(attributes, string, string);org.apache.tomcat.util.digester.Digester
+org.apache.tomcat.util.http.mapper.Mapper.internalMapWildcardWrapper(charchunk, int, mappingdata, wrapper);org.apache.tomcat.util.buf.CharChunk
+org.apache.tomcat.util.http.mapper.Mapper.internalMapExtensionWrapper(charchunk, mappingdata, wrapper);org.apache.tomcat.util.buf.CharChunk
+org.apache.tomcat.util.buf.UDecoder.convert(boolean, messagebytes);org.apache.tomcat.util.buf.MessageBytes
+org.apache.tomcat.util.buf.UDecoder.convert(boolean, charchunk);org.apache.tomcat.util.buf.CharChunk
+org.apache.tomcat.util.buf.UDecoder.convert(boolean, bytechunk);org.apache.tomcat.util.buf.ByteChunk
+org.apache.catalina.util.ManifestResource.getRequiredExtensions(manifest);org.apache.catalina.util.Extension
+org.apache.catalina.util.ManifestResource.getAvailableExtensions(manifest);org.apache.catalina.util.Extension
+org.apache.tomcat.util.http.Parameters.processParameters(messagebytes, string);org.apache.tomcat.util.buf.MessageBytes
+org.apache.naming.resources.ProxyDirContext.validate(cacheentry);org.apache.naming.resources.CacheEntry
+org.apache.naming.resources.ProxyDirContext.revalidate(cacheentry);org.apache.naming.resources.CacheEntry
+org.apache.naming.resources.ProxyDirContext.lookupCache(string);org.apache.naming.resources.CacheEntry
+org.apache.catalina.connector.OutputBuffer.setBufferSize(int);org.apache.tomcat.util.buf.ByteChunk
+org.apache.jasper.compiler.JspConfig.getVersion(treenode);org.apache.jasper.xmlparser.TreeNode
+org.apache.coyote.http11.Http11Protocol.process(socketstatus, socketwrapper);org.apache.coyote.http11.Http11Processor
+org.apache.coyote.http11.AbstractOutputBuffer.write(messagebytes);org.apache.tomcat.util.buf.MessageBytes
+org.apache.catalina.ha.session.SerializablePrincipal.createPrincipal(genericprincipal);org.apache.catalina.realm.GenericPrincipal
+org.apache.catalina.ha.session.SerializablePrincipal.writePrincipal(genericprincipal, objectoutput);org.apache.catalina.realm.GenericPrincipal

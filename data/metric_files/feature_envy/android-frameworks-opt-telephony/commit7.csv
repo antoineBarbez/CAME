@@ -85,7 +85,7 @@ com.android.internal.telephony.gsm.GsmDataConnectionTracker.createAllApnList();c
 com.android.internal.telephony.cdma.CDMAPhone.processIccRecordEvents(int);com.android.internal.telephony.PhoneBase;1;0;2;1.0;0.9935897435897436;10;970;617
 com.android.internal.telephony.DataConnectionTracker.isEmergency();com.android.internal.telephony.PhoneBase;2;2;1;0.9904761904761905;0.9873417721518988;8;971;617
 com.android.internal.telephony.cdma.CdmaSMSDispatcher.onReceive(com.android.internal.telephony.cdma.Context, com.android.internal.telephony.cdma.Intent);com.android.internal.telephony.SmsAddress;2;0;6;1.0;0.9047619047619048;58;287;12
-com.android.internal.telephony.ServiceStateTracker.dispose();com.android.internal.telephony.uicc.UiccController;0;0;0;0;0
+com.android.internal.telephony.ServiceStateTracker.dispose();com.android.internal.telephony.uicc.UiccController;0;0;0;0;0;0;0;0
 com.android.internal.telephony.gsm.GsmSMSDispatcher.calculateLength(boolean, java.lang.CharSequence);com.android.internal.telephony.gsm.SmsMessage;1;0;1;1.0;1.0;3;259;617
 com.android.internal.telephony.cdma.CdmaCallTracker.hangup(com.android.internal.telephony.cdma.CdmaCall);com.android.internal.telephony.cdma.CdmaCall;2;6;4;0.9130434782608696;0.9310344827586207;36;707;100
 com.android.internal.telephony.cdma.SmsMessage.parsePduFromEfRecord(byte[]);com.android.internal.telephony.cdma.sms.SmsEnvelope;8;2;5;0.9574468085106383;0.7037037037037037;109;551;2
@@ -546,7 +546,7 @@ com.android.internal.telephony.test.SimulatedGsmCallState.explicitCallTransfer()
 com.android.internal.telephony.gsm.GSMPhone.conference();com.android.internal.telephony.gsm.GsmCallTracker;1;0;1;1.0;0.9787234042553191;3;1023;563
 com.android.internal.telephony.cdma.SmsMessage.parsePduFromEfRecord(byte[]);com.android.internal.telephony.cdma.sms.CdmaSmsSubaddress;3;2;5;0.9574468085106383;0.8888888888888888;109;551;0
 com.android.internal.telephony.SMSDispatcher.setPremiumSmsPermission(int, java.lang.String);com.android.internal.telephony.SmsUsageMonitor;1;0;1;1.0;1.0;3;682;342
-com.android.internal.telephony.RIL.clearRequestList(boolean, int);com.android.internal.telephony.RILRequest;0;0;0;0;0
+com.android.internal.telephony.RIL.clearRequestList(boolean, int);com.android.internal.telephony.RILRequest;0;0;0;0;0;0;0;0
 android.telephony.gsm.SmsManager.updateMessageOnSim(byte[], int, int);android.telephony.SmsManager;1;0;1;1.0;1.0;3;33;195
 com.android.internal.telephony.cat.CommandParamsFactory.processGetInput(com.android.internal.telephony.cat.CommandDetails, java.util.List<com.android.internal.telephony.cat.ComprehensionTlv>);com.android.internal.telephony.cat.Input;9;2;7;0.9428571428571428;0.6086956521739131;47;576;54
 com.android.internal.telephony.gsm.GsmDataConnectionTracker.getPreferredApn();com.android.internal.telephony.ApnSetting;2;2;4;0.979381443298969;0.9230769230769231;30;1687;96

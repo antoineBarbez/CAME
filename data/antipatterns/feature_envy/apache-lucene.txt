@@ -1,0 +1,4 @@
+org.apache.lucene.index.FieldInfos.write(outputstream);org.apache.lucene.index.FieldInfo
+org.apache.lucene.search.FieldSortedHitQueue.getCachedComparator(indexreader, int, locale, sortcomparatorsource, string);org.apache.lucene.search.SortField
+org.apache.lucene.search.FieldDocSortedHitQueue.lessThan(object, object);org.apache.lucene.search.SortField
+org.apache.lucene.search.PhrasePrefixQuery.createWeight(searcher);org.apache.lucene.search.BooleanQuery

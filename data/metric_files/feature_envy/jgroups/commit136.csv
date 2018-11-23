@@ -13,7 +13,7 @@ org.jgroups.blocks.ReplicatedTree.getState();org.jgroups.util.Util;0;3;1;0.96;1.
 org.jgroups.protocols.pbcast.FLUSH.readFrom(java.io.DataInputStream);org.jgroups.util.Util;1;3;1;0.9558823529411765;1.0;15;626;1508
 org.jgroups.protocols.UDP.startThreads();org.jgroups.protocols.TP;2;5;3;0.9038461538461539;0.9863945578231292;24;498;1021
 org.jgroups.protocols.PING.handleDisconnect();org.jgroups.stack.GossipClient;1;0;1;1.0;0.95;3;156;292
-org.jgroups.mux.Multiplexer.mergeServiceState(java.util.Map<org.jgroups.Address,java.util.Set<java.lang.String>>, org.jgroups.MergeView);org.jgroups.View;0;0;0;0;0
+org.jgroups.mux.Multiplexer.mergeServiceState(java.util.Map<org.jgroups.Address,java.util.Set<java.lang.String>>, org.jgroups.MergeView);org.jgroups.View;0;0;0;0;0;0;0;0
 org.jgroups.protocols.SIZE.down(org.jgroups.Event);org.jgroups.Event;2;5;3;0.736842105263158;0.8666666666666667;23;97;115
 org.jgroups.protocols.FD_ICMP.up(org.jgroups.Event);org.jgroups.protocols.FD;1;1;2;0.9375;0.9824561403508771;11;95;430
 org.jgroups.protocols.UDP.sendToAllMembers(byte[], int, int);org.jgroups.protocols.TP;1;2;2;0.9803921568627451;0.993006993006993;13;498;1021
@@ -32,7 +32,7 @@ org.jgroups.jmx.protocols.UNICAST.getAcksReceived();org.jgroups.protocols.UNICAS
 org.jgroups.protocols.FRAG2.down(org.jgroups.Event);org.jgroups.util.Util;0;7;5;0.8727272727272728;1.0;35;312;1508
 org.jgroups.protocols.pbcast.FLUSH.onViewChange(org.jgroups.View);org.jgroups.View;1;7;2;0.8970588235294118;0.9615384615384616;22;626;91
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.process(java.net.Socket);org.jgroups.Event;0;3;2;0.9767441860465116;1.0;38;655;115
-org.jgroups.View.hashCode();org.jgroups.ViewId;0;0;0;0;0
+org.jgroups.View.hashCode();org.jgroups.ViewId;0;0;0;0;0;0;0;0
 org.jgroups.protocols.VIEW_SYNC.readFrom(java.io.DataInputStream);org.jgroups.util.Util;1;1;1;0.9696969696969697;1.0;6;232;1508
 org.jgroups.jmx.protocols.FD.getPingableMembers();org.jgroups.protocols.FD;1;0;1;1.0;0.9811320754716981;3;52;430
 org.jgroups.jmx.protocols.FRAG.getNumberOfSentFragments();org.jgroups.protocols.FRAG;1;0;1;1.0;0.9705882352941176;3;28;288
@@ -58,7 +58,7 @@ org.jgroups.protocols.pbcast.NAKACK.rebroadcastMessages();org.jgroups.stack.Prot
 org.jgroups.protocols.VIEW_SYNC.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;1;1;0.9696969696969697;1.0;6;232;1508
 org.jgroups.protocols.pbcast.STABLE.handleRegularMessage(org.jgroups.Message);org.jgroups.util.Digest;1;4;5;0.9428571428571428;0.9761904761904762;28;510;269
 org.jgroups.protocols.pbcast.GMS.start(boolean);org.jgroups.util.Util;0;4;3;0.9636363636363636;1.0;18;893;1508
-org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.protocols.pbcast.NakAckHeader;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.protocols.pbcast.NakAckHeader;0;0;0;0;0;0;0;0
 org.jgroups.jmx.JChannel.getTimerThreads();org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;259;822
 org.jgroups.stack.AckSenderWindow.reset();org.jgroups.stack.Retransmitter;1;1;1;0.9333333333333333;0.9565217391304348;4;154;189
 org.jgroups.demos.QuoteServer.getState();org.jgroups.util.Util;0;1;1;0.9444444444444444;1.0;9;83;1508
@@ -87,7 +87,7 @@ org.jgroups.stack.GossipClient._getMembers(java.lang.String);org.jgroups.util.Ut
 org.jgroups.jmx.JChannel.getReceiveBlockEvents();org.jgroups.JChannel;1;1;2;0.9855072463768116;0.9859154929577465;4;259;822
 org.jgroups.demos.applets.DrawApplet.run();org.jgroups.Message;3;7;2;0.8372093023255813;0.9375;43;200;497
 org.jgroups.mux.MuxChannel.connect(java.lang.String);org.jgroups.JChannelFactory;1;0;3;1.0;0.975;9;163;416
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.ViewId;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.ViewId;0;0;0;0;0;0;0;0
 org.jgroups.protocols.HDRS.down(org.jgroups.Event);org.jgroups.stack.Protocol;1;1;2;1.0;0.96;7;23;110
 org.jgroups.demos.Gossip.run();org.jgroups.util.Util;0;3;1;0.9464285714285714;1.0;6;247;1508
 org.jgroups.protocols.Discovery.stop();org.jgroups.protocols.PingWaiter;1;1;1;0.96;0.9285714285714286;4;187;102
@@ -105,7 +105,7 @@ org.jgroups.protocols.pbcast.FLUSH.onSuspend(org.jgroups.View);org.jgroups.Event
 org.jgroups.protocols.MERGE2.up(org.jgroups.Event);org.jgroups.stack.Protocol;1;1;3;0.962962962962963;0.9615384615384616;12;163;110
 org.jgroups.blocks.DistributedHashtable.remove(java.lang.Object);org.jgroups.blocks.RpcDispatcher;1;3;2;0.9302325581395349;1.0;14;409;254
 org.jgroups.protocols.ENCRYPT.handleUpMessage(org.jgroups.Event);org.jgroups.Message;5;16;3;0.8181818181818181;0.9122807017543859;88;617;497
-org.jgroups.stack.RouterStub.disconnect();org.jgroups.stack.GossipData;0;0;0;0;0
+org.jgroups.stack.RouterStub.disconnect();org.jgroups.stack.GossipData;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.FD_SOCK.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.Protocol;0;0;1;1.0;1.0;4;28;56
 org.jgroups.util.Scheduler.run();org.jgroups.util.ThreadPool;1;6;4;0.8;0.9666666666666667;55;135;55
 org.jgroups.protocols.DELAY.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;2;1;0.8333333333333334;0.9285714285714286;19;45;110
@@ -127,7 +127,7 @@ org.jgroups.jmx.JChannel.setValues();org.jgroups.JChannel;1;11;1;0.8382352941176
 org.jgroups.jmx.protocols.TP.isReceiveOnAllInterfaces();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.readFrom(java.io.DataInputStream);org.jgroups.util.Util;1;4;1;0.9473684210526316;1.0;8;655;1508
 org.jgroups.protocols.FD_ALL.size();org.jgroups.util.Util;0;1;2;0.9782608695652174;1.0;5;323;1508
-org.jgroups.stack.NakReceiverWindow.add(long, org.jgroups.Message);org.jgroups.util.BoundedList;0;0;0;0;0
+org.jgroups.stack.NakReceiverWindow.add(long, org.jgroups.Message);org.jgroups.util.BoundedList;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.FLUSH.down(org.jgroups.Event);org.jgroups.Event;2;5;3;0.9402985074626866;0.8333333333333334;26;626;115
 org.jgroups.demos.Draw2Channels.mouseDragged(java.awt.event.MouseEvent);org.jgroups.Channel;1;3;3;0.9423076923076923;1.0;16;236;111
 org.jgroups.util.TimeScheduler.stop();org.jgroups.Global;0;0;1;1.0;1.0;4;88;30
@@ -157,7 +157,7 @@ org.jgroups.jmx.JChannelFactory.createMultiplexerChannel(java.lang.String, java.
 org.jgroups.protocols.PING.stop();org.jgroups.stack.GossipClient;1;0;2;1.0;0.9523809523809523;6;156;292
 org.jgroups.jmx.protocols.TP.getBytesReceived();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.close();org.jgroups.Channel;2;6;3;0.9230769230769231;0.962962962962963;22;655;111
-org.jgroups.mux.Multiplexer.fetchServiceStates(java.util.Set<java.lang.String>, long, org.jgroups.Address);org.jgroups.JChannel;0;0;0;0;0
+org.jgroups.mux.Multiplexer.fetchServiceStates(java.util.Set<java.lang.String>, long, org.jgroups.Address);org.jgroups.JChannel;0;0;0;0;0;0;0;0
 org.jgroups.protocols.SMACK.up(org.jgroups.Event);org.jgroups.stack.AckMcastSenderWindow;2;8;5;0.813953488372093;0.9642857142857143;73;222;239
 org.jgroups.blocks.ReplicatedTree.receive(org.jgroups.Message);org.jgroups.Message;2;1;2;0.9871794871794872;0.9487179487179487;14;597;497
 org.jgroups.protocols.BasicTCP.handleDownEvent(org.jgroups.Event);org.jgroups.util.List;2;1;4;1.0;0.9411764705882353;15;174;264
@@ -173,7 +173,7 @@ org.jgroups.protocols.pbcast.CoordGmsImpl.cancelMerge();org.jgroups.protocols.pb
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;3;4;1;0.9487179487179487;1.0;8;655;1508
 org.jgroups.demos.wb.Whiteboard.addNode(int, int, java.lang.String, org.jgroups.Address);org.jgroups.demos.wb.GraphPanel;1;0;1;1.0;1.0;3;157;234
 org.jgroups.jmx.JChannel.setAutoGetState(boolean);org.jgroups.JChannel;1;1;2;0.9852941176470589;0.9857142857142858;4;259;822
-org.jgroups.protocols.TUNNEL.sendToAllMembers(byte[], int, int);org.jgroups.stack.RouterStub;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.sendToAllMembers(byte[], int, int);org.jgroups.stack.RouterStub;0;0;0;0;0;0;0;0
 org.jgroups.mux.MuxChannel.getState(java.lang.String, long, org.jgroups.Address);org.jgroups.mux.Multiplexer;3;2;2;0.9375;0.9850746268656716;12;163;763
 org.jgroups.jmx.protocols.UNICAST.getMessagesSent();org.jgroups.protocols.UNICAST;1;0;1;1.0;0.975609756097561;3;43;393
 org.jgroups.protocols.pbcast.CoordGmsImpl.consolidateMergeData(java.util.Vector<org.jgroups.protocols.pbcast.MergeData>);org.jgroups.View;2;1;6;1.0;0.9259259259259259;43;524;91
@@ -200,13 +200,13 @@ org.jgroups.jmx.Protocol.printStats();org.jgroups.stack.Protocol;1;0;1;1.0;0.954
 org.jgroups.demos.Draw2Channels.sendClearPanelMsg();org.jgroups.demos.DrawCommand;0;0;3;1.0;1.0;12;236;43
 org.jgroups.jmx.JChannel.toString(boolean);org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;259;822
 org.jgroups.blocks.MessageDispatcher.up(org.jgroups.Event);org.jgroups.blocks.RequestCorrelator;1;1;2;0.9772727272727273;0.9795918367346939;13;560;445
-org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.STATE_TRANSFER.requestApplicationStates(boolean, org.jgroups.Address);org.jgroups.Event;0;2;2;0.9565217391304348;1.0;15;378;115
 org.jgroups.jmx.protocols.FC.getMinThreshold();org.jgroups.protocols.FC;1;0;1;1.0;0.9814814814814815;3;73;482
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.util.AckCollector;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.util.AckCollector;0;0;0;0;0;0;0;0
 org.jgroups.stack.ProtocolStack.stopStack();org.jgroups.stack.Configurator;0;1;1;0.9666666666666667;1.0;5;230;366
 org.jgroups.stack.GossipData.readFrom(java.io.DataInputStream);org.jgroups.util.Util;0;4;1;0.5;1.0;6;44;1508
-org.jgroups.blocks.ReplicatedHashMap.getLocalAddress();org.jgroups.Channel;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.getLocalAddress();org.jgroups.Channel;0;0;0;0;0;0;0;0
 org.jgroups.protocols.SFC.resetStats();org.jgroups.stack.Protocol;1;8;2;0.8461538461538461;0.967741935483871;7;383;110
 org.jgroups.mux.Multiplexer.closeAll();org.jgroups.JChannel;3;2;2;0.9692307692307692;0.9583333333333334;10;763;822
 org.jgroups.jmx.protocols.FD_ALL.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.Protocol;0;0;1;1.0;1.0;4;52;56
@@ -222,7 +222,7 @@ org.jgroups.protocols.AUTOCONF.senseMaxSendBufferSize(java.util.HashMap);org.jgr
 org.jgroups.protocols.SEQUENCER.broadcast(org.jgroups.Message);org.jgroups.Message;3;3;3;0.9166666666666666;0.926829268292683;8;224;497
 org.jgroups.jmx.protocols.UNICAST.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.Protocol;0;0;1;1.0;1.0;4;43;56
 org.jgroups.protocols.UNICAST.up(org.jgroups.Event);org.jgroups.Event;2;6;3;0.9423076923076923;0.8823529411764706;30;393;115
-org.jgroups.protocols.SHARED_LOOPBACK.stop();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.stop();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.debug.Simulator.receive(org.jgroups.Event);org.jgroups.Event;2;0;3;1.0;0.7142857142857143;12;162;115
 org.jgroups.protocols.PingSender.start();org.jgroups.util.Util;0;2;1;0.8666666666666667;1.0;13;50;1508
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.close();org.jgroups.stack.Protocol;2;6;3;0.9230769230769231;0.935483870967742;22;655;110
@@ -231,9 +231,9 @@ org.jgroups.stack.GossipClient._getMembers(java.lang.String);org.jgroups.stack.G
 org.jgroups.protocols.pbcast.STABLE.size();org.jgroups.Global;0;0;2;1.0;1.0;5;510;30
 org.jgroups.protocols.BasicTCP.handleDownEvent(org.jgroups.Event);org.jgroups.Event;2;1;4;1.0;0.8;15;174;115
 org.jgroups.blocks.DistributedHashtable.setState(java.io.InputStream);org.jgroups.util.Util;0;2;2;0.9565217391304348;1.0;18;409;1508
-org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.Event;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.stack.ProtocolStack.startStack();org.jgroups.stack.Configurator;0;1;2;0.967741935483871;1.0;6;230;366
-org.jgroups.protocols.pbcast.NAKACK.getEntry(org.jgroups.Address);org.jgroups.stack.NakReceiverWindow;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.getEntry(org.jgroups.Address);org.jgroups.stack.NakReceiverWindow;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.pbcast.STABLE.getBytes();org.jgroups.protocols.pbcast.STABLE;1;0;1;1.0;0.9827586206896551;3;40;510
 org.jgroups.protocols.MPING.sendMcastDiscoveryRequest(org.jgroups.Message);org.jgroups.stack.Protocol;1;3;6;0.9032258064516129;0.972972972972973;21;200;110
 org.jgroups.jmx.protocols.FRAG2.getOverhead();org.jgroups.protocols.FRAG2;1;0;1;1.0;0.9743589743589743;3;34;312
@@ -244,7 +244,7 @@ org.jgroups.jmx.JChannel.getSentMessages();org.jgroups.JChannel;1;0;1;1.0;0.9855
 org.jgroups.jmx.protocols.pbcast.NAKACK.setDiscardDeliveredMsgs(boolean);org.jgroups.protocols.pbcast.NAKACK;1;0;1;1.0;0.9864864864864865;3;79;946
 org.jgroups.demos.wb.Whiteboard.setState(byte[]);org.jgroups.demos.wb.GraphPanel;1;0;1;1.0;0.967741935483871;3;157;234
 org.jgroups.protocols.VIEW_SYNC.size();org.jgroups.View;1;0;2;1.0;0.9285714285714286;5;232;91
-org.jgroups.protocols.TUNNEL.connectionStatusChange(int);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.connectionStatusChange(int);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.TP.isSendOnAllInterfaces();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
 org.jgroups.util.OutgoingBufferPool.dumpStats();org.jgroups.util.ExposedDataOutputStream;0;1;2;0.9090909090909091;1.0;10;32;9
 org.jgroups.demos.ReplicatedTreeDemo.getData(java.lang.String, org.jgroups.blocks.ReplicatedTree);org.jgroups.blocks.ReplicatedTree;2;0;1;1.0;0.9746835443037974;16;391;597
@@ -277,7 +277,7 @@ org.jgroups.stack.AckMcastSenderWindow.nextInterval();org.jgroups.stack.Interval
 org.jgroups.protocols.PING.handleConnect();org.jgroups.protocols.Discovery;2;0;2;1.0;0.92;3;156;187
 org.jgroups.stack.GossipRouter.sendToMember(byte[], java.io.DataOutputStream, org.jgroups.Address, org.jgroups.Address);org.jgroups.util.Util;1;1;1;0.98;1.0;11;580;1508
 org.jgroups.demos.TotalOrder.run();org.jgroups.Channel;2;3;6;0.9375;1.0;41;251;111
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.Event;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.protocols.UNICAST.down(org.jgroups.Event);org.jgroups.util.Util;0;12;8;0.8378378378378378;1.0;118;393;1508
 org.jgroups.protocols.pbcast.ParticipantGmsImpl.join(org.jgroups.Address);org.jgroups.protocols.pbcast.GmsImpl;1;0;1;1.0;0.9411764705882353;3;97;53
 org.jgroups.blocks.DistributedHashtable.put(java.lang.Object, java.lang.Object);org.jgroups.blocks.GroupRequest;0;3;2;0.9302325581395349;1.0;14;409;364
@@ -301,15 +301,15 @@ org.jgroups.stack.GossipClient._getMembers(java.lang.String);org.jgroups.stack.I
 org.jgroups.protocols.pbcast.STABLE.down(org.jgroups.Event);org.jgroups.stack.Protocol;1;3;2;0.9516129032258065;0.9642857142857143;19;510;110
 org.jgroups.protocols.HTOTAL.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;1;1;0.9615384615384616;0.9285714285714286;14;123;110
 org.jgroups.blocks.DistributedTree.add(int, java.io.Serializable, java.lang.String);org.jgroups.blocks.RpcDispatcher;1;2;2;0.984375;1.0;14;434;254
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.util.List;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.util.List;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.VIEW_SYNC.sendViewRequest();org.jgroups.protocols.VIEW_SYNC;1;0;1;1.0;0.9666666666666667;3;25;232
 org.jgroups.protocols.TP.doSend(boolean, org.jgroups.Address, org.jgroups.util.Buffer);org.jgroups.util.Buffer;3;4;2;0.9859154929577465;0.7;12;1021;26
 org.jgroups.blocks.PullPushAdapter.handleMessage(org.jgroups.Message);org.jgroups.Message;1;4;1;0.8823529411764706;0.9767441860465116;15;305;497
 org.jgroups.blocks.DistributedTree.getLocalAddress();org.jgroups.Channel;1;0;1;1.0;1.0;3;434;111
 org.jgroups.mux.MuxHeader.size();org.jgroups.mux.ServiceInfo;1;1;2;0.8888888888888888;0.9166666666666666;7;48;103
 org.jgroups.protocols.pbcast.GMS.down(org.jgroups.Event);org.jgroups.protocols.pbcast.GmsImpl;2;3;3;0.9722222222222222;1.0;29;893;53
-org.jgroups.stack.RouterStub.disconnect();org.jgroups.util.Util;0;0;0;0;0
-org.jgroups.protocols.TUNNEL.start();org.jgroups.stack.RouterStub;0;0;0;0;0
+org.jgroups.stack.RouterStub.disconnect();org.jgroups.util.Util;0;0;0;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.start();org.jgroups.stack.RouterStub;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.handleStateReq(org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.StateHeader);org.jgroups.Event;0;5;2;0.9358974358974359;1.0;29;655;115
 org.jgroups.jmx.protocols.FC.setMinCredits(long);org.jgroups.protocols.FC;1;0;1;1.0;0.9814814814814815;3;73;482
 org.jgroups.demos.wb.GraphPanel.start(java.lang.String);org.jgroups.blocks.GroupRequest;0;3;3;0.9142857142857143;1.0;13;234;364
@@ -322,7 +322,7 @@ org.jgroups.protocols.pbcast.FLUSH.onResume();org.jgroups.Event;0;2;3;0.96923076
 org.jgroups.jmx.protocols.UDP.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.protocols.TP;1;0;1;1.0;0.9772727272727273;4;10;139
 org.jgroups.protocols.UNICAST.sendAck(long, org.jgroups.Address);org.jgroups.stack.Protocol;3;2;3;0.96;0.9;8;393;110
 org.jgroups.protocols.FD_ICMP.setProperties(java.util.Properties);org.jgroups.util.Util;2;3;4;0.875;1.0;39;95;1508
-org.jgroups.protocols.pbcast.GMS.startFlush(long, org.jgroups.View);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.startFlush(long, org.jgroups.View);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.stack.ProtocolStack.insertProtocol(int, java.lang.String, org.jgroups.stack.Protocol);org.jgroups.stack.Configurator;1;0;1;1.0;1.0;3;230;366
 org.jgroups.stack.ProtocolStack.findProtocol(java.lang.String);org.jgroups.stack.Protocol;1;0;1;1.0;1.0;10;230;110
 org.jgroups.blocks.ReplicatedTree.getLocalAddress();org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;597;822
@@ -350,7 +350,7 @@ org.jgroups.protocols.JMS.down(org.jgroups.Event);org.jgroups.Event;2;3;3;0.9268
 org.jgroups.blocks.VotingAdapter.checkResponse(org.jgroups.util.Rsp);org.jgroups.util.Rsp;4;2;1;0.9428571428571428;0.6666666666666667;26;216;43
 org.jgroups.protocols.TP.handleIncomingMessage(org.jgroups.Message);org.jgroups.Message;4;4;4;0.9731543624161074;0.92;26;1021;497
 org.jgroups.protocols.pbcast.GMS.becomeCoordinator();org.jgroups.stack.Protocol;1;2;2;0.9809523809523809;0.962962962962963;14;893;110
-org.jgroups.auth.X509Token.authenticate(org.jgroups.auth.AuthToken, org.jgroups.Message);org.jgroups.auth.AuthToken;0;0;0;0;0
+org.jgroups.auth.X509Token.authenticate(org.jgroups.auth.AuthToken, org.jgroups.Message);org.jgroups.auth.AuthToken;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.FD_ALL.isRunning();org.jgroups.protocols.FD_ALL;1;0;1;1.0;0.9782608695652174;3;52;323
 org.jgroups.blocks.ReplicatedHashtable.setState(byte[]);org.jgroups.util.Util;0;4;1;0.8918918918918919;1.0;22;299;1508
 org.jgroups.protocols.pbcast.JoinRsp.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;2;1;1;0.8571428571428572;1.0;5;50;1508
@@ -363,7 +363,7 @@ org.jgroups.stack.AckMcastSenderWindow._retransmit(org.jgroups.stack.AckMcastSen
 org.jgroups.JChannel.getNumMessages();org.jgroups.util.Queue;1;0;1;1.0;0.9666666666666667;3;822;291
 org.jgroups.JChannelFactory.close(org.jgroups.mux.MuxChannel);org.jgroups.mux.Multiplexer;2;6;3;0.8723404255319149;0.987012987012987;45;416;763
 org.jgroups.jmx.protocols.Discovery.findInitialMembersAsString();org.jgroups.protocols.Discovery;1;0;1;1.0;0.9583333333333334;3;37;187
-org.jgroups.jmx.protocols.pbcast.NAKACK.getXmitTableSize();org.jgroups.protocols.pbcast.NAKACK;0;0;0;0;0
+org.jgroups.jmx.protocols.pbcast.NAKACK.getXmitTableSize();org.jgroups.protocols.pbcast.NAKACK;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FRAG2.fragment(org.jgroups.Message);org.jgroups.Event;0;3;5;0.9473684210526316;1.0;35;312;115
 org.jgroups.protocols.ENCRYPT.decryptMessage(javax.crypto.Cipher, org.jgroups.Message);org.jgroups.stack.Protocol;2;5;2;0.9444444444444444;0.9333333333333333;18;617;110
 org.jgroups.blocks.RpcDispatcher.callRemoteMethods(boolean, boolean, int, java.util.Vector, long, org.jgroups.blocks.MethodCall);org.jgroups.Message;1;2;4;0.9743589743589743;0.9787234042553191;19;254;497
@@ -373,17 +373,17 @@ org.jgroups.mux.MuxChannel._close(boolean, boolean);org.jgroups.Channel;1;0;2;1.
 org.jgroups.protocols.FD_SOCK.size();org.jgroups.stack.IpAddress;1;3;3;0.9666666666666667;0.962962962962963;24;741;167
 org.jgroups.protocols.BasicTCP.handleDownEvent(org.jgroups.Event);org.jgroups.View;1;1;4;1.0;0.95;15;174;91
 org.jgroups.protocols.FD_ALL.up(org.jgroups.Event);org.jgroups.Message;2;9;3;0.8392857142857143;0.962962962962963;40;323;497
-org.jgroups.protocols.FC.sendCreditRequest(java.lang.Long, org.jgroups.Address);org.jgroups.Event;0;0;0;0;0
+org.jgroups.protocols.FC.sendCreditRequest(java.lang.Long, org.jgroups.Address);org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.util.RspList.addSuspect(org.jgroups.Address);org.jgroups.util.Rsp;4;2;1;0.9375;0.6363636363636364;11;145;43
 org.jgroups.blocks.DistributedQueue.init();org.jgroups.blocks.MessageDispatcher;1;2;1;0.9555555555555556;0.9772727272727273;6;370;560
 org.jgroups.protocols.COMPRESS.up(org.jgroups.Event);org.jgroups.stack.Protocol;3;2;3;0.9393939393939394;0.9210526315789473;34;133;110
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.run();org.jgroups.stack.Protocol;1;1;1;0.9868421052631579;0.96;4;655;110
 org.jgroups.jmx.protocols.pbcast.STREAMING_STATE_TRANSFER.getAverageStateSize();org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER;1;0;1;1.0;0.9863013698630136;3;19;655
 org.jgroups.protocols.VIEW_SYNC.handleView(org.jgroups.Address, org.jgroups.View);org.jgroups.protocols.pbcast.GMS;0;2;6;0.9444444444444444;1.0;18;232;893
-org.jgroups.protocols.MPING.start();org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.protocols.MPING.start();org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.pbcast.STREAMING_STATE_TRANSFER.getNumberOfStateRequests();org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER;1;0;1;1.0;0.9863013698630136;3;19;655
 org.jgroups.protocols.TCP.start();org.jgroups.protocols.BasicTCP;11;1;4;1.0;0.6857142857142857;12;59;174
-org.jgroups.protocols.SHARED_LOOPBACK.sendToAllMembers(byte[], int, int);org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.sendToAllMembers(byte[], int, int);org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.blocks.RequestCorrelator.receiveMessage(org.jgroups.Message);org.jgroups.Message;3;13;4;0.8095238095238095;0.9516129032258065;67;445;497
 org.jgroups.protocols.TP.init();org.jgroups.stack.Protocol;2;1;2;0.9928057553956835;0.9166666666666666;8;1021;110
 org.jgroups.protocols.VERIFY_SUSPECT.readFrom(java.io.DataInputStream);org.jgroups.util.Util;0;2;1;0.92;1.0;4;233;1508
@@ -393,7 +393,7 @@ org.jgroups.protocols.ENCRYPT.handleNewKeyServer(org.jgroups.Address);org.jgroup
 org.jgroups.blocks.PullPushAdapter.run();org.jgroups.SuspectEvent;1;9;7;0.8392857142857143;0.9714285714285714;108;305;9
 org.jgroups.protocols.TCP.getConnectionTable(int, int, java.net.InetAddress, java.net.InetAddress, long, long);org.jgroups.stack.Protocol;2;0;1;1.0;0.9090909090909091;18;59;110
 org.jgroups.auth.MD5Token.readFrom(java.io.DataInputStream);org.jgroups.auth.AuthToken;1;1;2;0.8888888888888888;0.5;6;69;0
-org.jgroups.stack.NakReceiverWindow.stable(long);org.jgroups.stack.Retransmitter;0;0;0;0;0
+org.jgroups.stack.NakReceiverWindow.stable(long);org.jgroups.stack.Retransmitter;0;0;0;0;0;0;0;0
 org.jgroups.protocols.CAUSAL.run();org.jgroups.Event;0;19;4;0.7464788732394366;1.0;61;475;115
 org.jgroups.protocols.CAUSAL.upSetLocalAddress(org.jgroups.Event);org.jgroups.stack.Protocol;1;1;2;0.9830508474576272;0.9583333333333334;4;475;110
 org.jgroups.protocols.TCP_NIO.getConnectionTable(int, int, java.net.InetAddress, java.net.InetAddress, long, long);org.jgroups.stack.Protocol;2;5;2;0.7916666666666666;0.9393939393939394;24;115;110
@@ -438,15 +438,15 @@ org.jgroups.util.MutableDigest.add(org.jgroups.Address, org.jgroups.util.Digest.
 org.jgroups.protocols.BSH.up(org.jgroups.Event);org.jgroups.Message;4;3;3;0.9090909090909091;0.9090909090909091;28;106;497
 org.jgroups.blocks.RpcDispatcher.callRemoteMethod(boolean, int, long, org.jgroups.Address, org.jgroups.blocks.MethodCall);org.jgroups.blocks.MessageDispatcher;2;2;3;0.9696969696969697;0.9782608695652174;13;254;560
 org.jgroups.blocks.ReplicatedHashtable.getState();org.jgroups.util.Util;0;1;1;0.9736842105263158;1.0;16;299;1508
-org.jgroups.mux.MuxChannel.open();org.jgroups.JChannel;0;0;0;0;0
+org.jgroups.mux.MuxChannel.open();org.jgroups.JChannel;0;0;0;0;0;0;0;0
 org.jgroups.blocks.ConnectionTableNIO.stop();org.jgroups.blocks.BasicConnectionTable;4;9;2;0.9134615384615384;0.9583333333333334;49;664;397
 org.jgroups.demos.Draw2Channels.setTitle();org.jgroups.Channel;1;3;1;0.9333333333333333;1.0;10;236;111
 org.jgroups.jmx.JChannel.down(org.jgroups.Event);org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;259;822
 org.jgroups.util.MagicObjectOutputStream.writeClassDescriptor(java.io.ObjectStreamClass);org.jgroups.conf.ClassConfigurator;1;0;1;1.0;0.9411764705882353;16;27;109
-org.jgroups.protocols.pbcast.FLUSH.startFlush(boolean, int, org.jgroups.Event);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.pbcast.FLUSH.startFlush(boolean, int, org.jgroups.Event);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.CoordGmsImpl.handleMembershipChange(java.util.Collection, java.util.Collection, java.util.Collection);org.jgroups.Membership;2;4;8;0.9746835443037974;0.9583333333333334;72;524;92
 org.jgroups.protocols.pbcast.ClientGmsImpl.join(org.jgroups.Address);org.jgroups.Message;2;6;12;0.8666666666666667;0.9710144927536232;95;233;497
-org.jgroups.protocols.FD.unsuspect(org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.FD.unsuspect(org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.JChannelFactory.disconnect(org.jgroups.mux.MuxChannel);org.jgroups.mux.Multiplexer;2;2;3;0.9565217391304348;0.9861111111111112;30;416;763
 org.jgroups.protocols.pbcast.ParticipantGmsImpl.handleMembershipChange(java.util.Collection, java.util.Collection, java.util.Collection);org.jgroups.util.AckCollector;1;2;3;0.9230769230769231;0.9642857142857143;18;97;72
 org.jgroups.jmx.protocols.pbcast.GMS.isCoordinator();org.jgroups.protocols.pbcast.GMS;1;0;1;1.0;0.9900990099009901;3;70;893
@@ -479,7 +479,7 @@ org.jgroups.blocks.ReplicatedHashtable.clear();org.jgroups.Channel;1;2;1;0.94285
 org.jgroups.protocols.VERIFY_SUSPECT.up(org.jgroups.Event);org.jgroups.stack.Protocol;3;9;3;0.7352941176470589;0.9210526315789473;54;233;110
 org.jgroups.protocols.TP.handleMyMessage(boolean, org.jgroups.Message);org.jgroups.Event;0;6;4;0.96;1.0;28;1021;115
 org.jgroups.protocols.pbcast.ParticipantGmsImpl.sendLeaveMessage(org.jgroups.Address, org.jgroups.Address);org.jgroups.Event;0;0;5;1.0;1.0;6;97;115
-org.jgroups.protocols.pbcast.NAKACK.send(org.jgroups.Event, org.jgroups.Message);org.jgroups.stack.NakReceiverWindow;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.send(org.jgroups.Event, org.jgroups.Message);org.jgroups.stack.NakReceiverWindow;0;0;0;0;0;0;0;0
 org.jgroups.debug.Simulator.start();org.jgroups.Message;3;7;4;0.8;0.9473684210526316;71;162;497
 org.jgroups.jmx.protocols.pbcast.NAKACK.isUseMcastXmit();org.jgroups.protocols.pbcast.NAKACK;1;0;1;1.0;0.9864864864864865;3;79;946
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.passStreamUp(org.jgroups.stack.StateTransferInfo);org.jgroups.util.Util;0;2;3;0.9736842105263158;1.0;14;655;1508
@@ -492,7 +492,7 @@ org.jgroups.blocks.ConnectionTable.stop();org.jgroups.blocks.BasicConnectionTabl
 org.jgroups.jmx.protocols.MPING.getMcastAddr();org.jgroups.protocols.MPING;1;0;1;1.0;0.9444444444444444;3;40;200
 org.jgroups.JChannel.getOpt(int);org.jgroups.Channel;0;5;1;0.9295774647887324;1.0;21;822;111
 org.jgroups.demos.wb.GraphPanel.mouseReleased(java.awt.event.MouseEvent);org.jgroups.blocks.RpcDispatcher;1;2;4;0.95;1.0;16;234;254
-org.jgroups.blocks.ReplicatedHashMap.getState();org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.getState();org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.demos.wb.GraphPanel.mouseReleased(java.awt.event.MouseEvent);org.jgroups.demos.wb.Whiteboard;0;2;4;0.95;1.0;16;234;157
 org.jgroups.protocols.ENCRYPT.initSymKey();org.jgroups.stack.Protocol;1;4;1;0.9452054794520548;0.96875;13;617;110
 org.jgroups.protocols.pbcast.NAKACK.handleMessage(org.jgroups.Message, org.jgroups.protocols.pbcast.NakAckHeader);org.jgroups.protocols.pbcast.NakAckHeader;1;3;5;0.967032967032967;0.9655172413793104;36;946;89
@@ -532,7 +532,7 @@ org.jgroups.protocols.UNICAST.sendAck(long, org.jgroups.Address);org.jgroups.Mes
 org.jgroups.blocks.RequestCorrelator.receive(org.jgroups.Event);org.jgroups.Event;2;4;1;0.9183673469387755;0.7777777777777778;17;445;115
 org.jgroups.stack.ProtocolStack.destroy();org.jgroups.util.TimeScheduler;1;0;2;1.0;0.9444444444444444;11;230;88
 org.jgroups.JChannel.downcall(org.jgroups.Event);org.jgroups.Event;2;3;4;0.961038961038961;0.8571428571428572;21;822;115
-org.jgroups.protocols.TUNNEL.postUnmarshalling(boolean, org.jgroups.Address, org.jgroups.Address, org.jgroups.Message);org.jgroups.Message;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.postUnmarshalling(boolean, org.jgroups.Address, org.jgroups.Address, org.jgroups.Message);org.jgroups.Message;0;0;0;0;0;0;0;0
 org.jgroups.protocols.MERGE3.processAnnouncements();org.jgroups.util.Util;0;4;3;0.875;1.0;24;158;1508
 org.jgroups.protocols.pbcast.ClientGmsImpl.installView(org.jgroups.View);org.jgroups.protocols.pbcast.GMS;3;0;5;1.0;0.9716981132075472;13;233;893
 org.jgroups.protocols.EXAMPLE.down(org.jgroups.Event);org.jgroups.Event;2;1;3;0.9230769230769231;0.8461538461538461;16;30;115
@@ -549,12 +549,12 @@ org.jgroups.jmx.protocols.pbcast.GMS.setShun(boolean);org.jgroups.protocols.pbca
 org.jgroups.mux.Multiplexer.sendServiceState();org.jgroups.mux.ServiceInfo;0;1;4;0.9848484848484849;1.0;9;763;103
 org.jgroups.protocols.PERF_TP.down(org.jgroups.Event);org.jgroups.Message;1;4;3;0.8181818181818181;0.9787234042553191;26;89;497
 org.jgroups.protocols.MERGE3.sendCoordinatorAnnouncement(org.jgroups.Address);org.jgroups.Message;1;1;3;0.9615384615384616;0.9743589743589743;6;158;497
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.Membership;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.Membership;0;0;0;0;0;0;0;0
 org.jgroups.demos.wb.GraphPanel.mousePressed(java.awt.event.MouseEvent);org.jgroups.demos.wb.Node;3;5;2;0.8913043478260869;0.896551724137931;31;234;5
 org.jgroups.protocols.CAUSAL.upViewChange(org.jgroups.Event);org.jgroups.stack.Protocol;2;8;3;0.8888888888888888;0.9393939393939394;20;475;110
 org.jgroups.blocks.ConnectionTableNIO.start();org.jgroups.blocks.BasicConnectionTable;12;3;2;0.97;0.8461538461538461;18;664;397
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.connectToStateProvider(org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.StateHeader);org.jgroups.Event;0;7;4;0.9213483146067416;1.0;47;655;115
-org.jgroups.blocks.ReplicatedHashMap.clear();org.jgroups.blocks.RpcDispatcher;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.clear();org.jgroups.blocks.RpcDispatcher;0;0;0;0;0;0;0;0
 org.jgroups.demos.Draw.receive(org.jgroups.Message);org.jgroups.Message;5;3;3;0.9516129032258065;0.8888888888888888;24;419;497
 org.jgroups.mux.Multiplexer.closeAll();org.jgroups.mux.MuxChannel;0;2;2;0.9692307692307692;1.0;10;763;163
 org.jgroups.protocols.TP.handleIncomingPacket(byte[], int, int, org.jgroups.Address, org.jgroups.Address);org.jgroups.Version;0;7;5;0.9675324675324676;1.0;48;1021;43
@@ -604,7 +604,7 @@ org.jgroups.auth.MD5Token.hash(java.lang.String);org.jgroups.util.Util;0;1;2;0.9
 org.jgroups.protocols.pbcast.FLUSH.onStartFlush(org.jgroups.Address, org.jgroups.protocols.pbcast.FLUSH.FlushHeader);org.jgroups.Event;0;9;3;0.8732394366197183;1.0;22;626;115
 org.jgroups.protocols.UNICAST.retransmit(long, org.jgroups.Message);org.jgroups.Message;1;2;3;0.9555555555555556;0.9761904761904762;6;393;497
 org.jgroups.demos.wb.Whiteboard.getState();org.jgroups.demos.wb.GraphPanel;2;0;1;1.0;0.935483870967742;4;157;234
-org.jgroups.protocols.TUNNEL.stop();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.stop();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.AUTH.createFailureEvent(java.lang.String, org.jgroups.Address);org.jgroups.Event;0;0;4;1.0;1.0;13;122;115
 org.jgroups.protocols.TP.handleDownEvent(org.jgroups.Event);org.jgroups.stack.Protocol;1;5;3;0.9647887323943662;0.96875;26;1021;110
 org.jgroups.protocols.FRAG.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;1;1;0.975;0.9259259259259259;14;288;110
@@ -625,14 +625,14 @@ org.jgroups.protocols.JMS.setProperties(java.util.Properties);org.jgroups.stack.
 org.jgroups.jmx.Protocol.resetStats();org.jgroups.stack.Protocol;1;0;1;1.0;0.9545454545454546;3;56;110
 org.jgroups.jmx.protocols.FRAG2.setFragSize(int);org.jgroups.protocols.FRAG2;1;0;1;1.0;0.9743589743589743;3;34;312
 org.jgroups.jmx.protocols.TP.getOOBMinPoolSize();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
-org.jgroups.blocks.ReplicatedHashMap.setState(java.io.InputStream);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.setState(java.io.InputStream);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.CoordGmsImpl.sendMergeView(java.util.Vector, org.jgroups.protocols.pbcast.MergeData);org.jgroups.protocols.pbcast.GmsImpl;2;0;7;1.0;0.9047619047619048;25;524;53
 org.jgroups.protocols.SMACK.retransmit(long, org.jgroups.Address, org.jgroups.Message);org.jgroups.Event;0;0;3;1.0;1.0;5;222;115
-org.jgroups.protocols.TUNNEL.toString();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.toString();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.NAKACK.clear();org.jgroups.stack.NakReceiverWindow;1;1;1;0.9875;0.9705882352941176;8;946;303
 org.jgroups.protocols.pbcast.CoordGmsImpl.sendMergeView(java.util.Vector, org.jgroups.protocols.pbcast.MergeData);org.jgroups.Event;0;0;7;1.0;1.0;25;524;115
 org.jgroups.protocols.FD_SOCK.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;2;4;1;0.9583333333333334;1.0;25;741;1508
-org.jgroups.protocols.TUNNEL.connectionStatusChange(int);org.jgroups.stack.RouterStub;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.connectionStatusChange(int);org.jgroups.stack.RouterStub;0;0;0;0;0;0;0;0
 org.jgroups.stack.ProtocolStack.send(org.jgroups.Message);org.jgroups.Event;0;1;1;0.9666666666666667;1.0;3;230;115
 org.jgroups.jmx.protocols.FD_SOCK.getLocalAddress();org.jgroups.protocols.FD_SOCK;1;0;1;1.0;0.9879518072289156;3;28;741
 org.jgroups.demos.wb.GraphPanel.start(java.lang.String);org.jgroups.blocks.RpcDispatcher;1;3;3;0.9142857142857143;1.0;13;234;254
@@ -677,7 +677,7 @@ org.jgroups.demos.DistributedHashtableDemo.actionPerformed(java.awt.event.Action
 org.jgroups.protocols.TCPPING.setProperties(java.util.Properties);org.jgroups.util.Util;1;3;4;0.7857142857142857;1.0;24;68;1508
 org.jgroups.jmx.JChannel.setReceiveLocalMessages(boolean);org.jgroups.JChannel;1;1;2;0.9852941176470589;0.9857142857142858;4;259;822
 org.jgroups.protocols.FD_ICMP.run();org.jgroups.util.BoundedList;1;5;4;0.84375;0.962962962962963;35;95;20
-org.jgroups.blocks.ConnectionTable.stop();org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.blocks.ConnectionTable.stop();org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.demos.Topology.viewAccepted(org.jgroups.View);org.jgroups.View;1;1;1;0.96;0.9333333333333333;3;118;91
 org.jgroups.protocols.ENCRYPT.sendKeyRequest();org.jgroups.Message;1;5;2;0.927536231884058;0.9772727272727273;6;617;497
 org.jgroups.stack.RouterStub.connect(java.lang.String);org.jgroups.stack.GossipData;1;10;3;0.6774193548387097;0.9545454545454546;23;277;44
@@ -696,11 +696,11 @@ org.jgroups.jmx.protocols.SFC.getCreditRequestsSent();org.jgroups.protocols.SFC;
 org.jgroups.protocols.FRAG2.unfragment(org.jgroups.Message, org.jgroups.protocols.FragHeader);org.jgroups.Message;2;6;4;0.8979591836734694;0.96;28;312;497
 org.jgroups.JChannel.downcall(org.jgroups.Event);org.jgroups.util.Promise;1;3;4;0.961038961038961;0.9523809523809523;21;822;88
 org.jgroups.protocols.AUTOCONF.start();org.jgroups.stack.Protocol;2;1;2;0.9166666666666666;0.9166666666666666;7;132;110
-org.jgroups.blocks.ReplicatedHashMap.setDeadlockDetection(boolean);org.jgroups.blocks.MessageDispatcher;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.setDeadlockDetection(boolean);org.jgroups.blocks.MessageDispatcher;0;0;0;0;0;0;0;0
 org.jgroups.protocols.TP.handleMyMessage(boolean, org.jgroups.Message);org.jgroups.protocols.TpHeader;1;6;4;0.96;0.9615384615384616;28;1021;25
 org.jgroups.protocols.DISCARD.resetStats();org.jgroups.stack.Protocol;1;2;1;0.9;0.9583333333333334;4;127;110
 org.jgroups.protocols.CAUSAL.setProperties(java.util.Properties);org.jgroups.stack.Protocol;1;1;1;0.9833333333333333;0.96;6;475;110
-org.jgroups.protocols.TUNNEL.sendToSingleMember(byte[], int, int, org.jgroups.Address);org.jgroups.stack.RouterStub;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.sendToSingleMember(byte[], int, int, org.jgroups.Address);org.jgroups.stack.RouterStub;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.ClientGmsImpl.handleJoinResponse(org.jgroups.protocols.pbcast.JoinRsp);org.jgroups.util.Promise;1;0;1;1.0;0.9090909090909091;3;233;88
 org.jgroups.blocks.DistributedHashtable.setState(byte[]);org.jgroups.util.Promise;1;2;2;0.9534883720930233;0.9285714285714286;13;409;88
 org.jgroups.protocols.TCP_NIO.send(byte[], int, int, org.jgroups.Address);org.jgroups.blocks.BasicConnectionTable;1;0;1;1.0;1.0;3;115;397
@@ -712,7 +712,7 @@ org.jgroups.jmx.protocols.TCP.setConnExpireTime(long);org.jgroups.protocols.Basi
 org.jgroups.protocols.DISCARD_PAYLOAD.up(org.jgroups.Event);org.jgroups.Event;2;3;3;0.75;0.8333333333333334;28;52;115
 org.jgroups.jmx.JChannel.setChannelListener(org.jgroups.ChannelListener);org.jgroups.Channel;1;0;1;1.0;0.9411764705882353;3;259;111
 org.jgroups.auth.SimpleToken.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;1;2;0.875;1.0;6;45;1508
-org.jgroups.protocols.pbcast.FLUSH.startFlush(boolean, int, org.jgroups.Event);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.protocols.pbcast.FLUSH.startFlush(boolean, int, org.jgroups.Event);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.jmx.Protocol.getPropertiesAsString();org.jgroups.stack.Protocol;1;0;1;1.0;0.9565217391304348;3;56;110
 org.jgroups.demos.Draw2Channels.sendClearPanelMsg();org.jgroups.util.Util;0;0;3;1.0;1.0;12;236;1508
 org.jgroups.demos.DistributedTreeDemo.populateTree(java.lang.String, org.jgroups.blocks.DistributedTree);org.jgroups.blocks.DistributedTree;2;1;2;1.0;0.9692307692307692;12;239;434
@@ -739,8 +739,8 @@ org.jgroups.protocols.pbcast.NAKACK.down(org.jgroups.Event);org.jgroups.Event;2;
 org.jgroups.protocols.VIEW_SYNC.readExternal(java.io.ObjectInput);org.jgroups.View;1;1;1;0.9696969696969697;0.9411764705882353;8;232;91
 org.jgroups.protocols.STATS.down(org.jgroups.Event);org.jgroups.Event;2;2;2;0.9375;0.75;10;160;115
 org.jgroups.jmx.Protocol.destroy();org.jgroups.stack.Protocol;1;0;1;1.0;0.9545454545454546;3;56;110
-org.jgroups.blocks.GroupRequest.reset(java.util.Vector<org.jgroups.Address>);org.jgroups.util.Rsp;0;0;0;0;0
-org.jgroups.protocols.FC.sendCreditRequest(java.lang.Long, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.blocks.GroupRequest.reset(java.util.Vector<org.jgroups.Address>);org.jgroups.util.Rsp;0;0;0;0;0;0;0;0
+org.jgroups.protocols.FC.sendCreditRequest(java.lang.Long, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.jmx.JChannelFactory.setMultiplexerConfig(java.lang.String);org.jgroups.JChannelFactory;1;0;1;1.0;0.9722222222222222;3;55;416
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.handleStateReq(org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.StateHeader);org.jgroups.stack.Protocol;2;5;2;0.9358974358974359;0.9333333333333333;29;655;110
 org.jgroups.blocks.ReplicatedTree.fetchState(long);org.jgroups.JChannel;1;1;1;0.9868421052631579;1.0;7;597;822
@@ -764,11 +764,11 @@ org.jgroups.protocols.pbcast.NAKACK.missingMessageReceived(long, org.jgroups.Mes
 org.jgroups.jmx.protocols.UNICAST.getLocalAddress();org.jgroups.protocols.UNICAST;1;0;1;1.0;0.975609756097561;3;43;393
 org.jgroups.blocks.NotificationBus.handleCacheRequest(org.jgroups.Address);org.jgroups.Channel;1;4;1;0.8620689655172413;1.0;16;227;111
 org.jgroups.View.getCreator();org.jgroups.ViewId;1;0;1;1.0;0.9285714285714286;3;91;61
-org.jgroups.blocks.ReplicatedHashMap.start(long);org.jgroups.util.Promise;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.start(long);org.jgroups.util.Promise;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.CoordGmsImpl.sendLeaveResponses(java.util.Collection);org.jgroups.protocols.pbcast.GMS;0;0;5;1.0;1.0;8;524;893
 org.jgroups.protocols.SEQUENCER.readFrom(java.io.DataInputStream);org.jgroups.util.Util;1;1;1;0.9705882352941176;1.0;4;224;1508
 org.jgroups.demos.wb.ApplFrame.windowActivated(java.awt.event.WindowEvent);org.jgroups.demos.wb.Whiteboard;1;0;1;1.0;0.9642857142857143;3;38;157
-org.jgroups.protocols.TUNNEL.init();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.init();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.MERGEFAST.up(org.jgroups.Event);org.jgroups.stack.Protocol;1;5;3;0.6428571428571428;0.967741935483871;23;64;110
 org.jgroups.protocols.UNICAST.handleDataReceived(long, org.jgroups.Address, org.jgroups.Message);org.jgroups.Event;0;4;5;0.9272727272727272;1.0;37;393;115
 org.jgroups.jmx.protocols.FRAG.getNumberOfReceivedMessages();org.jgroups.protocols.FRAG;1;0;1;1.0;0.9705882352941176;3;28;288
@@ -809,7 +809,7 @@ org.jgroups.demos.ReplicatedTreeDemo.tableChanged(javax.swing.event.TableModelEv
 org.jgroups.protocols.UDP.setProperties(java.util.Properties);org.jgroups.stack.Protocol;1;10;4;0.8113207547169812;0.975;58;498;110
 org.jgroups.demos.Draw2Channels.viewAccepted(org.jgroups.View);org.jgroups.View;1;3;1;0.9347826086956522;0.9473684210526316;5;236;91
 org.jgroups.protocols.PERF_TP.down(org.jgroups.Event);org.jgroups.Event;2;4;3;0.8181818181818181;0.8571428571428572;26;89;115
-org.jgroups.protocols.pbcast.STABLE.sendStabilityMessage(org.jgroups.util.Digest);org.jgroups.util.Digest;0;0;0;0;0
+org.jgroups.protocols.pbcast.STABLE.sendStabilityMessage(org.jgroups.util.Digest);org.jgroups.util.Digest;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.STABLE.resetStats();org.jgroups.stack.Protocol;1;4;1;0.9322033898305084;0.9615384615384616;4;510;110
 org.jgroups.protocols.pbcast.CoordGmsImpl.sendLeaveResponses(java.util.Collection);org.jgroups.stack.Protocol;1;0;5;1.0;0.9615384615384616;8;524;110
 org.jgroups.jmx.protocols.Discovery.getDiscoveryRequestsSent();org.jgroups.protocols.Discovery;1;0;1;1.0;0.9583333333333334;3;37;187
@@ -820,7 +820,7 @@ org.jgroups.protocols.BARRIER.destroy();org.jgroups.stack.Protocol;1;1;1;0.95454
 org.jgroups.demos.applets.DrawApplet.mouseDragged(java.awt.event.MouseEvent);org.jgroups.Channel;1;7;1;0.8372093023255813;1.0;21;200;111
 org.jgroups.protocols.pbcast.STABLE.sendStableMessage(org.jgroups.util.Digest);org.jgroups.Event;0;2;4;0.96875;1.0;15;510;115
 org.jgroups.jmx.protocols.TP.setEnableBundling(boolean);org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
-org.jgroups.protocols.SHARED_LOOPBACK.toString();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.toString();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.UDP.createEphemeralDatagramSocket();org.jgroups.util.BoundedList;1;1;4;0.98;0.8888888888888888;24;498;20
 org.jgroups.protocols.HTOTAL.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;2;1;0.9;1.0;4;123;1508
 org.jgroups.protocols.BasicTCP.setProperties(java.util.Properties);org.jgroups.protocols.TP;1;13;3;0.6060606060606061;0.9937106918238994;78;174;1021
@@ -839,7 +839,7 @@ org.jgroups.protocols.FD_ALL.readFrom(java.io.DataInputStream);org.jgroups.util.
 org.jgroups.protocols.FD_SOCK.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;6;3;0.935483870967742;0.9444444444444444;51;741;110
 org.jgroups.protocols.pbcast.FLUSH.sendBlockUpToChannel();org.jgroups.Event;0;0;2;1.0;1.0;3;626;115
 org.jgroups.jmx.protocols.MPING.getBindAddr();org.jgroups.protocols.MPING;1;0;1;1.0;0.9444444444444444;3;40;200
-org.jgroups.stack.NakReceiverWindow.getAverageXmitTime();org.jgroups.util.List;0;0;0;0;0
+org.jgroups.stack.NakReceiverWindow.getAverageXmitTime();org.jgroups.util.List;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.STATE_TRANSFER.handleStateRsp(byte[], org.jgroups.protocols.pbcast.STATE_TRANSFER.StateHeader);org.jgroups.stack.Protocol;4;6;2;0.8636363636363636;0.8620689655172413;22;378;110
 org.jgroups.blocks.MessageDispatcher.receive(org.jgroups.Message);org.jgroups.blocks.RequestCorrelator;1;1;1;0.9772727272727273;0.9795918367346939;11;560;445
 org.jgroups.protocols.JMS.handleDownEvent(org.jgroups.Event);org.jgroups.Event;2;2;2;0.9555555555555556;0.8333333333333334;16;231;115
@@ -928,7 +928,7 @@ org.jgroups.protocols.SMACK.up(org.jgroups.Event);org.jgroups.stack.Protocol;5;8
 org.jgroups.demos.wb.GraphPanel.getState();org.jgroups.util.Util;0;1;1;0.96875;1.0;9;234;1508
 org.jgroups.protocols.FD_SIMPLE.run();org.jgroups.Message;1;6;4;0.8333333333333334;0.9795918367346939;20;225;497
 org.jgroups.protocols.AUTOCONF.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;0;1;1.0;0.9230769230769231;19;132;110
-org.jgroups.blocks.ReplicatedHashMap._put(K, V);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap._put(K, V);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.GMS.becomeClient();org.jgroups.stack.Protocol;1;2;2;0.9809523809523809;0.962962962962963;14;893;110
 org.jgroups.protocols.pbcast.GMS.stop();org.jgroups.protocols.pbcast.GmsImpl;1;2;2;0.9805825242718447;0.95;5;893;53
 org.jgroups.protocols.CAUSAL.isCausallyNext(org.jgroups.protocols.TransportedVectorTime);org.jgroups.stack.Protocol;1;3;2;0.9672131147540983;0.962962962962963;20;475;110
@@ -1012,7 +1012,7 @@ org.jgroups.jmx.protocols.FC.getMaxBlockTime();org.jgroups.protocols.FC;1;0;1;1.
 org.jgroups.demos.wb.Whiteboard.destroy();org.jgroups.Channel;1;1;4;0.9696969696969697;1.0;17;157;111
 org.jgroups.protocols.MERGE3.down(org.jgroups.Event);org.jgroups.stack.Protocol;1;5;3;0.84375;0.9705882352941176;26;158;110
 org.jgroups.blocks.MessageDispatcher.castMessage(java.util.Vector, long, org.jgroups.blocks.RspCollector, org.jgroups.Message);org.jgroups.Channel;2;3;3;0.9411764705882353;1.0;44;560;111
-org.jgroups.stack.RouterStub.sendToSingleMember(byte[], int, int, org.jgroups.Address);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.stack.RouterStub.sendToSingleMember(byte[], int, int, org.jgroups.Address);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.GMS.printPreviousMembers();org.jgroups.util.List;1;0;1;1.0;0.9705882352941176;9;893;264
 org.jgroups.mux.MuxChannel.getChannelName();org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;163;822
 org.jgroups.blocks.DistributedLockManager.processResponses(int, java.lang.Object, org.jgroups.util.RspList);org.jgroups.util.RspList;2;5;4;0.8913043478260869;0.9473684210526316;42;327;145
@@ -1030,7 +1030,7 @@ org.jgroups.protocols.MERGE2.startTask();org.jgroups.Global;0;7;1;0.708333333333
 org.jgroups.blocks.RpcDispatcher.channelConnected(org.jgroups.Channel);org.jgroups.blocks.MessageDispatcher;1;1;1;0.9705882352941176;0.9787234042553191;13;254;560
 org.jgroups.protocols.VIEW_SYNC.sendView();org.jgroups.stack.Protocol;1;1;4;0.9705882352941176;0.9615384615384616;10;232;110
 org.jgroups.protocols.pbcast.FLUSH.blockMessageDuringFlush();org.jgroups.stack.Protocol;1;4;2;0.9436619718309859;0.9705882352941176;27;626;110
-org.jgroups.jmx.protocols.pbcast.NAKACK.getTotalAverageRetransmissionTime();org.jgroups.protocols.pbcast.NAKACK;0;0;0;0;0
+org.jgroups.jmx.protocols.pbcast.NAKACK.getTotalAverageRetransmissionTime();org.jgroups.protocols.pbcast.NAKACK;0;0;0;0;0;0;0;0
 org.jgroups.stack.Configurator.createLayer(org.jgroups.stack.ProtocolStack);org.jgroups.stack.Protocol;1;2;2;0.9487179487179487;0.962962962962963;32;366;110
 org.jgroups.protocols.FRAG2.resetStats();org.jgroups.stack.Protocol;1;4;1;0.9024390243902439;0.962962962962963;7;312;110
 org.jgroups.protocols.pbcast.NAKACK.up(org.jgroups.Event);org.jgroups.protocols.pbcast.NakAckHeader;2;9;5;0.9069767441860466;0.9285714285714286;54;946;89
@@ -1056,7 +1056,7 @@ org.jgroups.protocols.Discovery.resetStats();org.jgroups.stack.Protocol;1;1;1;0.
 org.jgroups.protocols.pbcast.ClientGmsImpl.handleUpEvent(org.jgroups.Event);org.jgroups.Event;2;2;1;0.9090909090909091;0.8;16;233;115
 org.jgroups.jmx.protocols.VIEW_SYNC.getAverageSendInterval();org.jgroups.protocols.VIEW_SYNC;1;0;1;1.0;0.9666666666666667;3;25;232
 org.jgroups.blocks.DistributedQueue.start(long);org.jgroups.Channel;1;2;1;0.9555555555555556;1.0;11;370;111
-org.jgroups.protocols.pbcast.NAKACK.getTotalAverageRetransmissionTime();org.jgroups.stack.NakReceiverWindow;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.getTotalAverageRetransmissionTime();org.jgroups.stack.NakReceiverWindow;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.STATE_TRANSFER.down(org.jgroups.Event);org.jgroups.stack.Protocol;3;7;4;0.8627450980392157;0.9210526315789473;53;378;110
 org.jgroups.protocols.SEQUENCER.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;0;1;1.0;0.9130434782608696;8;224;110
 org.jgroups.protocols.FRAG.down(org.jgroups.Event);org.jgroups.View;1;7;5;0.86;0.9722222222222222;37;288;91
@@ -1073,8 +1073,8 @@ org.jgroups.jmx.JChannel.resetStats();org.jgroups.JChannel;1;0;1;1.0;0.985507246
 org.jgroups.protocols.FD_SOCK.broadcastSuspectMessage(org.jgroups.Address);org.jgroups.stack.Protocol;4;5;4;0.945054945054945;0.8709677419354839;18;741;110
 org.jgroups.debug.Simulator.run();org.jgroups.stack.Protocol;1;1;2;0.9523809523809523;0.9583333333333334;13;162;110
 org.jgroups.stack.GossipClient._register(java.lang.String, org.jgroups.Address);org.jgroups.stack.GossipRouter;0;2;4;0.9285714285714286;1.0;34;292;580
-org.jgroups.blocks.ReplicatedHashMap.start(long);org.jgroups.util.Util;0;0;0;0;0
-org.jgroups.protocols.TUNNEL.postUnmarshallingList(boolean, org.jgroups.Address, org.jgroups.Message);org.jgroups.Message;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.start(long);org.jgroups.util.Util;0;0;0;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.postUnmarshallingList(boolean, org.jgroups.Address, org.jgroups.Message);org.jgroups.Message;0;0;0;0;0;0;0;0
 org.jgroups.protocols.VERIFY_SUSPECT.up(org.jgroups.Event);org.jgroups.Message;3;9;3;0.7352941176470589;0.9433962264150944;54;233;497
 org.jgroups.demos.Draw.mouseDragged(java.awt.event.MouseEvent);org.jgroups.util.Util;0;3;3;0.9508196721311475;1.0;16;419;1508
 org.jgroups.blocks.DistributedQueue.addAtHead(java.lang.Object);org.jgroups.blocks.GroupRequest;0;2;2;0.9555555555555556;1.0;8;370;364
@@ -1103,16 +1103,16 @@ org.jgroups.jmx.JChannel.removeChannelListener(org.jgroups.ChannelListener);org.
 org.jgroups.protocols.VERIFY_SUSPECT.init();org.jgroups.stack.Protocol;1;2;1;0.9230769230769231;0.96;4;233;110
 org.jgroups.jmx.protocols.SEQUENCER.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.Protocol;0;0;1;1.0;1.0;4;40;56
 org.jgroups.protocols.FRAG.fragment(org.jgroups.Message);org.jgroups.Event;0;3;5;0.94;1.0;43;288;115
-org.jgroups.protocols.SHARED_LOOPBACK.start();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.start();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.TCPGOSSIP.sendGetMembersRequest();org.jgroups.stack.Protocol;4;0;6;1.0;0.8787878787878788;30;104;110
-org.jgroups.auth.X509Token.setValue(java.util.Properties);org.jgroups.auth.AuthToken;0;0;0;0;0
+org.jgroups.auth.X509Token.setValue(java.util.Properties);org.jgroups.auth.AuthToken;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FC.handleViewChange(java.util.Vector);org.jgroups.stack.Protocol;2;9;1;0.8783783783783784;0.9591836734693877;35;482;110
 org.jgroups.protocols.pbcast.GMS.mergeDigest(org.jgroups.util.Digest);org.jgroups.stack.Protocol;1;0;2;1.0;0.9545454545454546;3;893;110
 org.jgroups.blocks.DistributedQueue.addAll(java.util.Collection);org.jgroups.blocks.GroupRequest;0;2;2;0.9555555555555556;1.0;8;370;364
 org.jgroups.util.OutgoingBufferPool.dumpStats();org.jgroups.util.ExposedByteArrayOutputStream;1;1;2;0.9090909090909091;0.875;10;32;11
 org.jgroups.protocols.MERGE2.findInitialMembers();org.jgroups.Event;0;2;3;0.9285714285714286;1.0;8;163;115
 org.jgroups.protocols.pbcast.CoordGmsImpl.handleMergeRequest(org.jgroups.Address, org.jgroups.ViewId);org.jgroups.Membership;1;3;4;0.9642857142857143;0.9615384615384616;20;524;92
-org.jgroups.blocks.ReplicatedHashMap.start(long);org.jgroups.Channel;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.start(long);org.jgroups.Channel;0;0;0;0;0;0;0;0
 org.jgroups.protocols.SFC.setProperties(java.util.Properties);org.jgroups.util.Util;0;4;2;0.9285714285714286;1.0;22;383;1508
 org.jgroups.protocols.pbcast.GmsImpl.sendMergeRejectedResponse(org.jgroups.Address, org.jgroups.ViewId);org.jgroups.Event;0;1;4;0.95;1.0;10;53;115
 org.jgroups.jmx.protocols.FC.printCredits();org.jgroups.protocols.FC;1;0;1;1.0;0.9814814814814815;3;73;482
@@ -1140,7 +1140,7 @@ org.jgroups.mux.MuxChannel.close();org.jgroups.JChannel;3;0;3;1.0;0.957746478873
 org.jgroups.protocols.VIEW_SYNC.up(org.jgroups.Event);org.jgroups.stack.Protocol;2;5;3;0.8947368421052632;0.9375;31;232;110
 org.jgroups.protocols.VIEW_SYNC.handleView(org.jgroups.Address, org.jgroups.View);org.jgroups.Message;1;2;6;0.9444444444444444;0.9772727272727273;18;232;497
 org.jgroups.protocols.pbcast.STABLE.startStableTask();org.jgroups.stack.Protocol;2;2;2;0.96875;0.9285714285714286;13;510;110
-org.jgroups.stack.RouterStub.disconnect();org.jgroups.stack.GossipRouter;0;0;0;0;0
+org.jgroups.stack.RouterStub.disconnect();org.jgroups.stack.GossipRouter;0;0;0;0;0;0;0;0
 org.jgroups.jmx.JChannel.getGroupName();org.jgroups.JChannel;1;1;1;0.9852941176470589;0.9857142857142858;4;259;822
 org.jgroups.blocks.DistributedHashtable.setDeadlockDetection(boolean);org.jgroups.blocks.MessageDispatcher;1;0;1;1.0;0.9761904761904762;3;409;560
 org.jgroups.util.Scheduler.stop();org.jgroups.Global;0;1;3;0.9473684210526316;1.0;21;135;30
@@ -1151,7 +1151,7 @@ org.jgroups.protocols.UNICAST.up(org.jgroups.Event);org.jgroups.Message;3;6;3;0.
 org.jgroups.blocks.RpcDispatcher.callRemoteMethod(boolean, int, long, org.jgroups.Address, org.jgroups.blocks.MethodCall);org.jgroups.Message;1;2;3;0.9696969696969697;0.975609756097561;13;254;497
 org.jgroups.blocks.NotificationBus.determineCoordinator();org.jgroups.Channel;1;0;2;1.0;1.0;4;227;111
 org.jgroups.protocols.SHUFFLE.up(org.jgroups.Event);org.jgroups.stack.Protocol;1;1;2;0.9230769230769231;0.9615384615384616;10;70;110
-org.jgroups.protocols.TCPGOSSIP.handleConnect();org.jgroups.protocols.Discovery;0;0;0;0;0
+org.jgroups.protocols.TCPGOSSIP.handleConnect();org.jgroups.protocols.Discovery;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.FLUSH.onSuspend(org.jgroups.View);org.jgroups.View;1;3;5;0.9571428571428572;0.9583333333333334;22;626;91
 org.jgroups.jmx.protocols.pbcast.FLUSH.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.Protocol;0;0;1;1.0;1.0;4;25;56
 org.jgroups.protocols.pbcast.STATE_TRANSFER.down(org.jgroups.Event);org.jgroups.stack.StateTransferInfo;3;7;4;0.8627450980392157;0.875;53;378;49
@@ -1163,7 +1163,7 @@ org.jgroups.blocks.DistributedQueue.addAtHead(java.lang.Object);org.jgroups.bloc
 org.jgroups.jmx.protocols.FC.printSenderCredits();org.jgroups.protocols.FC;1;0;1;1.0;0.9814814814814815;3;73;482
 org.jgroups.protocols.TP.sendBundledMessages(java.util.Map<org.jgroups.Address,java.util.List<org.jgroups.Message>>);org.jgroups.util.ExposedByteArrayOutputStream;0;2;4;1.0;1.0;32;1021;11
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.size();org.jgroups.util.Util;0;2;3;0.9733333333333334;1.0;9;655;1508
-org.jgroups.mux.Multiplexer.passToMuxChannel(boolean, boolean, java.lang.String, org.jgroups.Address, org.jgroups.Event, org.jgroups.mux.MuxChannel, org.jgroups.util.FIFOMessageQueue<java.lang.String,java.lang.Runnable>);org.jgroups.JChannel;0;0;0;0;0
+org.jgroups.mux.Multiplexer.passToMuxChannel(boolean, boolean, java.lang.String, org.jgroups.Address, org.jgroups.Event, org.jgroups.mux.MuxChannel, org.jgroups.util.FIFOMessageQueue<java.lang.String,java.lang.Runnable>);org.jgroups.JChannel;0;0;0;0;0;0;0;0
 org.jgroups.protocols.TCPPING.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;3;4;0.7857142857142857;0.935483870967742;24;68;110
 org.jgroups.protocols.TCP.getOpenConnections();org.jgroups.blocks.BasicConnectionTable;1;0;1;1.0;0.9859154929577465;3;59;397
 org.jgroups.jmx.protocols.pbcast.STABLE.getDesiredAverageGossip();org.jgroups.protocols.pbcast.STABLE;1;0;1;1.0;0.9827586206896551;3;40;510
@@ -1201,7 +1201,7 @@ org.jgroups.protocols.pbcast.CoordGmsImpl.handleMergeView(org.jgroups.protocols.
 org.jgroups.debug.ProtocolTester.getBottomProtocol(org.jgroups.stack.Protocol);org.jgroups.stack.Protocol;0;0;1;1.0;1.0;7;96;110
 org.jgroups.protocols.SEQUENCER.resendMessagesInForwardTable();org.jgroups.Message;1;2;3;0.9428571428571428;0.975609756097561;10;224;497
 org.jgroups.jmx.protocols.pbcast.FLUSH.getAverageFlushDuration();org.jgroups.protocols.pbcast.FLUSH;1;0;1;1.0;0.9838709677419355;3;25;626
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.util.BoundedList;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.util.BoundedList;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FRAG.fragment(org.jgroups.Message);org.jgroups.util.Util;0;3;5;0.94;1.0;43;288;1508
 org.jgroups.protocols.DISCARD.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;1;1;0.9615384615384616;1.0;12;127;1508
 org.jgroups.demos.QuoteClient.actionPerformed(java.awt.event.ActionEvent);org.jgroups.blocks.RpcDispatcher;2;5;5;0.9056603773584906;1.0;82;166;254
@@ -1239,7 +1239,7 @@ org.jgroups.mux.MuxChannel.connect(java.lang.String);org.jgroups.JChannel;3;0;3;
 org.jgroups.protocols.FC.showLastBlockingTimes();org.jgroups.util.List;1;0;1;1.0;0.9655172413793104;3;482;264
 org.jgroups.protocols.ENCRYPT.size();org.jgroups.Global;0;1;1;0.9850746268656716;1.0;5;617;30
 org.jgroups.protocols.MPING.run();org.jgroups.Event;0;5;3;0.8518518518518519;1.0;30;200;115
-org.jgroups.protocols.TUNNEL.run();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.run();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.blocks.MessageDispatcher.sendMessage(int, long, org.jgroups.Message);org.jgroups.util.Rsp;3;2;4;0.9622641509433962;0.8333333333333334;39;560;43
 org.jgroups.protocols.FRAG.down(org.jgroups.Event);org.jgroups.util.Util;0;7;5;0.86;1.0;37;288;1508
 org.jgroups.View.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;1;2;0.9411764705882353;1.0;8;91;1508
@@ -1249,7 +1249,7 @@ org.jgroups.protocols.pbcast.NAKACK.adjustReceivers(boolean);org.jgroups.stack.P
 org.jgroups.protocols.pbcast.FLUSH.onViewChange(org.jgroups.View);org.jgroups.stack.Protocol;1;7;2;0.8970588235294118;0.9705882352941176;22;626;110
 org.jgroups.ExtendedReceiverAdapter.getState(java.io.OutputStream);org.jgroups.util.Util;0;0;1;1.0;1.0;3;32;1508
 org.jgroups.demos.Draw.go();org.jgroups.Channel;3;12;3;0.8285714285714285;1.0;36;419;111
-org.jgroups.mux.Multiplexer.sendServiceMessage(boolean, byte, byte[], java.lang.String, org.jgroups.Address);org.jgroups.mux.ServiceInfo;0;0;0;0;0
+org.jgroups.mux.Multiplexer.sendServiceMessage(boolean, byte, byte[], java.lang.String, org.jgroups.Address);org.jgroups.mux.ServiceInfo;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.GMS.printPreviousViews();org.jgroups.util.List;1;0;1;1.0;0.9705882352941176;7;893;264
 org.jgroups.protocols.Discovery.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;3;1;0.9166666666666666;0.9428571428571428;36;187;110
 org.jgroups.JChannel.printProtocolSpec(boolean);org.jgroups.stack.ProtocolStack;1;0;1;1.0;0.9666666666666667;3;822;230
@@ -1293,18 +1293,18 @@ org.jgroups.demos.ReplicatedTreeDemo.viewChange(org.jgroups.View);org.jgroups.bl
 org.jgroups.protocols.pbcast.STABLE.sendStableMessage(org.jgroups.util.Digest);org.jgroups.util.Digest;1;2;4;0.96875;0.9705882352941176;15;510;269
 org.jgroups.JChannelFactory.parse(org.w3c.dom.Element);org.jgroups.conf.ConfiguratorFactory;0;1;2;0.98;1.0;32;416;244
 org.jgroups.protocols.SMACK.stop();org.jgroups.stack.AckReceiverWindow;1;1;2;0.967741935483871;0.9333333333333333;12;222;56
-org.jgroups.protocols.pbcast.STABLE.resetDigest();org.jgroups.util.Digest;0;0;0;0;0
-org.jgroups.protocols.pbcast.NAKACK.createNakReceiverWindow(long, long, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.pbcast.STABLE.resetDigest();org.jgroups.util.Digest;0;0;0;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.createNakReceiverWindow(long, long, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.start();org.jgroups.stack.Protocol;1;1;2;0.9864864864864865;0.9565217391304348;3;655;110
 org.jgroups.jmx.protocols.pbcast.STABLE.setDesiredAverageGossip(long);org.jgroups.protocols.pbcast.STABLE;1;0;1;1.0;0.9827586206896551;3;40;510
 org.jgroups.protocols.TP.doSend(boolean, org.jgroups.Address, org.jgroups.util.Buffer);org.jgroups.stack.Protocol;1;4;2;0.9859154929577465;0.9655172413793104;12;1021;110
 org.jgroups.blocks.MessageDispatcher.sendMessage(int, long, org.jgroups.Message);org.jgroups.Message;1;2;4;0.9622641509433962;0.9795918367346939;39;560;497
 org.jgroups.blocks.DistributedQueue.add(java.lang.Object);org.jgroups.util.RspList;1;3;3;0.9591836734693877;0.9696969696969697;16;370;145
 org.jgroups.blocks.DistributedLockManager.processResponses(int, java.lang.Object, org.jgroups.util.RspList);org.jgroups.util.Rsp;1;5;4;0.8913043478260869;0.95;42;327;43
-org.jgroups.jmx.protocols.MPING.getSendInterfaces();org.jgroups.protocols.MPING;0;0;0;0;0
+org.jgroups.jmx.protocols.MPING.getSendInterfaces();org.jgroups.protocols.MPING;0;0;0;0;0;0;0;0
 org.jgroups.mux.Multiplexer.shutdown();org.jgroups.mux.MuxChannel;1;2;2;0.9692307692307692;0.96875;20;763;163
 org.jgroups.protocols.DISCARD.down(org.jgroups.Event);org.jgroups.stack.Protocol;2;4;3;0.8461538461538461;0.935483870967742;21;127;110
-org.jgroups.protocols.SHARED_LOOPBACK.sendToSingleMember(byte[], int, int, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.sendToSingleMember(byte[], int, int, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.blocks.PullPushAdapter.run();org.jgroups.Channel;3;9;7;0.8392857142857143;1.0;108;305;111
 org.jgroups.protocols.DUMMY_TP.start();org.jgroups.Event;0;1;2;0.8571428571428572;1.0;3;23;115
 org.jgroups.demos.wb.GraphPanel.setState(byte[]);org.jgroups.util.Util;0;1;1;0.972972972972973;1.0;19;234;1508
@@ -1321,7 +1321,7 @@ org.jgroups.jmx.JChannel.send(java.io.Serializable, org.jgroups.Address, org.jgr
 org.jgroups.protocols.DISCARD_PAYLOAD.up(org.jgroups.Event);org.jgroups.stack.Protocol;1;3;3;0.75;0.9666666666666667;28;52;110
 org.jgroups.protocols.FD_SOCK.up(org.jgroups.Event);org.jgroups.Message;4;9;4;0.9108910891089109;0.9333333333333333;76;741;497
 org.jgroups.mux.MuxHeader.toString();org.jgroups.mux.ServiceInfo;1;1;1;0.875;0.9090909090909091;5;48;103
-org.jgroups.protocols.TUNNEL.handleDownEvent(org.jgroups.Event);org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.handleDownEvent(org.jgroups.Event);org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.CoordGmsImpl.removeRejectedMergeRequests(java.util.Vector);org.jgroups.protocols.pbcast.MergeData;2;1;2;0.9821428571428571;0.8461538461538461;11;524;50
 org.jgroups.protocols.pbcast.GMS.dumpHistory();org.jgroups.util.List;1;0;1;1.0;0.9696969696969697;7;893;264
 org.jgroups.protocols.pbcast.STABLE.sendStabilityMessage(org.jgroups.util.Digest);org.jgroups.util.Util;0;3;2;0.9672131147540983;1.0;9;510;1508
@@ -1362,7 +1362,7 @@ org.jgroups.protocols.LOOPBACK.start();org.jgroups.Event;0;1;2;0.875;1.0;3;32;11
 org.jgroups.jmx.protocols.TP.getOOBMaxQueueSize();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
 org.jgroups.jmx.protocols.TCP.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.protocols.TP;1;0;1;1.0;0.9772727272727273;4;53;139
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.process(java.net.Socket);org.jgroups.stack.Protocol;3;3;2;0.9767441860465116;0.9117647058823529;38;655;110
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.View;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.View;0;0;0;0;0;0;0;0
 org.jgroups.jmx.JChannelFactory.setDomain(java.lang.String);org.jgroups.JChannelFactory;1;0;1;1.0;0.9722222222222222;3;55;416
 org.jgroups.jmx.protocols.STATS.getReceivedBytes();org.jgroups.protocols.STATS;1;0;1;1.0;0.9655172413793104;3;49;160
 org.jgroups.protocols.FD_SOCK.setProperties(java.util.Properties);org.jgroups.util.Util;1;6;3;0.935483870967742;1.0;51;741;1508
@@ -1378,7 +1378,7 @@ org.jgroups.protocols.PERF_TP.start();org.jgroups.stack.Protocol;1;1;2;0.9375;0.
 org.jgroups.protocols.FC.handleCredit(java.lang.Number, org.jgroups.Address);org.jgroups.stack.Protocol;2;7;1;0.8985507246376812;0.9523809523809523;29;482;110
 org.jgroups.mux.MuxChannel.setOpt(int, java.lang.Object);org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;4;163;822
 org.jgroups.protocols.pbcast.JoinRsp.serializedSize();org.jgroups.Global;0;1;3;0.875;1.0;8;50;30
-org.jgroups.jmx.protocols.MPING.isSendOnAllInterfaces();org.jgroups.protocols.MPING;0;0;0;0;0
+org.jgroups.jmx.protocols.MPING.isSendOnAllInterfaces();org.jgroups.protocols.MPING;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.pbcast.NAKACK.printMessages();org.jgroups.protocols.pbcast.NAKACK;1;0;1;1.0;0.9864864864864865;3;79;946
 org.jgroups.protocols.VIEW_SYNC.writeExternal(java.io.ObjectOutput);org.jgroups.View;1;1;1;0.9696969696969697;0.9411764705882353;9;232;91
 org.jgroups.protocols.pbcast.NAKACK.rebroadcastMessages();org.jgroups.util.Digest;4;6;2;0.9318181818181819;0.9069767441860466;44;946;269
@@ -1401,7 +1401,7 @@ org.jgroups.protocols.FRAG.unfragment(org.jgroups.Message, org.jgroups.protocols
 org.jgroups.protocols.VIEW_SYNC.start();org.jgroups.stack.ProtocolStack;0;0;2;1.0;1.0;4;232;230
 org.jgroups.protocols.ENCRYPT.handleViewChange(org.jgroups.View);org.jgroups.View;1;4;2;0.9428571428571428;0.9523809523809523;16;617;91
 org.jgroups.protocols.TP.handleIncomingPacket(byte[], int, int, org.jgroups.Address, org.jgroups.Address);org.jgroups.util.Queue;1;7;5;0.9675324675324676;0.9807692307692307;48;1021;291
-org.jgroups.mux.Multiplexer.mergeServiceState(java.util.Map<org.jgroups.Address,java.util.Set<java.lang.String>>, org.jgroups.MergeView);org.jgroups.MergeView;0;0;0;0;0
+org.jgroups.mux.Multiplexer.mergeServiceState(java.util.Map<org.jgroups.Address,java.util.Set<java.lang.String>>, org.jgroups.MergeView);org.jgroups.MergeView;0;0;0;0;0;0;0;0
 org.jgroups.demos.wb.GraphPanel.removeNode(java.lang.Object);org.jgroups.demos.wb.Node;1;2;1;0.9487179487179487;0.9523809523809523;21;234;5
 org.jgroups.protocols.pbcast.FLUSH.onFlushCompleted(org.jgroups.Address, org.jgroups.util.Digest);org.jgroups.Message;2;8;4;0.8918918918918919;0.9636363636363636;29;626;497
 org.jgroups.JChannelFactory.dumpChannels();org.jgroups.mux.Multiplexer;1;1;1;0.9782608695652174;0.9859154929577465;9;416;763
@@ -1412,7 +1412,7 @@ org.jgroups.demos.Draw2Channels.mouseDragged(java.awt.event.MouseEvent);org.jgro
 org.jgroups.protocols.Discovery.up(org.jgroups.Event);org.jgroups.stack.Protocol;6;4;5;0.9024390243902439;0.868421052631579;48;187;110
 org.jgroups.protocols.JMS.start();org.jgroups.stack.Protocol;1;15;2;0.6511627906976745;0.975609756097561;35;231;110
 org.jgroups.protocols.HDRS.up(org.jgroups.Event);org.jgroups.Event;2;1;2;1.0;0.7142857142857143;7;23;115
-org.jgroups.protocols.pbcast.STABLE.getDigest();org.jgroups.Event;0;0;0;0;0
+org.jgroups.protocols.pbcast.STABLE.getDigest();org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.protocols.CAUSAL.isCausallyNext(org.jgroups.protocols.TransportedVectorTime);org.jgroups.protocols.TransportedVectorTime;2;3;2;0.9672131147540983;0.8;20;475;48
 org.jgroups.protocols.SMACK.removeMember(org.jgroups.Address);org.jgroups.stack.Protocol;4;3;3;0.9032258064516129;0.8571428571428572;15;222;110
 org.jgroups.protocols.TP.readMessageList(boolean, java.io.DataInputStream, org.jgroups.Address);org.jgroups.Message;2;1;2;1.0;0.95;16;1021;497
@@ -1440,7 +1440,7 @@ org.jgroups.protocols.pbcast.CoordGmsImpl.getMergeDataFromSubgroupCoordinators(j
 org.jgroups.JChannel.run();org.jgroups.Event;0;12;4;0.8571428571428572;1.0;61;822;115
 org.jgroups.blocks.RequestCorrelator.startScheduler();org.jgroups.util.Scheduler;3;3;1;0.94;0.8125;11;445;135
 org.jgroups.demos.TotalOrder.run();org.jgroups.SetStateEvent;1;3;6;0.9375;0.95;41;251;13
-org.jgroups.protocols.pbcast.NAKACK.getEntry(org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.getEntry(org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.auth.FixedMembershipToken.writeTo(java.io.DataOutputStream);org.jgroups.auth.AuthToken;1;1;2;0.8888888888888888;0.6666666666666667;6;52;0
 org.jgroups.util.Stack.readExternal(java.io.ObjectInput);org.jgroups.util.List;1;0;1;1.0;0.9655172413793104;3;30;264
 org.jgroups.protocols.MERGE3.init();org.jgroups.stack.Protocol;0;0;2;1.0;1.0;3;158;110
@@ -1473,7 +1473,7 @@ org.jgroups.protocols.pbcast.ParticipantGmsImpl.sendLeaveMessage(org.jgroups.Add
 org.jgroups.protocols.pbcast.CoordGmsImpl.leave(org.jgroups.Address);org.jgroups.protocols.pbcast.GmsImpl;2;0;2;1.0;0.9166666666666666;10;524;53
 org.jgroups.protocols.DISCARD_PAYLOAD.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;2;1;0.8333333333333334;0.9285714285714286;19;52;110
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.down(org.jgroups.Event);org.jgroups.Event;2;5;4;0.9404761904761905;0.8947368421052632;62;655;115
-org.jgroups.auth.X509Token.readFrom(java.io.DataInputStream);org.jgroups.auth.AuthToken;0;0;0;0;0
+org.jgroups.auth.X509Token.readFrom(java.io.DataInputStream);org.jgroups.auth.AuthToken;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.ParticipantGmsImpl.handleJoinResponse(org.jgroups.protocols.pbcast.JoinRsp);org.jgroups.View;0;0;5;1.0;1.0;7;97;91
 org.jgroups.protocols.UDP.setProperties(java.util.Properties);org.jgroups.protocols.TP;1;10;4;0.8113207547169812;0.9935064935064936;58;498;1021
 org.jgroups.util.BoundedList.addAtHead(java.lang.Object);org.jgroups.util.List;3;1;1;0.8333333333333334;0.9;7;20;264
@@ -1515,7 +1515,7 @@ org.jgroups.jmx.protocols.TP.getOOBKeepAliveTime();org.jgroups.protocols.TP;1;0;
 org.jgroups.debug.Simulator.dumpStats();org.jgroups.stack.Protocol;2;1;1;0.9583333333333334;0.962962962962963;8;162;110
 org.jgroups.protocols.TP.handleDownEvent(org.jgroups.Event);org.jgroups.View;1;5;3;0.9647887323943662;0.9583333333333334;26;1021;91
 org.jgroups.protocols.CAUSAL.processNewViewSynchronization(java.lang.Object, org.jgroups.Address, org.jgroups.protocols.CAUSAL.CausalNewViewHeader);org.jgroups.Event;0;15;4;0.8235294117647058;1.0;32;475;115
-org.jgroups.blocks.ReplicatedHashMap.setState(byte[]);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.setState(byte[]);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.TP.getIncomingKeepAliveTime();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
 org.jgroups.protocols.pbcast.GMS.getView();org.jgroups.ViewId;1;0;1;1.0;0.9285714285714286;3;893;61
 org.jgroups.protocols.TP.readMessageList(boolean, java.io.DataInputStream, org.jgroups.Address);org.jgroups.util.Util;0;1;2;1.0;1.0;16;1021;1508
@@ -1567,12 +1567,12 @@ org.jgroups.protocols.TCP.start();org.jgroups.protocols.TP;4;1;4;1.0;0.974358974
 org.jgroups.blocks.ReplicatedTree.start();org.jgroups.blocks.PullPushAdapter;1;3;2;0.9620253164556962;0.972972972972973;14;597;305
 org.jgroups.jmx.protocols.VIEW_SYNC.getNumViewsAdjusted();org.jgroups.protocols.VIEW_SYNC;1;0;1;1.0;0.9666666666666667;3;25;232
 org.jgroups.protocols.pbcast.GMS.wouldBeNewCoordinator(org.jgroups.Address);org.jgroups.Membership;2;0;1;1.0;0.8888888888888888;9;893;92
-org.jgroups.protocols.VERIFY_SUSPECT.start();org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.VERIFY_SUSPECT.start();org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.util.Stack.bottom();org.jgroups.util.List;1;0;1;1.0;0.9655172413793104;3;30;264
 org.jgroups.protocols.FD_SOCK.fetchPingAddress(org.jgroups.Address);org.jgroups.Message;2;3;5;0.9666666666666667;0.9555555555555556;35;741;497
-org.jgroups.blocks.ReplicatedHashMap.stop();org.jgroups.blocks.MessageDispatcher;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.stop();org.jgroups.blocks.MessageDispatcher;0;0;0;0;0;0;0;0
 org.jgroups.protocols.PingHeader.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;1;1;0.9;1.0;4;42;1508
-org.jgroups.protocols.TUNNEL.getInfo();org.jgroups.stack.RouterStub;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.getInfo();org.jgroups.stack.RouterStub;0;0;0;0;0;0;0;0
 org.jgroups.Message.writeExternal(java.io.ObjectOutput);org.jgroups.util.Marshaller;0;8;1;0.8461538461538461;1.0;39;497;46
 org.jgroups.protocols.LOOPBACK.down(org.jgroups.Event);org.jgroups.Event;2;2;4;0.875;0.8571428571428572;18;32;115
 org.jgroups.blocks.MessageDispatcher.start();org.jgroups.blocks.RequestCorrelator;1;7;3;0.8444444444444444;0.9821428571428571;16;560;445
@@ -1599,7 +1599,7 @@ org.jgroups.protocols.VERIFY_SUSPECT.verifySuspectWithICMP(org.jgroups.Address);
 org.jgroups.jmx.JChannel.getReceivedBytes();org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;259;822
 org.jgroups.util.RspList.isSuspected(org.jgroups.Address);org.jgroups.util.Rsp;1;1;1;0.9642857142857143;0.8888888888888888;5;145;43
 org.jgroups.blocks.NotificationBus.getLocalAddress();org.jgroups.Channel;1;1;1;0.9655172413793104;1.0;5;227;111
-org.jgroups.protocols.pbcast.FLUSH.startFlush(boolean, int, org.jgroups.Event);org.jgroups.util.Promise;0;0;0;0;0
+org.jgroups.protocols.pbcast.FLUSH.startFlush(boolean, int, org.jgroups.Event);org.jgroups.util.Promise;0;0;0;0;0;0;0;0
 org.jgroups.protocols.AUTH.down(org.jgroups.Event);org.jgroups.stack.Protocol;2;0;5;1.0;0.9230769230769231;21;122;110
 org.jgroups.mux.MuxHeader.size();org.jgroups.Global;0;1;2;0.8888888888888888;1.0;7;48;30
 org.jgroups.protocols.pbcast.NAKACK.handleConfigEvent(java.util.HashMap);org.jgroups.stack.Protocol;1;1;1;0.9871794871794872;0.9615384615384616;11;946;110
@@ -1615,17 +1615,17 @@ org.jgroups.protocols.pbcast.GMS.becomeParticipant();org.jgroups.protocols.pbcas
 org.jgroups.protocols.EXAMPLE.up(org.jgroups.Event);org.jgroups.Event;2;0;2;1.0;0.6666666666666667;9;30;115
 org.jgroups.protocols.pbcast.NAKACK.printStats();org.jgroups.util.List;1;3;1;0.9651162790697675;0.9767441860465116;35;946;264
 org.jgroups.protocols.MERGE2.down(org.jgroups.Event);org.jgroups.stack.Protocol;1;5;3;0.8333333333333334;0.9696969696969697;31;163;110
-org.jgroups.auth.X509Token.writeTo(java.io.DataOutputStream);org.jgroups.auth.AuthToken;0;0;0;0;0
+org.jgroups.auth.X509Token.writeTo(java.io.DataOutputStream);org.jgroups.auth.AuthToken;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.FC.getTotalTimeBlocked();org.jgroups.protocols.FC;1;0;1;1.0;0.9814814814814815;3;73;482
 org.jgroups.protocols.PingRsp.size();org.jgroups.Global;0;2;1;0.8;1.0;7;45;30
 org.jgroups.util.Scheduler.stop();org.jgroups.util.Queue;1;1;3;0.9473684210526316;0.9722222222222222;21;135;291
 org.jgroups.protocols.pbcast.CoordGmsImpl.sendJoinResponse(org.jgroups.Address, org.jgroups.protocols.pbcast.JoinRsp);org.jgroups.stack.Protocol;1;0;6;1.0;0.9583333333333334;7;524;110
-org.jgroups.protocols.VERIFY_SUSPECT.down(org.jgroups.Event);org.jgroups.Event;0;0;0;0;0
+org.jgroups.protocols.VERIFY_SUSPECT.down(org.jgroups.Event);org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.protocols.UNICAST.handleDataReceived(long, org.jgroups.Address, org.jgroups.Message);org.jgroups.util.List;2;4;5;0.9272727272727272;0.9555555555555556;37;393;264
 org.jgroups.JChannel.getNumberOfTasksInTimer();org.jgroups.util.TimeScheduler;1;0;2;1.0;0.9444444444444444;3;822;88
 org.jgroups.jmx.protocols.pbcast.NAKACK.setMaxXmitBufSize(int);org.jgroups.protocols.pbcast.NAKACK;1;0;1;1.0;0.9864864864864865;3;79;946
 org.jgroups.protocols.MERGE3.stopCoordAnnouncerTask();org.jgroups.stack.Protocol;1;3;1;0.8888888888888888;0.962962962962963;9;158;110
-org.jgroups.blocks.ReplicatedHashMap.getState(java.io.OutputStream);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.getState(java.io.OutputStream);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.jmx.JChannel.start();org.jgroups.JChannel;1;1;1;0.9852941176470589;0.9857142857142858;3;259;822
 org.jgroups.protocols.TP.handleDiagnosticProbe(java.lang.String, java.net.DatagramSocket, java.net.SocketAddress);org.jgroups.stack.Protocol;1;2;3;0.9936305732484076;0.9767441860465116;34;1021;110
 org.jgroups.protocols.VERIFY_SUSPECT.up(org.jgroups.Event);org.jgroups.Event;2;9;3;0.7352941176470589;0.9090909090909091;54;233;115
@@ -1648,7 +1648,7 @@ org.jgroups.demos.TotalTokenDemo.run();org.jgroups.util.Util;0;8;5;0.84905660377
 org.jgroups.protocols.ENCRYPT.decryptMessage(javax.crypto.Cipher, org.jgroups.Message);org.jgroups.Message;1;5;2;0.9444444444444444;0.9782608695652174;18;617;497
 org.jgroups.blocks.RequestCorrelator.receiveMessage(org.jgroups.Message);org.jgroups.blocks.RpcDispatcher;1;13;4;0.8095238095238095;1.0;67;445;254
 org.jgroups.mux.Multiplexer.fetchServiceInformation();org.jgroups.JChannel;2;2;5;0.9714285714285714;0.9743589743589743;34;763;822
-org.jgroups.blocks.ReplicatedHashMap.setState(byte[]);org.jgroups.util.Promise;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.setState(byte[]);org.jgroups.util.Promise;0;0;0;0;0;0;0;0
 org.jgroups.mux.MuxChannel.down(org.jgroups.Event);org.jgroups.Message;1;0;3;1.0;0.975;7;163;497
 org.jgroups.protocols.pbcast.CoordGmsImpl.consolidateDigests(int, java.util.Vector<org.jgroups.protocols.pbcast.MergeData>);org.jgroups.protocols.pbcast.GmsImpl;1;0;4;1.0;0.9523809523809523;15;524;53
 org.jgroups.protocols.UDP.run();org.jgroups.protocols.TP;2;3;2;0.9444444444444444;0.9932432432432432;36;498;1021
@@ -1676,25 +1676,25 @@ org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.down(org.jgroups.Event);or
 org.jgroups.protocols.SMACK.up(org.jgroups.Event);org.jgroups.Event;2;8;5;0.813953488372093;0.9333333333333333;73;222;115
 org.jgroups.stack.GossipClient._unregister(java.lang.String, org.jgroups.Address);org.jgroups.stack.GossipData;1;2;4;0.9285714285714286;0.9375;34;292;44
 org.jgroups.protocols.pbcast.NAKACK.getPendingRetransmissionRequests();org.jgroups.stack.NakReceiverWindow;1;1;1;0.9868421052631579;0.9666666666666667;7;946;303
-org.jgroups.protocols.SHARED_LOOPBACK.down(org.jgroups.Event);org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.down(org.jgroups.Event);org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.VIEW_SYNC.startViewSender();org.jgroups.util.TimeScheduler;1;2;2;0.9444444444444444;1.0;13;232;88
 org.jgroups.protocols.AUTH.down(org.jgroups.Event);org.jgroups.protocols.AuthHeader;0;0;5;1.0;1.0;21;122;23
 org.jgroups.demos.applets.DrawApplet.destroy();org.jgroups.Channel;1;3;1;0.9302325581395349;1.0;16;200;111
 org.jgroups.blocks.DistributedTree.add(java.lang.String);org.jgroups.blocks.GroupRequest;0;2;2;0.9682539682539683;1.0;14;434;364
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.passStreamUp(org.jgroups.stack.StateTransferInfo);org.jgroups.Event;0;2;3;0.9736842105263158;1.0;14;655;115
-org.jgroups.protocols.pbcast.STABLE.getDigest();org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.pbcast.STABLE.getDigest();org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.GMS.up(org.jgroups.Event);org.jgroups.util.AckCollector;2;8;7;0.9344262295081968;0.9512195121951219;83;893;72
-org.jgroups.blocks.ConnectionTableNIO.doSend(byte[], int, int);org.jgroups.blocks.BasicConnectionTable;0;0;0;0;0
+org.jgroups.blocks.ConnectionTableNIO.doSend(byte[], int, int);org.jgroups.blocks.BasicConnectionTable;0;0;0;0;0;0;0;0
 org.jgroups.jmx.JChannel.send(org.jgroups.Message);org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;259;822
 org.jgroups.protocols.pbcast.FLUSH.onSuspect(org.jgroups.Address);org.jgroups.stack.Protocol;2;7;3;0.8985507246376812;0.9411764705882353;23;626;110
 org.jgroups.protocols.pbcast.NAKACK.down(org.jgroups.Event);org.jgroups.stack.Protocol;2;16;4;0.813953488372093;0.9583333333333334;69;946;110
 org.jgroups.protocols.TP.init();org.jgroups.Event;0;1;2;0.9928057553956835;1.0;8;1021;115
 org.jgroups.blocks.RpcDispatcher.callRemoteMethod(boolean, int, long, org.jgroups.Address, org.jgroups.blocks.MethodCall);org.jgroups.util.Util;0;2;3;0.9696969696969697;1.0;13;254;1508
 org.jgroups.protocols.BARRIER.closeBarrier();org.jgroups.stack.Protocol;2;6;1;0.8;0.9428571428571428;19;139;110
-org.jgroups.blocks.ReplicatedHashMap.isBlockingUpdates();org.jgroups.blocks.GroupRequest;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.isBlockingUpdates();org.jgroups.blocks.GroupRequest;0;0;0;0;0;0;0;0
 org.jgroups.protocols.VIEW_SYNC.sendViewRequest();org.jgroups.Message;2;0;3;1.0;0.9473684210526316;7;232;497
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.handleStateRsp(org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.StateHeader);org.jgroups.Event;0;4;2;0.9473684210526316;1.0;13;655;115
-org.jgroups.protocols.VERIFY_SUSPECT.down(org.jgroups.Event);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.VERIFY_SUSPECT.down(org.jgroups.Event);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.DISCARD.up(org.jgroups.Event);org.jgroups.Event;2;7;3;0.7741935483870968;0.9090909090909091;33;127;115
 org.jgroups.protocols.FD_SIMPLE.run();org.jgroups.stack.Protocol;4;6;4;0.8333333333333334;0.8709677419354839;20;225;110
 org.jgroups.protocols.pbcast.FLUSH.onFlushReconcileOK(org.jgroups.Message);org.jgroups.util.Promise;1;4;3;0.9420289855072463;0.9523809523809523;10;626;88
@@ -1708,7 +1708,7 @@ org.jgroups.protocols.pbcast.ClientGmsImpl.becomeSingletonMember(org.jgroups.Add
 org.jgroups.blocks.ConnectionTableNIO.closeSocket();org.jgroups.blocks.BasicConnectionTable;1;1;1;0.9886363636363636;0.9866666666666667;13;664;397
 org.jgroups.protocols.SFC.stop();org.jgroups.stack.Protocol;1;3;1;0.9444444444444444;0.9642857142857143;11;383;110
 org.jgroups.protocols.FD_ICMP.run();org.jgroups.stack.IpAddress;1;5;4;0.84375;0.9761904761904762;35;95;167
-org.jgroups.protocols.pbcast.NAKACK.printRetransmissionTimes();org.jgroups.stack.NakReceiverWindow;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.printRetransmissionTimes();org.jgroups.stack.NakReceiverWindow;0;0;0;0;0;0;0;0
 org.jgroups.blocks.DistributedQueue.remove();org.jgroups.blocks.GroupRequest;0;4;3;0.9387755102040817;1.0;12;370;364
 org.jgroups.protocols.TP.sendBundledMessages(java.util.Map<org.jgroups.Address,java.util.List<org.jgroups.Message>>);org.jgroups.stack.Protocol;1;2;4;1.0;0.9761904761904762;32;1021;110
 org.jgroups.util.MutableDigest.add(org.jgroups.util.Digest);org.jgroups.util.Digest;4;2;1;0.9615384615384616;0.8857142857142857;14;122;269
@@ -1733,8 +1733,8 @@ org.jgroups.blocks.RequestCorrelator.handleRequest(org.jgroups.blocks.RequestCor
 org.jgroups.protocols.BARRIER.init();org.jgroups.stack.Protocol;1;0;2;1.0;0.9545454545454546;4;139;110
 org.jgroups.demos.DrawMultiplexer.start(boolean, java.lang.String, java.lang.String);org.jgroups.demos.Draw;1;0;3;1.0;0.9818181818181818;13;36;419
 org.jgroups.blocks.DistributedHashtable.clear();org.jgroups.blocks.RpcDispatcher;1;4;2;0.9047619047619048;1.0;13;409;254
-org.jgroups.mux.Multiplexer.mergeServiceState(java.util.Map<org.jgroups.Address,java.util.Set<java.lang.String>>, org.jgroups.MergeView);org.jgroups.Event;0;0;0;0;0
-org.jgroups.blocks.ReplicatedHashMap.start(long);org.jgroups.persistence.PersistenceFactory;0;0;0;0;0
+org.jgroups.mux.Multiplexer.mergeServiceState(java.util.Map<org.jgroups.Address,java.util.Set<java.lang.String>>, org.jgroups.MergeView);org.jgroups.Event;0;0;0;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.start(long);org.jgroups.persistence.PersistenceFactory;0;0;0;0;0;0;0;0
 org.jgroups.protocols.MPING.sendMcastDiscoveryRequest(org.jgroups.Message);org.jgroups.util.Util;0;3;6;0.9032258064516129;1.0;21;200;1508
 org.jgroups.protocols.FD_SOCK.getCacheFromCoordinator();org.jgroups.Event;0;6;5;0.9347826086956522;1.0;33;741;115
 org.jgroups.protocols.pbcast.STATE_TRANSFER.up(org.jgroups.Event);org.jgroups.Event;2;6;3;0.8913043478260869;0.8666666666666667;33;378;115
@@ -1769,7 +1769,7 @@ org.jgroups.blocks.ReplicatedTree.viewAccepted(org.jgroups.View);org.jgroups.Vie
 org.jgroups.protocols.FRAG.fragment(org.jgroups.Message);org.jgroups.util.ExposedByteArrayOutputStream;0;3;5;0.94;1.0;43;288;11
 org.jgroups.protocols.pbcast.CoordGmsImpl.consolidateMergeData(java.util.Vector<org.jgroups.protocols.pbcast.MergeData>);org.jgroups.Membership;5;1;6;1.0;0.8148148148148149;43;524;92
 org.jgroups.protocols.pbcast.FLUSH.handleFlushReconcile(org.jgroups.Message, org.jgroups.protocols.pbcast.FLUSH.FlushHeader);org.jgroups.Event;0;1;3;0.9852941176470589;1.0;11;626;115
-org.jgroups.blocks.BasicConnectionTable.stop();org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.blocks.BasicConnectionTable.stop();org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.util.MutableDigest.merge(org.jgroups.util.Digest);org.jgroups.util.Digest;4;2;1;0.9615384615384616;0.8857142857142857;18;122;269
 org.jgroups.protocols.TCPGOSSIP.start();org.jgroups.protocols.Discovery;1;2;1;0.8;0.9615384615384616;4;104;187
 org.jgroups.protocols.PING.setProperties(java.util.Properties);org.jgroups.stack.Protocol;1;5;2;0.736842105263158;0.9696969696969697;47;156;110
@@ -1793,19 +1793,19 @@ org.jgroups.jmx.protocols.FD.setShun(boolean);org.jgroups.protocols.FD;1;0;1;1.0
 org.jgroups.JChannel.up(org.jgroups.Event);org.jgroups.util.Queue;1;9;8;0.9134615384615384;0.9863013698630136;196;822;291
 org.jgroups.blocks.ConnectionTableNIO.bodyFinished();org.jgroups.blocks.BasicConnectionTable;1;4;1;0.9534883720930233;0.9868421052631579;6;664;397
 org.jgroups.blocks.ConnectionTableNIO.start();org.jgroups.util.Util;0;3;2;0.97;1.0;18;664;1508
-org.jgroups.protocols.MPING.bindToInterfaces(java.net.InetAddress, java.net.MulticastSocket, java.util.List<java.net.NetworkInterface>);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.MPING.bindToInterfaces(java.net.InetAddress, java.net.MulticastSocket, java.util.List<java.net.NetworkInterface>);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.BARRIER.stop();org.jgroups.stack.Protocol;1;1;1;0.9545454545454546;0.9565217391304348;4;139;110
 org.jgroups.protocols.COMPRESS.down(org.jgroups.Event);org.jgroups.Event;2;2;3;0.9444444444444444;0.92;33;133;115
 org.jgroups.protocols.FRAG.unfragment(org.jgroups.Message, org.jgroups.protocols.FragHeader);org.jgroups.protocols.FragHeader;3;6;5;0.8888888888888888;0.8636363636363636;38;288;33
-org.jgroups.protocols.FC.adjustCredit(int, java.util.concurrent.locks.Lock, java.util.Map<org.jgroups.Address,java.lang.Long>, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.FC.adjustCredit(int, java.util.concurrent.locks.Lock, java.util.Map<org.jgroups.Address,java.lang.Long>, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.demos.TotalOrder.run();org.jgroups.util.Util;0;3;6;0.9375;1.0;41;251;1508
-org.jgroups.protocols.SHARED_LOOPBACK.init();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.init();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.JMS.handleDownEvent(org.jgroups.Event);org.jgroups.View;1;2;2;0.9555555555555556;0.9545454545454546;16;231;91
 org.jgroups.jmx.protocols.FD_SOCK.getNumSuspectEventsGenerated();org.jgroups.protocols.FD_SOCK;1;0;1;1.0;0.9879518072289156;3;28;741
 org.jgroups.jmx.JChannelFactory.stop();org.jgroups.JChannelFactory;1;0;1;1.0;0.9722222222222222;3;55;416
 org.jgroups.protocols.HTOTAL.down(org.jgroups.Event);org.jgroups.Event;2;4;3;0.8461538461538461;0.8571428571428572;20;123;115
 org.jgroups.jmx.protocols.FD_ALL.getHeartbeatsReceived();org.jgroups.protocols.FD_ALL;1;0;1;1.0;0.9782608695652174;3;52;323
-org.jgroups.blocks.ReplicatedHashMap.setBlockingUpdates(boolean);org.jgroups.blocks.GroupRequest;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.setBlockingUpdates(boolean);org.jgroups.blocks.GroupRequest;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FD_SOCK.run();org.jgroups.Event;0;3;3;0.9659090909090909;1.0;19;741;115
 org.jgroups.protocols.FD_SOCK.start();org.jgroups.util.Util;0;1;1;0.9882352941176471;1.0;7;741;1508
 org.jgroups.protocols.pbcast.STATE_TRANSFER.down(org.jgroups.Event);org.jgroups.Event;2;7;4;0.8627450980392157;0.9090909090909091;53;378;115
@@ -1820,13 +1820,13 @@ org.jgroups.protocols.TP.sendBundledMessages(java.util.Map<org.jgroups.Address,j
 org.jgroups.JChannel.getTimerThreads();org.jgroups.stack.ProtocolStack;1;0;1;1.0;0.9666666666666667;3;822;230
 org.jgroups.JChannelFactory.disconnect(org.jgroups.mux.MuxChannel);org.jgroups.mux.MuxChannel;3;2;3;0.9565217391304348;0.9166666666666666;30;416;163
 org.jgroups.stack.AckSenderWindow.add(long, org.jgroups.Message);org.jgroups.stack.Retransmitter;1;1;1;0.9333333333333333;0.9565217391304348;5;154;189
-org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.Message;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.Message;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.NAKACK.up(org.jgroups.Event);org.jgroups.util.Range;2;9;5;0.9069767441860466;0.92;54;946;25
 org.jgroups.auth.MD5Token.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;1;2;0.9;1.0;6;69;1508
 org.jgroups.JChannelFactory.shutdown(org.jgroups.mux.MuxChannel);org.jgroups.mux.Multiplexer;2;6;3;0.8723404255319149;0.987012987012987;43;416;763
 org.jgroups.protocols.TCPGOSSIP.createInitialHosts(java.lang.String);org.jgroups.stack.Protocol;1;0;1;1.0;0.9642857142857143;21;104;110
 org.jgroups.protocols.pbcast.FLUSH.onFlushOk(long, org.jgroups.Address);org.jgroups.Event;0;7;3;0.8985507246376812;1.0;25;626;115
-org.jgroups.mux.Multiplexer.sendServiceMessage(boolean, byte, byte[], java.lang.String, org.jgroups.Address);org.jgroups.protocols.pbcast.FLUSH;0;0;0;0;0
+org.jgroups.mux.Multiplexer.sendServiceMessage(boolean, byte, byte[], java.lang.String, org.jgroups.Address);org.jgroups.protocols.pbcast.FLUSH;0;0;0;0;0;0;0;0
 org.jgroups.protocols.BSH.up(org.jgroups.Event);org.jgroups.Event;2;3;3;0.9090909090909091;0.8571428571428572;28;106;115
 org.jgroups.stack.ProtocolStack.down(org.jgroups.Event);org.jgroups.Event;1;1;2;0.96875;0.8571428571428572;11;230;115
 org.jgroups.protocols.pbcast.NAKACK.reset();org.jgroups.stack.NakReceiverWindow;1;3;1;0.962962962962963;0.972972972972973;12;946;303
@@ -1891,7 +1891,7 @@ org.jgroups.demos.Draw2Channels.actionPerformed(java.awt.event.ActionEvent);org.
 org.jgroups.mux.Multiplexer.getLocalAddress();org.jgroups.JChannel;1;1;1;0.9838709677419355;0.9857142857142858;5;763;822
 org.jgroups.protocols.ENCRYPT.sendSecretKey(java.security.PublicKey, javax.crypto.SecretKey, org.jgroups.Address);org.jgroups.Message;1;5;3;0.9315068493150684;0.9791666666666666;12;617;497
 org.jgroups.blocks.GroupRequest.doExecute(boolean, long);org.jgroups.blocks.RequestCorrelator;2;10;3;0.7674418604651163;0.9863013698630136;88;364;445
-org.jgroups.protocols.TUNNEL.startReconnecting();org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.startReconnecting();org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.TP.send(boolean, org.jgroups.Address, org.jgroups.Message);org.jgroups.util.ExposedByteArrayOutputStream;0;5;2;0.9859154929577465;1.0;14;1021;11
 org.jgroups.protocols.pbcast.CoordGmsImpl.sendMergeResponse(org.jgroups.Address, org.jgroups.util.Digest, org.jgroups.View);org.jgroups.Event;0;0;5;1.0;1.0;11;524;115
 org.jgroups.protocols.FD.shunInvalidHeartbeatSender(org.jgroups.Address);org.jgroups.Event;0;3;3;0.9523809523809523;1.0;25;430;115
@@ -1933,12 +1933,12 @@ org.jgroups.protocols.pbcast.FLUSH.onSuspect(org.jgroups.Address);org.jgroups.Ev
 org.jgroups.jmx.protocols.TP.setIncomingMaxPoolSize(int);org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
 org.jgroups.JChannel.up(org.jgroups.Event);org.jgroups.util.Util;0;9;8;0.9134615384615384;1.0;196;822;1508
 org.jgroups.blocks.GroupRequest.viewChange(org.jgroups.View);org.jgroups.util.Rsp;2;3;2;0.925;0.9130434782608696;26;364;43
-org.jgroups.protocols.TUNNEL.start();org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.start();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.jmx.Protocol.dumpStats();org.jgroups.stack.Protocol;1;0;1;1.0;0.9545454545454546;3;56;110
 org.jgroups.mux.MuxChannel.connect(java.lang.String);org.jgroups.Channel;1;0;3;1.0;0.9523809523809523;9;163;111
 org.jgroups.protocols.SFC.sendCreditRequest(boolean);org.jgroups.Event;0;1;3;0.9807692307692307;1.0;7;383;115
 org.jgroups.jmx.protocols.Discovery.getInitialMembers();org.jgroups.protocols.Discovery;1;0;1;1.0;0.9583333333333334;3;37;187
-org.jgroups.protocols.FC.sendCreditRequest(java.lang.Long, org.jgroups.Address);org.jgroups.Message;0;0;0;0;0
+org.jgroups.protocols.FC.sendCreditRequest(java.lang.Long, org.jgroups.Address);org.jgroups.Message;0;0;0;0;0;0;0;0
 org.jgroups.Message.readExternal(java.io.ObjectInput);org.jgroups.util.Marshaller;0;8;1;0.8260869565217391;1.0;32;497;46
 org.jgroups.blocks.DistributedQueue.add(java.lang.Object);org.jgroups.blocks.GroupRequest;0;3;3;0.9591836734693877;1.0;16;370;364
 org.jgroups.protocols.FRAG2.fragment(org.jgroups.Message);org.jgroups.stack.Protocol;3;3;5;0.9473684210526316;0.925;35;312;110
@@ -1965,12 +1965,12 @@ org.jgroups.protocols.pbcast.STATE_TRANSFER.requiredDownServices();org.jgroups.E
 org.jgroups.JChannel.connect(java.lang.String);org.jgroups.View;1;9;7;0.8860759493670887;0.96875;47;822;91
 org.jgroups.protocols.COMPRESS.up(org.jgroups.Event);org.jgroups.Event;2;2;3;0.9393939393939394;0.9090909090909091;34;133;115
 org.jgroups.blocks.MessageDispatcher.sendMessage(int, long, org.jgroups.Message);org.jgroups.util.RspList;3;2;4;0.9622641509433962;0.9189189189189189;39;560;145
-org.jgroups.auth.X509Token.getCertificate();org.jgroups.auth.AuthToken;0;0;0;0;0
+org.jgroups.auth.X509Token.getCertificate();org.jgroups.auth.AuthToken;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.TP.getBytesSent();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
 org.jgroups.protocols.PING.localAddressSet(org.jgroups.Address);org.jgroups.util.List;3;0;3;1.0;0.9090909090909091;18;156;264
 org.jgroups.JChannel.toString(boolean);org.jgroups.util.Queue;1;10;1;0.868421052631579;0.9782608695652174;18;822;291
-org.jgroups.jmx.protocols.pbcast.NAKACK.printXmitTable();org.jgroups.protocols.pbcast.NAKACK;0;0;0;0;0
-org.jgroups.protocols.pbcast.NAKACK.getXmitTableSize();org.jgroups.stack.NakReceiverWindow;0;0;0;0;0
+org.jgroups.jmx.protocols.pbcast.NAKACK.printXmitTable();org.jgroups.protocols.pbcast.NAKACK;0;0;0;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.getXmitTableSize();org.jgroups.stack.NakReceiverWindow;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.NAKACK.sendXmitRsp(java.util.LinkedList, long, long, org.jgroups.Address);org.jgroups.protocols.pbcast.NakAckHeader;0;4;6;0.9642857142857143;1.0;21;946;89
 org.jgroups.blocks.MessageDispatcher.send(org.jgroups.Message);org.jgroups.Channel;1;2;3;0.9555555555555556;1.0;25;560;111
 org.jgroups.blocks.ReplicatedTree.put(java.lang.Object, java.lang.String, java.lang.String);org.jgroups.JChannel;1;4;1;0.961038961038961;0.9863013698630136;21;597;822
@@ -1992,8 +1992,8 @@ org.jgroups.JChannelFactory.setMultiplexerConfig(java.net.URL);org.jgroups.util.
 org.jgroups.protocols.TRACE.up(org.jgroups.Event);org.jgroups.stack.Protocol;1;0;1;1.0;0.96;6;20;110
 org.jgroups.protocols.FD.up(org.jgroups.Event);org.jgroups.stack.Protocol;5;14;3;0.791044776119403;0.8888888888888888;89;430;110
 org.jgroups.conf.ClassConfigurator.init();org.jgroups.util.Util;2;6;4;0.76;1.0;47;109;1508
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.stack.Protocol;0;0;0;0;0
-org.jgroups.protocols.TUNNEL.init();org.jgroups.stack.ProtocolStack;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.init();org.jgroups.stack.ProtocolStack;0;0;0;0;0;0;0;0
 org.jgroups.demos.TotalTokenDemo.connect();org.jgroups.JChannel;2;3;1;0.9302325581395349;0.9736842105263158;14;285;822
 org.jgroups.stack.AckMcastSenderWindow.add(java.util.Vector, long, org.jgroups.Message);org.jgroups.util.TimeScheduler;1;4;1;0.8857142857142857;0.96;11;239;88
 org.jgroups.View.readFrom(java.io.DataInputStream);org.jgroups.ViewId;1;1;2;0.9375;0.9375;9;91;61
@@ -2031,7 +2031,7 @@ org.jgroups.blocks.RpcDispatcher.handle(org.jgroups.Message);org.jgroups.blocks.
 org.jgroups.protocols.HDRS.down(org.jgroups.Event);org.jgroups.Event;2;1;2;1.0;0.7142857142857143;7;23;115
 org.jgroups.jmx.protocols.FD_ALL.getLocalAddress();org.jgroups.protocols.FD_ALL;1;0;1;1.0;0.9782608695652174;3;52;323
 org.jgroups.protocols.pbcast.GMS.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;14;1;0.8727272727272728;0.9534883720930233;94;893;110
-org.jgroups.jmx.protocols.UNICAST.getNumberOfMessagesInReceiveWindows();org.jgroups.protocols.UNICAST;0;0;0;0;0
+org.jgroups.jmx.protocols.UNICAST.getNumberOfMessagesInReceiveWindows();org.jgroups.protocols.UNICAST;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.STATS.getSentMcastBytes();org.jgroups.protocols.STATS;1;0;1;1.0;0.9655172413793104;3;49;160
 org.jgroups.protocols.pbcast.STABLE.requiredDownServices();org.jgroups.Event;0;0;1;1.0;1.0;5;510;115
 org.jgroups.MergeView.writeTo(java.io.DataOutputStream);org.jgroups.View;1;1;1;0.9166666666666666;0.9444444444444444;11;67;91
@@ -2044,7 +2044,7 @@ org.jgroups.mux.MuxHeader.readFrom(java.io.DataInputStream);org.jgroups.mux.Serv
 org.jgroups.stack.IpAddress.size();org.jgroups.Global;0;3;1;0.8421052631578947;1.0;8;167;30
 org.jgroups.protocols.pbcast.STABLE.handleStabilityMessage(org.jgroups.Address, org.jgroups.util.Digest);org.jgroups.Event;0;6;3;0.9076923076923077;1.0;27;510;115
 org.jgroups.auth.MD5Token.writeTo(java.io.DataOutputStream);org.jgroups.auth.AuthToken;1;1;2;0.9;0.6666666666666667;6;69;0
-org.jgroups.util.MutableDigest.incrementHighestDeliveredSeqno(org.jgroups.Address);org.jgroups.util.Digest;0;0;0;0;0
+org.jgroups.util.MutableDigest.incrementHighestDeliveredSeqno(org.jgroups.Address);org.jgroups.util.Digest;0;0;0;0;0;0;0;0
 org.jgroups.blocks.ReplicatedTree.stop();org.jgroups.JChannel;1;1;3;0.9873417721518988;0.9863013698630136;15;597;822
 org.jgroups.protocols.FRAG.unfragment(org.jgroups.Message, org.jgroups.protocols.FragHeader);org.jgroups.util.Util;0;6;5;0.8888888888888888;1.0;38;288;1508
 org.jgroups.conf.ClassConfigurator.init();org.jgroups.conf.MagicNumberReader;2;6;4;0.76;0.8823529411764706;47;109;81
@@ -2065,7 +2065,7 @@ org.jgroups.jmx.protocols.pbcast.GMS.printPreviousMembers();org.jgroups.protocol
 org.jgroups.JChannelFactory.close(org.jgroups.mux.MuxChannel);org.jgroups.JChannel;4;6;3;0.8723404255319149;0.963855421686747;45;416;822
 org.jgroups.blocks.DistributedHashtable.viewAccepted(org.jgroups.View);org.jgroups.View;1;3;1;0.9347826086956522;0.9523809523809523;9;409;91
 org.jgroups.protocols.pbcast.GMS.getNumMembers();org.jgroups.Membership;1;0;1;1.0;0.9411764705882353;3;893;92
-org.jgroups.protocols.pbcast.GMS.startFlush(long, org.jgroups.View);org.jgroups.Event;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.startFlush(long, org.jgroups.View);org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.JChannel.run();org.jgroups.util.Util;0;12;4;0.8571428571428572;1.0;61;822;1508
 org.jgroups.protocols.FRAG2.fragment(org.jgroups.Message);org.jgroups.util.Util;0;3;5;0.9473684210526316;1.0;35;312;1508
 org.jgroups.jmx.protocols.FD.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.Protocol;0;0;1;1.0;1.0;4;52;56
@@ -2102,7 +2102,7 @@ org.jgroups.blocks.DistributedQueue.remove(long);org.jgroups.blocks.GroupRequest
 org.jgroups.protocols.pbcast.FLUSH.up(org.jgroups.Event);org.jgroups.stack.Protocol;2;17;5;0.8;0.9583333333333334;70;626;110
 org.jgroups.protocols.FC.stop();org.jgroups.stack.Protocol;1;4;1;0.9310344827586207;0.9655172413793104;12;482;110
 org.jgroups.mux.MuxChannel.shutdown();org.jgroups.JChannel;3;0;2;1.0;0.9571428571428572;10;163;822
-org.jgroups.blocks.ReplicatedHashMap.init(long);org.jgroups.blocks.RpcDispatcher;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.init(long);org.jgroups.blocks.RpcDispatcher;0;0;0;0;0;0;0;0
 org.jgroups.ViewId.serializedSize();org.jgroups.Global;0;1;2;0.9285714285714286;1.0;5;61;30
 org.jgroups.protocols.CAUSAL.down(org.jgroups.Event);org.jgroups.Event;2;9;3;0.8636363636363636;0.9047619047619048;32;475;115
 org.jgroups.util.AckCollector.reset(java.util.List, org.jgroups.ViewId);org.jgroups.util.Promise;1;3;1;0.8421052631578947;0.9444444444444444;11;72;88
@@ -2170,7 +2170,7 @@ org.jgroups.jmx.protocols.TP.isEnableBundling();org.jgroups.protocols.TP;1;0;1;1
 org.jgroups.protocols.MPING.sendMcastDiscoveryRequest(org.jgroups.Message);org.jgroups.protocols.Discovery;1;3;6;0.9032258064516129;0.9743589743589743;21;200;187
 org.jgroups.jmx.JChannel.isConnected();org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;259;822
 org.jgroups.util.Stack.writeExternal(java.io.ObjectOutput);org.jgroups.util.List;1;0;1;1.0;0.9655172413793104;3;30;264
-org.jgroups.protocols.UNICAST.getNumberOfMessagesInReceiveWindows();org.jgroups.stack.AckReceiverWindow;0;0;0;0;0
+org.jgroups.protocols.UNICAST.getNumberOfMessagesInReceiveWindows();org.jgroups.stack.AckReceiverWindow;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.FD.setMaxTries(int);org.jgroups.protocols.FD;1;0;1;1.0;0.9811320754716981;3;52;430
 org.jgroups.demos.Draw2Channels.receive(org.jgroups.Message);org.jgroups.util.Util;1;3;3;0.9411764705882353;1.0;21;236;1508
 org.jgroups.blocks.DistributedLockManager.informLockingNodes(org.jgroups.blocks.DistributedLockManager.ReleaseLockDecree);org.jgroups.blocks.TwoPhaseVotingAdapter;1;0;1;1.0;0.9411764705882353;3;327;95
@@ -2178,10 +2178,10 @@ org.jgroups.protocols.SFC.size();org.jgroups.Global;0;0;1;1.0;1.0;3;383;30
 org.jgroups.jmx.protocols.TP.getChannelName();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
 org.jgroups.stack.GossipClient._getMembers(java.lang.String);org.jgroups.stack.GossipRouter;0;2;4;0.9459459459459459;1.0;50;292;580
 org.jgroups.stack.AckSenderWindow.ack(long);org.jgroups.stack.Retransmitter;1;1;1;0.9333333333333333;0.9565217391304348;4;154;189
-org.jgroups.protocols.TCPGOSSIP.handleConnect();org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.TCPGOSSIP.handleConnect();org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.TCP.start();org.jgroups.blocks.BasicConnectionTable;7;1;4;1.0;0.9204545454545454;12;59;397
 org.jgroups.protocols.PERF_TP.up(org.jgroups.Event);org.jgroups.stack.Protocol;3;4;3;0.8260869565217391;0.9032258064516129;26;89;110
-org.jgroups.blocks.ReplicatedHashMap.remove(java.lang.Object);org.jgroups.blocks.RpcDispatcher;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.remove(java.lang.Object);org.jgroups.blocks.RpcDispatcher;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.pbcast.GMS.suspendViewHandler();org.jgroups.protocols.pbcast.GMS;1;0;1;1.0;0.9900990099009901;3;70;893
 org.jgroups.protocols.AUTOCONF.init();org.jgroups.stack.Protocol;1;2;1;0.8;0.9583333333333334;4;132;110
 org.jgroups.protocols.VIEW_SYNC.startViewSender();org.jgroups.stack.Protocol;2;2;2;0.9444444444444444;0.9285714285714286;13;232;110
@@ -2195,13 +2195,13 @@ org.jgroups.jmx.protocols.pbcast.NAKACK.attachProtocol(org.jgroups.stack.Protoco
 org.jgroups.mux.Multiplexer.handleStateResponse(org.jgroups.Event);org.jgroups.stack.StateTransferInfo;3;3;2;0.971830985915493;0.8235294117647058;30;763;49
 org.jgroups.stack.ProtocolStack.printProtocolSpecAsXML();org.jgroups.stack.Protocol;2;0;1;1.0;0.9696969696969697;35;230;110
 org.jgroups.protocols.MPING.run();org.jgroups.stack.Protocol;2;5;3;0.8518518518518519;0.9393939393939394;30;200;110
-org.jgroups.protocols.TCPGOSSIP.handleConnect();org.jgroups.stack.GossipClient;0;0;0;0;0
+org.jgroups.protocols.TCPGOSSIP.handleConnect();org.jgroups.stack.GossipClient;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.STABLE.sendStableMessage(org.jgroups.util.Digest);org.jgroups.stack.Protocol;3;2;4;0.96875;0.8888888888888888;15;510;110
 org.jgroups.protocols.pbcast.GMS.getNextView(java.util.Collection, java.util.Collection, java.util.Collection);org.jgroups.ViewId;1;4;3;0.9652173913043478;0.967741935483871;41;893;61
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.handleStateRsp(org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.StateHeader);org.jgroups.stack.Protocol;3;4;2;0.9473684210526316;0.8846153846153846;13;655;110
 org.jgroups.jmx.protocols.pbcast.STABLE.getStableSent();org.jgroups.protocols.pbcast.STABLE;1;0;1;1.0;0.9827586206896551;3;40;510
 org.jgroups.blocks.ConnectionTableNIO.closed();org.jgroups.blocks.BasicConnectionTable;3;0;1;1.0;0.9583333333333334;7;664;397
-org.jgroups.jmx.protocols.UNICAST.getNumUnackedMessages();org.jgroups.protocols.UNICAST;0;0;0;0;0
+org.jgroups.jmx.protocols.UNICAST.getNumUnackedMessages();org.jgroups.protocols.UNICAST;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.TP.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.Protocol;0;0;1;1.0;1.0;4;139;56
 org.jgroups.jmx.JChannelFactory.getDomain();org.jgroups.JChannelFactory;1;0;1;1.0;0.9722222222222222;3;55;416
 org.jgroups.protocols.pbcast.STABLE.handleRegularMessage(org.jgroups.Message);org.jgroups.stack.Protocol;3;4;5;0.9428571428571428;0.9142857142857143;28;510;110
@@ -2210,7 +2210,7 @@ org.jgroups.protocols.pbcast.GMS.init();org.jgroups.stack.ProtocolStack;0;1;3;0.
 org.jgroups.debug.ProtocolTester.stop();org.jgroups.stack.Protocol;1;0;2;1.0;0.9545454545454546;19;96;110
 org.jgroups.protocols.TCPGOSSIP.sendGetMembersRequest();org.jgroups.protocols.PingHeader;0;0;6;1.0;1.0;30;104;42
 org.jgroups.JChannel.connect(java.lang.String);org.jgroups.Global;0;9;7;0.8860759493670887;1.0;47;822;30
-org.jgroups.protocols.SHARED_LOOPBACK.sendToSingleMember(byte[], int, int, org.jgroups.Address);org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.sendToSingleMember(byte[], int, int, org.jgroups.Address);org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FD.sendHeartbeatResponse(org.jgroups.Address);org.jgroups.Message;2;2;3;0.9642857142857143;0.95;8;430;497
 org.jgroups.protocols.UDP.handleConfigEvent(java.util.HashMap);org.jgroups.protocols.TP;1;5;1;0.8958333333333334;0.9930555555555556;16;498;1021
 org.jgroups.blocks.DistributedHashtable.putAll(java.util.Map);org.jgroups.blocks.RpcDispatcher;1;3;2;0.9285714285714286;1.0;12;409;254
@@ -2269,7 +2269,7 @@ org.jgroups.blocks.ConnectionTable.getConnection(org.jgroups.Address);org.jgroup
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.start();org.jgroups.Event;0;1;2;0.9864864864864865;1.0;3;655;115
 org.jgroups.protocols.FD_SOCK.fetchPingAddress(org.jgroups.Address);org.jgroups.util.Promise;2;3;5;0.9666666666666667;0.8947368421052632;35;741;88
 org.jgroups.demos.DrawRepl.run();org.jgroups.blocks.GroupRequest;0;2;2;0.9607843137254902;1.0;30;176;364
-org.jgroups.protocols.TUNNEL.setProperties(java.util.Properties);org.jgroups.protocols.TP;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.setProperties(java.util.Properties);org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.ClientGmsImpl.installView(org.jgroups.View);org.jgroups.protocols.pbcast.GmsImpl;1;0;5;1.0;0.9583333333333334;13;233;53
 org.jgroups.protocols.AuthHeader.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;0;1;1.0;1.0;3;23;1508
 org.jgroups.jmx.JChannel.shutdown();org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;259;822
@@ -2289,17 +2289,17 @@ org.jgroups.protocols.VIEW_SYNC.handleViewChange(org.jgroups.View);org.jgroups.V
 org.jgroups.protocols.pbcast.CoordGmsImpl.consolidateMergeData(java.util.Vector<org.jgroups.protocols.pbcast.MergeData>);org.jgroups.protocols.pbcast.GmsImpl;1;1;6;1.0;0.967741935483871;43;524;53
 org.jgroups.jmx.protocols.STATS.getReceivedMcastMessages();org.jgroups.protocols.STATS;1;0;1;1.0;0.9655172413793104;3;49;160
 org.jgroups.blocks.RequestCorrelator.handleRequest(org.jgroups.blocks.RequestCorrelator.Header, org.jgroups.Message);org.jgroups.Event;0;6;5;0.9;1.0;46;445;115
-org.jgroups.protocols.SHARED_LOOPBACK.sendToAllMembers(byte[], int, int);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.sendToAllMembers(byte[], int, int);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.SFC.dumpStats();org.jgroups.protocols.SFC;1;0;1;1.0;0.98;3;62;383
 org.jgroups.protocols.JMS.down(org.jgroups.Event);org.jgroups.stack.Protocol;1;3;3;0.926829268292683;0.962962962962963;9;231;110
 org.jgroups.Message.getObject();org.jgroups.util.Util;0;3;1;0.9210526315789473;1.0;8;497;1508
-org.jgroups.mux.Multiplexer.adjustServiceView(org.jgroups.Address);org.jgroups.mux.MuxChannel;0;0;0;0;0
+org.jgroups.mux.Multiplexer.adjustServiceView(org.jgroups.Address);org.jgroups.mux.MuxChannel;0;0;0;0;0;0;0;0
 org.jgroups.protocols.TP.handleIncomingMessage(org.jgroups.Message);org.jgroups.Event;0;4;4;0.9731543624161074;1.0;26;1021;115
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;6;2;0.927710843373494;0.9444444444444444;30;655;110
 org.jgroups.demos.wb.GraphPanel.start(java.lang.String);org.jgroups.demos.wb.Whiteboard;0;3;3;0.9142857142857143;1.0;13;234;157
 org.jgroups.protocols.pbcast.ParticipantGmsImpl.handleMergeRequest(org.jgroups.Address, org.jgroups.ViewId);org.jgroups.protocols.pbcast.GmsImpl;1;0;1;1.0;0.9411764705882353;3;97;53
-org.jgroups.protocols.TUNNEL.startReconnecting();org.jgroups.protocols.TP;0;0;0;0;0
-org.jgroups.protocols.pbcast.NAKACK.createNakReceiverWindow(long, long, org.jgroups.Address);org.jgroups.stack.NakReceiverWindow;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.startReconnecting();org.jgroups.protocols.TP;0;0;0;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.createNakReceiverWindow(long, long, org.jgroups.Address);org.jgroups.stack.NakReceiverWindow;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FD_SOCK.resetStats();org.jgroups.stack.Protocol;1;1;2;0.9882352941176471;0.9583333333333334;5;741;110
 org.jgroups.JChannel.handleExit(org.jgroups.Event);org.jgroups.Channel;1;2;1;0.9722222222222222;0.9523809523809523;9;822;111
 org.jgroups.protocols.SEQUENCER.up(org.jgroups.Event);org.jgroups.stack.Protocol;2;8;3;0.7837837837837838;0.9393939393939394;32;224;110
@@ -2320,11 +2320,11 @@ org.jgroups.blocks.BasicConnectionTable.sendLocalAddress(org.jgroups.Address);or
 org.jgroups.protocols.BasicTCP.init();org.jgroups.protocols.TP;1;1;3;0.96;0.9928057553956835;13;174;1021
 org.jgroups.demos.applets.DrawApplet.init();org.jgroups.Channel;1;6;1;0.8636363636363636;1.0;20;200;111
 org.jgroups.protocols.VERIFY_SUSPECT.verifySuspect(org.jgroups.Address);org.jgroups.Message;2;5;3;0.84375;0.9583333333333334;16;233;497
-org.jgroups.protocols.pbcast.STABLE.resetDigest();org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.pbcast.STABLE.resetDigest();org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.FLUSH.onFlushCompleted(org.jgroups.Address, org.jgroups.util.Digest);org.jgroups.Event;0;8;4;0.8918918918918919;1.0;29;626;115
 org.jgroups.protocols.FD_ICMP.run();org.jgroups.protocols.FD;11;5;4;0.84375;0.835820895522388;35;95;430
 org.jgroups.protocols.MERGE3.sendCoordinatorAnnouncement(org.jgroups.Address);org.jgroups.stack.Protocol;1;1;3;0.9615384615384616;0.9583333333333334;6;158;110
-org.jgroups.mux.Multiplexer.waitUntilThreadPoolHasNoRunningTasks(long);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.mux.Multiplexer.waitUntilThreadPoolHasNoRunningTasks(long);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.jmx.JChannel.returnState(byte[], java.lang.String);org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;259;822
 org.jgroups.protocols.BARRIER.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;1;1;0.962962962962963;0.9259259259259259;14;139;110
 org.jgroups.protocols.MERGE3.up(org.jgroups.Event);org.jgroups.Event;2;6;3;0.8125;0.8823529411764706;27;158;115
@@ -2333,7 +2333,7 @@ org.jgroups.protocols.pbcast.GMS.start();org.jgroups.protocols.pbcast.GmsImpl;1;
 org.jgroups.protocols.pbcast.NAKACK.start();org.jgroups.stack.ProtocolStack;0;1;2;0.9864864864864865;1.0;5;946;230
 org.jgroups.protocols.TUNNEL.run();org.jgroups.stack.RouterStub;1;2;3;0.9428571428571428;0.9666666666666667;12;221;277
 org.jgroups.jmx.protocols.FD_ALL.getMembers();org.jgroups.protocols.FD_ALL;1;0;1;1.0;0.9782608695652174;3;52;323
-org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.ClientGmsImpl.sendJoinMessage(org.jgroups.Address, org.jgroups.Address);org.jgroups.Message;1;0;5;1.0;0.9736842105263158;9;233;497
 org.jgroups.jmx.protocols.pbcast.STABLE.setMaxBytes(long);org.jgroups.protocols.pbcast.STABLE;1;0;1;1.0;0.9827586206896551;3;40;510
 org.jgroups.protocols.FD_SIMPLE.init();org.jgroups.stack.Protocol;0;0;2;1.0;1.0;3;225;110
@@ -2348,7 +2348,7 @@ org.jgroups.jmx.protocols.pbcast.FLUSH.startFlush(long);org.jgroups.protocols.pb
 org.jgroups.protocols.SEQUENCER.forwardToCoord(long, org.jgroups.Message);org.jgroups.Message;1;3;3;0.9142857142857143;0.9761904761904762;8;224;497
 org.jgroups.demos.Draw.getState();org.jgroups.util.Util;0;1;1;0.9811320754716981;1.0;13;419;1508
 org.jgroups.mux.Multiplexer.shutdown();org.jgroups.JChannel;1;2;2;0.9692307692307692;0.9864864864864865;20;763;822
-org.jgroups.protocols.TUNNEL.startReconnecting();org.jgroups.stack.RouterStub;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.startReconnecting();org.jgroups.stack.RouterStub;0;0;0;0;0;0;0;0
 org.jgroups.protocols.VIEW_SYNC.down(org.jgroups.Event);org.jgroups.Event;2;1;2;0.9696969696969697;0.7142857142857143;9;232;115
 org.jgroups.protocols.BasicTCP.receive(byte[], int, int, org.jgroups.Address);org.jgroups.protocols.TP;2;0;1;1.0;0.9927007299270073;3;174;1021
 org.jgroups.JChannel.up(org.jgroups.Event);org.jgroups.View;1;9;8;0.9134615384615384;0.9824561403508771;196;822;91
@@ -2368,8 +2368,8 @@ org.jgroups.JChannel.down(org.jgroups.Event);org.jgroups.stack.IpAddress;1;3;4;0
 org.jgroups.auth.SimpleToken.readFrom(java.io.DataInputStream);org.jgroups.auth.AuthToken;1;1;2;0.8571428571428572;0.5;6;45;0
 org.jgroups.protocols.UNICAST.down(org.jgroups.Event);org.jgroups.stack.Protocol;5;12;8;0.8378378378378378;0.9193548387096774;118;393;110
 org.jgroups.protocols.pbcast.GMS.down(org.jgroups.Event);org.jgroups.stack.Protocol;2;3;3;0.9722222222222222;0.9333333333333333;29;893;110
-org.jgroups.blocks.ReplicatedHashMap.stop();org.jgroups.Channel;0;0;0;0;0
-org.jgroups.protocols.pbcast.STABLE.resetDigest();org.jgroups.util.MutableDigest;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.stop();org.jgroups.Channel;0;0;0;0;0;0;0;0
+org.jgroups.protocols.pbcast.STABLE.resetDigest();org.jgroups.util.MutableDigest;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.GMS.makeView(java.util.Vector<org.jgroups.Address>, org.jgroups.ViewId);org.jgroups.ViewId;2;0;1;1.0;0.8571428571428572;9;893;61
 org.jgroups.stack.AckSenderWindow.printDetails();org.jgroups.stack.Retransmitter;1;1;1;0.95;0.9642857142857143;5;154;189
 org.jgroups.JChannelFactory.parse(org.w3c.dom.Element);org.jgroups.conf.XmlConfigurator;1;1;2;0.98;0.9523809523809523;32;416;351
@@ -2381,7 +2381,7 @@ org.jgroups.mux.MuxChannel.close();org.jgroups.Channel;1;0;3;1.0;0.9523809523809
 org.jgroups.protocols.pbcast.FLUSH.setProperties(java.util.Properties);org.jgroups.util.Util;1;1;2;0.9852941176470589;1.0;14;626;1508
 org.jgroups.protocols.pbcast.FLUSH.down(org.jgroups.Event);org.jgroups.stack.Protocol;1;5;3;0.9402985074626866;0.9666666666666667;26;626;110
 org.jgroups.protocols.MERGE3.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;3;1;0.90625;0.935483870967742;32;158;110
-org.jgroups.blocks.ReplicatedHashMap.putAll(java.util.Map<? extends K,? extends V>);org.jgroups.blocks.RpcDispatcher;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.putAll(java.util.Map<? extends K,? extends V>);org.jgroups.blocks.RpcDispatcher;0;0;0;0;0;0;0;0
 org.jgroups.blocks.RpcDispatcher.callRemoteMethods(boolean, boolean, int, java.util.Vector, long, org.jgroups.blocks.MethodCall);org.jgroups.blocks.MessageDispatcher;2;2;4;0.9743589743589743;0.9807692307692307;19;254;560
 org.jgroups.protocols.EXAMPLE.up(org.jgroups.Event);org.jgroups.stack.Protocol;1;0;2;1.0;0.9583333333333334;9;30;110
 org.jgroups.protocols.pbcast.GMS.castViewChangeWithDest(java.util.List, org.jgroups.util.Digest, org.jgroups.View);org.jgroups.util.AckCollector;5;2;5;0.9824561403508771;0.84;26;893;72
@@ -2390,7 +2390,7 @@ org.jgroups.JChannelFactory.destroy();org.jgroups.mux.Multiplexer;1;6;2;0.863636
 org.jgroups.protocols.pbcast.GMS.sendViewAck(org.jgroups.Address);org.jgroups.stack.Protocol;3;0;3;1.0;0.875;8;893;110
 org.jgroups.protocols.UNICAST.down(org.jgroups.Event);org.jgroups.stack.AckSenderWindow;2;12;8;0.8378378378378378;0.9642857142857143;118;393;154
 org.jgroups.protocols.pbcast.FLUSH.onSuspend(org.jgroups.View);org.jgroups.Message;1;3;5;0.9571428571428572;0.9787234042553191;22;626;497
-org.jgroups.blocks.ReplicatedHashMap.put(K, V);org.jgroups.blocks.RpcDispatcher;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.put(K, V);org.jgroups.blocks.RpcDispatcher;0;0;0;0;0;0;0;0
 org.jgroups.demos.DistributedQueueDemo.removeItem();org.jgroups.blocks.DistributedQueue;1;0;1;1.0;0.9772727272727273;3;161;370
 org.jgroups.demos.Chat.handleSend();org.jgroups.Channel;1;3;1;0.9318181818181819;1.0;9;212;111
 org.jgroups.mux.MuxChannel.open();org.jgroups.JChannelFactory;1;0;1;1.0;0.9722222222222222;3;163;416
@@ -2433,7 +2433,7 @@ org.jgroups.jmx.protocols.MERGE2.setMinInterval(long);org.jgroups.protocols.MERG
 org.jgroups.protocols.FD.run();org.jgroups.Message;2;5;3;0.9152542372881356;0.9565217391304348;20;430;497
 org.jgroups.protocols.SEQUENCER.getSeqno();org.jgroups.ViewId;1;0;1;1.0;0.9285714285714286;3;224;61
 org.jgroups.JChannelFactory.registerChannel(java.lang.String, org.jgroups.JChannel);org.jgroups.jmx.JmxConfigurator;1;3;1;0.9189189189189189;1.0;3;416;85
-org.jgroups.blocks.ReplicatedHashMap.setState(java.io.InputStream);org.jgroups.util.Promise;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.setState(java.io.InputStream);org.jgroups.util.Promise;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.pbcast.FLUSH.getNumberOfFlushes();org.jgroups.protocols.pbcast.FLUSH;1;0;1;1.0;0.9838709677419355;3;25;626
 org.jgroups.jmx.protocols.pbcast.NAKACK.setXmitFromRandomMember(boolean);org.jgroups.protocols.pbcast.NAKACK;1;0;1;1.0;0.9864864864864865;3;79;946
 org.jgroups.blocks.BasicConnectionTable.toString();org.jgroups.util.Util;0;2;1;0.9743589743589743;1.0;16;397;1508
@@ -2462,11 +2462,11 @@ org.jgroups.protocols.SFC.sendCreditResponse(org.jgroups.Address);org.jgroups.Ev
 org.jgroups.stack.NakReceiverWindow.remove();org.jgroups.stack.Retransmitter;1;6;1;0.8461538461538461;0.972972972972973;34;303;189
 org.jgroups.stack.GossipRouter.run();org.jgroups.util.Util;0;9;1;0.8490566037735849;1.0;32;580;1508
 org.jgroups.JChannel.connect(java.lang.String);org.jgroups.stack.ProtocolStack;1;9;7;0.8860759493670887;0.9791666666666666;47;822;230
-org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.util.BoundedList;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.retransmit(boolean, long, long, org.jgroups.Address);org.jgroups.util.BoundedList;0;0;0;0;0;0;0;0
 org.jgroups.auth.MD5Token.authenticate(org.jgroups.auth.AuthToken, org.jgroups.Message);org.jgroups.auth.AuthToken;1;1;1;0.9;0.6666666666666667;21;69;0
-org.jgroups.mux.Multiplexer.sendServiceMessage(boolean, byte, byte[], java.lang.String, org.jgroups.Address);org.jgroups.JChannel;0;0;0;0;0
+org.jgroups.mux.Multiplexer.sendServiceMessage(boolean, byte, byte[], java.lang.String, org.jgroups.Address);org.jgroups.JChannel;0;0;0;0;0;0;0;0
 org.jgroups.jmx.JChannel.getReceiveLocalMessages();org.jgroups.JChannel;1;1;2;0.9855072463768116;0.9859154929577465;4;259;822
-org.jgroups.protocols.pbcast.FLUSH.onStopFlush();org.jgroups.View;0;0;0;0;0
+org.jgroups.protocols.pbcast.FLUSH.onStopFlush();org.jgroups.View;0;0;0;0;0;0;0;0
 org.jgroups.blocks.ReplicatedTree.remove(java.lang.String);org.jgroups.JChannel;1;4;1;0.9473684210526316;0.9863013698630136;21;597;822
 org.jgroups.jmx.Protocol.stop();org.jgroups.stack.Protocol;1;0;1;1.0;0.9545454545454546;3;56;110
 org.jgroups.mux.ServiceInfo.toString();org.jgroups.util.Util;0;4;1;0.6363636363636364;1.0;26;103;1508
@@ -2479,7 +2479,7 @@ org.jgroups.protocols.pbcast.NAKACK.handleXmitRsp(org.jgroups.Message);org.jgrou
 org.jgroups.protocols.pbcast.NAKACK.stable(org.jgroups.util.Digest);org.jgroups.util.BoundedList;1;6;4;0.9333333333333333;0.9583333333333334;48;946;20
 org.jgroups.jmx.protocols.pbcast.GMS.attachProtocol(org.jgroups.stack.Protocol);org.jgroups.jmx.Protocol;0;0;1;1.0;1.0;4;70;56
 org.jgroups.protocols.SFC.sendCreditRequest(boolean);org.jgroups.Message;1;1;3;0.9807692307692307;0.9743589743589743;7;383;497
-org.jgroups.auth.X509Token.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.auth.X509Token.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.protocols.SFC.handleCreditResponse(org.jgroups.Address);org.jgroups.util.BoundedList;1;9;2;0.847457627118644;0.95;18;383;20
 org.jgroups.jmx.protocols.TCP_NIO.getProcessorMinThreads();org.jgroups.protocols.TCP_NIO;1;0;1;1.0;0.9375;3;31;115
 org.jgroups.jmx.protocols.VIEW_SYNC.getNumViewsSent();org.jgroups.protocols.VIEW_SYNC;1;0;1;1.0;0.9666666666666667;3;25;232
@@ -2512,13 +2512,13 @@ org.jgroups.protocols.pbcast.GMS.makeView(java.util.Vector<org.jgroups.Address>)
 org.jgroups.protocols.pbcast.CoordGmsImpl.sendMergeCancelledMessage(java.util.Vector, org.jgroups.ViewId);org.jgroups.stack.Protocol;1;0;5;1.0;0.9615384615384616;17;524;110
 org.jgroups.jmx.protocols.FD_ALL.printTimestamps();org.jgroups.protocols.FD_ALL;1;0;1;1.0;0.9782608695652174;3;52;323
 org.jgroups.protocols.FRAG.unfragment(org.jgroups.Message, org.jgroups.protocols.FragHeader);org.jgroups.Message;4;6;5;0.8888888888888888;0.9183673469387755;38;288;497
-org.jgroups.protocols.ENCRYPT.drainUpQueue();org.jgroups.Message;0;0;0;0;0
+org.jgroups.protocols.ENCRYPT.drainUpQueue();org.jgroups.Message;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FD_ICMP.setProperties(java.util.Properties);org.jgroups.protocols.FD;1;3;4;0.875;0.9850746268656716;39;95;430
 org.jgroups.protocols.FD.down(org.jgroups.Event);org.jgroups.Event;2;9;3;0.8524590163934427;0.9;29;430;115
 org.jgroups.protocols.pbcast.NAKACK.up(org.jgroups.Event);org.jgroups.Event;2;9;5;0.9069767441860466;0.9130434782608696;54;946;115
 org.jgroups.mux.ServiceInfo.size();org.jgroups.util.Util;0;3;2;0.7272727272727273;1.0;9;103;1508
 org.jgroups.blocks.DistributedHashtable.clear();org.jgroups.blocks.GroupRequest;0;4;2;0.9047619047619048;1.0;13;409;364
-org.jgroups.auth.X509Token.readFrom(java.io.DataInputStream);org.jgroups.util.Util;0;0;0;0;0
+org.jgroups.auth.X509Token.readFrom(java.io.DataInputStream);org.jgroups.util.Util;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.newThread(java.lang.Runnable);org.jgroups.util.Util;0;2;2;0.974025974025974;1.0;17;655;1508
 org.jgroups.blocks.MessageDispatcher.send(org.jgroups.Message);org.jgroups.blocks.PullPushAdapter;2;2;3;0.9555555555555556;0.9411764705882353;25;560;305
 org.jgroups.stack.GossipRouter.mainLoop();org.jgroups.util.Util;0;11;2;0.828125;1.0;121;580;1508
@@ -2527,8 +2527,8 @@ org.jgroups.protocols.SIZE.sizeOf(org.jgroups.Message);org.jgroups.util.Util;0;1
 org.jgroups.mux.Multiplexer.close();org.jgroups.mux.MuxChannel;1;2;2;0.9692307692307692;0.96875;20;763;163
 org.jgroups.protocols.pbcast.FLUSH.up(org.jgroups.Event);org.jgroups.Event;2;17;5;0.8;0.935483870967742;70;626;115
 org.jgroups.protocols.VIEW_SYNC.resetStats();org.jgroups.stack.Protocol;1;2;1;0.935483870967742;0.9583333333333334;4;232;110
-org.jgroups.stack.NakReceiverWindow.remove();org.jgroups.Message;0;0;0;0;0
-org.jgroups.protocols.FC.handleCreditRequest(java.lang.Long, java.util.concurrent.locks.Lock, java.util.Map<org.jgroups.Address,java.lang.Long>, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0
+org.jgroups.stack.NakReceiverWindow.remove();org.jgroups.Message;0;0;0;0;0;0;0;0
+org.jgroups.protocols.FC.handleCreditRequest(java.lang.Long, java.util.concurrent.locks.Lock, java.util.Map<org.jgroups.Address,java.lang.Long>, org.jgroups.Address);org.jgroups.stack.Protocol;0;0;0;0;0;0;0;0
 org.jgroups.protocols.ENCRYPT.up(org.jgroups.Event);org.jgroups.stack.Protocol;1;5;2;0.927536231884058;0.9655172413793104;26;617;110
 org.jgroups.protocols.pbcast.GMS.getDigest();org.jgroups.stack.Protocol;1;0;2;1.0;0.9545454545454546;3;893;110
 org.jgroups.jmx.protocols.TP.getOOBMaxPoolSize();org.jgroups.protocols.TP;1;0;1;1.0;0.9926470588235294;3;139;1021
@@ -2548,10 +2548,10 @@ org.jgroups.util.Scheduler.run();org.jgroups.util.Util;0;6;4;0.8;1.0;55;135;1508
 org.jgroups.persistence.PersistenceFactory.createManagerFile(java.lang.String);org.jgroups.util.Util;1;1;1;0.9230769230769231;1.0;23;71;1508
 org.jgroups.protocols.BARRIER.up(org.jgroups.Event);org.jgroups.Event;1;7;2;0.78125;0.9545454545454546;43;139;115
 org.jgroups.blocks.DistributedHashtable.start(long);org.jgroups.util.Promise;2;4;4;0.9230769230769231;0.9166666666666666;49;409;88
-org.jgroups.blocks.ReplicatedHashMap.viewAccepted(org.jgroups.View);org.jgroups.View;0;0;0;0;0
+org.jgroups.blocks.ReplicatedHashMap.viewAccepted(org.jgroups.View);org.jgroups.View;0;0;0;0;0;0;0;0
 org.jgroups.blocks.DistributedHashtable.put(java.lang.Object, java.lang.Object);org.jgroups.blocks.RpcDispatcher;1;3;2;0.9302325581395349;1.0;14;409;254
 org.jgroups.protocols.pbcast.NAKACK.dumpStats();org.jgroups.stack.Protocol;1;7;1;0.9166666666666666;0.9736842105263158;20;946;110
-org.jgroups.mux.Multiplexer.sendServiceMessage(boolean, byte, byte[], java.lang.String, org.jgroups.Address);org.jgroups.Message;0;0;0;0;0
+org.jgroups.mux.Multiplexer.sendServiceMessage(boolean, byte, byte[], java.lang.String, org.jgroups.Address);org.jgroups.Message;0;0;0;0;0;0;0;0
 org.jgroups.blocks.GroupRequest.adjustMembership();org.jgroups.util.Rsp;2;4;1;0.8918918918918919;0.9047619047619048;16;364;43
 org.jgroups.demos.TotalTokenDemo.run();org.jgroups.View;0;8;5;0.8490566037735849;1.0;64;285;91
 org.jgroups.protocols.MERGEFAST.sendUpMerge(org.jgroups.Address[]);org.jgroups.stack.Protocol;1;0;2;1.0;0.9565217391304348;8;64;110
@@ -2576,7 +2576,7 @@ org.jgroups.protocols.FD_SOCK.size();org.jgroups.Global;0;3;3;0.9666666666666667
 org.jgroups.blocks.DistributedLockManager.viewAccepted(org.jgroups.View);org.jgroups.View;1;5;1;0.9183673469387755;0.9642857142857143;15;327;91
 org.jgroups.mux.MuxChannel.getClusterName();org.jgroups.JChannel;1;0;1;1.0;0.9855072463768116;3;163;822
 org.jgroups.protocols.pbcast.NAKACK.stable(org.jgroups.util.Digest);org.jgroups.stack.Protocol;3;6;4;0.9333333333333333;0.926829268292683;48;946;110
-org.jgroups.JChannel.shutdown();org.jgroups.Event;0;0;0;0;0
+org.jgroups.JChannel.shutdown();org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.debug.Simulator.send(org.jgroups.Event);org.jgroups.stack.Protocol;1;0;1;1.0;0.9545454545454546;3;162;110
 org.jgroups.protocols.pbcast.STATE_TRANSFER.size();org.jgroups.Global;0;2;3;0.9512195121951219;1.0;9;378;30
 org.jgroups.protocols.TUNNEL.run();org.jgroups.util.Util;0;2;3;0.9428571428571428;1.0;12;221;1508
@@ -2606,16 +2606,16 @@ org.jgroups.protocols.pbcast.ParticipantGmsImpl.wouldIBeCoordinator();org.jgroup
 org.jgroups.protocols.pbcast.FLUSH.hasVirtualSynchronyGaps();org.jgroups.util.Digest;1;2;1;0.9696969696969697;0.96875;14;626;269
 org.jgroups.protocols.pbcast.STABLE.down(org.jgroups.Event);org.jgroups.Event;2;3;2;0.9516129032258065;0.8;19;510;115
 org.jgroups.jmx.JChannel.create();org.jgroups.jmx.JmxConfigurator;1;5;2;0.9295774647887324;1.0;8;259;85
-org.jgroups.jmx.protocols.MPING.isReceiveOnAllInterfaces();org.jgroups.protocols.MPING;0;0;0;0;0
-org.jgroups.jmx.protocols.pbcast.NAKACK.printRetransmissionTimes();org.jgroups.protocols.pbcast.NAKACK;0;0;0;0;0
+org.jgroups.jmx.protocols.MPING.isReceiveOnAllInterfaces();org.jgroups.protocols.MPING;0;0;0;0;0;0;0;0
+org.jgroups.jmx.protocols.pbcast.NAKACK.printRetransmissionTimes();org.jgroups.protocols.pbcast.NAKACK;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.FC.getCreditResponsesReceived();org.jgroups.protocols.FC;1;0;1;1.0;0.9814814814814815;3;73;482
 org.jgroups.demos.applets.DrawApplet.run();org.jgroups.Channel;1;7;2;0.8372093023255813;1.0;43;200;111
-org.jgroups.stack.NakReceiverWindow.getPendingXmits();org.jgroups.stack.Retransmitter;0;0;0;0;0
+org.jgroups.stack.NakReceiverWindow.getPendingXmits();org.jgroups.stack.Retransmitter;0;0;0;0;0;0;0;0
 org.jgroups.protocols.pbcast.ClientGmsImpl.becomeSingletonMember(org.jgroups.Address);org.jgroups.stack.Protocol;2;0;4;1.0;0.9333333333333333;14;233;110
 org.jgroups.jmx.protocols.SEQUENCER.getReceivedForwards();org.jgroups.protocols.SEQUENCER;1;0;1;1.0;0.96875;3;40;224
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.stop();org.jgroups.Global;0;4;2;0.9512195121951219;1.0;30;655;30
 org.jgroups.util.MutableDigest.merge(long, long, long, org.jgroups.Address);org.jgroups.util.Digest;4;2;1;0.9583333333333334;0.8787878787878788;15;122;269
-org.jgroups.protocols.SHARED_LOOPBACK.down(org.jgroups.Event);org.jgroups.Event;0;0;0;0;0
+org.jgroups.protocols.SHARED_LOOPBACK.down(org.jgroups.Event);org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FD_ALL.up(org.jgroups.Event);org.jgroups.stack.Protocol;4;9;3;0.8392857142857143;0.8918918918918919;40;323;110
 org.jgroups.protocols.pbcast.ClientGmsImpl.join(org.jgroups.Address);org.jgroups.View;1;6;12;0.8666666666666667;0.9787234042553191;95;233;91
 org.jgroups.protocols.pbcast.FLUSH.blockMessageDuringFlush();org.jgroups.util.Promise;1;4;2;0.9436619718309859;0.9565217391304348;27;626;88
@@ -2629,7 +2629,7 @@ org.jgroups.View.equals(java.lang.Object);org.jgroups.ViewId;1;1;1;0.94444444444
 org.jgroups.jmx.protocols.FD.getNumberOfHeartbeatsSent();org.jgroups.protocols.FD;1;0;1;1.0;0.9811320754716981;3;52;430
 org.jgroups.protocols.pbcast.STREAMING_STATE_TRANSFER.up(org.jgroups.Event);org.jgroups.stack.Protocol;2;9;3;0.9012345679012346;0.9444444444444444;42;655;110
 org.jgroups.stack.GossipClient._unregister(java.lang.String, org.jgroups.Address);org.jgroups.stack.IpAddress;2;2;4;0.9285714285714286;0.9230769230769231;34;292;167
-org.jgroups.protocols.pbcast.FLUSH.startFlush(boolean, int, org.jgroups.Event);org.jgroups.Event;0;0;0;0;0
+org.jgroups.protocols.pbcast.FLUSH.startFlush(boolean, int, org.jgroups.Event);org.jgroups.Event;0;0;0;0;0;0;0;0
 org.jgroups.protocols.TCP.setProperties(java.util.Properties);org.jgroups.protocols.BasicTCP;1;0;2;1.0;0.9583333333333334;8;59;174
 org.jgroups.protocols.pbcast.STATE_TRANSFER.size();org.jgroups.util.Digest;1;2;3;0.9512195121951219;0.9666666666666667;9;378;269
 org.jgroups.protocols.FC.handleDownMessage(org.jgroups.Event);org.jgroups.stack.Protocol;3;17;4;0.7945205479452055;0.9433962264150944;51;482;110
@@ -2658,10 +2658,10 @@ org.jgroups.jmx.protocols.pbcast.NAKACK.getXmitRequestsReceived();org.jgroups.pr
 org.jgroups.protocols.pbcast.ParticipantGmsImpl.wouldIBeCoordinator();org.jgroups.Membership;1;1;3;0.9473684210526316;0.9565217391304348;8;97;92
 org.jgroups.protocols.pbcast.NAKACK.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;10;2;0.8795180722891567;0.9487179487179487;72;946;110
 org.jgroups.protocols.ENCRYPT.handleViewChange(org.jgroups.View);org.jgroups.stack.Protocol;1;4;2;0.9428571428571428;0.9655172413793104;16;617;110
-org.jgroups.mux.Multiplexer.handleServiceDown(boolean, java.lang.String, org.jgroups.Address);org.jgroups.mux.MuxChannel;0;0;0;0;0
+org.jgroups.mux.Multiplexer.handleServiceDown(boolean, java.lang.String, org.jgroups.Address);org.jgroups.mux.MuxChannel;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.SFC.getReplenishmentsReceived();org.jgroups.protocols.SFC;1;0;1;1.0;0.98;3;62;383
 org.jgroups.protocols.pbcast.NAKACK.mergeDigest(org.jgroups.util.Digest);org.jgroups.util.Digest;2;2;3;0.989010989010989;0.9534883720930233;38;946;269
-org.jgroups.protocols.pbcast.NAKACK.setDiscardDeliveredMsgs(boolean);org.jgroups.stack.NakReceiverWindow;0;0;0;0;0
+org.jgroups.protocols.pbcast.NAKACK.setDiscardDeliveredMsgs(boolean);org.jgroups.stack.NakReceiverWindow;0;0;0;0;0;0;0;0
 org.jgroups.protocols.TunnelHeader.readFrom(java.io.DataInputStream);org.jgroups.util.Util;0;1;1;0.8571428571428572;1.0;3;23;1508
 org.jgroups.protocols.SEQUENCER.deliver(org.jgroups.Message, org.jgroups.protocols.SEQUENCER.SequencerHeader);org.jgroups.Message;2;5;3;0.8780487804878049;0.9591836734693877;24;224;497
 org.jgroups.protocols.MERGEFAST.down(org.jgroups.Event);org.jgroups.Message;2;3;3;0.8;0.9545454545454546;13;64;497
@@ -2675,7 +2675,7 @@ org.jgroups.protocols.COMPRESS.size();org.jgroups.Global;0;0;1;1.0;1.0;3;133;30
 org.jgroups.protocols.MERGEFAST.handleViewChange(org.jgroups.View);org.jgroups.View;1;2;1;0.8461538461538461;0.9473684210526316;6;64;91
 org.jgroups.protocols.pbcast.GMS.castViewChangeWithDest(java.util.List, org.jgroups.util.Digest, org.jgroups.View);org.jgroups.stack.Protocol;3;2;5;0.9824561403508771;0.9117647058823529;26;893;110
 org.jgroups.jmx.JChannelFactory.setExposeChannels(boolean);org.jgroups.JChannelFactory;1;0;1;1.0;0.9722222222222222;3;55;416
-org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.protocols.pbcast.GmsImpl;0;0;0;0;0
+org.jgroups.protocols.pbcast.GMS.installView(org.jgroups.util.Digest, org.jgroups.View);org.jgroups.protocols.pbcast.GmsImpl;0;0;0;0;0;0;0;0
 org.jgroups.protocols.STATS.setProperties(java.util.Properties);org.jgroups.stack.Protocol;2;0;1;1.0;0.9130434782608696;8;160;110
 org.jgroups.jmx.protocols.FC.getAverageTimeBlocked();org.jgroups.protocols.FC;1;0;1;1.0;0.9814814814814815;3;73;482
 org.jgroups.protocols.pbcast.CoordGmsImpl.getMergeDataFromSubgroupCoordinators(java.util.Vector, long);org.jgroups.protocols.pbcast.GMS;2;2;5;0.9672131147540983;0.9824561403508771;51;524;893
@@ -2693,15 +2693,15 @@ org.jgroups.demos.TotalOrder.run();org.jgroups.demos.MyCanvas;2;3;6;0.9375;0.954
 org.jgroups.demos.Draw.sendClearPanelMsg();org.jgroups.util.Util;0;0;3;1.0;1.0;12;419;1508
 org.jgroups.blocks.VotingAdapter.processResponses(int, java.lang.Object, org.jgroups.util.RspList);org.jgroups.util.Rsp;1;3;2;0.9117647058823529;0.9333333333333333;31;216;43
 org.jgroups.protocols.TCP.printConnections();org.jgroups.blocks.BasicConnectionTable;1;0;1;1.0;0.9859154929577465;3;59;397
-org.jgroups.protocols.TUNNEL.start();org.jgroups.stack.IpAddress;0;0;0;0;0
+org.jgroups.protocols.TUNNEL.start();org.jgroups.stack.IpAddress;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.pbcast.NAKACK.getXmitResponsesSent();org.jgroups.protocols.pbcast.NAKACK;1;0;1;1.0;0.9864864864864865;3;79;946
 org.jgroups.jmx.protocols.MPING.getTTL();org.jgroups.protocols.MPING;1;0;1;1.0;0.9444444444444444;3;40;200
 org.jgroups.jmx.protocols.pbcast.NAKACK.isDiscardDeliveredMsgs();org.jgroups.protocols.pbcast.NAKACK;1;0;1;1.0;0.9864864864864865;3;79;946
 org.jgroups.protocols.SIZE.down(org.jgroups.Event);org.jgroups.stack.Protocol;3;5;3;0.736842105263158;0.9032258064516129;23;97;110
 org.jgroups.jmx.protocols.MPING.setTTL(int);org.jgroups.protocols.MPING;1;0;1;1.0;0.9444444444444444;3;40;200
 org.jgroups.protocols.MERGE2.run();org.jgroups.stack.Protocol;1;0;1;1.0;0.9545454545454546;3;163;110
-org.jgroups.blocks.BasicConnectionTable.destroy();org.jgroups.util.Util;0;0;0;0;0
-org.jgroups.protocols.UNICAST.getUnackedMessages();org.jgroups.stack.AckSenderWindow;0;0;0;0;0
+org.jgroups.blocks.BasicConnectionTable.destroy();org.jgroups.util.Util;0;0;0;0;0;0;0;0
+org.jgroups.protocols.UNICAST.getUnackedMessages();org.jgroups.stack.AckSenderWindow;0;0;0;0;0;0;0;0
 org.jgroups.jmx.protocols.FD_ALL.getInterval();org.jgroups.protocols.FD_ALL;1;0;1;1.0;0.9782608695652174;3;52;323
 org.jgroups.protocols.TunnelHeader.writeTo(java.io.DataOutputStream);org.jgroups.util.Util;1;1;1;0.875;1.0;3;23;1508
 org.jgroups.protocols.pbcast.STABLE.up(org.jgroups.Event);org.jgroups.stack.Protocol;2;6;3;0.9230769230769231;0.9375;34;510;110
@@ -2711,7 +2711,7 @@ org.jgroups.protocols.VERIFY_SUSPECT.run();org.jgroups.util.Util;0;3;3;0.9302325
 org.jgroups.blocks.DistributedHashtable.getState();org.jgroups.util.Util;0;1;1;0.9782608695652174;1.0;16;409;1508
 org.jgroups.protocols.pbcast.FLUSH.providedDownServices();org.jgroups.Event;0;0;1;1.0;1.0;6;626;115
 org.jgroups.blocks.ReplicatedHashtable.remove(java.lang.Object);org.jgroups.Channel;1;1;1;0.9722222222222222;1.0;17;299;111
-org.jgroups.jmx.protocols.MPING.getReceiveInterfaces();org.jgroups.protocols.MPING;0;0;0;0;0
+org.jgroups.jmx.protocols.MPING.getReceiveInterfaces();org.jgroups.protocols.MPING;0;0;0;0;0;0;0;0
 org.jgroups.protocols.FD.run();org.jgroups.Event;0;5;3;0.9152542372881356;1.0;20;430;115
 org.jgroups.protocols.BARRIER.init();org.jgroups.stack.ProtocolStack;0;0;2;1.0;1.0;4;139;230
 org.jgroups.protocols.pbcast.GMS.stop();org.jgroups.util.List;1;2;2;0.9805825242718447;0.96875;5;893;264

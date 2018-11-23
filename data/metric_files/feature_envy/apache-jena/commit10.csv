@@ -498,7 +498,7 @@ com.hp.hpl.jena.reasoner.rulesys.FBRuleInfGraph.prepare();com.hp.hpl.jena.reason
 com.hp.hpl.jena.rdf.model.impl.ResourceImpl.addProperty(com.hp.hpl.jena.datatypes.RDFDatatype, com.hp.hpl.jena.rdf.model.Property, java.lang.String);com.hp.hpl.jena.rdf.model.impl.ModelCom;1;1;1;0.98;1.0;4;222;901
 com.hp.hpl.jena.mem.NodeToTriplesMapMem.iterator(com.hp.hpl.jena.mem.HashCommon.NotifyEmpty, java.lang.Object);com.hp.hpl.jena.mem.NodeToTriplesMapBase;1;0;1;1.0;0.9473684210526316;4;105;70
 com.hp.hpl.jena.ontology.impl.OWLProfile.hasType(com.hp.hpl.jena.enhanced.EnhGraph, com.hp.hpl.jena.graph.Node, com.hp.hpl.jena.rdf.model.Resource[]);com.hp.hpl.jena.vocabulary.RDF;0;3;2;0.9866666666666667;1.0;14;248;12
-com.hp.hpl.jena.rdf.arp.impl.XMLHandler.warning(com.hp.hpl.jena.rdf.arp.impl.ARPLocation, com.hp.hpl.jena.rdf.arp.impl.Taint, int, java.lang.String);com.hp.hpl.jena.rdf.arp.ARPOptions;0;0;0;0;0
+com.hp.hpl.jena.rdf.arp.impl.XMLHandler.warning(com.hp.hpl.jena.rdf.arp.impl.ARPLocation, com.hp.hpl.jena.rdf.arp.impl.Taint, int, java.lang.String);com.hp.hpl.jena.rdf.arp.ARPOptions;0;0;0;0;0;0;0;0
 com.hp.hpl.jena.reasoner.rulesys.builtins.NotLiteral.bodyCall(com.hp.hpl.jena.graph.Node[], com.hp.hpl.jena.reasoner.rulesys.RuleContext, int);com.hp.hpl.jena.reasoner.rulesys.builtins.BaseBuiltin;2;0;2;1.0;1.0;4;10;27
 com.hp.hpl.jena.graph.query.regexptrees.Optional.toString();com.hp.hpl.jena.graph.query.regexptrees.Repeated;0;0;2;1.0;1.0;3;12;6
 com.hp.hpl.jena.ontology.impl.OntPropertyImpl.listRange();com.hp.hpl.jena.ontology.impl.OntResourceImpl;2;0;1;1.0;0.9911504424778761;3;257;644

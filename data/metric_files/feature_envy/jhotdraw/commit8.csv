@@ -50,7 +50,7 @@ org.jhotdraw.samples.svg.figures.SVGImageFigure.getActions(java.awt.geom.Point2D
 org.jhotdraw.geom.BezierPath.getRelativePositionOnPath(double, java.awt.geom.Point2D.Double);org.jhotdraw.geom.Geom;0;8;1;0.8888888888888888;1.0;54;766;430
 org.jhotdraw.draw.ImageFigure.setImageData(byte[]);org.jhotdraw.draw.AbstractFigure;2;2;1;0.9333333333333333;0.967741935483871;6;201;332
 org.jhotdraw.samples.draw.DrawingPanel.addDefaultCreationButtonsTo(java.util.Collection<javax.swing.Action>, java.util.Collection<javax.swing.Action>, javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.ConnectionTool;1;0;5;1.0;0.9666666666666667;29;134;235
-org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintContentBorder(int, int, java.awt.Graphics);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintContentBorder(int, int, java.awt.Graphics);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.TransformHandleKit.draw(java.awt.Graphics2D);org.jhotdraw.draw.handle.HandleAttributeKeys;0;0;2;1.0;1.0;8;176;0
 org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction.saveViewToURI(java.net.URI, org.jhotdraw.app.View, org.jhotdraw.gui.URIChooser);org.jhotdraw.net.URIUtil;0;6;4;0.8;1.0;31;155;8
 org.jhotdraw.app.action.file.SaveFileAction.failed(java.lang.Throwable);org.jhotdraw.gui.JSheet;1;0;4;1.0;1.0;12;144;627
@@ -68,7 +68,7 @@ org.jhotdraw.color.DefaultHarmonicColorModel.setColorSpace(java.awt.color.ColorS
 org.jhotdraw.app.SDIApplication.createModelActionMap(org.jhotdraw.app.ApplicationModel);org.jhotdraw.app.action.file.ClearRecentFilesMenuAction;0;0;2;1.0;1.0;8;325;38
 org.jhotdraw.samples.odg.figures.ODGPathFigure.setBounds(java.awt.geom.Point2D.Double, java.awt.geom.Point2D.Double);org.jhotdraw.draw.AbstractCompositeFigure;2;2;2;0.9393939393939394;0.9726027397260274;10;372;456
 org.jhotdraw.samples.svg.io.DefaultSVGFigureFactory.createPolygon(java.awt.geom.Point2D.Double[], java.util.Map<org.jhotdraw.draw.AttributeKey,java.lang.Object>);org.jhotdraw.draw.AbstractAttributedCompositeFigure;1;0;3;1.0;0.96875;12;108;177
-org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.getIcon(java.awt.Component);org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.getIcon(java.awt.Component);org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.figures.ODGEllipseFigure.transform(java.awt.geom.AffineTransform);org.jhotdraw.samples.odg.figures.ODGAttributedFigure;1;2;3;0.935483870967742;0.9333333333333333;28;136;84
 org.jhotdraw.draw.AbstractCompositeFigure.removeAllChildren();org.jhotdraw.draw.AbstractFigure;1;4;1;0.9436619718309859;0.9846153846153847;10;456;332
 org.jhotdraw.color.SimpleHarmonicRule.apply(org.jhotdraw.color.HarmonicColorModel);org.jhotdraw.color.AbstractHarmonicRule;2;2;1;0.8181818181818181;0.7777777777777778;13;33;11
@@ -134,7 +134,7 @@ org.jhotdraw.samples.svg.figures.SVGPathFigure.restoreTransformTo(java.lang.Obje
 org.jhotdraw.samples.svg.io.DefaultSVGFigureFactory.createText(double[], java.awt.geom.Point2D.Double[], java.util.Map<org.jhotdraw.draw.AttributeKey,java.lang.Object>, javax.swing.text.StyledDocument);org.jhotdraw.draw.AbstractAttributedFigure;1;0;2;1.0;0.967741935483871;15;108;168
 org.jhotdraw.draw.AbstractFigure.clone();org.jhotdraw.beans.AbstractBean;1;2;1;0.9672131147540983;0.9166666666666666;6;332;63
 org.jhotdraw.xml.NanoXMLDOMInput.getTagName();net.n3.nanoxml.XMLElement;1;0;1;1.0;0.9818181818181818;3;142;473
-org.jhotdraw.draw.action.DrawingColorChooserHandler.applySelectedColorToFigures();org.jhotdraw.draw.AttributeKeys;0;0;0;0;0
+org.jhotdraw.draw.action.DrawingColorChooserHandler.applySelectedColorToFigures();org.jhotdraw.draw.AttributeKeys;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.AbstractAttributedDecoratedFigure.getFigureDrawingArea();org.jhotdraw.draw.AbstractAttributedFigure;1;0;1;1.0;0.9583333333333334;3;88;168
 org.jhotdraw.samples.svg.action.CombineAction.splitActionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.action.AbstractSelectedAction;2;6;3;0.8823529411764706;0.9473684210526316;38;187;102
 org.jhotdraw.draw.handle.AbstractRotateHandle.getTransformedBounds();org.jhotdraw.draw.handle.AbstractHandle;1;0;1;1.0;0.9795918367346939;12;104;220
@@ -171,7 +171,7 @@ org.jhotdraw.draw.TextAreaFigure.drawText(java.awt.Graphics2D);org.jhotdraw.draw
 org.jhotdraw.draw.handle.BezierOutlineHandle.getOwner();org.jhotdraw.draw.handle.AbstractHandle;1;0;1;1.0;0.9743589743589743;3;64;220
 org.jhotdraw.samples.odg.figures.ODGBezierFigure.createHandles(int, org.jhotdraw.samples.odg.figures.ODGPathFigure);org.jhotdraw.draw.BezierFigure;0;0;2;1.0;1.0;16;102;458
 org.jhotdraw.draw.handle.BezierNodeHandle.keyPressed(java.awt.event.KeyEvent);org.jhotdraw.geom.BezierPath;2;6;5;0.875;0.9772727272727273;66;290;766
-org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.installDefaults();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.installDefaults();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.ConnectorHandle.repaintConnectors();org.jhotdraw.draw.handle.AbstractHandle;1;3;1;0.896551724137931;0.9791666666666666;23;183;220
 org.jhotdraw.app.action.app.ReOpenApplicationAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.app.action.AbstractApplicationAction;1;0;1;1.0;0.9545454545454546;14;18;49
 org.jhotdraw.draw.handle.AbstractHandle.draw(java.awt.Graphics2D);org.jhotdraw.draw.handle.HandleAttributeKeys;0;2;1;0.975609756097561;1.0;3;220;0
@@ -224,7 +224,7 @@ org.jhotdraw.samples.svg.figures.SVGTextAreaFigure.getText();org.jhotdraw.draw.A
 org.jhotdraw.samples.draw.DrawView.write(java.net.URI, org.jhotdraw.gui.URIChooser);org.jhotdraw.draw.DefaultDrawingView;1;0;1;1.0;0.9915254237288136;5;153;1005
 org.jhotdraw.app.action.view.ViewPropertyAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.app.action.AbstractViewAction;1;3;1;0.8125;0.9545454545454546;11;53;68
 org.jhotdraw.draw.event.BezierNodeEdit.undo();org.jhotdraw.draw.AbstractFigure;2;2;2;0.8181818181818181;0.96875;6;39;332
-org.jhotdraw.draw.action.DrawingColorChooserHandler.updateEnabledState();org.jhotdraw.draw.action.AbstractDrawingViewAction;0;0;0;0;0
+org.jhotdraw.draw.action.DrawingColorChooserHandler.updateEnabledState();org.jhotdraw.draw.action.AbstractDrawingViewAction;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.BezierFigure.undo();org.jhotdraw.draw.AbstractFigure;2;1;1;0.9830508474576272;0.967741935483871;6;458;332
 org.jhotdraw.draw.handle.BezierNodeHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.AbstractFigure;2;3;4;0.90625;0.9722222222222222;17;290;332
 org.jhotdraw.draw.tool.BezierTool.fireUndoEvent(org.jhotdraw.draw.DrawingView, org.jhotdraw.draw.Figure);org.jhotdraw.draw.tool.AbstractTool;1;3;1;0.9032258064516129;0.9818181818181818;21;253;236
@@ -307,7 +307,7 @@ org.jhotdraw.app.action.app.PrintApplicationFileAction.done(java.lang.Object);or
 org.jhotdraw.draw.tool.DefaultSelectAreaTracker.deactivate(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.AbstractTool;1;1;1;0.9444444444444444;0.9777777777777777;4;120;236
 org.jhotdraw.draw.action.DrawingColorChooserAction.getInitialColor();org.jhotdraw.draw.action.EditorColorChooserAction;2;0;2;1.0;0.75;12;49;40
 org.jhotdraw.app.action.app.ExitAction.getChooser(org.jhotdraw.app.View);org.jhotdraw.app.action.AbstractApplicationAction;1;0;1;1.0;0.9333333333333333;8;293;49
-org.jhotdraw.draw.action.SelectionColorChooserHandler.updateEnabledState();org.jhotdraw.draw.action.AbstractSelectedAction;0;0;0;0;0
+org.jhotdraw.draw.action.SelectionColorChooserHandler.updateEnabledState();org.jhotdraw.draw.action.AbstractSelectedAction;0;0;0;0;0;0;0;0
 org.jhotdraw.app.OSXApplication.removeWindow(java.awt.Window);org.jhotdraw.app.osx.OSXPaletteHandler;1;0;1;1.0;0.9444444444444444;6;486;89
 org.jhotdraw.samples.draw.DrawApplet.getDrawing();org.jhotdraw.samples.draw.DrawingPanel;1;0;1;1.0;0.9166666666666666;3;213;134
 org.jhotdraw.samples.svg.io.ImageMapOutputFormat.writeTextAreaElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGTextAreaFigure);org.jhotdraw.samples.svg.figures.SVGTextAreaFigure;1;1;1;1.0;0.9772727272727273;12;331;363
@@ -366,7 +366,7 @@ org.jhotdraw.samples.net.NetApplicationModel.createMenus(org.jhotdraw.app.Applic
 org.jhotdraw.samples.svg.gui.CanvasToolBar.createDisclosedComponent(int);org.jhotdraw.util.Images;0;0;12;1.0;1.0;251;262;124
 org.jhotdraw.draw.LabeledLineConnectionFigure.removeNotify(org.jhotdraw.draw.Drawing);org.jhotdraw.draw.LineConnectionFigure;1;1;1;0.9772727272727273;0.975609756097561;6;256;332
 org.jhotdraw.app.OSXApplication.initScreenMenuBar();org.jhotdraw.app.osx.OSXPaletteHandler;1;3;10;0.9318181818181819;0.9523809523809523;26;486;89
-org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.installDefaults();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.installDefaults();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.app.SDIApplication.createFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.file.LoadDirectoryAction;0;0;14;1.0;1.0;24;325;8
 org.jhotdraw.draw.action.AlignAction.getSelectionBounds();org.jhotdraw.draw.action.AbstractSelectedAction;1;0;1;1.0;0.9545454545454546;13;93;102
 org.jhotdraw.draw.handle.MoveHandle.trackStart(int, java.awt.Point);org.jhotdraw.draw.handle.AbstractHandle;1;1;1;0.9090909090909091;0.9767441860465116;3;94;220
@@ -375,7 +375,7 @@ org.jhotdraw.draw.LineConnectionFigure.redo();org.jhotdraw.draw.BezierFigure;1;0
 org.jhotdraw.samples.odg.ODGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.samples.odg.ODGView;0;0;4;1.0;1.0;14;188;186
 org.jhotdraw.app.OSXApplication.createEditMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.edit.CutAction;0;0;12;1.0;1.0;21;486;17
 org.jhotdraw.draw.tool.BezierTool.activate(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.AbstractTool;2;0;1;1.0;0.9574468085106383;4;253;236
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.io.DefaultSVGFigureFactory.createLine(double, double, double, double, java.util.Map<org.jhotdraw.draw.AttributeKey,java.lang.Object>);org.jhotdraw.draw.BezierFigure;1;0;3;1.0;0.9830508474576272;10;108;458
 org.jhotdraw.draw.QuadTreeCompositeFigure.indexOf(org.jhotdraw.draw.Figure);org.jhotdraw.draw.AbstractCompositeFigure;1;0;1;1.0;0.9857142857142858;3;228;456
 org.jhotdraw.draw.handle.ConnectionEndHandle.getLocation();org.jhotdraw.draw.handle.AbstractConnectionHandle;1;0;1;1.0;0.9565217391304348;3;26;187
@@ -405,8 +405,8 @@ org.jhotdraw.draw.handle.BezierNodeHandle.fireAreaInvalidated(org.jhotdraw.geom.
 org.jhotdraw.draw.TextAreaFigure.drawText(java.awt.Graphics2D);org.jhotdraw.geom.Insets2D;4;7;3;0.8983050847457628;0.9130434782608696;41;291;86
 org.jhotdraw.samples.svg.figures.ConvexHullOutlineHandle.basicGetBounds();org.jhotdraw.draw.AbstractAttributedCompositeFigure;1;1;3;0.9583333333333334;0.9696969696969697;10;115;177
 org.jhotdraw.draw.TextFigure.invalidate();org.jhotdraw.draw.AbstractFigure;1;1;1;0.9722222222222222;0.9836065573770492;4;173;332
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLabelUI;0;0;0;0;0
-org.jhotdraw.draw.action.SelectionColorChooserHandler.applySelectedColorToFigures();org.jhotdraw.draw.action.AbstractSelectedAction;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLabelUI;0;0;0;0;0;0;0;0
+org.jhotdraw.draw.action.SelectionColorChooserHandler.applySelectedColorToFigures();org.jhotdraw.draw.action.AbstractSelectedAction;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.figures.ODGPathFigure.transform(java.awt.geom.AffineTransform);org.jhotdraw.draw.AbstractAttributedCompositeFigure;1;2;2;0.9444444444444444;0.9705882352941176;28;372;177
 org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.DefaultApplicationModel;1;0;5;1.0;0.9;10;167;58
 org.jhotdraw.draw.tool.DefaultHandleTracker.mouseMoved(java.awt.event.MouseEvent);org.jhotdraw.draw.tool.AbstractTool;2;2;1;0.9393939393939394;0.9827586206896551;26;147;236
@@ -481,7 +481,7 @@ org.jhotdraw.draw.tool.DelegationSelectionTool.mousePressed(java.awt.event.Mouse
 org.jhotdraw.draw.tool.ImageTool.done(java.lang.Object);org.jhotdraw.draw.tool.CreationTool;2;0;2;1.0;0.9230769230769231;13;117;171
 org.jhotdraw.app.SDIApplication.createEditMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.edit.SelectAllAction;0;0;13;1.0;1.0;23;325;30
 org.jhotdraw.samples.pert.PertApplicationModel.addCreationButtonsTo(javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.action.ButtonFactory;1;0;3;1.0;1.0;17;119;724
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.gui.StrokeToolBar.createDisclosedComponent(int);org.jhotdraw.gui.JPopupButton;3;0;11;1.0;0.9733333333333334;222;247;175
 org.jhotdraw.samples.teddy.FindDialog.previous(java.awt.event.ActionEvent);org.jhotdraw.samples.teddy.regex.Matcher;4;3;2;0.9302325581395349;0.8333333333333334;19;256;138
 org.jhotdraw.app.SDIApplication.createEditMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.edit.RedoAction;0;0;13;1.0;1.0;23;325;51
@@ -596,7 +596,7 @@ org.jhotdraw.samples.odg.figures.ODGRectRadiusHandle.locate();org.jhotdraw.draw.
 org.jhotdraw.draw.connector.StickyRectangleConnector.read(org.jhotdraw.xml.DOMInput);org.jhotdraw.draw.connector.AbstractConnector;1;1;1;0.9;0.95;4;40;88
 org.jhotdraw.samples.svg.figures.LinkHandle.draw(java.awt.Graphics2D);org.jhotdraw.draw.handle.HandleAttributeKeys;0;1;2;0.9411764705882353;1.0;13;43;0
 org.jhotdraw.app.action.file.SaveFileAction.getChooser(org.jhotdraw.app.View);org.jhotdraw.app.action.AbstractViewAction;1;0;1;1.0;0.95;8;144;68
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.buildChooser();org.jhotdraw.draw.action.ButtonFactory;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.buildChooser();org.jhotdraw.draw.action.ButtonFactory;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.figures.SVGTextFigure.getText();org.jhotdraw.draw.AbstractAttributedFigure;1;0;1;1.0;0.9583333333333334;3;299;168
 org.jhotdraw.app.action.file.LoadFileAction.failed(java.lang.Throwable);org.jhotdraw.util.ResourceBundleUtil;1;0;3;1.0;1.0;10;87;273
 org.jhotdraw.draw.LabeledLineConnectionFigure.getDrawingArea();org.jhotdraw.draw.BezierFigure;1;2;1;0.9583333333333334;0.9841269841269842;14;256;458
@@ -621,13 +621,13 @@ org.jhotdraw.draw.action.ApplyAttributesAction.selectionChanged(org.jhotdraw.dra
 org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.util.ResourceBundleUtil;2;4;5;0.9;0.9795918367346939;40;155;273
 org.jhotdraw.samples.svg.io.SVGOutputFormat.writePolylineElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGPathFigure);org.jhotdraw.samples.svg.figures.SVGPathFigure;1;2;5;0.9838709677419355;0.975;11;781;399
 org.jhotdraw.draw.action.DrawingColorChooserAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.action.EditorColorChooserAction;1;1;4;0.9230769230769231;0.9285714285714286;14;49;40
-org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.samples.svg.SVGView;0;0;0;0;0
+org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.samples.svg.SVGView;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.BezierScaleHandle.trackStart(int, java.awt.Point);org.jhotdraw.draw.handle.AbstractHandle;1;7;3;0.6956521739130435;0.9811320754716981;9;71;220
 org.jhotdraw.draw.GraphicalCompositeFigure.writeAttributes(org.jhotdraw.xml.DOMOutput);org.jhotdraw.draw.AttributeKey;0;3;1;0.9333333333333333;1.0;23;241;133
 org.jhotdraw.draw.handle.ResizeHandleKit.setBounds(java.awt.geom.Point2D.Double, java.awt.geom.Point2D.Double);org.jhotdraw.draw.handle.AbstractHandle;1;0;1;1.0;0.9761904761904762;6;150;220
 org.jhotdraw.gui.JFontChooser.updateSelectionPath(java.awt.Font);org.jhotdraw.gui.fontchooser.FontFamilyNode;1;3;3;0.9142857142857143;0.9714285714285714;57;245;117
 org.jhotdraw.samples.mini.FileIconsSample.run();org.jhotdraw.draw.AbstractAttributedFigure;1;0;7;1.0;0.9868421052631579;64;133;168
-org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.paintIcon(int, int, java.awt.Component, java.awt.Graphics);org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.paintIcon(int, int, java.awt.Component, java.awt.Graphics);org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.SVGApplet.init();org.jhotdraw.gui.Worker;1;13;5;0.7547169811320755;0.9803921568627451;79;348;26
 org.jhotdraw.samples.pert.figures.TaskFigure.getDuration();org.jhotdraw.draw.TextFigure;1;1;1;0.9615384615384616;0.972972972972973;8;217;173
 org.jhotdraw.samples.svg.gui.StrokeToolBar.setEditor(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.event.SelectionComponentDisplayer;1;0;2;1.0;0.9230769230769231;11;247;71
@@ -685,7 +685,7 @@ org.jhotdraw.samples.svg.io.SVGInputFormat.read(boolean, java.io.InputStream, or
 org.jhotdraw.draw.LineConnectionFigure.setEndPoint(java.awt.geom.Point2D.Double);org.jhotdraw.draw.BezierFigure;1;1;1;0.975;0.9824561403508771;3;332;458
 org.jhotdraw.draw.tool.TextEditingTool.getPresentationName();org.jhotdraw.util.ResourceBundleUtil;1;0;1;1.0;0.962962962962963;4;102;273
 org.jhotdraw.samples.svg.figures.SVGBezierFigure.handleMouseClick(java.awt.event.MouseEvent, java.awt.geom.Point2D.Double, org.jhotdraw.draw.DrawingView);org.jhotdraw.draw.AbstractFigure;3;3;4;0.896551724137931;0.9605263157894737;40;169;332
-org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.installPreviewPanel();org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorChooserMainPanel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.installPreviewPanel();org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorChooserMainPanel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.ImageFigure.drawStroke(java.awt.Graphics2D);org.jhotdraw.draw.AttributeKeys;0;1;1;0.9666666666666667;1.0;6;201;166
 org.jhotdraw.draw.GridConstrainer.setMajorGridSpacing(int);org.jhotdraw.draw.AbstractConstrainer;1;1;2;0.9545454545454546;0.875;6;305;24
 org.jhotdraw.samples.color.JMixer.stateChanged(javax.swing.event.ChangeEvent);org.jhotdraw.color.JHarmonicColorWheel;2;1;3;0.984375;0.9428571428571428;15;676;223
@@ -696,7 +696,7 @@ org.jhotdraw.app.action.app.PrintApplicationFileAction.actionPerformed(java.awt.
 org.jhotdraw.draw.QuadTreeCompositeFigure.undoableEditHappened(javax.swing.event.UndoableEditEvent);org.jhotdraw.draw.AbstractFigure;1;0;1;1.0;0.9836065573770492;3;228;332
 org.jhotdraw.samples.svg.figures.SVGRectRadiusHandle.locate();org.jhotdraw.draw.AbstractAttributedFigure;1;0;3;1.0;0.96875;9;102;168
 org.jhotdraw.draw.event.BezierNodeEdit.redo();org.jhotdraw.geom.BezierPath;1;3;3;0.75;0.984375;8;39;766
-org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.updateColorChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[], javax.swing.colorchooser.AbstractColorChooserPanel[]);org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorChooserMainPanel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.updateColorChooserPanels(javax.swing.colorchooser.AbstractColorChooserPanel[], javax.swing.colorchooser.AbstractColorChooserPanel[]);org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorChooserMainPanel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.LineConnectionFigure.handleMouseClick(java.awt.event.MouseEvent, java.awt.geom.Point2D.Double, org.jhotdraw.draw.DrawingView);org.jhotdraw.draw.BezierFigure;4;3;2;0.94;0.9552238805970149;27;332;458
 org.jhotdraw.draw.handle.ConnectorHandle.draw(java.awt.Graphics2D);org.jhotdraw.draw.handle.AbstractHandle;4;2;2;0.9473684210526316;0.9444444444444444;19;183;220
 org.jhotdraw.samples.odg.figures.ODGBezierFigure.redo();org.jhotdraw.draw.BezierFigure;1;0;2;1.0;0.9830508474576272;6;102;458
@@ -751,7 +751,7 @@ org.jhotdraw.samples.svg.io.SVGOutputFormat.writeElement(net.n3.nanoxml.IXMLElem
 org.jhotdraw.samples.svg.figures.SVGRectFigure.setArcHeight(double);org.jhotdraw.beans.AbstractBean;1;1;1;0.9666666666666667;1.0;5;209;63
 org.jhotdraw.samples.svg.figures.SVGPathFigure.setBounds(java.awt.geom.Point2D.Double, java.awt.geom.Point2D.Double);org.jhotdraw.draw.AbstractCompositeFigure;2;2;2;0.9393939393939394;0.9726027397260274;10;399;456
 org.jhotdraw.draw.RectangleFigure.transform(java.awt.geom.AffineTransform);org.jhotdraw.draw.AbstractFigure;2;1;1;0.9285714285714286;0.967741935483871;5;56;332
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSlidersChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSlidersChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.xml.NanoXMLDOMInput.openElement(int, java.lang.String);net.n3.nanoxml.XMLElement;2;1;1;0.9615384615384616;0.9666666666666667;15;142;473
 org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction.saveViewToURI(java.net.URI, org.jhotdraw.app.View, org.jhotdraw.gui.URIChooser);org.jhotdraw.app.action.AbstractViewAction;1;6;4;0.8;0.9705882352941176;31;155;68
 org.jhotdraw.app.SDIApplication.createMenuBar(org.jhotdraw.app.View);org.jhotdraw.app.AbstractApplication;1;5;2;0.8529411764705882;0.9861111111111112;70;325;371
@@ -790,7 +790,7 @@ org.jhotdraw.samples.svg.io.ImageMapOutputFormat.writePathElement(net.n3.nanoxml
 org.jhotdraw.samples.svg.figures.SVGEllipseFigure.transform(java.awt.geom.AffineTransform);org.jhotdraw.draw.AbstractFigure;2;2;3;0.935483870967742;0.9710144927536232;28;152;332
 org.jhotdraw.samples.svg.SVGView.read(java.net.URI, org.jhotdraw.gui.URIChooser);org.jhotdraw.samples.svg.SVGDrawingPanel;2;2;5;0.9333333333333333;0.9523809523809523;57;160;387
 org.jhotdraw.samples.svg.action.ViewSourceAction.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.samples.svg.SVGView;0;1;3;1.0;1.0;17;127;160
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.figures.SVGTextAreaFigure.createHandles(int);org.jhotdraw.draw.handle.TransformHandleKit;1;0;2;1.0;1.0;20;363;176
 org.jhotdraw.draw.tool.BezierTool.mouseClicked(java.awt.event.MouseEvent);org.jhotdraw.draw.BezierFigure;3;4;2;0.8787878787878788;0.9558823529411765;25;253;458
 org.jhotdraw.samples.odg.figures.ODGAttributedFigure.drawFigure(java.awt.Graphics2D);org.jhotdraw.draw.AbstractAttributedFigure;3;0;3;1.0;0.967741935483871;25;84;168
@@ -934,7 +934,7 @@ org.jhotdraw.app.OSXApplication.createModelActionMap(org.jhotdraw.app.Applicatio
 org.jhotdraw.app.action.file.SaveFileAction.saveViewToURI(java.net.URI, org.jhotdraw.app.View, org.jhotdraw.gui.URIChooser);org.jhotdraw.gui.JSheet;1;5;4;0.8611111111111112;1.0;40;144;627
 org.jhotdraw.draw.handle.OrientationHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.AttributeKeys;0;1;3;0.9333333333333333;1.0;34;96;166
 org.jhotdraw.draw.tool.TextAreaCreationTool.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.tool.AbstractTool;1;1;2;0.9333333333333333;0.9782608695652174;6;145;236
-org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.generateMissingIcons();org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.generateMissingIcons();org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.draw.DrawView.clear();org.jhotdraw.draw.DefaultDrawingView;2;2;2;0.9047619047619048;0.9836065573770492;20;153;1005
 org.jhotdraw.draw.action.DrawingColorChooserAction.updateEnabledState();org.jhotdraw.draw.action.AbstractSelectedAction;1;0;1;1.0;0.9444444444444444;8;49;102
 org.jhotdraw.draw.GraphicalCompositeFigure.draw(java.awt.Graphics2D);org.jhotdraw.draw.AbstractCompositeFigure;1;1;1;0.9714285714285714;0.9857142857142858;4;241;456
@@ -1080,7 +1080,7 @@ org.jhotdraw.color.JColorWheel.getColorAt(int, int);org.jhotdraw.color.AbstractC
 org.jhotdraw.app.OSXApplication.createFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.AbstractApplication;4;0;14;1.0;0.9692307692307692;23;486;371
 org.jhotdraw.samples.svg.figures.SVGImageFigure.loadImage(java.io.InputStream);org.jhotdraw.util.ResourceBundleUtil;1;2;1;0.9512195121951219;1.0;21;302;273
 org.jhotdraw.samples.svg.io.ImageMapOutputFormat.writeLineElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGPathFigure);org.jhotdraw.geom.GrowStroke;1;1;2;1.0;0.8571428571428572;6;331;53
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSlidersChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSlidersChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.event.AbstractAttributeEditorHandler.attributeChanged(org.jhotdraw.draw.event.FigureEvent);org.jhotdraw.draw.event.FigureEvent;0;0;1;1.0;1.0;5;214;25
 org.jhotdraw.draw.handle.ConnectionEndHandle.getTarget();org.jhotdraw.draw.handle.AbstractConnectionHandle;1;0;1;1.0;0.9565217391304348;3;26;187
 org.jhotdraw.samples.odg.ODGView.getScaleFactor();org.jhotdraw.draw.DefaultDrawingView;1;0;1;1.0;0.991304347826087;3;186;1005
@@ -1088,13 +1088,13 @@ org.jhotdraw.samples.odg.io.ODGInputFormat.createPathFigure(java.util.Map<org.jh
 org.jhotdraw.color.HSVHarmonicColorWheelImageProducer.generateDiscreteLookupTables();org.jhotdraw.color.PolarColorWheelImageProducer;3;2;2;0.9090909090909091;0.8421052631578947;33;125;81
 net.n3.nanoxml.ValidatorPlugin.missingAttribute(int, java.lang.String, java.lang.String, java.lang.String);net.n3.nanoxml.XMLUtil;1;0;1;1.0;1.0;3;61;225
 org.jhotdraw.samples.pert.PertApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.DefaultApplicationModel;1;0;4;1.0;0.9285714285714286;14;119;58
-org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.createDefaultChoosers();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.createDefaultChoosers();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.tool.BezierTool.mouseReleased(java.awt.event.MouseEvent);org.jhotdraw.geom.BezierPath;1;6;4;0.875;0.9886363636363636;42;253;766
 org.jhotdraw.draw.QuadTreeCompositeFigure.areaInvalidated(org.jhotdraw.draw.event.FigureEvent);org.jhotdraw.draw.event.FigureEvent;1;0;2;1.0;0.8;3;228;25
 org.jhotdraw.app.MDIApplication.createEditMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.edit.AbstractFindAction;0;0;13;1.0;1.0;23;431;5
 org.jhotdraw.draw.ImageFigure.drawFigure(java.awt.Graphics2D);org.jhotdraw.draw.AttributeKeys;0;3;3;0.9142857142857143;1.0;23;201;166
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSlidersChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSlidersChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.AbstractConnectionHandle.getToolTipText(java.awt.Point);org.jhotdraw.util.ResourceBundleUtil;1;3;2;0.88;1.0;11;187;273
 org.jhotdraw.samples.odg.figures.ODGRectRadiusHandle.getToolTipText(java.awt.Point);org.jhotdraw.util.ResourceBundleUtil;1;0;1;1.0;0.962962962962963;3;87;273
 org.jhotdraw.draw.tool.DefaultSelectAreaTracker.mouseMoved(java.awt.event.MouseEvent);org.jhotdraw.draw.tool.AbstractTool;2;3;1;0.9;0.9830508474576272;25;120;236
@@ -1245,7 +1245,7 @@ org.jhotdraw.samples.svg.figures.SVGPathFigure.createHandles(int);org.jhotdraw.d
 org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.app.action.AbstractViewAction;1;4;5;0.9;0.972972972972973;40;155;68
 org.jhotdraw.samples.odg.action.CombineAction.groupFigures(java.util.Collection<org.jhotdraw.draw.Figure>, org.jhotdraw.draw.CompositeFigure, org.jhotdraw.draw.DrawingView);org.jhotdraw.samples.odg.figures.ODGPathFigure;1;0;2;1.0;0.9777777777777777;20;56;372
 org.jhotdraw.samples.net.NetApplet.getDrawing();org.jhotdraw.samples.net.NetPanel;1;0;1;1.0;0.9090909090909091;3;218;117
-org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.getFontMetrics();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.getFontMetrics();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.DefaultDrawingEditor.setTool(org.jhotdraw.draw.tool.Tool);org.jhotdraw.beans.AbstractBean;1;3;1;0.9347826086956522;1.0;26;223;63
 org.jhotdraw.draw.handle.BezierNodeHandle.getToolTipText(java.awt.Point);org.jhotdraw.util.ResourceBundleUtil;1;1;2;0.9565217391304348;1.0;5;290;273
 org.jhotdraw.samples.color.JMixer.systemChangePerformed(java.awt.event.ActionEvent);org.jhotdraw.color.HSLPhysiologicColorSpace;0;2;4;0.96875;1.0;16;676;196
@@ -1255,11 +1255,11 @@ org.jhotdraw.samples.odg.figures.ODGPathFigure.contains(java.awt.geom.Point2D.Do
 org.jhotdraw.samples.mini.LabeledLineConnectionFigureSample.run();org.jhotdraw.geom.Geom;0;0;8;1.0;1.0;32;71;430
 org.jhotdraw.color.HSLHarmonicColorWheelImageProducer.generateContiguousLookupTables();org.jhotdraw.color.AbstractColorWheelImageProducer;3;1;2;0.9473684210526316;0.8846153846153846;33;122;40
 org.jhotdraw.draw.handle.BezierScaleHandle.draw(java.awt.Graphics2D);org.jhotdraw.draw.handle.HandleAttributeKeys;0;0;2;1.0;1.0;3;71;0
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.stateChanged(javax.swing.event.ChangeEvent);org.jhotdraw.color.DefaultColorSliderModel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.stateChanged(javax.swing.event.ChangeEvent);org.jhotdraw.color.DefaultColorSliderModel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.figures.ODGPathFigure.restoreTransformTo(java.lang.Object);org.jhotdraw.draw.AbstractCompositeFigure;1;2;2;0.9375;0.9863013698630136;11;372;456
 org.jhotdraw.samples.svg.figures.SVGBezierFigure.getDrawingArea();org.jhotdraw.draw.BezierFigure;0;1;5;0.9523809523809523;1.0;22;169;458
 org.jhotdraw.samples.pert.figures.DependencyFigure.handleConnect(org.jhotdraw.draw.connector.Connector, org.jhotdraw.draw.connector.Connector);org.jhotdraw.samples.pert.figures.TaskFigure;1;0;1;1.0;0.96;6;52;217
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSliderModel.configureSlider(int, javax.swing.JSlider);org.jhotdraw.color.DefaultColorSliderModel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSliderModel.configureSlider(int, javax.swing.JSlider);org.jhotdraw.color.DefaultColorSliderModel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.gui.CanvasToolBar.createDisclosedComponent(int);org.jhotdraw.samples.svg.gui.AbstractToolBar;2;0;12;1.0;0.9666666666666667;251;262;159
 org.jhotdraw.samples.pert.figures.TaskFigure.applyAttributes(org.jhotdraw.draw.Figure);org.jhotdraw.draw.AbstractAttributedFigure;1;0;2;1.0;0.9655172413793104;6;217;168
 org.jhotdraw.color.PolarColorWheelImageProducer.getColorLocation(java.awt.Color);org.jhotdraw.color.AbstractColorWheelImageProducer;1;1;2;0.9;0.95;4;81;40
@@ -1275,7 +1275,7 @@ org.jhotdraw.samples.svg.io.SVGOutputFormat.writePolygonElement(net.n3.nanoxml.I
 org.jhotdraw.app.MDIApplication.createFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.file.SaveFileAsAction;0;0;15;1.0;1.0;25;431;5
 org.jhotdraw.xml.NanoXMLDOMInput.getElementCount(java.lang.String);net.n3.nanoxml.XMLElement;2;0;1;1.0;0.9655172413793104;11;142;473
 org.jhotdraw.samples.teddy.action.ToggleLineWrapAction.updateView();org.jhotdraw.samples.teddy.TeddyView;1;1;1;0.8333333333333334;0.9787234042553191;3;14;343
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.MoveHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.handle.AbstractHandle;2;1;1;0.9473684210526316;0.96;12;94;220
 org.jhotdraw.app.MDIApplication.createFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.file.NewFileAction;0;0;15;1.0;1.0;25;431;30
 org.jhotdraw.draw.QuadTreeDrawing.bringToFront(org.jhotdraw.draw.Figure);org.jhotdraw.draw.AbstractFigure;1;1;2;0.9714285714285714;0.9846153846153847;7;243;332
@@ -1334,7 +1334,7 @@ org.jhotdraw.samples.svg.figures.SVGRectRadiusHandle.trackStep(int, java.awt.Poi
 org.jhotdraw.color.DefaultColorSliderModel.stateChanged(javax.swing.event.ChangeEvent);org.jhotdraw.color.AbstractColorSlidersModel;1;1;1;0.9523809523809523;0.8;4;126;17
 org.jhotdraw.draw.ImageFigure.loadImage(java.io.File);org.jhotdraw.util.ResourceBundleUtil;1;1;1;0.96875;1.0;15;201;273
 org.jhotdraw.draw.handle.RoundRectangleRadiusHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.geom.Geom;0;1;4;0.9545454545454546;1.0;15;97;430
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.DefaultDrawingView.delete();org.jhotdraw.util.ResourceBundleUtil;1;7;1;0.9457364341085271;0.9787234042553191;38;1005;273
 org.jhotdraw.draw.BezierFigure.writePoints(org.jhotdraw.xml.DOMOutput);org.jhotdraw.geom.BezierPath;3;3;1;0.9538461538461538;0.9545454545454546;20;458;766
 org.jhotdraw.app.AbstractApplication.addRecentURI(java.net.URI);org.jhotdraw.beans.AbstractBean;2;2;1;0.971830985915493;1.0;18;371;63
@@ -1353,7 +1353,7 @@ org.jhotdraw.samples.svg.figures.SVGTextAreaFigure.set(org.jhotdraw.draw.Attribu
 org.jhotdraw.draw.connector.ChopDiamondConnector.chop(java.awt.geom.Point2D.Double, org.jhotdraw.draw.Figure);org.jhotdraw.draw.DiamondFigure;0;0;3;1.0;1.0;66;71;164
 org.jhotdraw.samples.pert.PertApplicationModel.addCreationButtonsTo(javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.AttributeKeys;0;0;3;1.0;1.0;17;119;166
 org.jhotdraw.xml.NanoXMLDOMInput.dispose();net.n3.nanoxml.XMLElement;1;0;1;1.0;0.9818181818181818;6;142;473
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.MoveHandle.draw(java.awt.Graphics2D);org.jhotdraw.draw.handle.AbstractHandle;3;0;2;1.0;0.9523809523809523;8;94;220
 org.jhotdraw.app.action.edit.UndoAction.uninstallViewListeners(org.jhotdraw.app.View);org.jhotdraw.app.action.AbstractViewAction;1;1;1;0.9166666666666666;0.9473684210526316;7;51;68
 org.jhotdraw.samples.svg.figures.SVGGroupFigure.set(org.jhotdraw.draw.AttributeKey<T>, T);org.jhotdraw.draw.AbstractCompositeFigure;2;1;1;0.9285714285714286;0.971830985915493;12;116;456
@@ -1408,7 +1408,7 @@ org.jhotdraw.samples.draw.DrawApplet.construct();org.jhotdraw.xml.NanoXMLDOMInpu
 org.jhotdraw.samples.odg.io.ODGInputFormat.readFiguresFromDocumentContent(boolean, java.io.InputStream, org.jhotdraw.draw.Drawing);org.jhotdraw.samples.odg.io.ODGStylesReader;1;3;2;0.9538461538461538;0.9811320754716981;54;1175;338
 org.jhotdraw.samples.mini.LabeledLineConnectionFigureSample.run();org.jhotdraw.draw.TextFigure;2;0;8;1.0;0.962962962962963;32;71;173
 org.jhotdraw.app.action.file.SaveFileAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.gui.JSheet;1;5;4;0.8666666666666667;1.0;34;144;627
-org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.undo.UndoRedoManager;0;0;0;0;0
+org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.undo.UndoRedoManager;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.io.SVGOutputFormat.writeEllipseElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGEllipseFigure);org.jhotdraw.draw.AbstractAttributedFigure;1;2;2;0.9827586206896551;0.967741935483871;3;781;168
 org.jhotdraw.draw.tool.ConnectionTool.mousePressed(java.awt.event.MouseEvent);org.jhotdraw.draw.tool.AbstractTool;6;6;1;0.8461538461538461;0.8983050847457628;22;235;236
 org.jhotdraw.samples.teddy.TeddyView.initActions();org.jhotdraw.undo.UndoRedoManager;2;0;3;1.0;0.92;4;343;143
@@ -1416,7 +1416,7 @@ org.jhotdraw.draw.DiamondFigure.transform(java.awt.geom.AffineTransform);org.jho
 org.jhotdraw.samples.odg.ODGDrawingPanel.addCreationButtonsTo(javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.AttributeKeys;0;0;4;1.0;1.0;25;139;166
 org.jhotdraw.draw.action.EditGridPanel.setConstrainer(org.jhotdraw.draw.GridConstrainer);org.jhotdraw.draw.GridConstrainer;3;0;2;1.0;0.8636363636363636;6;72;305
 org.jhotdraw.app.MDIApplication.createFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.app.ExitAction;0;0;15;1.0;1.0;25;431;293
-org.jhotdraw.gui.plaf.palette.PalettePanelUI.installDefaults(javax.swing.JPanel);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PalettePanelUI.installDefaults(javax.swing.JPanel);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.action.CombineAction.splitPath(int[], int[], java.util.List<org.jhotdraw.draw.Figure>, org.jhotdraw.draw.CompositeFigure, org.jhotdraw.draw.DrawingView);org.jhotdraw.samples.svg.figures.SVGPathFigure;1;0;1;1.0;0.9767441860465116;20;187;399
 org.jhotdraw.gui.JFontChooser.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.gui.fontchooser.DefaultFontChooserModel;1;1;1;0.9655172413793104;0.9285714285714286;12;245;98
 org.jhotdraw.samples.teddy.action.FindAction.windowClosing(java.awt.event.WindowEvent);org.jhotdraw.app.action.AbstractViewAction;1;0;2;1.0;0.9411764705882353;6;29;68
@@ -1466,23 +1466,23 @@ org.jhotdraw.samples.svg.action.CombineAction.combinePaths(int, java.util.Collec
 org.jhotdraw.text.ColorToolTipTextFormatter.valueToString(java.lang.Object);org.jhotdraw.color.HSBColorSpace;0;0;3;1.0;1.0;66;69;51
 org.jhotdraw.draw.handle.CloseHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.handle.LocatorHandle;1;1;2;0.9090909090909091;0.875;5;32;18
 org.jhotdraw.samples.svg.figures.SVGEllipseFigure.getDrawingArea();org.jhotdraw.draw.AttributeKeys;0;1;4;0.9666666666666667;1.0;15;152;166
-org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.UndoAction;0;0;0;0;0
+org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.UndoAction;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.DefaultDrawingEditor.createActionMap();org.jhotdraw.draw.action.MoveAction;0;0;8;1.0;1.0;18;223;32
 org.jhotdraw.draw.LineConnectionFigure.validate();org.jhotdraw.draw.BezierFigure;1;1;1;0.975;0.9824561403508771;4;332;458
 org.jhotdraw.geom.BezierPath.getPointOnPath(double, double);org.jhotdraw.geom.Geom;0;4;1;0.9365079365079365;1.0;36;766;430
 org.jhotdraw.samples.net.NetApplet.setDrawing(org.jhotdraw.draw.Drawing);org.jhotdraw.samples.net.NetPanel;1;0;1;1.0;0.9090909090909091;3;218;117
 org.jhotdraw.xml.NanoXMLDOMOutput.save(java.io.Writer);net.n3.nanoxml.XMLElement;1;1;2;0.9655172413793104;0.9830508474576272;9;134;473
 org.jhotdraw.app.DefaultApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.RedoAction;0;0;14;1.0;1.0;18;58;51
-org.jhotdraw.draw.action.DrawingColorChooserHandler.getPresentationName();org.jhotdraw.draw.AttributeKeys;0;0;0;0;0
+org.jhotdraw.draw.action.DrawingColorChooserHandler.getPresentationName();org.jhotdraw.draw.AttributeKeys;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.GraphicalCompositeFigure.write(org.jhotdraw.xml.DOMOutput);org.jhotdraw.draw.AbstractCompositeFigure;1;1;1;0.9714285714285714;0.9857142857142858;4;241;456
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.initComponents();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.initComponents();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.TextAreaFigure.getFontSize();org.jhotdraw.draw.AbstractAttributedFigure;1;0;1;1.0;0.9583333333333334;3;291;168
 org.jhotdraw.samples.odg.io.ODGInputFormat.createPolylineFigure(java.awt.geom.Point2D.Double[], java.util.Map<org.jhotdraw.draw.AttributeKey,java.lang.Object>);org.jhotdraw.draw.AbstractAttributedCompositeFigure;1;0;3;1.0;0.967741935483871;11;1175;177
 org.jhotdraw.gui.JMDIDesktopPane.arrangeFramesVertically();org.jhotdraw.gui.MDIDesktopManager;1;1;1;0.9523809523809523;0.9411764705882353;42;191;71
 org.jhotdraw.draw.LineConnectionFigure.writePoints(org.jhotdraw.xml.DOMOutput);org.jhotdraw.draw.BezierFigure;1;2;1;0.9534883720930233;0.9836065573770492;9;332;458
 org.jhotdraw.samples.svg.gui.CanvasToolBar.createDisclosedComponent(int);org.jhotdraw.text.JavaNumberFormatter;3;0;12;1.0;0.9692307692307692;251;262;272
 org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.ClearSelectionAction;0;0;5;1.0;1.0;10;167;31
-org.jhotdraw.draw.AbstractCompositeFigure.layout();org.jhotdraw.draw.AbstractFigure;0;0;0;0;0
+org.jhotdraw.draw.AbstractCompositeFigure.layout();org.jhotdraw.draw.AbstractFigure;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.teddy.TeddyView.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.undo.UndoRedoManager;1;0;2;1.0;0.9583333333333334;3;343;143
 org.jhotdraw.samples.pert.figures.TaskFigure.updateStartTime();org.jhotdraw.draw.TextFigure;1;7;2;0.7586206896551724;0.9782608695652174;17;217;173
 org.jhotdraw.app.action.file.ClearRecentFilesMenuAction.updateEnabled();org.jhotdraw.app.action.AbstractApplicationAction;2;0;1;1.0;0.8333333333333334;3;38;49
@@ -1491,7 +1491,7 @@ org.jhotdraw.draw.tool.BezierTool.createFigure();org.jhotdraw.draw.BezierFigure;
 org.jhotdraw.draw.layouter.LocatorLayouter.calculateLayout(java.awt.geom.Point2D.Double, java.awt.geom.Point2D.Double, org.jhotdraw.draw.CompositeFigure);org.jhotdraw.geom.Dimension2DDouble;2;1;1;0.9230769230769231;0.8823529411764706;24;56;40
 org.jhotdraw.samples.svg.io.SVGOutputFormat.writeRectElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGRectFigure);org.jhotdraw.samples.svg.figures.SVGRectFigure;6;2;2;0.9833333333333333;0.8125;3;781;209
 org.jhotdraw.samples.svg.figures.SVGRectRadiusHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.samples.svg.figures.SVGRectFigure;2;0;5;1.0;0.9411764705882353;12;102;209
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLabelUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLabelUI;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.AbstractAttributedCompositeFigure.getAttributesRestoreData();org.jhotdraw.draw.AbstractCompositeFigure;1;1;1;0.9655172413793104;0.9861111111111112;8;177;456
 org.jhotdraw.draw.action.EditGridPanel.initComponents();org.jhotdraw.util.ResourceBundleUtil;1;3;1;0.896551724137931;0.9807692307692307;18;72;273
 org.jhotdraw.app.action.view.ViewPropertyAction.uninstallViewListeners(org.jhotdraw.app.View);org.jhotdraw.app.action.AbstractViewAction;1;1;1;0.9230769230769231;0.9411764705882353;4;53;68
@@ -1569,7 +1569,7 @@ org.jhotdraw.draw.LineConnectionFigure.addNotify(org.jhotdraw.draw.Drawing);org.
 org.jhotdraw.samples.svg.gui.FigureToolBar.createDisclosedComponent(int);org.jhotdraw.gui.plaf.palette.PaletteButtonUI;0;0;9;1.0;1.0;87;108;26
 org.jhotdraw.draw.DefaultDrawing.findFigures(java.awt.geom.Rectangle2D.Double);org.jhotdraw.draw.AbstractCompositeFigure;1;0;1;1.0;0.9863013698630136;9;168;456
 org.jhotdraw.draw.tool.DefaultHandleTracker.keyReleased(java.awt.event.KeyEvent);org.jhotdraw.draw.tool.AbstractTool;2;1;2;0.96;0.9583333333333334;6;147;236
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteTextFieldUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteTextFieldUI;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.BezierNodeHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.handle.AbstractHandle;1;3;4;0.90625;0.9807692307692307;17;290;220
 org.jhotdraw.samples.odg.figures.ODGPathFigure.handleMouseClick(java.awt.event.MouseEvent, java.awt.geom.Point2D.Double, org.jhotdraw.draw.DrawingView);org.jhotdraw.draw.BezierFigure;1;0;4;1.0;0.9841269841269842;14;372;458
 net.n3.nanoxml.XMLElement.findAttribute(java.lang.String, java.lang.String);net.n3.nanoxml.XMLAttribute;2;1;1;0.9836065573770492;0.8;17;473;25
@@ -1598,8 +1598,8 @@ org.jhotdraw.app.action.edit.UndoAction.installViewListeners(org.jhotdraw.app.Vi
 org.jhotdraw.samples.svg.gui.FillToolBar.setEditor(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.event.SelectionComponentDisplayer;1;0;2;1.0;0.9230769230769231;11;167;71
 org.jhotdraw.draw.tool.SelectionTool.mouseDragged(java.awt.event.MouseEvent);org.jhotdraw.draw.tool.AbstractTool;1;1;1;0.967741935483871;0.9787234042553191;5;186;236
 org.jhotdraw.samples.svg.io.DefaultSVGFigureFactory.createTextArea(double, double, double, double, java.util.Map<org.jhotdraw.draw.AttributeKey,java.lang.Object>, javax.swing.text.StyledDocument);org.jhotdraw.draw.AbstractAttributedFigure;1;0;2;1.0;0.9666666666666667;14;108;168
-org.jhotdraw.gui.plaf.palette.PaletteListUI.installDefaults();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteListUI.installDefaults();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.TransformHandleKit.trackStart(int, java.awt.Point);org.jhotdraw.draw.handle.AbstractHandle;1;3;2;0.8421052631578947;0.9782608695652174;6;176;220
 org.jhotdraw.draw.handle.BezierControlPointHandle.dispose();org.jhotdraw.draw.handle.AbstractHandle;1;1;1;0.9545454545454546;0.975609756097561;5;245;220
 org.jhotdraw.samples.mini.CreationToolSample.run();org.jhotdraw.draw.AbstractDrawing;2;0;3;1.0;0.935483870967742;24;53;79
@@ -1623,7 +1623,7 @@ org.jhotdraw.draw.handle.RoundRectangleRadiusHandle.trackStep(int, java.awt.Poin
 org.jhotdraw.draw.tool.ImageTool.failed(java.lang.Throwable);org.jhotdraw.draw.tool.CreationTool;1;0;2;1.0;0.9615384615384616;6;117;171
 org.jhotdraw.samples.svg.gui.FillToolBar.createDisclosedComponent(int);org.jhotdraw.gui.JPopupButton;3;0;11;1.0;0.9714285714285714;142;167;175
 org.jhotdraw.draw.DefaultDrawingViewTransferHandler.importData(java.awt.datatransfer.Transferable, java.awt.Point, java.util.HashSet<org.jhotdraw.draw.Figure>, javax.swing.JComponent);org.jhotdraw.util.ResourceBundleUtil;1;8;1;0.9066666666666666;0.9864864864864865;186;563;273
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSliderModel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSliderModel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.BezierNodeHandle.draw(java.awt.Graphics2D);org.jhotdraw.draw.BezierFigure;3;2;4;0.9375;0.9545454545454546;27;290;458
 org.jhotdraw.samples.svg.io.SVGOutputFormat.writePathElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGPathFigure);org.jhotdraw.draw.BezierFigure;1;2;4;0.9824561403508771;0.9838709677419355;7;781;458
 org.jhotdraw.draw.AbstractCompositeFigure.removeChild(int);org.jhotdraw.draw.AbstractFigure;1;1;1;0.9859154929577465;0.9838709677419355;7;456;332
@@ -1636,7 +1636,7 @@ org.jhotdraw.samples.odg.figures.ODGRectFigure.createHandles(int);org.jhotdraw.d
 org.jhotdraw.samples.odg.figures.ODGAttributedFigure.getActions(java.awt.geom.Point2D.Double);org.jhotdraw.draw.AbstractFigure;3;1;3;0.9090909090909091;0.953125;16;84;332
 org.jhotdraw.draw.handle.BezierControlPointHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.geom.BezierPath;3;5;4;0.875;0.9620253164556962;31;245;766
 org.jhotdraw.samples.teddy.TeddyApplicationModel.createMenus(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.util.ResourceBundleUtil;1;0;5;1.0;1.0;20;47;273
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.figures.SVGPathFigure.set(org.jhotdraw.draw.AttributeKey<T>, T);org.jhotdraw.draw.AbstractAttributedCompositeFigure;1;1;1;0.9666666666666667;0.962962962962963;4;399;177
 org.jhotdraw.draw.action.ToggleGridAction.updateViewState();org.jhotdraw.draw.action.AbstractDrawingViewAction;1;0;2;1.0;0.9473684210526316;4;16;109
 org.jhotdraw.draw.handle.BezierNodeHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.AbstractFigure;2;5;5;0.875;0.975609756097561;33;290;332
@@ -1667,7 +1667,7 @@ org.jhotdraw.samples.net.NetView.getScaleFactor();org.jhotdraw.draw.DefaultDrawi
 org.jhotdraw.samples.draw.DrawView.read(java.net.URI, org.jhotdraw.gui.URIChooser);org.jhotdraw.draw.DefaultDrawingView;2;2;4;0.9166666666666666;0.984;38;153;1005
 org.jhotdraw.app.AbstractApplication.createOpenRecentFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.file.ClearRecentFilesMenuAction;0;1;4;1.0;1.0;10;371;38
 org.jhotdraw.draw.DefaultDrawingEditor.createInputMap();org.jhotdraw.app.action.edit.SelectAllAction;0;0;8;1.0;1.0;32;223;30
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.updateChooser();org.jhotdraw.draw.action.ColorIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.updateChooser();org.jhotdraw.draw.action.ColorIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.RoundRectangleFigure.createHandles(int);org.jhotdraw.draw.AbstractFigure;1;0;1;1.0;0.9836065573770492;5;119;332
 org.jhotdraw.app.action.app.AboutAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.app.action.AbstractApplicationAction;1;0;1;1.0;0.9523809523809523;8;13;49
 org.jhotdraw.app.AbstractApplication.createOpenRecentFileMenu(org.jhotdraw.app.View);org.jhotdraw.util.ResourceBundleUtil;1;1;4;1.0;1.0;10;371;273
@@ -1680,7 +1680,7 @@ org.jhotdraw.app.action.edit.RedoAction.installViewListeners(org.jhotdraw.app.Vi
 org.jhotdraw.app.action.app.ExitAction.finished();org.jhotdraw.app.action.AbstractApplicationAction;1;1;1;0.95;0.9285714285714286;7;293;49
 org.jhotdraw.samples.svg.SVGView.read(java.net.URI, org.jhotdraw.gui.URIChooser);org.jhotdraw.samples.svg.SVGApplicationModel;0;2;5;0.9333333333333333;1.0;57;160;167
 org.jhotdraw.app.SDIApplication.createFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.file.CloseFileAction;0;0;14;1.0;1.0;24;325;11
-org.jhotdraw.gui.plaf.palette.PaletteListCellRenderer.getListCellRendererComponent(boolean, boolean, int, java.lang.Object, javax.swing.JList);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteListCellRenderer.getListCellRendererComponent(boolean, boolean, int, java.lang.Object, javax.swing.JList);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.pert.PertApplicationModel.createToolBars(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.util.ResourceBundleUtil;1;2;3;0.875;0.96875;27;119;273
 org.jhotdraw.samples.draw.DrawApplicationModel.addDefaultCreationButtonsTo(java.util.Collection<javax.swing.Action>, java.util.Collection<javax.swing.Action>, javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.util.ResourceBundleUtil;0;0;5;1.0;1.0;30;82;273
 org.jhotdraw.app.action.edit.UndoAction.updateEnabledState();org.jhotdraw.app.action.AbstractViewAction;1;1;1;0.9;0.9411764705882353;8;51;68
@@ -1690,7 +1690,7 @@ org.jhotdraw.samples.mini.SVGDrawingPanelSample.open(java.awt.event.ActionEvent)
 org.jhotdraw.samples.svg.figures.ConvexHullOutlineHandle.basicGetBounds();org.jhotdraw.draw.AbstractCompositeFigure;1;1;3;0.9583333333333334;0.9868421052631579;10;115;456
 org.jhotdraw.draw.liner.ElbowLiner.lineout(org.jhotdraw.draw.ConnectionFigure);org.jhotdraw.draw.LineConnectionFigure;0;1;3;0.96875;1.0;136;159;332
 org.jhotdraw.app.AbstractApplication.setActiveView(org.jhotdraw.app.View);org.jhotdraw.beans.AbstractBean;1;1;1;0.9841269841269842;1.0;11;371;63
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.color.DefaultColorSliderModel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.color.DefaultColorSliderModel;0;0;0;0;0;0;0;0
 org.jhotdraw.color.HSVHarmonicColorWheelImageProducer.getColorLocation(java.awt.Color);org.jhotdraw.color.ColorUtil;1;1;2;0.9166666666666666;1.0;4;125;100
 org.jhotdraw.draw.tool.DefaultHandleTracker.keyPressed(java.awt.event.KeyEvent);org.jhotdraw.draw.tool.AbstractTool;3;1;2;0.962962962962963;0.9387755102040817;9;147;236
 org.jhotdraw.draw.handle.BezierScaleHandle.basicGetBounds();org.jhotdraw.draw.handle.AbstractHandle;1;1;1;0.95;0.9772727272727273;8;71;220
@@ -1727,20 +1727,20 @@ org.jhotdraw.draw.action.ZoomAction.actionPerformed(java.awt.event.ActionEvent);
 org.jhotdraw.draw.handle.BezierControlPointHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.AbstractFigure;2;5;4;0.875;0.9759036144578314;31;245;332
 org.jhotdraw.draw.connector.ChopBezierConnector.chop(java.awt.geom.Point2D.Double, org.jhotdraw.draw.Figure);org.jhotdraw.draw.connector.AbstractConnector;1;0;2;1.0;0.9473684210526316;4;9;88
 org.jhotdraw.app.OSXApplication.done(java.util.LinkedList<javax.swing.JFrame>);org.jhotdraw.beans.AbstractBean;1;0;1;1.0;1.0;6;486;63
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.tool.DelegationSelectionTool.mouseReleased(java.awt.event.MouseEvent);org.jhotdraw.draw.tool.SelectionTool;1;3;1;0.8421052631578947;0.9696969696969697;17;245;186
 org.jhotdraw.draw.handle.BezierNodeHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.geom.BezierPath;2;5;5;0.875;0.9746835443037974;33;290;766
 org.jhotdraw.app.OSXApplication.createViewActionMap(org.jhotdraw.app.View);org.jhotdraw.app.action.window.MinimizeWindowAction;0;0;4;1.0;1.0;10;486;17
 org.jhotdraw.draw.QuadTreeCompositeFigure.setCanvasSize(org.jhotdraw.geom.Dimension2DDouble);org.jhotdraw.beans.AbstractBean;1;0;1;1.0;1.0;5;228;63
-org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintText(boolean, int, int, java.awt.Font, java.awt.FontMetrics, java.awt.Graphics, java.awt.Rectangle, java.lang.String);org.jhotdraw.gui.plaf.palette.PaletteUtilities;0;0;0;0;0
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintText(boolean, int, int, java.awt.Font, java.awt.FontMetrics, java.awt.Graphics, java.awt.Rectangle, java.lang.String);org.jhotdraw.gui.plaf.palette.PaletteUtilities;0;0;0;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 net.n3.nanoxml.ValidatorPlugin.missingPCData(int, java.lang.String, java.lang.String);net.n3.nanoxml.XMLUtil;1;0;1;1.0;1.0;3;61;225
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.figures.SVGTextAreaFigure.invalidate();org.jhotdraw.draw.AbstractFigure;1;3;1;0.9210526315789473;0.9841269841269842;6;363;332
 org.jhotdraw.draw.AbstractCompositeFigure.validate();org.jhotdraw.draw.AbstractFigure;1;1;1;0.9857142857142858;0.9836065573770492;4;456;332
 org.jhotdraw.samples.svg.action.ViewSourceAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.util.prefs.PreferencesUtil;1;5;5;0.9148936170212766;1.0;77;127;279
 org.jhotdraw.samples.svg.action.ViewSourceAction.updateSource(javax.swing.JTextArea, org.jhotdraw.draw.Drawing);org.jhotdraw.samples.svg.io.SVGOutputFormat;2;0;1;1.0;0.962962962962963;13;127;781
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteListUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteListUI;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.gui.FillToolBar.createDisclosedComponent(int);org.jhotdraw.gui.plaf.palette.PaletteFormattedTextFieldUI;0;0;11;1.0;1.0;142;167;215
 org.jhotdraw.samples.svg.gui.ArrangeToolBar.createDisclosedComponent(int);org.jhotdraw.gui.plaf.palette.PaletteButtonUI;0;0;5;1.0;1.0;45;67;26
 org.jhotdraw.samples.svg.gui.MessagePanel.initComponents();org.jhotdraw.util.ResourceBundleUtil;1;5;1;0.8214285714285714;0.9791666666666666;29;66;273
@@ -1777,7 +1777,7 @@ org.jhotdraw.samples.odg.ODGView.createPageable();org.jhotdraw.draw.DefaultDrawi
 org.jhotdraw.draw.action.SendToBackAction.undo();org.jhotdraw.draw.action.BringToFrontAction;1;0;1;1.0;1.0;4;42;42
 org.jhotdraw.app.MDIApplication.createEditMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.edit.SelectAllAction;0;0;13;1.0;1.0;23;431;30
 org.jhotdraw.draw.tool.ConnectionTool.mouseDragged(java.awt.event.MouseEvent);org.jhotdraw.draw.tool.AbstractTool;3;6;1;0.8604651162790697;0.9545454545454546;19;235;236
-org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintTab(int, int, java.awt.Graphics, java.awt.Rectangle, java.awt.Rectangle, java.awt.Rectangle[]);org.jhotdraw.gui.plaf.palette.PaletteUtilities;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintTab(int, int, java.awt.Graphics, java.awt.Rectangle, java.awt.Rectangle, java.awt.Rectangle[]);org.jhotdraw.gui.plaf.palette.PaletteUtilities;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.ODGView.read(java.net.URI, org.jhotdraw.gui.URIChooser);org.jhotdraw.draw.DefaultDrawingView;2;2;2;0.9473684210526316;0.9847328244274809;31;186;1005
 org.jhotdraw.draw.GridConstrainer.setVisible(boolean);org.jhotdraw.draw.AbstractConstrainer;1;1;2;0.9545454545454546;0.875;6;305;24
 org.jhotdraw.app.action.app.OpenApplicationFileAction.construct();org.jhotdraw.util.ResourceBundleUtil;1;0;2;1.0;1.0;17;133;273
@@ -1792,11 +1792,11 @@ org.jhotdraw.app.action.app.ExitAction.saveToFile(java.net.URI, org.jhotdraw.gui
 org.jhotdraw.draw.handle.BezierScaleHandle.getOrigin();org.jhotdraw.geom.Geom;0;1;3;0.95;1.0;16;71;430
 org.jhotdraw.samples.svg.io.SVGInputFormat.read(boolean, java.io.InputStream, org.jhotdraw.draw.Drawing);org.jhotdraw.xml.css.StyleManager;1;9;2;0.9142857142857143;0.9761904761904762;77;2073;23
 org.jhotdraw.samples.svg.figures.SVGPathFigure.draw(java.awt.Graphics2D);org.jhotdraw.draw.AbstractAttributedCompositeFigure;1;2;1;0.9636363636363636;0.9811320754716981;29;399;177
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.gui.fontchooser.DefaultFontChooserModel.isEditable(javax.swing.tree.MutableTreeNode);org.jhotdraw.gui.fontchooser.FontFamilyNode;1;0;2;1.0;0.9583333333333334;15;98;117
 org.jhotdraw.samples.svg.SVGApplicationModel.initView(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.draw.action.SelectSameAction;0;1;2;0.9444444444444444;1.0;12;167;18
 org.jhotdraw.gui.datatransfer.OSXClipboard.getContents(java.lang.Object);org.jhotdraw.gui.datatransfer.AWTClipboard;1;0;2;1.0;0.8571428571428572;16;19;12
-org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.RedoAction;0;0;0;0;0
+org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.RedoAction;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.SVGView.dispose();org.jhotdraw.app.AbstractView;1;3;3;0.85;0.9696969696969697;8;160;109
 org.jhotdraw.samples.teddy.TeddyView.read(java.net.URI, org.jhotdraw.gui.URIChooser);org.jhotdraw.samples.teddy.CharacterSetAccessory;1;1;1;1.0;0.9230769230769231;3;343;123
 org.jhotdraw.draw.DefaultDrawingViewTransferHandler.createTransferable(java.util.Set<org.jhotdraw.draw.Figure>, org.jhotdraw.draw.DrawingView);org.jhotdraw.gui.datatransfer.CompositeTransferable;2;1;1;0.9787234042553191;0.8947368421052632;37;563;22
@@ -1836,7 +1836,7 @@ org.jhotdraw.draw.TextAreaFigure.invalidate();org.jhotdraw.draw.AbstractFigure;1
 org.jhotdraw.app.action.file.LoadFileAction.doIt(org.jhotdraw.app.View);org.jhotdraw.gui.filechooser.ExtensionFileFilter;1;3;3;0.9130434782608696;0.9565217391304348;26;87;45
 org.jhotdraw.draw.DefaultDrawingEditor.createInputMap();org.jhotdraw.draw.action.MoveAction;0;0;8;1.0;1.0;32;223;32
 org.jhotdraw.app.OSXApplication.createFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.file.SaveFileAsAction;0;0;14;1.0;1.0;23;486;5
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.color.AbstractColorSlidersModel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.color.AbstractColorSlidersModel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.io.ODGInputFormat.toEnhancedPath(java.lang.String);org.jhotdraw.samples.odg.geom.EnhancedPath;10;1;2;1.0;0.7872340425531915;149;1175;171
 org.jhotdraw.draw.handle.RoundRectangleRadiusHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.geom.Geom;0;1;4;0.9565217391304348;1.0;11;97;430
 org.jhotdraw.draw.DefaultDrawingEditor.setDefaultAttribute(java.lang.Object, org.jhotdraw.draw.AttributeKey);org.jhotdraw.draw.AttributeKey;0;1;2;0.972972972972973;1.0;4;223;133
@@ -1884,7 +1884,7 @@ org.jhotdraw.samples.odg.action.TogglePropertiesPanelAction.getActiveView();org.
 org.jhotdraw.draw.io.ImageInputFormat.read(boolean, java.awt.datatransfer.Transferable, org.jhotdraw.draw.Drawing);org.jhotdraw.util.Images;0;2;1;0.9411764705882353;1.0;37;105;124
 org.jhotdraw.draw.tool.TextEditingTool.endEdit();org.jhotdraw.draw.tool.AbstractTool;1;4;3;0.8461538461538461;0.9830508474576272;36;102;236
 org.jhotdraw.gui.plaf.palette.PaletteFontChooserUI.mouseClicked(java.awt.event.MouseEvent);org.jhotdraw.gui.JFontChooser;1;0;1;1.0;0.962962962962963;5;368;245
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.initComponents();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.initComponents();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.figures.ODGPathFigure.getDrawingArea();org.jhotdraw.draw.AttributeKeys;0;1;3;0.975609756097561;1.0;24;372;166
 org.jhotdraw.draw.DefaultDrawing.getFiguresFrontToBack();org.jhotdraw.draw.AbstractCompositeFigure;1;1;1;0.9545454545454546;0.9857142857142858;4;168;456
 org.jhotdraw.app.action.app.ExitAction.saveChangesAndReviewNext();org.jhotdraw.gui.JSheet;1;5;3;0.8148148148148149;1.0;25;293;627
@@ -1945,7 +1945,7 @@ org.jhotdraw.gui.JAttributeTextField.getAttributeValue();org.jhotdraw.gui.JLifeF
 org.jhotdraw.app.OSXApplication.createEditMenu(org.jhotdraw.app.View);org.jhotdraw.util.ResourceBundleUtil;1;0;12;1.0;1.0;21;486;273
 org.jhotdraw.samples.svg.SVGView.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.undo.UndoRedoManager;1;1;1;0.9444444444444444;0.9583333333333334;3;160;143
 org.jhotdraw.draw.tool.BezierTool.finishCreation(org.jhotdraw.draw.BezierFigure, org.jhotdraw.draw.DrawingView);org.jhotdraw.draw.tool.AbstractTool;1;2;1;0.96;0.9787234042553191;7;253;236
-org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.uninstallUI(javax.swing.JComponent);org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorChooserMainPanel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.uninstallUI(javax.swing.JComponent);org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorChooserMainPanel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.figures.SVGBezierFigure.createHandles(int, org.jhotdraw.samples.svg.figures.SVGPathFigure);org.jhotdraw.draw.handle.TransformHandleKit;1;0;2;1.0;1.0;16;169;176
 org.jhotdraw.samples.svg.gui.CanvasToolBar.createDisclosedComponent(int);org.jhotdraw.gui.plaf.palette.PaletteSliderUI;0;0;12;1.0;1.0;251;262;167
 org.jhotdraw.app.action.edit.UndoAction.getRealUndoAction();org.jhotdraw.app.action.AbstractViewAction;1;0;1;1.0;0.9411764705882353;3;51;68
@@ -1985,7 +1985,7 @@ org.jhotdraw.app.OSXApplication.createModelActionMap(org.jhotdraw.app.Applicatio
 org.jhotdraw.draw.DiamondFigure.drawFill(java.awt.Graphics2D);org.jhotdraw.draw.AttributeKeys;0;1;3;0.9615384615384616;1.0;32;164;166
 org.jhotdraw.samples.pert.figures.TaskFigure.getPredecessors();org.jhotdraw.draw.LineConnectionFigure;2;1;1;0.962962962962963;0.9512195121951219;9;217;332
 org.jhotdraw.draw.DefaultDrawing.draw(java.awt.Graphics2D);org.jhotdraw.draw.AbstractDrawing;0;2;2;0.9259259259259259;1.0;13;168;79
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.updateChooser();org.jhotdraw.color.DefaultColorSliderModel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.updateChooser();org.jhotdraw.color.DefaultColorSliderModel;0;0;0;0;0;0;0;0
 org.jhotdraw.xml.NanoXMLDOMInput.getAttribute(java.lang.String, java.lang.String);net.n3.nanoxml.XMLElement;1;0;1;1.0;0.9818181818181818;3;142;473
 org.jhotdraw.draw.QuadTreeDrawing.bringToFront(org.jhotdraw.draw.Figure);org.jhotdraw.draw.AbstractCompositeFigure;1;1;2;0.9714285714285714;0.9864864864864865;7;243;456
 org.jhotdraw.samples.draw.DrawView.read(java.net.URI, org.jhotdraw.gui.URIChooser);org.jhotdraw.net.URIUtil;0;2;4;0.9166666666666666;1.0;38;153;8
@@ -2084,7 +2084,7 @@ org.jhotdraw.samples.pert.PertView.getScaleFactor();org.jhotdraw.draw.DefaultDra
 org.jhotdraw.draw.TextAreaFigure.getBaseline();org.jhotdraw.geom.Insets2D;1;3;2;0.9230769230769231;0.9615384615384616;3;291;86
 org.jhotdraw.gui.plaf.palette.PaletteLabelUI.paint(java.awt.Graphics, javax.swing.JComponent);org.jhotdraw.gui.plaf.palette.PaletteUtilities;0;0;1;1.0;1.0;6;50;21
 org.jhotdraw.samples.odg.action.TogglePropertiesPanelAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.samples.odg.ODGView;2;1;1;0.8;0.9130434782608696;3;15;186
-org.jhotdraw.draw.action.SelectionColorChooserHandler.applySelectedColorToFigures();org.jhotdraw.draw.AttributeKeys;0;0;0;0;0
+org.jhotdraw.draw.action.SelectionColorChooserHandler.applySelectedColorToFigures();org.jhotdraw.draw.AttributeKeys;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.io.DOMStorableInputOutputFormat.read(boolean, java.awt.datatransfer.Transferable, org.jhotdraw.draw.Drawing);org.jhotdraw.xml.NanoXMLDOMInput;4;3;1;0.896551724137931;0.8518518518518519;15;118;142
 org.jhotdraw.draw.handle.OrientationHandle.trackStart(int, java.awt.Point);org.jhotdraw.draw.handle.AbstractHandle;2;1;1;0.9444444444444444;0.9565217391304348;5;96;220
 org.jhotdraw.samples.svg.io.ImageMapOutputFormat.writeTextElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGTextFigure);org.jhotdraw.samples.svg.figures.SVGTextFigure;1;1;1;1.0;0.9791666666666666;12;331;299
@@ -2113,7 +2113,7 @@ org.jhotdraw.app.AbstractApplication.updateOpenRecentMenu();org.jhotdraw.app.act
 net.n3.nanoxml.ValidatorPlugin.unexpectedAttribute(int, java.lang.String, java.lang.String, java.lang.String);net.n3.nanoxml.XMLUtil;1;0;1;1.0;1.0;3;61;225
 org.jhotdraw.samples.odg.figures.ODGRectRadiusHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.AbstractFigure;2;3;4;0.8571428571428572;0.9722222222222222;24;87;332
 org.jhotdraw.samples.svg.figures.SVGTextAreaFigure.getDrawingArea();org.jhotdraw.geom.Geom;1;2;3;0.9555555555555556;1.0;16;363;430
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSliderModel.configureSlider(int, javax.swing.JSlider);org.jhotdraw.gui.plaf.palette.PaletteColorSliderUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSliderModel.configureSlider(int, javax.swing.JSlider);org.jhotdraw.gui.plaf.palette.PaletteColorSliderUI;0;0;0;0;0;0;0;0
 org.jhotdraw.app.action.window.FocusWindowAction.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.util.ResourceBundleUtil;0;0;1;1.0;1.0;7;85;273
 org.jhotdraw.app.action.file.LoadFileAction.failed(java.lang.Throwable);org.jhotdraw.gui.JSheet;1;0;3;1.0;1.0;10;87;627
 org.jhotdraw.samples.svg.gui.LinkToolBar.setEditor(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.event.SelectionComponentDisplayer;1;0;2;1.0;0.9230769230769231;11;174;71
@@ -2121,7 +2121,7 @@ org.jhotdraw.samples.svg.figures.SVGImageFigure.setImage(byte[], java.awt.image.
 org.jhotdraw.samples.svg.gui.AlignToolBar.createDisclosedComponent(int);org.jhotdraw.samples.svg.gui.AbstractToolBar;2;0;3;1.0;0.935483870967742;68;91;159
 org.jhotdraw.draw.BezierFigure.drawFill(java.awt.Graphics2D);org.jhotdraw.draw.AbstractAttributedFigure;1;1;3;0.9830508474576272;0.962962962962963;12;458;168
 org.jhotdraw.draw.handle.BezierNodeHandle.keyPressed(java.awt.event.KeyEvent);org.jhotdraw.draw.AbstractFigure;2;6;5;0.875;0.978021978021978;66;290;332
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.color.JColorWheel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.color.JColorWheel;0;0;0;0;0;0;0;0
 net.n3.nanoxml.StdXMLParser.processCDATA();net.n3.nanoxml.XMLUtil;2;3;1;0.8571428571428572;1.0;9;328;225
 org.jhotdraw.color.JColorWheel.getRadius();org.jhotdraw.color.AbstractColorWheelImageProducer;1;0;1;1.0;0.9444444444444444;3;177;40
 org.jhotdraw.draw.QuadTreeCompositeFigure.sendToBack(org.jhotdraw.draw.Figure);org.jhotdraw.draw.AbstractCompositeFigure;1;1;2;0.9714285714285714;0.9864864864864865;7;228;456
@@ -2129,7 +2129,7 @@ org.jhotdraw.draw.TextAreaFigure.isTextOverflow();org.jhotdraw.geom.Dimension2DD
 org.jhotdraw.app.action.view.ViewPropertyAction.updateSelectedState();org.jhotdraw.app.action.ActionUtil;0;2;2;0.8888888888888888;1.0;16;53;8
 org.jhotdraw.app.action.file.SaveFileAction.failed(java.lang.Throwable);org.jhotdraw.net.URIUtil;0;0;4;1.0;1.0;12;144;8
 org.jhotdraw.draw.TextAreaFigure.read(org.jhotdraw.xml.DOMInput);org.jhotdraw.draw.AbstractAttributedFigure;1;1;1;0.9722222222222222;0.96;4;291;168
-org.jhotdraw.draw.action.ButtonFactory.initialize();org.jhotdraw.util.Methods;0;0;0;0;0
+org.jhotdraw.draw.action.ButtonFactory.initialize();org.jhotdraw.util.Methods;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.io.SVGOutputFormat.writeImageElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGImageFigure);org.jhotdraw.draw.AbstractAttributedFigure;1;2;2;0.9830508474576272;0.96875;3;781;168
 org.jhotdraw.draw.action.GroupAction.canGroup();org.jhotdraw.draw.action.AbstractSelectedAction;1;0;1;1.0;0.9411764705882353;3;115;102
 org.jhotdraw.samples.svg.figures.SVGRectRadiusHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.geom.Dimension2DDouble;2;0;5;1.0;0.8571428571428572;12;102;40
@@ -2151,7 +2151,7 @@ org.jhotdraw.app.action.file.LoadFileAction.loadViewFromURI(java.net.URI, org.jh
 org.jhotdraw.samples.svg.figures.SVGEllipseFigure.createHandles(int);org.jhotdraw.draw.handle.TransformHandleKit;1;0;2;1.0;1.0;18;152;176
 org.jhotdraw.samples.svg.figures.SVGTextFigure.set(org.jhotdraw.draw.AttributeKey<T>, T);org.jhotdraw.samples.svg.figures.SVGAttributedFigure;1;1;2;0.9767441860465116;0.8571428571428572;6;299;80
 org.jhotdraw.samples.odg.figures.ODGPathFigure.drawFigure(java.awt.Graphics2D);org.jhotdraw.samples.odg.ODGConstants;0;2;3;0.9428571428571428;1.0;25;372;2
-org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintTab(int, int, java.awt.Graphics, java.awt.Rectangle, java.awt.Rectangle, java.awt.Rectangle[]);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintTab(int, int, java.awt.Graphics, java.awt.Rectangle, java.awt.Rectangle, java.awt.Rectangle[]);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.teddy.TeddyView.initActions();org.jhotdraw.app.action.edit.UndoAction;0;0;3;1.0;1.0;4;343;51
 org.jhotdraw.draw.tool.DefaultDragTracker.mouseDragged(java.awt.event.MouseEvent);org.jhotdraw.draw.tool.AbstractTool;3;4;1;0.875;0.9701492537313433;26;106;236
 org.jhotdraw.draw.DefaultDrawingViewTransferHandler.exportDone(int, java.awt.datatransfer.Transferable, javax.swing.JComponent);org.jhotdraw.util.ResourceBundleUtil;1;6;2;0.8928571428571429;0.9814814814814815;56;563;273
@@ -2178,7 +2178,7 @@ org.jhotdraw.samples.odg.figures.ODGRectFigure.getTransformedShape();org.jhotdra
 org.jhotdraw.app.DefaultApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.DuplicateAction;0;0;14;1.0;1.0;18;58;22
 org.jhotdraw.draw.action.FontChooserHandler.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.gui.JFontChooser;0;2;1;0.8181818181818181;1.0;8;101;245
 org.jhotdraw.draw.connector.ChopRoundRectangleConnector.chop(java.awt.geom.Point2D.Double, org.jhotdraw.draw.Figure);org.jhotdraw.draw.connector.AbstractConnector;1;0;4;1.0;0.9705882352941176;35;40;88
-org.jhotdraw.draw.action.SelectionColorChooserHandler.getPresentationName();org.jhotdraw.draw.AttributeKeys;0;0;0;0;0
+org.jhotdraw.draw.action.SelectionColorChooserHandler.getPresentationName();org.jhotdraw.draw.AttributeKeys;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.io.SVGInputFormat.toPath(java.lang.String, net.n3.nanoxml.IXMLElement);org.jhotdraw.geom.BezierPath;9;0;2;1.0;0.8987341772151899;391;2073;766
 org.jhotdraw.color.JHarmonicColorWheel.paintTicks(java.awt.Graphics2D);org.jhotdraw.color.JColorWheel;2;1;1;0.9777777777777777;0.9636363636363636;31;223;177
 org.jhotdraw.app.action.edit.ClearSelectionAction.updateEnabled();org.jhotdraw.app.action.edit.AbstractSelectionAction;1;0;1;1.0;0.8333333333333334;5;31;35
@@ -2241,7 +2241,7 @@ org.jhotdraw.samples.svg.io.SVGOutputFormat.writeLineElement(net.n3.nanoxml.IXML
 org.jhotdraw.samples.color.JMixer.presetPerformed(java.awt.event.ActionEvent);org.jhotdraw.color.JHarmonicColorWheel;1;2;1;0.9666666666666667;0.9696969696969697;8;676;223
 org.jhotdraw.samples.odg.figures.ODGPathFigure.getPath();org.jhotdraw.draw.BezierFigure;1;1;3;0.9722222222222222;0.9841269841269842;11;372;458
 org.jhotdraw.samples.odg.io.ODGInputFormat.readPathElement(net.n3.nanoxml.IXMLElement);org.jhotdraw.samples.odg.io.ODGStylesReader;1;4;2;0.96;0.972972972972973;13;1175;338
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.buildChooser();org.jhotdraw.draw.action.ColorIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.buildChooser();org.jhotdraw.draw.action.ColorIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.teddy.TeddyView.setLineNumbersVisible(boolean);org.jhotdraw.samples.teddy.text.NumberedViewFactory;2;1;1;0.9807692307692307;0.8;11;343;26
 org.jhotdraw.draw.TriangleFigure.drawStroke(java.awt.Graphics2D);org.jhotdraw.geom.GrowStroke;1;1;3;0.9473684210526316;0.8;9;173;53
 org.jhotdraw.draw.TriangleFigure.getBezierPath();org.jhotdraw.draw.AbstractAttributedFigure;1;1;2;0.96;0.9696969696969697;49;173;168
@@ -2251,7 +2251,7 @@ org.jhotdraw.draw.AbstractAttributedCompositeFigure.set(org.jhotdraw.draw.Attrib
 org.jhotdraw.draw.QuadTreeDrawing.findFiguresWithin(java.awt.geom.Rectangle2D.Double);org.jhotdraw.geom.Geom;0;0;2;1.0;1.0;14;243;430
 org.jhotdraw.draw.action.SendToBackAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.action.BringToFrontAction;1;4;3;0.75;1.0;19;42;42
 org.jhotdraw.samples.svg.figures.SVGPathFigure.contains(java.awt.geom.Point2D.Double);org.jhotdraw.geom.GrowStroke;1;3;5;0.9189189189189189;0.9166666666666666;37;399;53
-org.jhotdraw.gui.plaf.palette.PaletteListCellRenderer.getNoFocusBorder();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteListCellRenderer.getNoFocusBorder();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.io.DefaultSVGFigureFactory.createPolyline(java.awt.geom.Point2D.Double[], java.util.Map<org.jhotdraw.draw.AttributeKey,java.lang.Object>);org.jhotdraw.draw.AbstractCompositeFigure;2;0;3;1.0;0.9726027397260274;11;108;456
 org.jhotdraw.draw.action.DrawingAttributeAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.action.AbstractDrawingViewAction;2;4;3;0.8333333333333334;0.9473684210526316;41;95;109
 org.jhotdraw.samples.draw.DrawingPanel.addDefaultCreationButtonsTo(java.util.Collection<javax.swing.Action>, java.util.Collection<javax.swing.Action>, javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.CreationTool;1;0;5;1.0;0.9583333333333334;29;134;171
@@ -2353,7 +2353,7 @@ org.jhotdraw.samples.odg.figures.ODGPathOutlineHandle.draw(java.awt.Graphics2D);
 org.jhotdraw.samples.teddy.TeddyView.read(java.lang.String, java.net.URI);org.jhotdraw.undo.UndoRedoManager;1;3;1;0.9423076923076923;0.9696969696969697;21;343;143
 org.jhotdraw.samples.svg.io.ImageMapOutputFormat.writePathElement(net.n3.nanoxml.IXMLElement, org.jhotdraw.samples.svg.figures.SVGPathFigure);org.jhotdraw.draw.BezierFigure;2;1;3;1.0;0.967741935483871;15;331;458
 org.jhotdraw.samples.svg.figures.SVGBezierFigure.findSegment(double, java.awt.geom.Point2D.Double);org.jhotdraw.geom.BezierPath;1;0;3;1.0;1.0;11;169;766
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSlidersChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorSlidersChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.gui.LinkToolBar.createDisclosedComponent(int);org.jhotdraw.gui.plaf.palette.PaletteLabelUI;0;0;6;1.0;1.0;153;174;50
 org.jhotdraw.draw.action.GroupAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.action.AbstractSelectedAction;2;10;2;0.6799999999999999;0.9428571428571428;51;115;102
 org.jhotdraw.samples.svg.SVGView.createDrawing();org.jhotdraw.samples.svg.SVGDrawingPanel;1;0;1;1.0;0.9655172413793104;3;160;387
@@ -2381,7 +2381,7 @@ org.jhotdraw.draw.handle.BezierControlPointHandle.trackEnd(int, java.awt.Point, 
 org.jhotdraw.color.DefaultColorSliderModel.configureSlider(int, javax.swing.JSlider);org.jhotdraw.color.ColorSliderUI;0;3;1;0.88;1.0;12;126;329
 org.jhotdraw.samples.odg.figures.ODGPathFigure.createHandles(int);org.jhotdraw.draw.AbstractCompositeFigure;1;0;3;1.0;0.9863013698630136;17;372;456
 org.jhotdraw.samples.pert.PertView.setScaleFactor(double);org.jhotdraw.app.AbstractView;1;1;2;0.9545454545454546;0.96875;6;160;109
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.app.OSXApplication.createEditMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.edit.AbstractFindAction;0;0;12;1.0;1.0;21;486;5
 org.jhotdraw.app.DefaultApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.PasteAction;0;0;14;1.0;1.0;18;58;25
 org.jhotdraw.samples.mini.LabeledLineConnectionFigureSample.run();org.jhotdraw.draw.LabeledLineConnectionFigure;2;0;8;1.0;0.9672131147540983;32;71;256
@@ -2448,7 +2448,7 @@ org.jhotdraw.draw.handle.ConnectorHandle.basicGetBounds();org.jhotdraw.draw.hand
 org.jhotdraw.color.ComplexColorWheelImageProducer.generateColorWheel();org.jhotdraw.color.AbstractColorWheelImageProducer;10;4;2;0.8461538461538461;0.6153846153846154;17;134;40
 org.jhotdraw.gui.JLifeFormattedTextArea.getValue();org.jhotdraw.gui.JLifeFormattedTextField;1;0;1;1.0;0.9166666666666666;3;37;94
 org.jhotdraw.draw.tool.TextAreaCreationTool.mousePressed(java.awt.event.MouseEvent);org.jhotdraw.draw.tool.CreationTool;3;3;2;0.875;0.896551724137931;35;145;171
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteTextFieldUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteTextFieldUI;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.tool.TextCreationTool.deactivate(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.CreationTool;1;1;1;0.9375;0.9473684210526316;4;151;171
 org.jhotdraw.gui.plaf.palette.PaletteFontChooserUI.keyReleased(java.awt.event.KeyEvent);org.jhotdraw.gui.JFontChooser;2;0;2;1.0;0.9428571428571428;35;368;245
 org.jhotdraw.samples.pert.PertApplicationModel.initView(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.samples.pert.PertView;1;1;1;0.9285714285714286;0.95;5;119;160
@@ -2524,7 +2524,7 @@ org.jhotdraw.samples.color.WheelsAndSlidersMain.createSliderChooser(boolean, jav
 org.jhotdraw.draw.tool.TextAreaCreationTool.creationFinished(org.jhotdraw.draw.Figure);org.jhotdraw.draw.tool.AbstractTool;1;1;1;0.9375;0.9787234042553191;5;145;236
 org.jhotdraw.samples.pert.PertApplet.construct();org.jhotdraw.xml.NanoXMLDOMInput;1;1;1;0.9583333333333334;0.962962962962963;23;217;142
 org.jhotdraw.gui.plaf.palette.PaletteFontChooserUI.updateFamilyList();org.jhotdraw.gui.JFontChooser;2;1;2;0.9787234042553191;0.9487179487179487;28;368;245
-org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorChooserMainPanel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteColorChooserUI.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorChooserMainPanel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.draw.DrawApplicationModel.addDefaultCreationButtonsTo(java.util.Collection<javax.swing.Action>, java.util.Collection<javax.swing.Action>, javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.AbstractAttributedFigure;1;0;5;1.0;0.9666666666666667;30;82;168
 org.jhotdraw.draw.DefaultDrawingViewTransferHandler.exportDone(int, java.awt.datatransfer.Transferable, javax.swing.JComponent);org.jhotdraw.draw.event.CompositeFigureEvent;2;6;2;0.8928571428571429;0.9333333333333333;56;563;18
 org.jhotdraw.samples.svg.gui.FontToolBar.createDisclosedComponent(int);org.jhotdraw.gui.plaf.palette.PaletteSliderUI;0;0;10;1.0;1.0;222;307;167
@@ -2549,7 +2549,7 @@ org.jhotdraw.draw.AbstractAttributedCompositeFigure.drawFigure(java.awt.Graphics
 org.jhotdraw.gui.JFontChooser.updateSelectionPath(java.awt.Font);org.jhotdraw.gui.fontchooser.FontFaceNode;1;3;3;0.9142857142857143;0.967741935483871;57;245;156
 org.jhotdraw.samples.odg.ODGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.util.ResourceBundleUtil;1;0;4;1.0;1.0;14;188;273
 org.jhotdraw.samples.mini.SmartConnectionFigureSample.run();org.jhotdraw.geom.Geom;0;0;3;1.0;1.0;27;76;430
-org.jhotdraw.gui.plaf.palette.PaletteColorSliderUI.getThumbIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteColorSliderUI.getThumbIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.tool.TextEditingTool.deactivate(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.AbstractTool;1;1;1;0.9333333333333333;0.9777777777777777;4;102;236
 org.jhotdraw.samples.svg.figures.SVGEllipseFigure.clone();org.jhotdraw.draw.AbstractAttributedFigure;1;2;1;0.9166666666666666;0.962962962962963;6;152;168
 org.jhotdraw.draw.action.AttributeAction.getPresentationName();org.jhotdraw.util.ResourceBundleUtil;1;0;2;1.0;0.9655172413793104;11;117;273
@@ -2574,7 +2574,7 @@ org.jhotdraw.draw.tool.ImageTool.failed(java.lang.Throwable);org.jhotdraw.draw.t
 org.jhotdraw.app.DefaultApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.file.CloseFileAction;0;0;14;1.0;1.0;18;58;11
 org.jhotdraw.samples.odg.ODGDrawingPanel.addCreationButtonsTo(javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.action.ButtonFactory;2;0;4;1.0;1.0;25;139;724
 org.jhotdraw.samples.svg.gui.FillToolBar.createDisclosedComponent(int);org.jhotdraw.text.ColorFormatter;0;0;11;1.0;1.0;142;167;241
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.getSmallDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.getSmallDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.pert.figures.TaskFigure.getDurationFigure();org.jhotdraw.draw.AbstractCompositeFigure;1;0;1;1.0;0.9855072463768116;3;217;456
 org.jhotdraw.draw.QuadTreeCompositeFigure.getChildren();org.jhotdraw.draw.AbstractCompositeFigure;1;0;1;1.0;0.9857142857142858;3;228;456
 org.jhotdraw.samples.svg.figures.SVGImageFigure.transform(java.awt.geom.AffineTransform);org.jhotdraw.samples.svg.figures.SVGAttributedFigure;1;2;3;0.9555555555555556;0.9375;18;302;80
@@ -2664,7 +2664,7 @@ org.jhotdraw.draw.BezierFigure.transform(java.awt.geom.AffineTransform);org.jhot
 org.jhotdraw.samples.teddy.FindDialog.updateMatcher();org.jhotdraw.samples.teddy.TeddyView;1;4;2;0.8857142857142857;0.9807692307692307;22;256;343
 org.jhotdraw.app.OSXApplication.createEditMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.edit.PasteAction;0;0;12;1.0;1.0;21;486;25
 org.jhotdraw.draw.tool.CreationTool.activate(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.AbstractTool;2;0;1;1.0;0.9574468085106383;4;171;236
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteTextFieldUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteCMYKChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteTextFieldUI;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.figures.ODGGroupFigure.set(org.jhotdraw.draw.AttributeKey<T>, T);org.jhotdraw.draw.AbstractCompositeFigure;2;1;1;0.9285714285714286;0.971830985915493;9;107;456
 org.jhotdraw.draw.TextAreaFigure.getText();org.jhotdraw.draw.AbstractAttributedFigure;1;0;1;1.0;0.9583333333333334;3;291;168
 net.n3.nanoxml.XMLElement.setAttribute(java.lang.String, java.lang.String);net.n3.nanoxml.XMLAttribute;1;2;1;0.9649122807017544;0.875;10;473;25
@@ -2682,7 +2682,7 @@ org.jhotdraw.app.MDIApplication.createHelpMenu(org.jhotdraw.app.View);org.jhotdr
 org.jhotdraw.samples.mini.FileIconsSample.run();org.jhotdraw.geom.Insets2D;4;0;7;1.0;0.9420289855072463;64;133;86
 org.jhotdraw.draw.handle.BezierControlPointHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.geom.BezierPath;4;6;5;0.8695652173913043;0.9529411764705882;34;245;766
 org.jhotdraw.samples.odg.figures.ODGGroupFigure.getBounds();org.jhotdraw.draw.AbstractCompositeFigure;3;0;1;1.0;0.96;22;107;456
-org.jhotdraw.draw.action.DrawingColorChooserHandler.applySelectedColorToFigures();org.jhotdraw.draw.action.AbstractDrawingViewAction;0;0;0;0;0
+org.jhotdraw.draw.action.DrawingColorChooserHandler.applySelectedColorToFigures();org.jhotdraw.draw.action.AbstractDrawingViewAction;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.handle.BezierNodeHandle.getOwner();org.jhotdraw.draw.handle.AbstractHandle;1;0;1;1.0;0.9743589743589743;3;290;220
 org.jhotdraw.samples.odg.ODGView.setGridVisible(boolean);org.jhotdraw.draw.DefaultDrawingView;1;1;1;0.9583333333333334;0.9914529914529915;5;186;1005
 org.jhotdraw.draw.handle.MoveHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.handle.AbstractHandle;2;0;1;1.0;0.9534883720930233;7;94;220
@@ -2788,9 +2788,9 @@ org.jhotdraw.app.MDIApplication.updateViewTitle(javax.swing.JInternalFrame, org.
 org.jhotdraw.draw.tool.SelectionTool.activate(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.AbstractTool;1;1;1;0.9666666666666667;0.9782608695652174;4;186;236
 org.jhotdraw.samples.net.figures.NodeFigure.findCompatibleConnector(boolean, org.jhotdraw.draw.connector.Connector);org.jhotdraw.draw.connector.LocatorConnector;1;1;1;0.9333333333333333;0.8888888888888888;12;85;31
 org.jhotdraw.samples.svg.figures.SVGPathFigure.transform(java.awt.geom.AffineTransform);org.jhotdraw.draw.AbstractCompositeFigure;1;2;2;0.9444444444444444;0.987012987012987;28;399;456
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.initComponents();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.initComponents();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.figures.SVGEllipseFigure.getHitShape();org.jhotdraw.draw.AbstractAttributedFigure;1;2;3;0.92;0.9642857142857143;11;152;168
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteColorWheelChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.ODGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.file.ExportFileAction;0;0;4;1.0;1.0;14;188;88
 org.jhotdraw.draw.handle.TextOverflowHandle.getOwner();org.jhotdraw.draw.handle.AbstractHandle;1;0;1;1.0;0.9743589743589743;3;41;220
 org.jhotdraw.app.MDIApplication.createFileMenu(org.jhotdraw.app.View);org.jhotdraw.app.action.file.LoadFileAction;0;0;15;1.0;1.0;25;431;87
@@ -2808,7 +2808,7 @@ org.jhotdraw.samples.svg.gui.ActionsToolBar.updatePopupMenu();org.jhotdraw.gui.J
 org.jhotdraw.draw.TriangleFigure.getDrawingArea();org.jhotdraw.geom.Geom;1;1;3;0.9473684210526316;1.0;31;173;430
 org.jhotdraw.draw.handle.FontSizeHandle.keyPressed(java.awt.event.KeyEvent);org.jhotdraw.util.ResourceBundleUtil;1;6;2;0.8064516129032258;0.9795918367346939;50;137;273
 org.jhotdraw.draw.QuadTreeDrawing.sendToBack(org.jhotdraw.draw.Figure);org.jhotdraw.draw.AbstractCompositeFigure;1;1;2;0.9714285714285714;0.9864864864864865;7;243;456
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLabelUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PaletteLabelUI;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.draw.DrawingPanel.addDefaultCreationButtonsTo(java.util.Collection<javax.swing.Action>, java.util.Collection<javax.swing.Action>, javax.swing.JToolBar, org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.action.ButtonFactory;2;0;5;1.0;1.0;29;134;724
 org.jhotdraw.draw.action.DefaultAttributeAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.action.AbstractSelectedAction;2;1;2;0.9;0.8947368421052632;8;70;102
 org.jhotdraw.draw.connector.StickyRectangleConnector.updateAnchor(java.awt.geom.Point2D.Double);org.jhotdraw.geom.Geom;1;1;2;0.9090909090909091;1.0;3;40;430
@@ -2844,7 +2844,7 @@ org.jhotdraw.draw.GraphicalCompositeFigure.areaInvalidated(org.jhotdraw.draw.eve
 org.jhotdraw.samples.svg.figures.SVGTextFigure.getFontSize();org.jhotdraw.draw.AbstractAttributedFigure;1;0;1;1.0;0.962962962962963;11;299;168
 org.jhotdraw.draw.action.PickAttributesAction.selectionChanged(org.jhotdraw.draw.event.FigureSelectionEvent);org.jhotdraw.draw.action.AbstractSelectedAction;1;0;1;1.0;0.9444444444444444;3;26;102
 org.jhotdraw.app.DefaultApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.file.NewFileAction;0;0;14;1.0;1.0;18;58;30
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteHSBChooser.getLargeDisplayIcon();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.gui.ActionsToolBar.createDisclosedComponent(int);org.jhotdraw.gui.JPopupButton;1;1;6;0.9666666666666667;0.9811320754716981;63;150;175
 org.jhotdraw.draw.tool.TextCreationTool.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.tool.CreationTool;1;1;2;0.9411764705882353;0.95;6;151;171
 org.jhotdraw.samples.teddy.TeddyApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.samples.teddy.action.ToggleLineWrapAction;0;0;6;1.0;1.0;10;47;14
@@ -2916,7 +2916,7 @@ org.jhotdraw.app.OSXApplication.windowGainedFocus(java.awt.event.WindowEvent);or
 org.jhotdraw.samples.svg.figures.SVGPathFigure.getPath();org.jhotdraw.draw.BezierFigure;1;1;3;0.9722222222222222;0.9841269841269842;11;399;458
 org.jhotdraw.draw.handle.RoundRectangleRadiusHandle.keyPressed(java.awt.event.KeyEvent);org.jhotdraw.draw.handle.AbstractHandle;2;0;4;1.0;0.9642857142857143;39;97;220
 org.jhotdraw.samples.svg.io.SVGZOutputFormat.write(java.io.OutputStream, org.jhotdraw.draw.Drawing);org.jhotdraw.samples.svg.io.SVGOutputFormat;1;0;1;1.0;1.0;5;13;781
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.buildChooser();org.jhotdraw.gui.plaf.palette.PalettePanelUI;0;0;0;0;0;0;0;0
 org.jhotdraw.app.OSXApplication.initPalettes(java.util.LinkedList<javax.swing.Action>);org.jhotdraw.beans.AbstractBean;1;5;5;0.9342105263157895;1.0;48;486;63
 org.jhotdraw.draw.handle.BezierNodeHandle.trackDoubleClick(int, java.awt.Point);org.jhotdraw.draw.AbstractFigure;2;5;4;0.868421052631579;0.975;33;290;332
 org.jhotdraw.app.action.app.ExitAction.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.gui.event.SheetEvent;1;6;5;0.8846153846153846;0.9791666666666666;85;293;43
@@ -2995,7 +2995,7 @@ org.jhotdraw.draw.tool.ConnectionTool.createFigure();org.jhotdraw.draw.tool.Abst
 org.jhotdraw.draw.handle.TextOverflowHandle.basicGetBounds();org.jhotdraw.draw.handle.AbstractHandle;2;1;1;0.9523809523809523;0.9607843137254902;14;41;220
 org.jhotdraw.samples.draw.DrawApplet.getData();org.jhotdraw.xml.NanoXMLDOMOutput;2;1;2;0.9615384615384616;0.9393939393939394;19;213;134
 org.jhotdraw.draw.DefaultDrawingEditor.setDefaultAttribute(java.lang.Object, org.jhotdraw.draw.AttributeKey);org.jhotdraw.beans.AbstractBean;1;1;2;0.972972972972973;1.0;4;223;63
-org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintText(boolean, int, int, java.awt.Font, java.awt.FontMetrics, java.awt.Graphics, java.awt.Rectangle, java.lang.String);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteTabbedPaneUI.paintText(boolean, int, int, java.awt.Font, java.awt.FontMetrics, java.awt.Graphics, java.awt.Rectangle, java.lang.String);org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.pert.PertApplicationModel.createMenus(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.ActionUtil;1;0;2;1.0;1.0;29;119;8
 org.jhotdraw.draw.tool.DefaultHandleTracker.mouseReleased(java.awt.event.MouseEvent);org.jhotdraw.draw.event.HandleMulticaster;1;1;2;0.9666666666666667;1.0;8;147;47
 org.jhotdraw.samples.odg.action.SplitAction.canUngroup();org.jhotdraw.draw.action.AbstractSelectedAction;1;0;2;1.0;0.9523809523809523;6;49;102
@@ -3011,7 +3011,7 @@ org.jhotdraw.gui.plaf.palette.PaletteFontChooserUI.updateFaceList();org.jhotdraw
 org.jhotdraw.samples.color.JMixer.contentsChanged(javax.swing.event.ListDataEvent);org.jhotdraw.color.JHarmonicColorWheel;1;1;2;0.9833333333333333;0.96875;9;676;223
 org.jhotdraw.draw.QuadTreeCompositeFigure.ensureSorted();org.jhotdraw.draw.AbstractCompositeFigure;1;1;2;0.96875;0.9859154929577465;6;228;456
 org.jhotdraw.draw.AbstractAttributedCompositeFigure.getAttributeKey(java.lang.String);org.jhotdraw.draw.AttributeKeys;0;0;1;1.0;1.0;3;177;166
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.valueChanged(javax.swing.event.ListSelectionEvent);org.jhotdraw.draw.action.ColorIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteSwatchesChooser.valueChanged(javax.swing.event.ListSelectionEvent);org.jhotdraw.draw.action.ColorIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.app.action.file.OpenFileAction.openViewFromURI(java.net.URI, org.jhotdraw.app.View, org.jhotdraw.gui.URIChooser);org.jhotdraw.util.ResourceBundleUtil;1;3;4;0.9189189189189189;1.0;64;190;273
 org.jhotdraw.samples.odg.figures.ODGPathOutlineHandle.draw(java.awt.Graphics2D);org.jhotdraw.draw.AbstractAttributedCompositeFigure;1;1;3;0.9285714285714286;0.9696969696969697;9;27;177
 org.jhotdraw.geom.BezierPath.outlineContains(double, java.awt.geom.Point2D.Double);org.jhotdraw.geom.Shapes;1;0;1;1.0;1.0;3;766;22
@@ -3022,7 +3022,7 @@ org.jhotdraw.draw.TextAreaFigure.setFontSize(float);org.jhotdraw.draw.AbstractAt
 org.jhotdraw.draw.handle.RoundRectangleRadiusHandle.trackEnd(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.handle.AbstractHandle;3;1;4;0.9545454545454546;0.94;15;97;220
 org.jhotdraw.app.action.file.LoadRecentFileAction.done(java.lang.Object);org.jhotdraw.app.action.AbstractViewAction;1;1;1;0.9411764705882353;0.9615384615384616;14;103;68
 org.jhotdraw.samples.svg.figures.SVGRectFigure.getHitShape();org.jhotdraw.draw.AbstractAttributedFigure;1;2;3;0.935483870967742;0.9642857142857143;11;209;168
-org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.colorchooser.PaletteRGBChooser.getDisplayName();org.jhotdraw.gui.plaf.palette.PaletteLookAndFeel;0;0;0;0;0;0;0;0
 org.jhotdraw.draw.tool.ConnectionTool.activate(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.tool.AbstractTool;1;0;1;1.0;0.9772727272727273;3;235;236
 org.jhotdraw.app.action.app.ExitAction.failed(java.lang.Throwable);org.jhotdraw.util.ResourceBundleUtil;1;1;3;0.96;1.0;9;293;273
 org.jhotdraw.samples.svg.figures.ConvexHullOutlineHandle.basicGetBounds();org.jhotdraw.draw.handle.AbstractHandle;1;1;3;0.9583333333333334;0.9782608695652174;10;115;220

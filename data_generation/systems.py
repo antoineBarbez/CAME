@@ -7,7 +7,7 @@ systems_git = [
 	"directory":['pmd/src/main/java/']
 	},
 	{
-	"name"     :'apache-log4j2', 
+	"name"     :'apache-log4j', 
 	"url"      :'https://github.com/apache/log4j.git', 
 	"snapshot" :'0663eb2a1301f7622f017496c5983789b1cbae38', 
 	"directory":['src/java/']
@@ -61,9 +61,9 @@ systems_git = [
 	"directory":['src/java/']
 	},
 	{
-	"name"     :'xerces-2_7_0', 
+	"name"     :'xerces', 
 	"url"      :'https://github.com/apache/xerces2-j.git', 
-	"snapshot" :'c986230', 
+	"snapshot" :'c986230',
 	"directory":['src/']
 	},
 	{

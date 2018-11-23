@@ -1,0 +1,17 @@
+org.jhotdraw.samples.svg.io.ImageMapOutputFormat.writeRectElement(ixmlelement, svgrectfigure);org.jhotdraw.samples.svg.figures.SVGRectFigure
+org.jhotdraw.samples.svg.io.SVGOutputFormat.writePathElement(ixmlelement, svgpathfigure);org.jhotdraw.samples.svg.figures.SVGPathFigure
+org.jhotdraw.samples.svg.io.SVGOutputFormat.writePolygonElement(ixmlelement, svgpathfigure);org.jhotdraw.samples.svg.figures.SVGPathFigure
+org.jhotdraw.samples.svg.io.SVGOutputFormat.writePolylineElement(ixmlelement, svgpathfigure);org.jhotdraw.samples.svg.figures.SVGPathFigure
+org.jhotdraw.samples.svg.io.SVGOutputFormat.writeTextElement(ixmlelement, svgtextfigure);org.jhotdraw.samples.svg.figures.SVGTextFigure
+org.jhotdraw.samples.svg.io.SVGOutputFormat.writeTextAreaElement(ixmlelement, svgtextareafigure);org.jhotdraw.samples.svg.figures.SVGTextAreaFigure
+org.jhotdraw.samples.svg.figures.SVGTextFigure.set(attributekey, t);org.jhotdraw.draw.AttributeKeys
+org.jhotdraw.samples.svg.figures.SVGRectRadiusHandle.keyPressed(keyevent);org.jhotdraw.samples.svg.figures.SVGRectFigure
+org.jhotdraw.samples.svg.figures.SVGTextAreaFigure.set(attributekey, t);org.jhotdraw.draw.AttributeKeys
+org.jhotdraw.samples.svg.figures.SVGTextAreaFigure.getInsets();org.jhotdraw.geom.Insets2D
+org.jhotdraw.samples.odg.io.ODGInputFormat.nextEnhancedCoordinate(streampostokenizer, string);org.jhotdraw.io.StreamPosTokenizer
+org.jhotdraw.samples.odg.figures.ODGRectFigure.setArc(dimension2ddouble);org.jhotdraw.geom.Dimension2DDouble
+org.jhotdraw.gui.plaf.palette.PaletteFontChooserUI.setNewSelectionPath(fontcollectionnode, fontfacenode, fontfamilynode);org.jhotdraw.gui.JFontChooser
+org.jhotdraw.draw.handle.ResizeHandleKit.draw(graphics2d);org.jhotdraw.draw.handle.HandleAttributeKeys
+org.jhotdraw.draw.BezierFigure.getOutermostPoint();org.jhotdraw.geom.BezierPath
+org.jhotdraw.draw.BezierFigure.readPoints(dominput);org.jhotdraw.geom.BezierPath
+org.jhotdraw.draw.TextAreaFigure.getInsets();org.jhotdraw.geom.Insets2D

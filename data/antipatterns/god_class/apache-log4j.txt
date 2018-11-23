@@ -1,0 +1,6 @@
+org.apache.log4j.Category
+org.apache.log4j.PropertyConfigurator
+org.apache.log4j.chainsaw.LogPanel
+org.apache.log4j.chainsaw.LogUI
+org.apache.log4j.lf5.viewer.LogBrokerMonitor
+org.apache.log4j.xml.DOMConfigurator

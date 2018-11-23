@@ -2662,7 +2662,7 @@ org.argouml.ui.explorer.DnDExplorerTree.dragOver(java.awt.dnd.DropTargetDragEven
 org.argouml.kernel.MemberList.remove(java.lang.Object);org.argouml.kernel.AbstractProjectMember;1;3;1;0.9;0.9;19;205;54
 org.argouml.uml.ui.ActionRevertToSaved.actionPerformed(java.awt.event.ActionEvent);org.argouml.i18n.Translator;0;0;4;1.0;1.0;12;15;106
 org.argouml.uml.ui.foundation.core.ActionSetAssociationEndNavigable.actionPerformed(java.awt.event.ActionEvent);org.argouml.uml.ui.UMLCheckBox2;1;0;1;1.0;0.9230769230769231;11;17;33
-org.argouml.persistence.XMIParser.registerModelAndDiagrams(java.util.Collection);org.argouml.kernel.Project;0;0;0;0;0
+org.argouml.persistence.XMIParser.registerModelAndDiagrams(java.util.Collection);org.argouml.kernel.Project;0;0;0;0;0;0;0;0
 org.argouml.cognitive.critics.ui.CriticBrowserDialog.setTarget(java.lang.Object);org.argouml.cognitive.critics.SnoozeOrder;1;10;3;0.7777777777777778;0.9696969696969697;25;228;37
 org.argouml.cognitive.ui.GoListToGoalsToItems.getChildCount(java.lang.Object);org.argouml.cognitive.ToDoList;1;1;3;0.9285714285714286;0.9795918367346939;16;63;352
 org.argouml.uml.reveng.java.OuterClassifierContext.getInterface(java.lang.String);org.argouml.uml.reveng.java.Context;1;4;2;0.7333333333333334;1.0;45;96;21

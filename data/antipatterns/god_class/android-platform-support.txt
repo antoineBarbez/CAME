@@ -1,0 +1,4 @@
+android.support.v4.app.FragmentActivity
+android.support.v4.app.Fragment
+android.support.v4.app.FragmentManagerImpl
+android.support.v4.view.ViewPager

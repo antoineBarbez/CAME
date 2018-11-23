@@ -52,3 +52,4 @@ if __name__ == "__main__":
 	rm = RepositoryMiner()
 	for system in systems.systems_git + systems.systems_svn:
 		rm.mine(system)
+

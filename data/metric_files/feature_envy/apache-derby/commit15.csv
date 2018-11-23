@@ -1254,7 +1254,7 @@ org.apache.derby.iapi.types.SQLNationalChar.getDate(java.util.Calendar);org.apac
 org.apache.derby.impl.sql.compile.FromBaseTable.updateTargetLockMode();org.apache.derby.iapi.sql.dictionary.ConglomerateDescriptor;1;0;4;1.0;0.95;12;1544;95
 org.apache.derby.impl.sql.compile.ColumnReference.bindExpression(java.util.Vector, org.apache.derby.impl.sql.compile.FromList, org.apache.derby.impl.sql.compile.SubqueryList);org.apache.derby.impl.sql.compile.FromList;1;3;4;0.9473684210526316;0.9803921568627451;15;369;588
 org.apache.derby.impl.store.raw.xact.Xact.addUpdateTransaction(int);org.apache.derby.impl.store.raw.xact.XactFactory;1;1;1;0.9911504424778761;1.0;3;906;344
-org.apache.derby.impl.sql.compile.OptimizerImpl.pushPredicates(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.iapi.util.JBitSet);org.apache.derby.impl.sql.compile.FromTable;0;0;0;0;0
+org.apache.derby.impl.sql.compile.OptimizerImpl.pushPredicates(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.iapi.util.JBitSet);org.apache.derby.impl.sql.compile.FromTable;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.execute.rts.RealAnyResultSetStatistics.getStatementExecutionPlanText(int);org.apache.derby.iapi.services.i18n.MessageService;0;3;3;0.875;1.0;5;25;169
 org.apache.derby.impl.store.raw.xact.XactFactory.startCommonTransaction(boolean, boolean, java.lang.Object, java.lang.String, java.lang.String, org.apache.derby.iapi.services.context.ContextManager, org.apache.derby.iapi.store.raw.RawStoreFactory);org.apache.derby.iapi.services.context.ContextService;1;4;2;0.9482758620689655;0.9444444444444444;10;344;175
 org.apache.derby.impl.services.monitor.BaseMonitor.bootService(boolean, java.lang.String, java.lang.String, java.util.Properties, org.apache.derby.iapi.services.monitor.PersistentService);org.apache.derby.impl.services.monitor.UpdateServiceProperties;2;5;7;0.9572649572649573;0.962962962962963;100;1053;42
@@ -1990,7 +1990,7 @@ org.apache.derby.impl.jdbc.TransactionResourceImpl.setupContextStack();org.apach
 org.apache.derby.impl.sql.compile.ConcatenationOperatorNode.resolveConcatOperation(org.apache.derby.iapi.types.DataTypeDescriptor, org.apache.derby.iapi.types.DataTypeDescriptor);org.apache.derby.iapi.types.TypeId;5;0;3;1.0;0.921875;71;148;791
 org.apache.derby.impl.sql.compile.RevokeNode.makeConstantAction();org.apache.derby.impl.sql.execute.GenericConstantActionFactory;1;1;3;0.8888888888888888;1.0;3;27;108
 org.apache.derby.impl.sql.GenericParameterValueSet.clearParameters();org.apache.derby.impl.sql.GenericParameter;1;1;1;0.96;0.9473684210526316;5;194;80
-org.apache.derby.impl.sql.compile.OptimizerImpl.pushPredicates(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.iapi.util.JBitSet);org.apache.derby.impl.sql.compile.Predicate;0;0;0;0;0
+org.apache.derby.impl.sql.compile.OptimizerImpl.pushPredicates(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.iapi.util.JBitSet);org.apache.derby.impl.sql.compile.Predicate;0;0;0;0;0;0;0;0
 org.apache.derby.iapi.services.classfile.ClassMember.getName();org.apache.derby.iapi.services.classfile.ClassHolder;1;1;1;0.8888888888888888;0.9777777777777777;3;36;402
 org.apache.derby.impl.sql.execute.DropSchemaConstantAction.executeConstantAction(org.apache.derby.iapi.sql.Activation);org.apache.derby.iapi.sql.dictionary.SchemaDescriptor;2;1;2;0.9523809523809523;0.9310344827586207;19;25;61
 org.apache.derby.impl.store.access.btree.LeafControlRow.isRightmostLeaf();org.apache.derby.impl.store.access.btree.ControlRow;1;0;1;1.0;0.972972972972973;3;267;539
@@ -2633,7 +2633,7 @@ org.apache.derby.impl.sql.compile.DMLStatementNode.bind(org.apache.derby.iapi.sq
 org.apache.derby.impl.store.raw.xact.D_Xact.diag();org.apache.derby.impl.store.raw.xact.Xact;1;0;3;1.0;0.991304347826087;5;5;906
 org.apache.derby.iapi.types.TypeId.orderable(org.apache.derby.iapi.services.loader.ClassFactory);org.apache.derby.iapi.services.loader.ClassInspector;1;1;2;0.9833333333333333;0.962962962962963;27;791;437
 org.apache.derby.impl.store.raw.data.BasePage.initPage(int, long);org.apache.derby.impl.store.raw.data.BaseContainerHandle;2;1;2;0.9878048780487805;0.9642857142857143;10;844;314
-org.apache.derby.impl.sql.compile.FromBaseTable.getFromTableByName(boolean, java.lang.String, java.lang.String);org.apache.derby.impl.sql.compile.FromTable;0;0;0;0;0
+org.apache.derby.impl.sql.compile.FromBaseTable.getFromTableByName(boolean, java.lang.String, java.lang.String);org.apache.derby.impl.sql.compile.FromTable;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.compile.ResultColumnList.makeColumnReferenceFromName(java.lang.String, org.apache.derby.impl.sql.compile.TableName);org.apache.derby.iapi.sql.compile.NodeFactory;1;0;2;1.0;0.9444444444444444;6;1522;70
 org.apache.derby.impl.sql.compile.TernaryOperatorNode.setResultType(org.apache.derby.iapi.types.TypeId);org.apache.derby.iapi.types.DataTypeDescriptor;1;0;2;1.0;0.95;3;323;383
 org.apache.derby.impl.jdbc.EmbedClob.setString(int, int, java.lang.String, long);org.apache.derby.impl.jdbc.Util;0;0;1;1.0;1.0;3;335;165
@@ -2742,7 +2742,7 @@ org.apache.derby.jdbc.EmbeddedSimpleDataSource.findDriver();org.apache.derby.jdb
 org.apache.derby.impl.store.access.conglomerate.GenericScanController.positionAtInitScan(int, int, org.apache.derby.iapi.store.access.Qualifier[][], org.apache.derby.iapi.types.DataValueDescriptor[], org.apache.derby.iapi.types.DataValueDescriptor[], org.apache.derby.impl.store.access.conglomerate.RowPosition);org.apache.derby.iapi.store.access.RowUtil;0;6;6;0.9;1.0;34;369;195
 org.apache.derby.impl.sql.execute.InsertResultSet.emptyIndexes(long, org.apache.derby.iapi.sql.dictionary.DataDictionary, org.apache.derby.iapi.sql.dictionary.TableDescriptor, org.apache.derby.iapi.sql.execute.ExecRow, org.apache.derby.impl.sql.execute.InsertConstantAction);org.apache.derby.iapi.sql.dictionary.ConglomerateDescriptor;3;6;8;0.9454545454545454;0.9523809523809523;89;899;95
 org.apache.derby.impl.sql.compile.SQLToJavaValueNode.printSubNodes(int);org.apache.derby.impl.sql.compile.QueryTreeNode;3;0;1;1.0;0.9577464788732395;10;132;474
-org.apache.derby.impl.store.access.RAMTransaction.dropSort(long);org.apache.derby.iapi.util.ReuseFactory;0;0;0;0;0
+org.apache.derby.impl.store.access.RAMTransaction.dropSort(long);org.apache.derby.iapi.util.ReuseFactory;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.compile.CallStatementNode.printSubNodes(int);org.apache.derby.impl.sql.compile.QueryTreeNode;2;0;2;1.0;0.9722222222222222;9;80;474
 org.apache.derby.iapi.services.classfile.CONSTANT_Utf8_info.setAsCode();org.apache.derby.iapi.services.classfile.ConstantPoolEntry;1;3;2;0.6666666666666667;0.9090909090909091;9;42;32
 org.apache.derby.iapi.types.SQLTimestamp.parseTimestamp(boolean, java.lang.String, java.util.Calendar, org.apache.derby.iapi.services.i18n.LocaleFinder);org.apache.derby.iapi.types.DateTimeParser;1;6;3;0.9245283018867925;0.9411764705882353;29;600;103
@@ -2892,7 +2892,7 @@ org.apache.derby.impl.sql.compile.CreateTableNode.makeConstantAction();org.apach
 org.apache.derby.impl.store.raw.data.DirectActions.actionInsert(boolean, byte, int, int, int, int, int, int, java.lang.Object[], org.apache.derby.iapi.services.io.DynamicByteArrayOutputStream, org.apache.derby.iapi.services.io.FormatableBitSet, org.apache.derby.iapi.store.access.conglomerate.LogicalUndo, org.apache.derby.iapi.store.raw.xact.RawTransaction, org.apache.derby.impl.store.raw.data.BasePage);org.apache.derby.iapi.error.StandardException;0;0;4;1.0;1.0;20;112;307
 org.apache.derby.impl.sql.compile.CompilerContextImpl.addRequiredRoutinePriv(org.apache.derby.iapi.sql.dictionary.AliasDescriptor);org.apache.derby.iapi.sql.dictionary.AliasDescriptor;2;1;3;0.9866666666666667;0.9047619047619048;5;322;87
 org.apache.derby.impl.sql.execute.NoPutResultSetImpl.setCurrentRow(org.apache.derby.iapi.sql.execute.ExecRow);org.apache.derby.impl.sql.execute.BasicNoPutResultSetImpl;2;1;1;0.967741935483871;0.971830985915493;4;179;373
-org.apache.derby.impl.jdbc.EmbedResultSet.findColumnName(java.lang.String);org.apache.derby.iapi.util.ReuseFactory;0;0;0;0;0
+org.apache.derby.impl.jdbc.EmbedResultSet.findColumnName(java.lang.String);org.apache.derby.iapi.util.ReuseFactory;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.compile.OrderByList.removeConstantColumns(org.apache.derby.impl.sql.compile.PredicateList);org.apache.derby.impl.sql.compile.QueryTreeNodeVector;3;0;2;1.0;0.8125;8;182;63
 org.apache.derby.iapi.sql.dictionary.TriggerDescriptor.getDataDictionary();org.apache.derby.iapi.services.context.ContextService;0;0;2;1.0;1.0;9;250;175
 org.apache.derby.impl.sql.compile.TableOperatorNode.optimizeSource(org.apache.derby.iapi.sql.compile.CostEstimate, org.apache.derby.iapi.sql.compile.Optimizer, org.apache.derby.impl.sql.compile.PredicateList, org.apache.derby.impl.sql.compile.ResultSetNode);org.apache.derby.impl.sql.compile.ResultSetNode;1;2;3;0.9661016949152542;1.0;31;281;479
@@ -3108,7 +3108,7 @@ org.apache.derby.impl.services.cache.Clock.scan(org.apache.derby.iapi.util.Match
 org.apache.derby.impl.services.bytecode.BCMethod.upCast(java.lang.String);org.apache.derby.impl.services.bytecode.BCJava;1;2;2;0.971830985915493;0.8888888888888888;4;591;75
 org.apache.derby.iapi.jdbc.BrokeredPreparedStatement40.setNString(int, java.lang.String);org.apache.derby.iapi.jdbc.BrokeredPreparedStatement;1;0;1;1.0;0.975609756097561;3;75;123
 org.apache.derby.impl.sql.compile.ResultColumnList.hasConsistentTypeInfo();org.apache.derby.impl.sql.compile.ValueNode;0;0;3;1.0;1.0;21;1522;313
-org.apache.derby.impl.sql.catalog.DataDictionaryImpl.updateSYSCOLPERMSforAddColumnToUserTable(org.apache.derby.catalog.UUID, org.apache.derby.iapi.store.access.TransactionController);org.apache.derby.iapi.services.io.FormatableBitSet;0;0;0;0;0
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.updateSYSCOLPERMSforAddColumnToUserTable(org.apache.derby.catalog.UUID, org.apache.derby.iapi.store.access.TransactionController);org.apache.derby.iapi.services.io.FormatableBitSet;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.compile.QueryTreeNode.getLanguageConnectionContext();org.apache.derby.iapi.services.context.ContextManager;1;2;1;0.9722222222222222;0.967741935483871;6;474;216
 org.apache.derby.impl.sql.catalog.SYSSTATISTICSRowFactory.buildDescriptor(org.apache.derby.iapi.sql.dictionary.DataDictionary, org.apache.derby.iapi.sql.dictionary.TupleDescriptor, org.apache.derby.iapi.sql.execute.ExecRow);org.apache.derby.iapi.sql.dictionary.CatalogRowFactory;1;0;1;1.0;0.9722222222222222;30;76;99
 org.apache.derby.impl.store.raw.log.LogToFile.flush(org.apache.derby.iapi.store.raw.log.LogInstant);org.apache.derby.impl.store.raw.log.LogCounter;2;1;1;0.993006993006993;0.8461538461538461;14;1853;77
@@ -4437,7 +4437,7 @@ org.apache.derby.impl.jdbc.EmbedCallableStatement40.setCharacterStream(java.io.R
 org.apache.derby.iapi.types.SQLNationalVarchar.setValue(java.sql.Time, java.util.Calendar);org.apache.derby.iapi.types.SQLChar;2;0;1;1.0;0.9803921568627451;3;65;1106
 org.apache.derby.impl.store.raw.data.StoredPage.updateOverflowDetails(org.apache.derby.iapi.store.raw.RecordHandle, org.apache.derby.iapi.store.raw.RecordHandle, org.apache.derby.impl.store.raw.data.StoredPage);org.apache.derby.impl.store.raw.data.BasePage;1;2;3;0.9930555555555556;0.9873417721518988;5;2922;844
 org.apache.derby.impl.store.raw.data.StoredPage.updatePageHeader();org.apache.derby.impl.store.raw.data.BaseDataFileFactory;1;8;4;0.9463087248322147;0.9917355371900827;17;2922;1057
-org.apache.derby.impl.sql.catalog.DataDictionaryImpl.updateSYSCOLPERMSforAddColumnToUserTable(org.apache.derby.catalog.UUID, org.apache.derby.iapi.store.access.TransactionController);org.apache.derby.impl.sql.catalog.TabInfoImpl;0;0;0;0;0
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.updateSYSCOLPERMSforAddColumnToUserTable(org.apache.derby.catalog.UUID, org.apache.derby.iapi.store.access.TransactionController);org.apache.derby.impl.sql.catalog.TabInfoImpl;0;0;0;0;0;0;0;0
 org.apache.derby.impl.store.raw.data.UpdateFieldOperation.doMe(org.apache.derby.iapi.services.io.LimitObjectInput, org.apache.derby.iapi.store.raw.log.LogInstant, org.apache.derby.iapi.store.raw.Transaction);org.apache.derby.impl.store.raw.data.PageBasicOperation;0;2;2;0.8461538461538461;1.0;3;95;105
 org.apache.derby.impl.store.access.btree.index.B2IRowLockingRR.unlockScanRecordAfterRead(boolean, org.apache.derby.impl.store.access.btree.BTreeRowPosition);org.apache.derby.impl.store.access.conglomerate.RowPosition;1;0;3;1.0;0.9333333333333333;9;15;31
 org.apache.derby.impl.sql.compile.SelectNode.uniqueSubquery(boolean);org.apache.derby.impl.sql.compile.QueryTreeNodeVector;1;0;6;1.0;0.9444444444444444;11;686;63
@@ -6352,7 +6352,7 @@ org.apache.derby.impl.store.access.btree.BTreeController.doIns(org.apache.derby.
 org.apache.derby.impl.sql.compile.ResultColumnList.getColumnReferenceMap();org.apache.derby.impl.sql.compile.QueryTreeNodeVector;2;0;3;1.0;0.8823529411764706;11;1522;63
 org.apache.derby.impl.sql.compile.NonStaticMethodCallNode.init(java.lang.Object, java.lang.Object);org.apache.derby.impl.sql.compile.MethodCallNode;1;0;4;1.0;0.972972972972973;9;110;482
 org.apache.derby.iapi.store.access.DiskHashtable.nextElement();org.apache.derby.iapi.store.access.BackingStoreHashtable;0;3;1;0.88;1.0;25;150;222
-org.apache.derby.iapi.types.SQLBlob.getTraceString();org.apache.derby.iapi.types.SQLBinary;0;0;0;0;0
+org.apache.derby.iapi.types.SQLBlob.getTraceString();org.apache.derby.iapi.types.SQLBinary;0;0;0;0;0;0;0;0
 org.apache.derby.impl.store.raw.data.StoredPage.handleIncompleteLogRow(int, int, org.apache.derby.iapi.services.io.DynamicByteArrayOutputStream, org.apache.derby.iapi.services.io.FormatableBitSet);org.apache.derby.impl.store.raw.data.BasePage;2;1;7;0.9935483870967742;0.9775280898876404;32;2922;844
 org.apache.derby.impl.sql.compile.ModifyColumnNode.validateAutoincrement(int, org.apache.derby.iapi.sql.dictionary.DataDictionary, org.apache.derby.iapi.sql.dictionary.TableDescriptor);org.apache.derby.impl.sql.compile.QueryTreeNode;1;1;7;0.9565217391304348;0.9880952380952381;16;118;474
 org.apache.derby.impl.store.raw.data.ContainerUndoOperation.writeExternal(java.io.ObjectOutput);org.apache.derby.impl.store.raw.data.ContainerBasicOperation;1;0;1;1.0;0.9166666666666666;3;36;77
@@ -6362,7 +6362,7 @@ org.apache.derby.impl.services.bytecode.BCClass.newFieldWithAccessors(boolean, i
 org.apache.derby.impl.sql.compile.FromList.bindColumnReference(org.apache.derby.impl.sql.compile.ColumnReference);org.apache.derby.impl.sql.compile.FromTable;2;0;8;1.0;0.978494623655914;41;588;508
 org.apache.derby.impl.sql.compile.UnaryOperatorNode.isUnaryMinusOrPlusWithParameter();org.apache.derby.impl.sql.compile.ValueNode;1;1;1;0.9705882352941176;0.9821428571428571;4;234;313
 org.apache.derby.impl.store.raw.data.UpdateOperation.undoMe(org.apache.derby.iapi.services.io.LimitObjectInput, org.apache.derby.iapi.store.raw.log.LogInstant, org.apache.derby.iapi.store.raw.Transaction, org.apache.derby.impl.store.raw.data.BasePage);org.apache.derby.impl.store.raw.data.BasePage;4;1;1;0.9411764705882353;0.9746835443037974;6;80;844
-org.apache.derby.impl.sql.compile.OptimizerImpl.pushPredicates(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.iapi.util.JBitSet);org.apache.derby.impl.sql.compile.BaseTableNumbersVisitor;0;0;0;0;0
+org.apache.derby.impl.sql.compile.OptimizerImpl.pushPredicates(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.iapi.util.JBitSet);org.apache.derby.impl.sql.compile.BaseTableNumbersVisitor;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.execute.DropViewConstantAction.executeConstantAction(org.apache.derby.iapi.sql.Activation);org.apache.derby.iapi.error.StandardException;1;2;3;0.875;1.0;18;29;307
 org.apache.derby.impl.sql.compile.ResultColumnList.treePrint(int);org.apache.derby.impl.sql.compile.QueryTreeNodeVector;2;0;2;1.0;0.8823529411764706;7;1522;63
 org.apache.derby.impl.store.raw.data.RFResource.add(java.io.InputStream, java.lang.String);org.apache.derby.impl.store.raw.data.BaseDataFileFactory;6;1;4;0.96875;0.952;53;86;1057
@@ -7860,7 +7860,7 @@ org.apache.derby.impl.sql.compile.ResultSetNode.genProjectRestrict();org.apache.
 org.apache.derby.jdbc.ResourceAdapterImpl.stop();org.apache.derby.jdbc.XATransactionState;0;2;2;0.8333333333333334;1.0;12;35;129
 org.apache.derby.impl.sql.compile.ResultColumn.getMaximumColumnSize();org.apache.derby.iapi.types.TypeId;1;0;3;1.0;0.9791666666666666;3;617;791
 org.apache.derby.impl.store.raw.data.InitPageOperation.readExternal(java.io.ObjectInput);org.apache.derby.impl.store.raw.data.PageBasicOperation;1;4;2;0.75;0.9473684210526316;7;54;105
-org.apache.derby.impl.sql.catalog.DataDictionaryImpl.updateSYSCOLPERMSforAddColumnToUserTable(org.apache.derby.catalog.UUID, org.apache.derby.iapi.store.access.TransactionController);org.apache.derby.impl.sql.catalog.SYSCOLPERMSRowFactory;0;0;0;0;0
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.updateSYSCOLPERMSforAddColumnToUserTable(org.apache.derby.catalog.UUID, org.apache.derby.iapi.store.access.TransactionController);org.apache.derby.impl.sql.catalog.SYSCOLPERMSRowFactory;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.execute.rts.RealDistinctScanStatistics.getStatementExecutionPlanText(int);org.apache.derby.impl.sql.execute.rts.RealNoPutResultSetStatistics;3;0;5;1.0;0.9302325581395349;25;41;17
 org.apache.derby.impl.sql.compile.ResultColumnList.buildEmptyIndexRow(org.apache.derby.iapi.sql.dictionary.ConglomerateDescriptor, org.apache.derby.iapi.sql.dictionary.DataDictionary, org.apache.derby.iapi.sql.dictionary.TableDescriptor, org.apache.derby.iapi.store.access.StoreCostController);org.apache.derby.iapi.sql.dictionary.IndexRowGenerator;1;0;6;1.0;0.9705882352941176;19;1522;124
 org.apache.derby.impl.jdbc.EmbedResultSet.getParameterValueSet();org.apache.derby.impl.jdbc.EmbedStatement;1;0;1;1.0;0.9871794871794872;4;1711;564
@@ -7907,7 +7907,7 @@ org.apache.derby.impl.sql.execute.rts.RealHashScanStatistics.getStatementExecuti
 org.apache.derby.impl.store.access.btree.LeafControlRow.getNumberOfControlRowColumns();org.apache.derby.impl.store.access.btree.ControlRow;0;0;1;1.0;1.0;3;267;539
 org.apache.derby.impl.sql.compile.LockTableNode.makeConstantAction();org.apache.derby.impl.sql.compile.TableName;1;2;3;0.8181818181818181;0.9375;3;54;68
 org.apache.derby.impl.sql.catalog.DataDictionaryImpl.populateSYSDUMMY1(org.apache.derby.iapi.store.access.TransactionController);org.apache.derby.iapi.sql.dictionary.CatalogRowFactory;1;1;2;0.996;0.9666666666666667;5;3102;99
-org.apache.derby.impl.sql.compile.OptimizerImpl.pushPredicates(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.iapi.util.JBitSet);org.apache.derby.impl.sql.compile.ResultSetNode;0;0;0;0;0
+org.apache.derby.impl.sql.compile.OptimizerImpl.pushPredicates(org.apache.derby.iapi.sql.compile.Optimizable, org.apache.derby.iapi.util.JBitSet);org.apache.derby.impl.sql.compile.ResultSetNode;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.execute.DeleteResultSet.deleteDeferredRows();org.apache.derby.impl.sql.execute.DMLWriteResultSet;1;9;4;0.8125;0.9736842105263158;27;227;59
 org.apache.derby.impl.store.access.heap.Heap.load(boolean, org.apache.derby.iapi.store.access.conglomerate.TransactionManager, org.apache.derby.iapi.store.access.RowLocationRetRowSource);org.apache.derby.impl.store.access.conglomerate.GenericConglomerateController;1;0;2;1.0;0.8571428571428572;11;243;135
 org.apache.derby.iapi.types.DataTypeDescriptor.getMaximumWidth();org.apache.derby.catalog.types.TypeDescriptorImpl;1;0;1;1.0;0.9230769230769231;3;383;123
@@ -9412,7 +9412,7 @@ org.apache.derby.impl.sql.depend.BasicDependencyManager.getDependencyDescriptorL
 org.apache.derby.impl.sql.compile.PredicateList.selectivity(org.apache.derby.iapi.sql.compile.Optimizable);org.apache.derby.iapi.sql.dictionary.IndexRowGenerator;1;8;5;0.9310344827586207;0.9772727272727273;60;1529;124
 org.apache.derby.impl.store.raw.data.BaseContainerHandle.removePage(org.apache.derby.iapi.store.raw.Page);org.apache.derby.impl.store.raw.data.BaseContainer;1;2;2;0.962962962962963;0.9666666666666667;11;314;201
 org.apache.derby.iapi.jdbc.BrokeredCallableStatement40.setNClob(java.io.Reader, java.lang.String, long);org.apache.derby.iapi.jdbc.BrokeredCallableStatement;1;0;1;1.0;0.967741935483871;3;171;95
-org.apache.derby.iapi.types.SQLClob.getTraceString();org.apache.derby.iapi.types.SQLChar;0;0;0;0;0
+org.apache.derby.iapi.types.SQLClob.getTraceString();org.apache.derby.iapi.types.SQLChar;0;0;0;0;0;0;0;0
 org.apache.derby.impl.sql.execute.rts.RealNoRowsResultSetStatistics.dumpTimeStats(java.lang.String);org.apache.derby.iapi.services.i18n.MessageService;0;1;1;0.9230769230769231;1.0;3;27;169
 org.apache.derby.impl.jdbc.EmbedResultSet.rowUpdated();org.apache.derby.impl.sql.execute.ScrollInsensitiveResultSet;1;6;2;0.9712918660287081;0.9807692307692307;15;1711;482
 org.apache.derby.impl.store.raw.data.UpdateFieldOperation.writeExternal(java.io.ObjectOutput);org.apache.derby.impl.store.raw.data.LogicalPageOperation;1;2;2;0.8571428571428572;0.9230769230769231;5;95;95

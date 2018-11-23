@@ -1,0 +1,1051 @@
+Method;TargetClass;ATFD;ATSD;FDP;DIST_EC;DIST_TC;LOC_M;LOC_EC;LOC_TC
+org.apache.log4j.varia.FallbackErrorHandler.error(int, java.lang.Exception, java.lang.String, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Category;3;3;2;0.8125;0.9318181818181819;12;36;357
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.run();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;1;4;0.9921259842519685;0.9565217391304348;5;1059;178
+org.apache.log4j.jmx.AppenderDynamicMBean.getMBeanInfo();org.apache.log4j.Category;1;5;1;0.7222222222222222;0.9777777777777777;6;144;357
+org.apache.log4j.lf5.viewer.FilteredLogTableModel.getColumn(int, org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.LogRecord;9;0;1;1.0;0.5714285714285714;29;133;110
+org.apache.log4j.chainsaw.rule.RuleTest.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.LoggingEventFieldResolver;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.addMessage(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.LogTable;1;3;4;0.9765625;0.967741935483871;13;1059;110
+org.apache.log4j.net.SocketHubAppender.cleanUp();org.apache.log4j.helpers.LogLog;0;3;1;0.8333333333333334;1.0;18;152;39
+org.apache.log4j.Category.error(java.lang.Object, java.lang.Throwable);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.joran.action.NestComponentIA.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.FileAppender.setFile(boolean, boolean, int, java.lang.String);org.apache.log4j.helpers.LogLog;0;6;1;0.4545454545454546;1.0;18;91;39
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.addLogRecord(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;3;3;2;0.8846153846153846;0.875;18;178;89
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.getRecordsDisplayedMessage();org.apache.log4j.lf5.viewer.LogTable;1;1;2;0.9920634920634921;0.962962962962963;4;1059;110
+org.apache.log4j.chainsaw.FileSaveAction.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.FileLoadAction.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.net.JMSReceiver.activateOptions();org.apache.log4j.Category;1;8;1;0.5;0.9787234042553191;34;118;357
+org.apache.log4j.net.SocketReceiver.closeServerSocket();org.apache.log4j.plugins.PluginSkeleton;1;1;2;0.9642857142857143;0.8;11;171;15
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.isAddRow(boolean, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.UtilLoggingXMLDecoder.decodeEvents(org.w3c.dom.Document);org.apache.log4j.UtilLoggingLevel;0;2;3;0.9259259259259259;1.0;82;207;68
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createNDCLogRecordFilter(java.lang.String);org.apache.log4j.lf5.LogRecord;3;3;3;0.9770992366412213;0.8928571428571429;20;1059;110
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.collapseTree();org.apache.log4j.lf5.viewer.LogBrokerMonitor;0;0;1;1.0;1.0;6;279;1059
+org.apache.log4j.chainsaw.LogUI.socketOpened(java.lang.String);org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.test.X1Logger.debug2(java.lang.Object);org.apache.log4j.Priority;0;0;1;1.0;1.0;3;15;44
+org.apache.log4j.varia.HUPNode.run();org.apache.log4j.helpers.LogLog;0;2;3;0.7777777777777778;1.0;19;30;39
+org.apache.log4j.rolling.RollingFileAppender.rollover();org.apache.log4j.Category;1;2;2;0.8571428571428572;0.9777777777777777;13;59;357
+org.apache.log4j.Category.error(java.lang.Object);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createMRUFileListMI(javax.swing.JMenu);org.apache.log4j.lf5.viewer.configure.MRUFileManager;1;2;1;0.984375;0.9545454545454546;17;1059;133
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.getCategoryNode(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath;2;0;3;1.0;0.8666666666666667;23;178;56
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setView(java.lang.String, org.apache.log4j.lf5.viewer.LogTable);org.apache.log4j.lf5.viewer.LogTable;1;1;1;0.992;0.9615384615384616;10;1059;110
+org.apache.log4j.WriterAppender.writeFooter();org.apache.log4j.helpers.QuietWriter;2;0;2;1.0;0.5;9;135;28
+org.apache.log4j.xml.XMLDecoder.decodeEvents(org.w3c.dom.Document);org.apache.log4j.Level;0;2;4;0.9285714285714286;1.0;94;211;57
+org.apache.log4j.rolling.RollingPolicySkeleton.getCompressionMode();org.apache.log4j.rolling.helpers.Compress;0;1;1;0.6666666666666667;1.0;11;28;71
+org.apache.log4j.varia.Log4JAvalonLogger.isErrorEnabled();org.apache.log4j.Level;0;0;2;1.0;1.0;3;51;57
+org.apache.log4j.xml.DOMConfigurator.parseCategory(org.w3c.dom.Element);org.apache.log4j.helpers.Loader;0;3;4;0.9428571428571428;1.0;27;490;55
+org.apache.log4j.chainsaw.LogPanel.loadDefaultColumnSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.TimeBasedRollingPolicy.getActiveLogFileName();org.apache.log4j.Category;1;2;2;0.8181818181818181;0.975609756097561;9;91;357
+org.apache.log4j.chainsaw.DisplayFilterEntry.matches(java.lang.String, java.lang.String, java.lang.String);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.loadColumnSettings(java.lang.String, javax.swing.table.TableColumnModel);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.AppenderSkeleton.doAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.Filter;1;5;2;0.6923076923076923;1.0;30;91;8
+org.apache.log4j.test.X1Logger.debug1(java.lang.Object);org.apache.log4j.Priority;0;0;1;1.0;1.0;3;15;44
+org.apache.log4j.net.SocketReceiver.closeServerSocket();org.apache.log4j.helpers.LogLog;0;1;2;0.9642857142857143;1.0;11;171;39
+org.apache.log4j.Category.l7dlog(java.lang.String, java.lang.Throwable, org.apache.log4j.Priority);org.apache.log4j.Priority;2;4;1;0.9285714285714286;0.8;12;357;44
+org.apache.log4j.varia.HUP.run();org.apache.log4j.helpers.LogLog;0;1;1;0.8571428571428572;1.0;15;19;39
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.plugins.PluginSkeleton;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversTreeModel.refresh();org.apache.log4j.net.SocketReceiver;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.DOMConfigurator.parseAppender(org.w3c.dom.Element);org.apache.log4j.helpers.LogLog;0;6;4;0.9;1.0;46;490;39
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree.expandRootNode();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;1;1;0.9;0.9545454545454546;8;53;178
+org.apache.log4j.rolling.TimeBasedRollingPolicy.rollover();org.apache.log4j.rolling.RollingPolicySkeleton;1;2;4;0.8181818181818181;0.8333333333333334;27;91;28
+org.apache.log4j.net.SMTPAppender.setBufferSize(int);org.apache.log4j.helpers.CyclicBuffer;1;1;1;0.95;0.9;4;161;59
+org.apache.log4j.Category.getAllAppenders();org.apache.log4j.helpers.NullEnumeration;0;0;3;1.0;1.0;12;357;11
+org.apache.log4j.AsyncAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.BoundedFIFO;3;2;3;0.9;0.8235294117647058;28;98;64
+org.apache.log4j.net.JMSAppender.checkEntryConditions();org.apache.log4j.AppenderSkeleton;1;3;1;0.85;0.9285714285714286;19;178;91
+org.apache.log4j.rolling.RollingFileAppender.activateOptions();org.apache.log4j.FileAppender;2;3;2;0.7857142857142857;0.8888888888888888;18;59;91
+org.apache.log4j.lf5.util.AdapterLogRecord.isSevereLevel();org.apache.log4j.lf5.LogLevel;1;0;2;1.0;0.8571428571428572;4;38;95
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.getMaxSize();org.apache.log4j.chainsaw.CyclicBufferList;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.run();org.apache.log4j.lf5.viewer.LogTable;1;1;4;0.9921259842519685;0.9642857142857143;5;1059;110
+org.apache.log4j.lf5.util.LogMonitorAdapter.log(java.lang.String, java.lang.String, java.lang.String, java.lang.Throwable, org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.util.AdapterLogRecord;1;1;2;0.9230769230769231;0.8888888888888888;14;97;38
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.stateChanged(javax.swing.event.ChangeEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.XMLWatchdog.doOnChange();org.apache.log4j.helpers.FileWatchdog;1;0;3;1.0;0.8888888888888888;3;6;44
+org.apache.log4j.chainsaw.ReceiversPanel.createReceiver();org.apache.log4j.plugins.PluginSkeleton;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.net.SocketReceiver;0;0;0;0;0;0;0;0
+org.apache.log4j.WriterAppender.closeWriter();org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;10;135;39
+org.apache.log4j.jmx.Agent.start();org.apache.log4j.Category;2;0;1;1.0;0.95;16;18;357
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.isCellEditable(int, int);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.isDebugEnabled();org.apache.log4j.Priority;1;2;2;0.95;0.875;6;357;44
+org.apache.log4j.pattern.MDCPatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.pattern.PatternConverter;1;1;1;0.9;0.9285714285714286;19;23;50
+org.apache.log4j.rolling.SlidingWindowRollingPolicy.activateOptions();org.apache.log4j.Category;1;4;3;0.5555555555555556;0.9772727272727273;19;72;357
+org.apache.log4j.chainsaw.LogPanel.undock();org.apache.log4j.chainsaw.DockablePanel;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketServer.genericHierarchy();org.apache.log4j.LogManager;0;2;4;0.7777777777777778;1.0;14;84;37
+org.apache.log4j.PropertyConfigurator.doConfigure(java.util.Properties, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.Level;0;4;3;0.7777777777777778;1.0;22;201;57
+org.apache.log4j.chainsaw.LogPanel.createDockwindowToolbar();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.layout.LayoutEditorPane.createCopyAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketAppender.connect(int, java.net.InetAddress);org.apache.log4j.helpers.LogLog;0;5;1;0.8;1.0;17;197;39
+org.apache.log4j.varia.FallbackErrorHandler.setAppender(org.apache.log4j.Appender);org.apache.log4j.helpers.LogLog;0;1;1;0.9090909090909091;1.0;4;36;39
+org.apache.log4j.chainsaw.ReceiversPanel.createSortedDialogMapEntryList();org.apache.log4j.net.SocketAppender;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.TimeBasedRollingPolicy.activateOptions();org.apache.log4j.rolling.helpers.Compress;0;3;6;0.8636363636363636;1.0;30;91;71
+org.apache.joran.action.LoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.helper.Option;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.LoggerDynamicMBean.addAppender(java.lang.String, java.lang.String);org.apache.log4j.Category;2;0;2;1.0;0.95;6;116;357
+org.apache.log4j.net.SMTPAppender.setEvaluatorClass(java.lang.String);org.apache.log4j.helpers.OptionConverter;1;1;1;0.95;1.0;3;161;228
+org.apache.log4j.varia.HUPNode.run();org.apache.log4j.varia.ExternallyRolledFileAppender;0;2;3;0.7777777777777778;1.0;19;30;19
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ColorDisplaySelector.applyColorFilters(java.lang.String);org.apache.log4j.chainsaw.ColorFilter;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.requestOpenMRU(java.awt.event.ActionEvent);org.apache.log4j.lf5.util.LogFileParser;1;2;2;0.9847328244274809;0.9615384615384616;17;1059;112
+org.apache.log4j.chainsaw.SortHeaderRenderer.getTableCellRendererComponent(boolean, boolean, int, int, java.lang.Object, javax.swing.JTable);org.apache.log4j.chainsaw.JSortTable;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.helpers.FileNamePattern.convert(int);org.apache.log4j.rolling.helpers.IdentityTokenConverter;1;1;4;0.9285714285714286;0.8571428571428572;18;131;7
+org.apache.log4j.xml.DOMConfigurator.parseLevel(boolean, org.apache.log4j.Logger, org.w3c.dom.Element);org.apache.log4j.helpers.LogLog;0;1;4;0.9705882352941176;1.0;36;490;39
+org.apache.log4j.rolling.TimeBasedRollingPolicy.activateOptions();org.apache.log4j.rolling.helpers.DateTokenConverter;1;3;6;0.8636363636363636;0.9444444444444444;30;91;14
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createUndockAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.selectAllNodes();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;0;4;1.0;0.9166666666666666;10;279;53
+org.apache.log4j.varia.Log4JAvalonLogger.debug(java.lang.String);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.joran.action.AppenderAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.find(boolean);org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogLevelColors(java.lang.StringBuffer, java.util.Map, java.util.Map);org.apache.log4j.lf5.LogLevel;1;1;1;1.0;0.9230769230769231;10;279;95
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setMaxRecordConfiguration();org.apache.log4j.lf5.viewer.LogFactor5InputDialog;1;3;1;0.976;0.875;13;1059;59
+org.apache.log4j.pattern.NamedPatternConverter.setOption(java.lang.String);org.apache.log4j.pattern.PatternConverter;1;1;2;0.875;0.9;16;39;50
+org.apache.log4j.net.SMTPAppender.sendBuffer();org.apache.log4j.helpers.CyclicBuffer;2;1;4;0.96;0.8571428571428572;36;161;59
+org.apache.log4j.chainsaw.FileLoadAction.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.isInfoEnabled();org.apache.log4j.Priority;1;2;2;0.95;0.875;6;357;44
+org.apache.log4j.varia.StringMatchFilter.decide(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.Filter;0;2;1;0.5;1.0;15;27;8
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createToggleDetailPaneAction();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.removeLoggerRepositoryEventListener(org.apache.log4j.spi.LoggerRepositoryEventListener);org.apache.log4j.helpers.LogLog;0;1;1;0.9714285714285714;1.0;10;273;39
+org.apache.log4j.Category.addAppender(org.apache.log4j.Appender);org.apache.log4j.helpers.AppenderAttachableImpl;1;1;2;0.9761904761904762;0.9230769230769231;9;357;88
+org.apache.log4j.chainsaw.MyTableModel.matchFilter(org.apache.log4j.chainsaw.EventDetails);org.apache.log4j.chainsaw.EventDetails;6;6;2;0.8536585365853658;0.6666666666666667;12;201;79
+org.apache.log4j.RollingFileAppender.rollOver();org.apache.log4j.FileAppender;1;2;3;0.9230769230769231;0.9411764705882353;31;71;91
+org.apache.log4j.chainsaw.TableColorizingRenderer.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.saveColumnSettings(java.lang.String, javax.swing.table.TableColumnModel);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.layout.LayoutEditorPane.createCutAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.getTreeCellEditorComponent(boolean, boolean, boolean, int, java.lang.Object, javax.swing.JTree);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer;1;1;1;0.9545454545454546;1.0;5;169;7
+org.apache.log4j.xml.examples.ReportParserError.report(java.lang.String, org.xml.sax.SAXParseException);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;3;12;39
+org.apache.log4j.chainsaw.LogPanel.valueChanged(javax.swing.event.ListSelectionEvent);org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketReceiver.setPaused(boolean);org.apache.log4j.net.SocketNode;1;0;1;1.0;0.9090909090909091;3;171;106
+org.apache.log4j.net.SyslogAppender.setFacility(java.lang.String);org.apache.log4j.helpers.SyslogQuietWriter;1;2;1;0.8666666666666667;0.8571428571428572;12;194;13
+org.apache.log4j.varia.Log4JAvalonLogger.isWarnEnabled();org.apache.log4j.Level;0;0;2;1.0;1.0;3;51;57
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogTableColumns(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.LogTable;2;1;3;1.0;0.9444444444444444;29;279;110
+org.apache.log4j.pattern.ThreadPatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;1;1;1;0.8;0.967741935483871;5;9;209
+org.apache.log4j.rolling.RollingFileAppender.activateOptions();org.apache.log4j.Category;2;3;2;0.7857142857142857;0.9555555555555556;18;59;357
+org.apache.log4j.chainsaw.LogPanel.createDockwindowToolbar();org.apache.log4j.chainsaw.ChainsawToolBarAndMenus;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.filter.FilterModel.processNewLoggingEvent(java.lang.String, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LocationInfo;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.formatFields(java.util.Vector);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.requestOpenURL();org.apache.log4j.lf5.viewer.configure.MRUFileManager;1;3;2;0.9761904761904762;0.9523809523809523;19;1059;133
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.showLogLevelColorChangeDialog(javax.swing.JMenuItem, org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.viewer.LogTable;1;1;3;0.9921875;0.9655172413793104;8;1059;110
+org.apache.log4j.HTMLLayout.getHeader();org.apache.log4j.Layout;0;2;1;0.8333333333333334;1.0;30;122;19
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.setupFindFieldsAndActions();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.addRenderer(java.lang.Class, org.apache.log4j.or.ObjectRenderer);org.apache.log4j.or.RendererMap;1;0;1;1.0;0.8571428571428572;3;273;63
+org.apache.log4j.chainsaw.ReceiversPanel.createSortedDialogMapEntryList();org.apache.log4j.net.SocketHubAppender;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LoggerNameTreePanel.createIgnoreAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.performance.NullAppender.doAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;0;1;2;0.8333333333333334;1.0;6;18;91
+org.apache.joran.action.LayoutAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.joran.action.AppenderAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ColorDisplaySelector.syncGlobalDisplayCheckBoxes();org.apache.log4j.chainsaw.DisplayFilterEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.test.StressAsyncAppender.run();org.apache.log4j.Category;1;0;1;1.0;0.9743589743589743;19;77;357
+org.apache.log4j.ConsoleAppender.activateOptions();org.apache.log4j.WriterAppender;1;1;1;0.8888888888888888;0.9473684210526316;8;46;135
+org.apache.log4j.jmx.LayoutDynamicMBean.setAttribute(javax.management.Attribute);org.apache.log4j.jmx.MethodUnion;1;3;2;0.8571428571428572;0.9230769230769231;28;105;4
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer.getTreeCellRendererComponent(boolean, boolean, boolean, boolean, int, java.lang.Object, javax.swing.JTree);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;3;3;1;0.7857142857142857;0.8846153846153846;20;48;89
+org.apache.log4j.pattern.MethodLocationPatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LocationInfo;1;1;1;0.8;0.9230769230769231;6;10;115
+org.apache.log4j.net.MulticastAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;1;6;3;0.7857142857142857;0.96;29;148;91
+org.apache.log4j.WriterAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;0;1;3;0.9473684210526316;1.0;16;135;91
+org.apache.joran.action.LoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.ActionConst;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.DOMConfigurator.parseLevel(boolean, org.apache.log4j.Logger, org.w3c.dom.Element);org.apache.log4j.Level;0;1;4;0.9705882352941176;1.0;36;490;57
+org.apache.log4j.lf5.util.LogMonitorAdapter.setMaxNumberOfRecords(int);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;0;1;1.0;0.991869918699187;3;97;1059
+org.apache.log4j.spi.RootCategory.setLevel(org.apache.log4j.Level);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;8;18;39
+org.apache.log4j.net.SocketReceiver.doShutdown();org.apache.log4j.plugins.PluginSkeleton;2;3;2;0.8928571428571429;0.6666666666666667;7;171;15
+org.apache.log4j.varia.LevelRangeFilter.decide(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.Filter;0;1;2;0.6666666666666667;1.0;18;36;8
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createMenuItem(org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.viewer.LogTable;1;2;3;0.9846153846153847;0.96875;13;1059;110
+org.apache.log4j.xml.DOMConfigurator.parseCategory(org.w3c.dom.Element);org.apache.log4j.helpers.LogLog;0;3;4;0.9428571428571428;1.0;27;490;39
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.passes(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;2;3;0.9847328244274809;0.9642857142857143;13;1059;178
+org.apache.log4j.Category.removeAppender(java.lang.String);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;2;1.0;0.9090909090909091;9;357;88
+org.apache.log4j.chainsaw.FileSaveAction.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.removeWelcomePanel();org.apache.log4j.chainsaw.ChainsawTabbedPane;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketHubReceiver.setSocket(java.net.Socket);org.apache.log4j.net.SocketNode;1;2;1;0.8823529411764706;0.9285714285714286;7;110;106
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.save();org.apache.log4j.lf5.viewer.LogBrokerMonitor;2;9;5;0.8571428571428572;0.9851851851851852;14;279;1059
+org.apache.log4j.chainsaw.LogPanel.loadDefaultColumnSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.net.JMSAppender.close();org.apache.log4j.AppenderSkeleton;2;3;2;0.8571428571428572;0.8571428571428572;15;178;91
+org.apache.log4j.net.JMSAppender.lookup(java.lang.String, javax.naming.Context);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;9;178;39
+org.apache.log4j.jmx.HierarchyDynamicMBean.addLoggerMBean(java.lang.String);org.apache.log4j.LogManager;0;1;1;0.9523809523809523;1.0;9;122;37
+org.apache.log4j.or.ThreadGroupRenderer.doRender(java.lang.Object);org.apache.log4j.Layout;0;0;1;1.0;1.0;27;29;19
+org.apache.log4j.chainsaw.ColumnComparator.compare(java.lang.Object, java.lang.Object);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.config.PropertySetter.introspect();org.apache.log4j.helpers.LogLog;0;3;1;0.8571428571428572;1.0;12;204;39
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.sortByNDC();org.apache.log4j.lf5.viewer.LogTable;1;2;2;0.9841269841269842;0.9642857142857143;7;1059;110
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createChangeModelAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.chainsaw.prefs.SaveSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.exportXMLElement(java.lang.StringBuffer, javax.swing.tree.TreePath, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;2;0;2;1.0;0.9;8;279;89
+org.apache.log4j.helpers.DateLayout.setDateFormat(java.lang.String, java.util.TimeZone);org.apache.log4j.helpers.AbsoluteTimeDateFormat;0;1;1;0.9166666666666666;1.0;25;57;44
+org.apache.log4j.PatternLayout.activateOptions();org.apache.log4j.pattern.PatternParser;0;0;0;0;0;0;0;0
+org.apache.log4j.TTCCLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;1;4;3;0.6923076923076923;0.9736842105263158;26;53;209
+org.apache.log4j.varia.Log4JAvalonLogger.error(java.lang.String, java.lang.Throwable);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createNoLogTableColumnsMenuItem();org.apache.log4j.lf5.viewer.LogTable;1;3;1;0.9761904761904762;0.9655172413793104;13;1059;110
+org.apache.log4j.chainsaw.DisplayFilter.save();org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversPanel.buildForReceiverNode();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createToggleLogTreeAction();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.TableColorizingRenderer.getTableCellRendererComponent(boolean, boolean, int, int, java.lang.Object, javax.swing.JTable);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.save();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;9;5;0.8571428571428572;0.95;14;279;53
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.isCategoryPathActive(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;2;0;3;1.0;0.9230769230769231;28;178;89
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.Log4JLogRecord.setThrownStackTrace(org.apache.log4j.spi.ThrowableInformation);org.apache.log4j.spi.ThrowableInformation;1;0;2;1.0;0.8333333333333334;10;19;20
+org.apache.log4j.or.jms.MessageRenderer.doRender(java.lang.Object);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;44;46;39
+org.apache.joran.action.ParamAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.ActionConst;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.scanState();org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.LF5Appender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.lf5.LogLevel;0;0;6;1.0;1.0;33;98;95
+org.apache.log4j.chainsaw.LogUI.shutdown();org.apache.log4j.plugins.PluginRegistry;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.isAttached(org.apache.log4j.Appender);org.apache.log4j.helpers.ReaderWriterLock;2;0;2;1.0;0.8;12;357;58
+org.apache.log4j.net.XMLSocketReceiver.hashCode();org.apache.log4j.plugins.PluginSkeleton;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.DisplayFilter.isDisplayed(java.util.Vector);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.joran.action.LevelAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.warn(java.lang.Object, java.lang.Throwable);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.lf5.LF5Appender.setMaxNumberOfRecords(int);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;0;1;1.0;0.991869918699187;3;98;1059
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.find(boolean);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.util.LogMonitorAdapter.addMessage(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;0;1;1.0;0.991869918699187;3;97;1059
+org.apache.log4j.rolling.TimeBasedRollingPolicy.rollover();org.apache.log4j.Category;1;2;4;0.8181818181818181;0.975609756097561;27;91;357
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createResetLogLevelColorMenuItem();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;1;3;0.9921259842519685;0.962962962962963;12;1059;133
+org.apache.log4j.net.SocketReceiver.doPost(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.plugins.Receiver;1;1;1;0.962962962962963;0.6666666666666667;5;171;18
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.makeLogTableListenToCategoryExplorer();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;2;4;0.984251968503937;0.9583333333333334;10;1059;178
+org.apache.joran.action.LayoutAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createResponsivenessSlider();org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversTreeModel.refresh();org.apache.log4j.LogManager;0;0;0;0;0;0;0;0
+org.apache.log4j.net.UDPAppender.fireConnector();org.apache.log4j.helpers.LogLog;0;1;1;0.9615384615384616;1.0;9;181;39
+org.apache.log4j.chainsaw.ThresholdSlider.getSelectedLevel();org.apache.log4j.Level;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.isEnabledFor(org.apache.log4j.Priority);org.apache.log4j.Priority;2;2;1;0.9512195121951219;0.75;6;357;44
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.plugins.PluginSkeleton;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.HierarchyDynamicMBean.addLoggerMBean(org.apache.log4j.Logger);org.apache.log4j.jmx.AbstractDynamicMBean;1;2;2;0.9310344827586207;0.9411764705882353;18;122;50
+org.apache.log4j.net.SMTPAppender.activateOptions();org.apache.log4j.helpers.LogLog;0;7;1;0.6666666666666667;1.0;23;161;39
+org.apache.log4j.jmx.AppenderDynamicMBean.preRegister(javax.management.MBeanServer, javax.management.ObjectName);org.apache.log4j.Category;1;2;2;0.8888888888888888;0.9761904761904762;6;144;357
+org.apache.log4j.varia.Log4JAvalonLogger.isWarnEnabled();org.apache.log4j.Category;1;0;2;1.0;0.9736842105263158;3;51;357
+org.apache.log4j.chainsaw.ChainsawAppenderHandler.run();org.apache.log4j.chainsaw.ChainsawEventBatch;0;0;0;0;0;0;0;0
+org.apache.joran.action.AppenderAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.ActionConst;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SMTPAppender.sendBuffer();org.apache.log4j.AppenderSkeleton;0;1;4;0.96;1.0;36;161;91
+org.apache.log4j.PropertyConfigurator.parseCategory(java.lang.String, java.lang.String, java.lang.String, java.util.Properties, org.apache.log4j.Logger);org.apache.log4j.helpers.LogLog;0;1;3;1.0;1.0;37;201;39
+org.apache.log4j.net.SocketServer.configureHierarchy(java.net.InetAddress);org.apache.log4j.Category;2;3;3;0.7857142857142857;0.9583333333333334;23;84;357
+org.apache.log4j.lf5.LF5Appender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LocationInfo;1;0;6;1.0;0.95;33;98;115
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.findSearchText();org.apache.log4j.lf5.viewer.LogTable;1;4;2;0.9682539682539683;0.9666666666666667;9;1059;110
+org.apache.log4j.DailyRollingFileAppender.activateOptions();org.apache.log4j.FileAppender;2;4;4;0.7777777777777778;0.9130434782608696;14;71;91
+org.apache.log4j.net.UDPAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;8;3;0.7419354838709677;1.0;32;181;39
+org.apache.log4j.chainsaw.LogPanel.setEvent(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.DailyRollingFileAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;3;3;0.75;1.0;14;71;39
+org.apache.log4j.chainsaw.LoggingEventFieldResolver.getValue(java.lang.String, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.makeLogTableListenToCategoryExplorer();org.apache.log4j.lf5.viewer.LogTable;1;2;4;0.984251968503937;0.9655172413793104;10;1059;110
+org.apache.log4j.DailyRollingFileAppender.rollOver();org.apache.log4j.FileAppender;2;4;2;0.7333333333333334;0.9523809523809523;30;71;91
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.initComponents();org.apache.log4j.lf5.viewer.LogTable;2;15;2;0.8993288590604027;0.9682539682539683;42;1059;110
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.toString();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;0;1;1.0;0.9565217391304348;3;1059;133
+org.apache.log4j.chainsaw.LogUI.activateViewer(org.apache.log4j.chainsaw.ChainsawAppender);org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.layout.LayoutEditorPane.updatePreview();org.apache.log4j.Layout;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.util.AdapterLogRecord.isSevereLevel();org.apache.log4j.lf5.LogRecord;1;0;2;1.0;0.9523809523809523;4;38;110
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.setParentSelection(boolean, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;2;1;1;0.9565217391304348;0.9;13;178;89
+org.apache.log4j.xml.DOMConfigurator.configureNestedComponent(org.apache.log4j.config.PropertySetter, org.w3c.dom.Element);org.apache.log4j.helpers.Loader;0;5;3;0.9047619047619048;1.0;51;490;55
+org.apache.log4j.net.SMTPAppender.sendBuffer();org.apache.log4j.Layout;2;1;4;0.96;0.9090909090909091;36;161;19
+org.apache.log4j.Category.debug(java.lang.Object, java.lang.Throwable);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.log4j.xml.DOMConfigurator.parseCategory(org.w3c.dom.Element);org.apache.log4j.Category;2;3;4;0.9428571428571428;0.9574468085106383;27;490;357
+org.apache.log4j.varia.Log4JAvalonLogger.info(java.lang.String, java.lang.Throwable);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.log4j.HTMLLayout.appendThrowableAsHTML(java.io.Writer, java.lang.String[]);org.apache.log4j.helpers.Transform;1;0;2;1.0;1.0;15;122;42
+org.apache.log4j.rolling.TimeBasedRollingPolicy.rollover();org.apache.log4j.rolling.helpers.Compress;0;2;4;0.8181818181818181;1.0;27;91;71
+org.apache.log4j.Category.isInfoEnabled();org.apache.log4j.Level;0;2;2;0.95;1.0;6;357;57
+org.apache.log4j.chainsaw.ReceiversPanel.createLevelRadioButton(org.apache.log4j.Level, org.apache.log4j.plugins.Receiver);org.apache.log4j.chainsaw.icons.LevelIconFactory;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversPanel.createSortedDialogMapEntryList();org.apache.log4j.net.UDPAppender;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.selectAllNodes();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;0;4;1.0;0.9545454545454546;10;279;89
+org.apache.log4j.AppenderSkeleton.finalize();org.apache.log4j.helpers.LogLog;0;2;1;0.8333333333333334;1.0;7;91;39
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.LogManager;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processCategories(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;1;4;1.0;0.962962962962963;15;279;89
+org.apache.log4j.RollingFileAppender.rollOver();org.apache.log4j.helpers.LogLog;0;2;3;0.9230769230769231;1.0;31;71;39
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.SlidingWindowRollingPolicy.rollover();org.apache.log4j.rolling.RollingPolicySkeleton;1;3;4;0.7;0.8888888888888888;21;72;28
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.save();org.apache.log4j.lf5.LogLevel;0;9;5;0.8571428571428572;1.0;14;279;95
+org.apache.log4j.spi.LoggingEvent.getMDCCopy();org.apache.log4j.MDC;0;2;1;0.9310344827586207;1.0;9;209;34
+org.apache.log4j.lf5.util.Resource.getInputStream();org.apache.log4j.lf5.util.ResourceUtils;0;0;1;1.0;1.0;4;27;22
+org.apache.log4j.spi.LoggingEvent.getThrowableStrRep();org.apache.log4j.spi.ThrowableInformation;1;0;1;1.0;0.6666666666666667;8;209;20
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.loadLogFile(java.net.URL);org.apache.log4j.lf5.util.LogFileParser;1;1;1;0.9920634920634921;0.95;12;1059;112
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createClearAction();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.shutdown(boolean);org.apache.log4j.LogManager;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LoggerNameTreePanel.ensureRootExpanded();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.spi.LoggingEvent.writeLevel(java.io.ObjectOutputStream);org.apache.log4j.Priority;1;0;1;1.0;0.8888888888888888;10;209;44
+org.apache.log4j.chainsaw.LogUI.isLogTreePanelVisible();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.updateStatusBar();org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.DailyRollingFileAppender.activateOptions();org.apache.log4j.helpers.LogLog;0;4;4;0.7777777777777778;1.0;14;71;39
+org.apache.log4j.net.SocketReceiver.activateOptions();org.apache.log4j.plugins.PluginSkeleton;1;2;1;0.9310344827586207;0.8571428571428572;9;171;15
+org.apache.log4j.chainsaw.DetailFieldSelector.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.DisplayFilter;0;0;0;0;0;0;0;0
+org.apache.joran.action.NestComponentIA.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.net.UDPAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;1;8;3;0.7419354838709677;0.9523809523809523;32;181;19
+org.apache.log4j.net.MulticastAppender.cleanUp();org.apache.log4j.helpers.LogLog;0;1;1;0.95;1.0;11;148;39
+org.apache.joran.SimpleRuleStore.matchActions(org.apache.joran.Pattern);org.apache.joran.Pattern;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.NoReceiversWarningPanel.initComponents();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.pattern.LineLocationPatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LocationInfo;1;1;1;0.8;0.9230769230769231;6;10;115
+org.apache.log4j.varia.HUPNode.run();org.apache.log4j.RollingFileAppender;1;2;3;0.7777777777777778;0.9230769230769231;19;30;71
+org.apache.log4j.FileAppender.activateOptions();org.apache.log4j.AppenderSkeleton;1;5;2;0.75;0.9473684210526316;15;91;91
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.makeLogTableListenToCategoryExplorer();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;2;4;0.984251968503937;0.9166666666666666;10;1059;53
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.passes(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;2;3;0.9847328244274809;0.9375;13;1059;53
+org.apache.log4j.chainsaw.LoggerNameTreePanel.createCloseAction();org.apache.log4j.chainsaw.icons.LineIconFactory;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createUndockAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.AppenderSkeleton.addFilter(org.apache.log4j.spi.Filter);org.apache.log4j.spi.Filter;0;0;1;1.0;1.0;10;91;8
+org.apache.log4j.lf5.Log4JLogRecord.setThrownStackTrace(org.apache.log4j.spi.ThrowableInformation);org.apache.log4j.lf5.LogRecord;1;0;2;1.0;0.9565217391304348;10;19;110
+org.apache.log4j.chainsaw.LogPanel.find(int, java.lang.String);org.apache.log4j.chainsaw.JSortTable;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createSubMenuItem(org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.LogLevel;1;2;1;0.984251968503937;0.9090909090909091;12;1059;95
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter.passes(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;0;2;1.0;0.95;4;19;178
+org.apache.log4j.net.SocketHubAppender.run();org.apache.log4j.helpers.LogLog;0;3;1;0.8636363636363636;1.0;54;152;39
+org.apache.log4j.chainsaw.ThresholdSlider.compare(java.lang.Object, java.lang.Object);org.apache.log4j.Priority;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SMTPAppender.sendBuffer();org.apache.log4j.helpers.LogLog;0;1;4;0.96;1.0;36;161;39
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.scanState();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.makeLogTableListenToCategoryExplorer();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;2;4;0.984251968503937;0.9642857142857143;10;1059;133
+org.apache.log4j.rolling.TimeBasedRollingPolicy.activateOptions();org.apache.log4j.rolling.helpers.FileNamePattern;2;3;6;0.8636363636363636;0.9090909090909091;30;91;131
+org.apache.log4j.chainsaw.LogPanel.columnAdded(javax.swing.event.TableColumnModelEvent);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.setFilter();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LoggerNameTreePanel.expandCurrentlySelectedNode();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.WriterAppender.checkEntryConditions();org.apache.log4j.helpers.LogLog;0;0;2;1.0;1.0;15;135;39
+org.apache.log4j.pattern.PatternParser.finalizeConverter(char);org.apache.log4j.pattern.PatternConverter;1;6;4;0.6666666666666667;0.9375;87;244;50
+org.apache.joran.action.NestComponentIA.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.HierarchyDynamicMBean.getAttribute(java.lang.String);org.apache.log4j.Category;2;2;1;0.9310344827586207;0.9565217391304348;23;122;357
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.getValueAt(int, int);org.apache.log4j.spi.LoggingEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.setDetailPaneConversionPattern(java.lang.String);org.apache.log4j.chainsaw.layout.EventDetailLayout;0;0;0;0;0;0;0;0
+org.apache.joran.action.RootLoggerAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.helpers.OnlyOnceErrorHandler.error(java.lang.String);org.apache.log4j.helpers.LogLog;0;1;1;0.9;1.0;6;23;39
+org.apache.log4j.net.SyslogAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;2;2;3;0.8888888888888888;0.8823529411764706;20;194;91
+org.apache.log4j.chainsaw.LoggerNameTreePanel.setupListeners();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.LogManager;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.find(int, java.lang.String);org.apache.log4j.spi.LoggingEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.log(java.lang.Object, java.lang.String, java.lang.Throwable, org.apache.log4j.Priority);org.apache.log4j.Priority;2;3;1;0.9523809523809523;0.7777777777777778;8;357;44
+org.apache.log4j.chainsaw.ChainsawAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.chainsaw.MyTableModel;1;0;1;1.0;0.96875;5;76;201
+org.apache.log4j.chainsaw.RuleMediator.setInclusionRule(org.apache.log4j.chainsaw.rule.Rule);org.apache.log4j.chainsaw.rule.AbstractRule;0;0;0;0;0;0;0;0
+org.apache.log4j.HTMLLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Level;0;2;5;0.95;1.0;50;122;57
+org.apache.log4j.PropertyConfigurator.doConfigure(java.util.Properties, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.helpers.LogLog;0;4;3;0.7777777777777778;1.0;22;201;39
+org.apache.log4j.chainsaw.LogPanel.dock();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.joran.action.RootLoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.setRenderer(java.lang.Class, org.apache.log4j.or.ObjectRenderer);org.apache.log4j.or.RendererMap;1;0;1;1.0;0.8571428571428572;3;273;63
+org.apache.log4j.ConsoleAppender.targetWarn(java.lang.String);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;4;46;39
+org.apache.log4j.chainsaw.LogUI.propertyChange(java.beans.PropertyChangeEvent);org.apache.log4j.chainsaw.ChainsawTabbedPane;0;0;0;0;0;0;0;0
+org.apache.joran.action.RootLoggerAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.AppenderFinalizer.finalize();org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;0;1;1.0;0.992;4;7;1059
+org.apache.log4j.chainsaw.LogPanel.dock();org.apache.log4j.chainsaw.DockablePanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.TableColorizingRenderer;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.helpers.FileNamePattern.convert(int);org.apache.log4j.Category;1;1;4;0.9285714285714286;0.9772727272727273;18;131;357
+org.apache.log4j.net.TelnetAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;2;2;2;0.875;0.875;13;86;19
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createLogRecordFilter();org.apache.log4j.lf5.LogRecord;2;2;3;0.984375;0.92;10;1059;110
+org.apache.log4j.xml.DOMConfigurator.parse(org.w3c.dom.Element);org.apache.log4j.plugins.PluginRegistry;0;7;3;0.8;1.0;61;490;125
+org.apache.log4j.Category.debug(java.lang.Object);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.log4j.chainsaw.DisplayFilter.getValuesByColumn(java.lang.String);org.apache.log4j.chainsaw.DisplayFilterEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.evaluate(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketHubAppender.close();org.apache.log4j.AppenderSkeleton;2;1;2;0.9375;0.8333333333333334;7;152;91
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.getValueAt(int, int);org.apache.log4j.spi.LocationInfo;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.addMessage(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;3;4;0.9765625;0.9615384615384616;13;1059;178
+org.apache.log4j.chainsaw.LogPanel.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogTableRowRenderer.getLogLevelColor(org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.LogLevel;0;0;1;1.0;1.0;3;15;95
+org.apache.log4j.chainsaw.LogUI.run();org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.config.PropertyPrinter.printOptions(java.io.PrintWriter, java.lang.Object, java.lang.String);org.apache.log4j.config.PropertyGetter;1;0;1;1.0;1.0;4;68;35
+org.apache.log4j.Hierarchy.resetConfiguration();org.apache.log4j.Category;1;6;3;0.85;0.98;21;273;357
+org.apache.log4j.xml.DOMConfigurator.doConfigure(java.net.URL, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.helpers.LogLog;0;1;1;0.962962962962963;1.0;8;490;39
+org.apache.log4j.config.PropertySetter.convertArg(java.lang.Class, java.lang.String);org.apache.log4j.Level;0;0;1;1.0;1.0;25;204;57
+org.apache.log4j.AsyncAppender.close();org.apache.log4j.Dispatcher;1;0;3;1.0;0.8;17;98;45
+org.apache.log4j.jmx.LoggerDynamicMBean.registerAppenderMBean(org.apache.log4j.Appender);org.apache.log4j.jmx.AbstractDynamicMBean;1;1;2;0.9523809523809523;0.9285714285714286;14;116;50
+org.apache.log4j.net.UDPAppender.run();org.apache.log4j.helpers.LogLog;0;4;1;0.8260869565217391;1.0;22;181;39
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.ChainsawToolBarAndMenus;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyConfigurator.parseAppender(java.lang.String, java.util.Properties);org.apache.log4j.helpers.LogLog;0;2;3;0.8823529411764706;1.0;30;201;39
+org.apache.joran.action.AppenderRefAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.error(java.lang.Object, java.lang.Throwable);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.joran.action.LoggerAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createPauseAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketServer.genericHierarchy();org.apache.log4j.PropertyConfigurator;1;2;4;0.7777777777777778;1.0;14;84;201
+org.apache.log4j.xml.DOMConfigurator.findAppenderByName(java.lang.String, org.w3c.dom.Document);org.apache.log4j.helpers.LogLog;0;2;1;0.9428571428571428;1.0;28;490;39
+org.apache.log4j.chainsaw.LoggerNameTreePanel.collapseCurrentlySelectedNode();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.removeFocus();org.apache.log4j.chainsaw.RuleMediator;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.SlidingWindowRollingPolicy.rollover();org.apache.log4j.rolling.helpers.Compress;0;3;4;0.7;1.0;21;72;71
+org.apache.log4j.xml.DOMConfigurator.doConfigure(java.lang.String, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.helpers.LogLog;0;1;1;0.962962962962963;1.0;20;490;39
+org.apache.log4j.helpers.FileWatchdog.checkAndConfigure();org.apache.log4j.helpers.LogLog;0;6;1;0.5454545454545454;1.0;25;44;39
+org.apache.log4j.PropertyConfigurator.parseAdditivityForLogger(java.lang.String, java.util.Properties, org.apache.log4j.Logger);org.apache.log4j.helpers.LogLog;0;0;3;1.0;1.0;9;201;39
+org.apache.joran.action.AppenderRefAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.layout.EventDetailLayout.setConversionPattern(java.lang.String);org.apache.log4j.PatternLayout;0;0;0;0;0;0;0;0
+org.apache.log4j.varia.Log4JAvalonLogger.info(java.lang.String);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.log4j.chainsaw.ChainsawAppender.getColumnCount();org.apache.log4j.chainsaw.MyTableModel;1;0;1;1.0;0.96875;3;76;201
+org.apache.log4j.chainsaw.LogUI.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.prefs.LoadSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.MyTableModel.getValueAt(int, int);org.apache.log4j.chainsaw.EventDetails;7;2;1;0.9523809523809523;0.5;27;201;79
+org.apache.log4j.jmx.AppenderDynamicMBean.getAttribute(java.lang.String);org.apache.log4j.Category;2;3;2;0.8636363636363636;0.9565217391304348;24;144;357
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.save();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;9;5;0.8571428571428572;0.96875;14;279;178
+org.apache.log4j.WriterAppender.writeHeader();org.apache.log4j.helpers.QuietWriter;1;0;2;1.0;0.75;8;135;28
+org.apache.log4j.net.XMLSocketReceiver.equals(java.lang.Object);org.apache.log4j.plugins.PluginSkeleton;2;1;1;0.9166666666666666;0.6;8;93;15
+org.apache.joran.action.LayoutAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.ActionConst;0;0;0;0;0;0;0;0
+org.apache.log4j.DailyRollingFileAppender.activateOptions();org.apache.log4j.AppenderSkeleton;1;4;4;0.7777777777777778;0.9583333333333334;14;71;91
+org.apache.log4j.xml.XMLLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.Transform;1;1;3;0.9545454545454546;1.0;73;84;42
+org.apache.log4j.helpers.CountingQuietWriter.write(java.lang.String);org.apache.log4j.helpers.QuietWriter;1;1;1;0.875;0.9;9;18;28
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setLeastSevereDisplayedLogLevel(org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;1;2;0.992;0.96;8;1059;133
+org.apache.log4j.chainsaw.ChainsawAppender.getValueAt(int, int);org.apache.log4j.chainsaw.MyTableModel;1;0;1;1.0;0.96875;3;76;201
+org.apache.log4j.Dispatcher.run();org.apache.log4j.helpers.AppenderAttachableImpl;2;1;4;0.9;0.8666666666666667;29;45;88
+org.apache.log4j.xml.DOMConfigurator.parseChildrenOfLoggerElement(boolean, org.apache.log4j.Logger, org.w3c.dom.Element);org.apache.log4j.helpers.LogLog;0;4;3;0.95;1.0;35;490;39
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversPanel.createLevelRadioButton(org.apache.log4j.Level, org.apache.log4j.plugins.Receiver);org.apache.log4j.Priority;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyConfigurator.parseCategory(java.lang.String, java.lang.String, java.lang.String, java.util.Properties, org.apache.log4j.Logger);org.apache.log4j.Category;2;1;3;1.0;0.9574468085106383;37;201;357
+org.apache.log4j.chainsaw.RuleMediator.setExclusionRule(org.apache.log4j.chainsaw.rule.Rule);org.apache.log4j.chainsaw.rule.AbstractRule;0;0;0;0;0;0;0;0
+org.apache.log4j.plugins.Receiver.doPost(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Category;1;1;2;0.8;0.975609756097561;9;18;357
+org.apache.log4j.PropertyWatchdog.doOnChange();org.apache.log4j.helpers.FileWatchdog;1;0;3;1.0;0.8888888888888888;3;6;44
+org.apache.log4j.Hierarchy.emitNoAppenderWarning(org.apache.log4j.Category);org.apache.log4j.helpers.LogLog;0;1;2;0.9705882352941176;1.0;7;273;39
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.getCategoryNode(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;0;3;1.0;0.9615384615384616;23;178;89
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createMenuBar();org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.pattern.NamedPatternConverter.setOption(java.lang.String);org.apache.log4j.Category;2;1;2;0.875;0.9512195121951219;16;39;357
+org.apache.log4j.config.PropertySetter.setComponent(java.lang.Object, java.lang.String);org.apache.log4j.Category;5;3;1;0.8846153846153846;0.8913043478260869;26;204;357
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.getValueAt(int, int);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setNDCLogRecordFilter(java.lang.String);org.apache.log4j.lf5.viewer.LogTable;1;1;2;0.992;0.9615384615384616;3;1059;110
+org.apache.log4j.Hierarchy.updateParents(org.apache.log4j.Logger);org.apache.log4j.Category;1;1;1;0.9761904761904762;0.9787234042553191;29;273;357
+org.apache.log4j.chainsaw.TableColorizingRenderer.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.prefs.LoadSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.addTableModelProperties();org.apache.log4j.lf5.viewer.LogTable;1;3;2;0.976;0.9642857142857143;15;1059;110
+org.apache.log4j.config.PropertySetter.setProperty(java.beans.PropertyDescriptor, java.lang.String, java.lang.String);org.apache.log4j.helpers.LogLog;0;2;1;0.95;1.0;27;204;39
+org.apache.log4j.xml.DOMConfigurator.parseFilters(org.apache.log4j.Appender, org.w3c.dom.Element);org.apache.log4j.helpers.OptionConverter;1;2;3;0.9743589743589743;1.0;22;490;228
+org.apache.joran.action.NestComponentIA.isApplicable(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.config.PropertyPrinter.printOptions(java.io.PrintWriter, org.apache.log4j.Category);org.apache.log4j.Priority;1;4;2;0.7894736842105263;0.9411764705882353;24;68;44
+org.apache.joran.action.NestComponentIA.isApplicable(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.AppenderDynamicMBean.registerLayoutMBean(org.apache.log4j.Layout);org.apache.log4j.Category;2;2;2;0.9130434782608696;0.9565217391304348;15;144;357
+org.apache.log4j.net.SocketHubReceiver.equals(java.lang.Object);org.apache.log4j.plugins.PluginSkeleton;2;3;1;0.8333333333333334;0.7142857142857143;8;110;15
+org.apache.log4j.net.JMSSink.onMessage(javax.jms.Message);org.apache.log4j.Logger;0;0;2;1.0;1.0;18;74;15
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.RuleMediator.setLoggerRule(org.apache.log4j.chainsaw.rule.Rule);org.apache.log4j.chainsaw.rule.AbstractRule;0;0;0;0;0;0;0;0
+org.apache.joran.action.ParamAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyConfigurator.configureLoggerFactory(java.util.Properties);org.apache.log4j.helpers.LogLog;0;1;3;0.9333333333333333;1.0;8;201;39
+org.apache.log4j.chainsaw.LogPanel.updateDetailPane(boolean);org.apache.log4j.Layout;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.XMLLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LocationInfo;4;1;3;0.9545454545454546;0.8260869565217391;73;84;115
+org.apache.log4j.chainsaw.LogPanel.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.ChainsawEventBatchEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.RollingFileAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.FileAppender;1;3;2;0.7272727272727273;1.0;7;59;91
+org.apache.log4j.Hierarchy.setThreshold(org.apache.log4j.Level);org.apache.log4j.Priority;1;1;1;0.9705882352941176;0.8333333333333334;6;273;44
+org.apache.log4j.chainsaw.LogPanel.saveColumnSettings(java.lang.String, javax.swing.table.TableColumnModel);org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.net.JMSSink.onMessage(javax.jms.Message);org.apache.log4j.Category;3;0;2;1.0;0.9210526315789473;18;74;357
+org.apache.log4j.varia.DenyAllFilter.decide(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.Filter;0;0;1;1.0;1.0;3;8;8
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.scanState();org.apache.log4j.chainsaw.ChainsawTabbedPane;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.prefs.LoadSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.util.LogMonitorAdapter.getSevereLevel();org.apache.log4j.lf5.util.AdapterLogRecord;0;0;1;1.0;1.0;3;97;38
+org.apache.log4j.nt.NTEventLogAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;0;2;2;0.9285714285714286;1.0;15;74;91
+org.apache.log4j.xml.DOMConfigurator.parseChildrenOfLoggerElement(boolean, org.apache.log4j.Logger, org.w3c.dom.Element);org.apache.log4j.Category;3;4;3;0.95;0.9411764705882353;35;490;357
+org.apache.log4j.net.SocketHubAppender.close();org.apache.log4j.helpers.LogLog;0;1;2;0.9375;1.0;7;152;39
+org.apache.joran.action.AppenderAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.layout.LayoutEditorPane.createEvent();org.apache.log4j.spi.ThrowableInformation;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.loadLogFile(java.io.File);org.apache.log4j.lf5.util.LogFileParser;1;1;1;0.992;0.9473684210526316;12;1059;112
+org.apache.log4j.chainsaw.LogPanel.newKeyAdded(org.apache.log4j.chainsaw.NewKeyEvent);org.apache.log4j.chainsaw.NewKeyEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogLevels(java.lang.StringBuffer, java.util.Map);org.apache.log4j.lf5.LogLevel;1;1;1;1.0;0.9285714285714286;10;279;95
+org.apache.log4j.chainsaw.ColorDisplaySelector.syncDisplayCheckBoxes();org.apache.log4j.chainsaw.DisplayFilterEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.spi.LoggingEvent.getMDCKeySet();org.apache.log4j.MDC;0;1;1;0.967741935483871;1.0;14;209;34
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.LoggerDynamicMBean.registerAppenderMBean(org.apache.log4j.Appender);org.apache.log4j.Category;2;1;2;0.9523809523809523;0.9534883720930233;14;116;357
+org.apache.log4j.net.XMLSocketNode.run();org.apache.log4j.Category;3;4;2;0.8181818181818181;0.9464285714285714;74;111;357
+org.apache.log4j.varia.Log4JAvalonLogger.debug(java.lang.String, java.lang.Throwable);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.log4j.jmx.LoggerDynamicMBean.addAppender(java.lang.String, java.lang.String);org.apache.log4j.helpers.OptionConverter;1;0;2;1.0;1.0;6;116;228
+org.apache.log4j.net.SocketNode.run();org.apache.log4j.plugins.Receiver;1;6;2;0.7272727272727273;0.9444444444444444;64;106;18
+org.apache.log4j.Category.debug(java.lang.Object);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.varia.Log4JAvalonLogger.error(java.lang.String);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.log4j.DailyRollingFileAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.FileAppender;1;3;3;0.75;1.0;14;71;91
+org.apache.log4j.chainsaw.LogPanel.stateChanged(javax.swing.event.ChangeEvent);org.apache.log4j.chainsaw.RuleMediator;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.emitNoAppenderWarning(org.apache.log4j.Category);org.apache.log4j.Category;1;1;2;0.9705882352941176;0.9743589743589743;7;273;357
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processCategories(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;2;1;4;1.0;0.9285714285714286;15;279;178
+org.apache.log4j.jmx.AbstractDynamicMBean.preRegister(javax.management.MBeanServer, javax.management.ObjectName);org.apache.log4j.Category;1;2;1;0.9;0.975;5;50;357
+org.apache.log4j.lf5.util.LogMonitorAdapter.setSevereLevel(org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.util.AdapterLogRecord;0;0;1;1.0;1.0;3;97;38
+org.apache.log4j.xml.XMLLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;2;1;3;0.9545454545454546;0.9534883720930233;73;84;209
+org.apache.log4j.Hierarchy.addLoggerEventListener(org.apache.log4j.spi.LoggerEventListener);org.apache.log4j.helpers.LogLog;0;1;1;0.9714285714285714;1.0;10;273;39
+org.apache.joran.action.LoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.Log4JLogRecord.isSevereLevel();org.apache.log4j.lf5.LogLevel;1;0;2;1.0;0.8571428571428572;7;19;95
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.DockablePanel;0;0;0;0;0;0;0;0
+org.apache.joran.action.LoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.helpers.OptionConverter;0;0;0;0;0;0;0;0
+org.apache.log4j.AsyncAppender.removeAppender(org.apache.log4j.Appender);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;1;1.0;0.8888888888888888;5;98;88
+org.apache.joran.action.AppenderAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.SAXErrorHandler.warning(org.xml.sax.SAXParseException);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;4;11;39
+org.apache.log4j.xml.XMLDecoder.decodeEvents(org.w3c.dom.Document);org.apache.log4j.Logger;0;2;4;0.9285714285714286;1.0;94;211;15
+org.apache.joran.action.LayoutAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.helpers.OptionConverter;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.error(java.lang.Object);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.pattern.PatternParser.addConverter(org.apache.log4j.pattern.PatternConverter);org.apache.log4j.pattern.FormattingInfo;1;3;1;0.8;0.8888888888888888;6;244;8
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setNDCLogRecordFilter(java.lang.String);org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;1;2;0.992;0.96;3;1059;133
+org.apache.log4j.WriterAppender.checkEntryConditions();org.apache.log4j.AppenderSkeleton;2;0;2;1.0;0.8181818181818181;15;135;91
+org.apache.log4j.AsyncAppender.isAttached(org.apache.log4j.Appender);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;1;1.0;0.8888888888888888;3;98;88
+org.apache.log4j.config.PropertyGetter.getProperties(java.lang.String, org.apache.log4j.config.PropertyGetter.PropertyCallback);org.apache.log4j.helpers.LogLog;0;4;1;0.6666666666666667;1.0;19;35;39
+org.apache.log4j.test.MDCStress.run();org.apache.log4j.MDC;1;2;2;0.6666666666666667;1.0;15;74;34
+org.apache.log4j.jdbc.JDBCAppender.close();org.apache.log4j.AppenderSkeleton;1;2;1;0.9166666666666666;0.9375;10;114;91
+org.apache.log4j.xml.DOMConfigurator.doConfigure(org.apache.log4j.spi.LoggerRepository, org.xml.sax.InputSource);org.apache.log4j.helpers.LogLog;0;2;1;0.9459459459459459;1.0;27;490;39
+org.apache.log4j.Category.log(java.lang.Object, org.apache.log4j.Priority);org.apache.log4j.Priority;2;3;1;0.9523809523809523;0.7777777777777778;8;357;44
+org.apache.joran.action.LayoutAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.Dispatcher.run();org.apache.log4j.helpers.LogLog;0;1;4;0.9;1.0;29;45;39
+org.apache.log4j.net.TelnetAppender.run();org.apache.log4j.helpers.LogLog;0;5;1;0.7619047619047619;1.0;22;86;39
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processConfigurationNode(java.lang.StringBuffer, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.LogBrokerMonitor;0;1;3;1.0;1.0;9;279;1059
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.createSelectDescendantsMenuItem(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;1;1;0.9565217391304348;1.0;10;169;178
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.getDisplayPanelMenuItem(java.lang.String);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.net.JMSAppender.activateOptions();org.apache.log4j.AppenderSkeleton;1;13;2;0.5862068965517242;0.96875;54;178;91
+org.apache.log4j.net.SMTPAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;1;4;2;0.8181818181818181;0.9705882352941176;14;161;209
+org.apache.joran.ExecutionContext.subst(java.lang.String);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.DisplayFilter.readObject(java.io.ObjectInputStream);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.HTMLLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LocationInfo;2;2;5;0.95;0.8947368421052632;50;122;115
+org.apache.log4j.net.UDPReceiver.activateOptions();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.chainsaw.ChainsawTabbedPane;0;0;0;0;0;0;0;0
+org.apache.log4j.varia.Log4JAvalonLogger.isDebugEnabled();org.apache.log4j.Category;1;0;1;1.0;0.9736842105263158;3;51;357
+org.apache.joran.JoranParser.loop(org.apache.joran.Pattern, org.w3c.dom.Node);org.apache.joran.Pattern;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.util.Resource.getInputStreamReader();org.apache.log4j.lf5.util.ResourceUtils;0;0;1;1.0;1.0;8;27;22
+org.apache.log4j.jmx.AppenderDynamicMBean.preRegister(javax.management.MBeanServer, javax.management.ObjectName);org.apache.log4j.jmx.AbstractDynamicMBean;1;2;2;0.8888888888888888;0.9166666666666666;6;144;50
+org.apache.log4j.net.UDPAppender.connect(int, java.net.InetAddress);org.apache.log4j.helpers.LogLog;0;4;1;0.8260869565217391;1.0;14;181;39
+org.apache.log4j.chainsaw.ColorDisplaySelector.addDisplayFilter(org.apache.log4j.chainsaw.DisplayFilterEntry);org.apache.log4j.chainsaw.DisplayFilterEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.filter.FilterModel.processNewLoggingEvent(java.lang.String, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.shutdown(boolean);org.apache.log4j.Category;1;4;1;0.8974358974358975;0.9787234042553191;24;273;357
+org.apache.log4j.chainsaw.ReceiversTreeModel.refresh();org.apache.log4j.plugins.PluginRegistry;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createLogRecordFilter();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;2;3;0.984375;0.9230769230769231;10;1059;53
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.showPropertiesDialog(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;2;1;0.9166666666666666;0.9523809523809523;3;169;89
+org.apache.log4j.spi.LoggingEvent.readLevel(java.io.ObjectInputStream);org.apache.log4j.helpers.Loader;0;0;3;1.0;1.0;23;209;55
+org.apache.log4j.chainsaw.LogUI.performShutdownAction();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer.buildToolTip(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;2;0;1;1.0;0.9;8;48;89
+org.apache.log4j.chainsaw.ChainsawAppender.getColumnName(int);org.apache.log4j.chainsaw.MyTableModel;1;0;1;1.0;0.96875;3;76;201
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.requestOpen();org.apache.log4j.lf5.viewer.configure.MRUFileManager;1;4;1;0.9685039370078741;0.9565217391304348;18;1059;133
+org.apache.log4j.pattern.PatternConverter.setFormattingInfo(org.apache.log4j.pattern.FormattingInfo);org.apache.log4j.pattern.FormattingInfo;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketReceiver.run();org.apache.log4j.net.SocketNode;1;9;3;0.7567567567567568;0.9666666666666667;48;171;106
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.addMessage(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;3;4;0.9765625;0.9285714285714286;13;1059;53
+org.apache.log4j.chainsaw.ChainsawAppenderHandler.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.WriterAppender.createWriter(java.io.OutputStream);org.apache.log4j.helpers.LogLog;0;1;1;0.9333333333333333;1.0;17;135;39
+org.apache.log4j.chainsaw.MyTableModel.compare(java.lang.Object, java.lang.Object);org.apache.log4j.chainsaw.EventDetails;1;0;1;1.0;0.8888888888888888;17;201;79
+org.apache.log4j.Category.warn(java.lang.Object);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setLeastSevereDisplayedLogLevel(org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.viewer.LogTable;1;1;2;0.992;0.9615384615384616;8;1059;110
+org.apache.log4j.chainsaw.Generator.run();org.apache.log4j.NDC;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyConfigurator.doConfigure(java.util.Properties, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.helpers.OptionConverter;1;4;3;0.7777777777777778;1.0;22;201;228
+org.apache.log4j.chainsaw.ChainsawAppender.addEvent(org.apache.log4j.chainsaw.EventDetails);org.apache.log4j.chainsaw.MyTableModel;1;0;1;1.0;0.96875;5;76;201
+org.apache.log4j.test.CategoryWrapper.print(java.lang.String);org.apache.log4j.Priority;0;0;1;1.0;1.0;3;21;44
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createClearAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.config.PropertySetter.canContainComponent(java.lang.String);org.apache.log4j.Category;1;4;1;0.7894736842105263;0.9772727272727273;17;204;357
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createToggleDetailPaneAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setDateFormatManager(org.apache.log4j.lf5.util.DateFormatManager);org.apache.log4j.lf5.viewer.LogTable;0;0;1;1.0;1.0;3;1059;110
+org.apache.log4j.jmx.AppenderDynamicMBean.setAttribute(javax.management.Attribute);org.apache.log4j.Category;1;4;2;0.84;0.9803921568627451;30;144;357
+org.apache.log4j.PropertyConfigurator.parseAdditivityForLogger(java.lang.String, java.util.Properties, org.apache.log4j.Logger);org.apache.log4j.helpers.OptionConverter;1;0;3;1.0;1.0;9;201;228
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createShowPreferencesAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.updateOtherModels(org.apache.log4j.chainsaw.ChainsawEventBatchEntry);org.apache.log4j.chainsaw.filter.FilterModel;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter.resetAllNodes();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;0;2;1.0;0.9583333333333334;9;19;178
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createToggleDetailPaneAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.LoggerDynamicMBean.getAttribute(java.lang.String);org.apache.log4j.Category;2;1;2;0.95;0.9523809523809523;26;116;357
+org.apache.log4j.xml.XMLDecoder.decodeEvents(org.w3c.dom.Document);org.apache.log4j.UtilLoggingLevel;0;2;4;0.9285714285714286;1.0;94;211;68
+org.apache.log4j.net.SMTPAppender.checkEntryConditions();org.apache.log4j.AppenderSkeleton;1;2;1;0.9;0.9230769230769231;15;161;91
+org.apache.log4j.chainsaw.LogUI.loadDisplayFilter(java.lang.String);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.config.PropertySetter.addComponent(java.lang.Object, java.lang.String);org.apache.log4j.Category;2;4;1;0.84;0.9591836734693877;27;204;357
+org.apache.log4j.net.SocketNode.run();org.apache.log4j.Category;3;6;2;0.7272727272727273;0.9423076923076923;64;106;357
+org.apache.log4j.test.MDCStress.run();org.apache.log4j.Category;1;2;2;0.6666666666666667;0.9761904761904762;15;74;357
+org.apache.log4j.chainsaw.layout.LayoutEditorPane.updatePreview();org.apache.log4j.chainsaw.layout.EventDetailLayout;0;0;0;0;0;0;0;0
+org.apache.log4j.net.JMSAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;1;4;1;0.8095238095238095;0.9375;16;178;91
+org.apache.joran.action.LevelAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Level;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.columnRemoved(javax.swing.event.TableColumnModelEvent);org.apache.log4j.chainsaw.JSortTable;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.AppenderDynamicMBean.getAttribute(java.lang.String);org.apache.log4j.jmx.MethodUnion;1;3;2;0.8636363636363636;0.9090909090909091;24;144;4
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.sortColumn(boolean, int, int, org.apache.log4j.chainsaw.JSortTable);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.AsyncAppender.getAllAppenders();org.apache.log4j.helpers.AppenderAttachableImpl;1;0;1;1.0;0.8888888888888888;5;98;88
+org.apache.log4j.rolling.SlidingWindowRollingPolicy.activateOptions();org.apache.log4j.rolling.helpers.Compress;0;4;3;0.5555555555555556;1.0;19;72;71
+org.apache.log4j.Hierarchy.setThreshold(java.lang.String);org.apache.log4j.helpers.LogLog;0;1;2;0.9696969696969697;1.0;9;273;39
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setMaxNumberOfLogRecords(int);org.apache.log4j.lf5.viewer.LogTable;1;0;2;1.0;0.96;3;1059;110
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.Priority;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ColorDisplaySelector.filterExists(java.lang.String, java.lang.String);org.apache.log4j.chainsaw.DisplayFilterEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.addCategory(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement;1;1;3;0.967741935483871;0.9285714285714286;26;178;12
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.addMessage(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;3;4;0.9765625;0.9666666666666667;13;1059;133
+org.apache.log4j.net.JMSReceiver.onMessage(org.apache.log4j.net.Message);org.apache.log4j.Category;2;1;2;0.9285714285714286;0.95;16;118;357
+org.apache.log4j.net.SocketAppender.close();org.apache.log4j.AppenderSkeleton;1;1;1;0.9583333333333334;0.9166666666666666;7;197;91
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processConfigurationNode(java.lang.StringBuffer, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;1;3;1.0;0.9583333333333334;9;279;178
+org.apache.log4j.WriterAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;2;1;3;0.9473684210526316;0.8888888888888888;16;135;19
+org.apache.log4j.chainsaw.ReceiverTreeCellRenderer.getTreeCellRendererComponent(boolean, boolean, boolean, boolean, int, java.lang.Object, javax.swing.JTree);org.apache.log4j.chainsaw.ReceiversTreeModel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ColorDisplaySelector.loadFilters();org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawAppender.getColumnClass(int);org.apache.log4j.chainsaw.MyTableModel;1;0;1;1.0;0.96875;3;76;201
+org.apache.log4j.RollingFileAppender.setFile(boolean, boolean, int, java.lang.String);org.apache.log4j.FileAppender;1;0;2;1.0;1.0;7;71;91
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createAllLogLevelsMenuItem();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;3;2;0.9763779527559056;0.9655172413793104;13;1059;133
+org.apache.log4j.WriterAppender.close();org.apache.log4j.AppenderSkeleton;1;2;1;0.875;0.9230769230769231;8;135;91
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createNDCLogRecordFilter(java.lang.String);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;3;3;0.9770992366412213;0.9411764705882353;20;1059;53
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.ChainsawTabbedPane;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.helpers.FileNamePattern.convert(java.util.Date);org.apache.log4j.rolling.helpers.DateTokenConverter;1;1;4;0.9285714285714286;0.8888888888888888;18;131;14
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.run();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;1;4;0.9921259842519685;0.9090909090909091;5;1059;53
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.removeUnusedNodes();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;0;2;1.0;0.9615384615384616;13;169;178
+org.apache.log4j.xml.DOMConfigurator.parseFilters(org.apache.log4j.Appender, org.w3c.dom.Element);org.apache.log4j.helpers.LogLog;0;2;3;0.9743589743589743;1.0;22;490;39
+org.apache.log4j.chainsaw.LogPanel.eventCountChanged(int, int);org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.joran.action.LayoutAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.jdbc.JDBCAppender.getLogStatement(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;1;0;2;1.0;0.8;3;114;19
+org.apache.log4j.jmx.LoggerDynamicMBean.handleNotification(java.lang.Object, javax.management.Notification);org.apache.log4j.Category;1;1;1;0.9444444444444444;0.975609756097561;4;116;357
+org.apache.log4j.varia.FallbackErrorHandler.setLogger(org.apache.log4j.Logger);org.apache.log4j.helpers.LogLog;0;1;2;0.9166666666666666;1.0;7;36;39
+org.apache.log4j.xml.DOMConfigurator.parse(org.w3c.dom.Element);org.apache.log4j.helpers.LogLog;0;7;3;0.8;1.0;61;490;39
+org.apache.log4j.chainsaw.filter.FilterColorPreferences.initComponents();org.apache.log4j.chainsaw.filter.FilterModel;0;0;0;0;0;0;0;0
+org.apache.joran.action.AppenderAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversPanel.hyperlinkUpdate(javax.swing.event.HyperlinkEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.TTCCLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.DateLayout;1;4;3;0.6923076923076923;0.95;26;53;57
+org.apache.log4j.Hierarchy.resetConfiguration();org.apache.log4j.Level;0;6;3;0.85;1.0;21;273;57
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processCategories(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;1;4;1.0;0.9411764705882353;15;279;53
+org.apache.log4j.chainsaw.LogPanel.eventCountChanged(int, int);org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.loadDisplayFilter(java.lang.String);org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createAllLogTableColumnsMenuItem();org.apache.log4j.lf5.viewer.LogTable;1;3;1;0.9761904761904762;0.9655172413793104;13;1059;110
+org.apache.joran.JoranParser.callEndAction(java.util.List, org.w3c.dom.Node);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.TimeBasedRollingPolicy.isTriggeringEvent(java.io.File);org.apache.log4j.rolling.helpers.RollingCalendar;1;3;3;0.7857142857142857;0.9230769230769231;16;91;117
+org.apache.log4j.chainsaw.layout.LayoutEditorPane.createEvent();org.apache.log4j.Level;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createEditRestoreAllNDCMI();org.apache.log4j.lf5.viewer.FilteredLogTableModel;2;4;2;0.96875;0.9333333333333333;14;1059;133
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.getValueAt(int, int);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.removeLoggerEventListener(org.apache.log4j.spi.LoggerEventListener);org.apache.log4j.helpers.LogLog;0;1;1;0.9714285714285714;1.0;10;273;39
+org.apache.log4j.PropertyWatchdog.doOnChange();org.apache.log4j.PropertyConfigurator;1;0;3;1.0;0.9285714285714286;3;6;201
+org.apache.log4j.WriterAppender.setErrorHandler(org.apache.log4j.spi.ErrorHandler);org.apache.log4j.helpers.QuietWriter;1;0;2;1.0;0.75;11;135;28
+org.apache.joran.action.NestComponentIA.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.Log4jEntityResolver.resolveEntity(java.lang.String, java.lang.String);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;18;18;39
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.requestExit();org.apache.log4j.lf5.viewer.configure.MRUFileManager;1;2;1;0.9838709677419355;0.9444444444444444;5;1059;133
+org.apache.log4j.chainsaw.ChainsawAppenderHandler.run();org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.info(java.lang.Object, java.lang.Throwable);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.log4j.xml.UtilLoggingXMLDecoder.decodeEvents(org.w3c.dom.Document);org.apache.log4j.Category;1;2;3;0.9259259259259259;0.9814814814814815;82;207;357
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createPauseAction();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.getAppender(java.lang.String);org.apache.log4j.helpers.ReaderWriterLock;2;0;2;1.0;0.8;9;357;58
+org.apache.log4j.net.UDPReceiver.run();org.apache.log4j.helpers.LogLog;0;4;2;0.7894736842105263;1.0;18;75;39
+org.apache.log4j.net.SocketReceiver.equals(java.lang.Object);org.apache.log4j.plugins.PluginSkeleton;2;1;1;0.9655172413793104;0.6;8;171;15
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createPauseAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.DOMConfigurator.parseCategory(org.w3c.dom.Element);org.apache.log4j.helpers.OptionConverter;1;3;4;0.9428571428571428;1.0;27;490;228
+org.apache.log4j.AsyncAppender.setBufferSize(int);org.apache.log4j.helpers.BoundedFIFO;1;0;1;1.0;0.9166666666666666;3;98;64
+org.apache.log4j.chainsaw.LogUI.exit();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.net.JMSAppender.activateOptions();org.apache.log4j.helpers.LogLog;0;13;2;0.5862068965517242;1.0;54;178;39
+org.apache.log4j.lf5.LF5Appender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.lf5.LogRecord;6;0;6;1.0;0.76;33;98;110
+org.apache.log4j.chainsaw.LogPanel.clearModel();org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.toggleLogTreePanel();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createToolBar();org.apache.log4j.lf5.viewer.LogTable;2;9;4;0.9419354838709677;0.9682539682539683;83;1059;110
+org.apache.log4j.xml.DOMConfigurator.configureNestedComponent(org.apache.log4j.config.PropertySetter, org.w3c.dom.Element);org.apache.log4j.Category;4;5;3;0.9047619047619048;0.9259259259259259;51;490;357
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createToolBar();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;9;4;0.9419354838709677;0.9830508474576272;83;1059;178
+org.apache.log4j.spi.ThrowableInformation.getThrowableStrRep();org.apache.log4j.spi.VectorWriter;1;2;1;0.6666666666666667;0.9375;11;20;42
+org.apache.log4j.Category.getAllAppenders();org.apache.log4j.helpers.AppenderAttachableImpl;1;0;3;1.0;0.9090909090909091;12;357;88
+org.apache.log4j.chainsaw.ReceiversPanel.run();org.apache.log4j.plugins.PluginRegistry;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.showLogLevelColorChangeDialog(javax.swing.JMenuItem, org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.LogLevel;1;1;3;0.9921875;1.0;8;1059;95
+org.apache.log4j.lf5.LF5Appender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;0;6;1.0;0.9924812030075187;33;98;1059
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setFontSizeSilently(int);org.apache.log4j.lf5.viewer.LogTable;1;3;1;0.984;0.962962962962963;6;1059;110
+org.apache.log4j.rolling.helpers.FileNamePattern.getDateTokenConverter();org.apache.log4j.rolling.helpers.TokenConverter;1;0;1;1.0;0.0;10;131;15
+org.apache.log4j.varia.LevelMatchFilter.decide(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.Filter;0;1;1;0.8;1.0;16;28;8
+org.apache.log4j.nt.NTEventLogAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;2;2;2;0.9285714285714286;0.9;15;74;19
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.propertyChange(java.beans.PropertyChangeEvent);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.DOMConfigurator.configureNestedComponent(org.apache.log4j.config.PropertySetter, org.w3c.dom.Element);org.apache.log4j.config.PropertySetter;4;5;3;0.9047619047619048;0.9411764705882353;51;490;204
+org.apache.log4j.chainsaw.LoggerNameTreePanel.createFocusOnAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.addWelcomePanel();org.apache.log4j.chainsaw.ChainsawTabbedPane;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter.resetAllNodes();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;0;2;1.0;0.9545454545454546;9;19;89
+org.apache.log4j.AppenderSkeleton.setErrorHandler(org.apache.log4j.spi.ErrorHandler);org.apache.log4j.helpers.LogLog;0;1;1;0.9090909090909091;1.0;8;91;39
+org.apache.log4j.xml.DOMConfigurator.parseLevel(boolean, org.apache.log4j.Logger, org.w3c.dom.Element);org.apache.log4j.Category;1;1;4;0.9705882352941176;0.9782608695652174;36;490;357
+org.apache.log4j.net.SMTPAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.CyclicBuffer;1;4;2;0.8181818181818181;0.9333333333333333;14;161;59
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerLogRecordFilter.passes(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.LogRecord;1;0;2;1.0;0.9523809523809523;4;19;110
+org.apache.log4j.pattern.PatternParser.parse();org.apache.log4j.pattern.FormattingInfo;4;7;3;0.6956521739130435;0.7777777777777778;94;244;8
+org.apache.log4j.rolling.RollingFileAppender.rollover();org.apache.log4j.FileAppender;2;2;2;0.8571428571428572;0.9444444444444444;13;59;91
+org.apache.log4j.pattern.PatternParser.finalizeConverter(char);org.apache.log4j.helpers.LogLog;0;6;4;0.6666666666666667;1.0;87;244;39
+org.apache.joran.action.RootLoggerAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.pattern.DatePatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Category;1;4;2;0.6363636363636364;0.9782608695652174;12;28;357
+org.apache.log4j.Category.removeAllAppenders();org.apache.log4j.helpers.AppenderAttachableImpl;1;0;2;1.0;0.9090909090909091;8;357;88
+org.apache.log4j.rolling.helpers.FileNamePattern.convert(int);org.apache.log4j.rolling.helpers.TokenConverter;1;1;4;0.9285714285714286;0.8571428571428572;18;131;15
+org.apache.log4j.AppenderSkeleton.doAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;5;2;0.6923076923076923;1.0;30;91;39
+org.apache.log4j.xml.SAXErrorHandler.error(org.xml.sax.SAXParseException);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;4;11;39
+org.apache.log4j.PropertyConfigurator.parseCatsAndRenderers(java.util.Properties, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.or.RendererMap;1;3;1;0.9565217391304348;1.0;28;201;63
+org.apache.log4j.Category.getAllAppenders();org.apache.log4j.helpers.ReaderWriterLock;2;0;3;1.0;0.8;12;357;58
+org.apache.log4j.AsyncAppender.removeAppender(java.lang.String);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;1;1.0;0.8888888888888888;5;98;88
+org.apache.log4j.config.PropertyPrinter.printOptions(java.io.PrintWriter, org.apache.log4j.Category);org.apache.log4j.Category;1;4;2;0.7894736842105263;0.98;24;68;357
+org.apache.log4j.spi.LoggingEvent.getNDC();org.apache.log4j.NDC;0;2;1;0.9285714285714286;1.0;7;209;128
+org.apache.log4j.chainsaw.LogPanel.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.JSortTable;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketServer.configureHierarchy(java.net.InetAddress);org.apache.log4j.PropertyConfigurator;1;3;3;0.7857142857142857;1.0;23;84;201
+org.apache.log4j.chainsaw.LoggerNameTreePanel.createExpandAction();org.apache.log4j.chainsaw.icons.LineIconFactory;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.matches(java.lang.String, org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.LogRecord;2;0;1;1.0;0.9090909090909091;11;1059;110
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.addCategory(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath;2;1;3;0.967741935483871;0.8888888888888888;26;178;56
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.saveSettings(org.apache.log4j.chainsaw.prefs.SaveSettingsEvent);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.HierarchyDynamicMBean.appenderRemovedEvent(org.apache.log4j.Appender, org.apache.log4j.Logger);org.apache.log4j.Category;2;0;1;1.0;0.9487179487179487;3;122;357
+org.apache.log4j.chainsaw.LogUI.socketClosedEvent(java.lang.Exception);org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversPanel.createLevelRadioButton(org.apache.log4j.Level, org.apache.log4j.plugins.Receiver);org.apache.log4j.plugins.Receiver;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyConfigurator.doConfigure(java.lang.String, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.helpers.LogLog;0;1;1;0.9333333333333333;1.0;14;201;39
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.clearDetailTextArea();org.apache.log4j.lf5.viewer.LogTable;1;0;1;1.0;0.96;3;1059;110
+org.apache.joran.action.LevelAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.helpers.Loader;0;0;0;0;0;0;0;0
+org.apache.log4j.WriterAppender.setErrorHandler(org.apache.log4j.spi.ErrorHandler);org.apache.log4j.helpers.LogLog;0;0;2;1.0;1.0;11;135;39
+org.apache.log4j.net.UDPAppender.cleanUp();org.apache.log4j.helpers.LogLog;0;3;1;0.8695652173913043;1.0;15;181;39
+org.apache.log4j.rolling.RollingPolicySkeleton.setCompressionMode(java.lang.String);org.apache.log4j.rolling.helpers.Compress;0;1;1;0.8571428571428572;1.0;17;28;71
+org.apache.log4j.plugins.Receiver.doPost(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.plugins.PluginSkeleton;1;1;2;0.8;0.8333333333333334;9;18;15
+org.apache.log4j.chainsaw.LogUI.mouseClicked(java.awt.event.MouseEvent);org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.varia.Log4JAvalonLogger.getChildLogger(java.lang.String);org.apache.log4j.Logger;0;0;2;1.0;1.0;3;51;15
+org.apache.joran.action.NestComponentIA.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.ActionConst;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryImmediateEditor.inCheckBoxHitRegion(java.awt.event.MouseEvent);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer;1;0;1;1.0;0.9444444444444444;15;45;48
+org.apache.log4j.jmx.AppenderDynamicMBean.setAttribute(javax.management.Attribute);org.apache.log4j.jmx.MethodUnion;1;4;2;0.84;0.9333333333333333;30;144;4
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.run();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;1;4;0.9921259842519685;0.962962962962963;5;1059;133
+org.apache.log4j.chainsaw.ColorDisplaySelector.save();org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.stateChanged(javax.swing.event.ChangeEvent);org.apache.log4j.chainsaw.LoggerNameTreePanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.addWelcomePanel();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketServer.genericHierarchy();org.apache.log4j.Priority;0;2;4;0.7777777777777778;1.0;14;84;44
+org.apache.log4j.chainsaw.DisplayFilter.save();org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.getCategoryNode(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement;1;0;3;1.0;0.9090909090909091;23;178;12
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createUndockAction();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createNoLogLevelsMenuItem();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;3;2;0.9763779527559056;0.9655172413793104;13;1059;133
+org.apache.log4j.lf5.viewer.LogTableRowRenderer.getTableCellRendererComponent(boolean, boolean, int, int, java.lang.Object, javax.swing.JTable);org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;2;2;0.8181818181818181;0.967741935483871;12;15;133
+org.apache.log4j.PropertyConfigurator.parseAppender(java.lang.String, java.util.Properties);org.apache.log4j.helpers.OptionConverter;1;2;3;0.8823529411764706;1.0;30;201;228
+org.apache.log4j.chainsaw.ReceiversPanel.createReceiver();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.varia.Log4JAvalonLogger.fatalError(java.lang.String, java.lang.Throwable);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.log4j.net.MulticastAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;6;3;0.7857142857142857;1.0;29;148;39
+org.apache.log4j.rolling.TimeBasedRollingPolicy.activateOptions();org.apache.log4j.rolling.helpers.RollingCalendar;3;3;6;0.8636363636363636;0.8421052631578947;30;91;117
+org.apache.log4j.WriterAppender.writeHeader();org.apache.log4j.AppenderSkeleton;0;0;2;1.0;1.0;8;135;91
+org.apache.log4j.chainsaw.ReceiversPanel.shutdownCurrentlySelectedReceiver();org.apache.log4j.plugins.PluginRegistry;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createLogTableColumnMenuItem(org.apache.log4j.lf5.viewer.LogTableColumn);org.apache.log4j.lf5.viewer.LogTable;1;2;2;0.9844961240310077;0.967741935483871;13;1059;110
+org.apache.log4j.net.SocketReceiver.isPaused();org.apache.log4j.net.SocketNode;1;0;1;1.0;0.9090909090909091;3;171;106
+org.apache.log4j.chainsaw.ColorDisplaySelector.save();org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.layout.EventDetailLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.PatternLayout;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.isAddRow(boolean, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.chainsaw.CyclicBufferList;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.updateChildren(org.apache.log4j.Logger, org.apache.log4j.ProvisionNode);org.apache.log4j.Category;1;0;1;1.0;0.975609756097561;10;273;357
+org.apache.log4j.net.DefaultEvaluator.isTriggeringEvent(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Level;0;0;1;1.0;1.0;3;3;57
+org.apache.log4j.pattern.PatternParser.parse();org.apache.log4j.helpers.LogLog;0;7;3;0.6956521739130435;1.0;94;244;39
+org.apache.log4j.chainsaw.filter.FilterModel.processNewLoggingEvent(java.lang.String, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.chainsaw.filter.EventTypeEntryContainer;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.sortColumn(boolean, int, int, org.apache.log4j.chainsaw.JSortTable);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.fatal(java.lang.Object, java.lang.Throwable);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.log4j.net.SocketAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;9;2;0.6785714285714286;1.0;35;197;39
+org.apache.log4j.DailyRollingFileAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.rolling.helpers.RollingCalendar;1;3;3;0.75;0.9166666666666666;14;71;117
+org.apache.log4j.AppenderSkeleton.isAsSevereAsThreshold(org.apache.log4j.Priority);org.apache.log4j.Priority;1;0;1;1.0;0.8;3;91;44
+org.apache.log4j.AsyncAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;1;2;3;0.9;0.9714285714285714;28;98;209
+org.apache.log4j.rolling.helpers.FileNamePattern.addTokenConverter(org.apache.log4j.rolling.helpers.TokenConverter, org.apache.log4j.rolling.helpers.TokenConverter);org.apache.log4j.rolling.helpers.TokenConverter;0;0;1;1.0;1.0;10;131;15
+org.apache.log4j.varia.FallbackErrorHandler.setLogger(org.apache.log4j.Logger);org.apache.log4j.Category;1;1;2;0.9166666666666666;0.975;7;36;357
+org.apache.joran.action.LayoutAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.setThreshold(java.lang.String);org.apache.log4j.Level;0;1;2;0.9696969696969697;1.0;9;273;57
+org.apache.log4j.spi.LoggingEvent.readLevel(java.io.ObjectInputStream);org.apache.log4j.Level;0;0;3;1.0;1.0;23;209;57
+org.apache.log4j.jmx.AppenderDynamicMBean.registerLayoutMBean(org.apache.log4j.Layout);org.apache.log4j.jmx.AbstractDynamicMBean;1;2;2;0.9130434782608696;0.9411764705882353;15;144;50
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.addCategory(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;1;3;0.967741935483871;0.9655172413793104;26;178;89
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createToolBar();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;9;4;0.9419354838709677;0.9787234042553191;83;1059;53
+org.apache.log4j.chainsaw.LoggerNameTreePanel.mouseClicked(java.awt.event.MouseEvent);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.callAppenders(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.AppenderAttachableImpl;1;2;2;0.9523809523809523;0.9285714285714286;20;357;88
+org.apache.log4j.xml.DOMConfigurator.setParameter(org.apache.log4j.config.PropertySetter, org.w3c.dom.Element);org.apache.log4j.config.PropertySetter;1;1;1;0.9642857142857143;0.9444444444444444;6;490;204
+org.apache.log4j.xml.DOMConfigurator.subst(java.lang.String);org.apache.log4j.helpers.LogLog;0;1;1;0.9615384615384616;1.0;9;490;39
+org.apache.log4j.jmx.AbstractDynamicMBean.preDeregister();org.apache.log4j.Category;1;1;1;1.0;0.9743589743589743;3;50;357
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createResetLogLevelColorMenuItem();org.apache.log4j.lf5.viewer.LogTable;1;1;3;0.9921259842519685;0.9642857142857143;12;1059;110
+org.apache.log4j.rolling.helpers.RollingCalendar.printPeriodicity();org.apache.log4j.Category;2;1;1;0.875;0.9487179487179487;27;117;357
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.joran.action.LoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.helpers.Loader;0;0;0;0;0;0;0;0
+org.apache.log4j.config.PropertySetter.setProperty(java.lang.String, java.lang.String);org.apache.log4j.config.PropertySetterException;1;3;2;0.8421052631578947;0.8571428571428572;16;204;14
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processConfigurationNode(java.lang.StringBuffer, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree;1;1;3;1.0;0.9166666666666666;9;279;53
+org.apache.log4j.chainsaw.LogPanel.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.HTMLLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;2;2;5;0.95;0.9459459459459459;50;122;209
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.saveConfiguration();org.apache.log4j.lf5.viewer.configure.ConfigurationManager;1;0;1;1.0;0.9615384615384616;3;1059;279
+org.apache.log4j.xml.XMLWatchdog.doOnChange();org.apache.log4j.xml.DOMConfigurator;1;0;3;1.0;0.962962962962963;3;6;490
+org.apache.log4j.jmx.HierarchyDynamicMBean.postRegister(java.lang.Boolean);org.apache.log4j.Category;1;2;1;0.9166666666666666;0.9761904761904762;6;122;357
+org.apache.log4j.chainsaw.ColumnComparator.compare(java.lang.Object, java.lang.Object);org.apache.log4j.spi.LoggingEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.saveSettings(org.apache.log4j.chainsaw.prefs.SaveSettingsEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.RollingFileAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.FileAppender;2;2;2;0.8;0.9333333333333333;6;71;91
+org.apache.log4j.chainsaw.LogPanel.loadDefaultColumnSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.prefs.LoadSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.joran.action.NestComponentIA.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.helpers.Loader;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.removeAppender(org.apache.log4j.Appender);org.apache.log4j.helpers.ReaderWriterLock;2;0;2;1.0;0.8;9;357;58
+org.apache.log4j.chainsaw.ColorDisplaySelector.removeDisplayFilter(org.apache.log4j.chainsaw.DisplayFilterEntry);org.apache.log4j.chainsaw.DisplayFilterEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.pattern.PatternParser.findConverterClass(java.lang.String);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.TimeBasedRollingPolicy.getActiveLogFileName();org.apache.log4j.rolling.helpers.FileNamePattern;1;2;2;0.8181818181818181;0.9090909090909091;9;91;131
+org.apache.log4j.chainsaw.ChainsawAppenderHandler.dispatchEventBatch(org.apache.log4j.chainsaw.ChainsawEventBatch);org.apache.log4j.chainsaw.ChainsawEventBatch;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversPanel.buildForReceiverNode();org.apache.log4j.Level;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.columnMoved(javax.swing.event.TableColumnModelEvent);org.apache.log4j.chainsaw.JSortTable;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.getDisplayedProperties(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;6;0;1;1.0;0.6842105263157895;14;169;89
+org.apache.log4j.rolling.helpers.FileNamePattern.convert(java.util.Date);org.apache.log4j.rolling.helpers.IdentityTokenConverter;1;1;4;0.9285714285714286;0.8571428571428572;18;131;7
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createNDCLogRecordFilter(java.lang.String);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;3;3;0.9770992366412213;0.9655172413793104;20;1059;178
+org.apache.log4j.PatternLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.pattern.PatternConverter;1;0;1;1.0;0.8333333333333334;7;29;50
+org.apache.log4j.TTCCLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;0;4;3;0.6923076923076923;1.0;26;53;19
+org.apache.log4j.rolling.TimeBasedRollingPolicy.rollover();org.apache.log4j.rolling.helpers.Util;0;2;4;0.8181818181818181;1.0;27;91;11
+org.apache.log4j.chainsaw.layout.LayoutEditorPane.createEvent();org.apache.log4j.Logger;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.SimpleLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;0;0;1;1.0;1.0;6;13;19
+org.apache.log4j.pattern.RelativeTimePatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;1;1;1;0.8333333333333334;0.96875;5;9;209
+org.apache.log4j.jmx.HierarchyDynamicMBean.appenderAddedEvent(org.apache.log4j.Appender, org.apache.log4j.Logger);org.apache.log4j.Category;2;1;1;0.9615384615384616;0.9523809523809523;7;122;357
+org.apache.log4j.spi.LoggingEvent.readLevel(java.io.ObjectInputStream);org.apache.log4j.helpers.LogLog;0;0;3;1.0;1.0;23;209;39
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.chainsaw.NoReceiversWarningPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.test.CategoryWrapper.addAppender(org.apache.log4j.Appender);org.apache.log4j.Category;1;0;1;1.0;0.9736842105263158;3;21;357
+org.apache.log4j.rolling.helpers.FileNamePattern.parse();org.apache.log4j.Category;1;4;1;0.6923076923076923;0.9782608695652174;46;131;357
+org.apache.log4j.net.JMSReceiver.equals(java.lang.Object);org.apache.log4j.plugins.PluginSkeleton;2;1;1;0.9285714285714286;0.6;8;118;15
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createToggleLogTreeAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.NoReceiversWarningPanel.getPort();org.apache.log4j.net.SocketAppender;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversPanel.createReceiver();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.spi.LoggingEvent.getRenderedMessage();org.apache.log4j.or.RendererMap;1;2;1;0.935483870967742;0.9090909090909091;18;209;63
+org.apache.log4j.chainsaw.LogPanel.loadColumnSettings(java.lang.String, javax.swing.table.TableColumnModel);org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.LayoutDynamicMBean.getAttribute(java.lang.String);org.apache.log4j.Category;1;2;2;0.875;0.9767441860465116;16;105;357
+org.apache.log4j.net.XMLSocketNode.run();org.apache.log4j.plugins.Receiver;1;4;2;0.8181818181818181;0.9545454545454546;74;111;18
+org.apache.joran.action.LevelAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.isDebugEnabled();org.apache.log4j.Level;0;2;2;0.95;1.0;6;357;57
+org.apache.log4j.varia.ExternallyRolledFileAppender.activateOptions();org.apache.log4j.FileAppender;1;1;1;0.8333333333333334;0.9333333333333333;11;19;91
+org.apache.log4j.chainsaw.ChainsawAppender.getRowCount();org.apache.log4j.chainsaw.MyTableModel;1;0;1;1.0;0.96875;3;76;201
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createMenuBar();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.RollingFileAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.CountingQuietWriter;1;2;2;0.8;0.8333333333333334;6;71;18
+org.apache.log4j.net.SocketAppender.run();org.apache.log4j.helpers.LogLog;0;6;1;0.7692307692307692;1.0;26;197;39
+org.apache.log4j.rolling.SlidingWindowRollingPolicy.activateOptions();org.apache.log4j.rolling.RollingPolicySkeleton;1;4;3;0.5555555555555556;0.8888888888888888;19;72;28
+org.apache.log4j.varia.Log4JAvalonLogger.isErrorEnabled();org.apache.log4j.Category;1;0;2;1.0;0.9736842105263158;3;51;357
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.refreshDetailTextArea();org.apache.log4j.lf5.viewer.LogTable;1;1;1;0.9919354838709677;0.96;3;1059;110
+org.apache.log4j.Category.fatal(java.lang.Object);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createEditRestoreAllNDCMI();org.apache.log4j.lf5.viewer.LogTable;1;4;2;0.96875;0.96875;14;1059;110
+org.apache.log4j.chainsaw.ReceiversPanel.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.MyTableModel.updateFilteredEvents(boolean);org.apache.log4j.Category;2;3;1;0.9318181818181819;0.9607843137254902;29;201;357
+org.apache.log4j.pattern.DatePatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;1;4;2;0.6363636363636364;0.9722222222222222;12;28;209
+org.apache.log4j.chainsaw.ReceiverTreeCellRenderer.getTreeCellRendererComponent(boolean, boolean, boolean, boolean, int, java.lang.Object, javax.swing.JTree);org.apache.log4j.Priority;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createAllLogLevelsMenuItem();org.apache.log4j.lf5.viewer.LogTable;1;3;2;0.9763779527559056;0.9666666666666667;13;1059;110
+org.apache.log4j.varia.FallbackErrorHandler.setBackupAppender(org.apache.log4j.Appender);org.apache.log4j.helpers.LogLog;0;1;1;0.9090909090909091;1.0;4;36;39
+org.apache.log4j.helpers.LoggerTraverse.update(org.apache.log4j.spi.LoggerRepository);org.apache.log4j.Category;1;1;1;0.9333333333333333;0.9777777777777777;9;144;357
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.initComponents();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;15;2;0.8993288590604027;0.9841269841269842;42;1059;133
+org.apache.log4j.chainsaw.filter.FilterColorPreferences.initComponents();org.apache.log4j.chainsaw.filter.EventTypeEntryContainer;0;0;0;0;0;0;0;0
+org.apache.log4j.Hierarchy.getLogger(java.lang.String, org.apache.log4j.spi.LoggerFactory);org.apache.log4j.Category;1;3;1;0.9473684210526316;1.0;28;273;357
+org.apache.log4j.nt.NTEventLogAppender.activateOptions();org.apache.log4j.helpers.LogLog;0;4;1;0.7;1.0;11;74;39
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.showLogLevelColorChangeDialog(javax.swing.JMenuItem, org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;1;3;0.9921875;0.9642857142857143;8;1059;133
+org.apache.log4j.lf5.util.LogFileParser.displayError(java.lang.String);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;0;1;1.0;0.991869918699187;3;112;1059
+org.apache.log4j.chainsaw.LogUI.propertyChange(java.beans.PropertyChangeEvent);org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ColorDisplaySelector.loadFilters();org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketAppender.cleanUp();org.apache.log4j.helpers.LogLog;0;3;1;0.875;1.0;15;197;39
+org.apache.log4j.chainsaw.FileSaveAction.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.Layout;0;0;0;0;0;0;0;0
+org.apache.joran.action.LayoutAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.info(java.lang.Object);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.requestOpenURL();org.apache.log4j.lf5.viewer.LogFactor5InputDialog;1;3;2;0.9761904761904762;0.8888888888888888;19;1059;59
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.removeUnusedNodes();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;0;2;1.0;0.9583333333333334;13;169;89
+org.apache.log4j.lf5.util.LogFileParser.createLogRecord(java.lang.String);org.apache.log4j.lf5.LogRecord;7;8;1;0.6923076923076923;0.7666666666666666;15;112;110
+org.apache.log4j.xml.UtilLoggingEntityResolver.resolveEntity(java.lang.String, java.lang.String);org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;18;18;39
+org.apache.log4j.lf5.util.LogMonitorAdapter.log(java.lang.String, java.lang.String, java.lang.String, java.lang.Throwable, org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.LogRecord;3;1;2;0.9230769230769231;0.8636363636363636;14;97;110
+org.apache.log4j.Layout.format(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Category;1;2;1;0.8888888888888888;0.9761904761904762;10;19;357
+org.apache.joran.action.ParamAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createToolBar();org.apache.log4j.lf5.LogRecord;0;9;4;0.9419354838709677;1.0;83;1059;110
+org.apache.log4j.net.SocketReceiver.shutdown();org.apache.log4j.plugins.PluginSkeleton;2;2;2;0.9310344827586207;0.6666666666666667;9;171;15
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.resetConfiguration();org.apache.log4j.lf5.viewer.configure.ConfigurationManager;1;0;1;1.0;0.9615384615384616;3;1059;279
+org.apache.log4j.chainsaw.LogUI.propertyChange(java.beans.PropertyChangeEvent);org.apache.log4j.chainsaw.DockablePanel;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketServer.configureHierarchy(java.net.InetAddress);org.apache.log4j.Priority;0;3;3;0.7857142857142857;1.0;23;84;44
+org.apache.log4j.net.SocketHubReceiver.fireConnector(boolean);org.apache.log4j.helpers.LogLog;0;2;1;0.8947368421052632;1.0;9;110;39
+org.apache.log4j.jmx.AbstractDynamicMBean.postDeregister();org.apache.log4j.Category;1;1;1;1.0;0.9743589743589743;3;50;357
+org.apache.log4j.chainsaw.LogUI.saveSettings(org.apache.log4j.chainsaw.prefs.SaveSettingsEvent);org.apache.log4j.chainsaw.NoReceiversWarningPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyConfigurator.parseCategory(java.lang.String, java.lang.String, java.lang.String, java.util.Properties, org.apache.log4j.Logger);org.apache.log4j.Level;0;1;3;1.0;1.0;37;201;57
+org.apache.log4j.xml.XMLWatchdog.doOnChange();org.apache.log4j.LogManager;0;0;3;1.0;1.0;3;6;37
+org.apache.joran.JoranParser.lookupImplicitAction(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.ImplicitAction;0;0;0;0;0;0;0;0
+org.apache.log4j.Dispatcher.close();org.apache.log4j.helpers.BoundedFIFO;1;1;1;0.8;0.9285714285714286;8;45;64
+org.apache.log4j.rolling.helpers.FileNamePattern.convert(int);org.apache.log4j.rolling.helpers.IntegerTokenConverter;1;1;4;0.9285714285714286;0.8571428571428572;18;131;6
+org.apache.log4j.chainsaw.LogUI.getPanels();org.apache.log4j.chainsaw.DockablePanel;0;0;0;0;0;0;0;0
+org.apache.joran.action.NestComponentIA.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.Dispatcher.run();org.apache.log4j.helpers.BoundedFIFO;3;1;4;0.9;0.8235294117647058;29;45;64
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogTableColumns(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;1;3;1.0;0.9926470588235294;29;279;1059
+org.apache.log4j.chainsaw.ReceiversPanel.createReceiver();org.apache.log4j.plugins.Receiver;0;0;0;0;0;0;0;0
+org.apache.log4j.helpers.SyslogQuietWriter.write(java.lang.String);org.apache.log4j.helpers.QuietWriter;1;2;1;0.5;0.8333333333333334;3;13;28
+org.apache.log4j.chainsaw.LoggerNameTreePanel.createEditLoggerAction();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createShowReceiversAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.joran.JoranParser.loop(org.apache.joran.Pattern, org.w3c.dom.Node);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LoggerNameTreePanel.createCollapseAction();org.apache.log4j.chainsaw.icons.LineIconFactory;0;0;0;0;0;0;0;0
+org.apache.joran.action.RootLoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.selectAllNodes();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;0;4;1.0;0.9583333333333334;10;279;178
+org.apache.log4j.rolling.TimeBasedRollingPolicy.isTriggeringEvent(java.io.File);org.apache.log4j.Category;1;3;3;0.7857142857142857;0.9777777777777777;16;91;357
+org.apache.log4j.net.SocketAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;1;9;2;0.6785714285714286;0.9583333333333334;35;197;91
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.save();org.apache.log4j.lf5.viewer.LogTableColumn;0;9;5;0.8571428571428572;1.0;14;279;41
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createToolbar();org.apache.log4j.chainsaw.FileMenu;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiverTreeCellRenderer.getTreeCellRendererComponent(boolean, boolean, boolean, boolean, int, java.lang.Object, javax.swing.JTree);org.apache.log4j.chainsaw.icons.LevelIconFactory;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.util.AdapterLogRecord.setCategory(java.lang.String);org.apache.log4j.lf5.LogRecord;2;1;1;0.8571428571428572;0.9047619047619048;4;38;110
+org.apache.log4j.rolling.TimeBasedRollingPolicy.isTriggeringEvent(java.io.File);org.apache.log4j.rolling.helpers.FileNamePattern;1;3;3;0.7857142857142857;0.9333333333333333;16;91;131
+org.apache.joran.action.LevelAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.LF5Appender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.lf5.Log4JLogRecord;1;0;6;1.0;0.9166666666666666;33;98;19
+org.apache.log4j.net.SocketReceiver.doShutdown();org.apache.log4j.helpers.LogLog;0;3;2;0.8928571428571429;1.0;7;171;39
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.chainsaw.prefs.LoadSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LoggerNameTreePanel.setFocusOn(java.lang.String);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.FileMenu.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.LayoutDynamicMBean.getMBeanInfo();org.apache.log4j.Category;1;5;1;0.6666666666666667;0.9777777777777777;6;105;357
+org.apache.log4j.net.SMTPAppender.close();org.apache.log4j.AppenderSkeleton;1;0;1;1.0;0.9090909090909091;3;161;91
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processCategories(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.LogBrokerMonitor;0;1;4;1.0;1.0;15;279;1059
+org.apache.log4j.chainsaw.NoReceiversWarningPanel.initComponents();org.apache.log4j.net.SocketAppender;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.saveSettings(org.apache.log4j.chainsaw.prefs.SaveSettingsEvent);org.apache.log4j.chainsaw.prefs.SaveSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.FileAppender.closeFile();org.apache.log4j.helpers.LogLog;0;0;1;1.0;1.0;10;91;39
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.UtilLoggingLevel;0;0;0;0;0;0;0;0
+org.apache.log4j.HTMLLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;0;2;5;0.95;1.0;50;122;19
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createLogRecordFilter();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;2;3;0.984375;0.96;10;1059;178
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.net.TelnetAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;0;2;2;0.875;1.0;13;86;91
+org.apache.log4j.chainsaw.ReceiversPanel.createReceiver();org.apache.log4j.plugins.PluginRegistry;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogTableColumns(java.lang.StringBuffer, java.util.List);org.apache.log4j.lf5.viewer.LogTableColumn;1;1;2;1.0;0.9;10;279;41
+org.apache.log4j.varia.Log4JAvalonLogger.getChildLogger(java.lang.String);org.apache.log4j.Category;1;0;2;1.0;0.9736842105263158;3;51;357
+org.apache.log4j.xml.XMLDecoder.decodeEvents(org.w3c.dom.Document);org.apache.log4j.Category;1;2;4;0.9285714285714286;0.9818181818181818;94;211;357
+org.apache.log4j.pattern.FileLocationPatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LocationInfo;1;1;1;0.8;0.9230769230769231;6;10;115
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogTableColumns(java.lang.StringBuffer, java.util.List);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;1;2;1.0;0.9923076923076923;10;279;1059
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.plugins.PluginRegistry;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.callAppenders(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.ReaderWriterLock;2;2;2;0.9523809523809523;0.8461538461538461;20;357;58
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.plugins.Receiver;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.l7dlog(java.lang.Object[], java.lang.String, java.lang.Throwable, org.apache.log4j.Priority);org.apache.log4j.Priority;2;4;1;0.9302325581395349;0.8181818181818181;16;357;44
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.getValueAt(int, int);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.AsyncAppender.close();org.apache.log4j.helpers.LogLog;0;0;3;1.0;1.0;17;98;39
+org.apache.log4j.rolling.helpers.FileNamePattern.convert(java.util.Date);org.apache.log4j.rolling.helpers.TokenConverter;1;1;4;0.9285714285714286;0.8571428571428572;18;131;15
+org.apache.log4j.chainsaw.LogPanel.saveColumnSettings(java.lang.String, javax.swing.table.TableColumnModel);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.resetAllNodeCounts();org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;1;1;0.9583333333333334;0.9545454545454546;9;178;89
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogLevels(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;1;2;1.0;0.9923664122137404;15;279;1059
+org.apache.log4j.chainsaw.LogPanel.mouseMoved(java.awt.event.MouseEvent);org.apache.log4j.Layout;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketReceiver.run();org.apache.log4j.helpers.LogLog;0;9;3;0.7567567567567568;1.0;48;171;39
+org.apache.log4j.plugins.Receiver.isAsSevereAsThreshold(org.apache.log4j.Level);org.apache.log4j.Priority;1;0;1;1.0;0.8;3;18;44
+org.apache.log4j.jmx.AppenderDynamicMBean.invoke(java.lang.Object[], java.lang.String, java.lang.String[]);org.apache.log4j.helpers.OptionConverter;1;2;1;0.8947368421052632;1.0;13;144;228
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogLevels(org.w3c.dom.Document);org.apache.log4j.lf5.LogLevel;0;1;2;1.0;1.0;15;279;95
+org.apache.joran.action.LoggerAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.NoReceiversWarningPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SyslogAppender.close();org.apache.log4j.AppenderSkeleton;1;0;1;1.0;0.9090909090909091;4;194;91
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.setMaxNumberOfLogRecords(int);org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;0;2;1.0;0.9583333333333334;3;1059;133
+org.apache.log4j.jdbc.JDBCAppender.getLogStatement(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;0;0;2;1.0;1.0;3;114;91
+org.apache.log4j.net.MulticastAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;1;6;3;0.7857142857142857;0.9473684210526316;29;148;19
+org.apache.log4j.performance.NullAppender.doAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;1;1;2;0.8333333333333334;0.8333333333333334;6;18;19
+org.apache.log4j.Category.debug(java.lang.Object, java.lang.Throwable);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogLevelColors(org.w3c.dom.Document);org.apache.log4j.lf5.LogLevel;1;1;1;1.0;1.0;24;279;95
+org.apache.joran.action.AppenderRefAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.DOMConfigurator.parseAppender(org.w3c.dom.Element);org.apache.log4j.Category;1;6;4;0.9;0.9818181818181818;46;490;357
+org.apache.joran.action.AppenderRefAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.helper.Option;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.getDetailPaneConversionPattern();org.apache.log4j.chainsaw.layout.EventDetailLayout;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.helpers.FileNamePattern.convert(java.util.Date);org.apache.log4j.Category;1;1;4;0.9285714285714286;0.9772727272727273;18;131;357
+org.apache.log4j.AsyncAppender.removeAllAppenders();org.apache.log4j.helpers.AppenderAttachableImpl;1;0;1;1.0;0.8888888888888888;5;98;88
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createMenuBar();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.exportXMLElement(java.lang.StringBuffer, javax.swing.tree.TreePath, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.LogBrokerMonitor;0;0;2;1.0;1.0;8;279;1059
+org.apache.log4j.Category.removeAppender(java.lang.String);org.apache.log4j.helpers.ReaderWriterLock;2;0;2;1.0;0.8;9;357;58
+org.apache.log4j.net.UDPAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.AppenderSkeleton;1;8;3;0.7419354838709677;0.962962962962963;32;181;91
+org.apache.log4j.pattern.FormattingInfo.dump();org.apache.log4j.helpers.LogLog;0;3;1;0.4;1.0;3;8;39
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.chainsaw.ReceiversPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.config.PropertySetter.setProperty(java.lang.String, java.lang.String);org.apache.log4j.helpers.LogLog;0;3;2;0.8421052631578947;1.0;16;204;39
+org.apache.log4j.net.MulticastReceiver.activateOptions();org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.Generator.run();org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.warn(java.lang.Object, java.lang.Throwable);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.joran.action.AppenderAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.helper.Option;0;0;0;0;0;0;0;0
+org.apache.log4j.FileAppender.activateOptions();org.apache.log4j.helpers.LogLog;0;5;2;0.75;1.0;15;91;39
+org.apache.log4j.lf5.util.Resource.getURL();org.apache.log4j.lf5.util.ResourceUtils;0;0;1;1.0;1.0;3;27;22
+org.apache.log4j.pattern.PatternParser.finalizeConverter(char);org.apache.log4j.helpers.OptionConverter;1;6;4;0.6666666666666667;1.0;87;244;228
+org.apache.log4j.net.SyslogAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Layout;1;2;3;0.8888888888888888;0.9166666666666666;20;194;19
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.loadSettings(org.apache.log4j.chainsaw.prefs.LoadSettingsEvent);org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.net.UDPAppender.close();org.apache.log4j.AppenderSkeleton;1;1;1;0.9565217391304348;0.9166666666666666;7;181;91
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.selectAllNodes();org.apache.log4j.lf5.viewer.LogBrokerMonitor;0;0;4;1.0;1.0;10;279;1059
+org.apache.log4j.pattern.PatternParser.parse();org.apache.log4j.Layout;0;7;3;0.6956521739130435;1.0;94;244;19
+org.apache.log4j.net.JMSReceiver.onMessage(org.apache.log4j.net.Message);org.apache.log4j.plugins.Receiver;1;1;2;0.9285714285714286;0.8;16;118;18
+org.apache.log4j.chainsaw.LogUI.addWelcomePanel();org.apache.log4j.chainsaw.WelcomePanel;0;0;0;0;0;0;0;0
+org.apache.log4j.varia.Log4JAvalonLogger.isInfoEnabled();org.apache.log4j.Category;1;0;1;1.0;0.9736842105263158;3;51;357
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createResponsivenessSlider();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.pattern.DatePatternConverter.setOption(java.lang.String);org.apache.log4j.Category;1;1;2;0.9;0.9761904761904762;11;28;357
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.scanState();org.apache.log4j.chainsaw.FileMenu;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.prefs.ProfileManager.configure(org.apache.log4j.chainsaw.prefs.Profileable);org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.spi.LoggingEvent.getMDC(java.lang.String);org.apache.log4j.MDC;0;1;1;0.9655172413793104;1.0;10;209;34
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createMenuItem(org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;2;3;0.9846153846153847;0.967741935483871;13;1059;133
+org.apache.log4j.Category.log(java.lang.Object, java.lang.Throwable, org.apache.log4j.Priority);org.apache.log4j.Priority;2;3;1;0.9523809523809523;0.7777777777777778;8;357;44
+org.apache.log4j.net.SocketHubAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;2;1;0.9;1.0;25;152;39
+org.apache.log4j.rolling.TimeBasedRollingPolicy.activateOptions();org.apache.log4j.Category;1;3;6;0.8636363636363636;0.9811320754716981;30;91;357
+org.apache.log4j.HTMLLayout.appendThrowableAsHTML(java.io.Writer, java.lang.String[]);org.apache.log4j.Layout;0;0;2;1.0;1.0;15;122;19
+org.apache.log4j.xml.DOMConfigurator.parsePlugin(org.w3c.dom.Element);org.apache.log4j.helpers.Loader;0;3;2;0.9428571428571428;1.0;26;490;55
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.addLogRecord(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.LogRecord;2;3;2;0.8846153846153846;0.9285714285714286;18;178;110
+org.apache.log4j.net.SocketAppender.fireConnector();org.apache.log4j.helpers.LogLog;0;1;1;0.962962962962963;1.0;9;197;39
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createNoLogLevelsMenuItem();org.apache.log4j.lf5.viewer.LogTable;1;3;2;0.9763779527559056;0.9666666666666667;13;1059;110
+org.apache.log4j.chainsaw.ChainsawCyclicBufferTableModel.isAddRow(boolean, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createLogTableColumnMenuItem(org.apache.log4j.lf5.viewer.LogTableColumn);org.apache.log4j.lf5.viewer.LogTableColumn;1;2;2;0.9844961240310077;0.9;13;1059;41
+org.apache.joran.action.ParamAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.DOMConfigurator.parse(org.w3c.dom.Element);org.apache.log4j.helpers.OptionConverter;1;7;3;0.8;1.0;61;490;228
+org.apache.log4j.net.SocketServer.genericHierarchy();org.apache.log4j.Category;1;2;4;0.7777777777777778;0.9767441860465116;14;84;357
+org.apache.log4j.Category.info(java.lang.Object, java.lang.Throwable);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.chainsaw.layout.EventDetailLayout.getConversionPattern();org.apache.log4j.PatternLayout;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.util.LogFileParser.parsePriority(java.lang.String);org.apache.log4j.lf5.LogLevel;0;1;1;0.9411764705882353;1.0;12;112;95
+org.apache.log4j.chainsaw.ColorDisplaySelector.applyDisplayFilters(java.lang.String);org.apache.log4j.chainsaw.DisplayFilter;0;0;0;0;0;0;0;0
+org.apache.log4j.varia.FallbackErrorHandler.error(int, java.lang.Exception, java.lang.String, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;3;2;0.8125;1.0;12;36;39
+org.apache.log4j.Hierarchy.resetConfiguration();org.apache.log4j.or.RendererMap;1;6;3;0.85;0.9473684210526316;21;273;63
+org.apache.log4j.lf5.LF5Appender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;2;0;6;1.0;0.9459459459459459;33;98;209
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createChangeModelAction();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.addTableModelProperties();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;3;2;0.976;0.962962962962963;15;1059;133
+org.apache.log4j.net.SocketReceiver.run();org.apache.log4j.plugins.PluginSkeleton;2;9;3;0.7567567567567568;0.9047619047619048;48;171;15
+org.apache.log4j.xml.DOMConfigurator.parseRenderer(org.w3c.dom.Element);org.apache.log4j.or.RendererMap;1;2;1;0.9285714285714286;1.0;7;490;63
+org.apache.log4j.chainsaw.LogUI.showHelp(java.net.URL);org.apache.log4j.chainsaw.WelcomePanel;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createCloseHelpAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanel.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.spi.LoggingEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.LF5Appender.setCallSystemExitOnClose(boolean);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;0;1;1.0;0.991869918699187;3;98;1059
+org.apache.log4j.Category.warn(java.lang.Object);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.log4j.chainsaw.LogPanel.updateOtherModels(org.apache.log4j.chainsaw.ChainsawEventBatchEntry);org.apache.log4j.chainsaw.ChainsawEventBatchEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createMenuBar();org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SocketHubReceiver.run();org.apache.log4j.helpers.LogLog;0;6;1;0.625;1.0;26;110;39
+org.apache.log4j.varia.Log4JAvalonLogger.warn(java.lang.String, java.lang.Throwable);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.log4j.chainsaw.ChainsawAppender.activateOptions();org.apache.log4j.helpers.OptionConverter;1;1;1;0.9444444444444444;1.0;9;76;228
+org.apache.log4j.HTMLLayout.format(java.io.Writer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.Transform;1;2;5;0.95;1.0;50;122;42
+org.apache.joran.action.LoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyConfigurator.configureRootCategory(java.util.Properties, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.helpers.LogLog;0;1;1;1.0;1.0;17;201;39
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.scanState();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.initGUI();org.apache.log4j.chainsaw.ChainsawToolBarAndMenus;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createChangeModelAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.selectRow(int);org.apache.log4j.lf5.viewer.LF5SwingUtils;1;3;1;0.9761904761904762;1.0;8;1059;58
+org.apache.log4j.rolling.TimeBasedRollingPolicy.activateOptions();org.apache.log4j.rolling.RollingPolicySkeleton;1;3;6;0.8636363636363636;0.9444444444444444;30;91;28
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createShowPreferencesAction();org.apache.log4j.chainsaw.LogPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyWatchdog.doOnChange();org.apache.log4j.LogManager;0;0;3;1.0;1.0;3;6;37
+org.apache.log4j.net.SocketHubAppender.stopMonitor();org.apache.log4j.helpers.LogLog;0;2;1;0.8666666666666667;1.0;13;152;39
+org.apache.log4j.Category.getAppender(java.lang.String);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;2;1.0;0.9090909090909091;9;357;88
+org.apache.log4j.rolling.SlidingWindowRollingPolicy.rollover();org.apache.log4j.rolling.helpers.FileNamePattern;1;3;4;0.7;0.9285714285714286;21;72;131
+org.apache.log4j.varia.Log4JAvalonLogger.fatalError(java.lang.String);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.joran.action.AppenderRefAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.ActionConst;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.Level;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogPanelLoggerTreeModel.addLoggerNameInDispatchThread(java.lang.String);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createEditSortNDCMI();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;5;2;0.9612403100775194;0.9696969696969697;15;1059;133
+org.apache.joran.action.RootLoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.test.SysoutConfigurator.doConfigure(java.net.URL, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.ConsoleAppender;0;0;2;1.0;1.0;3;3;46
+org.apache.log4j.chainsaw.LogUI.showNoReceiversWarningPanel();org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.info(java.lang.Object);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.xml.DOMConfigurator.parseErrorHandler(org.apache.log4j.Appender, org.w3c.dom.Element);org.apache.log4j.helpers.OptionConverter;1;4;2;0.9285714285714286;1.0;33;490;228
+org.apache.joran.action.NestComponentIA.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.config.PropertySetter;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.sortByNDC();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;2;2;0.9841269841269842;0.962962962962963;7;1059;133
+org.apache.log4j.AsyncAppender.getAppender(java.lang.String);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;1;1.0;0.8888888888888888;5;98;88
+org.apache.log4j.net.SocketReceiver.shutdown();org.apache.log4j.helpers.LogLog;0;2;2;0.9310344827586207;1.0;9;171;39
+org.apache.log4j.net.XMLSocketReceiver.run();org.apache.log4j.plugins.PluginSkeleton;1;5;2;0.6428571428571428;0.9166666666666666;34;93;15
+org.apache.log4j.lf5.viewer.LogTable.clearLogRecords();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;1;1;0.96;0.9583333333333334;3;110;133
+org.apache.log4j.rolling.SlidingWindowRollingPolicy.rollover();org.apache.log4j.rolling.helpers.Util;0;3;4;0.7;1.0;21;72;11
+org.apache.log4j.chainsaw.LogUI.receiveEventBatch(java.lang.String, java.util.List);org.apache.log4j.chainsaw.ChainsawEventBatchEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.getRecordsDisplayedMessage();org.apache.log4j.lf5.viewer.FilteredLogTableModel;2;1;2;0.9920634920634921;0.92;4;1059;133
+org.apache.log4j.chainsaw.prefs.SettingsManager.saveSettings();org.apache.log4j.chainsaw.prefs.SaveSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.Level;0;0;0;0;0;0;0;0
+org.apache.log4j.PropertyConfigurator.parseAppender(java.lang.String, java.util.Properties);org.apache.log4j.config.PropertySetter;1;2;3;0.8823529411764706;1.0;30;201;204
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.isCategoryPathActive(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath;2;0;3;1.0;0.875;28;178;56
+org.apache.log4j.Category.fatal(java.lang.Object);org.apache.log4j.Priority;1;3;2;0.9512195121951219;0.8888888888888888;8;357;44
+org.apache.log4j.HTMLLayout.getFooter();org.apache.log4j.Layout;0;0;1;1.0;1.0;7;122;19
+org.apache.log4j.chainsaw.LogPanel.undock();org.apache.log4j.chainsaw.icons.ChainsawIcons;0;0;0;0;0;0;0;0
+org.apache.log4j.varia.LevelRangeFilter.decide(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Priority;1;1;2;0.6666666666666667;0.8333333333333334;18;36;44
+org.apache.log4j.chainsaw.FileLoadAction.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.DisplayFilter.isDisplayed(java.util.Vector);org.apache.log4j.chainsaw.DisplayFilterEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.DailyRollingFileAppender.rollOver();org.apache.log4j.helpers.LogLog;0;4;2;0.7333333333333334;1.0;30;71;39
+org.apache.log4j.varia.Log4JAvalonLogger.warn(java.lang.String);org.apache.log4j.Level;0;0;1;1.0;1.0;3;51;57
+org.apache.log4j.net.MulticastAppender.close();org.apache.log4j.AppenderSkeleton;1;1;1;0.95;0.9166666666666666;7;148;91
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.findSearchText();org.apache.log4j.lf5.viewer.FilteredLogTableModel;1;4;2;0.9682539682539683;0.9655172413793104;9;1059;133
+org.apache.log4j.chainsaw.LogUI.shutdown();org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogTableRowRenderer.getTableCellRendererComponent(boolean, boolean, int, int, java.lang.Object, javax.swing.JTable);org.apache.log4j.lf5.LogRecord;1;2;2;0.8181818181818181;0.9642857142857143;12;15;110
+org.apache.joran.action.LoggerAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.net.SyslogAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.SyslogQuietWriter;2;2;3;0.8888888888888888;0.7777777777777778;20;194;13
+org.apache.log4j.pattern.FullLocationPatternConverter.convert(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LocationInfo;1;1;1;0.8;0.9230769230769231;6;10;115
+org.apache.log4j.AsyncAppender.addAppender(org.apache.log4j.Appender);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;1;1.0;0.8888888888888888;5;98;88
+org.apache.joran.action.AppenderAction.end(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.mousePressed(java.awt.event.MouseEvent);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryAbstractCellEditor;1;1;1;1.0;0.9473684210526316;6;169;69
+org.apache.log4j.xml.DOMConfigurator.parseAppender(org.w3c.dom.Element);org.apache.log4j.helpers.Loader;0;6;4;0.9;1.0;46;490;55
+org.apache.log4j.Dispatcher.run();org.apache.log4j.AsyncAppender;0;1;4;0.9;1.0;29;45;98
+org.apache.log4j.chainsaw.LogPanel.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.chainsaw.RuleMediator;0;0;0;0;0;0;0;0
+org.apache.log4j.net.JMSAppender.close();org.apache.log4j.helpers.LogLog;0;3;2;0.8571428571428572;1.0;15;178;39
+org.apache.log4j.varia.Log4JAvalonLogger.isFatalErrorEnabled();org.apache.log4j.Level;0;0;2;1.0;1.0;3;51;57
+org.apache.log4j.chainsaw.LoggerNameTreePanel.setFocusOn(java.lang.String);org.apache.log4j.chainsaw.LogPanelLoggerTreeModel;0;0;0;0;0;0;0;0
+org.apache.log4j.jdbc.JDBCAppender.setSql(java.lang.String);org.apache.log4j.AppenderSkeleton;0;1;2;0.9523809523809523;1.0;9;114;91
+org.apache.log4j.chainsaw.LogUI.toggleReceiversPanel();org.apache.log4j.chainsaw.ChainsawToolBarAndMenus;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawEventBatchEntry.getEventVector();org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.shutdown();org.apache.log4j.chainsaw.ProgressPanel;0;0;0;0;0;0;0;0
+org.apache.log4j.net.UDPReceiver.run();org.apache.log4j.plugins.PluginSkeleton;2;4;2;0.7894736842105263;0.8333333333333334;18;75;15
+org.apache.joran.JoranParser.callBeginAction(java.util.List, org.w3c.dom.Node);org.apache.joran.action.Action;0;0;0;0;0;0;0;0
+org.apache.log4j.xml.DOMConfigurator.parsePlugin(org.w3c.dom.Element);org.apache.log4j.helpers.LogLog;0;3;2;0.9428571428571428;1.0;26;490;39
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createMenuItem(org.apache.log4j.lf5.LogLevel);org.apache.log4j.lf5.LogLevel;1;2;3;0.9846153846153847;0.9285714285714286;13;1059;95
+org.apache.log4j.AsyncAppender.append(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;2;3;0.9;1.0;28;98;39
+org.apache.log4j.jmx.LayoutDynamicMBean.setAttribute(javax.management.Attribute);org.apache.log4j.Category;1;3;2;0.8571428571428572;0.9795918367346939;28;105;357
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.isCategoryPathActive(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryPath);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryElement;1;0;3;1.0;0.9166666666666666;28;178;12
+org.apache.log4j.pattern.PatternParser.finalizeConverter(char);org.apache.log4j.helpers.AbsoluteTimeDateFormat;0;6;4;0.6666666666666667;1.0;87;244;44
+org.apache.log4j.chainsaw.RuleMediator.setRefinementRule(org.apache.log4j.chainsaw.rule.Rule);org.apache.log4j.chainsaw.rule.AbstractRule;0;0;0;0;0;0;0;0
+org.apache.joran.action.NestComponentIA.isApplicable(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.config.PropertySetter;0;0;0;0;0;0;0;0
+org.apache.joran.action.AppenderAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.helpers.OptionConverter;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.Log4JLogRecord.isSevereLevel();org.apache.log4j.lf5.LogRecord;1;0;2;1.0;0.9523809523809523;7;19;110
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.requestOpenMRU(java.awt.event.ActionEvent);org.apache.log4j.lf5.viewer.configure.MRUFileManager;2;2;2;0.9847328244274809;0.9166666666666666;17;1059;133
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.plugins.PluginRegistry;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.Generator.run();org.apache.log4j.MDC;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createResetLogLevelColorMenuItem();org.apache.log4j.lf5.LogLevel;0;1;3;0.9921259842519685;1.0;12;1059;95
+org.apache.log4j.chainsaw.TableColorizingRenderer.getTableCellRendererComponent(boolean, boolean, int, int, java.lang.Object, javax.swing.JTable);org.apache.log4j.chainsaw.ChainsawColumns;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.exit();org.apache.log4j.chainsaw.prefs.SettingsManager;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.chainsaw.ChainsawConstants;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createShowPreferencesAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.ReceiversPanel.createReceiver();org.apache.log4j.chainsaw.ChainsawStatusBar;0;0;0;0;0;0;0;0
+org.apache.log4j.helpers.OnlyOnceErrorHandler.error(int, java.lang.Exception, java.lang.String, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.LogLog;0;1;1;0.9;1.0;6;23;39
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.saveSettings(org.apache.log4j.chainsaw.prefs.SaveSettingsEvent);org.apache.log4j.chainsaw.prefs.SaveSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.net.XMLSocketReceiver.run();org.apache.log4j.helpers.LogLog;0;5;2;0.6428571428571428;1.0;34;93;39
+org.apache.log4j.chainsaw.DisplayFilter.getEntriesByColumn(java.lang.String);org.apache.log4j.chainsaw.DisplayFilterEntry;0;0;0;0;0;0;0;0
+org.apache.log4j.WriterAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.helpers.QuietWriter;2;1;3;0.9473684210526316;0.7142857142857143;16;135;28
+org.apache.log4j.pattern.DatePatternConverter.setOption(java.lang.String);org.apache.log4j.pattern.PatternConverter;1;1;2;0.9;0.9;11;28;50
+org.apache.joran.action.NestComponentIA.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.Category;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.addAppender(org.apache.log4j.Appender);org.apache.log4j.helpers.ReaderWriterLock;2;1;2;0.9761904761904762;0.8333333333333334;9;357;58
+org.apache.log4j.varia.LevelMatchFilter.getLevelToMatch();org.apache.log4j.Priority;1;0;1;1.0;0.8;3;28;44
+org.apache.log4j.chainsaw.LogUI.activateViewer();org.apache.log4j.chainsaw.prefs.LoadSettingsEvent;0;0;0;0;0;0;0;0
+org.apache.log4j.rolling.RollingFileAppender.subAppend(org.apache.log4j.spi.LoggingEvent);org.apache.log4j.Category;1;3;2;0.7272727272727273;0.9767441860465116;7;59;357
+org.apache.log4j.RollingFileAppender.rollOver();org.apache.log4j.helpers.CountingQuietWriter;1;2;3;0.9230769230769231;0.875;31;71;18
+org.apache.log4j.varia.Log4JAvalonLogger.isFatalErrorEnabled();org.apache.log4j.Category;1;0;2;1.0;0.9736842105263158;3;51;357
+org.apache.log4j.PropertyConfigurator.configureLoggerFactory(java.util.Properties);org.apache.log4j.helpers.OptionConverter;1;1;3;0.9333333333333333;1.0;8;201;228
+org.apache.log4j.xml.UtilLoggingXMLDecoder.decodeEvents(org.w3c.dom.Document);org.apache.log4j.Logger;0;2;3;0.9259259259259259;1.0;82;207;15
+org.apache.joran.action.ParamAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.log4j.config.PropertySetter;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processRecordFilter(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.LogBrokerMonitor;1;1;1;1.0;0.9921875;13;279;1059
+org.apache.log4j.DailyRollingFileAppender.activateOptions();org.apache.log4j.rolling.helpers.RollingCalendar;3;4;4;0.7777777777777778;0.8235294117647058;14;71;117
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.createClearAction();org.apache.log4j.chainsaw.LogUI;0;0;0;0;0;0;0;0
+org.apache.log4j.jmx.LoggerDynamicMBean.getAttribute(java.lang.String);org.apache.log4j.Priority;1;1;2;0.95;0.9;26;116;44
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.passes(org.apache.log4j.lf5.LogRecord);org.apache.log4j.lf5.LogRecord;3;2;3;0.9847328244274809;0.8888888888888888;13;1059;110
+org.apache.log4j.PropertyConfigurator.parseAdditivityForLogger(java.lang.String, java.util.Properties, org.apache.log4j.Logger);org.apache.log4j.Category;1;0;3;1.0;0.975;9;201;357
+org.apache.log4j.chainsaw.LogPanel.saveColumnSettings(java.lang.String, javax.swing.table.TableColumnModel);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.getDateFormatManager();org.apache.log4j.lf5.viewer.LogTable;0;0;1;1.0;1.0;3;1059;110
+org.apache.log4j.helpers.DateTimeDateFormat.format(java.lang.StringBuffer, java.text.FieldPosition, java.util.Date);org.apache.log4j.helpers.AbsoluteTimeDateFormat;1;1;1;0.9230769230769231;1.0;13;24;44
+org.apache.log4j.chainsaw.ReceiversPanel.createReceiver();org.apache.log4j.Level;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.LogUI.applyLookAndFeel(java.lang.String);org.apache.log4j.helpers.LogLog;0;0;0;0;0;0;0;0
+org.apache.log4j.chainsaw.FileSaveAction.actionPerformed(java.awt.event.ActionEvent);org.apache.log4j.xml.XMLLayout;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.removeAllAppenders();org.apache.log4j.helpers.ReaderWriterLock;2;0;2;1.0;0.8;8;357;58
+org.apache.log4j.chainsaw.MyTableModel.matchFilter(org.apache.log4j.chainsaw.EventDetails);org.apache.log4j.Priority;1;6;2;0.8536585365853658;0.9473684210526316;12;201;44
+org.apache.log4j.lf5.viewer.LogBrokerMonitor.createEditSortNDCMI();org.apache.log4j.lf5.viewer.LogTable;1;5;2;0.9612403100775194;0.9705882352941176;15;1059;110
+org.apache.log4j.pattern.PatternParser.addToList(org.apache.log4j.pattern.PatternConverter);org.apache.log4j.pattern.PatternConverter;0;0;1;1.0;1.0;9;244;50
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditorRenderer.getTreeCellRendererComponent(boolean, boolean, boolean, boolean, int, java.lang.Object, javax.swing.JTree);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer;1;0;1;1.0;1.0;4;7;48
+org.apache.joran.action.LoggerAction.begin(org.apache.joran.ExecutionContext, org.w3c.dom.Element);org.apache.joran.ExecutionContext;0;0;0;0;0;0;0;0
+org.apache.log4j.WriterAppender.writeFooter();org.apache.log4j.AppenderSkeleton;0;0;2;1.0;1.0;9;135;91
+org.apache.log4j.RollingFileAppender.setFile(boolean, boolean, int, java.lang.String);org.apache.log4j.helpers.CountingQuietWriter;1;0;2;1.0;0.75;7;71;18
+org.apache.log4j.AsyncAppender.getBufferSize();org.apache.log4j.helpers.BoundedFIFO;1;0;1;1.0;0.9166666666666666;3;98;64
+org.apache.log4j.test.SysoutConfigurator.doConfigure(java.net.URL, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.Category;1;0;2;1.0;0.9736842105263158;3;3;357
+org.apache.log4j.Category.isAttached(org.apache.log4j.Appender);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;2;1.0;0.9090909090909091;12;357;88
+org.apache.log4j.AsyncAppender.close();org.apache.log4j.AppenderSkeleton;1;0;3;1.0;0.9230769230769231;17;98;91
+org.apache.log4j.xml.DOMConfigurator.parseLevel(boolean, org.apache.log4j.Logger, org.w3c.dom.Element);org.apache.log4j.helpers.Loader;0;1;4;0.9705882352941176;1.0;36;490;55
+org.apache.log4j.jmx.LayoutDynamicMBean.getAttribute(java.lang.String);org.apache.log4j.jmx.MethodUnion;1;2;2;0.875;0.8571428571428572;16;105;4
+org.apache.log4j.helpers.DateLayout.dateFormat(java.lang.StringBuffer, org.apache.log4j.spi.LoggingEvent);org.apache.log4j.spi.LoggingEvent;1;3;1;0.7857142857142857;0.9705882352941176;7;57;209
+org.apache.log4j.jdbc.JDBCAppender.setSql(java.lang.String);org.apache.log4j.PatternLayout;1;1;2;0.9523809523809523;1.0;9;114;29
+org.apache.log4j.Category.fatal(java.lang.Object, java.lang.Throwable);org.apache.log4j.Level;0;3;2;0.9512195121951219;1.0;8;357;57
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.setDescendantSelection(boolean, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;2;1;1;0.96;0.9090909090909091;12;178;89
+org.apache.log4j.PropertyConfigurator.configureLoggerFactory(java.util.Properties);org.apache.log4j.config.PropertySetter;1;1;3;0.9333333333333333;1.0;8;201;204
+org.apache.log4j.jmx.HierarchyDynamicMBean.addLoggerMBean(org.apache.log4j.Logger);org.apache.log4j.Category;3;2;2;0.9310344827586207;0.9333333333333333;18;122;357
+org.apache.log4j.lf5.viewer.configure.ConfigurationManager.processLogTableColumns(org.w3c.dom.Document);org.apache.log4j.lf5.viewer.LogTableColumn;0;1;3;1.0;1.0;29;279;41
+org.apache.log4j.Hierarchy.addLoggerRepositoryEventListener(org.apache.log4j.spi.LoggerRepositoryEventListener);org.apache.log4j.helpers.LogLog;0;1;1;0.9714285714285714;1.0;10;273;39
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel.update(boolean, org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode;1;2;1;1.0;0.9473684210526316;11;178;89
+org.apache.log4j.chainsaw.ChainsawToolBarAndMenus.stateChanged(javax.swing.event.ChangeEvent);org.apache.log4j.chainsaw.ChainsawAppenderHandler;0;0;0;0;0;0;0;0
+org.apache.log4j.Category.removeAppender(org.apache.log4j.Appender);org.apache.log4j.helpers.AppenderAttachableImpl;1;0;2;1.0;0.9090909090909091;9;357;88
+org.apache.log4j.PropertyConfigurator.doConfigure(java.net.URL, org.apache.log4j.spi.LoggerRepository);org.apache.log4j.helpers.LogLog;0;1;1;0.9333333333333333;1.0;13;201;39
+org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.createUnselectDescendantsMenuItem(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel;1;1;1;0.9565217391304348;1.0;10;169;178

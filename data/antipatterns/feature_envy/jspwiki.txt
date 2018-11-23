@@ -1,0 +1,11 @@
+com.ecyrd.jspwiki.auth.authorize.GroupManager.parseGroup(boolean, wikicontext);com.ecyrd.jspwiki.WikiContext
+com.ecyrd.jspwiki.rss.RSSGenerator.getEntryTitle(wikipage);com.ecyrd.jspwiki.WikiPage
+com.ecyrd.jspwiki.plugin.ListLocksPlugin.execute(map, wikicontext);com.ecyrd.jspwiki.PageLock
+com.ecyrd.jspwiki.plugin.Search.renderResults(collection, int, wikicontext);com.ecyrd.jspwiki.WikiContext
+com.ecyrd.jspwiki.plugin.WeblogPlugin.addEntryHTML(boolean, dateformat, stringbuffer, wikicontext, wikipage);com.ecyrd.jspwiki.WikiPage
+com.ecyrd.jspwiki.url.ShortURLConstructor.makeURL(boolean, string, string);com.ecyrd.jspwiki.WikiContext
+com.ecyrd.jspwiki.workflow.DecisionQueue.getActorDecisions(wikisession);com.ecyrd.jspwiki.WikiSession
+com.ecyrd.jspwiki.WikiEngine.pageExists(wikipage);com.ecyrd.jspwiki.WikiPage
+com.ecyrd.jspwiki.xmlrpc.RPCHandler.encodeWikiPage(wikipage);com.ecyrd.jspwiki.WikiPage
+com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.encodeWikiPage(wikipage);com.ecyrd.jspwiki.WikiPage
+com.ecyrd.jspwiki.htmltowiki.XHtmlElementToWikiTranslator.trimLink(string);com.ecyrd.jspwiki.htmltowiki.XHtmlToWikiConfig

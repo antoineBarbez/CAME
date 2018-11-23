@@ -241,10 +241,10 @@ org.apache.tools.ant.XmlLogger.messageLogged(org.apache.tools.ant.BuildEvent);or
 org.apache.tools.ant.taskdefs.optional.ssh.ScpToMessageBySftp.execute();org.apache.tools.ant.taskdefs.optional.ssh.AbstractSshMessage;1;4;1;0.6;0.9545454545454546;9;119;109
 org.apache.tools.ant.taskdefs.optional.ccm.CCMCreateTask.execute();org.apache.tools.ant.types.Commandline;5;2;5;0.9130434782608696;0.8571428571428572;22;120;273
 org.apache.tools.ant.types.selectors.SelectSelector.selectorCount();org.apache.tools.ant.types.selectors.BaseSelectorContainer;1;2;2;0.8571428571428572;0.9666666666666667;6;87;103
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.Ant.handleOutput(java.lang.String);org.apache.tools.ant.Task;1;0;2;1.0;0.9545454545454546;8;360;166
 org.apache.tools.ant.taskdefs.Expand.extractFile(boolean, java.io.File, java.io.File, java.io.InputStream, java.lang.String, java.util.Date, org.apache.tools.ant.util.FileNameMapper, org.apache.tools.ant.util.FileUtils);org.apache.tools.ant.types.PatternSet;2;2;6;0.9523809523809523;0.9636363636363636;82;185;255
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.Project;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.Project;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.Tar.tar(org.apache.tools.ant.types.ResourceCollection, org.apache.tools.tar.TarOutputStream);org.apache.tools.ant.ProjectComponent;0;3;5;0.9807692307692307;1.0;37;427;21
 org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool.writeJar(java.io.File, java.lang.String, java.lang.String, java.util.Hashtable);org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool;3;5;2;0.8717948717948718;0.975;16;392;426
 org.apache.tools.ant.types.resources.ZipResource.getOutputStream();org.apache.tools.ant.types.DataType;2;0;2;1.0;0.8947368421052632;6;109;105
@@ -1017,7 +1017,7 @@ org.apache.tools.ant.taskdefs.optional.scm.AntStarTeamCheckOut.execute();org.apa
 org.apache.tools.ant.taskdefs.MatchingTask.setCaseSensitive(boolean);org.apache.tools.ant.types.AbstractFileSet;1;0;1;1.0;0.9841269841269842;3;143;365
 org.apache.tools.ant.types.selectors.DependSelector.selectionTest(java.io.File, java.io.File);org.apache.tools.ant.types.selectors.SelectorUtils;1;0;2;1.0;1.0;4;27;382
 org.apache.tools.ant.taskdefs.Ear.zipFile(int, java.io.File, java.lang.String, org.apache.tools.zip.ZipOutputStream);org.apache.tools.ant.Project;0;2;4;0.8461538461538461;1.0;14;46;748
-org.apache.tools.ant.util.ScriptRunner.setSrc(java.io.File);org.apache.tools.ant.util.FileUtils;0;0;0;0;0
+org.apache.tools.ant.util.ScriptRunner.setSrc(java.io.File);org.apache.tools.ant.util.FileUtils;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.Pack.execute();org.apache.tools.ant.Task;1;3;2;0.8947368421052632;0.9655172413793104;14;79;166
 org.apache.tools.ant.taskdefs.optional.perforce.P4Counter.execute();org.apache.tools.ant.ProjectComponent;0;6;4;0.6;1.0;35;56;21
 org.apache.tools.ant.taskdefs.optional.extension.JarLibResolveTask.missingExtension();org.apache.tools.ant.ProjectComponent;0;1;2;0.9285714285714286;1.0;7;109;21
@@ -1037,7 +1037,7 @@ org.apache.tools.ant.taskdefs.Java.setMaxmemory(java.lang.String);org.apache.too
 org.apache.tools.ant.Project.copyFile(boolean, boolean, boolean, java.io.File, java.io.File);org.apache.tools.ant.util.FileUtils;1;0;1;1.0;1.0;3;748;437
 org.apache.tools.ant.taskdefs.optional.jsp.compilers.JasperC.execute();org.apache.tools.ant.Project;2;2;7;0.9047619047619048;0.9917355371900827;37;96;748
 org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool.isRebuildRequired(java.io.File, java.io.File);org.apache.tools.ant.Project;0;1;3;0.9859154929577465;1.0;139;392;748
-org.apache.tools.ant.taskdefs.optional.TraXLiaison.resourceToURI(org.apache.tools.ant.types.Resource);org.apache.tools.ant.util.FileUtils;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.TraXLiaison.resourceToURI(org.apache.tools.ant.types.Resource);org.apache.tools.ant.util.FileUtils;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.optional.splash.SplashTask.logHeadless(java.lang.Throwable);org.apache.tools.ant.Task;1;0;2;1.0;1.0;3;127;166
 org.apache.tools.ant.types.resources.URLResource.getName();org.apache.tools.ant.types.Resource;1;1;2;0.9565217391304348;0.9722222222222222;3;161;169
 org.apache.tools.ant.types.TarFileSet.getGroup();org.apache.tools.ant.types.DataType;2;2;1;0.9130434782608696;0.9;6;109;105
@@ -1067,7 +1067,7 @@ org.apache.tools.ant.taskdefs.cvslib.RedirectingOutputStream.processLine(java.la
 org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.setCmpversion(org.apache.tools.ant.taskdefs.optional.ejb.EjbJar.CMPVersion);org.apache.tools.ant.types.EnumeratedAttribute;1;1;1;0.975;0.8571428571428572;3;168;34
 org.apache.tools.ant.taskdefs.optional.depend.constantpool.LongCPInfo.read(java.io.DataInputStream);org.apache.tools.ant.taskdefs.optional.depend.constantpool.ConstantCPInfo;1;0;1;1.0;0.5;3;9;9
 org.apache.tools.ant.taskdefs.Javadoc.execute();org.apache.tools.ant.taskdefs.Execute;3;38;13;0.7888888888888889;0.972972972972973;363;1038;403
-org.apache.tools.ant.taskdefs.optional.TraXLiaison.resourceToURI(org.apache.tools.ant.types.Resource);org.apache.tools.ant.types.resources.URLResource;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.TraXLiaison.resourceToURI(org.apache.tools.ant.types.Resource);org.apache.tools.ant.types.resources.URLResource;0;0;0;0;0;0;0;0
 org.apache.tools.ant.types.optional.image.Scale.setProportions(org.apache.tools.ant.types.optional.image.Scale.ProportionsAttribute);org.apache.tools.ant.types.EnumeratedAttribute;1;1;1;0.9230769230769231;0.8571428571428572;3;93;34
 org.apache.tools.ant.taskdefs.optional.net.FTP.checkRemoteSensitivity(java.lang.String, org.apache.tools.ant.taskdefs.optional.net.FTPFile[]);org.apache.tools.ant.ProjectComponent;0;4;3;0.9636363636363636;1.0;43;1224;21
 org.apache.tools.ant.taskdefs.Javadoc.addArgIf(boolean, java.lang.String);org.apache.tools.ant.types.Commandline;2;0;1;1.0;0.9285714285714286;5;1038;273
@@ -1118,7 +1118,7 @@ org.apache.tools.ant.taskdefs.optional.vss.MSVSSCHECKOUT.buildCmdLine();org.apac
 org.apache.tools.ant.types.CommandlineJava.setJar(java.lang.String);org.apache.tools.ant.types.Commandline;1;1;1;0.975609756097561;0.9655172413793104;4;282;273
 org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool.usingBaseJarName();org.apache.tools.ant.taskdefs.optional.ejb.EjbJar;1;1;1;0.96875;0.975;3;426;168
 org.apache.tools.ant.taskdefs.optional.javacc.JavaCC.execute();org.apache.tools.ant.Project;0;6;7;0.9;1.0;33;206;748
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.getStylesheet();org.apache.tools.ant.types.resources.URLResource;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.getStylesheet();org.apache.tools.ant.types.resources.URLResource;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.condition.IsReference.eval();org.apache.tools.ant.ProjectComponent;0;1;3;0.8888888888888888;1.0;22;28;21
 org.apache.tools.ant.listener.CommonsLoggingListener.targetFinished(org.apache.tools.ant.BuildEvent);org.apache.tools.ant.Target;1;3;3;0.8888888888888888;0.9655172413793104;12;186;171
 org.apache.tools.ant.taskdefs.Jar.getResourcesToAdd(boolean, java.io.File, org.apache.tools.ant.types.ResourceCollection[]);org.apache.tools.ant.Project;0;3;4;0.925;1.0;27;465;748
@@ -1812,7 +1812,7 @@ org.apache.tools.ant.taskdefs.Touch.touch(java.io.File, long);org.apache.tools.a
 org.apache.tools.ant.types.XMLCatalog.filesystemLookup(org.apache.tools.ant.types.ResourceLocation);org.apache.tools.ant.types.ResourceLocation;2;0;5;1.0;0.875;54;386;18
 org.apache.tools.ant.taskdefs.optional.dotnet.ImportTypelib.execute();org.apache.tools.ant.Task;1;8;3;0.4666666666666667;1.0;21;72;166
 org.apache.tools.ant.taskdefs.Delete.addNot(org.apache.tools.ant.types.selectors.NotSelector);org.apache.tools.ant.taskdefs.MatchingTask;1;1;1;0.9821428571428571;0.975609756097561;4;346;143
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.taskdefs.TempFile;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.taskdefs.TempFile;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.optional.starteam.StarTeamCheckout.logOperationDescription(java.io.File, org.apache.tools.ant.taskdefs.optional.starteam.Folder);org.apache.tools.ant.Task;1;5;2;0.8333333333333334;0.9705882352941176;24;274;166
 org.apache.tools.ant.types.resources.ArchiveResource.addConfigured(org.apache.tools.ant.types.ResourceCollection);org.apache.tools.ant.types.DataType;1;0;1;1.0;0.9523809523809523;10;119;105
 org.apache.tools.ant.types.resources.StringResource.getSize();org.apache.tools.ant.types.DataType;2;1;2;0.9375;0.9047619047619048;3;77;105
@@ -1923,7 +1923,7 @@ org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool.writeJar(java.
 org.apache.tools.ant.taskdefs.Parallel.processExceptions(org.apache.tools.ant.taskdefs.Parallel.TaskRunnable[]);org.apache.tools.ant.util.StringUtils;0;4;3;0.8461538461538461;1.0;19;197;51
 org.apache.tools.ant.UnknownElement.handleChild(java.lang.Object, java.lang.String, org.apache.tools.ant.IntrospectionHelper, org.apache.tools.ant.RuntimeConfigurable, org.apache.tools.ant.UnknownElement);org.apache.tools.ant.Task;2;4;6;0.8918918918918919;0.9393939393939394;25;276;166
 org.apache.tools.ant.taskdefs.optional.ejb.BorlandGenerateClient.executeJava();org.apache.tools.ant.taskdefs.optional.ejb.BorlandDeploymentTool;0;4;6;0.84;1.0;30;144;254
-org.apache.tools.ant.types.resources.PropertyResource.toString();org.apache.tools.ant.types.DataType;0;0;0;0;0
+org.apache.tools.ant.types.resources.PropertyResource.toString();org.apache.tools.ant.types.DataType;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.optional.vss.MSVSSGET.buildCmdLine();org.apache.tools.ant.types.Commandline;3;0;3;1.0;0.925;19;49;273
 org.apache.tools.ant.types.resources.ArchiveResource.setArchive(java.io.File);org.apache.tools.ant.types.DataType;1;0;1;1.0;0.9444444444444444;4;119;105
 org.apache.tools.ant.taskdefs.PathConvert.getPath();org.apache.tools.ant.ProjectComponent;0;0;1;1.0;1.0;7;177;21
@@ -2330,7 +2330,7 @@ org.apache.tools.ant.taskdefs.optional.ejb.Ejbc.execute();org.apache.tools.ant.u
 org.apache.tools.ant.taskdefs.optional.junit.JUnitTask.deleteClassLoader();org.apache.tools.ant.AntClassLoader;1;0;1;1.0;0.9830508474576272;6;758;636
 org.apache.tools.ant.types.resources.JavaResource.setClasspathRef(org.apache.tools.ant.types.Reference);org.apache.tools.ant.types.DataType;1;1;2;0.9090909090909091;0.95;4;105;105
 org.apache.tools.ant.taskdefs.compilers.Kjc.setupKjcCommand();org.apache.tools.ant.types.Path;2;0;4;1.0;0.9473684210526316;44;52;239
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.getStylesheet();org.apache.tools.ant.types.resources.FileResource;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.getStylesheet();org.apache.tools.ant.types.resources.FileResource;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.ExecTask.createHandler();org.apache.tools.ant.taskdefs.Redirector;1;0;1;1.0;0.9791666666666666;3;293;353
 org.apache.tools.ant.taskdefs.Get.execute();org.apache.tools.ant.Task;1;5;2;0.736842105263158;0.962962962962963;16;205;166
 org.apache.tools.ant.taskdefs.Concat.execute();org.apache.tools.ant.Project;0;6;2;0.875;1.0;16;473;748
@@ -2363,7 +2363,7 @@ org.apache.tools.ant.taskdefs.optional.Cab.checkConfiguration();org.apache.tools
 org.apache.tools.ant.taskdefs.compilers.Jvc.execute();org.apache.tools.ant.types.Path;2;0;7;1.0;0.9545454545454546;50;50;239
 org.apache.tools.ant.taskdefs.Sync.init();org.apache.tools.ant.taskdefs.Copy;3;2;1;0.92;0.9285714285714286;7;184;497
 org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run();org.apache.tools.ant.taskdefs.optional.junit.JUnitTest;3;16;2;0.7090909090909091;0.9387755102040817;125;494;84
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.util.FileUtils;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.util.FileUtils;0;0;0;0;0;0;0;0
 org.apache.tools.ant.types.resources.selectors.Date.isSelected(org.apache.tools.ant.types.Resource);org.apache.tools.ant.types.TimeComparison;1;5;2;0.6875;0.9285714285714286;19;50;32
 org.apache.tools.ant.taskdefs.optional.clearcase.CCRmtype.execute();org.apache.tools.ant.taskdefs.Execute;0;4;6;0.8;1.0;21;106;403
 org.apache.tools.ant.taskdefs.optional.starteam.TreeBasedTask.findLabel(org.apache.tools.ant.taskdefs.optional.starteam.View);org.apache.tools.ant.Project;0;2;2;0.9375;1.0;16;255;748
@@ -2437,7 +2437,7 @@ org.apache.tools.ant.taskdefs.Zip.selectFileResources(org.apache.tools.ant.types
 org.apache.tools.ant.taskdefs.ExecTask.runExecute(org.apache.tools.ant.taskdefs.Execute);org.apache.tools.ant.taskdefs.Execute;3;3;4;0.9464285714285714;0.90625;28;293;403
 org.apache.tools.ant.taskdefs.optional.ssh.ScpFromMessage.fetchFile(java.io.File, java.io.InputStream, java.io.OutputStream, long);org.apache.tools.ant.taskdefs.optional.ssh.AbstractSshMessage;4;0;1;1.0;0.875;34;126;109
 org.apache.tools.ant.taskdefs.JDBCTask.getConnection();org.apache.tools.ant.Task;1;5;2;0.7058823529411764;1.0;26;163;166
-org.apache.tools.ant.taskdefs.optional.TraXLiaison.resourceToURI(org.apache.tools.ant.types.Resource);org.apache.tools.ant.types.resources.FileResource;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.TraXLiaison.resourceToURI(org.apache.tools.ant.types.Resource);org.apache.tools.ant.types.resources.FileResource;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.optional.native2ascii.SunNative2Ascii.setup(org.apache.tools.ant.taskdefs.optional.Native2Ascii, org.apache.tools.ant.types.Commandline);org.apache.tools.ant.taskdefs.optional.Native2Ascii;1;0;3;1.0;0.9444444444444444;6;24;122
 org.apache.tools.ant.types.resources.TarResource.getInputStream();org.apache.tools.ant.types.DataType;2;0;6;1.0;0.9166666666666666;15;95;105
 org.apache.tools.ant.taskdefs.ManifestClassPath.execute();org.apache.tools.ant.ProjectComponent;0;3;5;0.8636363636363636;1.0;70;86;21
@@ -3500,7 +3500,7 @@ org.apache.tools.ant.taskdefs.compilers.DefaultCompilerAdapter.assumeJava11();or
 org.apache.tools.ant.types.Assertions.addEnable(org.apache.tools.ant.types.Assertions.EnabledAssertion);org.apache.tools.ant.types.DataType;1;1;1;0.9473684210526316;0.95;4;133;105
 org.apache.tools.ant.taskdefs.Move.deleteDir(boolean, java.io.File);org.apache.tools.ant.taskdefs.Copy;1;1;2;0.9285714285714286;0.9782608695652174;23;199;497
 org.apache.tools.ant.taskdefs.Replace.execute();org.apache.tools.ant.Project;0;21;5;0.6610169491525424;1.0;52;340;748
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.taskdefs.Delete;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.taskdefs.Delete;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.AbstractCvsTask.addCommandArgument(java.lang.String, org.apache.tools.ant.types.Commandline);org.apache.tools.ant.types.Commandline;2;0;1;1.0;0.9285714285714286;3;313;273
 org.apache.tools.ant.taskdefs.CallTarget.execute();org.apache.tools.ant.taskdefs.Ant;4;4;4;0.8;0.8918918918918919;12;92;360
 org.apache.tools.ant.taskdefs.Javac.checkParameters();org.apache.tools.ant.types.resources.BaseResourceCollectionContainer;1;1;2;0.9821428571428571;0.9375;11;388;129
@@ -3714,7 +3714,7 @@ org.apache.tools.ant.taskdefs.Available.checkFile(java.io.File, java.lang.String
 org.apache.tools.ant.types.selectors.SelectSelector.getSelectors(org.apache.tools.ant.Project);org.apache.tools.ant.types.DataType;1;2;2;0.8571428571428572;0.9523809523809523;6;87;105
 org.apache.tools.ant.taskdefs.Available.execute();org.apache.tools.ant.ProjectComponent;0;4;4;0.8620689655172413;1.0;18;260;21
 org.apache.tools.ant.ComponentHelper.contains(java.lang.Object);org.apache.tools.ant.AntTypeDefinition;1;0;1;1.0;0.9545454545454546;9;515;159
-org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase.addText(java.lang.String);org.apache.tools.ant.ProjectComponent;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase.addText(java.lang.String);org.apache.tools.ant.ProjectComponent;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.DependSet.uptodate(org.apache.tools.ant.types.ResourceCollection, org.apache.tools.ant.types.ResourceCollection);org.apache.tools.ant.types.resources.BaseResourceCollectionWrapper;1;1;8;0.9444444444444444;0.9523809523809523;22;79;96
 org.apache.tools.ant.types.resources.Resources.toString();org.apache.tools.ant.types.DataType;2;1;1;0.9642857142857143;0.9310344827586207;16;101;105
 org.apache.tools.ant.taskdefs.Chmod.execute();org.apache.tools.ant.types.AbstractFileSet;1;2;7;0.9375;0.987012987012987;27;96;365
@@ -3801,10 +3801,10 @@ org.apache.tools.ant.types.DataType.getCheckedRef(java.lang.Class, java.lang.Str
 org.apache.tools.ant.taskdefs.optional.ejb.BorlandGenerateClient.executeForkV5();org.apache.tools.ant.Task;1;3;6;0.8636363636363636;1.0;24;144;166
 org.apache.tools.ant.types.DirSet.clone();org.apache.tools.ant.ProjectComponent;0;1;3;0.8571428571428572;1.0;8;29;21
 org.apache.tools.ant.types.resources.StringResource.getContent();org.apache.tools.ant.ProjectComponent;0;2;3;0.8666666666666667;1.0;10;77;21
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.ProjectComponent;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.ProjectComponent;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.Jar.writeManifest(org.apache.tools.ant.taskdefs.Manifest, org.apache.tools.zip.ZipOutputStream);org.apache.tools.ant.taskdefs.Manifest;2;1;5;0.9777777777777777;0.9583333333333334;14;465;413
 org.apache.tools.ant.Project.copyFile(boolean, boolean, java.lang.String, java.lang.String);org.apache.tools.ant.util.FileUtils;1;0;1;1.0;1.0;3;748;437
-org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.taskdefs.XSLTProcess;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer.transform();org.apache.tools.ant.taskdefs.XSLTProcess;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.AbstractCvsTask.getErrorStream();org.apache.tools.ant.Task;0;3;2;0.9210526315789473;1.0;16;313;166
 org.apache.tools.ant.taskdefs.compilers.JavacExternal.execOnVMS(int, org.apache.tools.ant.types.Commandline);org.apache.tools.ant.util.FileUtils;0;0;4;1.0;1.0;14;31;437
 org.apache.tools.ant.taskdefs.Jar.filesetManifest(java.io.File, java.io.InputStream);org.apache.tools.ant.types.EnumeratedAttribute;1;5;4;0.875;0.9375;57;465;34
@@ -3926,7 +3926,7 @@ org.apache.tools.ant.taskdefs.optional.ssh.SSHExec.execute();org.apache.tools.an
 org.apache.tools.ant.taskdefs.optional.clearcase.CCCheckin.getCommentFileCommand(org.apache.tools.ant.types.Commandline);org.apache.tools.ant.types.Commandline;2;1;1;0.9166666666666666;0.9310344827586207;6;93;273
 org.apache.tools.ant.Project.fireBuildFinished(java.lang.Throwable);org.apache.tools.ant.BuildEvent;1;1;1;0.9908256880733946;0.8888888888888888;9;748;43
 org.apache.tools.ant.types.Path.add(org.apache.tools.ant.types.Path);org.apache.tools.ant.types.resources.BaseResourceCollectionContainer;1;0;1;1.0;0.9285714285714286;3;239;129
-org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase.addText(java.lang.String);org.apache.tools.ant.Project;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase.addText(java.lang.String);org.apache.tools.ant.Project;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.compilers.AptCompilerAdapter.execute();org.apache.tools.ant.Project;0;1;4;0.9166666666666666;1.0;18;58;748
 org.apache.tools.ant.util.regexp.JakartaOroRegexp.substitute(int, java.lang.String, java.lang.String);org.apache.tools.ant.util.regexp.JakartaOroMatcher;2;1;1;0.9090909090909091;0.8823529411764706;30;41;56
 org.apache.tools.ant.taskdefs.optional.ssh.Scp.createDirectory(org.apache.tools.ant.types.FileSet);org.apache.tools.ant.taskdefs.optional.ssh.Directory;4;0;4;1.0;0.7777777777777778;27;215;70
@@ -4873,7 +4873,7 @@ org.apache.tools.ant.types.Assertions.getFinalReference();org.apache.tools.ant.P
 org.apache.tools.ant.taskdefs.condition.Not.eval();org.apache.tools.ant.taskdefs.condition.ConditionBase;2;0;1;1.0;0.9375;9;9;96
 org.apache.tools.ant.taskdefs.optional.clearcase.CCUnlock.getPnameCommand(org.apache.tools.ant.types.Commandline);org.apache.tools.ant.types.Commandline;2;1;1;0.9166666666666666;0.9310344827586207;9;76;273
 org.apache.tools.ant.taskdefs.ExecTask.resolveExecutable(boolean, java.lang.String);org.apache.tools.ant.ProjectComponent;0;3;6;0.95;1.0;48;293;21
-org.apache.tools.ant.types.resources.StringResource.toString();org.apache.tools.ant.types.DataType;0;0;0;0;0
+org.apache.tools.ant.types.resources.StringResource.toString();org.apache.tools.ant.types.DataType;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.optional.vss.MSVSS.execute();org.apache.tools.ant.Task;0;4;2;0.9454545454545454;1.0;9;341;166
 org.apache.tools.ant.taskdefs.compilers.Kjc.execute();org.apache.tools.ant.Task;1;1;5;0.8;1.0;8;52;166
 org.apache.tools.ant.types.selectors.SelectSelector.selectorCount();org.apache.tools.ant.types.DataType;1;2;2;0.8571428571428572;0.9523809523809523;6;87;105
@@ -4964,7 +4964,7 @@ org.apache.tools.ant.taskdefs.optional.XMLValidateTask.createDefaultReader();org
 org.apache.tools.ant.types.RegularExpression.getPattern(org.apache.tools.ant.Project);org.apache.tools.ant.types.DataType;1;5;1;0.5833333333333333;0.9583333333333334;8;42;105
 org.apache.tools.ant.taskdefs.Ant.copyReference(java.lang.String, java.lang.String);org.apache.tools.ant.ProjectComponent;0;0;3;1.0;1.0;36;360;21
 org.apache.tools.ant.taskdefs.Tar.tarResource(java.lang.String, org.apache.tools.ant.taskdefs.Tar.TarFileSet, org.apache.tools.ant.types.Resource, org.apache.tools.tar.TarOutputStream);org.apache.tools.tar.TarEntry;7;7;11;0.9090909090909091;0.9090909090909091;104;427;243
-org.apache.tools.ant.taskdefs.optional.TraXLiaison.resourceToURI(org.apache.tools.ant.types.Resource);org.apache.tools.ant.types.Resource;0;0;0;0;0
+org.apache.tools.ant.taskdefs.optional.TraXLiaison.resourceToURI(org.apache.tools.ant.types.Resource);org.apache.tools.ant.types.Resource;0;0;0;0;0;0;0;0
 org.apache.tools.ant.taskdefs.Move.copyFile(boolean, boolean, java.io.File, java.io.File);org.apache.tools.ant.taskdefs.Copy;7;0;6;1.0;0.851063829787234;17;199;497
 org.apache.tools.ant.taskdefs.optional.Native2Ascii.execute();org.apache.tools.ant.Task;1;4;7;0.8260869565217391;0.96875;38;122;166
 org.apache.tools.ant.types.PatternSet.readPatterns(java.io.File, java.util.Vector, org.apache.tools.ant.Project);org.apache.tools.ant.Project;1;2;1;0.9411764705882353;0.9908256880733946;27;255;748

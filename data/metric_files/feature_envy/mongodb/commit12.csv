@@ -32,7 +32,7 @@ com.mongodb.DBPortPool.get();com.mongodb.MongoOptions;1;1;2;0.9523809523809523;0
 org.bson.BasicBSONEncoder.putCodeWScope(java.lang.String, org.bson.types.CodeWScope);org.bson.io.OutputBuffer;3;3;3;0.9285714285714286;0.8947368421052632;8;300;98
 org.bson.BasicBSONDecoder.readObject(java.io.InputStream);org.bson.BasicBSONCallback;1;1;1;0.9090909090909091;0.975609756097561;5;177;136
 com.mongodb.DBApiLayer.update(boolean, boolean, com.mongodb.DBEncoder, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.WriteConcern);com.mongodb.DB;0;2;6;0.962962962962963;1.0;18;308;230
-com.mongodb.ReplicaSetStatus.toJSON();com.mongodb.util.JSON;0;0;0;0;0
+com.mongodb.ReplicaSetStatus.toJSON();com.mongodb.util.JSON;0;0;0;0;0;0;0;0
 com.mongodb.DBCollection.dropIndexes(java.lang.String);com.mongodb.BasicDBObjectBuilder;2;2;3;0.981651376146789;0.9375;7;474;46
 org.bson.BasicBSONEncoder.writeLong(long);org.bson.io.OutputBuffer;1;0;1;1.0;0.9230769230769231;3;300;98
 org.bson.LazyBSONObject.isElementEmpty(int);org.bson.BSON;0;1;1;0.9761904761904762;1.0;3;315;129
@@ -65,11 +65,11 @@ com.mongodb.DefaultDBEncoder.putDBRef(com.mongodb.DBRefBase, java.lang.String);c
 com.mongodb.DBCursor.count();com.mongodb.DBCollection;1;2;1;0.967741935483871;0.9903846153846154;5;287;474
 com.mongodb.DBCursor._check();com.mongodb.DBCollection;1;19;1;0.7462686567164178;1.0;21;287;474
 com.mongodb.BasicDBObject.toString();com.mongodb.util.JSON;0;0;1;1.0;1.0;3;37;166
-com.mongodb.ReplicaSetStatus.isMaster(com.mongodb.ServerAddress);com.mongodb.ServerAddress;0;0;0;0;0
+com.mongodb.ReplicaSetStatus.isMaster(com.mongodb.ServerAddress);com.mongodb.ServerAddress;0;0;0;0;0;0;0;0
 com.mongodb.DBCursor._lookForHints();com.mongodb.DBCollection;1;3;1;0.953125;0.9906542056074766;11;287;474
 com.mongodb.DefaultDBCallback.objectDone();org.bson.BasicBSONCallback;2;1;1;0.9285714285714286;0.9534883720930233;7;67;136
 com.mongodb.BasicDBObject.append(java.lang.Object, java.lang.String);org.bson.BasicBSONObject;1;0;1;1.0;1.0;4;37;110
-org.bson.LazyDBList.toString();com.mongodb.util.JSON;0;0;0;0;0
+org.bson.LazyDBList.toString();com.mongodb.util.JSON;0;0;0;0;0;0;0;0
 com.mongodb.gridfs.GridFSInputFile.write(byte[], int, int);com.mongodb.gridfs.GridFSFile;1;3;1;0.8695652173913043;0.967741935483871;18;147;108
 com.mongodb.gridfs.GridFS.getFileList();com.mongodb.DBCollection;1;0;2;1.0;0.9902912621359223;3;84;474
 com.mongodb.DBApiLayer.cleanCursors(boolean);com.mongodb.Bytes;0;3;1;0.9454545454545454;1.0;24;308;41
@@ -102,7 +102,7 @@ com.mongodb.DBRefBase.fetch();com.mongodb.DB;1;4;2;0.5555555555555556;0.97916666
 com.mongodb.ReplicaSetStatus.update(java.util.Set<com.mongodb.ReplicaSetStatus.Node>);com.mongodb.Mongo;1;11;4;0.8253968253968254;0.9848484848484849;63;318;256
 com.mongodb.DBPortPool.createObjectName(com.mongodb.ServerAddress);com.mongodb.ServerAddress;1;0;2;1.0;0.9285714285714286;5;121;97
 com.mongodb.DBPortPool.ok(com.mongodb.DBPort);com.mongodb.DBPort;1;0;2;1.0;0.9696969696969697;3;121;171
-com.mongodb.DBApiLayer.createIndex(com.mongodb.DBEncoder, com.mongodb.DBObject, com.mongodb.DBObject);com.mongodb.DBCollection;0;0;0;0;0
+com.mongodb.DBApiLayer.createIndex(com.mongodb.DBEncoder, com.mongodb.DBObject, com.mongodb.DBObject);com.mongodb.DBCollection;0;0;0;0;0;0;0;0
 com.mongodb.DBApiLayer.insert(boolean, com.mongodb.DBEncoder, com.mongodb.DBObject[], com.mongodb.WriteConcern);com.mongodb.Mongo;1;2;9;0.9636363636363636;0.9787234042553191;39;308;256
 com.mongodb.DBApiLayer.init(com.mongodb.Response);com.mongodb.Response;5;6;2;0.8775510204081632;0.8148148148148149;13;308;79
 com.mongodb.OutMessage.prepare();org.bson.io.OutputBuffer;1;0;2;1.0;0.9285714285714286;3;88;98
@@ -111,12 +111,12 @@ com.mongodb.DBCollection.mapReduce(com.mongodb.DBObject);com.mongodb.CommandResu
 com.mongodb.DBCollection.group(com.mongodb.GroupCommand);org.bson.BasicBSONObject;1;1;4;0.9905660377358491;0.9565217391304348;5;474;110
 com.mongodb.DBPointer.getId();com.mongodb.DBRefBase;1;0;1;1.0;0.8571428571428572;3;14;33
 com.mongodb.WriteConcern.getCommand();org.bson.BasicBSONObject;1;4;1;0.7894736842105263;1.0;8;138;110
-com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);com.mongodb.DBApiLayer;0;0;0;0;0
+com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);com.mongodb.DBApiLayer;0;0;0;0;0;0;0;0
 org.bson.io.BSONInput.readIntBE();org.bson.io.Bits;0;2;1;0.8888888888888888;1.0;3;151;59
 com.mongodb.MapReduceOutput.drop();com.mongodb.DBCollection;1;0;1;1.0;0.9901960784313726;3;46;474
 com.mongodb.DB.doEval(java.lang.Object[], java.lang.String);com.mongodb.BasicDBObjectBuilder;2;1;1;0.9777777777777777;0.9;3;230;46
 org.bson.BasicBSONEncoder.putTimestamp(java.lang.String, org.bson.types.BSONTimestamp);org.bson.types.BSONTimestamp;2;1;2;0.975;0.7142857142857143;5;300;26
-com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);org.bson.BasicBSONObject;0;0;0;0;0
+com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);org.bson.BasicBSONObject;0;0;0;0;0;0;0;0
 com.mongodb.DBApiLayer.drop();com.mongodb.DBCollection;2;1;1;0.9782608695652174;0.9807692307692307;4;308;474
 com.mongodb.Mongo.getDatabaseNames();com.mongodb.DB;1;2;3;0.95;0.98;12;256;230
 com.mongodb.DB.getWriteConcern();com.mongodb.Mongo;0;0;1;1.0;1.0;4;230;256
@@ -139,13 +139,13 @@ com.mongodb.DBApiLayer.insert(boolean, com.mongodb.DBEncoder, com.mongodb.DBObje
 com.mongodb.Mongo.setOptions(int);com.mongodb.Bytes;1;1;1;0.9714285714285714;0.875;3;256;41
 com.mongodb.gridfs.GridFSInputFile._readStream2Buffer();com.mongodb.gridfs.GridFSFile;1;3;1;0.8695652173913043;0.967741935483871;13;147;108
 com.mongodb.DBApiLayer.next();com.mongodb.Response;1;4;1;0.9130434782608696;0.9615384615384616;8;308;79
-com.mongodb.LazyWriteableDBObject.keySet();org.bson.LazyBSONObject;0;0;0;0;0
+com.mongodb.LazyWriteableDBObject.keySet();org.bson.LazyBSONObject;0;0;0;0;0;0;0;0
 com.mongodb.gridfs.GridFSDBFile.remove();com.mongodb.gridfs.GridFSFile;1;0;3;1.0;0.9642857142857143;4;65;108
 com.mongodb.DBCollection.group(com.mongodb.DBObject);org.bson.BasicBSONObject;1;2;3;0.9811320754716981;0.9583333333333334;6;474;110
 com.mongodb.DBCollection.setDBDecoderFactory(com.mongodb.DBDecoderFactory);com.mongodb.MongoOptions;1;1;3;0.9902912621359223;0.9545454545454546;4;474;46
 org.bson.BasicBSONEncoder.encode(org.bson.BSONObject);org.bson.io.OutputBuffer;1;3;1;0.9210526315789473;0.9375;7;300;98
 com.mongodb.DB.authenticate(char[], java.lang.String);com.mongodb.CommandResult;1;4;1;0.9574468085106383;0.9166666666666666;10;230;50
-com.mongodb.OutMessage._appendQuery(com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.ReadPreference, int, int, int, java.lang.String);com.mongodb.Bytes;0;0;0;0;0
+com.mongodb.OutMessage._appendQuery(com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.ReadPreference, int, int, int, java.lang.String);com.mongodb.Bytes;0;0;0;0;0;0;0;0
 com.mongodb.QueryBuilder.lessThanEquals(java.lang.Object);com.mongodb.QueryOperators;0;1;1;1.0;1.0;4;123;0
 org.bson.io.OutputBuffer.md5();com.mongodb.util.Util;0;3;1;0.8947368421052632;1.0;25;98;28
 com.mongodb.Mongo.toString();com.mongodb.ServerAddress;1;1;1;0.975609756097561;0.9444444444444444;10;256;97
@@ -178,10 +178,10 @@ com.mongodb.DBCollection.getInternalClass(java.lang.String);com.mongodb.Reflecti
 com.mongodb.DBCollection.getCount(com.mongodb.DBObject, com.mongodb.DBObject, long, long);org.bson.BasicBSONObject;2;2;3;0.981651376146789;0.962962962962963;19;474;110
 org.bson.LazyBSONObject.getElementsToKey(java.lang.String);org.bson.io.BSONByteBuffer;1;4;1;0.9111111111111111;0.975;16;315;182
 com.mongodb.DB.dropDatabase();com.mongodb.Mongo;1;2;2;0.9565217391304348;0.9736842105263158;5;230;256
-com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);com.mongodb.CommandResult;0;0;0;0;0
+com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);com.mongodb.CommandResult;0;0;0;0;0;0;0;0
 com.mongodb.DBCollection.findAndModify(boolean, boolean, boolean, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.DBObject);com.mongodb.DB;1;2;4;0.991304347826087;0.9821428571428571;21;474;230
 com.mongodb.gridfs.GridFS.find(com.mongodb.DBObject);com.mongodb.DBCollection;1;1;2;0.9565217391304348;0.9905660377358491;8;84;474
-com.mongodb.MapReduceOutput.getServerUsed();com.mongodb.CommandResult;0;0;0;0;0
+com.mongodb.MapReduceOutput.getServerUsed();com.mongodb.CommandResult;0;0;0;0;0;0;0;0
 org.bson.BasicBSONEncoder._put(byte, java.lang.String);org.bson.io.OutputBuffer;1;1;1;0.9736842105263158;0.9285714285714286;4;300;98
 com.mongodb.OutMessage.putObject(org.bson.BSONObject);com.mongodb.Bytes;0;1;4;0.9375;1.0;11;88;41
 org.bson.BasicBSONEncoder.putBinary(java.lang.String, org.bson.types.Binary);org.bson.types.Binary;2;1;1;1.0;0.5;3;300;16
@@ -194,7 +194,7 @@ com.mongodb.DBCollection.getCount(com.mongodb.DBObject, com.mongodb.DBObject, lo
 com.mongodb.Mongo.unlock();com.mongodb.DBCollection;1;1;2;0.9722222222222222;0.9903846153846154;5;256;474
 com.mongodb.CommandResult.getErrorMessage();org.bson.BasicBSONObject;1;0;1;1.0;0.95;5;50;110
 com.mongodb.DBCollection.getCollection(java.lang.String);com.mongodb.DB;1;1;1;0.9902912621359223;0.9772727272727273;3;474;230
-com.mongodb.LazyWriteableDBObject.get(java.lang.String);org.bson.LazyBSONObject;0;0;0;0;0
+com.mongodb.LazyWriteableDBObject.get(java.lang.String);org.bson.LazyBSONObject;0;0;0;0;0;0;0;0
 com.mongodb.CommandResult.getException();com.mongodb.BasicDBObject;1;4;2;0.75;0.9411764705882353;19;50;37
 com.mongodb.DBCollection.drop();com.mongodb.CommandResult;3;2;3;0.981651376146789;0.7692307692307692;6;474;50
 com.mongodb.DBPortPool.get();com.mongodb.DBPort;1;1;2;0.9523809523809523;0.9736842105263158;13;121;171
@@ -256,7 +256,7 @@ com.mongodb.ReplicaSetStatus.update(java.util.Set<com.mongodb.ReplicaSetStatus.N
 com.mongodb.DB.getSisterDB(java.lang.String);com.mongodb.Mongo;1;0;1;1.0;0.9705882352941176;3;230;256
 com.mongodb.DBTCPConnector.debugString();com.mongodb.ServerAddress;1;2;1;0.9473684210526316;0.9375;11;312;97
 com.mongodb.Mongo.isLocked();com.mongodb.DB;1;1;3;0.9736842105263158;0.9787234042553191;9;256;230
-com.mongodb.DBPort.convertToCR(com.mongodb.Response);org.bson.BasicBSONObject;0;0;0;0;0
+com.mongodb.DBPort.convertToCR(com.mongodb.Response);org.bson.BasicBSONObject;0;0;0;0;0;0;0;0
 com.mongodb.DB._hash(char[], java.lang.String);com.mongodb.util.Util;0;0;1;1.0;1.0;15;230;28
 com.mongodb.util.TestNGListener._recordResults(com.mongodb.util.ITestContext);com.mongodb.DB;1;0;3;1.0;0.9795918367346939;15;75;230
 org.bson.LazyBSONList.get(int);org.bson.LazyBSONObject;1;0;1;1.0;0.9761904761904762;3;108;315
@@ -274,7 +274,7 @@ com.mongodb.DefaultDBEncoder.writeObject(org.bson.BSONObject, org.bson.io.Output
 com.mongodb.DBCollection.getCount(com.mongodb.DBObject, com.mongodb.DBObject, long, long);com.mongodb.CommandResult;3;2;3;0.981651376146789;0.7692307692307692;19;474;50
 org.bson.types.CodeWScope.hashCode();org.bson.types.Code;1;1;1;0.8333333333333334;0.8571428571428572;3;15;17
 com.mongodb.DBApiLayer.insert(boolean, com.mongodb.DBEncoder, com.mongodb.DBObject[], com.mongodb.WriteConcern);org.bson.BasicBSONEncoder;2;2;9;0.9636363636363636;0.9591836734693877;39;308;300
-com.mongodb.LazyWriteableDBCallback.createObject(byte[], int);com.mongodb.LazyWriteableDBObject;0;0;0;0;0
+com.mongodb.LazyWriteableDBCallback.createObject(byte[], int);com.mongodb.LazyWriteableDBObject;0;0;0;0;0;0;0;0
 com.mongodb.DBPort.checkAuth(com.mongodb.DB);com.mongodb.DB;3;3;4;0.925;0.9423076923076923;14;171;230
 org.bson.LazyBSONObject.next();org.bson.io.BSONByteBuffer;1;3;1;0.9302325581395349;0.972972972972973;7;315;182
 com.mongodb.gridfs.GridFS.find(com.mongodb.DBObject);com.mongodb.DBCursor;2;1;2;0.9565217391304348;0.96875;8;84;287
@@ -292,7 +292,7 @@ com.mongodb.DBTCPConnector.error(com.mongodb.DBPort, java.lang.Exception);com.mo
 com.mongodb.DB.getLastError(boolean, int, int);com.mongodb.WriteConcern;1;1;1;0.9772727272727273;0.9473684210526316;3;230;138
 com.mongodb.MongoOptions.reset();com.mongodb.Bytes;0;17;3;0.2272727272727273;1.0;19;46;41
 com.mongodb.DBPort.go(boolean, com.mongodb.DBCollection, com.mongodb.DBDecoder, com.mongodb.OutMessage, com.mongodb.ReadPreference);com.mongodb.DBPortPool;1;8;2;0.7647058823529411;0.9583333333333334;27;171;121
-com.mongodb.DBPort.convertToCR(com.mongodb.Response);com.mongodb.Response;0;0;0;0;0
+com.mongodb.DBPort.convertToCR(com.mongodb.Response);com.mongodb.Response;0;0;0;0;0;0;0;0
 com.mongodb.DBCollection.getIndexInfo();com.mongodb.DB;1;2;3;0.9813084112149533;0.9795918367346939;10;474;230
 com.mongodb.DBTCPConnector._checkWriteError(com.mongodb.DB, com.mongodb.DBPort, com.mongodb.DBTCPConnector.MyPort, com.mongodb.WriteConcern);com.mongodb.WriteConcern;1;0;3;1.0;0.9523809523809523;7;312;138
 com.mongodb.QueryBuilder.size(java.lang.Object);com.mongodb.QueryOperators;0;1;1;1.0;1.0;4;123;0
@@ -302,7 +302,7 @@ com.mongodb.Mongo.getServerAddressList();com.mongodb.DBTCPConnector;1;0;1;1.0;0.
 com.mongodb.DBPort.checkAuth(com.mongodb.DB);com.mongodb.Mongo;1;3;4;0.925;0.9777777777777777;14;171;256
 com.mongodb.DBCollection.getWriteConcern();com.mongodb.DB;1;0;1;1.0;0.9767441860465116;4;474;230
 org.bson.KeyCachingLazyBSONObject.containsField(java.lang.String);org.bson.LazyBSONObject;1;2;1;0.6666666666666667;0.9777777777777777;5;38;315
-com.mongodb.OutMessage._appendQuery(com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.ReadPreference, int, int, int, java.lang.String);org.bson.BasicBSONEncoder;0;0;0;0;0
+com.mongodb.OutMessage._appendQuery(com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.ReadPreference, int, int, int, java.lang.String);org.bson.BasicBSONEncoder;0;0;0;0;0;0;0;0
 org.bson.BasicBSONCallback.gotBinaryArray(byte[], java.lang.String);org.bson.BSON;0;1;1;1.0;1.0;3;136;129
 com.mongodb.WriteResult.getLastError(com.mongodb.WriteConcern);com.mongodb.DBPort;1;1;2;0.9090909090909091;1.0;20;62;171
 org.bson.KeyCachingLazyBSONObject.ensureFieldList();org.bson.LazyBSONObject;4;1;2;0.9;0.9111111111111111;17;38;315
@@ -371,7 +371,7 @@ com.mongodb.DBCollection.save(com.mongodb.DBObject, com.mongodb.WriteConcern);or
 org.bson.LazyBSONObject.getElementFieldName(int);org.bson.io.BSONByteBuffer;1;0;1;1.0;0.9705882352941176;3;315;182
 com.mongodb.DefaultDBCallback.objectStart(boolean, java.lang.String);org.bson.BasicBSONCallback;1;1;1;0.9090909090909091;0.975609756097561;4;67;136
 com.mongodb.DBCollection.group(com.mongodb.GroupCommand);com.mongodb.GroupCommand;1;1;4;0.9905660377358491;0.9090909090909091;5;474;18
-com.mongodb.LazyWriteableDBObject.isEmpty();org.bson.LazyBSONObject;0;0;0;0;0
+com.mongodb.LazyWriteableDBObject.isEmpty();org.bson.LazyBSONObject;0;0;0;0;0;0;0;0
 com.mongodb.DBApiLayer.hasNext();com.mongodb.Response;1;3;1;0.9333333333333333;0.9583333333333334;7;308;79
 com.mongodb.DBTCPConnector.call(com.mongodb.DB, com.mongodb.DBCollection, com.mongodb.DBDecoder, com.mongodb.OutMessage, com.mongodb.ReadPreference, com.mongodb.ServerAddress, int);com.mongodb.ReadPreference;0;8;7;0.875;1.0;40;312;22
 com.mongodb.DBTCPConnector.checkMaster(boolean, boolean);com.mongodb.ReplicaSetStatus;2;3;1;0.9166666666666666;0.9545454545454546;17;312;318
@@ -382,7 +382,7 @@ com.mongodb.WriteResult.getN();org.bson.BasicBSONObject;1;1;1;0.8888888888888888
 com.mongodb.DBApiLayer.update(boolean, boolean, com.mongodb.DBEncoder, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.WriteConcern);com.mongodb.DefaultDBEncoder;0;2;6;0.962962962962963;1.0;18;308;39
 com.mongodb.ReplicaSetStatus.update(java.util.Set<com.mongodb.ReplicaSetStatus.Node>);org.bson.BasicBSONObject;4;11;4;0.8253968253968254;0.9387755102040817;63;318;110
 org.bson.types.CodeWScope.equals(java.lang.Object);org.bson.types.Code;1;1;1;0.8333333333333334;0.8571428571428572;5;15;17
-com.mongodb.LazyWriteableDBObject.removeField(java.lang.String);org.bson.LazyBSONObject;0;0;0;0;0
+com.mongodb.LazyWriteableDBObject.removeField(java.lang.String);org.bson.LazyBSONObject;0;0;0;0;0;0;0;0
 com.mongodb.DBCollection.mapReduce(com.mongodb.MapReduceCommand);com.mongodb.DB;2;1;3;0.9906542056074766;0.9574468085106383;8;474;230
 com.mongodb.DBCollection.findAndModify(boolean, boolean, boolean, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.DBObject);org.bson.BasicBSONObject;1;2;4;0.991304347826087;0.96875;21;474;110
 com.mongodb.DBApiLayer.killCursor();com.mongodb.Bytes;0;2;2;0.9583333333333334;1.0;15;308;41
@@ -390,8 +390,8 @@ com.mongodb.DBPort._open();com.mongodb.MongoOptions;6;6;3;0.8775510204081632;0.8
 com.mongodb.DBCollection.drop();com.mongodb.BasicDBObjectBuilder;2;2;3;0.981651376146789;0.9375;6;474;46
 org.bson.BasicBSONEncoder.putBinary(byte[], int, java.lang.String);org.bson.io.OutputBuffer;4;1;2;0.975609756097561;0.875;12;300;98
 com.mongodb.gridfs.GridFSFile.save();com.mongodb.gridfs.GridFS;0;0;2;1.0;1.0;4;108;84
-org.bson.LazyBSONList.next();org.bson.LazyBSONObject;0;0;0;0;0
-com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);com.mongodb.DefaultDBDecoder;0;0;0;0;0
+org.bson.LazyBSONList.next();org.bson.LazyBSONObject;0;0;0;0;0;0;0;0
+com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);com.mongodb.DefaultDBDecoder;0;0;0;0;0;0;0;0
 org.bson.BasicBSONObject.getInt(int, java.lang.String);org.bson.BSON;0;1;1;0.9473684210526316;1.0;5;110;129
 com.mongodb.DB.dropDatabase();com.mongodb.CommandResult;1;2;2;0.9565217391304348;0.9090909090909091;5;230;50
 com.mongodb.gridfs.GridFSInputFile.saveChunks();com.mongodb.gridfs.GridFSFile;1;1;1;0.9545454545454546;0.9642857142857143;3;147;108
@@ -404,7 +404,7 @@ com.mongodb.DefaultDBDecoder.decode(byte[], com.mongodb.DBCollection);org.bson.B
 com.mongodb.gridfs.GridFSInputFile._dumpBuffer(boolean);com.mongodb.DBCollection;1;5;4;0.8148148148148149;0.9910714285714286;19;147;474
 com.mongodb.DBCollection.findAndModify(boolean, boolean, boolean, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.DBObject);com.mongodb.CommandResult;3;2;4;0.991304347826087;0.8333333333333334;21;474;50
 com.mongodb.gridfs.GridFSFile.save();com.mongodb.DBCollection;1;0;2;1.0;0.9901960784313726;4;108;474
-com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);com.mongodb.DBCollection;0;0;0;0;0
+com.mongodb.DB.command(com.mongodb.DBObject, com.mongodb.ReadPreference, int);com.mongodb.DBCollection;0;0;0;0;0;0;0;0
 com.mongodb.OutMessage.toByteArray();org.bson.io.OutputBuffer;1;0;1;1.0;0.9230769230769231;3;88;98
 com.mongodb.gridfs.GridFSDBFile.writeTo(java.io.OutputStream);com.mongodb.gridfs.GridFSFile;2;1;1;0.9523809523809523;0.9310344827586207;7;65;108
 com.mongodb.DBTCPConnector.done(com.mongodb.DBPort);com.mongodb.DBPort;0;0;1;1.0;1.0;5;312;171
@@ -424,7 +424,7 @@ com.mongodb.DefaultDBCallback.gotDBRef(java.lang.String, java.lang.String, org.b
 com.mongodb.DBCollection.setObjectClass(java.lang.Class);com.mongodb.ReflectionDBObject;0;2;1;0.9807692307692307;1.0;11;474;129
 com.mongodb.DBPort._open();com.mongodb.DBPortPool;1;6;3;0.8775510204081632;0.972972972972973;33;171;121
 com.mongodb.DBTCPConnector.say(com.mongodb.DB, com.mongodb.OutMessage, com.mongodb.ServerAddress, com.mongodb.WriteConcern);org.bson.BasicBSONObject;1;8;5;0.8604651162790697;1.0;36;312;110
-com.mongodb.LazyWriteableDBObject.containsField(java.lang.String);org.bson.LazyBSONObject;0;0;0;0;0
+com.mongodb.LazyWriteableDBObject.containsField(java.lang.String);org.bson.LazyBSONObject;0;0;0;0;0;0;0;0
 org.bson.BasicBSONEncoder.putDate(java.lang.String, java.util.Date);org.bson.io.OutputBuffer;1;1;1;0.9743589743589743;0.9333333333333333;4;300;98
 com.mongodb.DBTCPConnector.say(com.mongodb.DB, com.mongodb.OutMessage, com.mongodb.ServerAddress, com.mongodb.WriteConcern);com.mongodb.OutMessage;1;8;5;0.8604651162790697;0.9615384615384616;36;312;88
 com.mongodb.DBPort.findOne(com.mongodb.DB, com.mongodb.DBObject, java.lang.String);com.mongodb.OutMessage;1;1;4;1.0;1.0;7;171;88
@@ -457,7 +457,7 @@ com.mongodb.ReplicaSetStatus.run();com.mongodb.DBTCPConnector;1;6;2;0.8695652173
 org.bson.BasicBSONCallback.gotRegex(java.lang.String, java.lang.String, java.lang.String);org.bson.BSON;0;1;1;1.0;1.0;3;136;129
 com.mongodb.gridfs.GridFSDBFile.getChunk(int);com.mongodb.DBCollection;1;0;4;1.0;0.9905660377358491;6;65;474
 org.bson.BasicBSONEncoder.putBoolean(java.lang.Boolean, java.lang.String);org.bson.io.OutputBuffer;1;1;1;0.9736842105263158;1.0;4;300;98
-com.mongodb.DBApiLayer.hasNext();com.mongodb.Bytes;0;0;0;0;0
+com.mongodb.DBApiLayer.hasNext();com.mongodb.Bytes;0;0;0;0;0;0;0;0
 org.bson.BasicBSONDecoder.decode(boolean);org.bson.io.BSONInput;3;2;1;0.8666666666666667;0.8636363636363636;12;177;151
 org.bson.LazyBSONObject.readBinary(int);org.bson.BSON;0;0;2;1.0;1.0;36;315;129
 com.mongodb.gridfs.GridFS.getFileList(com.mongodb.DBObject);com.mongodb.DBCollection;1;0;2;1.0;0.9902912621359223;3;84;474
@@ -478,7 +478,7 @@ com.mongodb.DBCollection.setDBEncoderFactory(com.mongodb.DBEncoderFactory);com.m
 com.mongodb.DB.addOption(int);com.mongodb.Bytes;1;1;1;0.9772727272727273;0.875;3;230;41
 com.mongodb.DBApiLayer.update(boolean, boolean, com.mongodb.DBEncoder, com.mongodb.DBObject, com.mongodb.DBObject, com.mongodb.WriteConcern);org.bson.BasicBSONEncoder;2;2;6;0.962962962962963;0.9583333333333334;18;308;300
 org.bson.BasicBSONEncoder.putUUID(java.lang.String, java.util.UUID);org.bson.io.OutputBuffer;3;1;1;0.9761904761904762;0.8823529411764706;7;300;98
-com.mongodb.LazyWriteableDBCallback.createObject(byte[], int);com.mongodb.LazyDBCallback;0;0;0;0;0
+com.mongodb.LazyWriteableDBCallback.createObject(byte[], int);com.mongodb.LazyDBCallback;0;0;0;0;0;0;0;0
 org.bson.BasicBSONDecoder._decode(org.bson.BSONCallback, org.bson.io.BSONInput);org.bson.io.BSONInput;3;2;1;0.8666666666666667;0.8636363636363636;19;177;151
 com.mongodb.DBApiLayer.insert(boolean, com.mongodb.DBEncoder, com.mongodb.DBObject[], com.mongodb.WriteConcern);com.mongodb.DefaultDBEncoder;0;2;9;0.9636363636363636;1.0;39;308;39
 org.bson.io.BSONInput.readLong();org.bson.io.Bits;0;2;1;0.8888888888888888;1.0;3;151;59

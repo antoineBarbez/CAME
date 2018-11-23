@@ -247,7 +247,7 @@ org.gjt.sp.jedit.options.ContextOptionPane._init();org.gjt.sp.jedit.GUIUtilities
 org.gjt.sp.jedit.gui.StatusBar.updateBufferStatus();org.gjt.sp.jedit.buffer.JEditBuffer;2;9;4;0.8448275862068966;0.984;30;364;1059
 org.gjt.sp.jedit.gui.RegisterViewer.getListCellRendererComponent(boolean, boolean, int, java.lang.Object, javax.swing.JList);org.gjt.sp.jedit.Registers;1;0;2;1.0;0.9444444444444444;16;137;274
 bsh.Parser.PrimitiveType();bsh.BSHPrimitiveType;1;5;2;0.9865591397849462;0.96;75;5894;6
-org.gjt.sp.jedit.help.HelpViewer.historyUpdated();org.gjt.sp.jedit.help.HistoryButton;0;0;0;0;0
+org.gjt.sp.jedit.help.HelpViewer.historyUpdated();org.gjt.sp.jedit.help.HistoryButton;0;0;0;0;0;0;0;0
 org.gjt.sp.jedit.browser.VFSBrowser.createPluginsMenu(boolean, javax.swing.JComponent);org.gjt.sp.jedit.EditPlugin;1;1;6;0.9868421052631579;0.9615384615384616;35;763;53
 org.gjt.sp.jedit.buffer.JEditBuffer.getOffsetOfVirtualColumn(int, int, int[]);org.gjt.sp.jedit.MiscUtilities;1;5;1;0.9541284403669725;1.0;10;1059;695
 org.gjt.sp.jedit.browser.VFSFileNameField.processKeyEvent(java.awt.event.KeyEvent);org.gjt.sp.jedit.browser.VFSDirectoryEntryTable;2;1;5;0.96875;0.98;46;128;259
@@ -694,7 +694,7 @@ bsh.BSHSwitchStatement.eval(bsh.CallStack, bsh.Interpreter);bsh.ReturnControl;1;
 org.gjt.sp.jedit.gui.DockableWindowManager.propertiesChanged();org.gjt.sp.util.Log;0;4;6;0.9111111111111111;1.0;37;409;209
 org.gjt.sp.jedit.textarea.FirstLine.reset();org.gjt.sp.jedit.textarea.Anchor;2;1;5;0.9333333333333333;0.8461538461538461;22;175;28
 org.gjt.sp.jedit.textarea.ChunkCache.invalidateChunksFrom(int);org.gjt.sp.jedit.Debug;0;3;2;0.926829268292683;1.0;5;334;0
-org.gjt.sp.jedit.textarea.JEditTextArea.addExplicitFold(int, int, int, int);org.gjt.sp.jedit.MiscUtilities;0;0;0;0;0
+org.gjt.sp.jedit.textarea.JEditTextArea.addExplicitFold(int, int, int, int);org.gjt.sp.jedit.MiscUtilities;0;0;0;0;0;0;0;0
 org.gjt.sp.jedit.search.SearchDialog.load();org.gjt.sp.jedit.gui.HistoryModel;1;9;10;0.8301886792452831;0.9655172413793104;35;499;134
 bsh.Parser.ForStatement();bsh.JJTParserState;4;9;2;0.9774436090225564;0.9558823529411765;150;5894;74
 org.gjt.sp.jedit.pluginmgr.PluginListHandler.doctypeDecl(java.lang.String, java.lang.String, java.lang.String);org.gjt.sp.util.Log;0;1;1;0.9705882352941176;1.0;4;133;209
@@ -1187,7 +1187,7 @@ org.gjt.sp.jedit.gui.MarkerViewer.handleMessage(org.gjt.sp.jedit.EBMessage);org.
 org.gjt.sp.jedit.options.ContextOptionPane._init();org.gjt.sp.jedit.jEdit;0;7;3;0.7941176470588236;1.0;49;122;1786
 org.gjt.sp.jedit.syntax.DisplayTokenHandler.handleToken(byte, int, int, javax.swing.text.Segment, org.gjt.sp.jedit.syntax.TokenMarker.LineContext);org.gjt.sp.jedit.syntax.Chunk;1;9;3;0.7407407407407407;0.9666666666666667;36;86;118
 org.gjt.sp.jedit.browser.BrowserView.getListCellRendererComponent(boolean, boolean, int, java.lang.Object, javax.swing.JList);org.gjt.sp.jedit.jEdit;0;3;3;0.9090909090909091;1.0;17;236;1786
-org.gjt.sp.jedit.help.HelpViewer.actionPerformed(java.awt.event.ActionEvent);org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0
+org.gjt.sp.jedit.help.HelpViewer.actionPerformed(java.awt.event.ActionEvent);org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0;0;0;0
 macos.MacOSPlugin.osok();org.gjt.sp.util.Log;0;1;4;0.9;1.0;18;43;209
 org.gjt.sp.jedit.jEdit.run();org.gjt.sp.jedit.buffer.JEditBuffer;3;0;5;1.0;0.9831932773109243;24;1786;1059
 org.gjt.sp.jedit.pluginmgr.InstallPanel.deselectParents(org.gjt.sp.jedit.pluginmgr.InstallPanel.Entry);org.gjt.sp.jedit.GUIUtilities;1;4;1;0.9130434782608696;1.0;12;365;529
@@ -1267,7 +1267,7 @@ org.gjt.sp.jedit.options.EditingOptionPane._init();org.gjt.sp.jedit.buffer.FoldH
 org.gjt.sp.jedit.PluginJAR.uninit(boolean);org.gjt.sp.jedit.JARClassLoader;1;6;8;0.8983050847457628;0.9642857142857143;27;696;178
 bsh.TargetError.printTargetError(java.lang.Throwable);bsh.Capabilities;0;2;1;0.8;1.0;5;47;27
 macos.menu.MacOSMenu.actionPerformed(java.awt.event.ActionEvent);macos.MacOSActions;0;1;1;0.75;1.0;3;29;35
-org.gjt.sp.jedit.help.HelpViewer.historyUpdated();org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0
+org.gjt.sp.jedit.help.HelpViewer.historyUpdated();org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0;0;0;0
 org.gjt.sp.jedit.syntax.XModeHandler.reset();org.gjt.sp.jedit.syntax.Token;0;10;1;0.7560975609756098;1.0;13;344;21
 org.gjt.sp.jedit.Buffer.removeMarker(int);org.gjt.sp.jedit.EditBus;0;2;5;0.971830985915493;1.0;12;686;44
 org.gjt.sp.jedit.gui.EnhancedButton.mouseExited(java.awt.event.MouseEvent);org.gjt.sp.jedit.View;0;1;3;0.875;1.0;6;33;762
@@ -1421,7 +1421,7 @@ bsh.Parser.InclusiveOrExpression();bsh.JJTParserState;2;6;3;0.9832869080779945;0
 com.loomcom.ant.tasks.jarbundler.JarBundler.setShortVersion(java.lang.String);com.loomcom.ant.tasks.jarbundler.AppBundleProperties;1;0;1;1.0;0.975;3;436;171
 org.gjt.sp.jedit.help.HelpTOCPanel.compare(java.lang.Object, java.lang.Object);org.gjt.sp.jedit.jEdit;0;0;3;1.0;1.0;5;202;1786
 org.gjt.sp.jedit.textarea.BufferHandler.transactionComplete(org.gjt.sp.jedit.buffer.JEditBuffer);org.gjt.sp.jedit.textarea.JEditTextArea;2;4;3;0.8095238095238095;0.9928571428571429;22;165;2660
-org.gjt.sp.jedit.help.HelpViewer.propertyChange(java.beans.PropertyChangeEvent);org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0
+org.gjt.sp.jedit.help.HelpViewer.propertyChange(java.beans.PropertyChangeEvent);org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0;0;0;0
 org.gjt.sp.jedit.gui.OptionsDialog.getIndexOfChild(java.lang.Object, java.lang.Object);org.gjt.sp.jedit.OptionGroup;1;0;1;1.0;0.9166666666666666;8;343;69
 org.gjt.sp.jedit.gui.DockableWindowManager.floatDockableWindow(java.lang.String);org.gjt.sp.jedit.gui.DockableWindowFactory;1;5;2;0.8717948717948718;1.0;16;409;218
 org.gjt.sp.jedit.pluginmgr.PluginManager.run();com.microstar.xml.XmlException;2;0;4;1.0;0.8181818181818181;22;175;18
@@ -1880,7 +1880,7 @@ bsh.BSHReturnStatement.eval(bsh.CallStack, bsh.Interpreter);bsh.SimpleNode;3;1;2
 org.gjt.sp.jedit.textarea.JEditTextArea.updateStructureHighlight();org.gjt.sp.jedit.textarea.TextAreaPainter;1;6;4;0.9786476868327402;0.9863013698630136;16;2660;298
 org.gjt.sp.jedit.ModeCatalogHandler.doctypeDecl(java.lang.String, java.lang.String, java.lang.String);org.gjt.sp.util.Log;0;1;1;0.9090909090909091;1.0;4;45;209
 org.gjt.sp.jedit.gui.EnhancedButton.mouseEntered(java.awt.event.MouseEvent);org.gjt.sp.jedit.View;0;2;4;0.75;1.0;7;33;762
-org.gjt.sp.jedit.help.HistoryButton.setEnabled(boolean);org.gjt.sp.jedit.gui.RolloverButton;0;0;0;0;0
+org.gjt.sp.jedit.help.HistoryButton.setEnabled(boolean);org.gjt.sp.jedit.gui.RolloverButton;0;0;0;0;0;0;0;0
 org.gjt.sp.jedit.textarea.JEditTextArea.addToSelection(org.gjt.sp.jedit.textarea.Selection[]);org.gjt.sp.jedit.textarea.SelectionManager;1;3;1;0.9926470588235294;0.9411764705882353;5;2660;190
 org.gjt.sp.jedit.options.ToolBarEditDialog.actionPerformed(java.awt.event.ActionEvent);org.gjt.sp.jedit.MiscUtilities;0;9;4;0.5909090909090908;1.0;22;195;695
 org.gjt.sp.jedit.gui.PanelWindowContainer.unregister(org.gjt.sp.jedit.gui.DockableWindowManager.Entry);org.gjt.sp.jedit.gui.DockableWindowManager;3;6;2;0.9047619047619048;0.9347826086956522;19;452;409
@@ -2280,7 +2280,7 @@ org.gjt.sp.jedit.gui.DockablePanel.mouseReleased(java.awt.event.MouseEvent);org.
 org.gjt.sp.jedit.buffer.PositionManager.checkInvariants();org.gjt.sp.jedit.buffer.JEditBuffer;1;1;1;0.9375;0.9908256880733946;3;55;1059
 org.gjt.sp.util.WorkThread.doRequests();org.gjt.sp.util.WorkThreadPool;4;2;2;0.9047619047619048;0.8947368421052632;25;97;186
 org.gjt.sp.jedit.io.VFS._listDirectory(java.awt.Component, java.lang.Object, java.lang.String);org.gjt.sp.jedit.io.VFSManager;1;1;1;0.9714285714285714;1.0;4;268;142
-org.gjt.sp.jedit.help.HistoryButton.actionPerformed(java.awt.event.ActionEvent);org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0
+org.gjt.sp.jedit.help.HistoryButton.actionPerformed(java.awt.event.ActionEvent);org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0;0;0;0
 org.gjt.sp.jedit.gui.StatusBar.updateMiscStatus();org.gjt.sp.jedit.textarea.JEditTextArea;3;6;2;0.8867924528301887;0.9892086330935251;6;364;2660
 org.gjt.sp.jedit.View.setBuffer(org.gjt.sp.jedit.Buffer);org.gjt.sp.jedit.EditPane;1;0;1;1.0;0.967741935483871;3;762;435
 org.gjt.sp.jedit.BeanShellAction.isSelected(java.awt.Component);org.gjt.sp.jedit.BeanShell;2;2;4;0.8571428571428572;1.0;26;61;304
@@ -3267,13 +3267,13 @@ org.gjt.sp.jedit.search.DirectoryListSet.setRecursive(boolean);org.gjt.sp.jedit.
 org.gjt.sp.jedit.search.HyperSearchResults.updateMultiStatus();org.gjt.sp.jedit.GUIUtilities;0;1;1;0.96875;1.0;4;293;529
 org.gjt.sp.jedit.io.VFSManager.run();org.gjt.sp.jedit.EditBus;0;0;1;1.0;1.0;9;142;44
 org.gjt.sp.jedit.options.StatusBarOptionPane._save();org.gjt.sp.jedit.gui.ColorWellButton;1;12;2;0.4;0.9642857142857143;18;86;70
-org.gjt.sp.jedit.help.HelpViewer.gotoURL(boolean, java.lang.String);org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0
+org.gjt.sp.jedit.help.HelpViewer.gotoURL(boolean, java.lang.String);org.gjt.sp.jedit.help.HelpHistoryModel;0;0;0;0;0;0;0;0
 org.gjt.sp.jedit.options.AbbrevsOptionPane.edit();org.gjt.sp.jedit.options.AbbrevsModel;4;2;3;0.9615384615384616;0.8095238095238095;19;153;88
 org.gjt.sp.jedit.Buffer.load(boolean, org.gjt.sp.jedit.View);org.gjt.sp.jedit.io.VFS;1;11;9;0.8809523809523809;1.0;58;686;268
 org.gjt.sp.jedit.textarea.FirstLine.scrollUp(int);org.gjt.sp.jedit.Debug;0;2;4;0.8461538461538461;1.0;24;175;0
 org.gjt.sp.jedit.io.VFS.getTwoStageSaveName(java.lang.String);org.gjt.sp.jedit.MiscUtilities;0;2;1;0.9411764705882353;1.0;3;268;695
 macos.Delegate.handleOpenFile(org.gjt.sp.jedit.msg.ViewUpdate);macos.MacOSPlugin;0;1;3;0.9615384615384616;1.0;9;224;43
-org.gjt.sp.jedit.textarea.JEditTextArea.addExplicitFold(int, int, int, int);org.gjt.sp.jedit.buffer.JEditBuffer;0;0;0;0;0
+org.gjt.sp.jedit.textarea.JEditTextArea.addExplicitFold(int, int, int, int);org.gjt.sp.jedit.buffer.JEditBuffer;0;0;0;0;0;0;0;0
 gnu.regexp.RETokenEnd.match(gnu.regexp.CharIndexed, gnu.regexp.REMatch);gnu.regexp.REToken;1;1;3;0.9;0.9166666666666666;17;24;30
 org.gjt.sp.jedit.msg.ViewUpdate.getView();org.gjt.sp.jedit.EBMessage;1;0;1;1.0;0.6666666666666667;3;14;17
 org.gjt.sp.jedit.search.AllBufferSet._getFiles(java.awt.Component);gnu.regexp.RE;1;1;5;0.8888888888888888;0.975;17;26;615

@@ -1,0 +1,109 @@
+org.apache.derby.impl.load.ExportAbstract.getOneRowAtATime(resultset);org.apache.derby.impl.load.ExportResultSetForObject
+org.apache.derby.impl.services.cache.Clock.release(cacheditem);org.apache.derby.impl.services.cache.CachedItem
+org.apache.derby.impl.store.access.conglomerate.GenericScanController.positionAtNextPage(rowposition);org.apache.derby.impl.store.access.conglomerate.RowPosition
+org.apache.derby.impl.store.access.conglomerate.OpenConglomerate.latchPageAndRepositionScan(rowposition);org.apache.derby.impl.store.access.conglomerate.RowPosition
+org.apache.derby.impl.store.access.conglomerate.OpenConglomerate.latchPage(rowposition);org.apache.derby.impl.store.access.conglomerate.RowPosition
+org.apache.derby.impl.store.access.conglomerate.GenericController.getEstimatedRowCount();org.apache.derby.impl.store.access.conglomerate.OpenConglomerate
+org.apache.derby.impl.store.access.conglomerate.GenericController.setEstimatedRowCount(long);org.apache.derby.impl.store.access.conglomerate.OpenConglomerate
+org.apache.derby.impl.store.access.btree.ControlRow.getRowTemplate(openbtree);org.apache.derby.impl.store.access.btree.OpenBTree
+org.apache.derby.impl.store.access.btree.BTreePostCommit.getShrinkKey(controlrow, int, openbtree);org.apache.derby.impl.store.access.btree.OpenBTree
+org.apache.derby.impl.store.access.heap.HeapPostCommit.purgeCommittedDeletes(heapcontroller, long);org.apache.derby.impl.store.access.heap.HeapController
+org.apache.derby.impl.store.access.heap.HeapCompressScan.positionAfterThisPage(rowposition);org.apache.derby.impl.store.access.conglomerate.RowPosition
+org.apache.derby.impl.store.access.RAMTransaction.determine_locking_policy(int, int);org.apache.derby.impl.store.access.RAMAccessManager
+org.apache.derby.impl.store.raw.log.LogAccessFile.writeInt(int);org.apache.derby.impl.store.raw.log.LogAccessFileBuffer
+org.apache.derby.impl.store.raw.log.LogAccessFile.writeLong(long);org.apache.derby.impl.store.raw.log.LogAccessFileBuffer
+org.apache.derby.impl.store.raw.log.LogAccessFile.write(int);org.apache.derby.impl.store.raw.log.LogAccessFileBuffer
+org.apache.derby.impl.store.raw.log.LogAccessFile.write(byte, int, int);org.apache.derby.impl.store.raw.log.LogAccessFileBuffer
+org.apache.derby.impl.store.raw.log.D_FlushedScan.diag();org.apache.derby.impl.store.raw.log.FlushedScan
+org.apache.derby.impl.store.raw.data.StoredPage.qualifyRecordFromSlot(fetchdescriptor, int, object, recordhandle, storedrecordheader);org.apache.derby.iapi.store.raw.FetchDescriptor
+org.apache.derby.impl.store.raw.data.StoredPage.moveSavedDataToPage(dynamicbytearrayoutputstream, int, int);org.apache.derby.iapi.services.io.DynamicByteArrayOutputStream
+org.apache.derby.impl.store.raw.data.StoredPage.updateOverflowed(formatablebitset, int, object, rawtransaction, storedrecordheader);org.apache.derby.impl.store.raw.data.StoredRecordHeader
+org.apache.derby.impl.store.raw.data.LoggableActions.doAction(basepage, loggable, rawtransaction);org.apache.derby.impl.store.raw.data.BasePage
+org.apache.derby.impl.store.raw.data.DirectActions.actionInitPage(basepage, int, int, long, rawtransaction);org.apache.derby.impl.store.raw.data.BasePage
+org.apache.derby.impl.store.raw.data.D_StoredPage.diag_detail(properties);org.apache.derby.impl.store.raw.data.StoredPage
+org.apache.derby.impl.store.raw.data.D_StoredPage.checkSlotTable(printstream);org.apache.derby.impl.store.raw.data.StoredPage
+org.apache.derby.impl.store.raw.data.AllocPage.preAllocatePage(filecontainer, int, int);org.apache.derby.impl.store.raw.data.AllocExtent
+org.apache.derby.impl.store.raw.data.EncryptData.getFilePath(boolean, containerkey);org.apache.derby.iapi.store.raw.ContainerKey
+org.apache.derby.impl.store.raw.data.BaseContainer.removePage(basecontainerhandle, basepage);org.apache.derby.impl.store.raw.data.BasePage
+org.apache.derby.impl.store.raw.data.BaseContainer.latchPage(basecontainerhandle, basepage, boolean);org.apache.derby.impl.store.raw.data.BasePage
+org.apache.derby.impl.store.raw.data.BaseContainer.letGo(basecontainerhandle);org.apache.derby.impl.store.raw.data.BaseContainerHandle
+org.apache.derby.impl.store.raw.data.RecordId.requestCompatible(object, object);org.apache.derby.iapi.store.raw.RowLock
+org.apache.derby.impl.sql.catalog.DD_Version.dropJDBCMetadataSPSes(boolean, transactioncontroller);org.apache.derby.impl.sql.catalog.DataDictionaryImpl
+org.apache.derby.impl.sql.catalog.DD_Version.makeSystemCatalog(tabinfoimpl, transactioncontroller);org.apache.derby.impl.sql.catalog.DataDictionaryImpl
+org.apache.derby.impl.sql.catalog.DD_Version.fillIndex(int, long, tabinfoimpl, transactioncontroller);org.apache.derby.impl.sql.catalog.TabInfoImpl
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.duplicateDescriptorException(tupledescriptor, tupledescriptor);org.apache.derby.iapi.sql.dictionary.TupleDescriptor
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.isSchemaReferenced(datavaluedescriptor, int, int, tabinfoimpl, transactioncontroller);org.apache.derby.impl.sql.catalog.TabInfoImpl
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addSPSParams(boolean, spsdescriptor, transactioncontroller);org.apache.derby.iapi.sql.dictionary.SPSDescriptor
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.updateSystemSchemaAuthorization(string, transactioncontroller);org.apache.derby.iapi.sql.dictionary.SchemaDescriptor
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.bootstrapOneIndex(datadescriptorgenerator, int, long, schemadescriptor, tabinfoimpl, transactioncontroller);org.apache.derby.impl.sql.catalog.TabInfoImpl
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.initSystemIndexVariables(datadescriptorgenerator, int, tabinfoimpl);org.apache.derby.impl.sql.catalog.TabInfoImpl
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addSystemTableToDictionary(datadescriptorgenerator, schemadescriptor, tabinfoimpl, transactioncontroller);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.faultInTabInfo(tabinfoimpl);org.apache.derby.impl.sql.catalog.TabInfoImpl
+org.apache.derby.impl.sql.catalog.DataDictionaryImpl.addTableDescriptorToOtherCache(cacheable, tabledescriptor);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.catalog.TabInfoImpl.getIndexRowFromHeapRow(execrow, indexrowgenerator, rowlocation);org.apache.derby.iapi.sql.dictionary.IndexRowGenerator
+org.apache.derby.impl.sql.catalog.SYSTRIGGERSRowFactory.makeRow(tupledescriptor, tupledescriptor);org.apache.derby.iapi.sql.dictionary.TriggerDescriptor
+org.apache.derby.impl.sql.catalog.SYSCOLPERMSRowFactory.buildColumnList();org.apache.derby.impl.sql.catalog.SystemColumnImpl
+org.apache.derby.impl.sql.catalog.SYSALIASESRowFactory.buildColumnList();org.apache.derby.impl.sql.catalog.SystemColumnImpl
+org.apache.derby.impl.sql.catalog.SYSCHECKSRowFactory.buildColumnList();org.apache.derby.impl.sql.catalog.SystemColumnImpl
+org.apache.derby.impl.sql.compile.RenameNode.descriptorExistsException(tupledescriptor, tupledescriptor);org.apache.derby.iapi.sql.dictionary.TupleDescriptor
+org.apache.derby.impl.sql.compile.NumericConstantNode.init(object);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.FromBaseTable.pushIndexName(conglomeratedescriptor, methodbuilder);org.apache.derby.iapi.sql.dictionary.ConglomerateDescriptor
+org.apache.derby.impl.sql.compile.BaseJoinStrategy.fillInScanArgs2(boolean, int, int, int, int, int, methodbuilder, optimizable);org.apache.derby.iapi.sql.dictionary.ConglomerateDescriptor
+org.apache.derby.impl.sql.compile.PredicateList.generateSingleQualifierCode(boolean, expressionclassbuilder, int, int, localfield, methodbuilder, optimizable, relationaloperator);org.apache.derby.impl.sql.compile.ExpressionClassBuilder
+org.apache.derby.impl.sql.compile.PredicateList.generateIndexableRow(expressionclassbuilder, int);org.apache.derby.impl.sql.compile.ExpressionClassBuilder
+org.apache.derby.impl.sql.compile.PredicateList.generateSetColumn(boolean, expressionclassbuilder, int, localfield, methodbuilder, optimizable, predicate);org.apache.derby.impl.sql.compile.Predicate
+org.apache.derby.impl.sql.compile.OrderByColumn.resolveColumnReference(columnreference, resultsetnode);org.apache.derby.impl.sql.compile.ColumnReference
+org.apache.derby.impl.sql.compile.ConcatenationOperatorNode.resolveConcatOperation(datatypedescriptor, datatypedescriptor);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.ConcatenationOperatorNode.resolveConcatOperation(datatypedescriptor, datatypedescriptor);org.apache.derby.iapi.types.DataTypeDescriptor
+org.apache.derby.impl.sql.compile.UpdateNode.normalizeCorrelatedColumns(fromtable, resultcolumnlist);org.apache.derby.impl.sql.compile.FromTable
+org.apache.derby.impl.sql.compile.ResultSetNode.setTableConstructorTypes(resultcolumnlist);org.apache.derby.impl.sql.compile.QueryTreeNodeVector
+org.apache.derby.impl.sql.compile.ResultSetNode.bindResultColumns(dmlstatementnode, fromlist, fromvti, resultcolumnlist, tabledescriptor);org.apache.derby.impl.sql.compile.ResultColumnList
+org.apache.derby.impl.sql.compile.ModifyColumnNode.getLocalColumnDescriptor(string, tabledescriptor);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.compile.Level2OptimizerImpl.dumpConglomerateDescriptor(conglomeratedescriptor);org.apache.derby.iapi.sql.dictionary.ConglomerateDescriptor
+org.apache.derby.impl.sql.compile.ResultColumnList.getResultColumn(string, string);org.apache.derby.impl.sql.compile.ResultColumn
+org.apache.derby.impl.sql.compile.ResultColumnList.generateCore(boolean, expressionclassbuilder, methodbuilder);org.apache.derby.impl.sql.compile.ResultColumn
+org.apache.derby.impl.sql.compile.ResultColumnList.buildEmptyIndexRow(conglomeratedescriptor, datadictionary, storecostcontroller, tabledescriptor);org.apache.derby.iapi.sql.dictionary.ConglomerateDescriptor
+org.apache.derby.impl.sql.compile.ResultColumnList.genCreateRow(expressionclassbuilder, int, localfield, string, string);org.apache.derby.impl.sql.compile.ExpressionClassBuilder
+org.apache.derby.impl.sql.compile.ResultColumnList.checkAutoincrement(resultcolumnlist);org.apache.derby.impl.sql.compile.ResultColumn
+org.apache.derby.impl.sql.compile.ResultColumnList.checkAutoincrement(resultcolumnlist);org.apache.derby.iapi.sql.dictionary.ColumnDescriptor
+org.apache.derby.impl.sql.compile.CharTypeCompiler.convertible(boolean, typeid);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.BitTypeCompiler.convertible(boolean, typeid);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.TableElementList.genColumnInfos(columninfo);org.apache.derby.impl.sql.compile.ColumnDefinitionNode
+org.apache.derby.impl.sql.compile.TableElementList.genIndexAction(boolean, boolean, constraintdefinitionnode, datadictionary, int, schemadescriptor, string, string, string);org.apache.derby.impl.sql.compile.ConstraintDefinitionNode
+org.apache.derby.impl.sql.compile.TimestampTypeCompiler.comparable(boolean, classfactory, typeid, typeid);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.TimestampTypeCompiler.convertible(boolean, typeid);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.CreateViewNode.bindViewDefinition(compilercontext, contextmanager, datadictionary, languageconnectioncontext, nodefactory, resultsetnode);org.apache.derby.iapi.sql.compile.NodeFactory
+org.apache.derby.impl.sql.compile.JavaValueNode.getJavaTypeName();org.apache.derby.iapi.types.JSQLType
+org.apache.derby.impl.sql.compile.JavaValueNode.mapToTypeID(jsqltype);org.apache.derby.iapi.types.JSQLType
+org.apache.derby.impl.sql.compile.DDLStatementNode.checkTableDescriptor(tabledescriptor);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.compile.BaseTypeCompiler.userTypeStorable(classfactory, typeid, typeid);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.BaseTypeCompiler.numberComparable(boolean, classfactory, typeid);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.BaseTypeCompiler.numberConvertible(boolean, typeid);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.BaseTypeCompiler.numberStorable(classfactory, typeid, typeid);org.apache.derby.iapi.types.TypeId
+org.apache.derby.impl.sql.compile.ExpressionClassBuilder.addColumnToOrdering(formatablearrayholder, int);org.apache.derby.iapi.services.io.FormatableArrayHolder
+org.apache.derby.impl.sql.compile.ColumnDefinitionNode.defaultTypeIsValid(datatypedescriptor, string, typeid, typeid, valuenode);org.apache.derby.impl.sql.compile.ValueNode
+org.apache.derby.impl.sql.compile.DMLModStatementNode.generateCodeForTemporaryTable(activationclassbuilder, methodbuilder);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.compile.DMLModStatementNode.bindCheckConstraint(nodefactory, resultcolumnlist, tabledescriptor, valuenode);org.apache.derby.iapi.sql.compile.NodeFactory
+org.apache.derby.impl.sql.compile.DMLModStatementNode.fkSetupArrays(boolean, datadictionary, foreignkeyconstraintdescriptor, int, int, long, string, uuid);org.apache.derby.iapi.sql.dictionary.ForeignKeyConstraintDescriptor
+org.apache.derby.impl.sql.compile.DMLModStatementNode.remapReferencedColumns(constraintdescriptor, int);org.apache.derby.iapi.sql.dictionary.ConstraintDescriptor
+org.apache.derby.impl.sql.compile.DMLModStatementNode.getRowMap(formatablebitset, tabledescriptor);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.execute.AlterTableConstantAction.modifyColumnConstraint(activation, boolean, string);org.apache.derby.iapi.sql.dictionary.ColumnDescriptor
+org.apache.derby.impl.sql.execute.AlterTableConstantAction.updateNewColumnToDefault(activation, languageconnectioncontext, string, string);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.execute.AlterTableConstantAction.getColumnMax(activation, long, long, string, tabledescriptor);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.execute.AlterTableConstantAction.updateNewAutoincrementColumn(activation, long, long, string);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.execute.AlterTableConstantAction.validateNotNullConstraint(boolean, int, languageconnectioncontext, string, string);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.execute.PrivilegeInfo.checkOwnership(datadictionary, schemadescriptor, string, tupledescriptor);org.apache.derby.iapi.sql.dictionary.SchemaDescriptor
+org.apache.derby.impl.sql.execute.RealResultSetStatisticsFactory.getResultSetStatistics(noputresultset);org.apache.derby.impl.sql.execute.DependentResultSet
+org.apache.derby.impl.sql.execute.RealResultSetStatisticsFactory.getResultSetStatistics(noputresultset);org.apache.derby.impl.sql.execute.BasicNoPutResultSetImpl
+org.apache.derby.impl.sql.execute.RealResultSetStatisticsFactory.getResultSetStatistics(noputresultset);org.apache.derby.impl.sql.execute.JoinResultSet
+org.apache.derby.impl.sql.execute.RealResultSetStatisticsFactory.getResultSetStatistics(noputresultset);org.apache.derby.impl.sql.execute.SetOpResultSet
+org.apache.derby.impl.sql.execute.RealResultSetStatisticsFactory.getResultSetStatistics(noputresultset);org.apache.derby.impl.sql.execute.HashScanResultSet
+org.apache.derby.impl.sql.execute.RealResultSetStatisticsFactory.getResultSetStatistics(noputresultset);org.apache.derby.impl.sql.execute.TableScanResultSet
+org.apache.derby.impl.sql.execute.SetConstraintsConstantAction.validateAllCheckConstraints(hashtable, languageconnectioncontext);org.apache.derby.iapi.sql.dictionary.ConstraintDescriptor
+org.apache.derby.impl.sql.execute.SetConstraintsConstantAction.getRowLocation(datadictionary, tabledescriptor, transactioncontroller);org.apache.derby.iapi.sql.dictionary.TableDescriptor
+org.apache.derby.impl.sql.execute.InsertResultSet.makeIndexTemplate(contextmanager, execrow, fkinfo);org.apache.derby.impl.sql.execute.FKInfo
+org.apache.derby.impl.sql.depend.BasicDependencyManager.getLanguageConnectionContext(contextmanager);org.apache.derby.iapi.services.context.ContextManager
+org.apache.derby.iapi.services.context.ContextService.setCurrentContextManager(contextmanager);org.apache.derby.iapi.services.context.ContextManager
+org.apache.derby.catalog.types.BaseTypeIdImpl.setTypeIdSpecificInstanceVariables();org.apache.derby.iapi.types.TypeId
+org.apache.derby.jdbc.EmbedXAResource.checkUserCredentials(embedxaresource);org.apache.derby.jdbc.EmbedPooledConnection
+org.apache.derby.jdbc.EmbedXAResource.returnConnectionToResource(xatransactionstate, xaxactid);org.apache.derby.jdbc.XATransactionState

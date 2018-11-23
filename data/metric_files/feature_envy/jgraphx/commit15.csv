@@ -53,7 +53,7 @@ com.mxgraph.view.mxGraphView.getPoint(com.mxgraph.model.mxGeometry, com.mxgraph.
 com.mxgraph.swing.util.mxMorphing.updateAnimation();com.mxgraph.swing.view.mxCellStatePreview;1;6;3;0.7222222222222222;0.962962962962963;16;128;236
 com.mxgraph.util.svg.PathParser.parset();com.mxgraph.util.svg.NumberParser;1;3;2;0.9032258064516129;0.8888888888888888;31;754;264
 com.mxgraph.shape.mxHtmlTextShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, java.lang.String, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxUtils;2;2;8;0.9615384615384616;1.0;27;45;1004
-com.mxgraph.view.mxGraph.getConnectionPoint(com.mxgraph.view.mxCellState, com.mxgraph.view.mxConnectionConstraint);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.view.mxGraph.getConnectionPoint(com.mxgraph.view.mxCellState, com.mxgraph.view.mxConnectionConstraint);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.io.mxRootChangeCodec.afterDecode(com.mxgraph.io.mxCodec, java.lang.Object, org.w3c.dom.Node);com.mxgraph.model.mxGraphModel;2;0;1;1.0;0.975;7;41;870
 com.mxgraph.canvas.mxVmlCanvas.drawText(int, int, int, int, java.lang.String, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxUtils;1;2;2;0.7777777777777778;1.0;5;286;1004
 com.mxgraph.canvas.mxGraphics2DCanvas.createStroke(java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxConstants;0;0;3;1.0;1.0;15;256;0
@@ -80,7 +80,7 @@ com.mxgraph.swing.util.mxMorphing.animateCell(boolean, com.mxgraph.swing.view.mx
 com.mxgraph.util.svg.AWTPolygonProducer.endPoints();com.mxgraph.util.svg.AWTPolylineProducer;1;0;1;1.0;0.8571428571428572;3;10;31
 com.mxgraph.view.mxSwimlaneManager.cellsAdded(java.lang.Object[]);com.mxgraph.view.mxGraph;1;2;1;0.8888888888888888;0.9971988795518207;16;158;3004
 com.mxgraph.canvas.mxGraphics2DCanvas.createStroke(java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.canvas.mxBasicCanvas;1;0;3;1.0;0.9285714285714286;15;256;44
-com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxGraphHandler.mouseReleased(java.awt.event.MouseEvent);com.mxgraph.swing.handler.mxMovePreview;2;16;8;0.851063829787234;0.9866666666666667;91;697;213
 com.mxgraph.swing.handler.mxConnectPreview.transformScreenPoint(double, double);com.mxgraph.view.mxGraph;1;0;4;1.0;0.9971910112359551;6;161;3004
 com.mxgraph.swing.handler.mxRotationHandler.isStateHandled(com.mxgraph.view.mxCellState);com.mxgraph.view.mxGraph;1;0;3;1.0;0.9971830985915493;3;145;3004
@@ -94,7 +94,7 @@ com.mxgraph.view.mxGraph.getCellValidationError(java.lang.Object);com.mxgraph.vi
 com.mxgraph.layout.mxParallelEdgeLayout.layout(java.util.List<java.lang.Object>);com.mxgraph.layout.mxGraphLayout;0;2;4;0.9411764705882353;1.0;34;92;173
 com.mxgraph.shape.mxDefaultTextShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, java.lang.String, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.canvas.mxBasicCanvas;1;1;6;1.0;0.972972972972973;62;64;44
 com.mxgraph.swing.handler.mxGraphTransferHandler.importCells(com.mxgraph.swing.mxGraphComponent, com.mxgraph.swing.util.mxGraphTransferable, double, double);com.mxgraph.view.mxGraph;4;2;3;0.9310344827586207;0.9916434540389972;14;183;3004
-com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxEdgeHandler.validateConnection(java.lang.Object, java.lang.Object);com.mxgraph.view.mxCellState;1;0;4;1.0;0.9473684210526316;3;413;178
 com.mxgraph.swing.handler.mxSelectionCellsHandler.mouseDragged(java.awt.event.MouseEvent);com.mxgraph.swing.handler.mxCellHandler;1;2;1;0.9333333333333333;0.9743589743589743;8;191;160
 com.mxgraph.layout.mxFastOrganicLayout.execute(java.lang.Object);com.mxgraph.util.mxPoint;2;26;4;0.5357142857142857;0.9649122807017544;115;256;50
@@ -203,7 +203,7 @@ com.mxgraph.shape.mxImageShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas,
 com.mxgraph.swing.handler.mxRubberband.mouseReleased(java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;1;3;1;0.92;0.9957081545064378;8;135;1798
 com.mxgraph.view.mxGraphView.getPerimeterPoint(boolean, com.mxgraph.util.mxPoint, com.mxgraph.view.mxCellState, double);com.mxgraph.view.mxPerimeter;1;3;2;0.9516129032258065;1.0;16;829;295
 com.mxgraph.swing.mxGraphComponent.getCellAt(boolean, int, int, java.lang.Object);com.mxgraph.swing.view.mxInteractiveCanvas;2;2;4;0.9958677685950413;0.9545454545454546;35;1798;74
-com.mxgraph.shape.mxSwimlaneShape.getTitleSize(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.getTitleSize(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.swing.mxGraphComponent.updatePreferredSize();com.mxgraph.view.mxGraphView;1;6;3;0.9747899159663865;0.9868421052631579;25;1798;829
 com.mxgraph.util.svg.PathParser.parsem();com.mxgraph.util.svg.NumberParser;1;3;2;0.9032258064516129;0.8888888888888888;10;754;264
 com.mxgraph.swing.mxGraphComponent.scrollCellToVisible(boolean, java.lang.Object);com.mxgraph.view.mxGraph;0;1;4;0.9957983193277311;1.0;14;1798;3004
@@ -267,7 +267,7 @@ com.mxgraph.swing.util.mxMorphing.getDelta(com.mxgraph.view.mxCellState);com.mxg
 com.mxgraph.util.svg.PathParser.parsev();com.mxgraph.util.svg.NumberParser;1;3;2;0.9;0.875;29;754;264
 com.mxgraph.canvas.mxVmlCanvas.drawLabel(boolean, com.mxgraph.view.mxCellState, java.lang.String);com.mxgraph.canvas.mxBasicCanvas;2;1;4;1.0;0.8823529411764706;12;286;44
 com.mxgraph.swing.mxGraphComponent.print(int, java.awt.Graphics, java.awt.print.PageFormat);com.mxgraph.canvas.mxGraphics2DCanvas;1;2;8;0.9921568627450981;0.9787234042553191;38;1798;256
-com.mxgraph.shape.mxStencil.drawShadow(boolean, boolean, boolean, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.util.mxRectangle, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState, double, double);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0
+com.mxgraph.shape.mxStencil.drawShadow(boolean, boolean, boolean, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.util.mxRectangle, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState, double, double);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0;0;0;0
 com.mxgraph.swing.mxGraphComponent.getExtendedCellBounds(com.mxgraph.view.mxCellState);com.mxgraph.util.mxRectangle;5;0;6;1.0;0.7222222222222222;16;1798;96
 com.mxgraph.swing.mxGraphComponent.getExtendedCellBounds(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;0;6;1.0;0.962962962962963;16;1798;178
 com.mxgraph.layout.hierarchical.mxHierarchicalLayout.getEdges(java.lang.Object);com.mxgraph.model.mxGraphModel;1;1;5;0.9777777777777777;1.0;25;273;870
@@ -296,7 +296,7 @@ com.mxgraph.swing.handler.mxCellMarker.unmark();com.mxgraph.util.mxEvent;0;0;2;1
 com.mxgraph.view.mxGraph.isCellEditable(java.lang.Object);com.mxgraph.view.mxCellState;1;3;4;0.9915730337078652;0.9565217391304348;5;3004;178
 com.mxgraph.swing.mxGraphComponent.getExportableCells(java.lang.Object[]);com.mxgraph.model.mxGraphModel;1;2;1;0.9911894273127754;1.0;8;1798;870
 com.mxgraph.layout.hierarchical.stage.mxCoordinateAssignment.setVertexLocation(com.mxgraph.layout.hierarchical.model.mxGraphAbstractHierarchyCell);com.mxgraph.layout.hierarchical.model.mxGraphHierarchyNode;1;4;3;0.9365079365079365;0.96;15;847;69
-com.mxgraph.view.mxGraph.getConnectionPoint(com.mxgraph.view.mxCellState, com.mxgraph.view.mxConnectionConstraint);com.mxgraph.view.mxCellState;0;0;0;0;0
+com.mxgraph.view.mxGraph.getConnectionPoint(com.mxgraph.view.mxCellState, com.mxgraph.view.mxConnectionConstraint);com.mxgraph.view.mxCellState;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraphView.getPerimeterPoint(boolean, com.mxgraph.util.mxPoint, com.mxgraph.view.mxCellState, double);com.mxgraph.util.mxRectangle;2;3;2;0.9516129032258065;0.8823529411764706;16;829;96
 com.mxgraph.swing.view.mxCellStatePreview.restore(java.util.List<com.mxgraph.view.mxCellState>);com.mxgraph.view.mxGraph;0;1;4;0.9583333333333334;1.0;11;236;3004
 com.mxgraph.swing.handler.mxRotationHandler.mouseMoved(java.awt.event.MouseEvent);com.mxgraph.view.mxGraphView;1;3;5;0.9210526315789473;0.9880952380952381;29;145;829
@@ -305,7 +305,7 @@ com.mxgraph.view.mxGraph.alignCells(java.lang.Object, java.lang.Object[], java.l
 com.mxgraph.swing.handler.mxEdgeHandler.createHandles();com.mxgraph.swing.handler.mxCellHandler;0;4;4;0.9166666666666666;1.0;9;413;160
 com.mxgraph.view.mxGraph.getCloneableCells(java.lang.Object[]);com.mxgraph.model.mxGraphModel;1;2;1;0.9943502824858758;1.0;8;3004;870
 com.mxgraph.view.mxGraph.cellSizeUpdated(boolean, java.lang.Object);com.mxgraph.util.mxConstants;0;6;9;0.9865229110512129;1.0;55;3004;0
-com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.canvas.mxGraphics2DCanvas;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.canvas.mxGraphics2DCanvas;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraph.isCellDeletable(java.lang.Object);com.mxgraph.view.mxGraphView;1;2;4;0.9943820224719101;0.9841269841269842;5;3004;829
 com.mxgraph.swing.handler.mxMovePreview.stop(boolean, boolean, double, double, java.awt.event.MouseEvent, java.lang.Object);com.mxgraph.view.mxGraph;2;2;5;0.9333333333333333;0.997229916897507;17;213;3004
 com.mxgraph.swing.handler.mxRotationHandler.reset();com.mxgraph.swing.mxGraphComponent;1;3;4;0.8571428571428572;0.9957264957264957;16;145;1798
@@ -319,7 +319,7 @@ com.mxgraph.view.mxGraph.getImage(com.mxgraph.view.mxCellState);com.mxgraph.util
 com.mxgraph.util.svg.PathParser.doParse();com.mxgraph.util.svg.AbstractParser;4;21;1;0.38235294117647056;0.9166666666666666;89;754;73
 com.mxgraph.io.mxObjectCodec.processInclude(com.mxgraph.io.mxCodec, java.lang.Object, org.w3c.dom.Node);com.mxgraph.io.mxCodec;1;0;2;1.0;1.0;18;519;165
 com.mxgraph.layout.hierarchical.mxHierarchicalLayout.findRoots(java.lang.Object, java.util.Set<java.lang.Object>);com.mxgraph.view.mxGraph;2;1;3;0.96875;0.994413407821229;34;273;3004
-com.mxgraph.swing.handler.mxConnectPreview.paint(java.awt.Graphics);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.swing.handler.mxConnectPreview.paint(java.awt.Graphics);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraph.cellSizeUpdated(boolean, java.lang.Object);com.mxgraph.util.mxRectangle;2;6;9;0.9865229110512129;0.9411764705882353;55;3004;96
 com.mxgraph.swing.handler.mxGraphHandler.createMarker();com.mxgraph.swing.handler.mxGraphTransferHandler;1;4;5;0.9411764705882353;0.9736842105263158;38;697;183
 com.mxgraph.view.mxGraphView.getRoutingCenterY(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;0;4;1.0;0.9523809523809523;4;829;178
@@ -353,7 +353,7 @@ com.mxgraph.analysis.mxGraphAnalysis.getShortestPath(boolean, com.mxgraph.analys
 com.mxgraph.view.mxGraph.isCellFoldable(boolean, java.lang.Object);com.mxgraph.util.mxConstants;0;2;4;0.9943977591036415;1.0;5;3004;0
 com.mxgraph.view.mxGraph.repaint(com.mxgraph.util.mxRectangle);com.mxgraph.util.mxEventSource;1;0;2;1.0;0.875;3;3004;57
 com.mxgraph.view.mxGraph.postProcessCellStyle(java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxUtils;1;1;2;0.9972144846796658;1.0;20;3004;1004
-com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraph.setSelectionCell(java.lang.Object);com.mxgraph.view.mxGraphSelectionModel;1;0;1;1.0;0.9523809523809523;3;3004;141
 com.mxgraph.swing.mxGraphComponent.getCells(java.awt.Rectangle, java.lang.Object);com.mxgraph.view.mxGraph;3;1;4;0.9959183673469387;0.9918918918918919;36;1798;3004
 com.mxgraph.swing.handler.mxGraphHandler.mouseReleased(java.awt.event.MouseEvent);com.mxgraph.view.mxGraphView;2;16;8;0.851063829787234;0.9818181818181818;91;697;829
@@ -371,13 +371,13 @@ com.mxgraph.view.mxGraph.cellsFolded(boolean, boolean, boolean, java.lang.Object
 com.mxgraph.swing.view.mxCellStatePreview.show();com.mxgraph.view.mxCellState;1;7;6;0.7878787878787878;0.9736842105263158;47;236;178
 com.mxgraph.layout.mxStackLayout.execute(java.lang.Object);com.mxgraph.model.mxGeometry;1;9;6;0.7096774193548387;0.9714285714285714;93;147;118
 com.mxgraph.canvas.mxGraphics2DCanvas.getShape(java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.shape.mxStencilRegistry;0;0;3;1.0;1.0;8;256;6
-com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxRotationHandler.isStateHandled(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;0;3;1.0;0.95;3;145;178
 com.mxgraph.swing.view.mxCellStatePreview.revalidateState(com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState, double, double);com.mxgraph.model.mxGeometry;1;2;7;0.9428571428571428;0.9583333333333334;31;236;118
 com.mxgraph.view.mxSwimlaneManager.setGraph(com.mxgraph.view.mxGraph);com.mxgraph.util.mxEvent;0;2;2;0.8823529411764706;1.0;11;158;0
 com.mxgraph.swing.util.mxCellOverlay.getBounds(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;3;4;6;0.7894736842105263;0.90625;41;61;178
 com.mxgraph.view.mxGraph.cellsOrdered(boolean, java.lang.Object[]);com.mxgraph.util.mxEvent;0;1;2;0.9972144846796658;1.0;20;3004;0
-com.mxgraph.swing.mxGraphComponent.drawGraph(boolean, java.awt.Graphics2D);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.swing.mxGraphComponent.drawGraph(boolean, java.awt.Graphics2D);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxEdgeHandler.mouseDragged(java.awt.event.MouseEvent);com.mxgraph.view.mxGraph;2;8;8;0.9078947368421053;0.9975062344139651;89;413;3004
 com.mxgraph.view.mxGraphView.updateCellState(com.mxgraph.view.mxCellState);com.mxgraph.util.mxRectangle;2;7;5;0.9466666666666667;0.935483870967742;59;829;96
 com.mxgraph.util.svg.PointsParser.doParse();com.mxgraph.util.svg.AbstractParser;3;1;2;0.9090909090909091;0.8;16;25;73
@@ -490,7 +490,7 @@ com.mxgraph.swing.handler.mxRotationHandler.reset();com.mxgraph.util.mxUtils;0;3
 com.mxgraph.layout.mxPartitionLayout.execute(java.lang.Object);com.mxgraph.util.mxRectangle;2;5;6;0.8214285714285714;0.9459459459459459;63;104;96
 com.mxgraph.view.mxGraph.isSwimlane(java.lang.Object);com.mxgraph.util.mxConstants;0;2;4;0.9944444444444445;1.0;12;3004;0
 com.mxgraph.canvas.mxSvgCanvas.drawLine(java.util.List<com.mxgraph.util.mxPoint>, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.canvas.mxBasicCanvas;1;3;4;0.9523809523809523;0.9666666666666667;95;746;44
-com.mxgraph.swing.util.mxMorphing.updateAnimation();com.mxgraph.swing.util.mxAnimation;0;0;0;0;0
+com.mxgraph.swing.util.mxMorphing.updateAnimation();com.mxgraph.swing.util.mxAnimation;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraph.enterGroup(java.lang.Object);com.mxgraph.view.mxGraphView;1;3;1;0.9915254237288136;0.9838709677419355;9;3004;829
 com.mxgraph.analysis.mxGraphGenerator.oneSpanningTree(boolean, boolean, com.mxgraph.analysis.mxAnalysisGraph);com.mxgraph.analysis.mxAnalysisGraph;1;0;3;1.0;0.9230769230769231;30;819;72
 com.mxgraph.model.mxGraphModel.endUpdate();com.mxgraph.util.mxUndoableEdit;2;3;3;0.963855421686747;0.8666666666666667;19;870;56
@@ -516,9 +516,9 @@ com.mxgraph.swing.handler.mxCellMarker.getCell(java.awt.event.MouseEvent);com.mx
 com.mxgraph.layout.hierarchical.stage.mxCoordinateAssignment.printStatus();com.mxgraph.layout.hierarchical.mxHierarchicalLayout;0;0;3;1.0;1.0;15;847;273
 com.mxgraph.layout.mxPartitionLayout.execute(java.lang.Object);com.mxgraph.layout.mxGraphLayout;2;5;6;0.8214285714285714;0.9487179487179487;63;104;173
 com.mxgraph.view.mxGraphView.updateFloatingTerminalPoint(boolean, com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState);com.mxgraph.util.mxUtils;1;3;4;1.0;1.0;8;829;1004
-com.mxgraph.shape.mxStencil.drawShadow(boolean, boolean, boolean, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.util.mxRectangle, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.shape.mxStencil.drawShadow(boolean, boolean, boolean, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.util.mxRectangle, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxConnectionHandler.createTargetVertex(java.awt.event.MouseEvent, java.lang.Object);com.mxgraph.view.mxGraph;3;0;4;1.0;0.9916434540389972;12;389;3004
-com.mxgraph.shape.mxSwimlaneShape.getTitleSize(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.getTitleSize(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;0;0;0;0;0;0;0;0
 com.mxgraph.layout.mxGraphLayout.getVertexBounds(java.lang.Object);com.mxgraph.view.mxCellState;0;3;5;0.88;1.0;25;173;178
 com.mxgraph.swing.mxGraphComponent.refresh();com.mxgraph.swing.handler.mxSelectionCellsHandler;1;0;2;1.0;0.9583333333333334;4;1798;191
 com.mxgraph.view.mxGraph.toggleCells(boolean, boolean, java.lang.Object[]);com.mxgraph.util.mxEventSource;1;4;2;0.9915966386554622;0.9285714285714286;17;3004;57
@@ -562,7 +562,7 @@ com.mxgraph.view.mxSwimlaneManager.resizeSwimlane(boolean, double, double, java.
 com.mxgraph.swing.mxGraphComponent.drawGraph(boolean, java.awt.Graphics2D);com.mxgraph.view.mxGraphView;1;1;4;0.9957264957264957;0.9850746268656716;19;1798;829
 com.mxgraph.swing.view.mxCellStatePreview.restore(java.util.List<com.mxgraph.view.mxCellState>);com.mxgraph.view.mxCellState;1;1;4;0.9583333333333334;0.9565217391304348;11;236;178
 com.mxgraph.swing.handler.mxVertexHandler.createHandles();com.mxgraph.util.mxPoint;2;0;7;1.0;0.8666666666666667;30;216;50
-com.mxgraph.canvas.mxImageCanvas.setTranslate(double, double);com.mxgraph.canvas.mxBasicCanvas;0;0;0;0;0
+com.mxgraph.canvas.mxImageCanvas.setTranslate(double, double);com.mxgraph.canvas.mxBasicCanvas;0;0;0;0;0;0;0;0
 com.mxgraph.util.svg.PathParser.reportUnexpected(int);com.mxgraph.util.svg.AbstractParser;2;1;1;0.962962962962963;0.8;4;754;73
 com.mxgraph.view.mxGraph.getEdgeValidationError(java.lang.Object, java.lang.Object, java.lang.Object);com.mxgraph.view.mxMultiplicity;1;7;3;0.9805555555555555;1.0;39;3004;78
 com.mxgraph.view.mxGraphView.getEdgeStyle(com.mxgraph.view.mxCellState, java.lang.Object, java.lang.Object, java.util.List<com.mxgraph.util.mxPoint>);com.mxgraph.view.mxStyleRegistry;0;0;5;1.0;1.0;24;829;16
@@ -591,7 +591,7 @@ com.mxgraph.shape.mxBasicShape.getFillColor(com.mxgraph.canvas.mxGraphics2DCanva
 com.mxgraph.swing.handler.mxGraphHandler.dragOver(java.awt.dnd.DropTargetDragEvent);com.mxgraph.util.mxPoint;1;7;6;0.904109589041096;0.9666666666666667;32;697;50
 com.mxgraph.swing.handler.mxEdgeHandler.convertPoint(boolean, com.mxgraph.util.mxPoint);com.mxgraph.util.mxPoint;2;0;6;1.0;0.75;14;413;50
 com.mxgraph.canvas.mxGraphics2DCanvas.createFillPaint(com.mxgraph.util.mxRectangle, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxRectangle;2;0;4;1.0;0.8888888888888888;28;256;96
-com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.util.mxRectangle;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.util.mxRectangle;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxMovePreview.reset();com.mxgraph.swing.handler.mxSelectionCellsHandler;1;5;5;0.8214285714285714;0.96875;22;213;191
 com.mxgraph.swing.handler.mxVertexHandler.mouseDragged(java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;4;3;7;0.926829268292683;0.9841897233201581;43;216;1798
 com.mxgraph.swing.handler.mxCellHandler.refresh(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;4;4;0.8857142857142857;0.96;16;160;178
@@ -710,7 +710,7 @@ com.mxgraph.swing.handler.mxConnectionHandler.validateConnection(java.lang.Objec
 com.mxgraph.view.mxGraph.cloneCells(boolean, java.lang.Object[]);com.mxgraph.view.mxGraphView;2;2;4;0.9946380697050938;0.9746835443037974;63;3004;829
 com.mxgraph.view.mxTemporaryCellStates.destroy();com.mxgraph.view.mxGraphView;2;2;1;0.6;0.9672131147540983;5;35;829
 com.mxgraph.util.svg.PathParser.parseA();com.mxgraph.util.svg.AbstractParser;3;3;2;0.9032258064516129;0.8;65;754;73
-com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxRectangle;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxRectangle;0;0;0;0;0;0;0;0
 com.mxgraph.analysis.mxGraphAnalysis.getMinimumSpanningTree(boolean, com.mxgraph.analysis.mxICostFunction, com.mxgraph.view.mxGraph, java.lang.Object[]);com.mxgraph.analysis.mxFibonacciHeap;6;1;3;0.9583333333333334;0.84375;37;156;221
 com.mxgraph.layout.mxParallelEdgeLayout.getEdgeId(java.lang.Object);com.mxgraph.view.mxCellState;1;0;5;1.0;0.9523809523809523;12;92;178
 com.mxgraph.shape.mxTriangleShape.createShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;0;4;1.0;0.9615384615384616;30;30;178
@@ -739,7 +739,7 @@ com.mxgraph.swing.handler.mxConnectionHandler.removeGraphListeners(com.mxgraph.v
 com.mxgraph.swing.handler.mxGraphHandler.installDragGestureHandler();com.mxgraph.swing.handler.mxGraphTransferHandler;2;3;3;0.9545454545454546;0.9714285714285714;26;697;183
 com.mxgraph.canvas.mxGraphics2DCanvas.drawCell(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;3;3;0.9090909090909091;0.9583333333333334;13;256;178
 com.mxgraph.analysis.mxGraphGenerator.getFriendshipWindmillGraph(com.mxgraph.analysis.mxAnalysisGraph, int, int);com.mxgraph.analysis.mxAnalysisGraph;0;1;2;0.9722222222222222;1.0;27;819;72
-com.mxgraph.view.mxCellState.toString();com.mxgraph.util.mxRectangle;0;0;0;0;0
+com.mxgraph.view.mxCellState.toString();com.mxgraph.util.mxRectangle;0;0;0;0;0;0;0;0
 com.mxgraph.util.mxLine.ptLineDistSq(com.mxgraph.util.mxPoint);com.mxgraph.util.mxPoint;2;0;1;1.0;0.7142857142857143;3;27;50
 com.mxgraph.swing.handler.mxCellHandler.mousePressed(java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;1;4;1;0.9189189189189189;0.9957264957264957;10;160;1798
 com.mxgraph.swing.handler.mxRotationHandler.mouseReleased(java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;1;4;4;0.8260869565217391;0.9957805907172996;18;145;1798
@@ -765,7 +765,7 @@ com.mxgraph.view.mxGraph.cellConnected(boolean, com.mxgraph.view.mxConnectionCon
 com.mxgraph.view.mxGraphView.updateFixedTerminalPoint(boolean, com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState, com.mxgraph.view.mxConnectionConstraint);com.mxgraph.util.mxPoint;2;1;4;0.9848484848484849;0.8333333333333334;15;829;50
 com.mxgraph.analysis.mxAnalysisGraph.getEdges(boolean, boolean, java.lang.Object, java.lang.Object);com.mxgraph.analysis.mxGraphProperties;1;2;1;0.9166666666666666;1.0;8;72;22
 com.mxgraph.swing.mxGraphComponent.hitFoldingIcon(int, int, java.lang.Object);com.mxgraph.view.mxGraph;1;3;2;0.987012987012987;0.9972222222222222;16;1798;3004
-com.mxgraph.shape.mxSwimlaneShape.getArcSize(com.mxgraph.view.mxCellState, double);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.getArcSize(com.mxgraph.view.mxCellState, double);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.shape.mxDoubleRectangleShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxRectangle;1;0;7;1.0;0.9583333333333334;10;10;96
 com.mxgraph.analysis.mxGraphGenerator.getWheelGraph(com.mxgraph.analysis.mxAnalysisGraph, int);com.mxgraph.view.mxGraph;3;1;2;0.9722222222222222;0.9971988795518207;21;819;3004
 com.mxgraph.reader.mxGraphViewReader.parseElement(java.lang.String, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxUtils;1;5;1;0.7857142857142857;1.0;20;85;1004
@@ -851,9 +851,9 @@ com.mxgraph.layout.hierarchical.stage.mxCoordinateAssignment.localEdgeProcessing
 com.mxgraph.io.mxObjectCodec.writePrimitiveAttribute(com.mxgraph.io.mxCodec, java.lang.Object, java.lang.Object, java.lang.String, org.w3c.dom.Node);com.mxgraph.io.mxCodec;2;0;1;1.0;0.9444444444444444;13;519;165
 com.mxgraph.shape.mxLineShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxGraphics2DCanvas;1;1;6;0.8571428571428572;1.0;6;24;256
 com.mxgraph.view.mxGraph.getStartSize(java.lang.Object);com.mxgraph.view.mxGraphView;1;1;5;0.9972144846796658;0.9846153846153847;15;3004;829
-com.mxgraph.swing.mxGraphComponent.getCells(java.awt.Rectangle, java.lang.Object);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.swing.mxGraphComponent.getCells(java.awt.Rectangle, java.lang.Object);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxRotationHandler.mouseDragged(java.awt.event.MouseEvent);com.mxgraph.util.mxUtils;0;5;4;0.8529411764705882;1.0;19;145;1004
-com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0;0;0;0
 com.mxgraph.swing.mxGraphComponent.refresh();com.mxgraph.view.mxGraph;1;0;2;1.0;0.9971751412429378;4;1798;3004
 com.mxgraph.swing.mxGraphComponent.checkTripleBuffer();com.mxgraph.util.mxRectangle;2;3;3;0.9871794871794872;0.9090909090909091;13;1798;96
 com.mxgraph.swing.util.mxAnimation.updateAnimation();com.mxgraph.util.mxEvent;0;0;2;1.0;1.0;3;39;0
@@ -883,7 +883,7 @@ com.mxgraph.view.mxGraphView.transformControlPoint(com.mxgraph.util.mxPoint, com
 com.mxgraph.swing.util.mxMorphing.getOriginForCell(java.lang.Object);com.mxgraph.view.mxGraphView;0;2;4;0.9047619047619048;1.0;20;128;829
 com.mxgraph.view.mxGraph.getLabel(java.lang.Object);com.mxgraph.util.mxConstants;0;3;4;0.9915730337078652;1.0;11;3004;0
 com.mxgraph.layout.mxGraphLayout.isVertexMovable(java.lang.Object);com.mxgraph.view.mxGraph;1;0;1;1.0;0.9971671388101983;3;173;3004
-com.mxgraph.shape.mxRectangleShape.getArcSize(com.mxgraph.view.mxCellState, double, double);com.mxgraph.view.mxCellState;0;0;0;0;0
+com.mxgraph.shape.mxRectangleShape.getArcSize(com.mxgraph.view.mxCellState, double, double);com.mxgraph.view.mxCellState;0;0;0;0;0;0;0;0
 com.mxgraph.shape.mxCylinderShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxGraphics2DCanvas;2;0;3;1.0;0.9655172413793104;23;23;256
 com.mxgraph.layout.hierarchical.stage.mxCoordinateAssignment.setEdgePosition(com.mxgraph.layout.hierarchical.model.mxGraphAbstractHierarchyCell);com.mxgraph.layout.hierarchical.model.mxGraphAbstractHierarchyCell;4;7;6;0.8985507246376812;0.9090909090909091;102;847;25
 com.mxgraph.swing.mxGraphComponent.print(int, java.awt.Graphics, java.awt.print.PageFormat);com.mxgraph.util.mxPoint;2;2;8;0.9921568627450981;0.9428571428571428;38;1798;50
@@ -911,7 +911,7 @@ com.mxgraph.view.mxGraph.cellsRemoved(java.lang.Object[]);com.mxgraph.util.mxEve
 com.mxgraph.analysis.mxGraphAnalysis.getMinimumSpanningTree(com.mxgraph.analysis.mxICostFunction, com.mxgraph.view.mxGraph, java.lang.Object[], java.lang.Object[]);com.mxgraph.view.mxGraph;0;2;4;0.9444444444444444;1.0;17;156;3004
 com.mxgraph.view.mxGraphView.getEdgeStyle(com.mxgraph.view.mxCellState, java.lang.Object, java.lang.Object, java.util.List<com.mxgraph.util.mxPoint>);com.mxgraph.view.mxGraph;1;0;5;1.0;0.9971988795518207;24;829;3004
 com.mxgraph.view.mxGraph.getSelectionCellsForChanges(java.util.List<com.mxgraph.util.mxUndoableEdit.mxUndoableChange>);com.mxgraph.model.mxGraphModel;3;1;1;0.997229916897507;0.9651162790697675;32;3004;870
-com.mxgraph.canvas.mxGraphicsCanvas2D.parseColor(double, java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.canvas.mxGraphicsCanvas2D.parseColor(double, java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.swing.mxGraphComponent.print(int, java.awt.Graphics, java.awt.print.PageFormat);com.mxgraph.view.mxGraphView;2;2;8;0.9921568627450981;0.9772727272727273;38;1798;829
 com.mxgraph.shape.mxArrowShape.createShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxConstants;0;0;4;1.0;1.0;37;37;0
 com.mxgraph.swing.mxGraphComponent.paintComponent(java.awt.Graphics);com.mxgraph.util.mxEvent;0;8;3;0.9698275862068966;1.0;25;1798;0
@@ -950,7 +950,7 @@ com.mxgraph.swing.handler.mxEdgeHandler.mouseReleased(java.awt.event.MouseEvent)
 com.mxgraph.util.png.mxPngImageEncoder.writePrivateChunks();com.mxgraph.util.png.ChunkStream;3;1;2;0.9791666666666666;0.8695652173913043;11;560;75
 com.mxgraph.swing.handler.mxGraphHandler.dragEnter(java.awt.dnd.DropTargetDragEvent);com.mxgraph.swing.handler.mxGraphTransferHandler;1;7;7;0.9078947368421053;0.9795918367346939;54;697;183
 com.mxgraph.canvas.mxImageCanvas.getScale();com.mxgraph.canvas.mxBasicCanvas;1;0;1;1.0;0.8888888888888888;3;45;44
-com.mxgraph.shape.mxSwimlaneShape.getGradientBounds(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.getGradientBounds(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.swing.view.mxInteractiveCanvas.hitSwimlaneContent(com.mxgraph.swing.mxGraphComponent, com.mxgraph.view.mxCellState, int, int);com.mxgraph.view.mxGraph;0;0;7;1.0;1.0;16;74;3004
 com.mxgraph.swing.handler.mxEdgeHandler.connect(boolean, boolean, java.lang.Object, java.lang.Object);com.mxgraph.view.mxGraph;6;0;3;1.0;0.9916666666666667;20;413;3004
 com.mxgraph.swing.view.mxCellStatePreview.restoreState(com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState);com.mxgraph.util.mxPoint;2;0;3;1.0;0.8333333333333334;14;236;50
@@ -1103,7 +1103,7 @@ com.mxgraph.shape.mxRectangleShape.paintShape(com.mxgraph.canvas.mxGraphics2DCan
 com.mxgraph.layout.mxCompactTreeLayout.isVertexIgnored(java.lang.Object);com.mxgraph.view.mxGraph;1;0;2;1.0;0.9971751412429378;3;543;3004
 com.mxgraph.view.mxGraphView.validateCell(boolean, java.lang.Object);com.mxgraph.view.mxGraph;3;4;1;0.9696969696969697;0.9916434540389972;17;829;3004
 com.mxgraph.shape.mxCurveLabelShape.updateLabelBounds(java.lang.String, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxCurve;4;16;7;0.8028169014084507;0.9680851063829787;186;264;615
-com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.canvas.mxGraphics2DCanvas;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.canvas.mxGraphics2DCanvas;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxCellMarker.mark();com.mxgraph.util.mxEventSource;1;0;4;1.0;0.9473684210526316;20;185;57
 com.mxgraph.util.png.mxPngImageEncoder.writeIHDR();com.mxgraph.util.png.ChunkStream;4;6;1;0.8695652173913043;0.84;12;560;75
 com.mxgraph.view.mxGraph.isCellBendable(java.lang.Object);com.mxgraph.util.mxUtils;1;3;4;0.9915730337078652;1.0;5;3004;1004
@@ -1143,7 +1143,7 @@ com.mxgraph.swing.handler.mxRotationHandler.mouseReleased(java.awt.event.MouseEv
 com.mxgraph.view.mxGraph.createEdge(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.String, java.lang.String);com.mxgraph.model.mxGeometry;1;0;2;1.0;0.8888888888888888;7;3004;118
 com.mxgraph.view.mxGraph.getDeletableCells(java.lang.Object[]);com.mxgraph.model.mxGraphModel;1;2;1;0.9943502824858758;1.0;8;3004;870
 com.mxgraph.swing.view.mxCellStatePreview.restore(java.util.List<com.mxgraph.view.mxCellState>);com.mxgraph.swing.mxGraphComponent;0;1;4;0.9583333333333334;1.0;11;236;1798
-com.mxgraph.shape.mxStencil.drawShadow(boolean, boolean, boolean, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.util.mxRectangle, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.shape.mxStencil.drawShadow(boolean, boolean, boolean, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.util.mxRectangle, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraph.processChange(boolean, boolean, com.mxgraph.util.mxUndoableEdit.mxUndoableChange);com.mxgraph.util.mxRectangle;1;8;5;0.9836512261580381;0.96875;105;3004;96
 com.mxgraph.view.mxEdgeStyle.apply(com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState, java.util.List<com.mxgraph.util.mxPoint>, java.util.List<com.mxgraph.util.mxPoint>);com.mxgraph.util.mxConstants;0;2;7;0.9444444444444444;1.0;253;272;0
 com.mxgraph.swing.handler.mxSelectionCellsHandler.addGraphListeners(com.mxgraph.view.mxGraph);com.mxgraph.util.mxEvent;0;2;3;0.9259259259259259;1.0;12;191;0
@@ -1199,7 +1199,7 @@ com.mxgraph.view.mxSwimlaneManager.cellsResized(java.lang.Object[]);com.mxgraph.
 com.mxgraph.view.mxGraph.processChanges(boolean, boolean, java.util.List<com.mxgraph.util.mxUndoableEdit.mxUndoableChange>);com.mxgraph.util.mxRectangle;1;1;1;1.0;0.9411764705882353;14;3004;96
 com.mxgraph.canvas.mxVmlCanvas.drawLabel(boolean, com.mxgraph.view.mxCellState, java.lang.String);com.mxgraph.util.mxPoint;2;1;4;1.0;0.8571428571428572;12;286;50
 com.mxgraph.swing.handler.mxMovePreview.stop(boolean, boolean, double, double, java.awt.event.MouseEvent, java.lang.Object);com.mxgraph.swing.mxGraphComponent;0;2;5;0.9333333333333333;1.0;17;213;1798
-com.mxgraph.shape.mxRectangleShape.getArcSize(com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.shape.mxRectangleShape.getArcSize(com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxRotationHandler.start(java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;2;3;5;0.875;0.9957805907172996;8;145;1798
 com.mxgraph.analysis.mxGraphGenerator.getPetersenGraph(com.mxgraph.analysis.mxAnalysisGraph);com.mxgraph.analysis.mxAnalysisGraph;0;1;2;0.9722222222222222;1.0;23;819;72
 com.mxgraph.util.svg.AWTPathProducer.curvetoQuadraticAbs(float, float, float, float);com.mxgraph.util.svg.ExtendedGeneralPath;1;4;1;0.8518518518518519;0.9795918367346939;3;85;426
@@ -1252,15 +1252,15 @@ com.mxgraph.swing.handler.mxGraphTransferHandler.createGraphTransferable(com.mxg
 com.mxgraph.swing.handler.mxConnectionHandler.validateConnection(java.lang.Object, java.lang.Object);com.mxgraph.view.mxGraph;1;2;4;0.95;0.9971910112359551;9;389;3004
 com.mxgraph.view.mxGraph.selectAll(java.lang.Object);com.mxgraph.model.mxGraphModel;0;3;1;0.9915014164305949;1.0;9;3004;870
 com.mxgraph.shape.mxLineShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxConstants;0;1;6;0.8571428571428572;1.0;6;24;0
-com.mxgraph.shape.mxRectangleShape.getArcSize(com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.shape.mxRectangleShape.getArcSize(com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraph.ungroupCells(java.lang.Object[]);com.mxgraph.util.mxEvent;0;5;3;0.9889807162534435;1.0;33;3004;0
 com.mxgraph.view.mxGraph.cellSizeUpdated(boolean, java.lang.Object);com.mxgraph.model.mxGeometry;1;6;9;0.9865229110512129;0.9655172413793104;55;3004;118
 com.mxgraph.shape.mxSwimlaneShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxGraphics2DCanvas;2;0;7;1.0;0.9333333333333333;22;33;256
-com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.shape.mxBasicShape;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.shape.mxBasicShape;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxGraphTransferHandler.removeCells(com.mxgraph.swing.mxGraphComponent, java.lang.Object[]);com.mxgraph.swing.mxGraphComponent;0;0;2;1.0;1.0;3;183;1798
 com.mxgraph.canvas.mxVmlCanvas.drawShape(int, int, int, int, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.canvas.mxBasicCanvas;2;2;3;0.9130434782608696;0.92;144;286;44
 com.mxgraph.swing.mxGraphComponent.cellDrawn(com.mxgraph.canvas.mxICanvas, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxGraphics2DCanvas;1;3;3;0.9873949579831933;0.967741935483871;15;1798;256
-com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.analysis.mxGraphGenerator.getBipartiteGraph(com.mxgraph.analysis.mxAnalysisGraph, int, int);com.mxgraph.analysis.mxAnalysisGraph;2;2;2;0.9473684210526316;1.0;25;819;72
 com.mxgraph.view.mxGraph.cellsMoved(boolean, boolean, double, double, java.lang.Object[]);com.mxgraph.util.mxEventSource;1;6;2;0.9859943977591037;0.9375;23;3004;57
 com.mxgraph.layout.mxPartitionLayout.execute(java.lang.Object);com.mxgraph.view.mxGraph;2;5;6;0.8214285714285714;0.9946949602122016;63;104;3004
@@ -1279,7 +1279,7 @@ com.mxgraph.view.mxGraph.getConnectionPoint(com.mxgraph.view.mxCellState, com.mx
 com.mxgraph.canvas.mxHtmlCanvas.drawLine(java.util.List<com.mxgraph.util.mxPoint>, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxPoint;2;1;4;1.0;0.8333333333333334;12;137;50
 com.mxgraph.layout.mxGraphLayout.setEdgeStyleEnabled(boolean, java.lang.Object);com.mxgraph.view.mxGraph;1;0;2;1.0;1.0;3;173;3004
 com.mxgraph.view.mxGraphView.updateFloatingTerminalPoint(boolean, com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;2;3;4;1.0;0.9583333333333334;8;829;178
-com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxRectangle;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxRectangle;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxGraphHandler.getCell(java.awt.event.MouseEvent);com.mxgraph.view.mxGraph;3;2;5;0.9692307692307692;0.9944903581267217;21;697;3004
 com.mxgraph.shape.mxHtmlTextShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, java.lang.String, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.canvas.mxBasicCanvas;1;2;8;0.9615384615384616;0.96875;27;45;44
 com.mxgraph.swing.handler.mxGraphHandler.start(java.awt.event.MouseEvent);com.mxgraph.view.mxGraphView;3;6;5;0.9047619047619048;0.9571428571428572;18;697;829
@@ -1329,8 +1329,8 @@ com.mxgraph.shape.mxLineShape.createPoints(com.mxgraph.canvas.mxGraphics2DCanvas
 com.mxgraph.swing.handler.mxConnectionHandler.mouseMoved(java.awt.event.MouseEvent);com.mxgraph.swing.handler.mxCellMarker;1;6;6;0.8909090909090909;0.9782608695652174;33;389;185
 com.mxgraph.swing.mxGraphComponent.paintBackgroundImage(java.awt.Graphics);com.mxgraph.util.mxPoint;2;1;3;0.9957081545064378;0.8333333333333334;7;1798;50
 com.mxgraph.view.mxGraph.cellsRemoved(java.lang.Object[]);com.mxgraph.util.mxPoint;2;2;6;0.9946236559139785;0.92;36;3004;50
-com.mxgraph.shape.mxSwimlaneShape.getArcSize(com.mxgraph.view.mxCellState, double);com.mxgraph.view.mxCellState;0;0;0;0;0
-com.mxgraph.shape.mxSwimlaneShape.getTitleSize(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxBasicCanvas;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.getArcSize(com.mxgraph.view.mxCellState, double);com.mxgraph.view.mxCellState;0;0;0;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.getTitleSize(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxBasicCanvas;0;0;0;0;0;0;0;0
 com.mxgraph.layout.hierarchical.stage.mxMedianHybridCrossingReduction.transpose(com.mxgraph.layout.hierarchical.model.mxGraphHierarchyModel, int);com.mxgraph.layout.hierarchical.model.mxGraphHierarchyModel;1;0;2;1.0;0.962962962962963;96;287;311
 com.mxgraph.swing.handler.mxConnectionHandler.createTargetVertex(java.awt.event.MouseEvent, java.lang.Object);com.mxgraph.swing.mxGraphComponent;1;0;4;1.0;0.9957264957264957;12;389;1798
 com.mxgraph.util.png.mxPngImageEncoder.writeSRGB();com.mxgraph.util.png.ChunkStream;3;1;2;0.9787234042553191;0.8636363636363636;9;560;75
@@ -1425,7 +1425,7 @@ com.mxgraph.swing.mxGraphComponent.labelChanged(java.lang.Object, java.lang.Obje
 com.mxgraph.canvas.mxVmlCanvas.drawShape(int, int, int, int, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxUtils;5;2;3;0.9130434782608696;1.0;144;286;1004
 com.mxgraph.view.mxMultiplicity.checkNeighbors(com.mxgraph.view.mxGraph, java.lang.Object, java.lang.Object, java.lang.Object);com.mxgraph.view.mxGraph;1;4;1;0.8181818181818181;0.997229916897507;19;78;3004
 com.mxgraph.swing.handler.mxGraphHandler.dragExit(java.awt.dnd.DropTargetEvent);com.mxgraph.swing.handler.mxCellMarker;1;3;2;0.9473684210526316;0.9642857142857143;10;697;185
-com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0;0;0;0
 com.mxgraph.canvas.mxVmlCanvas.drawLine(java.util.List<com.mxgraph.util.mxPoint>, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.canvas.mxBasicCanvas;1;2;4;0.9259259259259259;0.9666666666666667;26;286;44
 com.mxgraph.util.svg.AWTPathProducer.curvetoQuadraticSmoothRel(float, float);com.mxgraph.util.svg.ExtendedGeneralPath;1;4;1;0.8518518518518519;0.9795918367346939;3;85;426
 com.mxgraph.swing.handler.mxRubberband.paintRubberband(java.awt.Graphics);com.mxgraph.swing.mxGraphComponent;1;4;2;0.8518518518518519;0.9957805907172996;11;135;1798
@@ -1529,7 +1529,7 @@ com.mxgraph.view.mxGraph.isCellCloneable(java.lang.Object);com.mxgraph.util.mxCo
 com.mxgraph.swing.handler.mxMovePreview.start(com.mxgraph.view.mxCellState, java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;1;9;4;0.6666666666666667;0.9957983193277311;11;213;1798
 com.mxgraph.view.mxPerimeter.apply(boolean, com.mxgraph.util.mxPoint, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;0;5;1.0;0.9642857142857143;295;295;178
 com.mxgraph.reader.mxGraphViewImageReader.createCanvas(java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxRectangle;2;5;4;0.6153846153846154;0.9130434782608696;30;95;96
-com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.view.mxCellState;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.view.mxCellState;0;0;0;0;0;0;0;0
 com.mxgraph.layout.mxCompactTreeLayout.processNodeOutgoing(com.mxgraph.layout.mxCompactTreeLayout.TreeNode);com.mxgraph.util.mxRectangle;2;11;5;0.8428571428571429;0.9428571428571428;70;543;96
 com.mxgraph.swing.handler.mxEdgeHandler.validateConnection(java.lang.Object, java.lang.Object);com.mxgraph.swing.handler.mxCellHandler;0;0;4;1.0;1.0;3;413;160
 com.mxgraph.view.mxGraphView.createState(java.lang.Object);com.mxgraph.view.mxGraph;1;0;1;1.0;0.9971671388101983;3;829;3004
@@ -1554,15 +1554,15 @@ com.mxgraph.canvas.mxImageCanvas.drawLabel(boolean, com.mxgraph.view.mxCellState
 com.mxgraph.model.mxGraphModel.getOrigin(java.lang.Object);com.mxgraph.util.mxPoint;2;4;1;0.9512195121951219;0.8;17;870;50
 com.mxgraph.swing.handler.mxEdgeHandler.createPoints(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;2;0;2;1.0;0.8947368421052632;7;413;178
 com.mxgraph.view.mxGraph.selectCell(boolean, boolean, boolean);com.mxgraph.view.mxGraphView;1;7;1;0.9805013927576601;0.9859154929577465;36;3004;829
-com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.view.mxCellState;0;0;0;0;0
-com.mxgraph.util.mxRectangle.rotate90();com.mxgraph.util.mxPoint;0;0;0;0;0
-com.mxgraph.canvas.mxGraphics2DCanvas.createTemporaryGraphics(com.mxgraph.util.mxRectangle, float, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.view.mxCellState;0;0;0;0;0;0;0;0
+com.mxgraph.util.mxRectangle.rotate90();com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
+com.mxgraph.canvas.mxGraphics2DCanvas.createTemporaryGraphics(com.mxgraph.util.mxRectangle, float, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.layout.mxGraphLayout.setVertexLocation(double, double, java.lang.Object);com.mxgraph.view.mxGraph;1;3;6;0.8846153846153846;0.9972677595628415;39;173;3004
 com.mxgraph.swing.handler.mxRotationHandler.paint(java.awt.Graphics);com.mxgraph.util.mxUtils;1;2;3;0.9230769230769231;1.0;11;145;1004
 com.mxgraph.swing.handler.mxEdgeHandler.isValidState(com.mxgraph.view.mxCellState);com.mxgraph.swing.mxGraphComponent;0;3;6;0.925;1.0;12;413;1798
 com.mxgraph.swing.mxGraphComponent.removeListener(com.mxgraph.util.mxEventSource.mxIEventListener, java.lang.String);com.mxgraph.util.mxEventSource;1;0;1;1.0;0.875;3;1798;57
 com.mxgraph.view.mxGraph.cellsAdded(boolean, boolean, java.lang.Integer, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object[]);com.mxgraph.view.mxGraphView;1;7;6;0.983739837398374;0.9875;54;3004;829
-com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxSelectionCellsHandler.paintHandles(java.awt.Graphics);com.mxgraph.swing.handler.mxCellHandler;1;1;1;0.9642857142857143;0.9722222222222222;6;191;160
 com.mxgraph.layout.hierarchical.stage.mxCoordinateAssignment.calculateWidestRank(com.mxgraph.layout.hierarchical.model.mxGraphHierarchyModel, com.mxgraph.view.mxGraph);com.mxgraph.layout.hierarchical.model.mxGraphHierarchyModel;2;9;6;0.881578947368421;0.9574468085106383;72;847;311
 com.mxgraph.swing.handler.mxConnectionHandler.removeListener(com.mxgraph.util.mxEventSource.mxIEventListener, java.lang.String);com.mxgraph.util.mxEventSource;1;0;1;1.0;0.875;3;389;57
@@ -1572,10 +1572,10 @@ com.mxgraph.view.mxSwimlaneManager.swimlaneAdded(java.lang.Object);com.mxgraph.u
 com.mxgraph.swing.handler.mxMovePreview.start(com.mxgraph.view.mxCellState, java.awt.event.MouseEvent);com.mxgraph.util.mxRectangle;1;9;4;0.6666666666666667;0.96;11;213;96
 com.mxgraph.view.mxGraphView.setScale(double);com.mxgraph.util.mxEvent;0;2;2;0.9672131147540983;1.0;10;829;0
 com.mxgraph.view.mxGraphView.updateLabelBounds(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;3;1;6;0.9859154929577465;0.8928571428571429;25;829;178
-com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.canvas.mxGraphicsCanvas2D;0;0;0;0;0;0;0;0
 com.mxgraph.util.png.mxPngImageEncoder.writeBKGD();com.mxgraph.util.png.mxPngEncodeParam;4;2;2;0.96;0.963302752293578;25;560;499
 com.mxgraph.swing.view.mxInteractiveCanvas.hitSwimlaneContent(com.mxgraph.swing.mxGraphComponent, com.mxgraph.view.mxCellState, int, int);com.mxgraph.view.mxCellState;1;0;7;1.0;0.9655172413793104;16;74;178
-com.mxgraph.swing.mxGraphComponent.getCellAt(boolean, int, int, java.lang.Object);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.swing.mxGraphComponent.getCellAt(boolean, int, int, java.lang.Object);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxEdgeHandler.convertPoint(boolean, com.mxgraph.util.mxPoint);com.mxgraph.view.mxGraphView;1;0;6;1.0;0.9838709677419355;14;413;829
 com.mxgraph.view.mxGraph.disconnectGraph(java.lang.Object[]);com.mxgraph.util.mxPoint;2;2;4;0.9973118279569892;0.9166666666666666;54;3004;50
 com.mxgraph.swing.util.mxMorphing.getDelta(com.mxgraph.view.mxCellState);com.mxgraph.view.mxGraph;0;1;5;0.9444444444444444;1.0;8;128;3004
@@ -1583,7 +1583,7 @@ com.mxgraph.canvas.mxGraphicsCanvas2D.getTextRenderer();com.mxgraph.util.mxLight
 com.mxgraph.util.png.mxPngImageEncoder.writeTIME();com.mxgraph.util.png.mxPngEncodeParam;2;1;2;0.9824561403508771;0.9829059829059829;23;560;499
 com.mxgraph.util.svg.PathParser.parseC();com.mxgraph.util.svg.NumberParser;1;3;2;0.9032258064516129;0.8888888888888888;39;754;264
 com.mxgraph.analysis.mxGraphGenerator.getCompleteGraph(com.mxgraph.analysis.mxAnalysisGraph, int);com.mxgraph.analysis.mxGraphStructure;0;1;3;0.9722222222222222;1.0;20;819;574
-com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.util.mxRectangle;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.util.mxRectangle;0;0;0;0;0;0;0;0
 com.mxgraph.swing.util.mxMorphing.paint(java.awt.Graphics);com.mxgraph.swing.view.mxCellStatePreview;1;0;1;1.0;0.9473684210526316;5;128;236
 com.mxgraph.swing.handler.mxConnectPreview.createCell(com.mxgraph.view.mxCellState, java.lang.String);com.mxgraph.swing.mxGraphComponent;0;0;3;1.0;1.0;6;161;1798
 com.mxgraph.io.mxCodec.decode(java.lang.Object, org.w3c.dom.Node);com.mxgraph.io.mxObjectCodec;1;0;2;1.0;1.0;20;165;519
@@ -1596,7 +1596,7 @@ com.mxgraph.analysis.mxGraphGenerator.getSimpleRandomGraph(boolean, boolean, boo
 com.mxgraph.view.mxGraphView.getRoutingCenterX(com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;0;4;1.0;0.9523809523809523;4;829;178
 com.mxgraph.swing.handler.mxInsertHandler.insertCell(com.mxgraph.util.mxRectangle);com.mxgraph.util.mxRectangle;2;1;4;0.9565217391304348;0.8823529411764706;3;107;96
 com.mxgraph.swing.handler.mxEdgeHandler.mouseDragged(java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;5;8;8;0.9078947368421053;0.9814814814814815;89;413;1798
-com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.swing.mxGraphOutline.setGraphComponent(com.mxgraph.swing.mxGraphComponent);com.mxgraph.swing.mxGraphComponent;1;5;3;0.9166666666666666;0.995850622406639;21;399;1798
 com.mxgraph.swing.handler.mxSelectionCellsHandler.mousePressed(java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;1;2;2;0.935483870967742;0.9957446808510638;8;191;1798
 com.mxgraph.swing.handler.mxEdgeHandler.movePoint(com.mxgraph.util.mxPoint, int, java.lang.Object);com.mxgraph.view.mxGraph;1;3;4;0.9574468085106383;0.997275204359673;33;413;3004
@@ -1741,7 +1741,7 @@ com.mxgraph.swing.handler.mxEdgeHandler.getPreviewBounds();com.mxgraph.util.mxRe
 com.mxgraph.analysis.mxGraphGenerator.setStarGraphLayout(com.mxgraph.analysis.mxAnalysisGraph, double);com.mxgraph.analysis.mxAnalysisGraph;1;0;3;1.0;0.9473684210526316;29;819;72
 com.mxgraph.util.mxCurve.createCoreCurve();com.mxgraph.util.mxSpline1D;1;10;3;0.803921568627451;0.975;114;615;112
 com.mxgraph.swing.mxGraphComponent.zoom(double);com.mxgraph.util.mxPoint;2;7;4;0.9745762711864406;0.9;15;1798;50
-com.mxgraph.view.mxGraph.getConnectionPoint(com.mxgraph.view.mxCellState, com.mxgraph.view.mxConnectionConstraint);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.view.mxGraph.getConnectionPoint(com.mxgraph.view.mxCellState, com.mxgraph.view.mxConnectionConstraint);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxLayoutManager.cellsMoved(java.awt.Point, java.lang.Object[]);com.mxgraph.view.mxGraph;1;1;1;0.9473684210526316;0.9972067039106145;11;129;3004
 com.mxgraph.swing.handler.mxConnectPreview.stop(boolean, java.awt.event.MouseEvent);com.mxgraph.swing.mxGraphComponent;1;1;6;0.9583333333333334;0.9957805907172996;36;161;1798
 com.mxgraph.shape.mxLabelShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.shape.mxImageShape;1;0;4;1.0;0.875;6;58;21
@@ -1798,7 +1798,7 @@ com.mxgraph.view.mxSwimlaneManager.isCellHorizontal(java.lang.Object);com.mxgrap
 com.mxgraph.view.mxGraph.getEdgesBetween(boolean, java.lang.Object, java.lang.Object);com.mxgraph.view.mxCellState;1;1;2;0.9972067039106145;0.9565217391304348;13;3004;178
 com.mxgraph.util.svg.AWTPathProducer.curvetoCubicSmoothAbs(float, float, float, float);com.mxgraph.util.svg.ExtendedGeneralPath;1;4;1;0.8518518518518519;0.9795918367346939;3;85;426
 com.mxgraph.view.mxGraph.exitGroup();com.mxgraph.view.mxGraphView;2;4;1;0.988795518207283;0.9692307692307692;20;3004;829
-com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.swing.view.mxCellStatePreview.restoreState(com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;4;0;3;1.0;0.8181818181818181;14;236;178
 com.mxgraph.swing.handler.mxVertexHandler.createHandles();com.mxgraph.util.mxRectangle;3;0;7;1.0;0.8571428571428572;30;216;96
 com.mxgraph.view.mxGraphView.updateBoundingBox(com.mxgraph.view.mxCellState);com.mxgraph.util.mxUtils;5;1;6;0.9873417721518988;1.0;55;829;1004
@@ -1807,7 +1807,7 @@ com.mxgraph.swing.view.mxCellEditor.startEditing(java.lang.Object, java.util.Eve
 com.mxgraph.swing.view.mxCellStatePreview.paint(java.awt.Graphics);com.mxgraph.view.mxGraph;0;2;6;0.9310344827586207;1.0;22;236;3004
 com.mxgraph.model.mxGraphModel.createRoot();com.mxgraph.model.mxCell;1;0;1;1.0;0.9705882352941176;5;870;231
 com.mxgraph.canvas.mxGraphics2DCanvas.createFillPaint(com.mxgraph.util.mxRectangle, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxConstants;0;0;4;1.0;1.0;28;256;0
-com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.util.mxUndoManager.clear();com.mxgraph.util.mxEvent;0;3;2;0.75;1.0;5;57;0
 com.mxgraph.swing.handler.mxEdgeHandler.moveLabelTo(com.mxgraph.view.mxCellState, double, double);com.mxgraph.view.mxCellState;1;0;7;1.0;0.9642857142857143;16;413;178
 com.mxgraph.shape.mxCurveShape.validateCurve(double, java.util.List<com.mxgraph.util.mxPoint>, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxConstants;0;0;2;1.0;1.0;9;45;0
@@ -1824,7 +1824,7 @@ com.mxgraph.shape.mxDoubleRectangleShape.paintShape(com.mxgraph.canvas.mxGraphic
 com.mxgraph.swing.handler.mxConnectionHandler.mouseReleased(java.awt.event.MouseEvent);com.mxgraph.swing.handler.mxCellMarker;1;6;9;0.9117647058823529;0.9830508474576272;51;389;185
 com.mxgraph.view.mxGraph.addCells(java.lang.Integer, java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object[]);com.mxgraph.util.mxEventSource;1;3;2;0.994413407821229;0.9285714285714286;17;3004;57
 com.mxgraph.swing.mxGraphComponent.setCellWarning(boolean, java.lang.Object, java.lang.String, javax.swing.ImageIcon);com.mxgraph.view.mxGraph;2;4;1;0.9871244635193133;0.9944598337950139;25;1798;3004
-com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.shape.mxConnectorShape.paintPolyline(com.mxgraph.canvas.mxGraphics2DCanvas, java.util.List<com.mxgraph.util.mxPoint>, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.canvas.mxBasicCanvas;1;1;3;0.9;0.9230769230769231;4;85;44
 com.mxgraph.swing.handler.mxEdgeHandler.getCursor(int, java.awt.event.MouseEvent);com.mxgraph.swing.handler.mxCellHandler;1;0;1;1.0;0.9696969696969697;10;413;160
 com.mxgraph.analysis.mxGraphAnalysis.getShortestPath(boolean, com.mxgraph.analysis.mxICostFunction, com.mxgraph.view.mxGraph, int, java.lang.Object, java.lang.Object);com.mxgraph.view.mxCellState;1;1;4;0.962962962962963;0.9722222222222222;51;156;178
@@ -1834,7 +1834,7 @@ com.mxgraph.swing.view.mxCellStatePreview.paintPreviewState(com.mxgraph.canvas.m
 com.mxgraph.swing.handler.mxVertexHandler.createHandles();com.mxgraph.swing.mxGraphComponent;0;0;7;1.0;1.0;30;216;1798
 com.mxgraph.swing.handler.mxConnectPreview.paint(java.awt.Graphics);com.mxgraph.canvas.mxGraphics2DCanvas;1;1;6;0.9615384615384616;0.9666666666666667;26;161;256
 com.mxgraph.io.mxCellCodec.beforeDecode(com.mxgraph.io.mxCodec, java.lang.Object, org.w3c.dom.Node);com.mxgraph.io.mxObjectCodec;4;0;4;1.0;0.9583333333333334;76;102;519
-com.mxgraph.shape.mxStencil.drawShadow(boolean, boolean, boolean, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.util.mxRectangle, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.shape.mxStencil.drawShadow(boolean, boolean, boolean, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.util.mxRectangle, com.mxgraph.util.mxRectangle, com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.swing.mxGraphComponent.importCells(double, double, java.awt.Point, java.lang.Object, java.lang.Object[]);com.mxgraph.view.mxGraph;1;0;1;1.0;1.0;3;1798;3004
 com.mxgraph.swing.handler.mxConnectionHandler.mouseReleased(java.awt.event.MouseEvent);com.mxgraph.view.mxGraph;6;6;9;0.9117647058823529;0.9896103896103896;51;389;3004
 com.mxgraph.view.mxGraph.getSelectionCell();com.mxgraph.view.mxGraphSelectionModel;1;0;1;1.0;0.9523809523809523;3;3004;141
@@ -1863,7 +1863,7 @@ com.mxgraph.view.mxGraphSelectionModel.changeSelection(java.util.Collection<java
 com.mxgraph.shape.mxMarkerRegistry.paintMarker(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.util.mxPoint, com.mxgraph.view.mxCellState, double, double, double, java.lang.String);com.mxgraph.view.mxCellState;1;0;4;1.0;0.9615384615384616;12;18;178
 com.mxgraph.swing.util.mxMorphing.stopAnimation();com.mxgraph.view.mxGraphView;1;0;5;1.0;0.9841269841269842;8;128;829
 com.mxgraph.view.mxGraphSelectionModel.execute();com.mxgraph.util.mxEvent;0;4;2;0.84;1.0;18;141;0
-com.mxgraph.shape.mxSwimlaneShape.getArcSize(com.mxgraph.view.mxCellState, double);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.getArcSize(com.mxgraph.view.mxCellState, double);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraphView.getWordWrapWidth(com.mxgraph.view.mxCellState);com.mxgraph.util.mxRectangle;2;1;4;0.984375;0.8823529411764706;12;829;96
 com.mxgraph.layout.mxPartitionLayout.moveCell(double, double, java.lang.Object);com.mxgraph.view.mxGraph;1;0;4;1.0;0.9972375690607734;23;104;3004
 com.mxgraph.shape.mxLineShape.createPoints(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxRectangle;4;0;5;1.0;0.7777777777777778;18;24;96
@@ -1874,7 +1874,7 @@ com.mxgraph.view.mxGraph.cellsResized(com.mxgraph.util.mxRectangle[], java.lang.
 com.mxgraph.swing.view.mxCellStatePreview.paint(java.awt.Graphics);com.mxgraph.canvas.mxBasicCanvas;3;2;6;0.9310344827586207;0.8333333333333334;22;236;44
 com.mxgraph.swing.handler.mxConnectionHandler.mouseReleased(java.awt.event.MouseEvent);com.mxgraph.view.mxGraphView;2;6;9;0.9117647058823529;0.9893617021276596;51;389;829
 com.mxgraph.view.mxGraph.isOrthogonal(com.mxgraph.view.mxCellState);com.mxgraph.util.mxUtils;1;0;5;1.0;1.0;7;3004;1004
-com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.canvas.mxGraphics2DCanvas;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintSeparator(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, java.lang.String);com.mxgraph.canvas.mxGraphics2DCanvas;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxGraphView.getBoundingBox(boolean, com.mxgraph.view.mxCellState);com.mxgraph.util.mxRectangle;2;2;3;0.9848484848484849;0.8947368421052632;24;829;96
 com.mxgraph.swing.handler.mxEdgeHandler.mouseReleased(java.awt.event.MouseEvent);com.mxgraph.view.mxCellState;1;11;6;0.8666666666666667;0.9803921568627451;44;413;178
 com.mxgraph.layout.mxFastOrganicLayout.isVertexIgnored(java.lang.Object);com.mxgraph.view.mxGraph;1;0;2;1.0;0.9971751412429378;3;256;3004
@@ -1898,7 +1898,7 @@ com.mxgraph.layout.hierarchical.model.mxGraphHierarchyModel.dfs(com.mxgraph.layo
 com.mxgraph.swing.handler.mxConnectPreview.start(com.mxgraph.view.mxCellState, java.awt.event.MouseEvent, java.lang.String);com.mxgraph.swing.mxGraphComponent;0;2;6;0.8888888888888888;1.0;9;161;1798
 com.mxgraph.swing.mxGraphComponent.zoom(boolean, boolean);com.mxgraph.view.mxGraph;0;9;3;0.9663865546218487;1.0;45;1798;3004
 com.mxgraph.swing.view.mxCellEditor.getInitialValue(com.mxgraph.view.mxCellState, java.util.EventObject);com.mxgraph.swing.mxGraphComponent;1;0;2;1.0;0.9955947136563876;3;233;1798
-com.mxgraph.view.mxCellState.toString();com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.view.mxCellState.toString();com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.util.mxCurve.intersectsRect(java.awt.Rectangle);com.mxgraph.util.mxRectangle;3;2;2;0.9487179487179487;0.8333333333333334;20;615;96
 com.mxgraph.view.mxGraph.invoke(com.mxgraph.util.mxEventObject, java.lang.Object);com.mxgraph.util.mxUndoableEdit;1;2;2;0.9943661971830986;0.9285714285714286;4;3004;56
 com.mxgraph.swing.handler.mxRotationHandler.mouseMoved(java.awt.event.MouseEvent);com.mxgraph.view.mxGraph;0;3;5;0.9210526315789473;1.0;29;145;3004
@@ -1949,7 +1949,7 @@ com.mxgraph.util.svg.AWTPathProducer.curvetoQuadraticSmoothAbs(float, float);com
 com.mxgraph.util.mxRectangle.add(com.mxgraph.util.mxRectangle);com.mxgraph.util.mxPoint;2;2;1;0.8823529411764706;0.8;12;96;50
 com.mxgraph.canvas.mxGraphics2DCanvas.createFillPaint(com.mxgraph.util.mxRectangle, java.util.Map<java.lang.String,java.lang.Object>);com.mxgraph.util.mxUtils;2;0;4;1.0;1.0;28;256;1004
 com.mxgraph.layout.hierarchical.stage.mxCoordinateAssignment.calculateWidestRank(com.mxgraph.layout.hierarchical.model.mxGraphHierarchyModel, com.mxgraph.view.mxGraph);com.mxgraph.layout.hierarchical.model.mxGraphHierarchyEdge;1;9;6;0.881578947368421;0.975609756097561;72;847;57
-com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.view.mxCellState;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintRoundedSwimlane(boolean, com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState, double, double, java.lang.String);com.mxgraph.view.mxCellState;0;0;0;0;0;0;0;0
 com.mxgraph.layout.mxEdgeLabelLayout.placeLabels(java.lang.Object[], java.lang.Object[]);com.mxgraph.view.mxCellState;0;1;3;0.8333333333333334;1.0;20;74;178
 com.mxgraph.layout.hierarchical.model.mxGraphHierarchyModel.visit(com.mxgraph.layout.hierarchical.model.mxGraphHierarchyEdge, com.mxgraph.layout.hierarchical.model.mxGraphHierarchyNode, com.mxgraph.layout.hierarchical.model.mxGraphHierarchyNode, int, int);com.mxgraph.layout.hierarchical.model.mxGraphHierarchyEdge;1;0;2;1.0;0.9375;24;311;57
 com.mxgraph.analysis.mxGraphGenerator.getPossibleKnightMoveCount(com.mxgraph.analysis.mxAnalysisGraph, int, int, int, int);com.mxgraph.view.mxGraph;1;1;2;1.0;0.9971910112359551;62;819;3004
@@ -2010,7 +2010,7 @@ com.mxgraph.swing.handler.mxConnectPreview.paintPreview(com.mxgraph.canvas.mxGra
 com.mxgraph.swing.mxGraphComponent.zoom(double);com.mxgraph.view.mxGraphView;3;7;4;0.9745762711864406;0.9583333333333334;15;1798;829
 com.mxgraph.util.svg.AWTPathProducer.movetoAbs(float, float);com.mxgraph.util.svg.ExtendedGeneralPath;1;4;1;0.8518518518518519;0.9795918367346939;3;85;426
 com.mxgraph.swing.mxGraphComponent.addCellOverlay(com.mxgraph.swing.util.mxICellOverlay, java.lang.Object);com.mxgraph.view.mxGraphView;1;3;4;0.9913419913419913;0.9846153846153847;19;1798;829
-com.mxgraph.canvas.mxGraphicsCanvas2D.setDashPattern(java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0
+com.mxgraph.canvas.mxGraphicsCanvas2D.setDashPattern(java.lang.String);com.mxgraph.util.mxUtils;0;0;0;0;0;0;0;0
 com.mxgraph.swing.handler.mxInsertHandler.insertCell(com.mxgraph.util.mxRectangle);com.mxgraph.swing.mxGraphComponent;0;1;4;0.9565217391304348;1.0;3;107;1798
 com.mxgraph.swing.handler.mxGraphHandler.getPreviewLocation(boolean, java.awt.event.MouseEvent);com.mxgraph.view.mxGraphView;1;1;4;0.984375;0.9852941176470589;20;697;829
 com.mxgraph.analysis.mxGraphGenerator.getKingMoveVertexes(com.mxgraph.analysis.mxAnalysisGraph, int, int, int, int);com.mxgraph.view.mxGraph;1;1;2;1.0;0.9971988795518207;58;819;3004
@@ -2037,7 +2037,7 @@ com.mxgraph.shape.mxStencilShape.createElement(org.w3c.dom.Node);com.mxgraph.uti
 com.mxgraph.layout.hierarchical.stage.mxMedianHybridCrossingReduction.calculateRankCrossing(com.mxgraph.layout.hierarchical.model.mxGraphHierarchyModel, int);com.mxgraph.layout.hierarchical.model.mxGraphAbstractHierarchyCell;2;0;2;1.0;1.0;41;287;25
 com.mxgraph.view.mxGraphView.updateEdgeBounds(com.mxgraph.view.mxCellState);com.mxgraph.util.mxPoint;2;0;3;1.0;0.8823529411764706;42;829;50
 com.mxgraph.io.mxCellCodec.afterEncode(com.mxgraph.io.mxCodec, java.lang.Object, org.w3c.dom.Node);com.mxgraph.model.mxCell;1;0;2;1.0;0.975;14;102;231
-com.mxgraph.shape.mxSwimlaneShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.shape.mxDoubleRectangleShape.paintShape(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.canvas.mxBasicCanvas;1;0;7;1.0;0.95;10;10;44
 com.mxgraph.util.png.mxPngImageEncoder.writeZTXT();com.mxgraph.util.png.mxPngEncodeParam;2;1;2;0.9811320754716981;0.9823008849557522;18;560;499
 com.mxgraph.view.mxGraphView.updateLabel(com.mxgraph.view.mxCellState);com.mxgraph.view.mxGraph;3;1;4;0.9863013698630136;0.9917808219178083;16;829;3004
@@ -2090,7 +2090,7 @@ com.mxgraph.swing.view.mxCellStatePreview.translateState(com.mxgraph.view.mxCell
 com.mxgraph.swing.handler.mxVertexHandler.moveLabel(java.awt.event.MouseEvent);com.mxgraph.view.mxCellState;1;2;7;0.9285714285714286;0.9705882352941176;30;216;178
 com.mxgraph.swing.mxGraphComponent.zoomActual();com.mxgraph.view.mxGraph;0;6;3;0.9748953974895398;1.0;30;1798;3004
 com.mxgraph.analysis.mxGraphGenerator.oneSpanningTree(boolean, boolean, com.mxgraph.analysis.mxAnalysisGraph);com.mxgraph.view.mxGraph;3;0;3;1.0;0.9915254237288136;30;819;3004
-com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.configureCanvas(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.canvas.mxGraphicsCanvas2D, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;0;0;0;0;0;0;0;0
 com.mxgraph.layout.mxFastOrganicLayout.execute(java.lang.Object);com.mxgraph.view.mxGraph;8;26;4;0.5357142857142857;0.9875311720698254;115;256;3004
 com.mxgraph.swing.handler.mxGraphHandler.moveCells(double, double, java.awt.event.MouseEvent, java.lang.Object, java.lang.Object[]);com.mxgraph.swing.mxGraphComponent;0;5;2;0.9375;1.0;16;697;1798
 com.mxgraph.analysis.mxAnalysisGraph.getChildVertices(java.lang.Object);com.mxgraph.view.mxGraph;1;0;1;1.0;0.9971671388101983;3;72;3004
@@ -2123,7 +2123,7 @@ com.mxgraph.swing.util.mxCellOverlay.getBounds(com.mxgraph.view.mxCellState);com
 com.mxgraph.view.mxGraph.getConnectionConstraint(boolean, com.mxgraph.view.mxCellState, com.mxgraph.view.mxCellState);com.mxgraph.view.mxCellState;1;0;3;1.0;0.9545454545454546;15;3004;178
 com.mxgraph.util.mxRectangle.intersectLine(double, double, double, double);com.mxgraph.util.mxPoint;2;2;2;0.8666666666666667;0.75;14;96;50
 com.mxgraph.swing.handler.mxEdgeHandler.moveLabelTo(com.mxgraph.view.mxCellState, double, double);com.mxgraph.view.mxGraph;1;0;7;1.0;0.9972451790633609;16;413;3004
-com.mxgraph.swing.view.mxCellStatePreview.paint(java.awt.Graphics);com.mxgraph.util.mxPoint;0;0;0;0;0
+com.mxgraph.swing.view.mxCellStatePreview.paint(java.awt.Graphics);com.mxgraph.util.mxPoint;0;0;0;0;0;0;0;0
 com.mxgraph.swing.view.mxCellStatePreview.moveState(boolean, boolean, com.mxgraph.view.mxCellState, double, double);com.mxgraph.util.mxPoint;2;3;1;0.8695652173913043;0.8181818181818181;22;236;50
 com.mxgraph.canvas.mxVmlCanvas.drawCell(com.mxgraph.view.mxCellState);com.mxgraph.util.mxConstants;0;3;6;0.9032258064516129;1.0;79;286;0
 com.mxgraph.view.mxGraph.getCellsBeyond(boolean, boolean, double, double, java.lang.Object);com.mxgraph.util.mxPoint;2;3;2;0.9916666666666667;0.8571428571428572;21;3004;50
@@ -2178,7 +2178,7 @@ com.mxgraph.view.mxGraph.groupCells(double, java.lang.Object, java.lang.Object[]
 com.mxgraph.swing.handler.mxElbowEdgeHandler.createHandles();com.mxgraph.swing.handler.mxCellHandler;0;0;9;1.0;1.0;24;40;160
 com.mxgraph.canvas.mxGraphicsCanvas2D.createHtmlDocument(boolean, boolean, int, int, java.lang.String, java.lang.String, java.lang.String, java.lang.String);com.mxgraph.util.mxConstants;0;8;1;0.9344262295081968;1.0;61;726;0
 com.mxgraph.canvas.mxGraphics2DCanvas.fillShape(boolean, java.awt.Shape);com.mxgraph.swing.util.mxSwingConstants;0;2;2;0.9583333333333334;1.0;15;256;4
-com.mxgraph.shape.mxSwimlaneShape.getTitleSize(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxConstants;0;0;0;0;0
+com.mxgraph.shape.mxSwimlaneShape.getTitleSize(com.mxgraph.canvas.mxGraphics2DCanvas, com.mxgraph.view.mxCellState);com.mxgraph.util.mxConstants;0;0;0;0;0;0;0;0
 com.mxgraph.view.mxLayoutManager.invoke(com.mxgraph.util.mxEventObject, java.lang.Object);com.mxgraph.util.mxEventObject;1;2;1;0.9375;0.8571428571428572;5;129;29
 com.mxgraph.view.mxGraphView.validateCellState(boolean, java.lang.Object);com.mxgraph.view.mxCellState;2;8;2;0.9130434782608696;0.9696969696969697;29;829;178
 com.mxgraph.swing.view.mxCellStatePreview.paintPreview(com.mxgraph.canvas.mxGraphics2DCanvas);com.mxgraph.view.mxCellState;1;3;2;0.8928571428571429;0.9655172413793104;10;236;178

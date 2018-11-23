@@ -85,7 +85,7 @@ com.android.internal.telephony.gsm.GsmDataConnectionTracker.createAllApnList();c
 com.android.internal.telephony.cdma.CDMAPhone.processIccRecordEvents(int);com.android.internal.telephony.PhoneBase;1;0;2;1.0;0.9935897435897436;10;970;617
 com.android.internal.telephony.DataConnectionTracker.isEmergency();com.android.internal.telephony.PhoneBase;2;2;1;0.9904761904761905;0.9873417721518988;8;971;617
 com.android.internal.telephony.cdma.CdmaSMSDispatcher.onReceive(com.android.internal.telephony.cdma.Context, com.android.internal.telephony.cdma.Intent);com.android.internal.telephony.SmsAddress;2;0;6;1.0;0.9047619047619048;58;287;12
-com.android.internal.telephony.ServiceStateTracker.dispose();com.android.internal.telephony.uicc.UiccController;0;0;0;0;0
+com.android.internal.telephony.ServiceStateTracker.dispose();com.android.internal.telephony.uicc.UiccController;0;0;0;0;0;0;0;0
 com.android.internal.telephony.gsm.GsmSMSDispatcher.calculateLength(boolean, java.lang.CharSequence);com.android.internal.telephony.gsm.SmsMessage;1;0;1;1.0;1.0;3;259;617
 com.android.internal.telephony.cdma.CdmaCallTracker.hangup(com.android.internal.telephony.cdma.CdmaCall);com.android.internal.telephony.cdma.CdmaCall;2;6;4;0.9130434782608696;0.9310344827586207;36;710;100
 com.android.internal.telephony.cdma.SmsMessage.parsePduFromEfRecord(byte[]);com.android.internal.telephony.cdma.sms.SmsEnvelope;8;2;5;0.9583333333333334;0.7142857142857143;109;551;2

@@ -633,7 +633,7 @@ org.apache.catalina.startup.TldConfig.lifecycleEvent(org.apache.catalina.Lifecyc
 org.apache.catalina.ha.session.ReplicatedSession.readObjectData(java.io.ObjectInputStream);org.apache.catalina.session.StandardSession;1;0;1;1.0;0.9868421052631579;3;122;604
 org.apache.coyote.ajp.AjpMessage.appendByteChunk(org.apache.tomcat.util.buf.ByteChunk);org.apache.tomcat.util.buf.ByteChunk;3;3;2;0.896551724137931;0.94;9;235;425
 org.apache.jasper.compiler.Generator.generatePreamble();org.apache.jasper.compiler.ServletWriter;4;2;1;0.9833333333333333;0.7777777777777778;19;2649;54
-org.apache.catalina.connector.Request.getHost();org.apache.tomcat.util.http.mapper.MappingData;0;0;0;0;0
+org.apache.catalina.connector.Request.getHost();org.apache.tomcat.util.http.mapper.MappingData;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.PlugIn);org.apache.jasper.compiler.JspUtil;1;2;3;1.0;1.0;23;1036;619
 org.apache.coyote.http11.InternalAprInputBuffer.parseHeader();org.apache.coyote.http11.Constants;0;1;5;0.9411764705882353;1.0;90;303;0
 org.apache.catalina.connector.RequestFacade.getLocales();org.apache.catalina.Globals;0;0;3;1.0;1.0;11;468;0

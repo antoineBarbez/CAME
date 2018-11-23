@@ -1,0 +1,6 @@
+model_checkpoint_path: "/Users/antoinebarbez/Desktop/tensorflow/CAME/neural_networks/mlp/trained_models/god_class/network4"
+all_model_checkpoint_paths: "/Users/antoinebarbez/Desktop/tensorflow/CAME/neural_networks/mlp/trained_models/god_class/network0"
+all_model_checkpoint_paths: "/Users/antoinebarbez/Desktop/tensorflow/CAME/neural_networks/mlp/trained_models/god_class/network1"
+all_model_checkpoint_paths: "/Users/antoinebarbez/Desktop/tensorflow/CAME/neural_networks/mlp/trained_models/god_class/network2"
+all_model_checkpoint_paths: "/Users/antoinebarbez/Desktop/tensorflow/CAME/neural_networks/mlp/trained_models/god_class/network3"
+all_model_checkpoint_paths: "/Users/antoinebarbez/Desktop/tensorflow/CAME/neural_networks/mlp/trained_models/god_class/network4"

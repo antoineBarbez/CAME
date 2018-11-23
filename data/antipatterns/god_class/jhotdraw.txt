@@ -1,0 +1,6 @@
+org.jhotdraw.samples.svg.io.SVGInputFormat
+org.jhotdraw.samples.teddy.regex.Matcher
+org.jhotdraw.draw.AbstractCompositeFigure
+org.jhotdraw.draw.DefaultDrawingView
+org.jhotdraw.draw.handle.HandleAttributeKeys
+org.jhotdraw.draw.action.ButtonFactory

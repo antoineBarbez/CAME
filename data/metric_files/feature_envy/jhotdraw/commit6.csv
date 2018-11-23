@@ -68,7 +68,7 @@ org.jhotdraw.color.DefaultHarmonicColorModel.setColorSpace(java.awt.color.ColorS
 org.jhotdraw.app.SDIApplication.createModelActionMap(org.jhotdraw.app.ApplicationModel);org.jhotdraw.app.action.file.ClearRecentFilesMenuAction;0;0;2;1.0;1.0;8;325;38
 org.jhotdraw.samples.odg.figures.ODGPathFigure.setBounds(java.awt.geom.Point2D.Double, java.awt.geom.Point2D.Double);org.jhotdraw.draw.AbstractCompositeFigure;2;2;2;0.9393939393939394;0.9726027397260274;10;372;456
 org.jhotdraw.samples.svg.io.DefaultSVGFigureFactory.createPolygon(java.awt.geom.Point2D.Double[], java.util.Map<org.jhotdraw.draw.AttributeKey,java.lang.Object>);org.jhotdraw.draw.AbstractAttributedCompositeFigure;1;0;3;1.0;0.96875;12;108;177
-org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.getIcon(java.awt.Component);org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.getIcon(java.awt.Component);org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.odg.figures.ODGEllipseFigure.transform(java.awt.geom.AffineTransform);org.jhotdraw.samples.odg.figures.ODGAttributedFigure;1;2;3;0.935483870967742;0.9333333333333333;28;136;84
 org.jhotdraw.draw.AbstractCompositeFigure.removeAllChildren();org.jhotdraw.draw.AbstractFigure;1;4;1;0.9436619718309859;0.9846153846153847;10;456;332
 org.jhotdraw.color.SimpleHarmonicRule.apply(org.jhotdraw.color.HarmonicColorModel);org.jhotdraw.color.AbstractHarmonicRule;2;2;1;0.8181818181818181;0.7777777777777778;13;33;11
@@ -627,7 +627,7 @@ org.jhotdraw.draw.GraphicalCompositeFigure.writeAttributes(org.jhotdraw.xml.DOMO
 org.jhotdraw.draw.handle.ResizeHandleKit.setBounds(java.awt.geom.Point2D.Double, java.awt.geom.Point2D.Double);org.jhotdraw.draw.handle.AbstractHandle;1;0;1;1.0;0.9761904761904762;6;148;220
 org.jhotdraw.gui.JFontChooser.updateSelectionPath(java.awt.Font);org.jhotdraw.gui.fontchooser.FontFamilyNode;1;3;3;0.9142857142857143;0.9714285714285714;57;245;117
 org.jhotdraw.samples.mini.FileIconsSample.run();org.jhotdraw.draw.AbstractAttributedFigure;1;0;7;1.0;0.9868421052631579;64;133;168
-org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.paintIcon(int, int, java.awt.Component, java.awt.Graphics);org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.paintIcon(int, int, java.awt.Component, java.awt.Graphics);org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.svg.SVGApplet.init();org.jhotdraw.gui.Worker;1;13;5;0.7547169811320755;0.9803921568627451;79;348;26
 org.jhotdraw.samples.pert.figures.TaskFigure.getDuration();org.jhotdraw.draw.TextFigure;1;1;1;0.9615384615384616;0.972972972972973;8;217;173
 org.jhotdraw.samples.svg.gui.StrokeToolBar.setEditor(org.jhotdraw.draw.DrawingEditor);org.jhotdraw.draw.event.SelectionComponentDisplayer;1;0;2;1.0;0.9230769230769231;11;247;71
@@ -934,7 +934,7 @@ org.jhotdraw.app.OSXApplication.createModelActionMap(org.jhotdraw.app.Applicatio
 org.jhotdraw.app.action.file.SaveFileAction.saveViewToURI(java.net.URI, org.jhotdraw.app.View, org.jhotdraw.gui.URIChooser);org.jhotdraw.gui.JSheet;1;5;4;0.8611111111111112;1.0;40;144;627
 org.jhotdraw.draw.handle.OrientationHandle.trackStep(int, java.awt.Point, java.awt.Point);org.jhotdraw.draw.AttributeKeys;0;1;3;0.9333333333333333;1.0;34;96;166
 org.jhotdraw.draw.tool.TextAreaCreationTool.actionPerformed(java.awt.event.ActionEvent);org.jhotdraw.draw.tool.AbstractTool;1;1;2;0.9333333333333333;0.9782608695652174;6;145;236
-org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.generateMissingIcons();org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0
+org.jhotdraw.gui.plaf.palette.PaletteSliderThumbIcon.generateMissingIcons();org.jhotdraw.gui.plaf.palette.MultiIcon;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.draw.DrawView.clear();org.jhotdraw.draw.DefaultDrawingView;2;2;2;0.9047619047619048;0.9836065573770492;20;153;1005
 org.jhotdraw.draw.action.DrawingColorChooserAction.updateEnabledState();org.jhotdraw.draw.action.AbstractSelectedAction;1;0;1;1.0;0.9444444444444444;8;49;102
 org.jhotdraw.draw.GraphicalCompositeFigure.draw(java.awt.Graphics2D);org.jhotdraw.draw.AbstractCompositeFigure;1;1;1;0.9714285714285714;0.9857142857142858;4;241;456
@@ -1482,7 +1482,7 @@ org.jhotdraw.gui.JMDIDesktopPane.arrangeFramesVertically();org.jhotdraw.gui.MDID
 org.jhotdraw.draw.LineConnectionFigure.writePoints(org.jhotdraw.xml.DOMOutput);org.jhotdraw.draw.BezierFigure;1;2;1;0.9534883720930233;0.9836065573770492;9;332;458
 org.jhotdraw.samples.svg.gui.CanvasToolBar.createDisclosedComponent(int);org.jhotdraw.text.JavaNumberFormatter;3;0;12;1.0;0.9692307692307692;251;262;272
 org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.ClearSelectionAction;0;0;9;1.0;1.0;15;172;31
-org.jhotdraw.draw.AbstractCompositeFigure.layout();org.jhotdraw.draw.AbstractFigure;0;0;0;0;0
+org.jhotdraw.draw.AbstractCompositeFigure.layout();org.jhotdraw.draw.AbstractFigure;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.teddy.TeddyView.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.undo.UndoRedoManager;1;0;2;1.0;0.9583333333333334;3;343;143
 org.jhotdraw.samples.pert.figures.TaskFigure.updateStartTime();org.jhotdraw.draw.TextFigure;1;7;2;0.7586206896551724;0.9782608695652174;17;217;173
 org.jhotdraw.app.action.file.ClearRecentFilesMenuAction.updateEnabled();org.jhotdraw.app.action.AbstractApplicationAction;2;0;1;1.0;0.8333333333333334;3;38;49

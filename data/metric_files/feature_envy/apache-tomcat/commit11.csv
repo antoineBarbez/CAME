@@ -633,7 +633,7 @@ org.apache.catalina.startup.TldConfig.lifecycleEvent(org.apache.catalina.Lifecyc
 org.apache.catalina.ha.session.ReplicatedSession.readObjectData(java.io.ObjectInputStream);org.apache.catalina.session.StandardSession;1;0;1;1.0;0.9868421052631579;3;122;604
 org.apache.coyote.ajp.AjpMessage.appendByteChunk(org.apache.tomcat.util.buf.ByteChunk);org.apache.tomcat.util.buf.ByteChunk;3;3;2;0.896551724137931;0.94;9;235;425
 org.apache.jasper.compiler.Generator.generatePreamble();org.apache.jasper.compiler.ServletWriter;4;2;1;0.9833333333333333;0.7777777777777778;19;2649;54
-org.apache.catalina.connector.Request.getHost();org.apache.tomcat.util.http.mapper.MappingData;0;0;0;0;0
+org.apache.catalina.connector.Request.getHost();org.apache.tomcat.util.http.mapper.MappingData;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.PlugIn);org.apache.jasper.compiler.JspUtil;1;2;3;1.0;1.0;23;1036;619
 org.apache.coyote.http11.InternalAprInputBuffer.parseHeader();org.apache.coyote.http11.Constants;0;1;5;0.9411764705882353;1.0;90;303;0
 org.apache.catalina.connector.RequestFacade.getLocales();org.apache.catalina.Globals;0;0;3;1.0;1.0;11;468;0
@@ -5617,7 +5617,7 @@ org.apache.catalina.ha.deploy.FarmWarDeployer.install(java.lang.String, java.net
 org.apache.catalina.startup.ContextConfig.processAnnotationWebInitParams(org.apache.tomcat.util.bcel.classfile.ElementValue);org.apache.tomcat.util.bcel.classfile.ArrayElementValue;1;0;5;1.0;0.8888888888888888;25;1472;35
 org.apache.coyote.http11.Http11Processor.process(org.apache.tomcat.util.net.SocketWrapper<java.net.Socket>);org.apache.coyote.Constants;0;6;10;0.8867924528301887;1.0;137;686;0
 org.apache.jasper.compiler.Generator.generateJspFragment(java.lang.String, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Node;1;11;2;0.9426229508196722;0.99375;23;2649;1053
-org.apache.catalina.core.StandardContext.getObjectKeyPropertiesNameOnly();org.apache.catalina.core.ContainerBase;0;0;0;0;0
+org.apache.catalina.core.StandardContext.getObjectKeyPropertiesNameOnly();org.apache.catalina.core.ContainerBase;0;0;0;0;0;0;0;0
 org.apache.catalina.startup.Embedded.removeEngine(org.apache.catalina.Engine);org.apache.catalina.core.StandardService;2;1;2;1.0;0.9722222222222222;37;365;262
 org.apache.catalina.core.ApplicationContext.getRequestDispatcher(java.lang.String);org.apache.catalina.util.RequestUtil;0;2;7;0.9767441860465116;1.0;47;660;189
 org.apache.tomcat.util.bcel.classfile.AnnotationDefault.dump(java.io.DataOutputStream);org.apache.tomcat.util.bcel.classfile.Attribute;1;0;2;1.0;0.875;4;18;97

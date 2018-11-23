@@ -694,7 +694,7 @@ bsh.BSHSwitchStatement.eval(bsh.CallStack, bsh.Interpreter);bsh.ReturnControl;1;
 org.gjt.sp.jedit.gui.DockableWindowManager.propertiesChanged();org.gjt.sp.util.Log;0;4;6;0.9111111111111111;1.0;37;409;209
 org.gjt.sp.jedit.textarea.FirstLine.reset();org.gjt.sp.jedit.textarea.Anchor;2;1;5;0.9333333333333333;0.8461538461538461;22;175;28
 org.gjt.sp.jedit.textarea.ChunkCache.invalidateChunksFrom(int);org.gjt.sp.jedit.Debug;0;3;2;0.926829268292683;1.0;5;334;0
-org.gjt.sp.jedit.textarea.JEditTextArea.addExplicitFold(int, int, int, int);org.gjt.sp.jedit.MiscUtilities;0;0;0;0;0
+org.gjt.sp.jedit.textarea.JEditTextArea.addExplicitFold(int, int, int, int);org.gjt.sp.jedit.MiscUtilities;0;0;0;0;0;0;0;0
 org.gjt.sp.jedit.search.SearchDialog.load();org.gjt.sp.jedit.gui.HistoryModel;1;9;10;0.8301886792452831;0.9655172413793104;35;499;134
 bsh.Parser.ForStatement();bsh.JJTParserState;4;9;2;0.9774436090225564;0.9558823529411765;150;5894;74
 org.gjt.sp.jedit.pluginmgr.PluginListHandler.doctypeDecl(java.lang.String, java.lang.String, java.lang.String);org.gjt.sp.util.Log;0;1;1;0.9705882352941176;1.0;4;133;209
@@ -3273,7 +3273,7 @@ org.gjt.sp.jedit.Buffer.load(boolean, org.gjt.sp.jedit.View);org.gjt.sp.jedit.io
 org.gjt.sp.jedit.textarea.FirstLine.scrollUp(int);org.gjt.sp.jedit.Debug;0;2;4;0.8461538461538461;1.0;24;175;0
 org.gjt.sp.jedit.io.VFS.getTwoStageSaveName(java.lang.String);org.gjt.sp.jedit.MiscUtilities;0;2;1;0.9411764705882353;1.0;3;268;695
 macos.Delegate.handleOpenFile(org.gjt.sp.jedit.msg.ViewUpdate);macos.MacOSPlugin;0;1;3;0.9615384615384616;1.0;9;224;43
-org.gjt.sp.jedit.textarea.JEditTextArea.addExplicitFold(int, int, int, int);org.gjt.sp.jedit.buffer.JEditBuffer;0;0;0;0;0
+org.gjt.sp.jedit.textarea.JEditTextArea.addExplicitFold(int, int, int, int);org.gjt.sp.jedit.buffer.JEditBuffer;0;0;0;0;0;0;0;0
 gnu.regexp.RETokenEnd.match(gnu.regexp.CharIndexed, gnu.regexp.REMatch);gnu.regexp.REToken;1;1;3;0.9;0.9166666666666666;17;24;30
 org.gjt.sp.jedit.msg.ViewUpdate.getView();org.gjt.sp.jedit.EBMessage;1;0;1;1.0;0.6666666666666667;3;14;17
 org.gjt.sp.jedit.search.AllBufferSet._getFiles(java.awt.Component);gnu.regexp.RE;1;1;5;0.8888888888888888;0.975;17;26;615

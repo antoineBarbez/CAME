@@ -102,7 +102,7 @@ com.mongodb.DBRefBase.fetch();com.mongodb.DB;1;4;2;0.5555555555555556;0.97959183
 com.mongodb.ReplicaSetStatus.update(java.util.Set<com.mongodb.ReplicaSetStatus.Node>);com.mongodb.Mongo;1;11;4;0.8307692307692307;0.9848484848484849;63;334;256
 com.mongodb.DBPortPool.createObjectName(com.mongodb.ServerAddress);com.mongodb.ServerAddress;1;0;2;1.0;0.9285714285714286;5;121;97
 com.mongodb.DBPortPool.ok(com.mongodb.DBPort);com.mongodb.DBPort;1;0;2;1.0;0.9705882352941176;3;121;175
-com.mongodb.DBApiLayer.createIndex(com.mongodb.DBEncoder, com.mongodb.DBObject, com.mongodb.DBObject);com.mongodb.DBCollection;0;0;0;0;0
+com.mongodb.DBApiLayer.createIndex(com.mongodb.DBEncoder, com.mongodb.DBObject, com.mongodb.DBObject);com.mongodb.DBCollection;0;0;0;0;0;0;0;0
 com.mongodb.DBApiLayer.insert(boolean, com.mongodb.DBEncoder, com.mongodb.DBObject[], com.mongodb.WriteConcern);com.mongodb.Mongo;1;2;9;0.9636363636363636;0.9787234042553191;39;324;256
 com.mongodb.DBApiLayer.init(com.mongodb.Response);com.mongodb.Response;5;6;2;0.8775510204081632;0.8148148148148149;13;324;76
 com.mongodb.OutMessage.prepare();org.bson.io.OutputBuffer;1;0;2;1.0;0.9285714285714286;3;86;98

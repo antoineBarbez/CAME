@@ -1482,7 +1482,7 @@ org.jhotdraw.gui.JMDIDesktopPane.arrangeFramesVertically();org.jhotdraw.gui.MDID
 org.jhotdraw.draw.LineConnectionFigure.writePoints(org.jhotdraw.xml.DOMOutput);org.jhotdraw.draw.BezierFigure;1;2;1;0.9534883720930233;0.9836065573770492;9;332;458
 org.jhotdraw.samples.svg.gui.CanvasToolBar.createDisclosedComponent(int);org.jhotdraw.text.JavaNumberFormatter;3;0;12;1.0;0.9692307692307692;251;262;272
 org.jhotdraw.samples.svg.SVGApplicationModel.createActionMap(org.jhotdraw.app.Application, org.jhotdraw.app.View);org.jhotdraw.app.action.edit.ClearSelectionAction;0;0;9;1.0;1.0;15;172;31
-org.jhotdraw.draw.AbstractCompositeFigure.layout();org.jhotdraw.draw.AbstractFigure;0;0;0;0;0
+org.jhotdraw.draw.AbstractCompositeFigure.layout();org.jhotdraw.draw.AbstractFigure;0;0;0;0;0;0;0;0
 org.jhotdraw.samples.teddy.TeddyView.propertyChange(java.beans.PropertyChangeEvent);org.jhotdraw.undo.UndoRedoManager;1;0;2;1.0;0.9583333333333334;3;343;143
 org.jhotdraw.samples.pert.figures.TaskFigure.updateStartTime();org.jhotdraw.draw.TextFigure;1;7;2;0.7586206896551724;0.9782608695652174;17;217;173
 org.jhotdraw.app.action.file.ClearRecentFilesMenuAction.updateEnabled();org.jhotdraw.app.action.AbstractApplicationAction;2;0;1;1.0;0.8333333333333334;3;38;49

@@ -17,11 +17,11 @@ com.ecyrd.jspwiki.ui.TemplateManager.findResource(com.ecyrd.jspwiki.WikiContext,
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.initialize();com.ecyrd.jspwiki.WikiPage;2;11;7;0.9;0.9534883720930233;51;1402;107
 com.ecyrd.jspwiki.plugin.PluginManager.initializeFromXML(com.ecyrd.jspwiki.plugin.Element);com.ecyrd.jspwiki.modules.WikiModuleInfo;1;1;1;0.962962962962963;0.9375;4;416;63
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleMetadata(java.lang.String);com.ecyrd.jspwiki.WikiPage;1;2;6;0.9791666666666666;1.0;24;1402;107
-com.ecyrd.jspwiki.content.PageRenamer.getReferencesToChange(com.ecyrd.jspwiki.WikiEngine, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.getReferencesToChange(com.ecyrd.jspwiki.WikiEngine, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.listLinks(java.lang.String);com.ecyrd.jspwiki.WikiEngine;4;1;4;0.96;0.967391304347826;42;121;732
 com.ecyrd.jspwiki.tags.LinkToTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiLinkTag;3;3;4;0.7692307692307692;0.7857142857142857;37;53;35
 com.ecyrd.jspwiki.tags.CheckRequestContextTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;1;2;0.9;1.0;17;29;32
-com.ecyrd.jspwiki.VariableManager.getAttachmentprovider();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getAttachmentprovider();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ReferenceManager.serializeAttrsToDisk(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;2;1;2;0.9791666666666666;0.9428571428571428;38;444;107
 com.ecyrd.jspwiki.filters.SpamFilter.getRedirectPage(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiPage;1;2;3;0.9545454545454546;0.9583333333333334;4;438;107
 com.ecyrd.jspwiki.tags.NoSuchPageTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;2;1;4;0.8571428571428572;0.9090909090909091;14;24;107
@@ -33,15 +33,15 @@ com.ecyrd.jspwiki.dav.HTMLPagesDavProvider.getURL(com.ecyrd.jspwiki.dav.DavPath)
 com.ecyrd.jspwiki.filters.FilterManager.registerFilters();com.ecyrd.jspwiki.modules.ModuleManager;0;2;1;0.9565217391304348;1.0;32;187;11
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.findAttachment(java.lang.String);com.ecyrd.jspwiki.attachment.AttachmentManager;1;0;4;1.0;0.9523809523809523;18;1402;175
 com.ecyrd.jspwiki.WikiEngine.getViewURL(java.lang.String);com.ecyrd.jspwiki.WikiContext;0;2;1;0.975609756097561;1.0;6;732;269
-com.ecyrd.jspwiki.VariableManager.getUsername();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
-com.ecyrd.jspwiki.PageTimeComparator.compare(com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getUsername();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
+com.ecyrd.jspwiki.PageTimeComparator.compare(com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.ContentTag.setError(java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;1;0.9285714285714286;1.0;3;56;269
 com.ecyrd.jspwiki.providers.RCSFileProvider.movePage(java.lang.String, java.lang.String);com.ecyrd.jspwiki.providers.AbstractFileProvider;3;0;1;1.0;0.8636363636363636;10;355;191
 com.ecyrd.jspwiki.WikiEngine.pageExists(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;2;1;1;1.0;0.9;6;732;107
 com.ecyrd.jspwiki.auth.user.XMLUserDatabase.rename(java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.user.AbstractUserDatabase;0;6;1;0.8484848484848485;1.0;29;326;83
 com.ecyrd.jspwiki.plugin.PluginManager.executeParse(com.ecyrd.jspwiki.parser.PluginContent, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.modules.ModuleManager;1;5;4;0.8611111111111112;0.9375;38;416;11
 com.ecyrd.jspwiki.WikiServlet.doGet(com.ecyrd.jspwiki.HttpServletRequest, com.ecyrd.jspwiki.HttpServletResponse);com.ecyrd.jspwiki.WikiEngine;4;0;2;1.0;0.9512195121951219;8;21;732
-com.ecyrd.jspwiki.VariableManager.getAttachmentprovider();com.ecyrd.jspwiki.attachment.AttachmentManager;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getAttachmentprovider();com.ecyrd.jspwiki.attachment.AttachmentManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.event.WikiPageEvent.getTypeDescription();com.ecyrd.jspwiki.event.WikiEvent;2;0;1;1.0;0.6;42;94;46
 com.ecyrd.jspwiki.attachment.AttachmentManager.storeAttachment(com.ecyrd.jspwiki.attachment.Attachment, java.io.InputStream);com.ecyrd.jspwiki.PageManager;1;1;6;0.9615384615384616;0.9696969696969697;13;175;292
 com.ecyrd.jspwiki.attachment.AttachmentManager.deleteAttachment(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.WikiPage;1;1;4;0.9565217391304348;0.9565217391304348;6;175;107
@@ -59,7 +59,7 @@ com.ecyrd.jspwiki.auth.AuthorizationManager.checkStaticPermission(com.ecyrd.jspw
 com.ecyrd.jspwiki.plugin.UnusedPagesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiEngine;0;0;5;1.0;1.0;20;20;732
 com.ecyrd.jspwiki.attachment.AttachmentManager.storeAttachment(com.ecyrd.jspwiki.attachment.Attachment, java.io.InputStream);com.ecyrd.jspwiki.attachment.Attachment;1;1;6;0.9615384615384616;0.9090909090909091;13;175;23
 com.ecyrd.jspwiki.rss.AtomFeed.getString();com.ecyrd.jspwiki.WikiContext;0;3;6;0.8421052631578947;1.0;29;76;269
-com.ecyrd.jspwiki.ui.InputValidator.validateNotNull(int, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.ui.InputValidator.validateNotNull(int, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.DiffLinkTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;2;2;5;0.8571428571428572;0.9891304347826086;59;75;732
 com.ecyrd.jspwiki.filters.FilterManager.initialize(java.util.Properties);com.ecyrd.jspwiki.WikiEngine;1;2;2;0.8888888888888888;0.9883720930232558;32;187;732
 com.ecyrd.jspwiki.tags.CheckVersionTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;2;1;4;0.875;0.9761904761904762;27;45;732
@@ -81,7 +81,7 @@ com.ecyrd.jspwiki.WikiContext.getCurrentUser();com.ecyrd.jspwiki.WikiSession;1;0
 com.ecyrd.jspwiki.providers.CachingProvider.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.TextUtil;1;7;4;0.8409090909090909;1.0;32;390;317
 com.ecyrd.jspwiki.modules.ModuleManager.checkCompatibility(com.ecyrd.jspwiki.modules.WikiModuleInfo);com.ecyrd.jspwiki.Release;0;1;2;0.75;1.0;8;11;42
 com.ecyrd.jspwiki.PageManager.execute();com.ecyrd.jspwiki.filters.FilterManager;1;1;7;0.967741935483871;0.9473684210526316;11;292;187
-com.ecyrd.jspwiki.content.PageRenamer.replaceReferrerString(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.replaceReferrerString(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.UserManager.removeWikiEventListener(com.ecyrd.jspwiki.event.WikiEventListener);com.ecyrd.jspwiki.event.WikiEventManager;1;0;1;1.0;1.0;3;287;149
 com.ecyrd.jspwiki.tags.ParentPageNameTag.doWikiStartTag();com.ecyrd.jspwiki.attachment.Attachment;1;0;5;1.0;0.875;22;22;23
 com.ecyrd.jspwiki.plugin.InsertPage.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.auth.AuthorizationManager;1;0;6;1.0;0.9743589743589743;70;70;242
@@ -196,14 +196,14 @@ com.ecyrd.jspwiki.filters.SpamFilter.ignoreThisUser(com.ecyrd.jspwiki.WikiContex
 com.ecyrd.jspwiki.tags.LinkToTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;1;3;4;0.7692307692307692;0.9655172413793104;37;53;107
 com.ecyrd.jspwiki.auth.authorize.GroupManager.setGroup(com.ecyrd.jspwiki.auth.authorize.Group, com.ecyrd.jspwiki.WikiSession);com.ecyrd.jspwiki.event.WikiSecurityEvent;0;3;3;0.9032258064516129;1.0;33;280;108
 com.ecyrd.jspwiki.workflow.WorkflowManager.getOwnerWorkflows(com.ecyrd.jspwiki.WikiSession);com.ecyrd.jspwiki.WikiSession;2;1;2;0.9583333333333334;0.9333333333333333;17;115;341
-com.ecyrd.jspwiki.tags.AuthorTag.doWikiStartTag();com.ecyrd.jspwiki.i18n.InternationalizationManager;0;0;0;0;0
+com.ecyrd.jspwiki.tags.AuthorTag.doWikiStartTag();com.ecyrd.jspwiki.i18n.InternationalizationManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.WikiServletFilter.doFilter(com.ecyrd.jspwiki.ui.FilterChain, com.ecyrd.jspwiki.ui.ServletRequest, com.ecyrd.jspwiki.ui.ServletResponse);com.ecyrd.jspwiki.auth.AuthenticationManager;1;1;4;0.9166666666666666;0.9583333333333334;42;62;209
 com.ecyrd.jspwiki.providers.RCSFileProvider.getPageText(int, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;1;3;0.9696969696969697;1.0;65;355;317
 com.ecyrd.jspwiki.plugin.Groups.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiEngine;1;0;3;1.0;0.9886363636363636;21;21;732
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getPageInfo(java.lang.String);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;0;2;2;0.8461538461538461;1.0;4;121;28
 com.ecyrd.jspwiki.rss.AtomFeed.getString();com.ecyrd.jspwiki.rss.Entry;0;3;6;0.8421052631578947;1.0;29;76;30
 com.ecyrd.jspwiki.attachment.AttachmentManager.storeDynamicAttachment(com.ecyrd.jspwiki.attachment.DynamicAttachment, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiPage;1;1;1;0.95;0.95;3;175;107
-com.ecyrd.jspwiki.tags.RSSImageLinkTag.initTag();com.ecyrd.jspwiki.rss.RSSGenerator;0;0;0;0;0
+com.ecyrd.jspwiki.tags.RSSImageLinkTag.initTag();com.ecyrd.jspwiki.rss.RSSGenerator;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ReferenceManager.getFinalPageName(java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;0;1;1.0;0.9876543209876543;11;444;732
 com.ecyrd.jspwiki.plugin.InsertPage.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.TextUtil;2;0;6;1.0;1.0;70;70;317
 com.ecyrd.jspwiki.plugin.InsertPage.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiPage;1;0;6;1.0;0.975;70;70;107
@@ -217,7 +217,7 @@ com.ecyrd.jspwiki.parser.VariableContent.getValue();com.ecyrd.jspwiki.parser.Wik
 com.ecyrd.jspwiki.PageManager.execute();com.ecyrd.jspwiki.WikiEngine;2;1;7;0.967741935483871;0.9764705882352941;11;292;732
 com.ecyrd.jspwiki.filters.SpamFilter.refreshBlacklists(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;0;6;5;0.88;1.0;36;438;269
 com.ecyrd.jspwiki.providers.FileSystemProvider.getPageProperties(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;3;0;2;1.0;0.9230769230769231;19;71;107
-com.ecyrd.jspwiki.VariableManager.getPagename();com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPagename();com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean.backgroundTask();com.ecyrd.jspwiki.search.SearchManager;1;2;6;0.9;0.9523809523809523;20;92;126
 com.ecyrd.jspwiki.forms.FormSelect.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.forms.FormInfo;2;1;4;0.8888888888888888;0.875;18;71;56
 com.ecyrd.jspwiki.auth.authorize.GroupManager.parseGroup(boolean, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;1;3;1.0;0.9705882352941176;10;280;269
@@ -247,7 +247,7 @@ com.ecyrd.jspwiki.auth.UserManager.parseProfile(com.ecyrd.jspwiki.WikiContext);c
 com.ecyrd.jspwiki.tags.EditLinkTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiLinkTag;2;3;5;0.75;0.8571428571428572;39;52;35
 com.ecyrd.jspwiki.ui.CommandResolver.findCommand(com.ecyrd.jspwiki.ui.HttpServletRequest, java.lang.String);com.ecyrd.jspwiki.ui.PageCommand;0;4;4;0.8235294117647058;1.0;41;172;26
 com.ecyrd.jspwiki.tags.InsertDiffTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;2;1;3;0.8888888888888888;0.9767441860465116;23;33;732
-com.ecyrd.jspwiki.WikiContext.deepClone();com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.WikiContext.deepClone();com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.authorize.GroupManager.validateGroup(com.ecyrd.jspwiki.auth.authorize.Group, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.auth.authorize.Group;2;1;3;0.9583333333333334;0.9;13;280;98
 com.ecyrd.jspwiki.ui.admin.WikiFormAdminBean.doGet(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.parser.MarkupParser;1;1;4;1.0;1.0;14;17;88
 com.ecyrd.jspwiki.WikiEngine.getHTML(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;2;2;1;0.9880952380952381;0.9047619047619048;6;732;107
@@ -256,7 +256,7 @@ com.ecyrd.jspwiki.search.LuceneSearchProvider.initialize(com.ecyrd.jspwiki.WikiE
 com.ecyrd.jspwiki.WikiEngine.findPages(java.lang.String);com.ecyrd.jspwiki.search.SearchManager;1;0;1;1.0;0.9;4;732;126
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleAccessRule(java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;1;2;4;0.9791666666666666;0.967741935483871;20;1402;88
 com.ecyrd.jspwiki.xmlrpc.RPCServlet.init(com.ecyrd.jspwiki.xmlrpc.ServletConfig);com.ecyrd.jspwiki.WikiEngine;0;1;1;0.9;1.0;15;74;732
-com.ecyrd.jspwiki.providers.CachingAttachmentProvider.deleteAttachment(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.providers.CachingAttachmentProvider.deleteAttachment(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.admin.beans.UserBean.doPost(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiEngine;0;0;4;1.0;1.0;54;69;732
 com.ecyrd.jspwiki.auth.authorize.GroupManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.auth.authorize.Group;1;4;4;0.84;0.96;19;280;98
 com.ecyrd.jspwiki.plugin.ReferredPagesPlugin.getReferredPages(com.ecyrd.jspwiki.WikiContext, int, java.lang.String);com.ecyrd.jspwiki.ReferenceManager;1;2;2;0.9285714285714286;0.9705882352941176;8;87;444
@@ -269,21 +269,21 @@ com.ecyrd.jspwiki.auth.permissions.AllPermission.implies(java.security.Permissio
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.makeDirectURILink(java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;1;7;1;0.9456521739130435;0.9666666666666667;20;1402;88
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getPage(java.lang.String);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;0;2;2;0.8888888888888888;1.0;5;140;28
 com.ecyrd.jspwiki.filters.FilterManager.doPostTranslateFiltering(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.event.WikiPageEvent;0;1;1;1.0;1.0;9;187;94
-com.ecyrd.jspwiki.providers.CachingProvider.cacheEntryRemoved(com.ecyrd.jspwiki.providers.CacheEntryEvent);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.providers.CachingProvider.cacheEntryRemoved(com.ecyrd.jspwiki.providers.CacheEntryEvent);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.AttachmentsIteratorTag.doAfterBody();com.ecyrd.jspwiki.tags.WikiTagBase;0;0;3;1.0;1.0;21;59;32
-com.ecyrd.jspwiki.content.PageRenamer.updateReferrers(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage, java.util.Set<java.lang.String>);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.updateReferrers(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage, java.util.Set<java.lang.String>);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.AuthorizationManager.hasRoleOrPrincipal(com.ecyrd.jspwiki.WikiSession, java.security.Principal);com.ecyrd.jspwiki.auth.AuthenticationManager;0;1;2;0.9545454545454546;1.0;19;242;209
 com.ecyrd.jspwiki.filters.SpamFilter.refreshBlacklists(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.FileUtil;0;6;5;0.88;1.0;36;438;123
 com.ecyrd.jspwiki.WikiEngine.textToHTML(boolean, boolean, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.render.RenderingManager;2;0;6;1.0;0.9523809523809523;31;732;116
 com.ecyrd.jspwiki.search.LuceneSearchProvider.luceneIndexPage(com.ecyrd.jspwiki.search.IndexWriter, com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;5;1.0;1.0;30;340;88
-com.ecyrd.jspwiki.plugin.AbstractReferralPlugin.initialize(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.AbstractReferralPlugin.initialize(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.CalendarTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;1;4;3;0.8846153846153846;0.9777777777777777;54;152;269
 com.ecyrd.jspwiki.dav.methods.PropFindMethod.getAllProps(com.ecyrd.jspwiki.dav.DavContext);com.ecyrd.jspwiki.dav.DavContext;0;1;1;0.8;1.0;4;131;16
 com.ecyrd.jspwiki.ReferenceManager.updatePageReferences(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.PageManager;1;1;4;0.975609756097561;1.0;11;444;292
 com.ecyrd.jspwiki.ui.Installer.adminExists();com.ecyrd.jspwiki.WikiEngine;0;0;2;1.0;1.0;11;164;732
 com.ecyrd.jspwiki.tags.PageNameTag.doWikiStartTag();com.ecyrd.jspwiki.attachment.Attachment;1;0;4;1.0;0.8333333333333334;13;13;23
 com.ecyrd.jspwiki.WikiSession.isAnonymous();com.ecyrd.jspwiki.auth.authorize.Role;0;2;2;0.9230769230769231;1.0;4;341;22
-com.ecyrd.jspwiki.auth.user.JDBCUserDatabase.findByPreparedStatement(java.lang.Object, java.lang.String);com.ecyrd.jspwiki.util.Serializer;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.JDBCUserDatabase.findByPreparedStatement(java.lang.Object, java.lang.String);com.ecyrd.jspwiki.util.Serializer;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.htmltowiki.XHtmlToWikiConfig.setWikiContext(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiPage;1;1;2;0.875;0.95;5;50;107
 com.ecyrd.jspwiki.auth.acl.DefaultAclManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.WikiEngine;0;0;1;1.0;1.0;4;120;732
 com.ecyrd.jspwiki.forms.FormSelect.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.forms.FormElement;1;1;4;0.8888888888888888;0.8888888888888888;18;71;6
@@ -293,23 +293,23 @@ com.ecyrd.jspwiki.xmlrpc.RPCServlet.doPost(com.ecyrd.jspwiki.xmlrpc.HttpServletR
 com.ecyrd.jspwiki.plugin.AbstractReferralPlugin.initialize(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.TextUtil;1;6;2;0.6;1.0;46;116;317
 com.ecyrd.jspwiki.auth.authorize.WebContainerAuthorizer.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.auth.authorize.Role;0;6;1;0.6875;1.0;34;151;22
 com.ecyrd.jspwiki.tags.TemplateDirTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;1;0;2;1.0;0.9666666666666667;5;5;269
-com.ecyrd.jspwiki.plugin.CurrentTimePlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.CurrentTimePlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.fillBuffer(com.ecyrd.jspwiki.parser.Element);com.ecyrd.jspwiki.WikiContext;0;13;3;0.8602150537634409;1.0;74;1402;269
 com.ecyrd.jspwiki.attachment.AttachmentManager.getAttachmentInfo(com.ecyrd.jspwiki.WikiContext, int, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;2;4;0.9230769230769231;0.9887640449438202;29;175;732
 com.ecyrd.jspwiki.attachment.AttachmentManager.storeAttachment(com.ecyrd.jspwiki.attachment.Attachment, java.io.InputStream);com.ecyrd.jspwiki.WikiPage;1;1;6;0.9615384615384616;0.9615384615384616;13;175;107
 com.ecyrd.jspwiki.rpc.atom.AtomAPIServlet.listBlogs();com.ecyrd.jspwiki.WikiEngine;1;1;6;0.9411764705882353;0.9887640449438202;21;129;732
 com.ecyrd.jspwiki.WikiEngine.getApplicationName();com.ecyrd.jspwiki.TextUtil;1;1;2;0.9878048780487805;1.0;4;732;317
 com.ecyrd.jspwiki.search.SearchManager.loadSearchProvider(java.util.Properties);com.ecyrd.jspwiki.TextUtil;0;1;2;0.9230769230769231;1.0;32;126;317
-com.ecyrd.jspwiki.VariableManager.getInterwikilinks();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getInterwikilinks();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.RawPagesDavProvider.listDirContents(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.WikiDavProvider;0;0;5;1.0;1.0;21;119;6
 com.ecyrd.jspwiki.rss.RSS10Feed.getRDFItems();com.ecyrd.jspwiki.rss.Feed;1;0;2;1.0;0.9166666666666666;11;69;47
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.makeLink(int, java.lang.String, java.lang.String, java.lang.String, java.util.Iterator);com.ecyrd.jspwiki.i18n.InternationalizationManager;0;8;3;0.9263157894736842;1.0;88;1402;13
 com.ecyrd.jspwiki.WikiEngine.beautifyTitle(java.lang.String);com.ecyrd.jspwiki.attachment.Attachment;2;1;3;0.9880952380952381;0.6666666666666667;16;732;23
-com.ecyrd.jspwiki.auth.user.JDBCUserDatabase.save(com.ecyrd.jspwiki.auth.user.UserProfile);com.ecyrd.jspwiki.util.Serializer;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.JDBCUserDatabase.save(com.ecyrd.jspwiki.auth.user.UserProfile);com.ecyrd.jspwiki.util.Serializer;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rss.RSSGenerator.getAttachmentDescription(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.attachment.Attachment;1;1;4;0.95;0.9090909090909091;14;229;23
 com.ecyrd.jspwiki.tags.PageTypeTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;1;1;0.8;0.875;4;22;32
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.parsePageCheckCondition(java.lang.String);com.ecyrd.jspwiki.auth.permissions.PagePermission;0;1;4;0.95;1.0;9;140;148
-com.ecyrd.jspwiki.PageManager.getPageInfo(int, java.lang.String);com.ecyrd.jspwiki.ReferenceManager;0;0;0;0;0
+com.ecyrd.jspwiki.PageManager.getPageInfo(int, java.lang.String);com.ecyrd.jspwiki.ReferenceManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean.backgroundTask();com.ecyrd.jspwiki.WikiEngine;0;2;6;0.9;1.0;20;92;732
 com.ecyrd.jspwiki.workflow.DecisionQueue.getActorDecisions(com.ecyrd.jspwiki.WikiSession);com.ecyrd.jspwiki.WikiSession;3;1;2;0.9444444444444444;0.9;21;52;341
 com.ecyrd.jspwiki.WikiSession.injectUserProfilePrincipals();com.ecyrd.jspwiki.auth.UserManager;1;3;3;0.9032258064516129;0.9722222222222222;29;341;287
@@ -333,7 +333,7 @@ com.ecyrd.jspwiki.tags.TabTag.setUrl(java.lang.String);com.ecyrd.jspwiki.TextUti
 com.ecyrd.jspwiki.auth.user.JDBCUserDatabase.save(com.ecyrd.jspwiki.auth.user.UserProfile);com.ecyrd.jspwiki.auth.user.AbstractUserDatabase;1;10;1;0.8360655737704918;0.9736842105263158;85;332;83
 com.ecyrd.jspwiki.dav.HTMLPagesDavProvider.listDirContents(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.WikiDavProvider;0;0;6;1.0;1.0;21;50;6
 com.ecyrd.jspwiki.tags.LinkTag.figureOutURL();com.ecyrd.jspwiki.WikiContext;1;9;8;0.8181818181818181;0.9821428571428571;84;248;269
-com.ecyrd.jspwiki.TranslatorReader.addHeadingListener(com.ecyrd.jspwiki.parser.HeadingListener);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.addHeadingListener(com.ecyrd.jspwiki.parser.HeadingListener);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.workflow.Decision.execute();com.ecyrd.jspwiki.workflow.AbstractStep;0;0;5;1.0;1.0;10;57;88
 com.ecyrd.jspwiki.dav.AttachmentDavProvider.listAllPagesWithAttachments();com.ecyrd.jspwiki.attachment.AttachmentManager;1;0;3;1.0;0.962962962962963;21;80;175
 com.ecyrd.jspwiki.tags.NextVersionTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;0;3;1.0;1.0;8;8;32
@@ -355,7 +355,7 @@ com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.outlinkImage();com.ecyrd.jspwiki.pa
 com.ecyrd.jspwiki.plugin.PluginManager.findPluginClass(java.lang.String);com.ecyrd.jspwiki.util.ClassUtil;1;1;1;0.962962962962963;1.0;3;416;84
 com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean.backgroundTask();com.ecyrd.jspwiki.ui.progress.ProgressManager;2;2;6;0.9;0.8666666666666667;20;92;19
 com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean.reload();com.ecyrd.jspwiki.util.WikiBackgroundThread;2;4;6;0.8260869565217391;0.9090909090909091;34;92;59
-com.ecyrd.jspwiki.TranslatorReader.addExternalLinkHook(com.ecyrd.jspwiki.StringTransmutator);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.addExternalLinkHook(com.ecyrd.jspwiki.StringTransmutator);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.LinkTag.doEndTag();com.ecyrd.jspwiki.WikiContext;0;10;4;0.6774193548387097;1.0;35;248;269
 com.ecyrd.jspwiki.ui.InputValidator.validateNotNull(int, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiSession;2;2;2;0.9;0.9285714285714286;9;56;341
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.initialize();com.ecyrd.jspwiki.TextUtil;1;11;7;0.9;1.0;51;1402;317
@@ -380,7 +380,7 @@ com.ecyrd.jspwiki.WikiSession.getRoles();com.ecyrd.jspwiki.auth.WikiPrincipal;0;
 com.ecyrd.jspwiki.providers.CachingAttachmentProvider.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.WikiEngine;1;2;3;0.9130434782608696;1.0;23;141;732
 com.ecyrd.jspwiki.tags.UserCheckTag.doWikiStartTag();com.ecyrd.jspwiki.auth.AuthenticationManager;2;1;5;0.9090909090909091;0.9047619047619048;60;78;209
 com.ecyrd.jspwiki.search.BasicSearchProvider.findPages(com.ecyrd.jspwiki.QueryItem[]);com.ecyrd.jspwiki.SearchMatcher;1;1;4;0.9411764705882353;0.9230769230769231;33;95;51
-com.ecyrd.jspwiki.auth.authorize.GroupManager.checkGroupName(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.ui.InputValidator;0;0;0;0;0
+com.ecyrd.jspwiki.auth.authorize.GroupManager.checkGroupName(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.ui.InputValidator;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.AuthorizationManager.isUserInRole(com.ecyrd.jspwiki.WikiSession, java.security.Principal);com.ecyrd.jspwiki.WikiSession;2;0;3;1.0;0.9130434782608696;12;242;341
 com.ecyrd.jspwiki.dav.WikiDavServlet.doPropFind(com.ecyrd.jspwiki.dav.HttpServletRequest, com.ecyrd.jspwiki.dav.HttpServletResponse);com.ecyrd.jspwiki.dav.methods.DavMethod;1;3;3;0.8571428571428572;1.0;17;73;3
 com.ecyrd.jspwiki.rss.RSSGenerator.getPageDescription(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiEngine;2;1;2;0.95;0.9770114942528736;15;229;732
@@ -404,7 +404,7 @@ com.ecyrd.jspwiki.ui.WikiJSPFilter.doFilter(com.ecyrd.jspwiki.ui.FilterChain, co
 com.ecyrd.jspwiki.auth.AuthorizationManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.auth.AuthenticationManager;0;4;2;0.8461538461538461;1.0;30;242;209
 com.ecyrd.jspwiki.tags.TemplateDirTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;0;2;1.0;1.0;5;5;32
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.parse();com.ecyrd.jspwiki.WikiContext;0;2;3;0.9764705882352941;1.0;9;1402;269
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.providers.FileSystemProvider.getPageProperties(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.providers.AbstractFileProvider;2;0;2;1.0;0.9285714285714286;19;71;191
 com.ecyrd.jspwiki.rss.AtomFeed.getString();com.ecyrd.jspwiki.WikiEngine;3;3;6;0.8421052631578947;0.9789473684210527;29;76;732
 com.ecyrd.jspwiki.WikiEngine.getRecentChanges();com.ecyrd.jspwiki.PageManager;1;0;2;1.0;0.9642857142857143;14;732;292
@@ -423,7 +423,7 @@ com.ecyrd.jspwiki.ui.CommandResolver.simplePageExists(java.lang.String);com.ecyr
 com.ecyrd.jspwiki.forms.FormOutput.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.forms.FormElement;2;0;7;1.0;0.96;44;44;6
 com.ecyrd.jspwiki.dav.items.AttachmentItem.getContentType();com.ecyrd.jspwiki.WikiEngine;1;0;5;1.0;0.9879518072289156;8;23;732
 com.ecyrd.jspwiki.search.LuceneSearchProvider.findPages(int, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;3;1;0.875;1.0;70;340;732
-com.ecyrd.jspwiki.auth.user.XMLUserDatabase.save(com.ecyrd.jspwiki.auth.user.UserProfile);com.ecyrd.jspwiki.util.Serializer;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.XMLUserDatabase.save(com.ecyrd.jspwiki.auth.user.UserProfile);com.ecyrd.jspwiki.util.Serializer;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.linkExists(java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;0;2;1.0;0.9878048780487805;10;1402;732
 com.ecyrd.jspwiki.tags.UserCheckTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;0;1;5;0.9090909090909091;1.0;60;78;732
 com.ecyrd.jspwiki.auth.authorize.JDBCGroupDatabase.groups();com.ecyrd.jspwiki.WikiEngine;1;8;2;0.813953488372093;0.9904761904761905;36;284;732
@@ -432,17 +432,17 @@ com.ecyrd.jspwiki.xmlrpc.RPCHandler.getAllPages();com.ecyrd.jspwiki.WikiPage;1;1
 com.ecyrd.jspwiki.auth.SecurityVerifier.webContainerRoles();com.ecyrd.jspwiki.auth.authorize.WebContainerAuthorizer;1;0;3;1.0;0.9230769230769231;7;450;151
 com.ecyrd.jspwiki.rss.RSSGenerator.generateBlogRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext, java.util.List);com.ecyrd.jspwiki.WikiEngine;5;2;5;0.9523809523809523;0.9724770642201834;56;229;732
 com.ecyrd.jspwiki.url.DefaultURLConstructor.makeURL(boolean, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;1;1.0;1.0;17;78;269
-com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.newProfile();com.ecyrd.jspwiki.auth.user.DefaultUserProfile;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.newProfile();com.ecyrd.jspwiki.auth.user.DefaultUserProfile;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.WikiContext.updateCommand(java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;2;3;0.9375;1.0;12;269;732
 com.ecyrd.jspwiki.providers.VersioningFileProvider.putPageText(com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.FileUtil;0;4;3;0.8857142857142857;1.0;39;318;123
-com.ecyrd.jspwiki.SearchResultComparator.compare(com.ecyrd.jspwiki.SearchResult, com.ecyrd.jspwiki.SearchResult);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.SearchResultComparator.compare(com.ecyrd.jspwiki.SearchResult, com.ecyrd.jspwiki.SearchResult);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.ContentTag.setInfo(java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;1;0.9285714285714286;1.0;3;56;269
 com.ecyrd.jspwiki.tags.TabTag.setTitle(java.lang.String);com.ecyrd.jspwiki.TextUtil;0;1;1;0.9;1.0;3;82;317
 com.ecyrd.jspwiki.dav.HTMLPagesDavProvider.listDirContents(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.RawPagesDavProvider;0;0;6;1.0;1.0;21;50;119
 com.ecyrd.jspwiki.tags.LinkTag.makeBasicURL(boolean, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;4;6;0.875;1.0;39;248;269
 com.ecyrd.jspwiki.tags.CheckVersionTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;1;4;0.875;1.0;27;45;32
 com.ecyrd.jspwiki.tags.BaseURLTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;1;0;3;1.0;0.9876543209876543;4;4;732
-com.ecyrd.jspwiki.VariableManager.getBaseurl();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getBaseurl();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleTilde();com.ecyrd.jspwiki.parser.MarkupParser;2;4;1;0.9545454545454546;0.9166666666666666;19;1402;88
 com.ecyrd.jspwiki.rss.RSS20Feed.getString();com.ecyrd.jspwiki.WikiEngine;2;1;5;0.875;0.9767441860465116;29;69;732
 com.ecyrd.jspwiki.ui.Installer.adminExists();com.ecyrd.jspwiki.auth.UserManager;1;0;2;1.0;0.962962962962963;11;164;287
@@ -463,7 +463,7 @@ com.ecyrd.jspwiki.search.LuceneSearchProvider.luceneIndexPage(com.ecyrd.jspwiki.
 com.ecyrd.jspwiki.ui.progress.ProgressManager.stopProgress(java.lang.String);com.ecyrd.jspwiki.ui.progress.ProgressItem;1;1;1;0.8571428571428572;0.6666666666666667;5;19;6
 com.ecyrd.jspwiki.tags.CheckRequestContextTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;1;1;2;0.9;0.9714285714285714;17;29;269
 com.ecyrd.jspwiki.WikiEngine.beautifyTitleNoBreak(java.lang.String);com.ecyrd.jspwiki.TextUtil;0;1;1;0.9876543209876543;1.0;6;732;317
-com.ecyrd.jspwiki.VariableManager.getLoginstatus();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getLoginstatus();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.WikiDavServlet.doGet(com.ecyrd.jspwiki.dav.HttpServletRequest, com.ecyrd.jspwiki.dav.HttpServletResponse);com.ecyrd.jspwiki.dav.methods.DavMethod;1;2;3;0.9047619047619048;1.0;13;73;3
 com.ecyrd.jspwiki.plugin.Counter.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.TextUtil;0;0;2;1.0;1.0;35;35;317
 com.ecyrd.jspwiki.auth.SecurityVerifier.containerRoleTable();com.ecyrd.jspwiki.auth.authorize.WebContainerAuthorizer;1;0;4;1.0;1.0;65;450;151
@@ -491,7 +491,7 @@ com.ecyrd.jspwiki.search.SearchManager.findPages(int, java.lang.String);com.ecyr
 com.ecyrd.jspwiki.tags.UploadLinkTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiLinkTag;2;0;4;1.0;0.75;22;22;35
 com.ecyrd.jspwiki.auth.acl.DefaultAclManager.parseAcl(com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.auth.permissions.PermissionFactory;0;0;3;1.0;1.0;36;120;21
 com.ecyrd.jspwiki.workflow.WorkflowManager.add(com.ecyrd.jspwiki.workflow.Workflow);com.ecyrd.jspwiki.workflow.Workflow;2;2;1;0.8947368421052632;0.9444444444444444;9;115;219
-com.ecyrd.jspwiki.TranslatorReader.enableImageInlining(boolean);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.enableImageInlining(boolean);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.url.DefaultURLConstructor.doReplacement(boolean, java.lang.String, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;2;2;0.8;1.0;9;78;317
 com.ecyrd.jspwiki.tags.CheckRequestContextTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;2;1;0.6666666666666667;0.8888888888888888;5;29;32
 com.ecyrd.jspwiki.ui.admin.beans.PlainEditorAdminBean.doGet(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.TextUtil;0;2;2;0.7777777777777778;1.0;10;43;317
@@ -507,7 +507,7 @@ com.ecyrd.jspwiki.xmlrpc.RPCHandler.getRecentChanges(java.util.Date);com.ecyrd.j
 com.ecyrd.jspwiki.tags.IncludeTag.doEndTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;1;5;0.8571428571428572;1.0;20;33;32
 com.ecyrd.jspwiki.workflow.WorkflowBuilder.buildApprovalWorkflow(com.ecyrd.jspwiki.workflow.Fact[], com.ecyrd.jspwiki.workflow.Task, com.ecyrd.jspwiki.workflow.Task, java.lang.String, java.lang.String, java.lang.String, java.security.Principal);com.ecyrd.jspwiki.WikiEngine;0;0;7;1.0;1.0;43;54;732
 com.ecyrd.jspwiki.WikiContext.hasAccess(boolean, com.ecyrd.jspwiki.HttpServletResponse);com.ecyrd.jspwiki.i18n.InternationalizationManager;0;4;6;0.8974358974358975;1.0;27;269;13
-com.ecyrd.jspwiki.TranslatorReader.addAttachmentLinkHook(com.ecyrd.jspwiki.StringTransmutator);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.addAttachmentLinkHook(com.ecyrd.jspwiki.StringTransmutator);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.IncludeTag.doEndTag();com.ecyrd.jspwiki.ui.TemplateManager;1;1;5;0.8571428571428572;0.9166666666666666;20;33;261
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getPageHTMLVersion(int, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;2;2;0.8888888888888888;1.0;4;140;732
 com.ecyrd.jspwiki.workflow.WorkflowManager.getOwnerWorkflows(com.ecyrd.jspwiki.WikiSession);com.ecyrd.jspwiki.workflow.Workflow;1;1;2;0.9583333333333334;0.975609756097561;17;115;219
@@ -521,7 +521,7 @@ com.ecyrd.jspwiki.plugin.PluginManager.toString();com.ecyrd.jspwiki.modules.Wiki
 com.ecyrd.jspwiki.ui.WikiServletFilter.doFilter(com.ecyrd.jspwiki.ui.FilterChain, com.ecyrd.jspwiki.ui.ServletRequest, com.ecyrd.jspwiki.ui.ServletResponse);com.ecyrd.jspwiki.WikiEngine;2;1;4;0.9166666666666666;0.9770114942528736;42;62;732
 com.ecyrd.jspwiki.ui.WikiCommand.getName();com.ecyrd.jspwiki.ui.AbstractCommand;1;0;1;1.0;0.875;3;27;63
 com.ecyrd.jspwiki.auth.acl.DefaultAclManager.getPermissions(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.render.RenderingManager;0;1;5;0.9230769230769231;1.0;22;120;116
-com.ecyrd.jspwiki.VariableManager.getPluginpath();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPluginpath();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleHeading();com.ecyrd.jspwiki.parser.MarkupParser;2;4;2;0.9655172413793104;0.9090909090909091;25;1402;88
 com.ecyrd.jspwiki.event.PageEventFilter.postTranslate(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.event.WikiPageEvent;0;1;1;1.0;1.0;4;29;94
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getPageHTML(java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;1;2;0.9230769230769231;0.9878048780487805;4;121;732
@@ -540,7 +540,7 @@ com.ecyrd.jspwiki.WikiSession.invalidate();com.ecyrd.jspwiki.auth.authorize.Role
 com.ecyrd.jspwiki.dav.AttachmentDavProvider.listAllPagesWithAttachments();com.ecyrd.jspwiki.attachment.Attachment;1;0;3;1.0;0.9166666666666666;21;80;23
 com.ecyrd.jspwiki.workflow.Workflow.abort();com.ecyrd.jspwiki.workflow.DecisionQueue;1;5;4;0.8611111111111112;0.9375;19;219;52
 com.ecyrd.jspwiki.PageManager.execute();com.ecyrd.jspwiki.workflow.Workflow;1;1;7;0.967741935483871;0.9736842105263158;11;292;219
-com.ecyrd.jspwiki.VariableManager.getPagefilters();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPagefilters();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.PageNameTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;0;4;1.0;1.0;13;13;32
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleMetadata(java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;2;6;0.9791666666666666;1.0;24;1402;732
 com.ecyrd.jspwiki.WikiSession.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.auth.authorize.Group;1;7;4;0.8157894736842105;0.9736842105263158;120;341;98
@@ -548,7 +548,7 @@ com.ecyrd.jspwiki.providers.CachingAttachmentProvider.initialize(com.ecyrd.jspwi
 com.ecyrd.jspwiki.rpc.atom.AtomAPIServlet.doPost(com.ecyrd.jspwiki.rpc.atom.HttpServletRequest, com.ecyrd.jspwiki.rpc.atom.HttpServletResponse);com.ecyrd.jspwiki.WikiEngine;2;1;3;0.9375;0.9770114942528736;38;129;732
 com.ecyrd.jspwiki.tags.CheckLockTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;0;1;5;0.8333333333333334;1.0;18;33;732
 com.ecyrd.jspwiki.WikiEngine.initialize(java.util.Properties);com.ecyrd.jspwiki.render.RenderingManager;1;19;13;0.8333333333333334;0.9836065573770492;125;732;116
-com.ecyrd.jspwiki.plugin.WeblogPlugin.compare(com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.WeblogPlugin.compare(com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rss.AtomFeed.getFeedID();com.ecyrd.jspwiki.rss.Feed;0;0;3;1.0;1.0;3;76;47
 com.ecyrd.jspwiki.workflow.WorkflowBuilder.buildApprovalWorkflow(com.ecyrd.jspwiki.workflow.Fact[], com.ecyrd.jspwiki.workflow.Task, com.ecyrd.jspwiki.workflow.Task, java.lang.String, java.lang.String, java.lang.String, java.security.Principal);com.ecyrd.jspwiki.workflow.Workflow;2;0;7;1.0;0.9473684210526316;43;54;219
 com.ecyrd.jspwiki.plugin.WeblogPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiEngine;0;2;6;0.96875;1.0;79;181;732
@@ -570,20 +570,20 @@ com.ecyrd.jspwiki.ui.InputValidator.validate(int, java.lang.String, java.lang.St
 com.ecyrd.jspwiki.rss.RSSGenerator.generateBlogRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext, java.util.List);com.ecyrd.jspwiki.WikiContext;1;2;5;0.9523809523809523;0.9833333333333333;56;229;269
 com.ecyrd.jspwiki.providers.CachingAttachmentProvider.deleteAttachment(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.attachment.Attachment;1;2;1;0.9090909090909091;0.8571428571428572;4;141;23
 com.ecyrd.jspwiki.plugin.WeblogPlugin.findBlogEntries(com.ecyrd.jspwiki.PageManager, java.lang.String, java.util.Date, java.util.Date);com.ecyrd.jspwiki.WikiPage;1;0;2;1.0;0.96875;30;181;107
-com.ecyrd.jspwiki.WikiEngine.getApplicationName();com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.WikiEngine.getApplicationName();com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.RawPagesDavProvider.listAlphabeticals(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.PageManager;1;0;4;1.0;0.972972972972973;23;119;292
 com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean.backgroundTask();com.ecyrd.jspwiki.ui.admin.SimpleAdminBean;0;2;6;0.9;1.0;20;92;36
-com.ecyrd.jspwiki.content.PageRenamer.updateReferrers(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage, java.util.Set<java.lang.String>);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.updateReferrers(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage, java.util.Set<java.lang.String>);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getRecentChanges(java.util.Date);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;1;1;4;0.9714285714285714;0.9545454545454546;16;140;28
 com.ecyrd.jspwiki.auth.AuthenticationManager.login(com.ecyrd.jspwiki.WikiSession, java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.UserManager;1;4;3;0.9047619047619048;0.967741935483871;17;209;287
 com.ecyrd.jspwiki.dav.RawPagesDavProvider.getItemNoCache(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.WikiEngine;1;2;4;0.8888888888888888;0.9888888888888889;23;119;732
 com.ecyrd.jspwiki.attachment.AttachmentServlet.validateNextPage(java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;0;1;1.0;0.9879518072289156;9;306;732
 com.ecyrd.jspwiki.tags.PageDateTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;0;1;3;0.8333333333333334;1.0;14;25;269
 com.ecyrd.jspwiki.forms.FormClose.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiContext;1;0;3;1.0;0.972972972972973;14;14;269
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.PageManager;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.PageManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.PageDateTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;1;3;0.8333333333333334;1.0;14;25;32
 com.ecyrd.jspwiki.forms.FormTextarea.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiEngine;1;1;4;0.8888888888888888;0.9886363636363636;18;36;732
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.permissions.PermissionFactory;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.permissions.PermissionFactory;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.workflow.SimpleNotification.acknowledge();com.ecyrd.jspwiki.workflow.Outcome;0;0;2;1.0;1.0;3;9;35
 com.ecyrd.jspwiki.workflow.Decision.execute();com.ecyrd.jspwiki.workflow.WorkflowManager;0;0;5;1.0;1.0;10;57;115
 com.ecyrd.jspwiki.ui.WikiJSPFilter.doFilter(com.ecyrd.jspwiki.ui.FilterChain, com.ecyrd.jspwiki.ui.ServletRequest, com.ecyrd.jspwiki.ui.ServletResponse);com.ecyrd.jspwiki.WikiContext;0;2;7;0.9444444444444444;1.0;29;94;269
@@ -595,7 +595,7 @@ com.ecyrd.jspwiki.dav.methods.PropFindMethod.execute(com.ecyrd.jspwiki.dav.DavPa
 com.ecyrd.jspwiki.plugin.WeblogPlugin.addEntryHTML(boolean, com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, java.lang.StringBuffer, java.text.DateFormat);com.ecyrd.jspwiki.WikiEngine;4;1;4;0.9565217391304348;0.9578947368421052;45;181;732
 com.ecyrd.jspwiki.WikiContext.getBundle(java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;0;3;1.0;1.0;5;269;732
 com.ecyrd.jspwiki.search.LuceneSearchProvider.luceneIndexPage(com.ecyrd.jspwiki.search.IndexWriter, com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.attachment.AttachmentManager;1;0;5;1.0;0.9583333333333334;30;340;175
-com.ecyrd.jspwiki.auth.user.JDBCUserDatabase.findByPreparedStatement(java.lang.Object, java.lang.String);com.ecyrd.jspwiki.auth.user.AbstractUserDatabase;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.JDBCUserDatabase.findByPreparedStatement(java.lang.Object, java.lang.String);com.ecyrd.jspwiki.auth.user.AbstractUserDatabase;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.authorize.GroupManager.setGroup(com.ecyrd.jspwiki.auth.authorize.Group, com.ecyrd.jspwiki.WikiSession);com.ecyrd.jspwiki.WikiSession;1;3;3;0.9032258064516129;0.9722222222222222;33;280;341
 com.ecyrd.jspwiki.auth.SecurityVerifier.verifyJaas();com.ecyrd.jspwiki.WikiSession;1;0;3;1.0;0.9583333333333334;6;450;341
 com.ecyrd.jspwiki.ui.WikiJSPFilter.insertResources(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.ui.TemplateManager;0;0;3;1.0;1.0;19;94;261
@@ -622,14 +622,14 @@ com.ecyrd.jspwiki.ui.Installer.saveProperties();com.ecyrd.jspwiki.WikiSession;2;
 com.ecyrd.jspwiki.tags.CommentLinkTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiLinkTag;2;1;4;0.8;0.75;24;27;35
 com.ecyrd.jspwiki.workflow.Workflow.abort();com.ecyrd.jspwiki.event.WorkflowEvent;0;5;4;0.8611111111111112;1.0;19;219;35
 com.ecyrd.jspwiki.auth.UserManager.getUserDatabase();com.ecyrd.jspwiki.WikiEngine;2;2;2;0.9333333333333333;0.9883720930232558;37;287;732
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.PageCommand.getName();com.ecyrd.jspwiki.ui.AbstractCommand;2;0;2;1.0;0.7777777777777778;7;26;63
 com.ecyrd.jspwiki.plugin.PluginManager.parseArgs(java.lang.String);com.ecyrd.jspwiki.FileUtil;0;0;1;1.0;1.0;60;416;123
 com.ecyrd.jspwiki.ui.EditorManager.initializeFromXML(com.ecyrd.jspwiki.ui.Element);com.ecyrd.jspwiki.modules.WikiModuleInfo;1;1;1;0.9;0.9375;4;110;63
 com.ecyrd.jspwiki.url.ShortViewURLConstructor.makeURL(boolean, java.lang.String, java.lang.String);com.ecyrd.jspwiki.url.ShortURLConstructor;1;0;3;1.0;0.875;9;32;102
 com.ecyrd.jspwiki.auth.user.XMLUserDatabase.sanitizeDOM();com.ecyrd.jspwiki.auth.user.AbstractUserDatabase;0;3;1;0.9;1.0;29;326;83
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.getCleanTranslator();com.ecyrd.jspwiki.WikiContext;1;1;2;0.9882352941176471;0.967741935483871;8;1402;269
-com.ecyrd.jspwiki.plugin.RecentChangesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.i18n.InternationalizationManager;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.RecentChangesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.i18n.InternationalizationManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rpc.atom.AtomAPIServlet.doPost(com.ecyrd.jspwiki.rpc.atom.HttpServletRequest, com.ecyrd.jspwiki.rpc.atom.HttpServletResponse);com.ecyrd.jspwiki.plugin.WeblogEntryPlugin;1;1;3;0.9375;0.9;38;129;51
 com.ecyrd.jspwiki.search.SearchManager.postSave(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.filters.BasicPageFilter;0;1;4;0.9166666666666666;1.0;4;126;16
 com.ecyrd.jspwiki.workflow.Workflow.restart();com.ecyrd.jspwiki.event.WorkflowEvent;0;4;1;0.8787878787878788;1.0;14;219;35
@@ -654,7 +654,7 @@ com.ecyrd.jspwiki.dav.RawPagesDavProvider.listAlphabeticals(com.ecyrd.jspwiki.da
 com.ecyrd.jspwiki.auth.AuthenticationManager.removeWikiEventListener(com.ecyrd.jspwiki.event.WikiEventListener);com.ecyrd.jspwiki.event.WikiEventManager;1;0;1;1.0;1.0;3;209;149
 com.ecyrd.jspwiki.tags.PageInfoLinkTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiLinkTag;2;2;5;0.75;0.8181818181818181;27;33;35
 com.ecyrd.jspwiki.filters.FilterManager.destroy();com.ecyrd.jspwiki.modules.ModuleManager;0;0;1;1.0;1.0;6;187;11
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.editPost(boolean, java.lang.String, java.lang.String, java.lang.String, java.util.Hashtable);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.editPost(boolean, java.lang.String, java.lang.String, java.lang.String, java.util.Hashtable);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.WikiEngine.getCurrentWatchDog();com.ecyrd.jspwiki.util.WatchDog;0;0;1;1.0;1.0;3;732;166
 com.ecyrd.jspwiki.WikiEngine.getRedirectURL(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;0;1;1.0;0.9666666666666667;3;732;269
 com.ecyrd.jspwiki.tags.LinkTag.doEndTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;10;4;0.6774193548387097;1.0;35;248;32
@@ -668,7 +668,7 @@ com.ecyrd.jspwiki.auth.authorize.XMLGroupDatabase.save(com.ecyrd.jspwiki.auth.au
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.findAttachment(java.lang.String);com.ecyrd.jspwiki.WikiPage;1;0;4;1.0;0.9523809523809523;18;1402;107
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getPage(java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;2;2;0.8888888888888888;1.0;5;140;732
 com.ecyrd.jspwiki.tags.MessagesTag.doWikiStartTag();com.ecyrd.jspwiki.TextUtil;0;4;4;0.7142857142857143;1.0;30;48;317
-com.ecyrd.jspwiki.providers.CachingAttachmentProvider.putAttachmentData(com.ecyrd.jspwiki.attachment.Attachment, java.io.InputStream);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.providers.CachingAttachmentProvider.putAttachmentData(com.ecyrd.jspwiki.attachment.Attachment, java.io.InputStream);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getAllPages();com.ecyrd.jspwiki.WikiEngine;1;1;4;0.9583333333333334;0.9886363636363636;12;140;732
 com.ecyrd.jspwiki.plugin.Image.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiPage;1;2;5;0.9166666666666666;0.9655172413793104;67;80;107
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleMetadata(java.lang.String);com.ecyrd.jspwiki.VariableManager;1;2;6;0.9791666666666666;0.9411764705882353;24;1402;183
@@ -688,7 +688,7 @@ com.ecyrd.jspwiki.workflow.WorkflowManager.actionPerformed(com.ecyrd.jspwiki.eve
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.parsePageCheckCondition(java.lang.String);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;1;0;4;1.0;0.8333333333333334;8;121;28
 com.ecyrd.jspwiki.dav.items.AttachmentItem.getContentType();com.ecyrd.jspwiki.dav.items.PageDavItem;0;0;5;1.0;1.0;8;23;41
 com.ecyrd.jspwiki.tags.LinkTag.figureOutURL();com.ecyrd.jspwiki.WikiPage;1;9;8;0.8181818181818181;0.9777777777777777;84;248;107
-com.ecyrd.jspwiki.TranslatorReader.addLinkTransmutator(com.ecyrd.jspwiki.StringTransmutator);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.addLinkTransmutator(com.ecyrd.jspwiki.StringTransmutator);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rss.RSSGenerator.generateWikiPageRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext, java.util.List);com.ecyrd.jspwiki.rss.Entry;4;4;6;0.8787878787878788;0.8333333333333334;32;229;30
 com.ecyrd.jspwiki.search.BasicSearchProvider.attachmentNames(com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.attachment.AttachmentManager;2;0;3;1.0;0.92;20;95;175
 com.ecyrd.jspwiki.auth.permissions.AllPermission.implies(java.security.Permission);com.ecyrd.jspwiki.auth.permissions.WikiPermission;1;1;3;0.9;0.9090909090909091;19;48;81
@@ -710,10 +710,10 @@ com.ecyrd.jspwiki.auth.AuthorizationManager.locateImplementation(java.lang.Strin
 com.ecyrd.jspwiki.dav.items.HTMLPageDavItem.getText();com.ecyrd.jspwiki.parser.MarkupParser;0;0;6;1.0;1.0;14;41;88
 com.ecyrd.jspwiki.dav.AttachmentDavProvider.listAllPagesWithAttachments();com.ecyrd.jspwiki.WikiEngine;0;0;3;1.0;1.0;21;80;732
 com.ecyrd.jspwiki.ui.Installer.parseProperties();com.ecyrd.jspwiki.i18n.InternationalizationManager;0;7;5;0.7586206896551724;1.0;42;164;13
-com.ecyrd.jspwiki.VariableManager.getAttachmentproviderdescription();com.ecyrd.jspwiki.attachment.AttachmentManager;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getAttachmentproviderdescription();com.ecyrd.jspwiki.attachment.AttachmentManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.plugin.UndefinedPagesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.plugin.AbstractReferralPlugin;5;0;4;1.0;0.7333333333333334;10;10;116
 com.ecyrd.jspwiki.ui.WikiCommand.targetedCommand(java.lang.Object);com.ecyrd.jspwiki.ui.AbstractCommand;3;1;1;0.8571428571428572;0.6666666666666667;6;27;63
-com.ecyrd.jspwiki.plugin.ReferredPagesPlugin.handleLinks(com.ecyrd.jspwiki.WikiContext, int, java.lang.String, java.util.Collection<java.lang.String>);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.ReferredPagesPlugin.handleLinks(com.ecyrd.jspwiki.WikiContext, int, java.lang.String, java.util.Collection<java.lang.String>);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.filters.SpamFilter.checkAkismet(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;3;3;0.9375;0.9655172413793104;35;438;107
 com.ecyrd.jspwiki.ui.WikiServletFilter.getWikiContext(com.ecyrd.jspwiki.ui.ServletRequest);com.ecyrd.jspwiki.tags.WikiTagBase;0;0;1;1.0;1.0;5;62;32
 com.ecyrd.jspwiki.rss.RSSGenerator.generateBlogRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext, java.util.List);com.ecyrd.jspwiki.rss.Entry;4;2;5;0.9523809523809523;0.8709677419354839;56;229;30
@@ -722,7 +722,7 @@ com.ecyrd.jspwiki.url.ShortURLConstructor.initialize(com.ecyrd.jspwiki.WikiEngin
 com.ecyrd.jspwiki.rss.RSSThread.backgroundTask();com.ecyrd.jspwiki.FileUtil;0;1;3;0.9090909090909091;1.0;29;41;123
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleOpenbracket();com.ecyrd.jspwiki.parser.MarkupParser;3;6;1;0.946236559139785;0.896551724137931;56;1402;88
 com.ecyrd.jspwiki.ui.progress.ProgressManager.startProgress(com.ecyrd.jspwiki.ui.progress.ProgressItem, java.lang.String);com.ecyrd.jspwiki.ui.progress.ProgressItem;1;1;1;0.8571428571428572;0.6666666666666667;5;19;6
-com.ecyrd.jspwiki.tags.RSSImageLinkTag.doWikiStartTag();com.ecyrd.jspwiki.i18n.InternationalizationManager;0;0;0;0;0
+com.ecyrd.jspwiki.tags.RSSImageLinkTag.doWikiStartTag();com.ecyrd.jspwiki.i18n.InternationalizationManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.plugin.TableOfContents.headingAdded(com.ecyrd.jspwiki.parser.Heading, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiEngine;1;8;5;0.5789473684210527;0.9896907216494846;51;115;732
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getRecentChanges(java.util.Date);com.ecyrd.jspwiki.WikiPage;1;1;4;0.9666666666666667;0.972972972972973;16;121;107
 com.ecyrd.jspwiki.dav.HTMLPagesDavProvider.getURL(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.DavUtil;0;0;5;1.0;1.0;3;50;34
@@ -743,7 +743,7 @@ com.ecyrd.jspwiki.tags.HasAttachmentsTag.doWikiStartTag();com.ecyrd.jspwiki.atta
 com.ecyrd.jspwiki.plugin.RecentChangesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.TextUtil;1;3;4;0.88;1.0;84;105;317
 com.ecyrd.jspwiki.dav.methods.PropFindMethod.getProperties(com.ecyrd.jspwiki.dav.DavContext, java.util.List);com.ecyrd.jspwiki.dav.DavContext;1;0;4;1.0;0.9090909090909091;56;131;16
 com.ecyrd.jspwiki.ReferenceManager.pageRemoved(java.lang.String);com.ecyrd.jspwiki.WikiEngine;2;4;1;0.9069767441860466;0.9789473684210527;31;444;732
-com.ecyrd.jspwiki.VariableManager.getRequestcontext();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getRequestcontext();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.makeLink(int, java.lang.String, java.lang.String, java.lang.String, java.util.Iterator);com.ecyrd.jspwiki.WikiContext;3;8;3;0.9263157894736842;0.9333333333333333;88;1402;269
 com.ecyrd.jspwiki.forms.FormClose.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.forms.FormElement;2;0;3;1.0;0.8888888888888888;14;14;6
 com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler.getRecentChanges(java.util.Date);com.ecyrd.jspwiki.WikiEngine;1;2;3;0.9545454545454546;0.98989898989899;15;28;732
@@ -751,7 +751,7 @@ com.ecyrd.jspwiki.auth.SessionMonitor.sessionCreated(com.ecyrd.jspwiki.auth.Http
 com.ecyrd.jspwiki.tags.AuthorTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;1;0;7;1.0;0.9583333333333334;19;19;107
 com.ecyrd.jspwiki.PageManager.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.WikiPage;2;2;4;0.975609756097561;0.9393939393939394;32;292;107
 com.ecyrd.jspwiki.tags.CommentLinkTag.getCommentURL(java.lang.String);com.ecyrd.jspwiki.tags.WikiTagBase;0;0;2;1.0;1.0;3;27;32
-com.ecyrd.jspwiki.content.PageRenamer.replaceSingleLink(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.replaceSingleLink(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.WikiEngine.getAllInlinedImagePatterns();com.ecyrd.jspwiki.parser.JSPWikiMarkupParser;0;0;1;1.0;1.0;3;732;1402
 com.ecyrd.jspwiki.dav.AttachmentDavProvider.getItem(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.attachment.AttachmentManager;1;2;4;0.8;0.96;26;80;175
 com.ecyrd.jspwiki.providers.CachingProvider.getAllPages();com.ecyrd.jspwiki.WikiPage;1;6;1;0.8666666666666667;0.9655172413793104;18;390;107
@@ -773,12 +773,12 @@ com.ecyrd.jspwiki.auth.AuthenticationManager.login(com.ecyrd.jspwiki.auth.HttpSe
 com.ecyrd.jspwiki.filters.CreoleFilter.preSave(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.parser.CreoleToJSPWikiTranslator;1;0;3;1.0;1.0;11;23;226
 com.ecyrd.jspwiki.plugin.WeblogPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.auth.AuthorizationManager;1;2;6;0.96875;0.9772727272727273;79;181;242
 com.ecyrd.jspwiki.event.PageEventFilter.preSave(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.event.WikiPageEvent;0;1;1;1.0;1.0;4;29;94
-com.ecyrd.jspwiki.auth.authorize.GroupManager.checkGroupName(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.auth.authorize.Group;0;0;0;0;0
+com.ecyrd.jspwiki.auth.authorize.GroupManager.checkGroupName(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.auth.authorize.Group;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.items.DirectoryItem.getPropertySet();com.ecyrd.jspwiki.dav.items.DavItem;0;0;2;1.0;1.0;11;32;27
 com.ecyrd.jspwiki.workflow.Workflow.waitstate();com.ecyrd.jspwiki.event.WorkflowEvent;0;2;1;0.9393939393939394;1.0;7;219;35
 com.ecyrd.jspwiki.tags.PageNameTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;1;0;4;1.0;0.9879518072289156;13;13;732
 com.ecyrd.jspwiki.event.WikiPageEvent.eventName();com.ecyrd.jspwiki.event.WikiEvent;2;0;1;1.0;0.6;42;94;46
-com.ecyrd.jspwiki.WikiEngine.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.content.PageRenamer;0;0;0;0;0
+com.ecyrd.jspwiki.WikiEngine.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.content.PageRenamer;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.VariableManager.getValue(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiEngine;12;0;7;1.0;0.8899082568807339;131;183;732
 com.ecyrd.jspwiki.tags.LinkTag.figureOutURL();com.ecyrd.jspwiki.WikiEngine;7;9;8;0.8181818181818181;0.9411764705882353;84;248;732
 com.ecyrd.jspwiki.WikiContext.getBundle(java.lang.String);com.ecyrd.jspwiki.i18n.InternationalizationManager;1;0;3;1.0;0.6666666666666667;5;269;13
@@ -792,7 +792,7 @@ com.ecyrd.jspwiki.ui.admin.WikiFormAdminBean.doGet(com.ecyrd.jspwiki.WikiContext
 com.ecyrd.jspwiki.search.LuceneSearchProvider.doFullLuceneReindex();com.ecyrd.jspwiki.PageManager;2;4;4;0.9411764705882353;0.975;63;340;292
 com.ecyrd.jspwiki.providers.VersioningFileProvider.readFile(java.io.File);com.ecyrd.jspwiki.FileUtil;0;0;2;1.0;1.0;32;318;123
 com.ecyrd.jspwiki.search.LuceneSearchProvider.doFullLuceneReindex();com.ecyrd.jspwiki.WikiPage;1;4;4;0.9411764705882353;0.9696969696969697;63;340;107
-com.ecyrd.jspwiki.VariableManager.getAttachmentproviderdescription();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getAttachmentproviderdescription();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.plugin.PluginManager.execute(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.util.Map);com.ecyrd.jspwiki.WikiContext;1;6;4;0.8611111111111112;0.9772727272727273;53;416;269
 com.ecyrd.jspwiki.attachment.AttachmentServlet.executeUpload(com.ecyrd.jspwiki.WikiContext, java.io.InputStream, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long);com.ecyrd.jspwiki.WikiPage;4;2;6;0.9375;0.9;45;306;107
 com.ecyrd.jspwiki.auth.AuthenticationManager.logout(com.ecyrd.jspwiki.auth.HttpServletRequest);com.ecyrd.jspwiki.event.WikiSecurityEvent;0;1;2;1.0;1.0;19;209;108
@@ -825,9 +825,9 @@ com.ecyrd.jspwiki.url.ShortViewURLConstructor.initialize(com.ecyrd.jspwiki.WikiE
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleHyperlinks(int, java.lang.String);com.ecyrd.jspwiki.WikiContext;2;12;9;0.9122807017543859;0.9705882352941176;124;1402;269
 com.ecyrd.jspwiki.ui.Installer.createAdministrator();com.ecyrd.jspwiki.auth.UserManager;1;2;5;0.9259259259259259;0.9736842105263158;33;164;287
 com.ecyrd.jspwiki.filters.SpamFilter.refreshBlacklists(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.attachment.AttachmentManager;2;6;5;0.88;0.9393939393939394;36;438;175
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.search.LuceneSearchProvider.getLuceneAnalyzer();com.ecyrd.jspwiki.util.ClassUtil;0;1;1;0.9545454545454546;1.0;5;340;84
-com.ecyrd.jspwiki.VariableManager.getPageproviderdescription();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPageproviderdescription();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.WikiEngine.textToHTML(boolean, boolean, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.VariableManager;1;0;6;1.0;0.9333333333333333;31;732;183
 com.ecyrd.jspwiki.tags.PreviousVersionTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;0;0;3;1.0;1.0;7;7;269
 com.ecyrd.jspwiki.auth.authorize.GroupManager.removeGroup(java.lang.String);com.ecyrd.jspwiki.auth.authorize.Group;1;3;2;0.875;0.9565217391304348;14;280;98
@@ -837,7 +837,7 @@ com.ecyrd.jspwiki.auth.UserManager.validateProfile(com.ecyrd.jspwiki.auth.user.U
 com.ecyrd.jspwiki.attachment.AttachmentServlet.doGet(com.ecyrd.jspwiki.attachment.HttpServletRequest, com.ecyrd.jspwiki.attachment.HttpServletResponse);com.ecyrd.jspwiki.attachment.AttachmentManager;2;0;8;1.0;1.0;110;306;175
 com.ecyrd.jspwiki.plugin.UnusedPagesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiContext;0;0;5;1.0;1.0;20;20;269
 com.ecyrd.jspwiki.plugin.ListLocksPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.PageLock;4;0;4;1.0;0.6666666666666667;27;27;22
-com.ecyrd.jspwiki.VariableManager.getPagefilters();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPagefilters();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getPageInfoVersion(int, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;2;2;0.8888888888888888;1.0;4;140;732
 com.ecyrd.jspwiki.WikiEngine.initialize(java.util.Properties);com.ecyrd.jspwiki.rss.RSSGenerator;0;19;13;0.8333333333333334;1.0;125;732;229
 com.ecyrd.jspwiki.tags.UserCheckTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;0;1;5;0.9090909090909091;1.0;60;78;269
@@ -856,7 +856,7 @@ com.ecyrd.jspwiki.tags.HasAttachmentsTag.doWikiStartTag();com.ecyrd.jspwiki.Wiki
 com.ecyrd.jspwiki.forms.FormTextarea.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.forms.FormInfo;2;1;4;0.8888888888888888;0.875;18;36;56
 com.ecyrd.jspwiki.providers.CachingProvider.cacheEntryUpdated(com.ecyrd.jspwiki.providers.CacheEntryEvent);com.ecyrd.jspwiki.WikiPage;1;1;1;0.9767441860465116;0.9545454545454546;9;390;107
 com.ecyrd.jspwiki.plugin.Search.renderResults(com.ecyrd.jspwiki.WikiContext, int, java.util.Collection);com.ecyrd.jspwiki.WikiContext;1;0;3;1.0;0.9736842105263158;26;57;269
-com.ecyrd.jspwiki.VariableManager.getUptime();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getUptime();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.getPrincipals(java.lang.String);com.ecyrd.jspwiki.auth.WikiPrincipal;0;1;1;1.0;1.0;19;83;35
 com.ecyrd.jspwiki.dav.WikiRootProvider.getURL(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.WikiContext;0;0;4;1.0;1.0;3;19;269
 com.ecyrd.jspwiki.dav.items.PageDavItem.getHref();com.ecyrd.jspwiki.dav.items.DavItem;1;0;1;1.0;0.75;3;41;27
@@ -892,7 +892,7 @@ com.ecyrd.jspwiki.tags.PageDateTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;
 com.ecyrd.jspwiki.render.RenderingManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.providers.CachingProvider;0;2;4;0.8666666666666667;1.0;36;116;390
 com.ecyrd.jspwiki.rss.RSSGenerator.generateWikiPageRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext, java.util.List);com.ecyrd.jspwiki.rss.Feed;6;4;6;0.8787878787878788;0.8148148148148149;32;229;47
 com.ecyrd.jspwiki.auth.SessionMonitor.find(com.ecyrd.jspwiki.auth.HttpSession);com.ecyrd.jspwiki.WikiSession;0;2;1;0.8333333333333334;1.0;14;94;341
-com.ecyrd.jspwiki.plugin.RecentChangesPlugin.getTimeFormat(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.RecentChangesPlugin.getTimeFormat(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.plugin.RPCSamplePlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.rpc.json.JSONRPCManager;2;0;1;1.0;1.0;5;8;86
 com.ecyrd.jspwiki.tags.CommentLinkTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;1;1;4;0.8;0.9545454545454546;24;27;107
 com.ecyrd.jspwiki.tags.HistoryIteratorTag.doStartTag();com.ecyrd.jspwiki.tags.IteratorTag;1;0;5;1.0;0.95;29;49;58
@@ -900,7 +900,7 @@ com.ecyrd.jspwiki.workflow.Workflow.fireEvent(int);com.ecyrd.jspwiki.event.WikiE
 com.ecyrd.jspwiki.providers.BasicAttachmentProvider.findFile(com.ecyrd.jspwiki.attachment.Attachment, java.io.File);com.ecyrd.jspwiki.WikiPage;1;1;2;0.962962962962963;0.96;18;290;107
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.makeHeading(com.ecyrd.jspwiki.parser.Heading, int, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;2;4;0.9885057471264368;1.0;20;1402;88
 com.ecyrd.jspwiki.tags.LinkTag.doEndTag();com.ecyrd.jspwiki.WikiEngine;1;10;4;0.6774193548387097;0.9895833333333334;35;248;732
-com.ecyrd.jspwiki.providers.CachingAttachmentProvider.cacheEntryUpdated(com.ecyrd.jspwiki.providers.CacheEntryEvent);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.providers.CachingAttachmentProvider.cacheEntryUpdated(com.ecyrd.jspwiki.providers.CacheEntryEvent);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rss.RSSThread.startupTask();com.ecyrd.jspwiki.util.WikiBackgroundThread;0;0;2;1.0;1.0;3;41;59
 com.ecyrd.jspwiki.rss.RSSGenerator.generateBlogRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext, java.util.List);com.ecyrd.jspwiki.WikiPage;1;2;5;0.9523809523809523;0.9795918367346939;56;229;107
 com.ecyrd.jspwiki.tags.PageSizeTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;0;4;1.0;1.0;19;19;32
@@ -921,7 +921,7 @@ com.ecyrd.jspwiki.WikiEngine.saveText(com.ecyrd.jspwiki.WikiContext, java.lang.S
 com.ecyrd.jspwiki.plugin.ReferringPagesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.plugin.AbstractReferralPlugin;5;0;6;1.0;0.8333333333333334;34;34;116
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.findAttachment(java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;4;1.0;1.0;18;1402;88
 com.ecyrd.jspwiki.tags.SetPaginationTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;7;1;0.5;0.9285714285714286;10;115;32
-com.ecyrd.jspwiki.VariableManager.getEncoding();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getEncoding();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.UserNameTag.doWikiStartTag();com.ecyrd.jspwiki.TextUtil;0;0;4;1.0;1.0;9;9;317
 com.ecyrd.jspwiki.PageManager.getPageText(int, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;1;3;0.9696969696969697;0.9886363636363636;24;292;732
 com.ecyrd.jspwiki.WikiEngine.initReferenceManager();com.ecyrd.jspwiki.attachment.AttachmentManager;1;0;4;1.0;0.9583333333333334;14;732;175
@@ -961,13 +961,13 @@ com.ecyrd.jspwiki.auth.authorize.XMLGroupDatabase.initialize(com.ecyrd.jspwiki.W
 com.ecyrd.jspwiki.tags.CalendarTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;4;1;0.7142857142857143;0.9090909090909091;5;152;32
 com.ecyrd.jspwiki.VariableManager.getValue(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiPage;2;0;7;1.0;0.9649122807017544;131;183;107
 com.ecyrd.jspwiki.dav.items.AttachmentItem.getContentType();com.ecyrd.jspwiki.dav.items.DavItem;1;0;5;1.0;0.8;8;23;27
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.ReferenceManager;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.ReferenceManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.HTMLPagesDavProvider.getItemNoCache(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.RawPagesDavProvider;1;1;5;0.9166666666666666;0.9473684210526316;23;50;119
 com.ecyrd.jspwiki.dav.WikiRootProvider.getURL(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.WikiDavProvider;0;0;4;1.0;1.0;3;19;6
 com.ecyrd.jspwiki.workflow.Workflow.complete();com.ecyrd.jspwiki.event.WorkflowEvent;0;4;1;0.8787878787878788;1.0;7;219;35
 com.ecyrd.jspwiki.plugin.WeblogPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.TextUtil;1;2;6;0.96875;1.0;79;181;317
 com.ecyrd.jspwiki.plugin.UndefinedPagesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiContext;0;0;4;1.0;1.0;10;10;269
-com.ecyrd.jspwiki.VariableManager.getEncoding();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getEncoding();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.LinkTag.figureOutURL();com.ecyrd.jspwiki.parser.JSPWikiMarkupParser;0;9;8;0.8181818181818181;1.0;84;248;1402
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.toRPCString(java.lang.String);com.ecyrd.jspwiki.TextUtil;0;0;1;1.0;1.0;3;140;317
 com.ecyrd.jspwiki.auth.UserManager.setUserProfile(com.ecyrd.jspwiki.auth.user.UserProfile, com.ecyrd.jspwiki.WikiSession);com.ecyrd.jspwiki.auth.AuthorizationManager;1;3;9;0.9591836734693877;0.9761904761904762;69;287;242
@@ -980,7 +980,7 @@ com.ecyrd.jspwiki.auth.user.XMLUserDatabase.initialize(com.ecyrd.jspwiki.WikiEng
 com.ecyrd.jspwiki.dav.methods.GetMethod.execute(com.ecyrd.jspwiki.dav.DavPath, com.ecyrd.jspwiki.dav.methods.HttpServletRequest, com.ecyrd.jspwiki.dav.methods.HttpServletResponse);com.ecyrd.jspwiki.FileUtil;0;0;3;1.0;1.0;22;25;123
 com.ecyrd.jspwiki.tags.MessagesTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;4;4;0.7142857142857143;1.0;30;48;32
 com.ecyrd.jspwiki.ui.admin.AdminBeanManager.registerBeans(java.util.Collection);com.ecyrd.jspwiki.modules.WikiModuleInfo;1;1;1;0.9473684210526316;0.9565217391304348;21;139;63
-com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.validatePassword(java.lang.String, java.lang.String);com.ecyrd.jspwiki.util.CryptoUtil;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.validatePassword(java.lang.String, java.lang.String);com.ecyrd.jspwiki.util.CryptoUtil;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.items.DirectoryItem.getHref();com.ecyrd.jspwiki.dav.items.DavItem;1;0;1;1.0;0.75;3;32;27
 com.ecyrd.jspwiki.plugin.BugReportHandler.findNextPage(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;3;1.0;1.0;10;93;88
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.makeHeading(com.ecyrd.jspwiki.parser.Heading, int, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;2;4;0.9885057471264368;1.0;20;1402;269
@@ -988,7 +988,7 @@ com.ecyrd.jspwiki.dav.items.PageDavItem.getLength();com.ecyrd.jspwiki.WikiEngine
 com.ecyrd.jspwiki.auth.SecurityVerifier.policyRoleTable();com.ecyrd.jspwiki.auth.permissions.PermissionFactory;0;2;2;0.9565217391304348;1.0;79;450;21
 com.ecyrd.jspwiki.tags.ContentTag.setPreview(java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;1;0.9285714285714286;1.0;3;56;269
 com.ecyrd.jspwiki.event.PageEventFilter.removeWikiEventListener(com.ecyrd.jspwiki.event.WikiEventListener);com.ecyrd.jspwiki.event.WikiEventManager;1;0;1;1.0;1.0;3;29;149
-com.ecyrd.jspwiki.VariableManager.getAttachmentproviderdescription();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getAttachmentproviderdescription();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.FeedDiscoveryTag.doWikiStartTag();com.ecyrd.jspwiki.TextUtil;0;0;7;1.0;1.0;20;20;317
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleDash();com.ecyrd.jspwiki.parser.MarkupParser;2;3;1;0.9651162790697675;0.9047619047619048;20;1402;88
 com.ecyrd.jspwiki.ui.admin.beans.PlainEditorAdminBean.doGet(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;2;2;0.7777777777777778;0.9696969696969697;10;43;269
@@ -1012,13 +1012,13 @@ com.ecyrd.jspwiki.tags.FeedDiscoveryTag.doWikiStartTag();com.ecyrd.jspwiki.WikiP
 com.ecyrd.jspwiki.WikiEngine.getInterWikiURL(java.lang.String);com.ecyrd.jspwiki.TextUtil;1;1;1;0.9878048780487805;1.0;3;732;317
 com.ecyrd.jspwiki.tags.InsertPageTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;2;1;0.6666666666666667;0.8888888888888888;5;45;32
 com.ecyrd.jspwiki.ui.CommandResolver.findCommand(com.ecyrd.jspwiki.ui.HttpServletRequest, java.lang.String);com.ecyrd.jspwiki.WikiEngine;2;4;4;0.8235294117647058;0.9775280898876404;41;172;732
-com.ecyrd.jspwiki.VariableManager.getPageprovider();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPageprovider();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.SessionMonitor.userPrincipals();com.ecyrd.jspwiki.WikiSession;1;1;1;0.95;0.96875;10;94;341
 com.ecyrd.jspwiki.render.RenderingManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.event.WikiPageEvent;0;2;4;0.8666666666666667;1.0;36;116;94
 com.ecyrd.jspwiki.WikiServlet.init(com.ecyrd.jspwiki.ServletConfig);com.ecyrd.jspwiki.WikiEngine;0;0;1;1.0;1.0;5;21;732
 com.ecyrd.jspwiki.tags.InsertDiffTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;1;1;0.75;0.875;4;33;32
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.parse();com.ecyrd.jspwiki.parser.MarkupParser;0;2;3;0.9764705882352941;1.0;9;1402;88
-com.ecyrd.jspwiki.TranslatorReader.disableAccessRules();com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.disableAccessRules();com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.attachment.AttachmentServlet.executeUpload(com.ecyrd.jspwiki.WikiContext, java.io.InputStream, java.lang.String, java.lang.String, java.lang.String, java.lang.String, long);com.ecyrd.jspwiki.auth.AuthorizationManager;1;2;6;0.9375;0.967741935483871;45;306;242
 com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.newMediaObject(java.lang.String, java.lang.String, java.lang.String, java.util.Hashtable);com.ecyrd.jspwiki.WikiPage;2;1;4;0.9473684210526316;0.9230769230769231;22;128;107
 com.ecyrd.jspwiki.PageManager.execute();com.ecyrd.jspwiki.WikiContext;0;1;7;0.967741935483871;1.0;11;292;269
@@ -1049,26 +1049,26 @@ com.ecyrd.jspwiki.event.PageEventFilter.fireEvent(com.ecyrd.jspwiki.WikiContext,
 com.ecyrd.jspwiki.rss.RSSGenerator.generateFullWikiRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiPage;1;4;8;0.875;0.975609756097561;30;229;107
 com.ecyrd.jspwiki.plugin.TableOfContents.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.filters.FilterManager;1;8;8;0.7142857142857143;0.9743589743589743;64;115;187
 com.ecyrd.jspwiki.tags.UserProfileTag.doWikiStartTag();com.ecyrd.jspwiki.WikiSession;2;1;7;0.9473684210526316;0.9736842105263158;59;112;341
-com.ecyrd.jspwiki.plugin.IndexPlugin.listPages(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.IndexPlugin.listPages(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.authorize.JDBCGroupDatabase.delete(com.ecyrd.jspwiki.auth.authorize.Group);com.ecyrd.jspwiki.auth.authorize.Group;1;5;1;0.8611111111111112;0.967741935483871;34;284;98
 com.ecyrd.jspwiki.ui.WikiJSPFilter.doFilter(com.ecyrd.jspwiki.ui.FilterChain, com.ecyrd.jspwiki.ui.ServletRequest, com.ecyrd.jspwiki.ui.ServletResponse);com.ecyrd.jspwiki.util.WatchDog;2;2;7;0.9444444444444444;0.9655172413793104;29;94;166
 com.ecyrd.jspwiki.tags.LinkToParentTag.doWikiStartTag();com.ecyrd.jspwiki.attachment.Attachment;1;0;6;1.0;0.8888888888888888;18;18;23
 com.ecyrd.jspwiki.auth.AuthenticationManager.login(com.ecyrd.jspwiki.WikiSession, java.lang.String, java.lang.String);com.ecyrd.jspwiki.event.WikiSecurityEvent;0;4;3;0.9047619047619048;1.0;17;209;108
-com.ecyrd.jspwiki.VariableManager.getJspwikiversion();com.ecyrd.jspwiki.Release;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getJspwikiversion();com.ecyrd.jspwiki.Release;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.initialize();com.ecyrd.jspwiki.WikiEngine;3;11;7;0.9;0.9809523809523809;51;1402;732
 com.ecyrd.jspwiki.tags.EditLinkTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;2;3;5;0.75;0.9259259259259259;39;52;107
 com.ecyrd.jspwiki.WikiEngine.getVersionHistory(java.lang.String);com.ecyrd.jspwiki.attachment.AttachmentManager;1;0;2;1.0;0.95;13;732;175
 com.ecyrd.jspwiki.tags.LinkToTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;3;4;0.7692307692307692;1.0;37;53;32
-com.ecyrd.jspwiki.tags.RSSImageLinkTag.doWikiStartTag();com.ecyrd.jspwiki.rss.RSSGenerator;0;0;0;0;0
+com.ecyrd.jspwiki.tags.RSSImageLinkTag.doWikiStartTag();com.ecyrd.jspwiki.rss.RSSGenerator;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleAccessRule(java.lang.String);com.ecyrd.jspwiki.WikiPage;2;2;4;0.9791666666666666;0.935483870967742;20;1402;107
 com.ecyrd.jspwiki.auth.authorize.GroupManager.isUserInRole(com.ecyrd.jspwiki.WikiSession, java.security.Principal);com.ecyrd.jspwiki.WikiSession;2;1;3;0.9583333333333334;0.9230769230769231;16;280;341
 com.ecyrd.jspwiki.forms.FormOpen.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.forms.FormElement;2;0;5;1.0;0.9473684210526316;45;45;6
 com.ecyrd.jspwiki.dav.items.AttachmentDirectoryItem.getPropertySet();com.ecyrd.jspwiki.dav.items.DirectoryItem;1;0;1;1.0;0.8571428571428572;3;9;32
 com.ecyrd.jspwiki.tags.RequestResourceTag.doWikiStartTag();com.ecyrd.jspwiki.ui.TemplateManager;0;2;2;0.5;1.0;6;22;261
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.newPost(boolean, java.lang.String, java.lang.String, java.lang.String, java.util.Hashtable);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.newPost(boolean, java.lang.String, java.lang.String, java.lang.String, java.util.Hashtable);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.AttachmentsIteratorTag.doStartTag();com.ecyrd.jspwiki.WikiEngine;1;0;5;1.0;0.9887640449438202;38;59;732
 com.ecyrd.jspwiki.tags.LinkTag.makeBasicURL(boolean, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;4;6;0.875;0.9655172413793104;39;248;107
-com.ecyrd.jspwiki.VariableManager.getInlinedimages();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getInlinedimages();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.search.SearchManager.getSuggestions(int, java.lang.String);com.ecyrd.jspwiki.filters.BasicPageFilter;0;0;4;1.0;1.0;23;126;16
 com.ecyrd.jspwiki.WikiEngine.initReferenceManager();com.ecyrd.jspwiki.PageManager;1;0;4;1.0;0.967741935483871;14;732;292
 com.ecyrd.jspwiki.util.CommentedProperties.deleteProperty(java.lang.Object);com.ecyrd.jspwiki.TextUtil;1;1;1;0.9375;1.0;22;92;317
@@ -1077,7 +1077,7 @@ com.ecyrd.jspwiki.auth.login.WebContainerLoginModule.login();com.ecyrd.jspwiki.a
 com.ecyrd.jspwiki.plugin.PluginManager.executeParse(com.ecyrd.jspwiki.parser.PluginContent, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;5;4;0.8611111111111112;0.9772727272727273;38;416;269
 com.ecyrd.jspwiki.tags.ContentTag.setEdit(java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;1;0.9285714285714286;1.0;3;56;269
 com.ecyrd.jspwiki.WikiEngine.shutdown();com.ecyrd.jspwiki.event.WikiEngineEvent;0;1;2;0.9878048780487805;1.0;4;732;49
-com.ecyrd.jspwiki.VariableManager.getPluginpath();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPluginpath();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.search.SearchManager.postSave(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;4;0.9166666666666666;1.0;4;126;269
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getPageInfoVersion(int, java.lang.String);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;0;2;2;0.8461538461538461;1.0;4;121;28
 com.ecyrd.jspwiki.modules.ModuleManager.checkCompatibility(com.ecyrd.jspwiki.modules.WikiModuleInfo);com.ecyrd.jspwiki.modules.WikiModuleInfo;2;1;2;0.75;0.875;8;11;63
@@ -1101,14 +1101,14 @@ com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.newMediaObject(java.lang.String, java
 com.ecyrd.jspwiki.dav.RawPagesDavProvider.getURL(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.WikiContext;0;0;5;1.0;1.0;3;119;269
 com.ecyrd.jspwiki.search.LuceneSearchProvider.pageRemoved(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;1;1;1;0.9545454545454546;0.95;10;340;107
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleMetadata(java.lang.String);com.ecyrd.jspwiki.WikiContext;1;2;6;0.9791666666666666;0.9767441860465116;24;1402;269
-com.ecyrd.jspwiki.content.PageRenamer.getReferencesToChange(com.ecyrd.jspwiki.WikiEngine, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.attachment.AttachmentManager;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.getReferencesToChange(com.ecyrd.jspwiki.WikiEngine, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.attachment.AttachmentManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.url.DefaultURLConstructor.encodeURI(java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;0;1;1.0;0.9876543209876543;6;78;732
 com.ecyrd.jspwiki.rpc.json.JSONRPCManager.preInvoke(java.lang.Object, java.lang.Object, java.lang.Object[], java.lang.reflect.Method);com.ecyrd.jspwiki.WikiSession;1;2;3;0.8181818181818181;1.0;19;86;341
 com.ecyrd.jspwiki.plugin.TableOfContents.headingAdded(com.ecyrd.jspwiki.parser.Heading, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;8;5;0.5789473684210527;0.9782608695652174;51;115;269
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleClosebrace();com.ecyrd.jspwiki.parser.MarkupParser;2;6;1;0.9310344827586207;0.92;27;1402;88
 com.ecyrd.jspwiki.providers.CachingProvider.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.PageManager;0;7;4;0.8409090909090909;1.0;32;390;292
 com.ecyrd.jspwiki.WikiEngine.deleteVersion(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.PageManager;1;0;2;1.0;0.962962962962963;8;732;292
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.AuthorizationManager;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.AuthorizationManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.UserProfileTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;0;1;7;0.9473684210526316;1.0;59;112;732
 com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.newMediaObject(java.lang.String, java.lang.String, java.lang.String, java.util.Hashtable);com.ecyrd.jspwiki.WikiEngine;2;1;4;0.9473684210526316;0.9887640449438202;22;128;732
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getPageInfoVersion(int, java.lang.String);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;0;2;2;0.8888888888888888;1.0;4;140;28
@@ -1117,7 +1117,7 @@ com.ecyrd.jspwiki.search.LuceneSearchProvider.getAttachmentContent(com.ecyrd.jsp
 com.ecyrd.jspwiki.rss.AtomFeed.getString();com.ecyrd.jspwiki.WikiPage;2;3;6;0.8421052631578947;0.9393939393939394;29;76;107
 com.ecyrd.jspwiki.auth.SecurityVerifier.policyRoleTable();com.ecyrd.jspwiki.WikiEngine;1;2;2;0.9565217391304348;0.9888888888888889;79;450;732
 com.ecyrd.jspwiki.search.SearchManager.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.WikiEngine;1;1;4;0.9230769230769231;0.9880952380952381;9;126;732
-com.ecyrd.jspwiki.providers.CachingAttachmentProvider.cacheEntryRemoved(com.ecyrd.jspwiki.providers.CacheEntryEvent);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.providers.CachingAttachmentProvider.cacheEntryRemoved(com.ecyrd.jspwiki.providers.CacheEntryEvent);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.attachment.AttachmentManager.deleteAttachment(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.WikiEngine;0;1;4;0.9565217391304348;1.0;6;175;732
 com.ecyrd.jspwiki.workflow.WorkflowManager.getApprover(java.lang.String);com.ecyrd.jspwiki.auth.AuthorizationManager;1;1;2;0.95;0.9545454545454546;15;115;242
 com.ecyrd.jspwiki.search.SearchManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.filters.BasicPageFilter;0;2;1;0.8333333333333334;1.0;13;126;16
@@ -1175,7 +1175,7 @@ com.ecyrd.jspwiki.workflow.DecisionQueue.reassign(com.ecyrd.jspwiki.workflow.Dec
 com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean.reload();com.ecyrd.jspwiki.PageManager;1;4;6;0.8260869565217391;0.9761904761904762;34;92;292
 com.ecyrd.jspwiki.filters.ProfanityFilter.preTranslate(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;0;1;1.0;1.0;8;8;317
 com.ecyrd.jspwiki.plugin.ReferringPagesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiPage;1;0;6;1.0;0.9705882352941176;34;34;107
-com.ecyrd.jspwiki.ui.InputValidator.validate(int, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.ui.InputValidator.validate(int, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleApostrophe();com.ecyrd.jspwiki.parser.MarkupParser;2;3;1;0.9651162790697675;0.9047619047619048;17;1402;88
 com.ecyrd.jspwiki.dav.RawPagesDavProvider.getURL(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.DavUtil;0;0;5;1.0;1.0;3;119;34
 com.ecyrd.jspwiki.url.ShortURLConstructor.makeURL(boolean, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;2;0.875;1.0;64;102;269
@@ -1187,7 +1187,7 @@ com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getPageInfo(java.lang.String);com.ecyrd.
 com.ecyrd.jspwiki.plugin.Search.doBasicQuery(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;2;1.0;1.0;5;57;269
 com.ecyrd.jspwiki.providers.CachingAttachmentProvider.findAttachmentFromCollection(java.lang.String, java.util.Collection);com.ecyrd.jspwiki.attachment.Attachment;1;0;1;1.0;0.875;9;141;23
 com.ecyrd.jspwiki.plugin.IfPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.plugin.PluginManager;0;0;3;1.0;1.0;3;100;416
-com.ecyrd.jspwiki.VariableManager.getTotalpages();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getTotalpages();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.SecurityVerifier.verifyPolicy();com.ecyrd.jspwiki.auth.authorize.Role;0;2;4;0.9259259259259259;1.0;47;450;22
 com.ecyrd.jspwiki.WikiContext.getCurrentUser();com.ecyrd.jspwiki.auth.WikiPrincipal;0;0;2;1.0;1.0;6;269;35
 com.ecyrd.jspwiki.auth.SessionMonitor.sessionDestroyed(com.ecyrd.jspwiki.auth.HttpSessionEvent);com.ecyrd.jspwiki.WikiSession;1;3;2;0.8823529411764706;0.9666666666666667;13;94;341
@@ -1198,7 +1198,7 @@ com.ecyrd.jspwiki.auth.UserManager.setUserProfile(com.ecyrd.jspwiki.auth.user.Us
 com.ecyrd.jspwiki.search.LuceneSearchProvider.backgroundTask();com.ecyrd.jspwiki.util.WatchDog;2;2;1;0.92;0.9615384615384616;12;340;166
 com.ecyrd.jspwiki.providers.RCSFileProvider.getPageInfo(int, java.lang.String);com.ecyrd.jspwiki.providers.AbstractFileProvider;3;2;3;0.9473684210526316;0.9523809523809523;72;355;191
 com.ecyrd.jspwiki.tags.AttachmentsIteratorTag.doAfterBody();com.ecyrd.jspwiki.tags.IteratorTag;1;0;3;1.0;0.9375;21;59;58
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.makeEntry(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.makeEntry(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.WikiSession.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.auth.authorize.Role;0;7;4;0.8157894736842105;1.0;120;341;22
 com.ecyrd.jspwiki.rss.RSSGenerator.getAttachmentDescription(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.WikiPage;3;1;4;0.95;0.875;14;229;107
 com.ecyrd.jspwiki.xmlrpc.RPCServlet.doPost(com.ecyrd.jspwiki.xmlrpc.HttpServletRequest, com.ecyrd.jspwiki.xmlrpc.HttpServletResponse);com.ecyrd.jspwiki.WikiEngine;1;1;2;0.9230769230769231;0.9880952380952381;16;74;732
@@ -1210,7 +1210,7 @@ com.ecyrd.jspwiki.plugin.PluginManager.execute(com.ecyrd.jspwiki.WikiContext, ja
 com.ecyrd.jspwiki.auth.SecurityVerifier.verifyStaticPermission(java.security.Permission, java.security.Principal);com.ecyrd.jspwiki.auth.AuthorizationManager;1;1;2;0.9545454545454546;1.0;21;450;242
 com.ecyrd.jspwiki.WikiEngine.pageExists(int, java.lang.String);com.ecyrd.jspwiki.attachment.AttachmentManager;1;1;3;0.9880952380952381;1.0;17;732;175
 com.ecyrd.jspwiki.tags.EditLinkTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;1;3;5;0.75;0.9743589743589743;39;52;269
-com.ecyrd.jspwiki.providers.CachingAttachmentProvider.listAllChanged(java.util.Date);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.providers.CachingAttachmentProvider.listAllChanged(java.util.Date);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rss.RSSGenerator.generateWikiPageRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext, java.util.List);com.ecyrd.jspwiki.WikiContext;1;4;6;0.8787878787878788;0.9811320754716981;32;229;269
 com.ecyrd.jspwiki.util.WatchDog.disable();com.ecyrd.jspwiki.util.WikiBackgroundThread;1;1;1;0.9565217391304348;0.8888888888888888;9;166;59
 com.ecyrd.jspwiki.WikiEngine.getAttachmentURL(java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;1;0.9878048780487805;1.0;3;732;269
@@ -1255,10 +1255,10 @@ com.ecyrd.jspwiki.dav.HTMLPagesDavProvider.getItemNoCache(com.ecyrd.jspwiki.dav.
 com.ecyrd.jspwiki.tags.FeedDiscoveryTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;3;0;7;1.0;0.9764705882352941;20;20;732
 com.ecyrd.jspwiki.search.SearchManager.getSuggestions(int, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;4;1.0;1.0;23;126;88
 com.ecyrd.jspwiki.tags.AdminBeanIteratorTag.resetIterator();com.ecyrd.jspwiki.WikiEngine;0;1;4;0.9;1.0;12;15;732
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.getPost(java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.getPost(java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.Installer.validateNotNull(java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiSession;1;1;1;0.9473684210526316;0.9615384615384616;6;164;341
 com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.makeEntry(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiEngine;2;1;2;0.9565217391304348;0.989247311827957;20;128;732
-com.ecyrd.jspwiki.content.PageRenamer.getReferencesToChange(com.ecyrd.jspwiki.WikiEngine, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.ReferenceManager;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.getReferencesToChange(com.ecyrd.jspwiki.WikiEngine, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.ReferenceManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.TemplateManager.listTimeFormats(com.ecyrd.jspwiki.ui.PageContext);com.ecyrd.jspwiki.WikiContext;1;0;4;1.0;1.0;47;261;269
 com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.getRecentPosts(int, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;2;2;0.8947368421052632;0.9888888888888889;21;128;732
 com.ecyrd.jspwiki.providers.BasicAttachmentProvider.listAllChanged(java.util.Date);com.ecyrd.jspwiki.WikiPage;1;2;1;0.9375;0.967741935483871;21;290;107
@@ -1277,9 +1277,9 @@ com.ecyrd.jspwiki.auth.acl.DefaultAclManager.parseAcl(com.ecyrd.jspwiki.WikiPage
 com.ecyrd.jspwiki.auth.acl.DefaultAclManager.setPermissions(com.ecyrd.jspwiki.auth.acl.Acl, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.PageManager;3;0;3;1.0;0.9032258064516129;17;120;292
 com.ecyrd.jspwiki.dav.WikiDavServlet.doGet(com.ecyrd.jspwiki.dav.HttpServletRequest, com.ecyrd.jspwiki.dav.HttpServletResponse);com.ecyrd.jspwiki.dav.DavPath;3;2;3;0.9047619047619048;0.85;13;73;77
 com.ecyrd.jspwiki.forms.FormElement.getFormInfo(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;0;1;1.0;0.9666666666666667;3;6;269
-com.ecyrd.jspwiki.auth.user.XMLUserDatabase.findByAttribute(java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.user.AbstractUserDatabase;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.XMLUserDatabase.findByAttribute(java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.user.AbstractUserDatabase;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.WikiEngine.textToHTML(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.filters.FilterManager;2;0;5;1.0;0.8888888888888888;16;732;187
-com.ecyrd.jspwiki.VariableManager.getApplicationname();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getApplicationname();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.WikiSession.isInGroup(com.ecyrd.jspwiki.auth.authorize.Group);com.ecyrd.jspwiki.auth.authorize.Group;1;2;1;0.9166666666666666;0.9473684210526316;9;341;98
 com.ecyrd.jspwiki.tags.CheckLockTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;1;1;5;0.8333333333333334;0.9523809523809523;18;33;107
 com.ecyrd.jspwiki.ui.admin.beans.SearchManagerBean.doPost(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;2;2;0.8333333333333334;0.9696969696969697;9;92;269
@@ -1355,20 +1355,20 @@ com.ecyrd.jspwiki.tags.CommentLinkTag.doWikiStartTag();com.ecyrd.jspwiki.tags.Wi
 com.ecyrd.jspwiki.render.RenderingManager.getRenderedDocument(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiPage;2;3;4;0.8;0.92;34;116;107
 com.ecyrd.jspwiki.PageManager.fireEvent(int, java.lang.String);com.ecyrd.jspwiki.event.WikiEventManager;1;0;1;1.0;1.0;5;292;149
 com.ecyrd.jspwiki.tags.VariableTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;2;1;0.6;0.8888888888888888;4;36;32
-com.ecyrd.jspwiki.VariableManager.getBaseurl();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getBaseurl();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.plugin.BugReportHandler.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.filters.RedirectException;1;2;3;0.9393939393939394;0.96875;62;93;7
 com.ecyrd.jspwiki.WikiEngine.textToHTML(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;5;1.0;1.0;16;732;269
 com.ecyrd.jspwiki.auth.AuthenticationManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.TextUtil;2;6;1;0.75;1.0;16;209;317
 com.ecyrd.jspwiki.search.LuceneSearchProvider.getAttachmentContent(int, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;1;2;0.9545454545454546;1.0;13;340;732
-com.ecyrd.jspwiki.tags.RSSImageLinkTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.tags.RSSImageLinkTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.SecurityVerifier.verifyPolicyAndContainerRoles();com.ecyrd.jspwiki.auth.authorize.Role;1;1;4;0.9444444444444444;0.875;19;450;22
 com.ecyrd.jspwiki.tags.PageExistsTag.doWikiStartTag();com.ecyrd.jspwiki.tags.NoSuchPageTag;1;0;1;1.0;0.6666666666666667;3;3;24
 com.ecyrd.jspwiki.providers.AbstractFileProvider.putPageText(com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;2;1;0.9166666666666666;0.9565217391304348;14;191;107
 com.ecyrd.jspwiki.search.SearchManager.postSave(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;1;4;0.9166666666666666;0.9879518072289156;4;126;732
 com.ecyrd.jspwiki.tags.PageInfoLinkTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine;1;2;5;0.75;0.9885057471264368;27;33;732
-com.ecyrd.jspwiki.TranslatorReader.addLocalLinkHook(com.ecyrd.jspwiki.StringTransmutator);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.addLocalLinkHook(com.ecyrd.jspwiki.StringTransmutator);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.url.ShortURLConstructor.parsePage(com.ecyrd.jspwiki.url.HttpServletRequest, java.lang.String, java.lang.String);com.ecyrd.jspwiki.url.DefaultURLConstructor;0;0;1;1.0;1.0;8;102;78
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.plugin.ReferringPagesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiEngine;1;0;6;1.0;0.9895833333333334;34;34;732
 com.ecyrd.jspwiki.dav.RawPagesDavProvider.getItem(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.WikiPage;2;3;5;0.8;0.92;26;119;107
 com.ecyrd.jspwiki.providers.VersioningFileProvider.findOldPageDir(java.lang.String);com.ecyrd.jspwiki.providers.AbstractFileProvider;2;0;1;1.0;0.9047619047619048;7;318;191
@@ -1376,7 +1376,7 @@ com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getPage(java.lang.String);com.ecyrd.jspw
 com.ecyrd.jspwiki.rss.RSS20Feed.getString();com.ecyrd.jspwiki.WikiContext;0;1;5;0.875;1.0;29;69;269
 com.ecyrd.jspwiki.auth.AuthorizationManager.removeWikiEventListener(com.ecyrd.jspwiki.event.WikiEventListener);com.ecyrd.jspwiki.event.WikiEventManager;1;0;1;1.0;1.0;3;242;149
 com.ecyrd.jspwiki.tags.DiffLinkTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;2;2;5;0.8571428571428572;0.9310344827586207;59;75;107
-com.ecyrd.jspwiki.plugin.IndexPlugin.listPages(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.ReferenceManager;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.IndexPlugin.listPages(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.ReferenceManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ReferenceManager.initialize(java.util.Collection);com.ecyrd.jspwiki.event.WikiEventUtils;1;6;4;0.8536585365853658;1.0;46;444;33
 com.ecyrd.jspwiki.WikiContext.updateCommand(java.lang.String);com.ecyrd.jspwiki.ui.PageCommand;0;2;3;0.9375;1.0;12;269;26
 com.ecyrd.jspwiki.auth.authorize.JDBCGroupDatabase.populateGroup(com.ecyrd.jspwiki.auth.authorize.Group);com.ecyrd.jspwiki.auth.WikiPrincipal;0;3;2;0.9166666666666666;1.0;27;284;35
@@ -1392,26 +1392,26 @@ com.ecyrd.jspwiki.search.LuceneSearchProvider.getAttachmentContent(com.ecyrd.jsp
 com.ecyrd.jspwiki.plugin.TableOfContents.headingAdded(com.ecyrd.jspwiki.parser.Heading, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.parser.Heading;4;8;5;0.5789473684210527;0.7647058823529411;51;115;0
 com.ecyrd.jspwiki.tags.MessagesTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;4;1;0.5;0.9090909090909091;6;48;32
 com.ecyrd.jspwiki.plugin.BugReportHandler.findNextPage(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;0;3;1.0;0.9876543209876543;10;93;732
-com.ecyrd.jspwiki.ReferenceManager.cleanReferredBy(java.lang.String, java.util.Collection, java.util.Collection<java.lang.String>);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.ReferenceManager.cleanReferredBy(java.lang.String, java.util.Collection, java.util.Collection<java.lang.String>);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rss.RSSThread.startupTask();com.ecyrd.jspwiki.WikiEngine;1;0;2;1.0;0.9876543209876543;3;41;732
 com.ecyrd.jspwiki.tags.BaseURLTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;0;0;3;1.0;1.0;4;4;269
 com.ecyrd.jspwiki.auth.login.CookieAuthenticationLoginModule.login();com.ecyrd.jspwiki.auth.login.AbstractLoginModule;2;0;5;1.0;0.9090909090909091;44;125;64
 com.ecyrd.jspwiki.ui.CommandResolver.resolvePage(com.ecyrd.jspwiki.ui.HttpServletRequest, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;0;0;2;1.0;1.0;14;172;88
-com.ecyrd.jspwiki.TranslatorReader.read();com.ecyrd.jspwiki.parser.JSPWikiMarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.read();com.ecyrd.jspwiki.parser.JSPWikiMarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.util.ProviderConverter.convert();com.ecyrd.jspwiki.PageManager;1;2;4;0.9285714285714286;0.9807692307692307;39;60;292
 com.ecyrd.jspwiki.PageManager.putPageText(com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;1;1;0.9655172413793104;0.9545454545454546;6;292;107
 com.ecyrd.jspwiki.auth.permissions.WikiPermission.implies(java.security.Permission);com.ecyrd.jspwiki.auth.permissions.PagePermission;0;2;1;0.75;1.0;9;81;148
 com.ecyrd.jspwiki.auth.AuthorizationManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.WikiEngine;1;4;2;0.8461538461538461;0.9891304347826086;30;242;732
 com.ecyrd.jspwiki.rpc.atom.AtomAPIServlet.listBlogs();com.ecyrd.jspwiki.plugin.WeblogPlugin;0;1;6;0.9411764705882353;1.0;21;129;181
 com.ecyrd.jspwiki.parser.VariableContent.getValue();com.ecyrd.jspwiki.VariableManager;1;1;6;0.8888888888888888;0.8888888888888888;22;31;183
-com.ecyrd.jspwiki.auth.SecurityVerifier.verifyJaas();com.ecyrd.jspwiki.auth.AuthenticationManager;0;0;0;0;0
+com.ecyrd.jspwiki.auth.SecurityVerifier.verifyJaas();com.ecyrd.jspwiki.auth.AuthenticationManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.workflow.Workflow.start();com.ecyrd.jspwiki.event.WorkflowEvent;0;8;1;0.7647058823529411;1.0;20;219;35
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleHyperlinks(int, java.lang.String);com.ecyrd.jspwiki.plugin.PluginManager;1;12;9;0.9122807017543859;1.0;124;1402;416
 com.ecyrd.jspwiki.ui.WikiServletFilter.init(com.ecyrd.jspwiki.ui.FilterConfig);com.ecyrd.jspwiki.WikiEngine;0;0;1;1.0;1.0;4;62;732
 com.ecyrd.jspwiki.auth.login.UserDatabaseLoginModule.login();com.ecyrd.jspwiki.auth.WikiPrincipal;0;0;3;1.0;1.0;38;38;35
 com.ecyrd.jspwiki.workflow.AbstractStep.getMessageArguments();com.ecyrd.jspwiki.workflow.Workflow;1;0;1;1.0;0.9696969696969697;6;88;219
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getApplicationName();com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;1;0;3;1.0;0.8;4;121;28
-com.ecyrd.jspwiki.content.PageRenamer.updateReferrers(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage, java.util.Set<java.lang.String>);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.updateReferrers(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage, java.util.Set<java.lang.String>);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleImageLink(boolean, java.lang.String, java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;1;3;1;0.9767441860465116;0.9523809523809523;13;1402;88
 com.ecyrd.jspwiki.plugin.WeblogEntryPlugin.getNewEntryPage(com.ecyrd.jspwiki.WikiEngine, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;1;2;0.75;1.0;7;51;732
 com.ecyrd.jspwiki.search.SearchManager.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.filters.BasicPageFilter;0;1;4;0.9230769230769231;1.0;9;126;16
@@ -1419,7 +1419,7 @@ com.ecyrd.jspwiki.tags.UserNameTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContex
 com.ecyrd.jspwiki.tags.RSSImageLinkTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBase;1;1;1;0.75;0.875;4;19;32
 com.ecyrd.jspwiki.rpc.atom.AtomAPIServlet.listBlogs();com.ecyrd.jspwiki.PageManager;1;1;6;0.9411764705882353;0.9705882352941176;21;129;292
 com.ecyrd.jspwiki.auth.SecurityVerifier.getFileFromProperty(java.lang.String);com.ecyrd.jspwiki.WikiSession;1;0;1;1.0;0.9642857142857143;33;450;341
-com.ecyrd.jspwiki.plugin.RecentChangesPlugin.getDateFormat(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.RecentChangesPlugin.getDateFormat(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleHyperlinks(int, java.lang.String);com.ecyrd.jspwiki.WikiEngine;2;12;9;0.9122807017543859;0.9831932773109243;124;1402;732
 com.ecyrd.jspwiki.workflow.DecisionQueue.decide(com.ecyrd.jspwiki.workflow.Decision, com.ecyrd.jspwiki.workflow.Outcome);com.ecyrd.jspwiki.workflow.AbstractStep;1;1;2;0.9090909090909091;0.9444444444444444;6;52;88
 com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler.getRecentChanges(java.util.Date);com.ecyrd.jspwiki.auth.permissions.PagePermission;0;2;3;0.9545454545454546;1.0;15;28;148
@@ -1427,15 +1427,15 @@ com.ecyrd.jspwiki.rss.RSS20Feed.getString();com.ecyrd.jspwiki.Release;0;1;5;0.87
 com.ecyrd.jspwiki.tags.PluginTag.executePlugin(java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;1;4;0.9090909090909091;1.0;11;49;269
 com.ecyrd.jspwiki.auth.login.CookieAssertionLoginModule.login();com.ecyrd.jspwiki.auth.login.HttpRequestCallback;1;0;3;1.0;0.8333333333333334;31;46;6
 com.ecyrd.jspwiki.PageManager.lockPage(com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;4;3;0.875;0.9642857142857143;22;292;107
-com.ecyrd.jspwiki.content.PageRenamer.updateReferrers(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage, java.util.Set<java.lang.String>);com.ecyrd.jspwiki.PageManager;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.updateReferrers(com.ecyrd.jspwiki.WikiContext, com.ecyrd.jspwiki.WikiPage, com.ecyrd.jspwiki.WikiPage, java.util.Set<java.lang.String>);com.ecyrd.jspwiki.PageManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.AttachmentDavProvider.getItem(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.WikiEngine;0;2;4;0.8;1.0;26;80;732
 com.ecyrd.jspwiki.tags.LinkTag.initTag();com.ecyrd.jspwiki.tags.WikiLinkTag;1;13;2;0.5;0.9473684210526316;6;248;35
 com.ecyrd.jspwiki.tags.NoSuchPageTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;0;1;4;0.8571428571428572;1.0;14;24;269
-com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.getOldHash(java.lang.String);org.apache.catalina.util.HexUtils;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.getOldHash(java.lang.String);org.apache.catalina.util.HexUtils;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.workflow.Decision.decide(com.ecyrd.jspwiki.workflow.Outcome);com.ecyrd.jspwiki.workflow.WorkflowManager;0;0;4;1.0;1.0;11;57;115
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getRecentChanges(java.util.Date);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;1;1;4;0.9666666666666667;0.9545454545454546;16;121;28
-com.ecyrd.jspwiki.VariableManager.getInterwikilinks();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
-com.ecyrd.jspwiki.tags.PageDateTag.doWikiStartTag();com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getInterwikilinks();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
+com.ecyrd.jspwiki.tags.PageDateTag.doWikiStartTag();com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleOpenbrace(boolean);com.ecyrd.jspwiki.parser.MarkupParser;2;5;1;0.9418604651162791;0.9130434782608696;20;1402;88
 com.ecyrd.jspwiki.tags.EditLinkTag.initTag();com.ecyrd.jspwiki.tags.WikiLinkTag;1;1;1;0.8333333333333334;0.8571428571428572;4;52;35
 com.ecyrd.jspwiki.workflow.WorkflowBuilder.buildApprovalWorkflow(com.ecyrd.jspwiki.workflow.Fact[], com.ecyrd.jspwiki.workflow.Task, com.ecyrd.jspwiki.workflow.Task, java.lang.String, java.lang.String, java.lang.String, java.security.Principal);com.ecyrd.jspwiki.workflow.Decision;1;0;7;1.0;0.9333333333333333;43;54;57
@@ -1444,7 +1444,7 @@ com.ecyrd.jspwiki.rss.RSSGenerator.generateWikiPageRSS(com.ecyrd.jspwiki.rss.Fee
 com.ecyrd.jspwiki.forms.FormInput.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.forms.FormElement;1;0;5;1.0;0.9;29;29;6
 com.ecyrd.jspwiki.ui.admin.beans.CoreBean.getPages();com.ecyrd.jspwiki.WikiEngine;1;0;1;1.0;0.9876543209876543;3;30;732
 com.ecyrd.jspwiki.ui.admin.AdminBeanManager.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.event.WikiEvent;1;3;2;0.8333333333333334;0.9285714285714286;25;139;46
-com.ecyrd.jspwiki.VariableManager.getApplicationname();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getApplicationname();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.authorize.GroupManager.fireEvent(int, java.lang.Object);com.ecyrd.jspwiki.event.WikiEventManager;1;0;1;1.0;1.0;5;280;149
 com.ecyrd.jspwiki.forms.FormOpen.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiPage;1;0;5;1.0;0.9722222222222222;45;45;107
 com.ecyrd.jspwiki.auth.SecurityVerifier.verifyUserDatabase();com.ecyrd.jspwiki.WikiEngine;0;0;3;1.0;1.0;52;450;732
@@ -1463,7 +1463,7 @@ com.ecyrd.jspwiki.rss.RSSGenerator.getPageDescription(com.ecyrd.jspwiki.WikiPage
 com.ecyrd.jspwiki.plugin.TableOfContents.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiEngine;1;8;8;0.7142857142857143;0.9905660377358491;64;115;732
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getApplicationName();com.ecyrd.jspwiki.auth.permissions.PagePermission;0;1;3;0.9473684210526316;1.0;4;140;148
 com.ecyrd.jspwiki.dav.items.PageDavItem.getLength();com.ecyrd.jspwiki.dav.items.DavItem;1;0;3;1.0;0.8;4;41;27
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.attachment.AttachmentManager;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.attachment.AttachmentManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.PageManager.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.event.WikiSecurityEvent;1;2;4;0.975609756097561;0.95;32;292;108
 com.ecyrd.jspwiki.forms.FormInput.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiContext;1;0;5;1.0;0.9736842105263158;29;29;269
 com.ecyrd.jspwiki.ui.EditorManager.getEditorName(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;1;5;0.9285714285714286;0.9714285714285714;22;110;269
@@ -1511,17 +1511,17 @@ com.ecyrd.jspwiki.WikiSession.isAuthenticated();com.ecyrd.jspwiki.auth.authorize
 com.ecyrd.jspwiki.plugin.UnusedPagesPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.plugin.AbstractReferralPlugin;5;0;5;1.0;0.8095238095238095;20;20;116
 com.ecyrd.jspwiki.attachment.AttachmentServlet.doGet(com.ecyrd.jspwiki.attachment.HttpServletRequest, com.ecyrd.jspwiki.attachment.HttpServletResponse);com.ecyrd.jspwiki.auth.permissions.PermissionFactory;0;0;8;1.0;1.0;110;306;21
 com.ecyrd.jspwiki.dav.items.PageDavItem.getInputStream();com.ecyrd.jspwiki.dav.items.DavItem;1;0;3;1.0;0.8;10;41;27
-com.ecyrd.jspwiki.plugin.ReferredPagesPlugin.handleLinks(com.ecyrd.jspwiki.WikiContext, int, java.lang.String, java.util.Collection<java.lang.String>);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
-com.ecyrd.jspwiki.plugin.IndexPlugin.listPages(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.ReferredPagesPlugin.handleLinks(com.ecyrd.jspwiki.WikiContext, int, java.lang.String, java.util.Collection<java.lang.String>);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.IndexPlugin.listPages(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ReferenceManager.updatePageReferences(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.attachment.AttachmentManager;1;1;4;0.975609756097561;0.9655172413793104;11;444;175
 com.ecyrd.jspwiki.parser.VariableContent.getValue();com.ecyrd.jspwiki.parser.JSPWikiMarkupParser;0;1;6;0.8888888888888888;1.0;22;31;1402
-com.ecyrd.jspwiki.VariableManager.getLoginstatus();com.ecyrd.jspwiki.WikiSession;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getLoginstatus();com.ecyrd.jspwiki.WikiSession;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.WikiSession.injectUserProfilePrincipals();com.ecyrd.jspwiki.WikiEngine;0;3;3;0.9032258064516129;1.0;29;341;732
 com.ecyrd.jspwiki.filters.FilterManager.doPreTranslateFiltering(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.event.WikiPageEvent;0;1;1;1.0;1.0;9;187;94
 com.ecyrd.jspwiki.tags.HistoryIteratorTag.doAfterBody();com.ecyrd.jspwiki.tags.WikiTagBase;0;0;3;1.0;1.0;20;49;32
 com.ecyrd.jspwiki.WikiEngine.textToHTML(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;0;5;1.0;0.9583333333333334;16;732;107
 com.ecyrd.jspwiki.providers.CachingProvider.getPageText(int, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;3;1;0.9302325581395349;0.9583333333333334;17;390;107
-com.ecyrd.jspwiki.VariableManager.getPageprovider();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPageprovider();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.attachment.AttachmentServlet.init(com.ecyrd.jspwiki.attachment.ServletConfig);com.ecyrd.jspwiki.WikiEngine;2;5;3;0.84375;0.9791666666666666;22;306;732
 com.ecyrd.jspwiki.forms.FormOpen.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiContext;2;0;5;1.0;0.9565217391304348;45;45;269
 com.ecyrd.jspwiki.tags.SearchResultIteratorTag.nextResult();com.ecyrd.jspwiki.WikiContext;1;2;4;0.8571428571428572;0.972972972972973;13;52;269
@@ -1538,7 +1538,7 @@ com.ecyrd.jspwiki.attachment.AttachmentManager.storeAttachment(com.ecyrd.jspwiki
 com.ecyrd.jspwiki.dav.items.PageDavItem.getInputStream();com.ecyrd.jspwiki.WikiEngine;1;0;3;1.0;0.9879518072289156;10;41;732
 com.ecyrd.jspwiki.dav.methods.PropFindMethod.sendMultiResponse(com.ecyrd.jspwiki.dav.methods.Element, com.ecyrd.jspwiki.dav.methods.HttpServletResponse);com.ecyrd.jspwiki.dav.WebdavServlet;0;0;1;1.0;1.0;9;131;63
 com.ecyrd.jspwiki.render.WysiwygEditingRenderer.getString();com.ecyrd.jspwiki.render.WikiRenderer;0;1;2;0.75;1.0;13;54;11
-com.ecyrd.jspwiki.plugin.AbstractReferralPlugin.filterCollection(java.util.Collection);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.AbstractReferralPlugin.filterCollection(java.util.Collection);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.HTMLPagesDavProvider.getItemNoCache(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.WikiEngine;1;1;5;0.9166666666666666;0.9888888888888889;23;50;732
 com.ecyrd.jspwiki.url.DefaultURLConstructor.parsePage(com.ecyrd.jspwiki.url.HttpServletRequest, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;1;1.0;1.0;8;78;269
 com.ecyrd.jspwiki.rss.RSSGenerator.getAttachmentDescription(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.WikiContext;0;1;4;0.95;1.0;14;229;269
@@ -1561,7 +1561,7 @@ com.ecyrd.jspwiki.xmlrpc.RPCHandler.listLinks(java.lang.String);com.ecyrd.jspwik
 com.ecyrd.jspwiki.rss.RSSGenerator.generateFullWikiRSS(com.ecyrd.jspwiki.rss.Feed, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.rss.Entry;4;4;8;0.875;0.8260869565217391;30;229;30
 com.ecyrd.jspwiki.dav.items.AttachmentItem.getLength();com.ecyrd.jspwiki.WikiPage;1;0;2;1.0;0.9473684210526316;3;23;107
 com.ecyrd.jspwiki.rss.RSSGenerator.getAuthor(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;1;0;1;1.0;0.9473684210526316;5;229;107
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.getCategories(java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.getCategories(java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.filters.SpamFilter.refreshBlacklists(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiEngine;1;6;5;0.88;0.9895833333333334;36;438;732
 com.ecyrd.jspwiki.tags.LinkTag.figureOutURL();com.ecyrd.jspwiki.TextUtil;0;9;8;0.8181818181818181;1.0;84;248;317
 com.ecyrd.jspwiki.tags.PermissionTag.checkPermission(java.lang.String);com.ecyrd.jspwiki.auth.GroupPrincipal;1;0;7;1.0;0.9285714285714286;39;60;22
@@ -1585,14 +1585,14 @@ com.ecyrd.jspwiki.plugin.RecentChangesPlugin.execute(com.ecyrd.jspwiki.WikiConte
 com.ecyrd.jspwiki.attachment.AttachmentServlet.doGet(com.ecyrd.jspwiki.attachment.HttpServletRequest, com.ecyrd.jspwiki.attachment.HttpServletResponse);com.ecyrd.jspwiki.WikiEngine;1;0;8;1.0;0.9896907216494846;110;306;732
 com.ecyrd.jspwiki.event.WikiPageRenameEvent.getNewPageName();com.ecyrd.jspwiki.event.WikiPageEvent;1;0;1;1.0;0.6666666666666667;3;19;94
 com.ecyrd.jspwiki.auth.UserManager.parseProfile(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiEngine;0;1;5;0.9714285714285714;1.0;22;287;732
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.auth.authorize.GroupManager.validateGroup(com.ecyrd.jspwiki.auth.authorize.Group, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.ui.InputValidator;1;1;3;0.9583333333333334;1.0;13;280;56
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getAllPages();com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;1;0;4;1.0;0.9;12;121;28
 com.ecyrd.jspwiki.tags.PageDateTag.doWikiStartTag();com.ecyrd.jspwiki.WikiPage;1;1;3;0.8333333333333334;0.9523809523809523;14;25;107
 com.ecyrd.jspwiki.search.LuceneSearchProvider.updateLuceneIndex(com.ecyrd.jspwiki.WikiPage, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;5;1;0.8260869565217391;0.9583333333333334;28;340;107
 com.ecyrd.jspwiki.tags.UserProfileTag.doWikiStartTag();com.ecyrd.jspwiki.auth.UserManager;2;1;7;0.9473684210526316;0.95;59;112;287
-com.ecyrd.jspwiki.plugin.AbstractReferralPlugin.filterCollection(java.util.Collection);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
-com.ecyrd.jspwiki.TranslatorReader.setInputReader(java.io.Reader);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.AbstractReferralPlugin.filterCollection(java.util.Collection);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.setInputReader(java.io.Reader);com.ecyrd.jspwiki.parser.MarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rss.AtomFeed.getEntryID(com.ecyrd.jspwiki.rss.Entry);com.ecyrd.jspwiki.rss.Entry;1;0;1;1.0;0.75;3;76;30
 com.ecyrd.jspwiki.render.WysiwygEditingRenderer.processChildren(com.ecyrd.jspwiki.render.Element);com.ecyrd.jspwiki.htmltowiki.XHtmlToWikiConfig;2;1;4;0.9;0.8571428571428572;38;54;50
 com.ecyrd.jspwiki.attachment.AttachmentServlet.doPut(com.ecyrd.jspwiki.attachment.HttpServletRequest, com.ecyrd.jspwiki.attachment.HttpServletResponse);com.ecyrd.jspwiki.dav.DavPath;2;1;3;0.9615384615384616;0.9047619047619048;21;306;77
@@ -1618,7 +1618,7 @@ com.ecyrd.jspwiki.auth.SecurityVerifier.verifyGroupDatabase();com.ecyrd.jspwiki.
 com.ecyrd.jspwiki.filters.FilterManager.registerPlugin(com.ecyrd.jspwiki.filters.FilterManager.PageFilterInfo);com.ecyrd.jspwiki.modules.WikiModuleInfo;1;1;1;0.9375;0.9411764705882353;3;187;63
 com.ecyrd.jspwiki.ui.admin.beans.UserBean.doPost(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiSession;1;0;4;1.0;0.972972972972973;54;69;341
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.parsePageCheckCondition(java.lang.String);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;1;1;4;0.95;0.8571428571428572;9;140;28
-com.ecyrd.jspwiki.VariableManager.getTotalpages();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getTotalpages();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.WikiJSPFilter.doFilter(com.ecyrd.jspwiki.ui.FilterChain, com.ecyrd.jspwiki.ui.ServletRequest, com.ecyrd.jspwiki.ui.ServletResponse);com.ecyrd.jspwiki.url.DefaultURLConstructor;0;2;7;0.9444444444444444;1.0;29;94;78
 com.ecyrd.jspwiki.attachment.AttachmentServlet.upload(com.ecyrd.jspwiki.attachment.HttpServletRequest);com.ecyrd.jspwiki.WikiEngine;2;2;3;0.9333333333333333;0.9891304347826086;43;306;732
 com.ecyrd.jspwiki.tags.SearchResultIteratorTag.nextResult();com.ecyrd.jspwiki.ui.PageCommand;0;2;4;0.8571428571428572;1.0;13;52;26
@@ -1629,9 +1629,9 @@ com.ecyrd.jspwiki.plugin.Search.renderResults(com.ecyrd.jspwiki.WikiContext, int
 com.ecyrd.jspwiki.plugin.WeblogEntryPlugin.getNewEntryPage(com.ecyrd.jspwiki.WikiEngine, java.lang.String);com.ecyrd.jspwiki.plugin.WeblogPlugin;0;1;2;0.75;1.0;7;51;181
 com.ecyrd.jspwiki.tags.IteratorTag.buildContext();com.ecyrd.jspwiki.WikiContext;2;1;2;0.9333333333333333;0.9375;7;58;269
 com.ecyrd.jspwiki.tags.PageVersionTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;0;0;3;1.0;1.0;11;11;269
-com.ecyrd.jspwiki.VariableManager.getPagefilters();com.ecyrd.jspwiki.filters.FilterManager;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPagefilters();com.ecyrd.jspwiki.filters.FilterManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.readUntil(java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;2;0;1;1.0;0.9047619047619048;21;1402;88
-com.ecyrd.jspwiki.plugin.WeblogPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.WeblogPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.preferences.Preferences;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.fillBuffer(com.ecyrd.jspwiki.parser.Element);com.ecyrd.jspwiki.WikiPage;1;13;3;0.8602150537634409;0.975;74;1402;107
 com.ecyrd.jspwiki.render.RenderingManager.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.event.WikiPageEvent;1;1;4;0.9375;0.8888888888888888;17;116;94
 com.ecyrd.jspwiki.auth.UserManager.execute();com.ecyrd.jspwiki.workflow.Workflow;1;1;6;0.9696969696969697;0.975;19;287;219
@@ -1647,7 +1647,7 @@ com.ecyrd.jspwiki.auth.UserManager.validateProfile(com.ecyrd.jspwiki.auth.user.U
 com.ecyrd.jspwiki.attachment.AttachmentServlet.doPost(com.ecyrd.jspwiki.attachment.HttpServletRequest, com.ecyrd.jspwiki.attachment.HttpServletResponse);com.ecyrd.jspwiki.filters.RedirectException;1;1;2;0.9583333333333334;0.8;13;306;7
 com.ecyrd.jspwiki.plugin.IfPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiEngine;1;0;3;1.0;0.9878048780487805;3;100;732
 com.ecyrd.jspwiki.auth.login.WebContainerLoginModule.injectWebAuthorizerRoles(com.ecyrd.jspwiki.auth.Authorizer, com.ecyrd.jspwiki.auth.login.HttpServletRequest);com.ecyrd.jspwiki.auth.login.AbstractLoginModule;1;0;1;1.0;0.9473684210526316;16;59;64
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.providers.AbstractFileProvider.findPages(com.ecyrd.jspwiki.QueryItem[]);com.ecyrd.jspwiki.FileUtil;0;3;2;0.8928571428571429;1.0;32;191;123
 com.ecyrd.jspwiki.forms.FormSet.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.forms.FormElement;0;0;3;1.0;1.0;17;17;6
 com.ecyrd.jspwiki.plugin.Image.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.TextUtil;0;2;5;0.9166666666666666;1.0;67;80;317
@@ -1674,9 +1674,9 @@ com.ecyrd.jspwiki.ui.WikiServletFilter.doFilter(com.ecyrd.jspwiki.ui.FilterChain
 com.ecyrd.jspwiki.tags.PermissionTag.checkPermission(java.lang.String);com.ecyrd.jspwiki.auth.permissions.PermissionFactory;0;0;7;1.0;1.0;39;60;21
 com.ecyrd.jspwiki.tags.LinkToTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;1;3;4;0.7692307692307692;0.975;37;53;269
 com.ecyrd.jspwiki.dav.RawPagesDavProvider.listAlphabeticals(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.WikiDavProvider;0;0;4;1.0;1.0;23;119;6
-com.ecyrd.jspwiki.plugin.IndexPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.plugin.AbstractReferralPlugin;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.IndexPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.plugin.AbstractReferralPlugin;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.filters.SpamFilter.checkPatternList(com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;4;2;0.9130434782608696;0.9642857142857143;14;438;107
-com.ecyrd.jspwiki.VariableManager.getUptime();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getUptime();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.items.AttachmentItem.getHref();com.ecyrd.jspwiki.dav.items.DavItem;1;0;1;1.0;0.75;3;23;27
 com.ecyrd.jspwiki.filters.CreoleFilter.preSave(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;0;3;1.0;0.9883720930232558;11;23;732
 com.ecyrd.jspwiki.providers.RCSFileProvider.deleteVersion(int, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;1;2;0.9666666666666667;1.0;39;355;317
@@ -1709,7 +1709,7 @@ com.ecyrd.jspwiki.search.LuceneSearchProvider.doFullLuceneReindex();com.ecyrd.js
 com.ecyrd.jspwiki.WikiEngine.initialize(java.util.Properties);com.ecyrd.jspwiki.filters.FilterManager;1;19;13;0.8333333333333334;0.9846153846153847;125;732;187
 com.ecyrd.jspwiki.WikiEngine.getText(int, java.lang.String);com.ecyrd.jspwiki.TextUtil;0;1;1;1.0;1.0;5;732;317
 com.ecyrd.jspwiki.dav.AttachmentDavProvider.getItem(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.items.DirectoryItem;1;2;4;0.8;0.9230769230769231;26;80;32
-com.ecyrd.jspwiki.auth.user.XMLUserDatabase.findByAttribute(java.lang.String, java.lang.String);com.ecyrd.jspwiki.util.Serializer;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.XMLUserDatabase.findByAttribute(java.lang.String, java.lang.String);com.ecyrd.jspwiki.util.Serializer;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.ui.PageCommand.targetedCommand(java.lang.Object);com.ecyrd.jspwiki.ui.AbstractCommand;3;1;1;0.8571428571428572;0.6666666666666667;6;26;63
 com.ecyrd.jspwiki.plugin.Note.clean(java.lang.String);com.ecyrd.jspwiki.TextUtil;0;0;1;1.0;1.0;3;19;317
 com.ecyrd.jspwiki.ui.CommandResolver.resolvePage(com.ecyrd.jspwiki.ui.HttpServletRequest, java.lang.String);com.ecyrd.jspwiki.WikiEngine;1;0;2;1.0;1.0;14;172;732
@@ -1728,7 +1728,7 @@ com.ecyrd.jspwiki.PageManager.lockPage(com.ecyrd.jspwiki.WikiPage, java.lang.Str
 com.ecyrd.jspwiki.PageManager.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.WikiEngine;1;2;4;0.975609756097561;0.9895833333333334;32;292;732
 com.ecyrd.jspwiki.attachment.AttachmentManager.deleteAttachment(com.ecyrd.jspwiki.attachment.Attachment);com.ecyrd.jspwiki.search.SearchManager;1;1;4;0.9565217391304348;0.9285714285714286;6;175;126
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getPageInfo(java.lang.String);com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler;0;2;2;0.8888888888888888;1.0;4;140;28
-com.ecyrd.jspwiki.VariableManager.getInlinedimages();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getInlinedimages();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.search.LuceneSearchProvider.doFullLuceneReindex();com.ecyrd.jspwiki.WikiEngine;0;4;4;0.9411764705882353;1.0;63;340;732
 com.ecyrd.jspwiki.tags.AuthorTag.doWikiStartTag();com.ecyrd.jspwiki.TextUtil;0;0;7;1.0;1.0;19;19;317
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.readWhile(java.lang.String);com.ecyrd.jspwiki.parser.MarkupParser;2;0;1;1.0;0.9047619047619048;13;1402;88
@@ -1752,7 +1752,7 @@ com.ecyrd.jspwiki.render.WysiwygEditingRenderer.processChildren(com.ecyrd.jspwik
 com.ecyrd.jspwiki.ReferenceManager.updatePageReferences(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;1;1;4;0.975609756097561;0.9655172413793104;11;444;107
 com.ecyrd.jspwiki.auth.authorize.GroupManager.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.auth.UserManager;1;4;4;0.84;0.9705882352941176;19;280;287
 com.ecyrd.jspwiki.tags.IncludeResourcesTag.doWikiStartTag();com.ecyrd.jspwiki.ui.TemplateManager;0;1;2;0.6666666666666667;1.0;5;12;261
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.AuthenticationManager;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.checkPermissions(com.ecyrd.jspwiki.WikiPage, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.auth.AuthenticationManager;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.rpc.atom.AtomAPIServlet.getPageName(com.ecyrd.jspwiki.rpc.atom.HttpServletRequest);com.ecyrd.jspwiki.TextUtil;0;0;1;1.0;1.0;11;129;317
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getRecentChanges(java.util.Date);com.ecyrd.jspwiki.auth.permissions.PagePermission;0;1;4;0.9666666666666667;1.0;16;121;148
 com.ecyrd.jspwiki.PageManager.deletePage(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;1;2;2;0.9285714285714286;0.9545454545454546;5;292;107
@@ -1766,7 +1766,7 @@ com.ecyrd.jspwiki.auth.AuthorizationManager.addWikiEventListener(com.ecyrd.jspwi
 com.ecyrd.jspwiki.WikiEngine.initialize(java.util.Properties);com.ecyrd.jspwiki.TextUtil;3;19;13;0.8333333333333334;1.0;125;732;317
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getAllPages();com.ecyrd.jspwiki.WikiPage;1;0;4;1.0;0.96;12;121;107
 com.ecyrd.jspwiki.rss.AtomFeed.getString();com.ecyrd.jspwiki.rss.Feed;3;3;6;0.8421052631578947;0.8571428571428572;29;76;47
-com.ecyrd.jspwiki.VariableManager.getAttachmentprovider();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getAttachmentprovider();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.xmlrpc.AbstractRPCHandler.checkPermission(java.security.Permission);com.ecyrd.jspwiki.WikiContext;0;0;3;1.0;1.0;5;28;269
 com.ecyrd.jspwiki.auth.acl.DefaultAclManager.setPermissions(com.ecyrd.jspwiki.auth.acl.Acl, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiEngine;1;0;3;1.0;0.9886363636363636;17;120;732
 com.ecyrd.jspwiki.WikiEngine.textToHTML(boolean, boolean, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.filters.FilterManager;2;0;6;1.0;0.9166666666666666;31;732;187
@@ -1799,7 +1799,7 @@ com.ecyrd.jspwiki.providers.RCSFileProvider.getPageInfo(int, java.lang.String);c
 com.ecyrd.jspwiki.rss.AtomFeed.getFeedID();com.ecyrd.jspwiki.WikiEngine;1;0;3;1.0;0.9876543209876543;3;76;732
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.initialize();com.ecyrd.jspwiki.parser.MarkupParser;1;11;7;0.9;0.9767441860465116;51;1402;88
 com.ecyrd.jspwiki.tags.HistoryIteratorTag.doAfterBody();com.ecyrd.jspwiki.WikiContext;2;0;3;1.0;0.9393939393939394;20;49;269
-com.ecyrd.jspwiki.TranslatorReader.read();com.ecyrd.jspwiki.render.WikiRenderer;0;0;0;0;0
+com.ecyrd.jspwiki.TranslatorReader.read();com.ecyrd.jspwiki.render.WikiRenderer;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.tags.VariableTag.doWikiStartTag();com.ecyrd.jspwiki.WikiContext;0;2;5;0.6666666666666667;1.0;23;36;269
 com.ecyrd.jspwiki.plugin.WeblogPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.auth.permissions.PagePermission;0;2;6;0.96875;1.0;79;181;148
 com.ecyrd.jspwiki.filters.SpamFilter.checkUTF8(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiContext;1;1;1;0.9761904761904762;0.96875;11;438;269
@@ -1809,7 +1809,7 @@ com.ecyrd.jspwiki.auth.UserManager.execute();com.ecyrd.jspwiki.util.MailUtil;0;1
 com.ecyrd.jspwiki.filters.SpamFilter.checkBanList(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiContext;1;4;1;0.9130434782608696;0.9743589743589743;15;438;269
 com.ecyrd.jspwiki.forms.FormOutput.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiPage;1;0;7;1.0;0.9761904761904762;44;44;107
 com.ecyrd.jspwiki.ReferenceManager.unserializeFromDisk();com.ecyrd.jspwiki.WikiEngine;1;4;1;0.8888888888888888;0.9887640449438202;30;444;732
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.parser.JSPWikiMarkupParser.handleHeading();com.ecyrd.jspwiki.parser.Heading;0;4;2;0.9655172413793104;1.0;25;1402;0
 com.ecyrd.jspwiki.ReferenceManager.unserializeAttrsFromDisk(com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiEngine;1;1;2;0.975;0.9888888888888889;47;444;732
 com.ecyrd.jspwiki.attachment.AttachmentManager.storeAttachment(com.ecyrd.jspwiki.attachment.Attachment, java.io.InputStream);com.ecyrd.jspwiki.WikiEngine;1;1;6;0.9615384615384616;0.9886363636363636;13;175;732
@@ -1838,13 +1838,13 @@ com.ecyrd.jspwiki.tags.VariableTag.doWikiStartTag();com.ecyrd.jspwiki.WikiEngine
 com.ecyrd.jspwiki.search.SearchManager.getSuggestions(int, java.lang.String);com.ecyrd.jspwiki.WikiEngine;0;0;4;1.0;1.0;23;126;732
 com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.getURL(java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;2;1.0;1.0;3;128;269
 com.ecyrd.jspwiki.xmlrpc.RPCHandler.getRecentChanges(java.util.Date);com.ecyrd.jspwiki.auth.permissions.PagePermission;0;1;4;0.9714285714285714;1.0;16;140;148
-com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.parser.JSPWikiMarkupParser;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.renamePage(boolean, com.ecyrd.jspwiki.WikiContext, java.lang.String, java.lang.String);com.ecyrd.jspwiki.parser.JSPWikiMarkupParser;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.plugin.Note.imageUrl(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiContext;1;0;3;1.0;0.9705882352941176;7;19;269
 com.ecyrd.jspwiki.plugin.CurrentTimePlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiContext;1;0;1;1.0;0.9714285714285714;16;16;269
 com.ecyrd.jspwiki.auth.AuthorizationManager.isUserInRole(com.ecyrd.jspwiki.WikiSession, java.security.Principal);com.ecyrd.jspwiki.auth.authorize.Role;0;0;3;1.0;1.0;12;242;22
-com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.getHash(java.lang.String);com.ecyrd.jspwiki.util.CryptoUtil;0;0;0;0;0
+com.ecyrd.jspwiki.auth.user.AbstractUserDatabase.getHash(java.lang.String);com.ecyrd.jspwiki.util.CryptoUtil;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.plugin.TableOfContents.headingAdded(com.ecyrd.jspwiki.parser.Heading, com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.WikiPage;1;8;5;0.5789473684210527;0.9714285714285714;51;115;107
-com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.getRecentPosts(int, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.xmlrpc.MetaWeblogHandler.getRecentPosts(int, java.lang.String, java.lang.String, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.util.WikiBackgroundThread.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.event.WikiEvent;1;1;2;0.9090909090909091;0.8888888888888888;8;59;46
 com.ecyrd.jspwiki.tags.RSSImageLinkTag.doWikiStartTag();com.ecyrd.jspwiki.tags.WikiTagBase;0;0;3;1.0;1.0;9;19;32
 com.ecyrd.jspwiki.event.WikiSecurityEvent.getTypeDescription();com.ecyrd.jspwiki.event.WikiEvent;2;0;1;1.0;0.6;34;108;46
@@ -1861,10 +1861,10 @@ com.ecyrd.jspwiki.workflow.WorkflowManager.getApprover(java.lang.String);com.ecy
 com.ecyrd.jspwiki.workflow.Workflow.processCurrentStep();com.ecyrd.jspwiki.workflow.Outcome;2;5;1;0.8837209302325582;0.8888888888888888;32;219;35
 com.ecyrd.jspwiki.tags.AuthorTag.doWikiStartTag();com.ecyrd.jspwiki.parser.MarkupParser;1;0;7;1.0;1.0;19;19;88
 com.ecyrd.jspwiki.ui.admin.beans.PlainEditorAdminBean.doPost(com.ecyrd.jspwiki.WikiContext);com.ecyrd.jspwiki.TextUtil;0;0;2;1.0;1.0;8;43;317
-com.ecyrd.jspwiki.VariableManager.getPageproviderdescription();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPageproviderdescription();com.ecyrd.jspwiki.WikiEngine;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.search.SearchManager.postSave(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiPage;1;1;4;0.9166666666666666;0.9523809523809523;4;126;107
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getAllPages();com.ecyrd.jspwiki.auth.permissions.PagePermission;0;0;4;1.0;1.0;12;121;148
-com.ecyrd.jspwiki.VariableManager.getPagename();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.VariableManager.getPagename();com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.providers.BasicAttachmentProvider.putPageProperties(com.ecyrd.jspwiki.attachment.Attachment, java.util.Properties);com.ecyrd.jspwiki.WikiPage;1;1;1;0.9583333333333334;0.9545454545454546;7;290;107
 com.ecyrd.jspwiki.tags.TranslateTag.doAfterBody();com.ecyrd.jspwiki.tags.WikiTagBase;0;0;3;1.0;1.0;18;18;32
 com.ecyrd.jspwiki.WikiEngine.textToHTML(boolean, boolean, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.StringTransmutator, com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.WikiContext;0;0;6;1.0;1.0;31;732;269
@@ -1880,7 +1880,7 @@ com.ecyrd.jspwiki.tags.UserProfileTag.initTag();com.ecyrd.jspwiki.tags.WikiTagBa
 com.ecyrd.jspwiki.search.LuceneSearchProvider.startupTask();com.ecyrd.jspwiki.util.WatchDog;2;2;3;0.92;0.92;12;340;166
 com.ecyrd.jspwiki.rss.RSS20Feed.getItems();com.ecyrd.jspwiki.attachment.Attachment;1;0;7;1.0;0.9696969696969697;37;69;23
 com.ecyrd.jspwiki.auth.AuthorizationManager.fireEvent(int, java.lang.Object, java.security.Principal);com.ecyrd.jspwiki.event.WikiEventManager;1;0;1;1.0;1.0;5;242;149
-com.ecyrd.jspwiki.content.PageRenamer.getReferencesToChange(com.ecyrd.jspwiki.WikiEngine, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0
+com.ecyrd.jspwiki.content.PageRenamer.getReferencesToChange(com.ecyrd.jspwiki.WikiEngine, com.ecyrd.jspwiki.WikiPage);com.ecyrd.jspwiki.WikiPage;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.dav.RawPagesDavProvider.getURL(com.ecyrd.jspwiki.dav.DavPath);com.ecyrd.jspwiki.dav.WikiDavProvider;0;0;5;1.0;1.0;3;119;6
 com.ecyrd.jspwiki.PageManager.actionPerformed(com.ecyrd.jspwiki.event.WikiEvent);com.ecyrd.jspwiki.event.WikiEvent;1;2;4;0.975609756097561;0.95;32;292;46
 com.ecyrd.jspwiki.WikiEngine.saveText(com.ecyrd.jspwiki.WikiContext, java.lang.String);com.ecyrd.jspwiki.PageManager;0;1;9;0.9888888888888889;1.0;26;732;292
@@ -1896,7 +1896,7 @@ com.ecyrd.jspwiki.rss.RSS20Feed.getString();com.ecyrd.jspwiki.rss.RSSGenerator;0
 com.ecyrd.jspwiki.auth.AuthorizationManager.checkPermission(com.ecyrd.jspwiki.WikiSession, java.security.Permission);com.ecyrd.jspwiki.WikiEngine;3;5;4;0.8787878787878788;0.9690721649484536;54;242;732
 com.ecyrd.jspwiki.tags.AttachmentsIteratorTag.doAfterBody();com.ecyrd.jspwiki.WikiContext;2;0;3;1.0;0.9393939393939394;21;59;269
 com.ecyrd.jspwiki.plugin.WeblogArchivePlugin.getMonthLink(java.util.Calendar);com.ecyrd.jspwiki.TextUtil;0;1;1;0.9230769230769231;1.0;17;76;317
-com.ecyrd.jspwiki.plugin.IndexPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0
+com.ecyrd.jspwiki.plugin.IndexPlugin.execute(com.ecyrd.jspwiki.WikiContext, java.util.Map);com.ecyrd.jspwiki.WikiContext;0;0;0;0;0;0;0;0
 com.ecyrd.jspwiki.workflow.DecisionQueue.add(com.ecyrd.jspwiki.workflow.Decision);com.ecyrd.jspwiki.workflow.Decision;1;2;1;0.8181818181818181;0.9166666666666666;4;52;57
 com.ecyrd.jspwiki.auth.user.XMLUserDatabase.initialize(com.ecyrd.jspwiki.WikiEngine, java.util.Properties);com.ecyrd.jspwiki.WikiEngine;1;3;2;0.8888888888888888;0.9885057471264368;21;326;732
 com.ecyrd.jspwiki.xmlrpc.RPCHandlerUTF8.getRecentChanges(java.util.Date);com.ecyrd.jspwiki.WikiEngine;1;1;4;0.9666666666666667;0.98989898989899;16;121;732

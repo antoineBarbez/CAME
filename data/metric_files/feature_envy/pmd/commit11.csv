@@ -449,7 +449,7 @@ net.sourceforge.pmd.lang.java.rule.basic.DoubleCheckedLockingRule.visit(java.lan
 net.sourceforge.pmd.lang.java.symboltable.LocalScope.addNameOccurrence(net.sourceforge.pmd.lang.symboltable.NameOccurrence);net.sourceforge.pmd.lang.java.symboltable.JavaNameOccurrence;2;2;2;0.8;0.92;13;38;140
 net.sourceforge.pmd.lang.java.rule.strings.ConsecutiveLiteralAppendsRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTVariableDeclaratorId);net.sourceforge.pmd.lang.java.ast.AbstractJavaNode;1;7;5;0.8333333333333334;0.9615384615384616;59;178;52
 net.sourceforge.pmd.lang.java.typeresolution.rules.SignatureDeclareThrowsException.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration);net.sourceforge.pmd.lang.ast.AbstractNode;4;2;2;0.8947368421052632;0.8974358974358975;23;96;247
-net.sourceforge.pmd.RuleSets.ruleCount();net.sourceforge.pmd.RuleSet;0;0;0;0;0
+net.sourceforge.pmd.RuleSets.ruleCount();net.sourceforge.pmd.RuleSet;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.plsql.rule.codesize.NcssObjectCountRule.visit(java.lang.Object, net.sourceforge.pmd.lang.plsql.ast.ASTProgramUnit);net.sourceforge.pmd.lang.ast.AbstractNode;3;0;4;1.0;0.9302325581395349;18;40;247
 net.sourceforge.pmd.lang.java.rule.codesize.NcssTypeCountRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTEnumDeclaration);net.sourceforge.pmd.lang.ast.AbstractNode;1;0;2;1.0;0.972972972972973;8;36;247
 net.sourceforge.pmd.lang.java.symboltable.MethodNameDeclaration.isVarargs();net.sourceforge.pmd.lang.java.ast.ASTFormalParameter;1;0;4;1.0;0.9285714285714286;10;82;52
@@ -936,7 +936,7 @@ net.sourceforge.pmd.lang.java.rule.basic.DoubleCheckedLockingRule.visit(java.lan
 net.sourceforge.pmd.lang.java.typeresolution.rules.imports.UnusedImports.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTImportDeclaration);net.sourceforge.pmd.lang.java.rule.imports.UnusedImportsRule;2;0;3;1.0;0.9230769230769231;10;29;84
 net.sourceforge.pmd.lang.java.rule.finalizers.AvoidCallingFinalizeRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTPrimaryPrefix);net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;1;1;5;0.9444444444444444;1.0;20;39;378
 net.sourceforge.pmd.lang.java.rule.sunsecure.ArrayIsStoredDirectlyRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTConstructorDeclaration);net.sourceforge.pmd.lang.java.ast.ASTConstructorDeclaration;1;2;2;0.9;0.875;8;110;21
-net.sourceforge.pmd.lang.java.ast.ASTLiteral.isIntLiteral();net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0
+net.sourceforge.pmd.lang.java.ast.ASTLiteral.isIntLiteral();net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.jsp.rule.basic.NoInlineStyleInformationRule.visit(java.lang.Object, net.sourceforge.pmd.lang.jsp.ast.ASTElement);net.sourceforge.pmd.lang.jsp.rule.AbstractJspRule;1;1;2;0.8333333333333334;1.0;6;26;84
 net.sourceforge.pmd.lang.java.rule.AbstractInefficientZeroCheck.checkNodeAndReport(java.lang.Object, net.sourceforge.pmd.lang.ast.Node, net.sourceforge.pmd.lang.ast.Node);net.sourceforge.pmd.lang.rule.AbstractRule;1;1;1;0.875;0.975;5;35;193
 net.sourceforge.pmd.lang.java.rule.codesize.StdCyclomaticComplexityRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration);net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration;1;5;4;0.8214285714285714;0.9333333333333333;14;142;21
@@ -1014,7 +1014,7 @@ net.sourceforge.pmd.lang.java.rule.basic.AvoidUsingHardCodedIPRule.hasChosenAddr
 net.sourceforge.pmd.lang.java.symboltable.VariableNameDeclaration.equals(java.lang.Object);net.sourceforge.pmd.lang.symboltable.AbstractNameDeclaration;1;0;1;1.0;0.8333333333333334;7;69;15
 net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit);net.sourceforge.pmd.lang.java.ast.JavaParserVisitorAdapter;1;5;1;0.9375;1.0;21;481;342
 net.sourceforge.pmd.lang.ecmascript.ast.ASTSwitchCase.getStatement(int);net.sourceforge.pmd.lang.ast.AbstractNode;1;1;1;0.8333333333333334;0.9714285714285714;6;26;247
-net.sourceforge.pmd.lang.java.ast.ASTLiteral.isFloatLiteral();net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0
+net.sourceforge.pmd.lang.java.ast.ASTLiteral.isFloatLiteral();net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.ecmascript.ast.AbstractInfixEcmascriptNode.getLeft();net.sourceforge.pmd.lang.ast.AbstractNode;1;0;1;1.0;0.9705882352941176;3;20;247
 net.sourceforge.pmd.lang.java.rule.comments.CommentRequiredRule.checkComment(java.lang.Object, net.sourceforge.pmd.lang.java.ast.AbstractJavaAccessNode);net.sourceforge.pmd.AbstractPropertySource;1;2;5;0.8888888888888888;0.9545454545454546;32;130;93
 net.sourceforge.pmd.cpd.PLSQLLanguage.setProperties(java.util.Properties);net.sourceforge.pmd.cpd.PLSQLTokenizer;1;0;2;1.0;0.8333333333333334;3;6;42
@@ -1295,7 +1295,7 @@ net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver.visit(java.lang.O
 net.sourceforge.pmd.util.viewer.model.ViewerModel.appendToXPathExpression(java.lang.Object, java.lang.String);net.sourceforge.pmd.util.viewer.model.ViewerModelEvent;0;1;1;0.9090909090909091;1.0;3;57;17
 net.sourceforge.pmd.RuleSetFactory.parseRuleReferenceNode(java.lang.String, net.sourceforge.pmd.RuleSet, net.sourceforge.pmd.RuleSetReferenceId, org.w3c.dom.Node);net.sourceforge.pmd.RuleSetReference;2;6;6;0.9166666666666666;0.9473684210526316;69;425;26
 net.sourceforge.pmd.cpd.CsTokenizer.tokenize(net.sourceforge.pmd.cpd.SourceCode, net.sourceforge.pmd.cpd.Tokens);net.sourceforge.pmd.cpd.SourceCode;2;0;3;1.0;0.92;166;166;68
-net.sourceforge.pmd.lang.java.rule.coupling.LawOfDemeterRule.isFactory(net.sourceforge.pmd.lang.java.ast.ASTVariableDeclarator);net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0
+net.sourceforge.pmd.lang.java.rule.coupling.LawOfDemeterRule.isFactory(net.sourceforge.pmd.lang.java.ast.ASTVariableDeclarator);net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.isSuppressed(net.sourceforge.pmd.lang.ast.Node);net.sourceforge.pmd.lang.java.rule.JavaRuleViolation;0;0;1;1.0;1.0;3;378;74
 net.sourceforge.pmd.lang.rule.properties.MethodMultiProperty.asString(java.lang.Object);net.sourceforge.pmd.lang.rule.properties.MethodProperty;0;0;1;1.0;1.0;3;36;121
 net.sourceforge.pmd.lang.plsql.rule.PLSQLRuleChainVisitor.visit(java.lang.Object, net.sourceforge.pmd.lang.plsql.ast.PLSQLNode);net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor;1;0;2;1.0;0.875;4;33;78
@@ -1642,7 +1642,7 @@ net.sourceforge.pmd.lang.plsql.rule.codesize.CyclomaticComplexityRule.visit(java
 net.sourceforge.pmd.lang.java.rule.design.AvoidDeeplyNestedIfStmtsRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit);net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;1;2;2;0.6666666666666667;1.0;5;19;378
 net.sourceforge.pmd.renderers.SummaryHTMLRenderer.end();net.sourceforge.pmd.renderers.HTMLRenderer;1;1;5;0.8888888888888888;0.9473684210526316;12;39;125
 net.sourceforge.pmd.lang.java.ast.ASTFieldDeclaration.isInterfaceMember();net.sourceforge.pmd.lang.ast.AbstractNode;2;0;2;1.0;0.9444444444444444;7;89;247
-net.sourceforge.pmd.lang.java.ast.ASTLiteral.isLongLiteral();net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0
+net.sourceforge.pmd.lang.java.ast.ASTLiteral.isLongLiteral();net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.dfa.pathfinder.DAAPathFinder.hasMoreChildren();net.sourceforge.pmd.lang.dfa.pathfinder.PathElement;2;1;1;0.9655172413793104;0.7777777777777778;4;258;10
 net.sourceforge.pmd.lang.java.rule.basic.DoubleCheckedLockingRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTMethodDeclaration);net.sourceforge.pmd.lang.ast.AbstractNode;3;4;5;0.9285714285714286;0.9423076923076923;55;121;247
 net.sourceforge.pmd.lang.java.dfa.StatementAndBraceFinder.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTContinueStatement);net.sourceforge.pmd.lang.dfa.Structure;3;0;4;1.0;0.8;10;252;49
@@ -1875,7 +1875,7 @@ net.sourceforge.pmd.ant.PMDTask.validate();net.sourceforge.pmd.ant.Formatter;3;3
 net.sourceforge.pmd.lang.java.rule.comments.CommentRequiredRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTEnumDeclaration);net.sourceforge.pmd.AbstractPropertySource;1;2;5;0.8823529411764706;0.9523809523809523;16;130;93
 net.sourceforge.pmd.lang.plsql.rule.codesize.CyclomaticComplexityRule.visit(java.lang.Object, net.sourceforge.pmd.lang.plsql.rule.codesize.ASTWhileStatement);net.sourceforge.pmd.lang.plsql.rule.codesize.NPathComplexityRule;0;2;2;0.935483870967742;1.0;9;227;234
 net.sourceforge.pmd.lang.java.rule.design.GodClassRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTConditionalAndExpression);net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;1;1;1;0.962962962962963;1.0;4;193;378
-net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(net.sourceforge.pmd.lang.ast.Node, net.sourceforge.pmd.lang.LanguageVersionHandler);net.sourceforge.pmd.PMDConfiguration;0;0;0;0;0
+net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(net.sourceforge.pmd.lang.ast.Node, net.sourceforge.pmd.lang.LanguageVersionHandler);net.sourceforge.pmd.PMDConfiguration;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.java.symboltable.VariableNameDeclaration.isArray();net.sourceforge.pmd.lang.java.ast.ASTVariableDeclaratorId;1;0;3;1.0;0.9166666666666666;10;69;65
 net.sourceforge.pmd.lang.plsql.ast.ASTProgramUnit.getMethodName();net.sourceforge.pmd.lang.ast.AbstractNode;2;0;1;1.0;0.9411764705882353;7;27;247
 net.sourceforge.pmd.dcd.graph.UsageGraphBuilder.println(java.lang.String);net.sourceforge.pmd.dcd.asm.PrintVisitor;1;0;1;1.0;0.75;3;322;21
@@ -1962,7 +1962,7 @@ net.sourceforge.pmd.renderers.XMLRenderer.end();net.sourceforge.pmd.renderers.Ab
 net.sourceforge.pmd.lang.java.symboltable.JavaNameOccurrence.useThisOrSuper();net.sourceforge.pmd.lang.ast.AbstractNode;1;2;2;0.92;0.975;11;140;247
 net.sourceforge.pmd.lang.java.rule.codesize.TooManyFieldsRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit);net.sourceforge.pmd.lang.rule.AbstractRule;1;3;5;0.7857142857142857;0.9795918367346939;23;35;193
 net.sourceforge.pmd.lang.plsql.dfa.DataFlowFacade.visit(java.lang.Object, net.sourceforge.pmd.lang.plsql.ast.ASTTriggerUnit);net.sourceforge.pmd.lang.ast.AbstractNode;3;0;4;1.0;0.9302325581395349;15;53;247
-net.sourceforge.pmd.lang.java.ast.ASTLiteral.isDoubleLiteral();net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0
+net.sourceforge.pmd.lang.java.ast.ASTLiteral.isDoubleLiteral();net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.dcd.UsageNodeVisitor.ignore(java.lang.String, net.sourceforge.pmd.dcd.graph.ClassNode);net.sourceforge.pmd.dcd.graph.ClassNode;1;0;1;1.0;0.9444444444444444;3;147;80
 net.sourceforge.pmd.lang.java.typeresolution.rules.CloneMethodMustImplementCloneable.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTMethodDeclaration);net.sourceforge.pmd.lang.java.ast.AbstractJavaAccessNode;1;0;4;1.0;0.975;19;66;98
 net.sourceforge.pmd.lang.java.rule.codesize.StdCyclomaticComplexityRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTEnumDeclaration);net.sourceforge.pmd.lang.rule.AbstractRule;1;4;3;0.8518518518518519;1.0;9;142;193
@@ -2563,5 +2563,5 @@ net.sourceforge.pmd.lang.java.typeresolution.rules.SignatureDeclareThrowsExcepti
 net.sourceforge.pmd.lang.java.rule.naming.AvoidDollarSignsRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration);net.sourceforge.pmd.lang.rule.AbstractRule;1;0;3;1.0;0.975;7;21;193
 net.sourceforge.pmd.lang.java.symboltable.MethodNameDeclaration.hashCode();net.sourceforge.pmd.lang.java.ast.ASTMethodDeclarator;1;0;2;1.0;0.8;3;82;12
 net.sourceforge.pmd.lang.java.rule.design.UseUtilityClassRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBody);net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;1;0;7;1.0;1.0;55;55;378
-net.sourceforge.pmd.processor.AbstractPMDProcessor.createRuleSets(net.sourceforge.pmd.RuleSetFactory);net.sourceforge.pmd.RulesetsFactoryUtils;0;0;0;0;0
+net.sourceforge.pmd.processor.AbstractPMDProcessor.createRuleSets(net.sourceforge.pmd.RuleSetFactory);net.sourceforge.pmd.RulesetsFactoryUtils;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.java.rule.design.GodClassRule.isForeignAttributeOrMethod(net.sourceforge.pmd.lang.java.ast.ASTPrimaryExpression);net.sourceforge.pmd.lang.ast.AbstractNode;2;1;1;0.9666666666666667;0.9459459459459459;17;193;247

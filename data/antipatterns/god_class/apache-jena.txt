@@ -1,0 +1,8 @@
+jena.schemagen
+com.hp.hpl.jena.ontology.OntModel
+com.hp.hpl.jena.ontology.impl.OntModelImpl
+com.hp.hpl.jena.ontology.impl.DAML_OILProfile
+com.hp.hpl.jena.ontology.impl.DAML_OILLegacyProfile
+com.hp.hpl.jena.xmloutput.impl.Unparser
+com.hp.hpl.jena.rdf.model.impl.ModelCom
+com.hp.hpl.jena.vocabulary.DAML_OIL

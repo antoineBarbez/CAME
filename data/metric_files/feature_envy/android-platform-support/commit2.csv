@@ -143,7 +143,7 @@ android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat.getSettin
 android.support.v4.app.TaskStackBuilder.addParentStack(android.support.v4.app.Activity);android.support.v4.app.NavUtils;0;1;1;0.9333333333333333;1.0;15;88;49
 android.support.v4.app.FragmentState.instantiate(android.support.v4.app.FragmentActivity);android.support.v4.app.Fragment;10;10;3;0.6;0.9158878504672897;24;68;481
 android.support.v4.view.ViewPager.draw(android.support.v4.view.Canvas);android.support.v4.view.PagerAdapter;1;2;3;0.9858156028368794;1.0;34;1655;50
-android.support.v4.view.ViewPager.completeScroll(boolean);android.support.v4.view.ViewCompat;0;0;0;0;0
+android.support.v4.view.ViewPager.completeScroll(boolean);android.support.v4.view.ViewCompat;0;0;0;0;0;0;0;0
 android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.setAccessibilityFocused(boolean, java.lang.Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;1;0;1;1.0;1.0;3;394;39
 android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.focusSearch(int, java.lang.Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;1;0;1;1.0;1.0;3;394;39
 android.support.v4.app.BackStackRecord.commitInternal(boolean);android.support.v4.app.FragmentManagerImpl;2;3;1;0.95;0.9893617021276596;13;492;1374

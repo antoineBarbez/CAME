@@ -449,7 +449,7 @@ net.sourceforge.pmd.lang.java.rule.basic.DoubleCheckedLockingRule.visit(java.lan
 net.sourceforge.pmd.lang.java.symboltable.LocalScope.addNameOccurrence(net.sourceforge.pmd.lang.symboltable.NameOccurrence);net.sourceforge.pmd.lang.java.symboltable.JavaNameOccurrence;2;2;2;0.8;0.92;13;38;140
 net.sourceforge.pmd.lang.java.rule.strings.ConsecutiveLiteralAppendsRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTVariableDeclaratorId);net.sourceforge.pmd.lang.java.ast.AbstractJavaNode;1;7;5;0.8333333333333334;0.9615384615384616;59;178;52
 net.sourceforge.pmd.lang.java.typeresolution.rules.SignatureDeclareThrowsException.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration);net.sourceforge.pmd.lang.ast.AbstractNode;4;2;2;0.8947368421052632;0.8974358974358975;23;96;247
-net.sourceforge.pmd.RuleSets.ruleCount();net.sourceforge.pmd.RuleSet;0;0;0;0;0
+net.sourceforge.pmd.RuleSets.ruleCount();net.sourceforge.pmd.RuleSet;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.plsql.rule.codesize.NcssObjectCountRule.visit(java.lang.Object, net.sourceforge.pmd.lang.plsql.ast.ASTProgramUnit);net.sourceforge.pmd.lang.ast.AbstractNode;3;0;4;1.0;0.9302325581395349;18;40;247
 net.sourceforge.pmd.lang.java.rule.codesize.NcssTypeCountRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTEnumDeclaration);net.sourceforge.pmd.lang.ast.AbstractNode;1;0;2;1.0;0.972972972972973;8;36;247
 net.sourceforge.pmd.lang.java.symboltable.MethodNameDeclaration.isVarargs();net.sourceforge.pmd.lang.java.ast.ASTFormalParameter;1;0;4;1.0;0.9285714285714286;10;82;52
@@ -1295,7 +1295,7 @@ net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver.visit(java.lang.O
 net.sourceforge.pmd.util.viewer.model.ViewerModel.appendToXPathExpression(java.lang.Object, java.lang.String);net.sourceforge.pmd.util.viewer.model.ViewerModelEvent;0;1;1;0.9090909090909091;1.0;3;57;17
 net.sourceforge.pmd.RuleSetFactory.parseRuleReferenceNode(java.lang.String, net.sourceforge.pmd.RuleSet, net.sourceforge.pmd.RuleSetReferenceId, org.w3c.dom.Node);net.sourceforge.pmd.RuleSetReference;2;6;6;0.9166666666666666;0.9473684210526316;69;425;26
 net.sourceforge.pmd.cpd.CsTokenizer.tokenize(net.sourceforge.pmd.cpd.SourceCode, net.sourceforge.pmd.cpd.Tokens);net.sourceforge.pmd.cpd.SourceCode;2;0;3;1.0;0.92;166;166;68
-net.sourceforge.pmd.lang.java.rule.coupling.LawOfDemeterRule.isFactory(net.sourceforge.pmd.lang.java.ast.ASTVariableDeclarator);net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0
+net.sourceforge.pmd.lang.java.rule.coupling.LawOfDemeterRule.isFactory(net.sourceforge.pmd.lang.java.ast.ASTVariableDeclarator);net.sourceforge.pmd.lang.ast.AbstractNode;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.java.rule.AbstractJavaRule.isSuppressed(net.sourceforge.pmd.lang.ast.Node);net.sourceforge.pmd.lang.java.rule.JavaRuleViolation;0;0;1;1.0;1.0;3;378;74
 net.sourceforge.pmd.lang.rule.properties.MethodMultiProperty.asString(java.lang.Object);net.sourceforge.pmd.lang.rule.properties.MethodProperty;0;0;1;1.0;1.0;3;36;121
 net.sourceforge.pmd.lang.plsql.rule.PLSQLRuleChainVisitor.visit(java.lang.Object, net.sourceforge.pmd.lang.plsql.ast.PLSQLNode);net.sourceforge.pmd.lang.rule.AbstractRuleChainVisitor;1;0;2;1.0;0.875;4;33;78
@@ -1875,7 +1875,7 @@ net.sourceforge.pmd.ant.PMDTask.validate();net.sourceforge.pmd.ant.Formatter;3;3
 net.sourceforge.pmd.lang.java.rule.comments.CommentRequiredRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTEnumDeclaration);net.sourceforge.pmd.AbstractPropertySource;1;2;5;0.8823529411764706;0.9523809523809523;16;130;93
 net.sourceforge.pmd.lang.plsql.rule.codesize.CyclomaticComplexityRule.visit(java.lang.Object, net.sourceforge.pmd.lang.plsql.rule.codesize.ASTWhileStatement);net.sourceforge.pmd.lang.plsql.rule.codesize.NPathComplexityRule;0;2;2;0.935483870967742;1.0;9;227;234
 net.sourceforge.pmd.lang.java.rule.design.GodClassRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTConditionalAndExpression);net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;1;1;1;0.962962962962963;1.0;4;193;378
-net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(net.sourceforge.pmd.lang.ast.Node, net.sourceforge.pmd.lang.LanguageVersionHandler);net.sourceforge.pmd.PMDConfiguration;0;0;0;0;0
+net.sourceforge.pmd.SourceCodeProcessor.symbolFacade(net.sourceforge.pmd.lang.ast.Node, net.sourceforge.pmd.lang.LanguageVersionHandler);net.sourceforge.pmd.PMDConfiguration;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.java.symboltable.VariableNameDeclaration.isArray();net.sourceforge.pmd.lang.java.ast.ASTVariableDeclaratorId;1;0;3;1.0;0.9166666666666666;10;69;65
 net.sourceforge.pmd.lang.plsql.ast.ASTProgramUnit.getMethodName();net.sourceforge.pmd.lang.ast.AbstractNode;2;0;1;1.0;0.9411764705882353;7;27;247
 net.sourceforge.pmd.dcd.graph.UsageGraphBuilder.println(java.lang.String);net.sourceforge.pmd.dcd.asm.PrintVisitor;1;0;1;1.0;0.75;3;322;21
@@ -2563,5 +2563,5 @@ net.sourceforge.pmd.lang.java.typeresolution.rules.SignatureDeclareThrowsExcepti
 net.sourceforge.pmd.lang.java.rule.naming.AvoidDollarSignsRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceDeclaration);net.sourceforge.pmd.lang.rule.AbstractRule;1;0;3;1.0;0.975;7;21;193
 net.sourceforge.pmd.lang.java.symboltable.MethodNameDeclaration.hashCode();net.sourceforge.pmd.lang.java.ast.ASTMethodDeclarator;1;0;2;1.0;0.8;3;82;12
 net.sourceforge.pmd.lang.java.rule.design.UseUtilityClassRule.visit(java.lang.Object, net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBody);net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;1;0;7;1.0;1.0;55;55;378
-net.sourceforge.pmd.processor.AbstractPMDProcessor.createRuleSets(net.sourceforge.pmd.RuleSetFactory);net.sourceforge.pmd.RulesetsFactoryUtils;0;0;0;0;0
+net.sourceforge.pmd.processor.AbstractPMDProcessor.createRuleSets(net.sourceforge.pmd.RuleSetFactory);net.sourceforge.pmd.RulesetsFactoryUtils;0;0;0;0;0;0;0;0
 net.sourceforge.pmd.lang.java.rule.design.GodClassRule.isForeignAttributeOrMethod(net.sourceforge.pmd.lang.java.ast.ASTPrimaryExpression);net.sourceforge.pmd.lang.ast.AbstractNode;2;1;1;0.9666666666666667;0.9459459459459459;17;193;247

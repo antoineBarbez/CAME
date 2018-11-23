@@ -25,7 +25,7 @@ org.apache.el.parser.ELParser.Integer();org.apache.el.parser.Token;1;1;3;0.99236
 org.apache.jasper.runtime.PerThreadTagHandlerPool.init(javax.servlet.ServletConfig);org.apache.jasper.runtime.TagHandlerPool;1;6;2;0.6428571428571428;1.0;20;67;94
 org.apache.catalina.core.ApplicationPart.getHeader(java.lang.String);org.apache.tomcat.util.http.fileupload.DiskFileItem;1;1;1;0.9333333333333333;0.9655172413793104;6;84;232
 org.apache.catalina.connector.ResponseFacade.finish();org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;237;52
-org.apache.coyote.http11.Http11AprProtocol.createProcessor();org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.createProcessor();org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationContextFacade.setAttribute(java.lang.Object, java.lang.String);org.apache.catalina.core.ApplicationContext;1;1;2;1.0;1.0;8;549;660
 org.apache.catalina.startup.ContextConfig.authenticatorConfig();org.apache.catalina.core.ContainerBase;1;3;3;0.96;0.9887640449438202;67;1464;481
 org.apache.catalina.tribes.group.GroupChannel.setChannelReceiver(org.apache.catalina.tribes.ChannelReceiver);org.apache.catalina.tribes.group.ChannelCoordinator;1;0;1;1.0;0.95;3;314;164
@@ -51,7 +51,7 @@ org.apache.catalina.ha.session.DeltaManager.deserializeDeltaRequest(byte[], org.
 org.apache.catalina.tribes.membership.Membership.memberAlive(org.apache.catalina.tribes.membership.MemberImpl);org.apache.catalina.tribes.membership.MemberImpl;6;5;1;0.8148148148148149;0.8604651162790697;20;156;300
 org.apache.catalina.core.StandardContext.removeServletMapping(java.lang.String);org.apache.tomcat.util.http.mapper.Mapper;1;2;2;0.99375;0.9795918367346939;12;2319;837
 org.apache.catalina.connector.OutputBuffer.setConverter();org.apache.catalina.Globals;0;4;2;0.9;1.0;26;210;0
-org.apache.coyote.http11.InternalAprOutputBuffer.sendAck();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprOutputBuffer.sendAck();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.mbeans.ServerLifecycleListener.destroyMBeans(org.apache.catalina.deploy.NamingResources);org.apache.catalina.deploy.NamingResources;4;3;2;0.9210526315789473;0.9230769230769231;19;563;342
 org.apache.catalina.servlets.DefaultServlet.copy(java.lang.String, java.util.Iterator<org.apache.catalina.servlets.DefaultServlet.Range>, javax.servlet.ServletOutputStream, org.apache.naming.resources.CacheEntry);org.apache.naming.resources.Resource;1;5;2;0.9180327868852459;0.9285714285714286;18;1010;23
 org.apache.catalina.tribes.transport.bio.BioReceiver.bind();org.apache.catalina.tribes.transport.ReceiverBase;3;1;1;0.9090909090909091;0.9642857142857143;4;94;331
@@ -62,7 +62,7 @@ org.apache.catalina.startup.Bootstrap.createClassLoader(java.lang.ClassLoader, j
 org.apache.coyote.http11.Http11AprProtocol.setSSLVerifyDepth(int);org.apache.tomcat.util.net.AprEndpoint;1;0;1;1.0;0.9866666666666667;3;534;447
 org.apache.catalina.startup.SetParentClassLoaderRule.begin(java.lang.String, java.lang.String, org.xml.sax.Attributes);org.apache.tomcat.util.digester.Rule;0;1;2;0.8571428571428572;1.0;5;8;31
 org.apache.catalina.realm.RealmBase.hasResourcePermission(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response, org.apache.catalina.Context, org.apache.catalina.deploy.SecurityConstraint[]);org.apache.catalina.realm.Constants;0;2;7;0.9833333333333333;1.0;90;616;0
-org.apache.catalina.core.StandardService.removeConnector(org.apache.catalina.connector.Connector);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.core.StandardService.removeConnector(org.apache.catalina.connector.Connector);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(java.lang.Object, java.util.Hashtable<?,?>, javax.naming.Context, javax.naming.Name);org.apache.catalina.users.MemoryUserDatabase;5;0;1;1.0;0.8648648648648649;22;22;253
 org.apache.catalina.tribes.tipis.AbstractReplicatedMap.setKey(java.io.Serializable);org.apache.catalina.tribes.io.XByteBuffer;0;2;1;0.9789473684210527;1.0;9;954;317
 org.apache.catalina.realm.RealmBase.startInternal();org.apache.tomcat.util.res.StringManager;1;2;2;0.9534883720930233;1.0;11;616;52
@@ -86,7 +86,7 @@ org.apache.catalina.tribes.membership.McastService.setDomain(byte[]);org.apache.
 org.apache.jasper.compiler.Generator.generateInit();org.apache.jasper.compiler.ServletWriter;7;2;2;0.9841269841269842;0.6666666666666667;43;2649;54
 org.apache.catalina.core.ApplicationJspPropertyGroupDescriptor.getIncludePreludes();org.apache.catalina.deploy.JspPropertyGroup;1;0;1;1.0;0.9523809523809523;3;79;72
 org.apache.coyote.http11.Http11AprProtocol.getAddress();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;534;392
-org.apache.coyote.http11.Http11AprProtocol.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.Request.getRemoteHost();org.apache.catalina.connector.Connector;1;2;4;0.9880239520958084;0.9864864864864865;12;1247;296
 org.apache.coyote.http11.AbstractHttp11Protocol.getAllowUnsafeLegacyRenegotiation();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;379;392
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.startElection(boolean);org.apache.catalina.tribes.membership.MemberImpl;1;10;5;0.8873239436619719;0.9814814814814815;54;498;300
@@ -96,7 +96,7 @@ org.apache.catalina.core.ApplicationContextFacade.getServletRegistration(java.la
 org.apache.catalina.core.StandardService.stopInternal();org.apache.catalina.util.LifecycleBase;1;4;3;0.9189189189189189;0.9583333333333334;29;242;113
 org.apache.catalina.connector.RequestFacade.getProtocol();org.apache.catalina.connector.Request;1;0;2;1.0;0.9939393939393939;6;468;1247
 org.apache.jasper.JspC.processFile(java.lang.String);org.apache.jasper.JspCompilationContext;5;10;3;0.900990099009901;0.9397590361445783;68;879;426
-org.apache.catalina.mbeans.ContextResourceLinkMBean.getAttribute(java.lang.String);org.apache.tomcat.util.modeler.BaseModelMBean;0;0;0;0;0
+org.apache.catalina.mbeans.ContextResourceLinkMBean.getAttribute(java.lang.String);org.apache.tomcat.util.modeler.BaseModelMBean;0;0;0;0;0;0;0;0
 org.apache.catalina.session.StoreBase.startInternal();org.apache.catalina.util.LifecycleBase;1;0;1;1.0;0.9166666666666666;3;90;113
 org.apache.catalina.authenticator.AuthenticatorBase.associate(java.lang.String, org.apache.catalina.Session);org.apache.catalina.authenticator.SingleSignOn;1;0;1;1.0;0.9375;4;292;164
 org.apache.catalina.core.ContainerBase.setLoader(org.apache.catalina.Loader);org.apache.catalina.util.LifecycleBase;1;2;1;0.971830985915493;0.9473684210526316;23;481;113
@@ -134,10 +134,10 @@ org.apache.naming.resources.DirContextURLConnection.getHeaderValueAsString(java.
 org.apache.catalina.tribes.transport.nio.ParallelNioSender.sendMessage(org.apache.catalina.tribes.ChannelMessage, org.apache.catalina.tribes.Member[]);org.apache.catalina.tribes.io.XByteBuffer;0;6;4;0.8620689655172413;1.0;52;246;317
 org.apache.naming.resources.FileDirContext.createSubcontext(java.lang.String, javax.naming.directory.Attributes);org.apache.naming.StringManager;1;1;2;0.9782608695652174;1.0;6;290;50
 org.apache.catalina.servlets.WebdavServlet.parseLockNullProperties(int, java.lang.String, java.util.Vector<java.lang.String>, javax.servlet.http.HttpServletRequest, org.apache.catalina.util.XMLWriter);org.apache.catalina.util.RequestUtil;0;5;5;0.927536231884058;1.0;136;1521;189
-org.apache.catalina.startup.TldConfig.tldScanDir(java.io.File);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0
+org.apache.catalina.startup.TldConfig.tldScanDir(java.io.File);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.http.mapper.Mapper.internalMapWildcardWrapper(int, org.apache.tomcat.util.buf.CharChunk, org.apache.tomcat.util.http.mapper.Mapper.Wrapper[], org.apache.tomcat.util.http.mapper.MappingData);org.apache.tomcat.util.buf.CharChunk;6;5;3;0.9464285714285714;0.9310344827586207;40;837;393
 org.apache.catalina.servlets.DefaultServlet.parseRange(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.naming.resources.ResourceAttributes);org.apache.naming.resources.ResourceAttributes;3;4;1;0.9452054794520548;0.9516129032258065;73;1010;515
-org.apache.catalina.startup.XmlErrorHandler.logFindings(java.lang.String, org.apache.juli.logging.Log);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.startup.XmlErrorHandler.logFindings(java.lang.String, org.apache.juli.logging.Log);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationContext.getResource(java.lang.String);org.apache.catalina.util.RequestUtil;0;2;4;0.9733333333333334;1.0;21;660;189
 org.apache.catalina.session.PersistentManagerBase.swapOut(org.apache.catalina.Session);org.apache.catalina.session.ManagerBase;1;2;2;0.9565217391304348;0.9883720930232558;9;436;530
 org.apache.tomcat.util.http.ValuesEnumerator.findNext();org.apache.tomcat.util.buf.MessageBytes;1;3;2;0.6666666666666667;0.9772727272727273;11;26;382
@@ -234,7 +234,7 @@ org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.
 org.apache.catalina.connector.Response.recycle();org.apache.catalina.connector.ResponseFacade;1;6;6;0.9285714285714286;0.9818181818181818;26;619;237
 org.apache.catalina.servlets.DefaultServlet.renderXml(java.io.InputStream, java.lang.String, org.apache.naming.resources.CacheEntry);org.apache.catalina.util.RequestUtil;0;5;4;0.9324324324324325;1.0;66;1010;189
 org.apache.catalina.ssi.SSIConditional.evaluateArguments(java.lang.String[], java.lang.String[], org.apache.catalina.ssi.SSIMediator);org.apache.catalina.ssi.ExpressionParseTree;1;1;1;0.75;0.9411764705882353;13;67;124
-org.apache.coyote.http11.AbstractHttp11Processor.addFilter(java.lang.String);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.coyote.http11.AbstractHttp11Processor.addFilter(java.lang.String);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.core.StandardContext.addMessageDestination(org.apache.catalina.deploy.MessageDestination);org.apache.catalina.deploy.ResourceBase;1;1;2;0.9968553459119497;0.9411764705882353;6;2319;43
 org.apache.naming.resources.FileDirContext.doGetRealPath(java.lang.String);org.apache.naming.resources.BaseDirContext;1;0;1;1.0;0.9830508474576272;4;290;312
 org.apache.naming.resources.ProxyDirContext.getDocBase();org.apache.naming.resources.BaseDirContext;1;1;1;0.9866666666666667;0.9830508474576272;4;469;312
@@ -322,7 +322,7 @@ org.apache.catalina.startup.Embedded.initDirs();org.apache.tomcat.util.Introspec
 org.apache.catalina.ha.session.SimpleTcpReplicationManager.requestCompleted(java.lang.String);org.apache.catalina.session.StandardSession;2;5;3;0.8913043478260869;0.9787234042553191;44;356;604
 org.apache.catalina.tribes.membership.McastService.setPayload(byte[]);org.apache.catalina.tribes.membership.MemberImpl;2;1;2;0.9846153846153847;0.9487179487179487;13;353;300
 org.apache.catalina.startup.Embedded.startInternal();org.apache.catalina.util.LifecycleBase;1;3;2;0.9565217391304348;0.9473684210526316;12;365;113
-org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse);org.apache.catalina.core.ApplicationDispatcher;0;0;0;0;0
+org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse);org.apache.catalina.core.ApplicationDispatcher;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.digester.CallMethodRule.begin(java.lang.String, java.lang.String, org.xml.sax.Attributes);org.apache.tomcat.util.digester.Digester;1;1;2;0.9333333333333333;0.9923664122137404;9;203;849
 org.apache.tomcat.util.bcel.classfile.StackMap.copy(org.apache.tomcat.util.bcel.classfile.ConstantPool);org.apache.tomcat.util.bcel.classfile.StackMapEntry;1;2;2;0.75;0.9090909090909091;9;43;64
 org.apache.catalina.mbeans.MemoryUserDatabaseMBean.createGroup(java.lang.String, java.lang.String);org.apache.catalina.mbeans.MBeanUtils;0;1;2;0.9375;1.0;13;168;763
@@ -405,7 +405,7 @@ org.apache.tomcat.util.digester.SetRootRule.end(java.lang.String, java.lang.Stri
 org.apache.catalina.session.FileStore.directory();org.apache.catalina.session.StoreBase;1;2;1;0.92;0.96;26;191;90
 org.apache.jasper.compiler.JspConfig.processWebDotXml();org.apache.jasper.xmlparser.ParserUtils;1;6;4;0.88;0.967741935483871;103;364;58
 org.apache.jasper.compiler.Dumper.visit(org.apache.jasper.compiler.Node.Declaration);org.apache.jasper.compiler.Node;1;1;1;0.9655172413793104;0.9932885906040269;3;138;1053
-org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.RequestInfo;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.RequestInfo;0;0;0;0;0;0;0;0
 org.apache.catalina.core.StandardWrapper.addSecurityReference(java.lang.String, java.lang.String);org.apache.catalina.core.ContainerBase;1;1;1;0.9904761904761905;1.0;6;766;481
 org.apache.catalina.connector.RequestFacade.getParameterNames();org.apache.catalina.Globals;0;0;3;1.0;1.0;11;468;0
 org.apache.tomcat.util.bcel.classfile.Unknown.toString();org.apache.tomcat.util.bcel.classfile.Attribute;1;2;2;0.7142857142857143;0.9;15;46;97
@@ -434,7 +434,7 @@ org.apache.catalina.core.StandardContext.removeErrorPage(org.apache.catalina.dep
 org.apache.catalina.realm.RealmBase.initInternal();org.apache.catalina.util.LifecycleMBeanBase;1;2;1;0.9523809523809523;0.9333333333333333;6;616;71
 org.apache.catalina.realm.DataSourceRealm.open();org.apache.catalina.core.StandardServer;1;2;4;0.9310344827586207;0.9777777777777777;18;244;285
 org.apache.coyote.http11.Http11AprProtocol.getKeepAliveTimeout();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;534;392
-org.apache.coyote.ajp.AjpAprProtocol.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProtocol.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.jasper.servlet.JspServletWrapper.destroy();org.apache.jasper.runtime.InstanceManagerFactory;0;3;2;0.896551724137931;1.0;12;326;9
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.handleOtherToken(org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.CoordinationMessage, org.apache.catalina.tribes.Member, org.apache.catalina.tribes.membership.MemberImpl, org.apache.catalina.tribes.membership.Membership);org.apache.catalina.tribes.membership.MemberImpl;1;3;2;0.9682539682539683;0.975;8;498;300
 org.apache.tomcat.util.net.AprEndpoint.add(org.apache.tomcat.util.net.AprEndpoint.SendfileData);org.apache.tomcat.util.res.StringManager;1;8;7;0.9069767441860466;0.9545454545454546;38;447;52
@@ -479,11 +479,11 @@ org.apache.tomcat.util.buf.CharChunk.startsWithIgnoreCase(int, java.lang.String)
 org.apache.jasper.compiler.Generator.visit(org.apache.jasper.compiler.Node.IncludeAction);org.apache.jasper.compiler.Node;7;5;2;0.9767441860465116;0.9554140127388535;25;2649;1053
 org.apache.catalina.startup.ContextConfig.processAnnotationWebInitParams(org.apache.tomcat.util.bcel.classfile.ElementValue);org.apache.tomcat.util.bcel.classfile.AnnotationEntry;1;0;5;1.0;0.9166666666666666;25;1464;30
 org.apache.tomcat.util.http.mapper.Mapper.internalMapExtensionWrapper(org.apache.tomcat.util.buf.CharChunk, org.apache.tomcat.util.http.mapper.Mapper.Wrapper[], org.apache.tomcat.util.http.mapper.MappingData);org.apache.tomcat.util.buf.CharChunk;4;3;3;0.96;0.9423076923076923;33;837;393
-org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.coyote.Request;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.coyote.Request;0;0;0;0;0;0;0;0
 org.apache.el.parser.AstValue.setValue(java.lang.Object, org.apache.el.lang.EvaluationContext);org.apache.el.lang.ELSupport;1;4;3;0.8571428571428572;1.0;15;161;406
 org.apache.catalina.ha.session.DeltaManager.createSession(boolean, java.lang.String);org.apache.catalina.session.StandardSession;1;3;3;0.9642857142857143;0.9883720930232558;12;822;604
 org.apache.naming.resources.FileDirContext.list(java.io.File);org.apache.naming.NamingEntry;0;2;3;0.9607843137254902;1.0;27;290;16
-org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.catalina.connector.Request;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.catalina.connector.Request;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationContextFacade.removeAttribute(java.lang.String);org.apache.catalina.security.SecurityUtil;0;1;2;1.0;1.0;8;549;150
 org.apache.catalina.connector.RequestFacade.getHeader(java.lang.String);org.apache.catalina.connector.Request;1;0;2;1.0;0.9939393939393939;6;468;1247
 org.apache.catalina.tribes.group.interceptors.FragmentationInterceptor.hashCode();org.apache.catalina.tribes.io.XByteBuffer;0;1;1;0.9523809523809523;1.0;3;138;317
@@ -548,7 +548,7 @@ org.apache.el.parser.AstNotEqual.getValue(org.apache.el.lang.EvaluationContext);
 org.apache.coyote.http11.Http11NioProtocol.getSelectorTimeout();org.apache.tomcat.util.net.NioEndpoint;1;0;2;1.0;0.9901960784313726;3;302;962
 org.apache.tomcat.util.buf.MessageBytes.equals(org.apache.tomcat.util.buf.MessageBytes);org.apache.tomcat.util.buf.CharChunk;1;4;2;0.9047619047619048;0.9807692307692307;22;382;393
 org.apache.tomcat.util.net.SecureNioChannel.handshakeUnwrap(boolean);org.apache.tomcat.util.net.NioChannel;2;5;1;0.8918918918918919;0.9444444444444444;23;255;83
-org.apache.coyote.http11.Http11AprProtocol.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.net.AprEndpoint;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.net.AprEndpoint;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.modeler.BaseNotificationBroadcaster.removeNotificationListener(javax.management.NotificationListener);org.apache.tomcat.util.modeler.BaseNotificationBroadcasterEntry;1;1;1;0.9166666666666666;0.875;9;54;5
 org.apache.catalina.startup.Embedded.addConnector(org.apache.catalina.connector.Connector);org.apache.catalina.connector.Connector;1;1;3;1.0;0.9866666666666667;7;365;296
 org.apache.catalina.valves.ErrorReportValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.tomcat.util.ExceptionUtils;0;1;5;1.0;1.0;26;137;8
@@ -612,11 +612,11 @@ org.apache.jasper.compiler.TagFileProcessor.loadTagFile(java.lang.String, javax.
 org.apache.coyote.http11.AbstractInputBuffer.nextRequest();org.apache.coyote.Request;1;7;1;0.6666666666666667;0.9743589743589743;21;78;221
 org.apache.catalina.connector.Request.setServerName(java.lang.String);org.apache.coyote.Request;0;0;2;1.0;1.0;3;1247;221
 org.apache.catalina.servlets.DefaultServlet.serveResource(boolean, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse);org.apache.tomcat.util.res.StringManager;1;18;5;0.8842105263157894;1.0;159;1010;52
-org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.net.NioEndpoint.timeout(boolean, int);org.apache.tomcat.util.net.AbstractEndpoint;0;12;2;0.9262295081967213;1.0;59;962;392
 org.apache.jasper.compiler.Generator.generateDestroy();org.apache.jasper.compiler.ServletWriter;6;2;1;0.9838709677419355;0.7;13;2649;54
 org.apache.catalina.loader.WebappLoader.stopInternal();org.apache.catalina.core.ContainerBase;1;1;8;0.9821428571428571;0.9871794871794872;23;538;481
-org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.tomcat.util.buf.ByteChunk;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.tomcat.util.buf.ByteChunk;0;0;0;0;0;0;0;0
 org.apache.catalina.loader.WebappClassLoader.clearReferencesThreadLocals();org.apache.tomcat.util.res.StringManager;1;3;1;0.9711538461538461;1.0;42;1671;52
 org.apache.catalina.connector.Response.toAbsolute(java.lang.String);org.apache.tomcat.util.buf.CharChunk;4;2;4;0.9791666666666666;0.9516129032258065;57;619;393
 org.apache.catalina.startup.ContextConfig.processAnnotationsStringArray(org.apache.tomcat.util.bcel.classfile.ElementValue);org.apache.tomcat.util.bcel.classfile.ArrayElementValue;1;0;2;1.0;0.875;14;1464;35
@@ -633,7 +633,7 @@ org.apache.catalina.startup.TldConfig.lifecycleEvent(org.apache.catalina.Lifecyc
 org.apache.catalina.ha.session.ReplicatedSession.readObjectData(java.io.ObjectInputStream);org.apache.catalina.session.StandardSession;1;0;1;1.0;0.9868421052631579;3;122;604
 org.apache.coyote.ajp.AjpMessage.appendByteChunk(org.apache.tomcat.util.buf.ByteChunk);org.apache.tomcat.util.buf.ByteChunk;3;3;2;0.896551724137931;0.94;9;235;425
 org.apache.jasper.compiler.Generator.generatePreamble();org.apache.jasper.compiler.ServletWriter;4;2;1;0.9833333333333333;0.7777777777777778;19;2649;54
-org.apache.catalina.connector.Request.getHost();org.apache.tomcat.util.http.mapper.MappingData;0;0;0;0;0
+org.apache.catalina.connector.Request.getHost();org.apache.tomcat.util.http.mapper.MappingData;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.PlugIn);org.apache.jasper.compiler.JspUtil;1;2;3;1.0;1.0;23;1034;619
 org.apache.coyote.http11.InternalAprInputBuffer.parseHeader();org.apache.coyote.http11.Constants;0;4;4;0.8571428571428572;1.0;90;363;0
 org.apache.catalina.connector.RequestFacade.getLocales();org.apache.catalina.Globals;0;0;3;1.0;1.0;11;468;0
@@ -647,7 +647,7 @@ org.apache.catalina.mbeans.MBeanFactory.createRemoteAddrValve(java.lang.String);
 org.apache.jasper.compiler.Parser.parseAttributeValue(java.lang.String);org.apache.jasper.compiler.PageInfo;2;0;4;1.0;0.9761904761904762;18;1185;341
 org.apache.naming.resources.FileDirContext.streamContent();org.apache.naming.resources.Resource;3;1;1;0.9777777777777777;0.25;8;290;23
 org.apache.catalina.core.StandardServer.await();org.apache.tomcat.util.res.StringManager;1;5;1;0.9122807017543859;0.9642857142857143;75;285;52
-org.apache.coyote.http11.InternalAprInputBuffer.doRead(org.apache.coyote.Request, org.apache.tomcat.util.buf.ByteChunk);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprInputBuffer.doRead(org.apache.coyote.Request, org.apache.tomcat.util.buf.ByteChunk);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.http.fileupload.DiskFileItemFactory.createItem(boolean, java.lang.String, java.lang.String, java.lang.String);org.apache.tomcat.util.http.fileupload.DiskFileItem;1;2;2;0.6;0.9666666666666667;8;33;232
 org.apache.coyote.http11.Http11NioProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.http11.AbstractHttp11Processor;9;5;16;0.9382716049382716;0.9108910891089109;201;840;228
 org.apache.jasper.compiler.JspRuntimeContext.initClassPath();org.apache.jasper.Constants;0;4;1;0.9024390243902439;1.0;22;234;0
@@ -671,7 +671,7 @@ org.apache.el.ExpressionFactoryImpl.createMethodExpression(java.lang.Class<?>, j
 org.apache.jasper.compiler.Parser.parseElementsScriptless(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.PageInfo;2;10;3;0.8571428571428572;0.9772727272727273;48;1185;341
 org.apache.jasper.xmlparser.XMLEncodingDetector.scanPIData(java.lang.String, org.apache.jasper.xmlparser.XMLString);org.apache.jasper.xmlparser.XMLStringBuffer;1;6;4;0.9076923076923077;0.9473684210526316;36;914;61
 org.apache.catalina.ant.jmx.JMXAccessorSetTask.jmxSet(java.lang.String, javax.management.MBeanServerConnection);org.apache.catalina.ant.jmx.JMXAccessorTask;1;5;1;0.6363636363636364;0.975;15;63;361
-org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.RequestFacade.getRealPath(java.lang.String);org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;468;52
 org.apache.catalina.startup.ContextConfig.antiLocking();org.apache.catalina.startup.ExpandWar;0;2;2;0.9714285714285714;1.0;49;1464;247
 org.apache.catalina.realm.RealmBase.authenticate(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String);org.apache.catalina.util.MD5Encoder;1;3;1;0.96;0.9166666666666666;27;616;11
@@ -790,7 +790,7 @@ org.apache.catalina.core.StandardContext.removeRoleMapping(java.lang.String);org
 org.apache.coyote.ajp.AjpAprProtocol.process(long);org.apache.coyote.ajp.AjpAprProcessor;2;2;4;0.971830985915493;0.975;29;329;674
 org.apache.jasper.JspCompilationContext.createCompiler();org.apache.jasper.compiler.Compiler;1;2;2;0.9655172413793104;0.9411764705882353;28;426;309
 org.apache.tomcat.util.digester.Digester.updateAttributes(org.xml.sax.Attributes);org.apache.tomcat.util.IntrospectionUtils;0;1;1;1.0;1.0;19;849;601
-org.apache.catalina.startup.ContextConfig.processContextConfig(java.net.URL);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0
+org.apache.catalina.startup.ContextConfig.processContextConfig(java.net.URL);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.RequestFacade.isRequestedSessionIdValid();org.apache.catalina.connector.Request;1;0;2;1.0;0.9939393939393939;6;468;1247
 org.apache.tomcat.util.modeler.modules.MbeansDescriptorsIntrospectionSource.execute();org.apache.tomcat.util.modeler.ManagedBean;1;3;2;0.8571428571428572;0.972972972972973;12;194;252
 org.apache.coyote.http11.InternalInputBuffer.fill(boolean);org.apache.coyote.http11.AbstractInputBuffer;6;0;2;1.0;0.7;25;249;78
@@ -933,11 +933,11 @@ org.apache.catalina.mbeans.MemoryUserDatabaseMBean.findRole(java.lang.String);or
 org.apache.jasper.compiler.Generator.generateTagHandlerPreamble(org.apache.jasper.compiler.JasperTagInfo, org.apache.jasper.compiler.Node.Nodes);org.apache.jasper.compiler.ServletWriter;6;11;3;0.9140625;0.8181818181818181;52;2649;54
 org.apache.catalina.realm.LockOutRealm.authenticate(java.lang.String, java.lang.String);org.apache.catalina.realm.CombinedRealm;1;3;3;0.8636363636363636;0.9411764705882353;15;148;130
 org.apache.catalina.ha.session.DeltaManager.handleSESSION_EXPIRED(org.apache.catalina.ha.session.SessionMessage, org.apache.catalina.tribes.Member);org.apache.catalina.session.ManagerBase;1;3;3;0.9634146341463414;0.9887640449438202;8;822;530
-org.apache.coyote.http11.InternalAprOutputBuffer.commit();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprOutputBuffer.commit();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.naming.NamingContext.isWritable();org.apache.naming.ContextAccessController;0;1;1;0.9714285714285714;1.0;3;282;25
 org.apache.jasper.compiler.Parser.parseXMLDirective(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;4;6;2;0.9047619047619048;0.8918918918918919;49;1185;304
 org.apache.catalina.core.ApplicationContext.log(java.lang.Exception, java.lang.String);org.apache.catalina.core.ContainerBase;1;0;1;1.0;0.9848484848484849;3;660;481
-org.apache.coyote.http11.Http11AprProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.catalina.manager.host.HTMLHostManagerServlet.list(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse);org.apache.tomcat.util.res.StringManager;2;1;5;0.975;0.9714285714285714;150;241;52
 org.apache.jasper.JspCompilationContext.createOutputDir();org.apache.jasper.compiler.Localizer;0;7;1;0.8923076923076922;1.0;22;426;34
 org.apache.tomcat.util.http.MimeHeaders.getValue(java.lang.String);org.apache.tomcat.util.buf.MessageBytes;1;2;2;0.9047619047619048;0.975609756097561;8;129;382
@@ -992,7 +992,7 @@ org.apache.catalina.session.StandardSession.setAttribute(boolean, java.lang.Obje
 org.apache.catalina.core.StandardWrapper.getErrorCount();org.apache.catalina.core.StandardWrapperValve;1;0;1;1.0;0.8888888888888888;3;766;351
 org.apache.coyote.http11.Http11AprProtocol.register(org.apache.coyote.http11.Http11AprProcessor);org.apache.coyote.RequestInfo;2;3;4;0.9745762711864406;0.9375;20;534;134
 org.apache.tomcat.util.bcel.classfile.ElementValuePair.getNameString();org.apache.tomcat.util.bcel.classfile.ConstantUtf8;1;1;2;0.8333333333333334;0.8333333333333334;4;16;14
-org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.InternalAprOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.InternalAprOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.naming.SelectorContext.listBindings(javax.naming.Name);org.apache.naming.StringManager;1;2;1;0.9459459459459459;1.0;6;170;50
 org.apache.coyote.http11.Http11NioProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.coyote.RequestInfo;1;2;9;0.9428571428571428;0.975;47;840;134
 org.apache.catalina.mbeans.UserMBean.addGroup(java.lang.String);org.apache.tomcat.util.modeler.BaseModelMBean;1;0;1;1.0;0.972972972972973;11;85;312
@@ -1017,7 +1017,7 @@ org.apache.catalina.connector.Request.getLocalPort();org.apache.coyote.Request;2
 org.apache.catalina.session.StandardSession.invalidate();org.apache.tomcat.util.res.StringManager;1;2;1;0.974025974025974;0.8333333333333334;4;604;52
 org.apache.tomcat.util.net.AprEndpoint.processSocket(long, org.apache.tomcat.util.net.SocketStatus);org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.875;14;447;52
 org.apache.coyote.http11.InternalNioOutputBuffer.recycle();org.apache.tomcat.util.net.NioChannel;1;0;4;1.0;0.9565217391304348;6;124;83
-org.apache.coyote.http11.AbstractHttp11Processor.addInputFilter(java.lang.String, org.apache.coyote.http11.InputFilter[]);org.apache.tomcat.util.buf.ByteChunk;0;0;0;0;0
+org.apache.coyote.http11.AbstractHttp11Processor.addInputFilter(java.lang.String, org.apache.coyote.http11.InputFilter[]);org.apache.tomcat.util.buf.ByteChunk;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.Response.isClosed();org.apache.catalina.connector.OutputBuffer;1;0;1;1.0;0.9714285714285714;3;619;210
 org.apache.catalina.deploy.WebXml.toXml();org.apache.catalina.deploy.SecurityRoleRef;2;27;21;0.8691099476439791;0.9863945578231292;398;1556;23
 org.apache.el.lang.FunctionMapperFactory.resolveFunction(java.lang.String, java.lang.String);org.apache.el.lang.FunctionMapperImpl;1;1;1;0.75;1.0;10;19;74
@@ -1065,7 +1065,7 @@ org.apache.catalina.core.ApplicationDispatcher.doInclude(javax.servlet.ServletRe
 org.apache.catalina.core.AsyncContextImpl.complete();org.apache.coyote.ActionCode;0;2;3;0.95;1.0;15;304;6
 org.apache.catalina.mbeans.MBeanFactory.createUserDatabaseRealm(java.lang.String, java.lang.String);org.apache.catalina.core.ContainerBase;1;1;3;0.9736842105263158;0.9855072463768116;14;421;481
 org.apache.catalina.mbeans.NamingResourcesMBean.addResourceLink(java.lang.String, java.lang.String);org.apache.tomcat.util.modeler.Registry;1;0;6;1.0;0.9777777777777777;17;138;433
-org.apache.coyote.http11.Http11AprProtocol.unregister(org.apache.coyote.http11.Http11AprProcessor);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.unregister(org.apache.coyote.http11.Http11AprProcessor);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.naming.resources.ProxyDirContext.lookup(java.lang.String);org.apache.naming.resources.CacheEntry;2;4;1;0.9493670886075949;0.8666666666666667;27;469;13
 org.apache.catalina.mbeans.MBeanFactory.createRemoteAddrValve(java.lang.String);org.apache.catalina.core.ContainerBase;1;1;2;0.9736842105263158;0.9855072463768116;8;421;481
 org.apache.coyote.http11.InternalNioOutputBuffer.addToBB(byte[], int, int);org.apache.tomcat.util.net.NioChannel;2;2;2;0.9;0.9259259259259259;17;124;83
@@ -1104,7 +1104,7 @@ org.apache.catalina.core.NamingContextListener.createNamingContext();org.apache.
 org.apache.tomcat.util.buf.C2BConverter.recycle();org.apache.tomcat.util.buf.WriteConvertor;1;0;2;1.0;0.8;4;58;22
 org.apache.el.lang.ELArithmetic.coerce(java.lang.Object);org.apache.el.util.MessageFactory;1;2;1;0.8461538461538461;1.0;15;113;24
 org.apache.catalina.session.PersistentManagerBase.unload();org.apache.catalina.session.ManagerBase;1;2;2;0.9574468085106383;0.9885057471264368;12;436;530
-org.apache.catalina.ha.session.DeltaManager.deserializeSessionId(byte[]);org.apache.catalina.ha.session.ClusterManagerBase;0;0;0;0;0
+org.apache.catalina.ha.session.DeltaManager.deserializeSessionId(byte[]);org.apache.catalina.ha.session.ClusterManagerBase;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationDispatcher.checkSameObjects(javax.servlet.ServletRequest, javax.servlet.ServletResponse);org.apache.catalina.core.ApplicationFilterChain;0;0;2;1.0;1.0;45;438;235
 org.apache.coyote.http11.Http11AprProtocol.setSSLCARevocationPath(java.lang.String);org.apache.tomcat.util.net.AprEndpoint;1;0;1;1.0;0.9866666666666667;3;534;447
 org.apache.jasper.compiler.JDTCompiler.generateClass(java.lang.String[]);org.apache.jasper.JspCompilationContext;7;15;4;0.8142857142857143;0.9396551724137931;317;505;426
@@ -1153,7 +1153,7 @@ org.apache.catalina.startup.IgnoreAnnotationsRule.begin(java.lang.String, java.l
 org.apache.catalina.ant.jmx.JMXAccessorGetTask.jmxGet(java.lang.String, javax.management.MBeanServerConnection);org.apache.catalina.ant.jmx.JMXAccessorTask;3;1;2;0.8888888888888888;0.9473684210526316;13;31;361
 org.apache.jasper.servlet.JspServletWrapper.handleJspException(java.lang.Exception);org.apache.jasper.compiler.JavacErrorDetail;3;2;5;0.9487179487179487;0.8571428571428572;41;326;89
 org.apache.catalina.connector.Response.clearEncoders();org.apache.catalina.connector.OutputBuffer;1;0;1;1.0;0.9714285714285714;3;619;210
-org.apache.el.lang.ExpressionBuilder.createMethodExpression(java.lang.Class<?>, java.lang.Class<?>[]);org.apache.el.util.MessageFactory;0;0;0;0;0
+org.apache.el.lang.ExpressionBuilder.createMethodExpression(java.lang.Class<?>, java.lang.Class<?>[]);org.apache.el.util.MessageFactory;0;0;0;0;0;0;0;0
 org.apache.naming.NamingContext.lookup(boolean, javax.naming.Name);org.apache.naming.NamingEntry;2;4;2;0.9245283018867925;0.92;47;282;16
 org.apache.coyote.ajp.AjpProtocol.init();org.apache.tomcat.util.net.AbstractEndpoint;1;2;3;0.9692307692307692;0.9864864864864865;14;319;392
 org.apache.catalina.session.StandardSession.writeObject(java.io.ObjectOutputStream);org.apache.tomcat.util.res.StringManager;1;12;1;0.8817204301075269;1.0;38;604;52
@@ -1197,7 +1197,7 @@ org.apache.jasper.compiler.Generator.visit(org.apache.jasper.compiler.Node.GetPr
 org.apache.coyote.http11.AbstractOutputBuffer.write(org.apache.tomcat.util.buf.MessageBytes);org.apache.tomcat.util.buf.MessageBytes;2;3;1;0.9032258064516129;0.9523809523809523;13;203;382
 org.apache.coyote.ajp.AjpAprProcessor.prepareResponse();org.apache.tomcat.util.buf.MessageBytes;3;1;7;0.9811320754716981;0.9491525423728814;47;674;382
 org.apache.catalina.tribes.UniqueId.hashCode();org.apache.catalina.tribes.util.Arrays;0;1;1;0.75;1.0;4;32;157
-org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.Constants;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.Constants;0;0;0;0;0;0;0;0
 org.apache.jasper.servlet.JspServlet.setJspReloadCount(int);org.apache.jasper.compiler.JspRuntimeContext;1;0;1;1.0;0.9655172413793104;3;168;234
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.UninterpretedTag);org.apache.jasper.compiler.Node;5;2;3;0.9848484848484849;0.9681528662420382;21;1034;1053
 org.apache.tomcat.util.bcel.classfile.Attribute.getName();org.apache.tomcat.util.bcel.classfile.ConstantPool;1;1;2;0.9;1.0;4;97;130
@@ -1236,7 +1236,7 @@ org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.ELNode.Fun
 org.apache.tomcat.util.http.mapper.Mapper.internalMap(org.apache.tomcat.util.buf.CharChunk, org.apache.tomcat.util.buf.CharChunk, org.apache.tomcat.util.http.mapper.MappingData);org.apache.tomcat.util.buf.CharChunk;6;12;3;0.8833333333333333;0.9230769230769231;76;837;393
 org.apache.el.parser.ELParserTokenManager.jjMoveStringLiteralDfa7_1(long, long);org.apache.el.parser.SimpleCharStream;1;4;1;0.9024390243902439;0.9777777777777777;17;995;257
 org.apache.tomcat.util.digester.FactoryCreateRule.end(java.lang.String, java.lang.String);org.apache.tomcat.util.digester.Rule;0;2;2;0.9090909090909091;1.0;14;114;31
-org.apache.coyote.http11.AbstractHttp11Processor.addFilter(java.lang.String);org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.AbstractHttp11Processor.addFilter(java.lang.String);org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.core.NamingContextListener.removeResource(java.lang.String);org.apache.tomcat.util.res.StringManager;1;3;2;0.9142857142857143;1.0;12;745;52
 org.apache.catalina.core.ApplicationDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse, org.apache.catalina.core.ApplicationDispatcher.State);org.apache.catalina.core.ApplicationFilterFactory;1;6;7;0.8947368421052632;1.0;109;438;189
 org.apache.tomcat.util.bcel.classfile.LocalVariableTable.dump(java.io.DataOutputStream);org.apache.tomcat.util.bcel.classfile.Attribute;1;2;2;0.8;0.9090909090909091;7;50;97
@@ -1245,9 +1245,9 @@ org.apache.coyote.http11.Http11AprProtocol.setSendfileSize(int);org.apache.tomca
 org.apache.jasper.compiler.TagFileProcessor.visit(org.apache.jasper.compiler.Node.VariableDirective);org.apache.jasper.compiler.Node;1;2;3;0.9473684210526316;0.9936305732484076;41;329;1053
 org.apache.catalina.deploy.WebXml.configureContext(org.apache.catalina.Context);org.apache.catalina.deploy.FilterDef;1;27;7;0.8448275862068966;0.9931506849315068;147;1556;66
 org.apache.tomcat.util.modeler.modules.MbeansDescriptorsIntrospectionSource.createManagedBean(java.lang.Class<?>, java.lang.String, java.lang.String, org.apache.tomcat.util.modeler.Registry);org.apache.tomcat.util.modeler.ManagedBean;3;1;4;0.9714285714285714;0.9454545454545454;65;194;252
-org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.catalina.ssi.SSIFilter.doFilter(javax.servlet.FilterChain, javax.servlet.ServletRequest, javax.servlet.ServletResponse);org.apache.catalina.ssi.SSIProcessor;1;6;4;0.8125;1.0;46;63;202
-org.apache.catalina.valves.JDBCAccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.valves.ValveBase;0;0;0;0;0
+org.apache.catalina.valves.JDBCAccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.valves.ValveBase;0;0;0;0;0;0;0;0
 org.apache.catalina.core.StandardWrapper.getProcessingTime();org.apache.catalina.core.StandardWrapperValve;1;0;1;1.0;0.8888888888888888;3;766;351
 org.apache.tomcat.util.http.MimeHeaders.removeHeader(java.lang.String);org.apache.tomcat.util.buf.MessageBytes;1;3;2;0.8571428571428572;0.9761904761904762;7;129;382
 org.apache.catalina.core.StandardContext.startInternal();org.apache.catalina.util.ExtensionValidator;0;34;9;0.9098360655737705;1.0;186;2319;195
@@ -1255,17 +1255,17 @@ org.apache.jasper.xmlparser.XMLEncodingDetector.scanXMLDecl();org.apache.jasper.
 org.apache.catalina.startup.CallMethodMultiRule.end(java.lang.String, java.lang.String);org.apache.tomcat.util.digester.Rule;0;1;4;0.9444444444444444;1.0;55;59;31
 org.apache.coyote.http11.AbstractHttp11Protocol.setAttribute(java.lang.Object, java.lang.String);org.apache.tomcat.util.res.StringManager;1;2;1;0.990909090909091;1.0;6;379;52
 org.apache.catalina.connector.Request.setAttribute(java.lang.Object, java.lang.String);org.apache.tomcat.util.res.StringManager;1;8;3;0.9545454545454546;0.9565217391304348;51;1247;52
-org.apache.catalina.realm.RealmBase.hasUserDataPermission(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response, org.apache.catalina.deploy.SecurityConstraint[]);org.apache.catalina.core.ApplicationSessionCookieConfig;0;0;0;0;0
+org.apache.catalina.realm.RealmBase.hasUserDataPermission(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response, org.apache.catalina.deploy.SecurityConstraint[]);org.apache.catalina.core.ApplicationSessionCookieConfig;0;0;0;0;0;0;0;0
 org.apache.catalina.authenticator.SingleSignOn.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.valves.ValveBase;2;2;5;0.9444444444444444;0.9428571428571428;40;164;86
 org.apache.catalina.ha.session.DeltaRequest.execute(boolean, org.apache.catalina.ha.session.DeltaSession);org.apache.catalina.session.StandardSession;2;7;3;0.8409090909090909;0.979381443298969;47;204;604
 org.apache.catalina.core.AsyncContextImpl.addListener(javax.servlet.AsyncListener);org.apache.catalina.core.AsyncListenerWrapper;1;1;1;0.9714285714285714;0.8333333333333334;5;304;15
 org.apache.coyote.http11.Http11AprProcessor.prepareRequest();org.apache.coyote.Request;2;12;8;0.8901098901098901;0.9859154929577465;128;1021;221
 org.apache.catalina.core.StandardContext.addConstraint(org.apache.catalina.deploy.SecurityConstraint);org.apache.tomcat.util.res.StringManager;2;4;4;0.9906832298136646;0.9230769230769231;19;2319;52
-org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.Response;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.Response;0;0;0;0;0;0;0;0
 org.apache.catalina.manager.HTMLManagerServlet.stop(java.lang.String);org.apache.catalina.manager.ManagerServlet;1;0;1;1.0;0.9782608695652174;6;689;928
 org.apache.jasper.runtime.JspFactoryImpl.run();org.apache.jasper.runtime.JspApplicationContextImpl;0;0;1;1.0;1.0;3;108;76
 org.apache.tomcat.util.http.mapper.Mapper.internalMapWrapper(org.apache.tomcat.util.buf.CharChunk, org.apache.tomcat.util.http.mapper.Mapper.Context, org.apache.tomcat.util.http.mapper.MappingData);org.apache.tomcat.util.buf.MessageBytes;3;12;3;0.85;0.9516129032258065;131;837;382
-org.apache.catalina.core.StandardEngine.logAccess(boolean, long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.core.ContainerBase;0;0;0;0;0
+org.apache.catalina.core.StandardEngine.logAccess(boolean, long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.core.ContainerBase;0;0;0;0;0;0;0;0
 org.apache.catalina.tribes.transport.bio.BioSender.disconnect();org.apache.catalina.tribes.util.StringManager;1;1;2;0.9473684210526316;1.0;7;148;50
 org.apache.catalina.ha.session.DeltaManager.requestCompleted(boolean, java.lang.String);org.apache.tomcat.util.res.StringManager;1;4;4;0.9680851063829787;1.0;56;822;52
 org.apache.catalina.connector.Request.getScheme();org.apache.tomcat.util.buf.MessageBytes;1;0;2;1.0;0.9743589743589743;3;1247;382
@@ -1298,7 +1298,7 @@ org.apache.catalina.mbeans.ServerLifecycleListener.createMBeans(org.apache.catal
 org.apache.catalina.core.StandardContext.removeMessageDestinationRef(java.lang.String);org.apache.catalina.deploy.NamingResources;1;0;2;1.0;0.9791666666666666;4;2319;342
 org.apache.catalina.core.StandardWrapperValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.Globals;0;5;11;0.9259259259259259;1.0;197;351;0
 org.apache.catalina.core.ApplicationContext.getFilterRegistration(java.lang.String);org.apache.catalina.core.StandardContext;1;0;1;1.0;0.9968253968253968;7;660;2319
-org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.connector.Connector;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.connector.Connector;0;0;0;0;0;0;0;0
 org.apache.coyote.http11.Http11NioProtocol.setPollerThreadCount(int);org.apache.tomcat.util.net.NioEndpoint;1;0;2;1.0;0.9901960784313726;3;302;962
 org.apache.coyote.http11.AbstractHttp11Protocol.getKeepAliveTimeout();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;379;392
 org.apache.catalina.core.StandardWrapperValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.tomcat.util.res.StringManager;2;5;11;0.9259259259259259;0.9807692307692307;197;351;52
@@ -1441,7 +1441,7 @@ org.apache.jasper.compiler.Generator.generateSetDynamicAttribute();org.apache.ja
 org.apache.catalina.tribes.group.GroupChannel.getInterceptors();org.apache.catalina.tribes.group.ChannelInterceptorBase;1;0;1;1.0;0.9411764705882353;3;314;66
 org.apache.catalina.loader.WebappLoader.startInternal();org.apache.tomcat.util.modeler.Registry;1;8;8;0.9014084507042254;1.0;53;538;433
 org.apache.jasper.compiler.Parser.parseElementsTemplateText(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;2;6;3;0.9032258064516129;0.9473684210526316;49;1185;304
-org.apache.coyote.ajp.AjpAprProtocol.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProtocol.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Parser.parseCustomTag(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.ErrorDispatcher;2;2;4;0.9876543209876543;1.0;68;1185;169
 org.apache.jasper.compiler.Parser.parseTemplateText(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;4;0;2;1.0;0.875;44;1185;304
 org.apache.tomcat.util.bcel.classfile.ConstantString.toString();org.apache.tomcat.util.bcel.classfile.Constant;1;1;1;0.75;0.875;3;17;56
@@ -1532,14 +1532,14 @@ org.apache.catalina.core.StandardContext.setResources(javax.naming.directory.Dir
 org.apache.tomcat.util.net.NioEndpoint.poll();org.apache.tomcat.util.net.NioChannel;1;2;1;0.9811320754716981;0.9583333333333334;8;962;83
 org.apache.catalina.mbeans.GroupMBean.getUsers();org.apache.catalina.mbeans.MBeanUtils;0;0;3;1.0;1.0;19;63;763
 org.apache.catalina.core.StandardContext.setName(java.lang.String);org.apache.catalina.util.URLEncoder;1;1;2;0.9968454258675079;0.8;4;2319;54
-org.apache.catalina.core.StandardService.addConnector(org.apache.catalina.connector.Connector);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.core.StandardService.addConnector(org.apache.catalina.connector.Connector);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.coyote.Response.sendHeaders();org.apache.coyote.ActionCode;0;2;1;0.9714285714285714;1.0;4;250;6
 org.apache.catalina.valves.JDBCAccessLogValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.valves.ValveBase;2;8;4;0.8431372549019608;0.9534883720930233;55;202;86
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.getView();org.apache.catalina.tribes.membership.Membership;2;0;1;1.0;0.8947368421052632;3;498;156
 org.apache.tomcat.util.buf.UEncoder.urlEncode(java.io.Writer, java.lang.String);org.apache.tomcat.util.buf.ByteChunk;4;3;2;0.9;0.9285714285714286;30;84;425
 org.apache.catalina.ant.JMXQueryTask.execute();org.apache.catalina.ant.AbstractCatalinaTask;2;1;1;0.75;0.8333333333333334;6;12;140
 org.apache.catalina.core.ApplicationFilterRegistration.setAsyncSupported(boolean);org.apache.catalina.deploy.FilterDef;1;0;1;1.0;0.95;3;111;66
-org.apache.coyote.ajp.AjpAprProtocol.getThreadPriority();org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProtocol.getThreadPriority();org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0;0;0;0
 org.apache.catalina.core.StandardWrapper.removeInstanceListener(org.apache.catalina.InstanceListener);org.apache.catalina.util.InstanceSupport;1;0;1;1.0;0.9285714285714286;3;766;81
 org.apache.coyote.ajp.AjpAprProcessor.parseHost(org.apache.tomcat.util.buf.MessageBytes);org.apache.tomcat.util.buf.MessageBytes;4;2;5;0.9512195121951219;0.9148936170212766;61;674;382
 org.apache.coyote.http11.AbstractHttp11Protocol.getThreadPriority();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;379;392
@@ -1551,7 +1551,7 @@ org.apache.catalina.ha.session.DeltaManager.handleGET_ALL_SESSIONS(org.apache.ca
 org.apache.coyote.http11.Http11AprProcessor.prepareRequest();org.apache.coyote.Response;1;12;8;0.8901098901098901;0.9866666666666667;128;1021;250
 org.apache.catalina.realm.JAASRealm.authenticate(java.lang.String, javax.security.auth.callback.CallbackHandler);org.apache.catalina.realm.RealmBase;0;3;2;0.9411764705882353;1.0;68;195;616
 org.apache.tomcat.util.http.Cookies.processCookies(org.apache.tomcat.util.http.MimeHeaders);org.apache.tomcat.util.buf.ByteChunk;3;1;3;0.9523809523809523;0.9454545454545454;22;247;425
-org.apache.catalina.loader.VirtualWebappLoader.startInternal();org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.loader.VirtualWebappLoader.startInternal();org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.buf.CharChunk.toString();org.apache.tomcat.util.buf.StringCache;0;3;1;0.9574468085106383;1.0;9;393;373
 org.apache.coyote.http11.Http11NioProtocol.setPollerThreadPriority(int);org.apache.tomcat.util.net.NioEndpoint;1;0;2;1.0;0.9902912621359223;4;302;962
 org.apache.catalina.startup.ContextConfig.scan(java.io.File);org.apache.tomcat.util.ExceptionUtils;0;2;2;0.984375;1.0;34;1464;8
@@ -1565,7 +1565,7 @@ org.apache.el.parser.AstDotSuffix.getValue(org.apache.el.lang.EvaluationContext)
 org.apache.catalina.tribes.transport.bio.BioSender.disconnect();org.apache.catalina.tribes.transport.AbstractSender;3;1;2;0.9473684210526316;0.9142857142857143;7;148;197
 org.apache.coyote.ajp.AjpAprProtocol.setSoTimeout(int);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;329;392
 org.apache.catalina.ha.session.DeltaManager.deserializeSessions(byte[]);org.apache.catalina.ha.session.ClusterManagerBase;1;3;5;0.9696969696969697;0.9642857142857143;47;822;23
-org.apache.coyote.http11.InternalAprOutputBuffer.endRequest();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprOutputBuffer.endRequest();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.servlets.DefaultServlet.serveResource(boolean, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse);org.apache.catalina.Globals;0;18;5;0.8842105263157894;1.0;159;1010;0
 org.apache.tomcat.util.bcel.classfile.LocalVariableTypeTable.copy(org.apache.tomcat.util.bcel.classfile.ConstantPool);org.apache.tomcat.util.bcel.classfile.Attribute;1;2;2;0.75;0.9;7;34;97
 org.apache.catalina.connector.Response.sendError(int, java.lang.String);org.apache.catalina.connector.Request;1;6;3;0.9285714285714286;0.9942528735632183;13;619;1247
@@ -1667,7 +1667,7 @@ org.apache.catalina.valves.RemoteIpValve.invoke(org.apache.catalina.connector.Re
 org.apache.tomcat.util.bcel.classfile.Method.getCode();org.apache.tomcat.util.bcel.classfile.FieldOrMethod;2;0;1;1.0;0.7142857142857143;8;69;31
 org.apache.naming.NamingContext.list(javax.naming.Name);org.apache.naming.NamingEntry;2;1;2;0.9787234042553191;0.875;14;282;16
 org.apache.catalina.authenticator.SingleSignOn.associate(java.lang.String, org.apache.catalina.Session);org.apache.catalina.valves.ValveBase;1;2;2;0.9047619047619048;0.9523809523809523;8;164;86
-org.apache.coyote.http11.Http11AprProcessor.prepareResponse();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.prepareResponse();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.realm.JNDIRealm.compareCredentials(java.lang.String, javax.naming.directory.DirContext, org.apache.catalina.realm.JNDIRealm.User);org.apache.tomcat.util.buf.ByteChunk;1;1;4;0.9895833333333334;0.984375;50;762;425
 org.apache.catalina.connector.InputBuffer.available();org.apache.coyote.Request;2;3;4;0.9117647058823529;0.9722222222222222;14;213;221
 org.apache.catalina.session.PersistentManagerBase.remove(org.apache.catalina.Session);org.apache.catalina.session.ManagerBase;1;2;1;0.9545454545454546;0.9880952380952381;6;436;530
@@ -1742,7 +1742,7 @@ org.apache.catalina.connector.RequestFacade.getRemoteUser();org.apache.tomcat.ut
 org.apache.catalina.session.StandardManager.setMaxActiveSessions(int);org.apache.catalina.session.ManagerBase;1;1;1;0.9583333333333334;0.9879518072289156;5;314;530
 org.apache.catalina.connector.OutputBuffer.getBufferSize();org.apache.tomcat.util.buf.ByteChunk;1;0;1;1.0;0.9777777777777777;3;210;425
 org.apache.catalina.core.StandardContext.setAltDDName(java.lang.String);org.apache.catalina.core.ApplicationContext;1;1;2;0.9968354430379747;1.0;6;2319;660
-org.apache.coyote.http11.Http11AprProcessor.prepareResponse();org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.prepareResponse();org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.catalina.loader.WebappLoader.startInternal();org.apache.naming.resources.DirContextURLStreamHandler;0;8;8;0.9014084507042254;1.0;53;538;91
 org.apache.jasper.xmlparser.XMLEncodingDetector.scanXMLDecl();org.apache.jasper.xmlparser.XMLString;3;6;4;0.9047619047619048;0.8421052631578947;17;914;52
 org.apache.coyote.http11.Http11Processor.parseHost(org.apache.tomcat.util.buf.MessageBytes);org.apache.tomcat.util.buf.HexUtils;0;2;6;0.9333333333333333;1.0;56;730;8
@@ -1754,7 +1754,7 @@ org.apache.catalina.connector.MapperListener.containerEvent(org.apache.catalina.
 org.apache.catalina.connector.RequestFacade.getHeaders(java.lang.String);org.apache.tomcat.util.res.StringManager;1;0;3;1.0;0.8333333333333334;11;468;52
 org.apache.catalina.ha.tcp.SimpleTcpCluster.lifecycleEvent(org.apache.catalina.LifecycleEvent);org.apache.catalina.LifecycleEvent;2;0;2;1.0;0.7777777777777778;3;372;18
 org.apache.catalina.mbeans.NamingResourcesMBean.getEnvironments();org.apache.tomcat.util.modeler.ManagedBean;1;0;4;1.0;0.9743589743589743;16;138;252
-org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.session.JDBCStore.setDriverName(java.lang.String);org.apache.catalina.session.StoreBase;1;1;1;0.9824561403508771;0.9375;6;501;90
 org.apache.tomcat.util.buf.ByteChunk.startsWithIgnoreCase(int, java.lang.String);org.apache.tomcat.util.buf.Ascii;0;3;1;0.9361702127659575;1.0;14;425;91
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.createElectionMsg(org.apache.catalina.tribes.membership.MemberImpl, org.apache.catalina.tribes.membership.MemberImpl, org.apache.catalina.tribes.membership.MemberImpl[]);org.apache.catalina.tribes.membership.Membership;2;0;4;1.0;0.9;8;498;156
@@ -1892,7 +1892,7 @@ org.apache.catalina.core.StandardWrapperValve.event(org.apache.catalina.comet.Co
 org.apache.tomcat.util.http.mapper.Mapper.internalMapWildcardWrapper(int, org.apache.tomcat.util.buf.CharChunk, org.apache.tomcat.util.http.mapper.Mapper.Wrapper[], org.apache.tomcat.util.http.mapper.MappingData);org.apache.tomcat.util.buf.MessageBytes;2;5;3;0.9464285714285714;0.9622641509433962;40;837;382
 org.apache.catalina.core.ApplicationFilterConfig.release();org.apache.catalina.core.StandardContext;1;3;3;0.88;0.9969040247678018;26;175;2319
 org.apache.catalina.valves.RemoteHostValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.valves.RequestFilterValve;1;0;2;1.0;0.9230769230769231;3;6;62
-org.apache.coyote.http11.Http11AprProcessor.endRequest();org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.endRequest();org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.net.JIoEndpoint.init();org.apache.tomcat.util.net.AbstractEndpoint;25;2;2;0.9591836734693877;0.6575342465753424;50;222;392
 org.apache.catalina.connector.Request.getAttributeNames();org.apache.catalina.Globals;0;3;1;0.9818181818181818;1.0;6;1247;0
 org.apache.catalina.ha.session.DeltaSession.recycle();org.apache.catalina.session.StandardSession;1;2;2;0.9583333333333334;0.9873417721518988;10;399;604
@@ -1939,7 +1939,7 @@ org.apache.el.parser.AstValue.getValue(org.apache.el.lang.EvaluationContext);org
 org.apache.jasper.compiler.Validator.getParameters(org.apache.jasper.compiler.ELNode.Function);org.apache.jasper.compiler.ErrorDispatcher;1;0;2;1.0;0.9705882352941176;26;1034;169
 org.apache.jasper.servlet.JspServletWrapper.handleJspException(java.lang.Exception);org.apache.jasper.compiler.Compiler;1;2;5;0.9487179487179487;0.9642857142857143;41;326;309
 org.apache.catalina.startup.TldConfig.tldScanResourcePaths(java.lang.String);org.apache.tomcat.util.res.StringManager;1;4;1;0.9285714285714286;1.0;41;327;52
-org.apache.coyote.ajp.AjpAprProtocol.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.tomcat.util.net.AprEndpoint;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProtocol.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.tomcat.util.net.AprEndpoint;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.MapperListener.findDefaultHost();org.apache.catalina.connector.Connector;1;0;3;1.0;0.9875;28;223;296
 org.apache.jasper.servlet.JspServletWrapper.loadTagFilePrototype();org.apache.jasper.JspCompilationContext;1;1;1;0.9615384615384616;0.9821428571428571;9;326;426
 org.apache.jasper.compiler.Generator.visit(org.apache.jasper.compiler.Node.PlugIn);org.apache.jasper.compiler.ServletWriter;2;8;4;0.9710144927536232;0.95;122;2649;54
@@ -2062,7 +2062,7 @@ org.apache.catalina.loader.WebappClassLoader.findClass(java.lang.String);org.apa
 org.apache.catalina.deploy.LoginConfig.setErrorPage(java.lang.String);org.apache.catalina.util.RequestUtil;0;1;1;0.9230769230769231;1.0;3;85;189
 org.apache.jasper.JspCompilationContext.getServletClassName();org.apache.jasper.compiler.JspUtil;0;4;1;0.9310344827586207;1.0;17;426;619
 org.apache.catalina.tribes.transport.nio.NioReceiver.createRxTask();org.apache.catalina.tribes.transport.ReceiverBase;3;0;3;1.0;0.9473684210526316;7;269;331
-org.apache.coyote.http11.Http11AprProcessor.prepareRequest();org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.prepareRequest();org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.bcel.classfile.SimpleElementValue.stringifyValue();org.apache.tomcat.util.bcel.classfile.ConstantLong;1;1;7;0.9523809523809523;0.95;34;62;17
 org.apache.catalina.core.StandardHostValve.throwable(java.lang.Throwable, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.tomcat.util.res.StringManager;1;3;7;0.9285714285714286;1.0;46;160;52
 org.apache.catalina.ha.deploy.FarmWarDeployer.start();org.apache.tomcat.util.modeler.Registry;1;9;1;0.8269230769230769;0.9821428571428571;42;376;433
@@ -2196,7 +2196,7 @@ org.apache.catalina.startup.Embedded.startInternal();org.apache.catalina.core.St
 org.apache.jasper.compiler.Validator.throwErrorIfExpression(java.lang.String, java.lang.String, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Node;1;1;2;1.0;0.9933774834437086;5;1034;1053
 org.apache.catalina.tribes.transport.nio.NioReceiver.addEvent(java.lang.Runnable);org.apache.catalina.tribes.transport.ReceiverBase;1;2;1;0.9166666666666666;0.9833333333333333;9;269;331
 org.apache.jasper.compiler.Parser.addInclude(java.util.List<java.lang.String>, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;1;1;1;0.9838709677419355;0.9705882352941176;12;1185;304
-org.apache.coyote.http11.InternalAprOutputBuffer.flush();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprOutputBuffer.flush();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.core.NamingContextListener.processGlobalResourcesChange(java.lang.Object, java.lang.Object, java.lang.String);org.apache.catalina.deploy.ResourceBase;1;14;1;0.5625;0.9655172413793104;100;745;43
 org.apache.catalina.authenticator.DigestAuthenticator.setAuthenticateHeader(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.catalina.deploy.LoginConfig);org.apache.catalina.authenticator.AuthenticatorBase;0;0;3;1.0;1.0;10;123;292
 org.apache.catalina.session.FileStore.save(org.apache.catalina.Session);org.apache.catalina.session.StandardSession;1;2;3;0.9230769230769231;0.9886363636363636;31;191;604
@@ -2228,7 +2228,7 @@ org.apache.tomcat.util.digester.ObjectCreateRule.end(java.lang.String, java.lang
 org.apache.coyote.http11.AbstractHttp11Protocol.setPort(int);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;379;392
 org.apache.coyote.http11.Http11AprProtocol.setSSLCACertificatePath(java.lang.String);org.apache.tomcat.util.net.AprEndpoint;1;0;1;1.0;0.9866666666666667;3;534;447
 org.apache.coyote.http11.Http11NioProcessor.prepareRequest();org.apache.tomcat.util.buf.ByteChunk;6;5;9;0.9491525423728814;0.9518072289156626;127;840;425
-org.apache.coyote.ajp.AjpAprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.RequestInfo;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.RequestInfo;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.http.Cookies.processCookies(org.apache.tomcat.util.http.MimeHeaders);org.apache.tomcat.util.buf.MessageBytes;4;1;3;0.9523809523809523;0.9166666666666666;22;247;382
 org.apache.catalina.mbeans.MBeanFactory.createWebappLoader(java.lang.String);org.apache.catalina.mbeans.MBeanUtils;0;1;2;0.972972972972973;1.0;10;421;763
 org.apache.catalina.realm.LockOutRealm.removeEldestEntry(java.util.Map.Entry<java.lang.String,org.apache.catalina.realm.LockOutRealm.LockRecord>);org.apache.catalina.realm.RealmBase;0;3;2;0.8846153846153846;1.0;10;148;616
@@ -2267,7 +2267,7 @@ org.apache.coyote.ajp.AjpProcessor.action(java.lang.Object, org.apache.coyote.Ac
 org.apache.catalina.manager.HTMLManagerServlet.getSessionForPathAndId(java.lang.String, java.lang.String);org.apache.catalina.util.RequestUtil;0;0;3;1.0;1.0;13;689;189
 org.apache.tomcat.util.bcel.classfile.StackMapType.printIndex();org.apache.tomcat.util.bcel.classfile.ConstantPool;1;2;1;0.8181818181818181;1.0;14;53;130
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.toString();org.apache.catalina.tribes.util.Arrays;0;5;2;0.9242424242424242;1.0;12;498;157
-org.apache.coyote.http11.Http11AprProcessor.process(long);org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.process(long);org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationContextFacade.getDefaultSessionTrackingModes();org.apache.catalina.core.ApplicationContext;1;1;2;1.0;0.9855072463768116;8;549;660
 org.apache.catalina.connector.RequestFacade.getQueryString();org.apache.catalina.connector.Request;1;0;2;1.0;0.9939393939393939;6;468;1247
 org.apache.catalina.tribes.group.interceptors.TcpFailureDetector.messageReceived(org.apache.catalina.tribes.ChannelMessage);org.apache.catalina.tribes.group.ChannelInterceptorBase;2;0;2;1.0;0.9166666666666666;8;231;66
@@ -2320,7 +2320,7 @@ org.apache.catalina.authenticator.AuthenticatorBase.register(java.lang.String, j
 org.apache.catalina.connector.ResponseFacade.setHeader(java.lang.String, java.lang.String);org.apache.catalina.connector.Response;1;1;1;0.9782608695652174;0.9875;4;237;619
 org.apache.catalina.filters.RemoteAddrFilter.doFilter(javax.servlet.FilterChain, javax.servlet.ServletRequest, javax.servlet.ServletResponse);org.apache.catalina.filters.RequestFilter;1;0;1;1.0;1.0;3;9;81
 org.apache.catalina.ssi.SSIProcessor.process(java.io.PrintWriter, java.io.Reader, long);org.apache.catalina.ssi.SSIMediator;1;7;3;0.8620689655172413;0.9767441860465116;71;202;190
-org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.tomcat.util.http.Parameters;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.tomcat.util.http.Parameters;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Dumper.visit(org.apache.jasper.compiler.Node.NamedAttribute);org.apache.jasper.compiler.Node;1;3;1;0.9333333333333333;0.9933774834437086;5;138;1053
 org.apache.catalina.connector.InputBuffer.read();org.apache.tomcat.util.res.StringManager;1;1;2;0.96875;0.8333333333333334;4;213;52
 org.apache.tomcat.util.net.AprEndpoint.add(org.apache.tomcat.util.net.AprEndpoint.SendfileData);org.apache.tomcat.jni.Socket;4;8;7;0.9069767441860466;1.0;38;447;0
@@ -2454,10 +2454,10 @@ org.apache.coyote.http11.Http11NioProcessor.findBytes(byte[], org.apache.tomcat.
 org.apache.tomcat.util.buf.ByteChunk.toString();org.apache.tomcat.util.buf.StringCache;0;3;1;0.9333333333333333;1.0;9;425;373
 org.apache.coyote.http11.AbstractHttp11Protocol.getTruststorePass();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;379;392
 org.apache.catalina.core.NamingContextListener.addResourceLink(org.apache.catalina.deploy.ContextResourceLink);org.apache.catalina.deploy.ContextResourceLink;2;4;3;0.9375;0.9130434782608696;21;745;27
-org.apache.coyote.http11.Http11AprProtocol.getThreadPriority();org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.getThreadPriority();org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0;0;0;0
 org.apache.catalina.deploy.WebXml.toXml();org.apache.catalina.deploy.ResourceBase;5;27;21;0.8691099476439791;0.9673202614379085;398;1556;43
 org.apache.jasper.compiler.TagPluginManager.getParentContext();org.apache.jasper.compiler.Node;1;1;1;0.9615384615384616;0.9932885906040269;7;142;1053
-org.apache.coyote.http11.InternalAprInputBuffer.parseRequestLine(boolean);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprInputBuffer.parseRequestLine(boolean);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.naming.SelectorContext.parseName(java.lang.String);org.apache.naming.StringManager;1;1;1;0.9722222222222222;0.8571428571428572;13;170;50
 org.apache.coyote.http11.AbstractOutputBuffer.doWrite(org.apache.coyote.Response, org.apache.tomcat.util.buf.ByteChunk);org.apache.coyote.ActionCode;0;4;2;0.875;1.0;7;203;6
 org.apache.el.parser.AstValue.getMethodInfo(java.lang.Class[], org.apache.el.lang.EvaluationContext);org.apache.el.util.ReflectionUtil;1;3;1;0.8235294117647058;1.0;5;161;87
@@ -2495,7 +2495,7 @@ org.apache.catalina.core.ApplicationContext.getEffectiveMinorVersion();org.apach
 org.apache.catalina.authenticator.AuthenticatorBase.stopInternal();org.apache.catalina.valves.ValveBase;1;0;1;1.0;0.9333333333333333;4;292;86
 org.apache.catalina.connector.ResponseFacade.getHeader(java.lang.String);org.apache.catalina.connector.Response;1;0;1;1.0;0.9873417721518988;3;237;619
 org.apache.tomcat.util.net.NioEndpoint.offer(org.apache.tomcat.util.net.NioChannel);org.apache.tomcat.util.net.NioChannel;1;2;3;0.9819819819819819;0.9655172413793104;13;962;83
-org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.coyote.Request;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.coyote.Request;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Parser.parseElementsScriptless(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;2;10;3;0.8571428571428572;0.9523809523809523;48;1185;304
 org.apache.catalina.realm.DataSourceRealm.close(java.sql.Connection);org.apache.catalina.realm.RealmBase;1;0;2;1.0;0.9777777777777777;17;244;616
 org.apache.catalina.util.ParameterMap.remove(java.lang.Object);org.apache.tomcat.util.res.StringManager;1;0;1;1.0;0.8333333333333334;4;34;52
@@ -2531,7 +2531,7 @@ org.apache.catalina.connector.ResponseFacade.encodeRedirectUrl(java.lang.String)
 org.apache.coyote.Request.isProcessing();org.apache.coyote.RequestInfo;1;0;2;1.0;0.9583333333333334;3;221;134
 org.apache.coyote.ajp.AjpAprProcessor.prepareResponse();org.apache.coyote.Response;6;1;7;0.9811320754716981;0.8823529411764706;47;674;250
 org.apache.tomcat.util.net.NioEndpoint.processSocket(boolean, org.apache.tomcat.util.net.NioChannel, org.apache.tomcat.util.net.SocketStatus);org.apache.tomcat.util.res.StringManager;1;4;3;0.963302752293578;0.9285714285714286;20;962;52
-org.apache.catalina.connector.Response.toEncoded(java.lang.String, java.lang.String);org.apache.catalina.core.ApplicationSessionCookieConfig;0;0;0;0;0
+org.apache.catalina.connector.Response.toEncoded(java.lang.String, java.lang.String);org.apache.catalina.core.ApplicationSessionCookieConfig;0;0;0;0;0;0;0;0
 org.apache.catalina.deploy.WebXml.addAfterOrderingOthers();org.apache.tomcat.util.res.StringManager;1;2;1;0.9733333333333334;0.875;6;1556;52
 org.apache.catalina.core.ApplicationContextFacade.addServlet(java.lang.String, java.lang.String);org.apache.catalina.security.SecurityUtil;0;1;2;1.0;1.0;8;549;150
 org.apache.catalina.core.ContainerBase.stopInternal();org.apache.catalina.util.LifecycleBase;1;9;1;0.8656716417910448;0.9545454545454546;29;481;113
@@ -3070,7 +3070,7 @@ org.apache.catalina.mbeans.MemoryUserDatabaseMBean.getUsers();org.apache.tomcat.
 org.apache.jasper.xmlparser.XMLStringBuffer.append(java.lang.String);org.apache.jasper.xmlparser.XMLString;2;0;1;1.0;0.8333333333333334;12;61;52
 org.apache.catalina.tribes.group.interceptors.TcpPingInterceptor.stop(int);org.apache.catalina.tribes.group.ChannelInterceptorBase;1;2;1;0.875;0.95;6;92;66
 org.apache.catalina.connector.Request.getContentType();org.apache.coyote.Request;1;0;1;1.0;0.9666666666666667;3;1247;221
-org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.connector.Request;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.connector.Request;0;0;0;0;0;0;0;0
 org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener.stop();org.apache.tomcat.util.res.StringManager;1;1;2;0.9166666666666666;0.8888888888888888;5;54;52
 org.apache.coyote.ajp.AjpProtocol.setSoTimeout(int);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;319;392
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.JspRoot);org.apache.jasper.compiler.Node;2;0;3;1.0;0.9867549668874173;8;1034;1053
@@ -3121,7 +3121,7 @@ org.apache.jasper.compiler.ParamVisitor.visit(org.apache.jasper.compiler.Node.Pa
 org.apache.coyote.http11.InternalOutputBuffer.commit();org.apache.tomcat.util.buf.ByteChunk;1;2;3;0.8823529411764706;0.9807692307692307;12;82;425
 org.apache.catalina.manager.host.HTMLHostManagerServlet.start(java.lang.String);org.apache.catalina.manager.host.HostManagerServlet;1;0;1;1.0;0.95;6;241;307
 org.apache.coyote.ajp.AjpAprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.tomcat.util.buf.ByteChunk;3;9;8;0.8235294117647058;0.9577464788732395;94;674;425
-org.apache.coyote.http11.AbstractHttp11Processor.addFilter(java.lang.String);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.AbstractHttp11Processor.addFilter(java.lang.String);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.servlets.WebdavServlet.resolveEntity(java.lang.String, java.lang.String);org.apache.catalina.servlets.DefaultServlet;0;1;2;0.98;1.0;4;1521;1010
 org.apache.catalina.loader.WebappLoader.setPermissions();org.apache.catalina.loader.WebappClassLoader;3;1;2;0.9811320754716981;0.9714285714285714;68;538;1671
 org.apache.tomcat.util.bcel.classfile.ConstantValue.toString();org.apache.tomcat.util.bcel.classfile.ConstantDouble;1;1;10;0.9565217391304348;0.9545454545454546;27;43;17
@@ -3145,7 +3145,7 @@ org.apache.coyote.Response.containsHeader(java.lang.String);org.apache.tomcat.ut
 org.apache.catalina.connector.Response.addSessionCookieInternal(javax.servlet.http.Cookie);org.apache.tomcat.util.http.MimeHeaders;4;3;3;0.9659090909090909;0.8571428571428572;21;619;129
 org.apache.jasper.compiler.Parser.parseParam(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;3;2;2;0.9838709677419355;0.90625;10;1185;304
 org.apache.catalina.core.NamingContextListener.addService(org.apache.catalina.deploy.ContextService);org.apache.catalina.deploy.ResourceBase;4;4;6;0.9523809523809523;0.9130434782608696;101;745;43
-org.apache.coyote.http11.Http11AprProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.Request.getLocalAddr();org.apache.tomcat.util.buf.MessageBytes;1;1;3;0.9939759036144579;0.975609756097561;7;1247;382
 org.apache.catalina.startup.ContextConfig.checkHandlesTypes(org.apache.tomcat.util.bcel.classfile.JavaClass);org.apache.tomcat.util.bcel.classfile.AnnotationEntry;1;3;3;0.9583333333333334;0.9642857142857143;39;1464;30
 org.apache.catalina.mbeans.UserMBean.getRoles();org.apache.catalina.mbeans.MBeanUtils;0;0;3;1.0;1.0;19;85;763
@@ -3253,7 +3253,7 @@ org.apache.catalina.servlets.DefaultServlet.renderHtml(java.lang.String, org.apa
 org.apache.tomcat.util.bcel.classfile.Method.toString();org.apache.tomcat.util.bcel.classfile.Attribute;1;2;7;0.9090909090909091;0.9545454545454546;26;69;97
 org.apache.catalina.realm.JAASRealm.authenticate(java.lang.String, javax.security.auth.callback.CallbackHandler);org.apache.tomcat.util.res.StringManager;2;3;2;0.9411764705882353;0.9473684210526316;68;195;52
 org.apache.tomcat.util.bcel.classfile.ConstantNameAndType.toString();org.apache.tomcat.util.bcel.classfile.Constant;1;2;1;0.6;0.8888888888888888;3;22;56
-org.apache.coyote.http11.InternalAprInputBuffer.recycle();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprInputBuffer.recycle();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.Request.doGetSession(boolean);org.apache.catalina.core.ApplicationSessionCookieConfig;1;6;3;0.9664804469273743;1.0;42;1247;85
 org.apache.catalina.session.StoreBase.stopInternal();org.apache.catalina.util.LifecycleBase;1;0;1;1.0;0.9166666666666666;3;90;113
 org.apache.catalina.connector.RequestFacade.removeAttribute(java.lang.String);org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;468;52
@@ -3333,7 +3333,7 @@ org.apache.catalina.tribes.tipis.AbstractReplicatedMap.value(java.lang.ClassLoad
 org.apache.catalina.connector.RequestFacade.isRequestedSessionIdValid();org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;468;52
 org.apache.catalina.ssi.SSIConditional.process(java.io.PrintWriter, java.lang.String, java.lang.String[], java.lang.String[], org.apache.catalina.ssi.SSIMediator);org.apache.catalina.ssi.SSIConditionalState;3;1;2;0.875;0.5;50;67;0
 org.apache.coyote.ajp.AjpAprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.tomcat.util.net.AbstractEndpoint;0;9;8;0.8235294117647058;1.0;94;674;392
-org.apache.coyote.http11.InternalAprOutputBuffer.recycle();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprOutputBuffer.recycle();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.realm.JAASMemoryLoginModule.commit();org.apache.catalina.realm.GenericPrincipal;1;3;1;0.8333333333333334;0.9473684210526316;15;124;58
 org.apache.tomcat.util.bcel.classfile.ConstantPool.getConstant(byte, int);org.apache.tomcat.util.bcel.classfile.Constant;1;1;1;0.9;0.8888888888888888;11;130;56
 org.apache.catalina.ha.session.DeltaManager.deserializeDeltaRequest(byte[], org.apache.catalina.ha.session.DeltaSession);org.apache.catalina.ha.session.DeltaSession;3;0;4;1.0;0.9387755102040817;12;822;399
@@ -3381,7 +3381,7 @@ org.apache.coyote.ajp.AjpAprProtocol.resume();org.apache.tomcat.util.net.AprEndp
 org.apache.coyote.http11.Http11NioProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.http11.AbstractOutputBuffer;1;5;16;0.9382716049382716;0.9893617021276596;201;840;203
 org.apache.coyote.http11.Http11NioProcessor.process(org.apache.tomcat.util.net.NioChannel);org.apache.coyote.http11.AbstractInputBuffer;1;7;13;0.8852459016393442;0.9846153846153847;138;840;78
 org.apache.catalina.ha.session.DeltaManager.handleSESSION_EXPIRED(org.apache.catalina.ha.session.SessionMessage, org.apache.catalina.tribes.Member);org.apache.tomcat.util.res.StringManager;1;3;3;0.9634146341463414;1.0;8;822;52
-org.apache.tomcat.util.net.AprEndpoint.unlockAccept();org.apache.tomcat.util.net.SocketProperties;0;0;0;0;0
+org.apache.tomcat.util.net.AprEndpoint.unlockAccept();org.apache.tomcat.util.net.SocketProperties;0;0;0;0;0;0;0;0
 org.apache.jasper.runtime.JspContextWrapper.setAttribute(int, java.lang.Object, java.lang.String);org.apache.jasper.compiler.Localizer;0;3;1;0.9591836734693877;1.0;16;257;34
 org.apache.catalina.filters.CsrfPreventionFilter.addNonce(java.lang.String);org.apache.catalina.filters.Constants;0;1;1;0.9375;1.0;29;82;0
 org.apache.coyote.http11.AbstractHttp11Processor.isCompressable();org.apache.tomcat.util.http.MimeHeaders;1;5;4;0.9433962264150944;0.967741935483871;21;228;129
@@ -3448,7 +3448,7 @@ org.apache.catalina.servlets.WebdavServlet.deleteResource(boolean, java.lang.Str
 org.apache.jasper.runtime.PerThreadTagHandlerPool.init(javax.servlet.ServletConfig);org.apache.jasper.Constants;0;6;2;0.6428571428571428;1.0;20;67;0
 org.apache.catalina.core.ApplicationContext.getClassLoader();org.apache.catalina.core.ContainerBase;1;0;2;1.0;0.9859154929577465;17;660;481
 org.apache.naming.resources.VirtualDirContext.getVirtualNamingEntries();org.apache.naming.NamingEntry;0;1;1;0.9230769230769231;1.0;9;86;16
-org.apache.coyote.http11.Http11AprProcessor.prepareRequest();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.prepareRequest();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.ant.JMXSetTask.execute();org.apache.catalina.ant.AbstractCatalinaTask;2;3;1;0.5;0.8571428571428572;8;26;140
 org.apache.tomcat.util.net.NioEndpoint.getReadBufSize();org.apache.tomcat.util.net.AbstractEndpoint;0;0;2;1.0;1.0;3;962;392
 org.apache.catalina.manager.ManagerServlet.init();org.apache.catalina.core.StandardServer;1;9;3;0.8524590163934427;0.9836065573770492;42;928;285
@@ -3460,7 +3460,7 @@ org.apache.catalina.ha.tcp.SimpleTcpCluster.addClusterListener(org.apache.catali
 org.apache.tomcat.util.buf.C2BConverter.setByteChunk(org.apache.tomcat.util.buf.ByteChunk);org.apache.tomcat.util.buf.IntermediateOutputStream;0;0;1;1.0;1.0;4;58;25
 org.apache.coyote.http11.Http11Processor.process(org.apache.tomcat.util.net.SocketWrapper<java.net.Socket>);org.apache.coyote.http11.AbstractInputBuffer;3;5;10;0.9107142857142857;0.95;133;730;78
 org.apache.catalina.core.StandardContext.setLoginConfig(org.apache.catalina.deploy.LoginConfig);org.apache.tomcat.util.res.StringManager;2;1;3;0.9969325153374233;0.9333333333333333;26;2319;52
-org.apache.coyote.ajp.AjpAprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.tomcat.util.net.AprEndpoint;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.tomcat.util.net.AprEndpoint;0;0;0;0;0;0;0;0
 org.apache.catalina.mbeans.ServerLifecycleListener.processContainerRemoveChild(org.apache.catalina.Container, org.apache.catalina.Container);org.apache.catalina.Globals;0;2;2;0.95;1.0;32;563;0
 org.apache.catalina.ha.session.DeltaManager.stopInternal();org.apache.tomcat.util.res.StringManager;1;3;5;0.9655172413793104;1.0;20;822;52
 org.apache.catalina.core.ApplicationContextFacade.getResourceAsStream(java.lang.String);org.apache.catalina.core.ApplicationContext;1;1;2;1.0;0.9855072463768116;8;549;660
@@ -3555,8 +3555,8 @@ org.apache.jasper.compiler.TagLibraryInfoImpl.createFunctionInfo(org.apache.jasp
 org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener.start();org.apache.tomcat.util.res.StringManager;1;1;2;0.9166666666666666;0.8888888888888888;6;54;52
 org.apache.catalina.valves.PersistentValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.valves.ValveBase;2;1;5;1.0;0.9574468085106383;66;80;86
 org.apache.tomcat.util.bcel.classfile.RuntimeInvisibleAnnotations.dump(java.io.DataOutputStream);org.apache.tomcat.util.bcel.classfile.Attribute;1;0;2;1.0;0.875;4;11;97
-org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
-org.apache.coyote.ajp.AjpAprProtocol.setThreadPriority(int);org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProtocol.setThreadPriority(int);org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0;0;0;0
 org.apache.naming.resources.FileDirContext.getLastModifiedDate();org.apache.naming.resources.ResourceAttributes;2;1;1;0.9772727272727273;0.9534883720930233;6;290;515
 org.apache.catalina.connector.InputBuffer.realWriteChars(char[], int, int);org.apache.tomcat.util.buf.CharChunk;2;1;1;0.96875;0.9574468085106383;5;213;393
 org.apache.catalina.mbeans.MBeanFactory.createStandardContext(boolean, boolean, boolean, boolean, java.lang.String, java.lang.String, java.lang.String);org.apache.catalina.util.LifecycleMBeanBase;1;3;3;0.9464285714285714;0.9722222222222222;32;421;71
@@ -3671,7 +3671,7 @@ org.apache.catalina.mbeans.NamingResourcesMBean.addEnvironment(java.lang.String,
 org.apache.catalina.connector.Response.setDateHeader(java.lang.String, long);org.apache.catalina.util.DateTool;0;4;2;0.9523809523809523;1.0;14;619;5
 org.apache.coyote.ajp.AjpProtocol.getAddress();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;319;392
 org.apache.catalina.core.ApplicationDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse, org.apache.catalina.core.ApplicationDispatcher.State);org.apache.catalina.core.ApplicationFilterChain;2;6;7;0.8947368421052632;0.9523809523809523;109;438;235
-org.apache.catalina.startup.TldConfig.tldScanJar(java.net.JarURLConnection);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0
+org.apache.catalina.startup.TldConfig.tldScanJar(java.net.JarURLConnection);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Compiler.generateJava();org.apache.jasper.compiler.SmapUtil;1;4;16;0.935483870967742;1.0;118;309;453
 org.apache.jasper.servlet.JspServletWrapper.getServlet();org.apache.jasper.JspCompilationContext;2;5;3;0.8333333333333334;0.9682539682539683;30;326;426
 org.apache.jasper.compiler.Parser.parseExpression(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;3;1;2;0.9836065573770492;0.9032258064516129;8;1185;304
@@ -3705,7 +3705,7 @@ org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.PageD
 org.apache.catalina.core.ApplicationContext.removeAttribute(java.lang.String);org.apache.catalina.core.ContainerBase;1;3;3;0.961038961038961;1.0;29;660;481
 org.apache.catalina.connector.CoyoteAdapter.service(org.apache.coyote.Request, org.apache.coyote.Response);org.apache.coyote.RequestInfo;1;3;10;1.0;0.9850746268656716;76;627;134
 org.apache.catalina.ha.session.SimpleTcpReplicationManager.requestCompleted(java.lang.String);org.apache.catalina.session.ManagerBase;1;5;3;0.8913043478260869;0.99;44;356;530
-org.apache.catalina.mbeans.ContextResourceLinkMBean.getAttribute(java.lang.String);org.apache.catalina.deploy.ContextResourceLink;0;0;0;0;0
+org.apache.catalina.mbeans.ContextResourceLinkMBean.getAttribute(java.lang.String);org.apache.catalina.deploy.ContextResourceLink;0;0;0;0;0;0;0;0
 org.apache.catalina.session.StandardManager.propertyChange(java.beans.PropertyChangeEvent);org.apache.tomcat.util.res.StringManager;1;1;2;0.967741935483871;1.0;11;314;52
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.sendElectionMsg(org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.CoordinationMessage, org.apache.catalina.tribes.membership.MemberImpl, org.apache.catalina.tribes.membership.MemberImpl);org.apache.catalina.tribes.membership.MemberImpl;1;2;2;0.967741935483871;0.9743589743589743;4;498;300
 org.apache.jasper.runtime.BodyContentImpl.clear();org.apache.jasper.Constants;0;3;1;0.926829268292683;1.0;12;249;0
@@ -3727,7 +3727,7 @@ org.apache.catalina.ant.SessionsTask.execute();org.apache.catalina.ant.AbstractC
 org.apache.catalina.ha.session.JvmRouteBinderValve.sendSessionIDClusterBackup(java.lang.String, java.lang.String, org.apache.catalina.connector.Request, org.apache.catalina.ha.ClusterManager);org.apache.catalina.connector.Request;1;1;2;0.9615384615384616;0.9942857142857143;10;165;1247
 org.apache.tomcat.util.net.AprEndpoint.init();org.apache.tomcat.jni.Pool;1;9;3;0.8974358974358975;1.0;16;447;0
 org.apache.catalina.mbeans.NamingResourcesMBean.addEnvironment(java.lang.String, java.lang.String, java.lang.String);org.apache.catalina.deploy.NamingResources;2;0;7;1.0;0.962962962962963;18;138;342
-org.apache.coyote.http11.Http11AprProcessor.process(long);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.process(long);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.session.PersistentManagerBase.swapIn(java.lang.String);org.apache.catalina.security.SecurityUtil;0;3;4;0.9523809523809523;1.0;61;436;150
 org.apache.jasper.compiler.Generator.visit(org.apache.jasper.compiler.Node.SetProperty);org.apache.jasper.compiler.ELNode;1;2;3;0.9924812030075187;0.9736842105263158;32;2649;100
 org.apache.tomcat.util.net.NioBlockingSelector.remove(int, org.apache.tomcat.util.net.NioEndpoint.KeyAttachment);org.apache.tomcat.util.net.NioEndpoint;3;5;2;0.8857142857142857;0.9743589743589743;42;304;962
@@ -3795,7 +3795,7 @@ org.apache.tomcat.util.bcel.classfile.SimpleElementValue.stringifyValue();org.ap
 org.apache.catalina.connector.RequestFacade.getDispatcherType();org.apache.catalina.connector.Request;1;0;1;1.0;0.9939024390243902;3;468;1247
 org.apache.jasper.compiler.Validator.compareTagEncodings(java.lang.String, org.apache.jasper.compiler.Node.TagDirective);org.apache.jasper.compiler.ErrorDispatcher;1;0;2;1.0;1.0;10;1034;169
 org.apache.catalina.ssi.SSIServlet.requestHandler(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse);org.apache.catalina.ssi.SSIServletRequestUtil;0;5;2;0.8461538461538461;1.0;26;80;16
-org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.InternalAprInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.InternalAprInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.startup.ContextConfig.checkHandlesTypes(org.apache.tomcat.util.bcel.classfile.JavaClass);org.apache.tomcat.util.bcel.classfile.JavaClass;2;3;3;0.9583333333333334;0.9512195121951219;39;1464;142
 org.apache.jasper.compiler.TagPluginManager.generateBody();org.apache.jasper.compiler.Node;1;2;1;0.9230769230769231;0.9933333333333333;3;142;1053
 org.apache.catalina.session.StandardSession.fireContainerEvent(java.lang.Object, java.lang.String, org.apache.catalina.Context);org.apache.catalina.core.ContainerBase;1;0;1;1.0;1.0;5;604;481
@@ -3834,8 +3834,8 @@ org.apache.catalina.startup.HostRuleSet.addRuleInstances(org.apache.tomcat.util.
 org.apache.catalina.servlets.WebdavServlet.parseProperties(int, java.lang.String, java.util.Vector<java.lang.String>, javax.servlet.http.HttpServletRequest, org.apache.catalina.util.XMLWriter);org.apache.catalina.servlets.DefaultServlet;1;2;7;0.9743589743589743;0.9882352941176471;178;1521;1010
 org.apache.catalina.util.ResourceSet.remove(java.lang.Object);org.apache.tomcat.util.res.StringManager;1;0;1;1.0;0.8333333333333334;4;30;52
 org.apache.catalina.ant.jmx.JMXAccessorCreateTask.jmxCreate(java.lang.String, javax.management.MBeanServerConnection);org.apache.catalina.ant.jmx.JMXAccessorTask;2;3;3;0.8421052631578947;0.9574468085106383;36;69;361
-org.apache.tomcat.util.net.AprEndpoint.unlockAccept();org.apache.tomcat.util.res.StringManager;0;0;0;0;0
-org.apache.coyote.http11.Http11AprProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.tomcat.util.net.AprEndpoint.unlockAccept();org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.session.PersistentManagerBase.setContainer(org.apache.catalina.Container);org.apache.catalina.session.ManagerBase;3;0;1;1.0;0.9642857142857143;8;436;530
 org.apache.catalina.util.ResourceSet.add(T);org.apache.tomcat.util.res.StringManager;1;0;1;1.0;0.8333333333333334;4;30;52
 org.apache.coyote.http11.Http11NioProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.net.AbstractEndpoint;2;2;9;0.9428571428571428;0.975;47;840;392
@@ -3910,7 +3910,7 @@ org.apache.coyote.http11.Http11Protocol.init();org.apache.coyote.http11.Abstract
 org.apache.catalina.startup.ContextConfig.processResourceJARs(java.util.Set<org.apache.catalina.deploy.WebXml>);org.apache.catalina.deploy.WebXml;1;1;2;0.9838709677419355;0.9876543209876543;26;1464;1556
 org.apache.jasper.compiler.PageDataImpl.appendTag(boolean, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Compiler;0;7;3;0.9193548387096774;1.0;30;365;309
 org.apache.catalina.startup.ContextConfig.getGlobalWebXmlSource();org.apache.catalina.core.StandardContext;1;5;1;0.9074074074074074;0.996875;7;1464;2319
-org.apache.catalina.mbeans.ContextResourceLinkMBean.getAttribute(java.lang.String);org.apache.catalina.deploy.ResourceBase;0;0;0;0;0
+org.apache.catalina.mbeans.ContextResourceLinkMBean.getAttribute(java.lang.String);org.apache.catalina.deploy.ResourceBase;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationContextFacade.getNamedDispatcher(java.lang.String);org.apache.catalina.security.SecurityUtil;0;1;2;1.0;1.0;8;549;150
 org.apache.catalina.startup.EngineRuleSet.addRuleInstances(org.apache.tomcat.util.digester.Digester);org.apache.tomcat.util.digester.Digester;5;1;1;0.8571428571428572;0.9618320610687023;16;24;849
 org.apache.catalina.valves.SSLValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.connector.Request;1;1;2;1.0;1.0;36;45;1247
@@ -4029,12 +4029,12 @@ org.apache.catalina.core.ApplicationFilterFactory.createFilterChain(javax.servle
 org.apache.catalina.tribes.transport.nio.ParallelNioSender.sendMessage(org.apache.catalina.tribes.ChannelMessage, org.apache.catalina.tribes.Member[]);org.apache.catalina.tribes.transport.AbstractSender;4;6;4;0.8620689655172413;0.9090909090909091;52;246;197
 org.apache.catalina.realm.RealmBase.hasUserDataPermission(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response, org.apache.catalina.deploy.SecurityConstraint[]);org.apache.catalina.connector.Connector;1;0;6;1.0;0.9886363636363636;51;616;296
 org.apache.catalina.valves.AccessLogValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.valves.ValveBase;1;6;3;0.9242424242424242;0.96875;29;417;86
-org.apache.coyote.http11.Http11AprProtocol.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationFilterConfig.registerJMX();org.apache.catalina.deploy.FilterDef;1;4;4;0.8571428571428572;0.9666666666666667;23;175;66
 org.apache.catalina.connector.CoyoteReader.mark(int);org.apache.catalina.connector.InputBuffer;1;0;1;1.0;0.9666666666666667;3;102;213
 org.apache.jasper.compiler.ErrorDispatcher.jspError(java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Node;0;1;1;1.0;1.0;3;169;1053
 org.apache.coyote.http11.Http11NioProcessor.prepareRequest();org.apache.coyote.http11.AbstractHttp11Processor;7;5;9;0.9491525423728814;0.9113924050632911;127;840;228
-org.apache.coyote.http11.Http11AprProtocol.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.Http11AprProcessor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.Http11AprProcessor;0;0;0;0;0;0;0;0
 org.apache.catalina.valves.ErrorReportValve.report(java.lang.Throwable, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.util.RequestUtil;0;1;7;0.9523809523809523;1.0;88;137;189
 org.apache.coyote.RequestInfo.getRemoteAddr();org.apache.coyote.Request;1;0;3;1.0;1.0;4;134;221
 org.apache.catalina.connector.CoyoteInputStream.run();org.apache.catalina.connector.InputBuffer;1;0;1;1.0;0.9666666666666667;4;145;213
@@ -4047,7 +4047,7 @@ org.apache.catalina.core.StandardWrapper.getMaxTime();org.apache.catalina.core.S
 org.apache.coyote.RequestInfo.updateCounters();org.apache.tomcat.util.buf.MessageBytes;1;8;3;0.7333333333333334;0.9807692307692307;15;134;382
 org.apache.jasper.runtime.PageContextImpl.removeAttribute(int, java.lang.String);org.apache.jasper.compiler.Localizer;0;2;2;0.9811320754716981;1.0;17;640;34
 org.apache.catalina.tribes.transport.nio.NioReplicationTask.drainChannel(java.nio.channels.SelectionKey, org.apache.catalina.tribes.io.ObjectReader);org.apache.catalina.tribes.transport.AbstractRxTask;2;4;6;0.925;0.9444444444444444;63;153;37
-org.apache.coyote.ajp.AjpAprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.Constants;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.Constants;0;0;0;0;0;0;0;0
 org.apache.coyote.http11.InternalOutputBuffer.commit();org.apache.coyote.http11.AbstractOutputBuffer;3;2;3;0.8823529411764706;0.9117647058823529;12;82;203
 org.apache.tomcat.util.http.Cookies.processCookieHeader(byte[], int, int);org.apache.tomcat.util.buf.MessageBytes;2;3;3;0.9333333333333333;0.9545454545454546;120;247;382
 org.apache.catalina.ha.session.DeltaManager.registerSessionAtReplicationValve(org.apache.catalina.ha.session.DeltaSession);org.apache.catalina.session.ManagerBase;1;1;3;0.9878048780487805;0.9885057471264368;21;822;530
@@ -4061,7 +4061,7 @@ org.apache.catalina.core.ApplicationFilterRegistration.getUrlPatternMappings();o
 org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.tomcat.util.res.StringManager;1;15;18;0.8484848484848485;0.9827586206896551;240;1021;52
 org.apache.tomcat.util.modeler.BaseNotificationBroadcaster.addNotificationListener(java.lang.Object, javax.management.NotificationFilter, javax.management.NotificationListener);org.apache.tomcat.util.modeler.BaseNotificationBroadcasterEntry;3;1;2;0.9411764705882353;0.7272727272727273;26;54;5
 org.apache.jasper.compiler.Generator.visit(org.apache.jasper.compiler.Node.UseBean);org.apache.jasper.compiler.ErrorDispatcher;1;2;5;0.993103448275862;1.0;137;2649;169
-org.apache.coyote.http11.Http11AprProtocol.register(org.apache.coyote.http11.Http11AprProcessor);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.register(org.apache.coyote.http11.Http11AprProcessor);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationFilterConfig.setFilterDef(org.apache.catalina.deploy.FilterDef);org.apache.catalina.core.StandardContext;1;3;3;0.88;0.9969040247678018;31;175;2319
 org.apache.catalina.startup.ContextConfig.scan(java.net.JarURLConnection);org.apache.tomcat.util.ExceptionUtils;0;2;2;0.9857142857142858;1.0;42;1464;8
 org.apache.catalina.ssi.SSIServletExternalResolver.getCGIVariable(java.lang.String);org.apache.coyote.Constants;0;3;3;0.9565217391304348;1.0;184;410;0
@@ -4166,7 +4166,7 @@ org.apache.catalina.tribes.group.interceptors.MessageDispatch15Interceptor.run()
 org.apache.catalina.core.ApplicationContextFacade.setSessionTrackingModes(java.util.Set<org.apache.catalina.core.SessionTrackingMode>);org.apache.catalina.security.SecurityUtil;0;1;2;1.0;1.0;8;549;150
 org.apache.jasper.compiler.AntCompiler.generateClass(java.lang.String[]);org.apache.jasper.JspCompilationContext;6;6;5;0.9117647058823529;0.9294117647058824;121;274;426
 org.apache.catalina.tribes.group.RpcChannel.send(int, int, java.io.Serializable, long, org.apache.catalina.tribes.Member[]);org.apache.catalina.tribes.util.UUIDGenerator;0;5;1;0.8076923076923077;1.0;21;140;26
-org.apache.coyote.http11.AbstractHttp11Processor.addInputFilter(java.lang.String, org.apache.coyote.http11.InputFilter[]);org.apache.coyote.http11.Constants;0;0;0;0;0
+org.apache.coyote.http11.AbstractHttp11Processor.addInputFilter(java.lang.String, org.apache.coyote.http11.InputFilter[]);org.apache.coyote.http11.Constants;0;0;0;0;0;0;0;0
 org.apache.catalina.ha.context.ReplicatedContext.stopInternal();org.apache.catalina.core.StandardContext;1;1;2;0.9473684210526316;0.9968454258675079;7;99;2319
 org.apache.catalina.deploy.ContextResource.toString();org.apache.catalina.deploy.ResourceBase;3;2;1;0.8;0.8333333333333334;23;35;43
 org.apache.coyote.ajp.AjpProtocol.setAddress(java.net.InetAddress);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;319;392
@@ -4211,7 +4211,7 @@ org.apache.tomcat.util.bcel.classfile.Synthetic.toString();org.apache.tomcat.uti
 org.apache.coyote.http11.AbstractHttp11Protocol.setSessionCacheSize(java.lang.String);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;379;392
 org.apache.tomcat.util.bcel.classfile.AnnotationDefault.dump(java.io.DataOutputStream);org.apache.tomcat.util.bcel.classfile.ElementValue;1;0;2;1.0;1.0;4;18;45
 org.apache.catalina.startup.ContextConfig.processAnnotations(java.util.Set<org.apache.catalina.deploy.WebXml>);org.apache.catalina.deploy.WebXml;3;1;1;0.9824561403508771;0.9594594594594594;12;1464;1556
-org.apache.coyote.http11.Http11AprProtocol.setThreadPriority(int);org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProtocol.setThreadPriority(int);org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0;0;0;0
 org.apache.catalina.core.StandardWrapperValve.invoke(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.core.ApplicationFilterFactory;1;5;11;0.9259259259259259;1.0;197;351;189
 org.apache.catalina.connector.RequestFacade.getHeader(java.lang.String);org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;468;52
 org.apache.catalina.startup.ContextConfig.processAnnotationsJar(java.net.URL, org.apache.catalina.deploy.WebXml);org.apache.tomcat.util.ExceptionUtils;0;1;2;0.9848484848484849;1.0;52;1464;8
@@ -4302,7 +4302,7 @@ org.apache.catalina.connector.CoyoteInputStream.available();org.apache.catalina.
 org.apache.tomcat.util.net.NioEndpoint.getWriteBufSize();org.apache.tomcat.util.net.SocketProperties;1;0;2;1.0;0.9803921568627451;3;962;162
 org.apache.catalina.mbeans.MBeanFactory.createAccessLoggerValve(java.lang.String);org.apache.catalina.core.ContainerBase;1;1;2;0.9736842105263158;0.9855072463768116;8;421;481
 org.apache.catalina.mbeans.NamingResourcesMBean.removeEnvironment(java.lang.String);org.apache.tomcat.util.modeler.BaseModelMBean;1;0;2;1.0;0.9722222222222222;11;138;312
-org.apache.catalina.core.StandardContext.setNamingResources(org.apache.catalina.deploy.NamingResources);org.apache.catalina.util.LifecycleMBeanBase;0;0;0;0;0
+org.apache.catalina.core.StandardContext.setNamingResources(org.apache.catalina.deploy.NamingResources);org.apache.catalina.util.LifecycleMBeanBase;0;0;0;0;0;0;0;0
 org.apache.catalina.tribes.transport.nio.NioSender.reset();org.apache.catalina.tribes.io.XByteBuffer;1;6;2;0.7857142857142857;0.9696969696969697;15;255;317
 org.apache.tomcat.util.bcel.classfile.ConstantPool.constantToString(org.apache.tomcat.util.bcel.classfile.Constant);org.apache.tomcat.util.bcel.classfile.ConstantCP;2;2;11;1.0;0.9375;43;130;22
 org.apache.catalina.connector.Response.getContentCount();org.apache.catalina.connector.OutputBuffer;1;0;1;1.0;0.9714285714285714;3;619;210
@@ -4406,7 +4406,7 @@ org.apache.catalina.core.StandardContext.addErrorPage(org.apache.catalina.deploy
 org.apache.catalina.session.JDBCStore.setSessionAppCol(java.lang.String);org.apache.catalina.session.StoreBase;1;1;1;0.9824561403508771;0.9375;5;501;90
 org.apache.catalina.core.ApplicationDispatcher.doForward(javax.servlet.ServletRequest, javax.servlet.ServletResponse);org.apache.tomcat.util.res.StringManager;1;11;4;0.8103448275862069;0.975609756097561;72;438;52
 org.apache.catalina.connector.RequestFacade.getRequestURL();org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;468;52
-org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.connector.Response;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.connector.Response;0;0;0;0;0;0;0;0
 org.apache.catalina.tribes.UniqueId.equals(java.lang.Object);org.apache.catalina.tribes.util.Arrays;0;1;1;0.75;1.0;11;32;157
 org.apache.jasper.compiler.Parser.parseElements(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.PageInfo;2;17;2;0.7419354838709677;0.9787234042553191;50;1185;341
 org.apache.jasper.runtime.JspFactoryImpl.getJspApplicationContext(javax.servlet.ServletContext);org.apache.jasper.Constants;0;1;2;0.9545454545454546;1.0;13;108;0
@@ -4421,7 +4421,7 @@ org.apache.catalina.mbeans.NamingResourcesMBean.addEnvironment(java.lang.String,
 org.apache.catalina.manager.host.HTMLHostManagerServlet.remove(java.lang.String);org.apache.catalina.manager.host.HostManagerServlet;1;0;1;1.0;0.95;6;241;307
 org.apache.coyote.ajp.AjpAprProcessor.flush();org.apache.tomcat.jni.Socket;1;2;2;0.9428571428571428;1.0;8;674;0
 org.apache.jasper.compiler.Generator.visit(org.apache.jasper.compiler.Node.Expression);org.apache.jasper.compiler.Node;3;0;2;1.0;0.9802631578947368;7;2649;1053
-org.apache.catalina.startup.TldConfig.tldScanResourcePaths(java.lang.String);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0
+org.apache.catalina.startup.TldConfig.tldScanResourcePaths(java.lang.String);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0;0;0;0
 org.apache.catalina.realm.JAASRealm.createPrincipal(java.lang.String, javax.security.auth.login.LoginContext, javax.security.auth.Subject);org.apache.tomcat.util.res.StringManager;2;2;2;0.9411764705882353;0.9473684210526316;38;195;52
 org.apache.catalina.connector.Connector.stopInternal();org.apache.tomcat.util.res.StringManager;1;1;3;0.9864864864864865;1.0;10;296;52
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.CustomTag);org.apache.jasper.compiler.Localizer;0;0;3;1.0;1.0;24;1034;34
@@ -4451,7 +4451,7 @@ org.apache.catalina.startup.SetAuthConstraintRule.begin(java.lang.String, java.l
 org.apache.catalina.tribes.transport.bio.MultipointBioSender.close();org.apache.catalina.tribes.ChannelException;1;1;2;0.9411764705882353;1.0;17;93;66
 org.apache.coyote.ajp.AjpAprProcessor.readt(boolean, int);org.apache.tomcat.jni.Socket;1;2;3;0.95;1.0;26;674;0
 org.apache.catalina.core.NamingContextListener.addService(org.apache.catalina.deploy.ContextService);org.apache.catalina.deploy.ContextService;9;4;6;0.9523809523809523;0.8333333333333334;101;745;130
-org.apache.catalina.valves.JDBCAccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.valves.JDBCAccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.net.NioSelectorPool.read(boolean, java.nio.ByteBuffer, java.nio.channels.Selector, long, org.apache.tomcat.util.net.NioChannel);org.apache.tomcat.util.net.NioChannel;2;0;2;1.0;0.9259259259259259;36;182;83
 org.apache.catalina.manager.HTMLManagerServlet.init();org.apache.catalina.manager.ManagerServlet;1;0;1;1.0;0.9777777777777777;3;689;928
 org.apache.coyote.http11.InternalNioOutputBuffer.flushBuffer();org.apache.tomcat.util.net.SecureNioChannel;1;1;3;1.0;1.0;11;124;255
@@ -4501,7 +4501,7 @@ org.apache.jasper.compiler.TagFileProcessor.postCheck();org.apache.jasper.compil
 org.apache.catalina.ha.session.DeltaSession.setMaxInactiveInterval(boolean, int);org.apache.catalina.ha.session.DeltaRequest;1;2;2;0.96;0.9696969696969697;17;399;204
 org.apache.coyote.http11.Http11Processor.prepareResponse();org.apache.tomcat.util.http.MimeHeaders;6;1;8;0.9782608695652174;0.8666666666666667;105;730;129
 org.apache.catalina.connector.RequestFacade.getRequestURI();org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;468;52
-org.apache.catalina.connector.Response.toEncoded(java.lang.String, java.lang.String);org.apache.catalina.connector.Request;0;0;0;0;0
+org.apache.catalina.connector.Response.toEncoded(java.lang.String, java.lang.String);org.apache.catalina.connector.Request;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.CometEventImpl.getHttpServletRequest();org.apache.catalina.connector.Request;1;0;1;1.0;0.9939024390243902;3;54;1247
 org.apache.catalina.filters.RequestFilter.sendErrorWhenNotHttp(javax.servlet.ServletResponse);org.apache.catalina.filters.FilterBase;0;0;2;1.0;1.0;5;81;11
 org.apache.catalina.core.StandardContext.addApplicationParameter(org.apache.catalina.deploy.ApplicationParameter);org.apache.catalina.core.ContainerBase;1;2;2;0.9968847352024922;1.0;12;2319;481
@@ -4561,7 +4561,7 @@ org.apache.catalina.core.ApplicationContextFacade.getServerInfo();org.apache.cat
 org.apache.catalina.core.StandardEngine.getRealm();org.apache.catalina.core.ContainerBase;2;0;1;1.0;0.9692307692307692;8;78;481
 org.apache.catalina.startup.SetPublicIdRule.begin(java.lang.String, java.lang.String, org.xml.sax.Attributes);org.apache.tomcat.util.digester.Rule;0;1;2;0.9166666666666666;1.0;17;20;31
 org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(java.lang.String, org.apache.catalina.deploy.WebXml, org.apache.tomcat.util.bcel.classfile.AnnotationEntry);org.apache.tomcat.util.res.StringManager;1;2;6;0.9761904761904762;1.0;89;1464;52
-org.apache.coyote.http11.AbstractHttp11Processor.initializeFilters();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.AbstractHttp11Processor.initializeFilters();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.authenticator.FormAuthenticator.authenticate(javax.servlet.http.HttpServletResponse, org.apache.catalina.connector.Request, org.apache.catalina.deploy.LoginConfig);org.apache.tomcat.util.res.StringManager;1;7;7;0.8863636363636364;0.9767441860465116;98;236;52
 org.apache.catalina.core.StandardWrapper.initServlet(javax.servlet.Servlet);org.apache.catalina.util.InstanceSupport;2;5;8;0.9557522123893806;0.9642857142857143;44;766;81
 org.apache.catalina.core.StandardServer.getServiceNames();org.apache.catalina.util.LifecycleMBeanBase;1;1;1;1.0;0.9230769230769231;7;285;71
@@ -4585,7 +4585,7 @@ org.apache.catalina.realm.RealmBase.hasResourcePermission(org.apache.catalina.co
 org.apache.catalina.connector.OutputBuffer.realWriteBytes(byte[], int, int);org.apache.coyote.Response;1;1;2;0.972972972972973;0.9722222222222222;13;210;250
 org.apache.catalina.tribes.transport.bio.BioReceiver.listen();org.apache.catalina.tribes.transport.AbstractRxTask;1;1;4;0.972972972972973;0.9705882352941176;39;94;37
 org.apache.catalina.core.StandardContext.resetContext();org.apache.catalina.core.ContainerBase;1;9;2;0.9814241486068112;0.9871794871794872;13;2319;481
-org.apache.catalina.ha.session.DeltaManager.changeSessionId(boolean, org.apache.catalina.Session);org.apache.catalina.session.ManagerBase;0;0;0;0;0
+org.apache.catalina.ha.session.DeltaManager.changeSessionId(boolean, org.apache.catalina.Session);org.apache.catalina.session.ManagerBase;0;0;0;0;0;0;0;0
 org.apache.catalina.ha.session.ReplicatedSession.setMaxInactiveInterval(int);org.apache.catalina.session.StandardSession;1;1;1;0.9523809523809523;0.987012987012987;4;122;604
 org.apache.tomcat.util.http.mapper.Mapper.internalMapExtensionWrapper(org.apache.tomcat.util.buf.CharChunk, org.apache.tomcat.util.http.mapper.Mapper.Wrapper[], org.apache.tomcat.util.http.mapper.MappingData);org.apache.tomcat.util.http.mapper.MappingData;1;3;3;0.96;0.9230769230769231;33;837;11
 org.apache.jasper.compiler.ELParser.parseEL();org.apache.jasper.compiler.ELNode;1;7;1;0.7586206896551724;0.967741935483871;25;221;100
@@ -4723,7 +4723,7 @@ org.apache.catalina.connector.RequestFacade.getParameterNames();org.apache.tomca
 org.apache.catalina.connector.Request.setPathInfo(java.lang.String);org.apache.tomcat.util.http.mapper.MappingData;0;0;2;1.0;1.0;3;1247;11
 org.apache.catalina.connector.InputBuffer.available();org.apache.tomcat.util.buf.CharChunk;1;3;4;0.9117647058823529;0.9807692307692307;14;213;393
 org.apache.catalina.realm.RealmBase.authenticate(java.lang.String, java.lang.String);org.apache.tomcat.util.res.StringManager;1;5;1;0.9361702127659575;1.0;23;616;52
-org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.Request;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProcessor.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.Request;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.ResponseFacade.reset();org.apache.catalina.connector.Response;1;1;1;0.9782608695652174;0.9875;4;237;619
 org.apache.catalina.startup.UserConfig.stop();org.apache.tomcat.util.res.StringManager;1;1;1;0.95;0.875;3;87;52
 org.apache.jasper.compiler.JspReader.pushFile(java.io.InputStreamReader, java.lang.String, java.lang.String);org.apache.jasper.compiler.Mark;1;6;2;0.8461538461538461;0.967741935483871;47;304;105
@@ -4831,7 +4831,7 @@ org.apache.el.parser.ELParser.ReInit(java.io.InputStream, java.lang.String);org.
 org.apache.coyote.ajp.AjpProtocol.setSoLinger(int);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;319;392
 org.apache.catalina.session.JDBCStore.remove(java.lang.String);org.apache.tomcat.util.res.StringManager;1;10;2;0.8461538461538461;1.0;32;501;52
 org.apache.catalina.startup.Embedded.addEngine(org.apache.catalina.Engine);org.apache.catalina.util.LifecycleBase;1;1;2;1.0;0.9473684210526316;16;365;113
-org.apache.tomcat.util.net.AprEndpoint.processSocket(long, org.apache.tomcat.util.net.SocketStatus);org.apache.catalina.Globals;0;0;0;0;0
+org.apache.tomcat.util.net.AprEndpoint.processSocket(long, org.apache.tomcat.util.net.SocketStatus);org.apache.catalina.Globals;0;0;0;0;0;0;0;0
 org.apache.coyote.http11.InternalNioInputBuffer.parseRequestLine(boolean);org.apache.coyote.http11.AbstractInputBuffer;4;7;5;0.7878787878787878;0.8571428571428572;129;398;78
 org.apache.catalina.connector.Response.recycle();org.apache.catalina.connector.Connector;0;6;6;0.9285714285714286;1.0;26;619;296
 org.apache.catalina.tribes.group.interceptors.TcpPingInterceptor.sendPingMessage(org.apache.catalina.tribes.Member[]);org.apache.catalina.tribes.io.ChannelData;3;0;2;1.0;0.8333333333333334;13;92;165
@@ -4932,7 +4932,7 @@ org.apache.coyote.http11.filters.BufferedInputFilter.setLimit(int);org.apache.to
 org.apache.jasper.compiler.Validator.checkXmlAttributes(java.util.Hashtable<java.lang.String,java.lang.Object>, org.apache.jasper.compiler.Node.CustomTag, org.apache.jasper.compiler.Node.JspAttribute[]);org.apache.jasper.compiler.JspUtil;1;4;7;0.970873786407767;1.0;130;1034;619
 org.apache.tomcat.util.net.jsse.JSSESocketFactory.getTrustManagers(java.lang.String, java.lang.String, java.lang.String);org.apache.tomcat.util.net.AbstractEndpoint;0;2;2;0.9393939393939394;1.0;20;440;392
 org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.RequestInfo;1;15;18;0.8484848484848485;0.9871794871794872;240;1021;134
-org.apache.coyote.ajp.AjpAprProtocol.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.ajp.AjpAprProcessor;0;0;0;0;0
+org.apache.coyote.ajp.AjpAprProtocol.asyncDispatch(long, org.apache.coyote.ajp.SocketStatus);org.apache.coyote.ajp.AjpAprProcessor;0;0;0;0;0;0;0;0
 org.apache.catalina.session.StandardManager.doUnload();org.apache.tomcat.util.res.StringManager;1;3;4;0.9347826086956522;1.0;71;314;52
 org.apache.catalina.connector.RequestFacade.getRemotePort();org.apache.catalina.connector.Request;1;0;2;1.0;0.9939393939393939;6;468;1247
 org.apache.jasper.compiler.ParserController.doParse(java.lang.String, org.apache.jasper.compiler.JarResource, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Parser;1;12;6;0.6944444444444444;1.0;52;281;1185
@@ -4944,7 +4944,7 @@ org.apache.catalina.core.ApplicationFilterFactory.createFilterChain(javax.servle
 org.apache.catalina.session.StandardSession.isNew();org.apache.tomcat.util.res.StringManager;1;2;1;0.974025974025974;0.8333333333333334;4;604;52
 org.apache.el.parser.AstIdentifier.getMethodInfo(java.lang.Class<?>[], org.apache.el.lang.EvaluationContext);org.apache.el.lang.EvaluationContext;1;1;1;0.8888888888888888;0.9166666666666666;3;93;35
 org.apache.catalina.ha.session.BackupManager.requestCompleted(java.lang.String);org.apache.catalina.util.LifecycleBase;1;0;3;1.0;0.9285714285714286;6;139;113
-org.apache.catalina.startup.ContextConfig.parseWebXml(boolean, org.apache.catalina.deploy.WebXml, org.xml.sax.InputSource);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0
+org.apache.catalina.startup.ContextConfig.parseWebXml(boolean, org.apache.catalina.deploy.WebXml, org.xml.sax.InputSource);org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0;0;0;0
 org.apache.jasper.runtime.PageContextImpl.doSetAttribute(int, java.lang.Object, java.lang.String);org.apache.jasper.compiler.Localizer;0;5;1;0.9333333333333333;1.0;26;640;34
 org.apache.catalina.realm.UserDatabaseRealm.stopInternal();org.apache.catalina.realm.RealmBase;1;1;1;0.9;0.975609756097561;4;92;616
 org.apache.catalina.ha.session.DeltaManager.deserializeSessions(byte[]);org.apache.tomcat.util.res.StringManager;1;3;5;0.9696969696969697;1.0;47;822;52
@@ -4985,7 +4985,7 @@ org.apache.naming.factory.EjbFactory.getObjectInstance(java.lang.Object, java.ut
 org.apache.catalina.core.ApplicationJspPropertyGroupDescriptor.getIsXml();org.apache.catalina.deploy.JspPropertyGroup;1;0;1;1.0;0.9545454545454546;7;79;72
 org.apache.tomcat.util.bcel.classfile.Code.setAttributes(org.apache.tomcat.util.bcel.classfile.Attribute[]);org.apache.tomcat.util.bcel.classfile.Attribute;1;3;1;0.8421052631578947;0.9;5;109;97
 org.apache.catalina.tribes.transport.nio.PooledParallelSender.sendMessage(org.apache.catalina.tribes.ChannelMessage, org.apache.catalina.tribes.Member[]);org.apache.catalina.tribes.transport.nio.ParallelNioSender;3;2;3;0.8181818181818181;0.9047619047619048;23;44;246
-org.apache.catalina.valves.JDBCAccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.connector.Response;0;0;0;0;0
+org.apache.catalina.valves.JDBCAccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.connector.Response;0;0;0;0;0;0;0;0
 org.apache.el.ValueExpressionLiteral.readExternal(java.io.ObjectInput);org.apache.el.util.ReflectionUtil;0;2;1;0.875;1.0;7;51;87
 org.apache.coyote.ajp.AjpProtocol.start();org.apache.tomcat.util.modeler.Registry;1;5;3;0.9230769230769231;1.0;21;319;433
 org.apache.tomcat.util.bcel.classfile.Synthetic.copy(org.apache.tomcat.util.bcel.classfile.ConstantPool);org.apache.tomcat.util.bcel.classfile.Attribute;1;1;1;0.8333333333333334;0.8888888888888888;9;34;97
@@ -5040,9 +5040,9 @@ org.apache.coyote.http11.AbstractHttp11Protocol.setSslProtocol(java.lang.String)
 org.apache.catalina.session.StandardSession.expire(boolean);org.apache.catalina.Globals;0;11;3;0.9215686274509804;1.0;88;604;0
 org.apache.catalina.startup.Tomcat.lifecycleEvent(org.apache.catalina.LifecycleEvent);org.apache.catalina.LifecycleEvent;2;0;1;1.0;0.75;5;299;18
 org.apache.catalina.core.ContainerBase.setManager(org.apache.catalina.Manager);org.apache.catalina.util.LifecycleBase;1;2;1;0.971830985915493;0.9473684210526316;23;481;113
-org.apache.catalina.ha.session.DeltaManager.deserializeSessionId(byte[]);org.apache.catalina.tribes.io.ReplicationStream;0;0;0;0;0
+org.apache.catalina.ha.session.DeltaManager.deserializeSessionId(byte[]);org.apache.catalina.tribes.io.ReplicationStream;0;0;0;0;0;0;0;0
 org.apache.coyote.ajp.AjpAprProtocol.getExecutor();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;329;392
-org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.coyote.Response;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.log(long, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.coyote.Response;0;0;0;0;0;0;0;0
 org.apache.catalina.tribes.io.ChannelData.getDataPackage(byte[], int);org.apache.catalina.tribes.membership.MemberImpl;1;4;2;0.7894736842105263;0.9777777777777777;20;165;300
 org.apache.catalina.manager.JMXProxyServlet.init();org.apache.tomcat.util.modeler.Registry;1;1;1;0.9;0.9743589743589743;4;129;433
 org.apache.tomcat.util.net.jsse.JSSESocketFactory.getTrustManagers(java.lang.String, java.lang.String, java.lang.String);org.apache.tomcat.util.net.ServerSocketFactory;1;2;2;0.9393939393939394;0.9;20;440;18
@@ -5122,7 +5122,7 @@ org.apache.tomcat.util.net.JIoEndpoint.destroy();org.apache.tomcat.util.net.Abst
 org.apache.catalina.tribes.group.GroupChannel.getMembershipService();org.apache.catalina.tribes.group.ChannelCoordinator;1;0;1;1.0;0.95;3;314;164
 org.apache.jasper.runtime.PageContextImpl.release();org.apache.jasper.runtime.JspWriterImpl;2;11;2;0.7962962962962963;0.9642857142857143;29;640;236
 org.apache.el.parser.AstChoice.getValue(org.apache.el.lang.EvaluationContext);org.apache.el.parser.SimpleNode;1;0;2;1.0;0.96;5;12;123
-org.apache.coyote.http11.InternalAprInputBuffer.parseHeaders();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprInputBuffer.parseHeaders();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.RequestFacade.startAsync();org.apache.catalina.connector.Request;1;0;1;1.0;0.9939024390243902;3;468;1247
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.JspElement);org.apache.jasper.compiler.Node;7;1;2;1.0;0.9551282051282052;30;1034;1053
 org.apache.catalina.servlets.DefaultServlet.copy(java.io.InputStream, javax.servlet.ServletOutputStream, org.apache.naming.resources.CacheEntry);org.apache.naming.resources.CacheEntry;0;2;2;0.9655172413793104;1.0;19;1010;13
@@ -5153,7 +5153,7 @@ org.apache.catalina.startup.ContextConfig.scan(java.net.JarURLConnection);org.ap
 org.apache.jasper.compiler.Dumper.visit(org.apache.jasper.compiler.Node.JspBody);org.apache.jasper.compiler.Node;1;3;1;0.9333333333333333;0.9933774834437086;5;138;1053
 org.apache.catalina.tribes.membership.McastService.getMembers();org.apache.catalina.tribes.membership.McastServiceImpl;0;0;2;1.0;1.0;4;353;375
 org.apache.coyote.http11.InternalNioInputBuffer.isReadable();org.apache.coyote.http11.AbstractInputBuffer;2;1;1;0.9642857142857143;0.8947368421052632;3;398;78
-org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.catalina.connector.Connector;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.catalina.connector.Connector;0;0;0;0;0;0;0;0
 org.apache.coyote.http11.Http11NioProcessor.parseHost(org.apache.tomcat.util.buf.MessageBytes);org.apache.tomcat.util.buf.ByteChunk;3;1;7;0.9666666666666667;0.9433962264150944;54;840;425
 org.apache.coyote.Request.getContentType();org.apache.tomcat.util.buf.MessageBytes;2;1;1;0.96875;0.95;5;221;382
 org.apache.tomcat.util.modeler.ManagedBean.getInvoke(java.lang.Object, java.lang.Object[], java.lang.String, java.lang.String[], org.apache.tomcat.util.modeler.BaseModelMBean);org.apache.tomcat.util.modeler.BaseModelMBean;0;1;1;0.9714285714285714;1.0;36;252;312
@@ -5198,16 +5198,16 @@ org.apache.catalina.mbeans.MBeanFactory.createDataSourceRealm(java.lang.String, 
 org.apache.tomcat.util.bcel.classfile.Code.copy(org.apache.tomcat.util.bcel.classfile.ConstantPool);org.apache.tomcat.util.bcel.classfile.CodeException;1;5;2;0.7727272727272727;0.9375;17;109;36
 org.apache.catalina.core.StandardContext.addFilterDef(org.apache.catalina.deploy.FilterDef);org.apache.catalina.core.ContainerBase;1;1;2;0.9968553459119497;1.0;6;2319;481
 org.apache.catalina.tribes.transport.nio.NioSender.connect();org.apache.catalina.tribes.transport.AbstractSender;5;9;1;0.7428571428571429;0.8958333333333334;39;255;197
-org.apache.coyote.http11.Http11AprProcessor.endRequest();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.endRequest();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.TagLibraryInfoImpl.getTagLibraryInfos();org.apache.jasper.compiler.PageInfo;1;0;1;1.0;0.9868421052631579;4;515;341
 org.apache.catalina.core.StandardWrapper.loadServlet();org.apache.catalina.core.StandardContext;1;14;5;0.8888888888888888;0.9971509971509972;74;766;2319
 org.apache.catalina.session.JDBCStore.setSessionIdCol(java.lang.String);org.apache.catalina.session.StoreBase;1;1;1;0.9824561403508771;0.9375;5;501;90
 org.apache.catalina.startup.LifecycleListenerRule.begin(java.lang.String, java.lang.String, org.xml.sax.Attributes);org.apache.tomcat.util.digester.Rule;0;2;2;0.75;1.0;11;15;31
 org.apache.catalina.realm.RealmBase.stopInternal();org.apache.catalina.util.LifecycleBase;1;1;1;0.975609756097561;0.9230769230769231;4;616;113
 org.apache.catalina.util.LifecycleBase.stop();org.apache.tomcat.util.res.StringManager;1;5;1;0.8095238095238095;1.0;31;113;52
-org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.Response;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.Response;0;0;0;0;0;0;0;0
 org.apache.coyote.http11.Http11AprProcessor.endRequest();org.apache.coyote.Response;1;1;4;0.984375;0.9743589743589743;23;1021;250
-org.apache.catalina.connector.CoyoteAdapter.postParseRequest(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.core.ApplicationSessionCookieConfig;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.postParseRequest(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response, org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.core.ApplicationSessionCookieConfig;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.modeler.BaseModelMBean.invoke(java.lang.Object[], java.lang.String, java.lang.String[]);org.apache.tomcat.util.modeler.ManagedBean;1;1;1;0.9772727272727273;1.0;30;312;252
 org.apache.catalina.tribes.transport.nio.ParallelNioSender.setupForSend(org.apache.catalina.tribes.Member[]);org.apache.catalina.tribes.transport.nio.NioSender;2;2;3;0.9090909090909091;0.9285714285714286;25;246;255
 org.apache.jasper.compiler.SmapGenerator.getString();org.apache.jasper.compiler.SmapStratum;1;5;1;0.6875;0.9696969696969697;20;58;110
@@ -5264,7 +5264,7 @@ org.apache.tomcat.util.net.jsse.JSSEImplementation.getSSLSupport(javax.net.ssl.S
 org.apache.coyote.Response.recycle();org.apache.tomcat.util.http.MimeHeaders;1;12;2;0.6571428571428571;0.96875;15;250;129
 org.apache.catalina.connector.RequestFacade.getPathTranslated();org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;468;52
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.handleViewConf(org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.CoordinationMessage, org.apache.catalina.tribes.Member, org.apache.catalina.tribes.membership.Membership);org.apache.catalina.tribes.membership.Membership;1;7;4;0.9076923076923077;0.9655172413793104;19;498;156
-org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.Request;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.Request;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Generator.genPreambleStaticInitializers();org.apache.jasper.compiler.PageInfo;1;0;2;1.0;0.9885057471264368;23;2649;341
 org.apache.coyote.http11.Http11NioProtocol.register(org.apache.coyote.http11.Http11NioProcessor);org.apache.coyote.RequestInfo;2;1;5;0.9772727272727273;0.9393939393939394;18;302;134
 org.apache.catalina.ha.deploy.FarmWarDeployer.removeFactory(org.apache.catalina.ha.deploy.FileMessage);org.apache.catalina.ha.deploy.FileMessage;1;1;1;0.9772727272727273;0.9090909090909091;3;376;53
@@ -5343,7 +5343,7 @@ org.apache.jasper.compiler.MapperELVisitor.visit(org.apache.jasper.compiler.ELNo
 org.apache.jasper.compiler.Validator.getJspAttribute(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.servlet.jsp.tagext.TagAttributeInfo, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Node;4;2;6;0.9705882352941176;0.9814814814814815;39;1034;1053
 org.apache.catalina.mbeans.GroupMBean.getRoles();org.apache.tomcat.util.modeler.ManagedBean;1;0;3;1.0;0.975609756097561;19;63;252
 org.apache.catalina.core.StandardWrapper.findMappingObject();org.apache.catalina.core.ContainerBase;1;0;1;1.0;0.9846153846153847;3;766;481
-org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.RequestInfo;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.RequestInfo;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Compiler.generateJava();org.apache.jasper.compiler.ErrorDispatcher;1;4;16;0.935483870967742;0.9864864864864865;118;309;169
 org.apache.coyote.http11.Http11Processor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.tomcat.util.net.JIoEndpoint;1;4;14;0.9402985074626866;1.0;173;730;222
 org.apache.tomcat.util.bcel.classfile.Code.dump(java.io.DataOutputStream);org.apache.tomcat.util.bcel.classfile.CodeException;1;8;2;0.6521739130434783;0.95;15;109;36
@@ -5448,7 +5448,7 @@ org.apache.jasper.xmlparser.XMLEncodingDetector.skipSpaces();org.apache.jasper.x
 org.apache.tomcat.util.bcel.classfile.LineNumberTable.dump(java.io.DataOutputStream);org.apache.tomcat.util.bcel.classfile.Attribute;1;2;2;0.7777777777777778;0.9090909090909091;7;50;97
 org.apache.catalina.connector.Request.readChunkedPostBody();org.apache.tomcat.util.buf.ByteChunk;3;1;3;0.9941520467836258;0.94;23;1247;425
 org.apache.tomcat.util.threads.ThreadPoolExecutor.execute(java.lang.Runnable, java.util.concurrent.TimeUnit, long);org.apache.tomcat.util.threads.TaskQueue;1;0;1;1.0;1.0;22;49;27
-org.apache.catalina.valves.AccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.connector.Request;0;0;0;0;0
+org.apache.catalina.valves.AccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.connector.Request;0;0;0;0;0;0;0;0
 org.apache.naming.resources.FileDirContext.doLookup(java.lang.String);org.apache.naming.resources.BaseDirContext;1;3;1;0.9333333333333333;0.9841269841269842;15;290;312
 org.apache.catalina.mbeans.MBeanFactory.createConnector(boolean, boolean, int, java.lang.String, java.lang.String);org.apache.catalina.connector.Connector;5;1;2;0.9767441860465116;0.9333333333333333;15;421;296
 org.apache.tomcat.util.modeler.modules.MbeansSource.save();org.apache.tomcat.util.modeler.modules.ModelerSource;1;3;2;0.8695652173913043;0.9230769230769231;16;198;26
@@ -5531,7 +5531,7 @@ org.apache.tomcat.util.net.NioBlockingSelector.add(int, org.apache.tomcat.util.n
 org.apache.coyote.http11.AbstractHttp11Protocol.setMaxThreads(int);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;379;392
 org.apache.coyote.http11.Http11Protocol.start();org.apache.tomcat.util.res.StringManager;2;1;4;0.967741935483871;0.9375;21;219;52
 org.apache.catalina.core.StandardContext.stopInternal();org.apache.catalina.core.ApplicationContext;1;10;4;0.96996996996997;0.9894736842105263;56;2319;660
-org.apache.catalina.ha.session.DeltaManager.handleCHANGE_SESSION_ID(org.apache.catalina.ha.session.SessionMessage, org.apache.catalina.tribes.Member);org.apache.catalina.ha.session.DeltaSession;0;0;0;0;0
+org.apache.catalina.ha.session.DeltaManager.handleCHANGE_SESSION_ID(org.apache.catalina.ha.session.SessionMessage, org.apache.catalina.tribes.Member);org.apache.catalina.ha.session.DeltaSession;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.TagPluginManager.visit(org.apache.jasper.compiler.Node.CustomTag);org.apache.jasper.compiler.Node;1;1;1;0.9615384615384616;0.9932885906040269;4;142;1053
 org.apache.coyote.http11.InternalOutputBuffer.commit();org.apache.coyote.Response;1;2;3;0.8823529411764706;0.975609756097561;12;82;250
 org.apache.catalina.core.ApplicationContext.createFilter(java.lang.Class<T>);org.apache.catalina.core.StandardContext;1;0;1;1.0;0.9968454258675079;21;660;2319
@@ -5564,7 +5564,7 @@ org.apache.catalina.core.ContainerBase.getChildren();org.apache.catalina.util.Li
 org.apache.catalina.deploy.WebXml.addServiceRef(org.apache.catalina.deploy.ContextService);org.apache.catalina.deploy.ResourceBase;1;1;1;0.9864864864864865;0.9375;3;1556;43
 org.apache.coyote.http11.Http11NioProtocol.start();org.apache.tomcat.util.res.StringManager;2;1;4;0.9782608695652174;0.9375;21;302;52
 org.apache.catalina.tribes.group.interceptors.ThroughputInterceptor.messageReceived(org.apache.catalina.tribes.ChannelMessage);org.apache.catalina.tribes.io.XByteBuffer;0;6;3;0.7142857142857143;1.0;8;88;317
-org.apache.coyote.http11.InternalAprInputBuffer.parseHeader();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprInputBuffer.parseHeader();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.core.ApplicationContextFacade.getServletRegistration(java.lang.String);org.apache.catalina.core.ApplicationContext;1;1;2;1.0;0.9855072463768116;8;549;660
 org.apache.catalina.manager.HTMLManagerServlet.list(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse);org.apache.catalina.util.RequestUtil;0;1;6;0.984375;1.0;179;689;189
 org.apache.catalina.connector.OutputBuffer.recycle();org.apache.tomcat.util.buf.C2BConverter;1;7;2;0.8108108108108107;0.9411764705882353;13;210;58
@@ -5585,7 +5585,7 @@ org.apache.catalina.startup.SetContextPropertiesRule.begin(java.lang.String, jav
 org.apache.coyote.ajp.AjpProtocol.getTcpNoDelay();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;319;392
 org.apache.catalina.ha.context.ReplicatedContext.getServletContext();org.apache.catalina.core.StandardContext;1;1;3;0.9473684210526316;0.9968454258675079;7;99;2319
 org.apache.tomcat.util.bcel.classfile.SourceFile.getSourceFileName();org.apache.tomcat.util.bcel.classfile.Attribute;0;1;3;0.875;1.0;4;21;97
-org.apache.coyote.http11.InternalAprInputBuffer.fill();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprInputBuffer.fill();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.coyote.http11.AbstractOutputBuffer.doWrite(org.apache.coyote.Response, org.apache.tomcat.util.buf.ByteChunk);org.apache.coyote.Response;1;4;2;0.875;1.0;7;203;250
 org.apache.coyote.ajp.AjpAprProtocol.setSoLinger(int);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;329;392
 org.apache.coyote.ajp.AjpAprProcessor.prepareRequest();org.apache.tomcat.util.http.MimeHeaders;4;4;8;0.9344262295081968;0.92;153;674;129
@@ -5617,7 +5617,7 @@ org.apache.catalina.ha.deploy.FarmWarDeployer.install(java.lang.String, java.net
 org.apache.catalina.startup.ContextConfig.processAnnotationWebInitParams(org.apache.tomcat.util.bcel.classfile.ElementValue);org.apache.tomcat.util.bcel.classfile.ArrayElementValue;1;0;5;1.0;0.8888888888888888;25;1464;35
 org.apache.coyote.http11.Http11Processor.process(org.apache.tomcat.util.net.SocketWrapper<java.net.Socket>);org.apache.coyote.Constants;0;5;10;0.9107142857142857;1.0;133;730;0
 org.apache.jasper.compiler.Generator.generateJspFragment(java.lang.String, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Node;1;11;2;0.9426229508196722;0.99375;23;2649;1053
-org.apache.catalina.core.StandardContext.getObjectKeyPropertiesNameOnly();org.apache.catalina.core.ContainerBase;0;0;0;0;0
+org.apache.catalina.core.StandardContext.getObjectKeyPropertiesNameOnly();org.apache.catalina.core.ContainerBase;0;0;0;0;0;0;0;0
 org.apache.catalina.startup.Embedded.removeEngine(org.apache.catalina.Engine);org.apache.catalina.core.StandardService;2;1;2;1.0;0.9722222222222222;37;365;242
 org.apache.catalina.core.ApplicationContext.getRequestDispatcher(java.lang.String);org.apache.catalina.util.RequestUtil;0;2;7;0.9767441860465116;1.0;47;660;189
 org.apache.tomcat.util.bcel.classfile.AnnotationDefault.dump(java.io.DataOutputStream);org.apache.tomcat.util.bcel.classfile.Attribute;1;0;2;1.0;0.875;4;18;97
@@ -5641,7 +5641,7 @@ org.apache.catalina.ant.ReloadTask.execute();org.apache.catalina.ant.AbstractCat
 org.apache.catalina.connector.CoyoteReader.close();org.apache.catalina.connector.InputBuffer;1;0;1;1.0;0.9666666666666667;3;102;213
 org.apache.catalina.startup.SoapHeaderRule.body(java.lang.String, java.lang.String, java.lang.String);org.apache.catalina.deploy.ContextHandler;1;0;3;1.0;0.9523809523809523;12;14;63
 org.apache.catalina.startup.HostConfig.deployDirectory(java.io.File, java.lang.String, java.lang.String);org.apache.tomcat.util.res.StringManager;1;9;4;0.9;1.0;68;849;52
-org.apache.coyote.http11.InternalAprInputBuffer.available();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.InternalAprInputBuffer.available();org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.Request.parseCookies();org.apache.tomcat.util.http.Cookies;2;3;4;0.9827586206896551;0.9;30;1247;247
 org.apache.tomcat.util.buf.MessageBytes.equalsIgnoreCase(java.lang.String);org.apache.tomcat.util.buf.CharChunk;1;2;2;0.9523809523809523;0.98;13;382;393
 org.apache.catalina.connector.ResponseFacade.setCharacterEncoding(java.lang.String);org.apache.catalina.connector.Response;1;0;2;1.0;0.9875;6;237;619
@@ -5713,13 +5713,13 @@ org.apache.catalina.connector.Response.getCharacterEncoding();org.apache.coyote.
 org.apache.catalina.realm.RealmBase.findSecurityConstraints(org.apache.catalina.connector.Request, org.apache.catalina.Context);org.apache.catalina.deploy.SecurityConstraint;2;1;4;0.9827586206896551;0.9473684210526316;167;616;194
 org.apache.catalina.mbeans.ContextResourceLinkMBean.setAttribute(javax.management.Attribute);org.apache.catalina.deploy.NamingResources;2;0;3;1.0;0.9607843137254902;16;19;342
 org.apache.coyote.http11.filters.BufferedInputFilter.setRequest(org.apache.coyote.Request);org.apache.tomcat.util.buf.ByteChunk;2;1;1;0.9090909090909091;0.9574468085106383;10;49;425
-org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.write();org.apache.catalina.tribes.UniqueId;1;2;3;0.9692307692307692;0.9;20;498;32
 org.apache.coyote.http11.InternalAprOutputBuffer.sendAck();org.apache.coyote.http11.Constants;0;2;3;0.9444444444444444;1.0;5;246;0
 org.apache.jasper.JspC.scanFiles(java.io.File);org.apache.jasper.compiler.JspConfig;1;4;1;0.956989247311828;0.9777777777777777;30;879;364
 org.apache.jasper.compiler.Compiler.generateJava();org.apache.jasper.compiler.TagFileProcessor;2;4;16;0.935483870967742;0.9753086419753086;118;309;329
 org.apache.jasper.compiler.Validator.getJspAttribute(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, javax.servlet.jsp.tagext.TagAttributeInfo, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.PageInfo;3;2;6;0.9705882352941176;0.9662921348314607;39;1034;341
-org.apache.catalina.startup.Catalina.setSecurityProtection();org.apache.catalina.security.SecurityConfig;0;0;0;0;0
+org.apache.catalina.startup.Catalina.setSecurityProtection();org.apache.catalina.security.SecurityConfig;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.CoyoteReader.reset();org.apache.catalina.connector.InputBuffer;1;0;1;1.0;0.9666666666666667;3;102;213
 org.apache.coyote.ajp.AjpAprProcessor.process(long);org.apache.coyote.Request;2;11;9;0.8;0.9649122807017544;88;674;221
 org.apache.catalina.startup.ConnectorCreateRule.begin(java.lang.String, java.lang.String, org.xml.sax.Attributes);org.apache.tomcat.util.digester.Rule;0;1;2;0.8571428571428572;1.0;10;22;31
@@ -5747,7 +5747,7 @@ org.apache.catalina.connector.Request.getRequestURI();org.apache.coyote.Request;
 org.apache.catalina.connector.OutputBuffer.recycle();org.apache.tomcat.util.buf.ByteChunk;1;7;2;0.8108108108108107;0.9811320754716981;13;210;425
 org.apache.coyote.http11.Http11NioProcessor.endRequest();org.apache.tomcat.util.res.StringManager;1;0;5;1.0;0.8888888888888888;23;840;52
 org.apache.jasper.compiler.Generator.generateCustomEnd(java.lang.String, java.lang.String, java.lang.String, org.apache.jasper.compiler.Node.CustomTag);org.apache.jasper.compiler.ServletWriter;6;9;2;0.9552238805970149;0.8235294117647058;99;2649;54
-org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.Constants;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.asyncDispatch(long, org.apache.coyote.http11.SocketStatus);org.apache.coyote.Constants;0;0;0;0;0;0;0;0
 org.apache.catalina.ant.jmx.JMXAccessorQueryTask.jmxQuery(java.lang.String, javax.management.MBeanServerConnection);org.apache.catalina.ant.jmx.JMXAccessorTask;3;2;2;0.9444444444444444;0.9565217391304348;30;77;361
 org.apache.catalina.servlets.WebdavServlet.getRelativePath(javax.servlet.http.HttpServletRequest);org.apache.catalina.Globals;0;0;1;1.0;1.0;12;1521;0
 org.apache.coyote.ajp.AjpAprProtocol.process(long);org.apache.tomcat.util.net.AbstractEndpoint;1;2;4;0.971830985915493;0.9864864864864865;29;329;392
@@ -5816,7 +5816,7 @@ org.apache.tomcat.util.bcel.classfile.Method.getExceptionTable();org.apache.tomc
 org.apache.jasper.compiler.Parser.parseCustomTag(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;7;2;4;0.9876543209876543;0.851063829787234;68;1185;304
 org.apache.jasper.runtime.JspContextWrapper.findAttribute(java.lang.String);org.apache.jasper.compiler.Localizer;0;3;1;0.94;1.0;18;257;34
 org.apache.coyote.http11.Http11NioProcessor.recycle();org.apache.coyote.http11.InternalNioInputBuffer;1;2;3;0.9285714285714286;0.9714285714285714;13;840;398
-org.apache.catalina.valves.JDBCAccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.connector.Request;0;0;0;0;0
+org.apache.catalina.valves.JDBCAccessLogValve.log(long, org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.connector.Request;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.ResponseFacade.getOutputStream();org.apache.catalina.connector.Response;2;1;1;0.9787234042553191;0.975;5;237;619
 org.apache.catalina.connector.MapperListener.unregisterContext(org.apache.catalina.Context);org.apache.tomcat.util.http.mapper.Mapper;1;0;2;1.0;0.98;12;223;837
 org.apache.coyote.http11.Http11AprProtocol.getSSLProtocol();org.apache.tomcat.util.net.AprEndpoint;1;0;1;1.0;0.9866666666666667;3;534;447
@@ -5833,7 +5833,7 @@ org.apache.catalina.core.ApplicationContextFacade.getAttribute(java.lang.String)
 org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(java.lang.String, org.apache.catalina.deploy.WebXml, org.apache.tomcat.util.bcel.classfile.AnnotationEntry);org.apache.catalina.deploy.WebXml;4;2;6;0.9761904761904762;0.9603960396039604;89;1464;1556
 org.apache.coyote.http11.Http11NioProcessor.event(org.apache.coyote.http11.SocketStatus);org.apache.coyote.http11.AbstractHttp11Processor;3;2;9;0.9428571428571428;0.9482758620689655;47;840;228
 org.apache.coyote.http11.Http11AprProtocol.setSSLEnabled(boolean);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;534;392
-org.apache.coyote.http11.Http11AprProcessor.parseHost(org.apache.tomcat.util.buf.MessageBytes);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.parseHost(org.apache.tomcat.util.buf.MessageBytes);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.catalina.core.StandardWrapper.setMinTime(long);org.apache.catalina.core.StandardWrapperValve;1;0;1;1.0;0.8888888888888888;3;766;351
 org.apache.catalina.startup.TldConfig.tldScanJar(java.net.JarURLConnection);org.apache.tomcat.util.ExceptionUtils;0;2;2;0.9761904761904762;1.0;31;327;8
 org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.handleMyToken(org.apache.catalina.tribes.group.interceptors.NonBlockingCoordinator.CoordinationMessage, org.apache.catalina.tribes.Member, org.apache.catalina.tribes.membership.MemberImpl, org.apache.catalina.tribes.membership.Membership);org.apache.catalina.tribes.membership.Membership;1;8;5;0.8939393939393939;0.967741935483871;22;498;156
@@ -5863,7 +5863,7 @@ org.apache.coyote.http11.Http11NioProtocol.start();org.apache.coyote.http11.Abst
 org.apache.catalina.realm.CombinedRealm.authenticate(java.lang.String, java.lang.String);org.apache.tomcat.util.res.StringManager;1;1;2;0.9411764705882353;1.0;21;130;52
 org.apache.catalina.deploy.NamingResources.removeEnvironment(java.lang.String);org.apache.catalina.deploy.ResourceBase;0;3;1;0.94;1.0;11;342;43
 org.apache.catalina.core.ApplicationDispatcher.doInclude(javax.servlet.ServletRequest, javax.servlet.ServletResponse, org.apache.catalina.core.DispatcherType);org.apache.catalina.core.ApplicationHttpRequest;3;13;3;0.6285714285714286;0.9692307692307692;30;438;364
-org.apache.coyote.http11.AbstractHttp11Processor.addInputFilter(java.lang.String, org.apache.coyote.http11.InputFilter[]);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0
+org.apache.coyote.http11.AbstractHttp11Processor.addInputFilter(java.lang.String, org.apache.coyote.http11.InputFilter[]);org.apache.coyote.http11.AbstractInputBuffer;0;0;0;0;0;0;0;0
 org.apache.coyote.ajp.AjpProtocol.getMaxThreads();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;319;392
 org.apache.catalina.startup.ContextConfig.processAnnotationWebFilter(java.lang.String, org.apache.catalina.deploy.WebXml, org.apache.tomcat.util.bcel.classfile.AnnotationEntry);org.apache.tomcat.util.bcel.classfile.AnnotationEntry;1;2;7;0.9770114942528736;0.9761904761904762;121;1464;30
 org.apache.coyote.RequestInfo.getVirtualHost();org.apache.coyote.Request;0;0;2;1.0;1.0;3;134;221
@@ -5886,7 +5886,7 @@ org.apache.jasper.runtime.PageContextImpl.doForward(java.lang.String);org.apache
 org.apache.coyote.http11.Http11AprProcessor.recycle();org.apache.coyote.http11.InternalAprOutputBuffer;1;1;2;0.9836065573770492;0.9722222222222222;5;1021;246
 org.apache.naming.factory.BeanFactory.getObjectInstance(java.lang.Object, java.util.Hashtable<?,?>, javax.naming.Context, javax.naming.Name);org.apache.naming.factory.Constants;0;0;1;1.0;1.0;112;112;0
 org.apache.catalina.mbeans.MBeanFactory.removeRealm(java.lang.String);org.apache.catalina.core.ContainerBase;1;1;1;0.9714285714285714;0.9848484848484849;5;421;481
-org.apache.coyote.http11.AbstractHttp11Processor.initializeFilters();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0
+org.apache.coyote.http11.AbstractHttp11Processor.initializeFilters();org.apache.coyote.http11.AbstractOutputBuffer;0;0;0;0;0;0;0;0
 org.apache.jasper.compiler.Generator.visit(org.apache.jasper.compiler.Node.ELExpression);org.apache.jasper.compiler.JspUtil;1;1;5;0.9920634920634921;1.0;10;2649;619
 org.apache.catalina.core.StandardWrapper.loadServlet();org.apache.catalina.core.ContainerBase;3;14;5;0.8888888888888888;0.98;74;766;481
 org.apache.tomcat.util.bcel.classfile.FieldOrMethod.getSignature();org.apache.tomcat.util.bcel.classfile.ConstantPool;1;1;2;0.9;1.0;5;31;130
@@ -5935,7 +5935,7 @@ org.apache.coyote.ajp.AjpAprProtocol.init();org.apache.tomcat.util.res.StringMan
 org.apache.catalina.core.StandardHostValve.custom(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response, org.apache.catalina.deploy.ErrorPage);org.apache.catalina.connector.Response;4;0;4;1.0;0.9565217391304348;21;160;619
 org.apache.coyote.ajp.AjpAprProtocol.unregister(org.apache.coyote.ajp.AjpAprProcessor);org.apache.coyote.ajp.AjpAprProcessor;0;1;4;0.9855072463768116;1.0;19;329;674
 org.apache.catalina.connector.RequestFacade.getQueryString();org.apache.tomcat.util.res.StringManager;1;0;2;1.0;0.8;6;468;52
-org.apache.catalina.ha.session.DeltaManager.changeSessionId(boolean, org.apache.catalina.Session);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.ha.session.DeltaManager.changeSessionId(boolean, org.apache.catalina.Session);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.Request.setPathInfo(java.lang.String);org.apache.tomcat.util.buf.MessageBytes;1;0;2;1.0;0.9743589743589743;3;1247;382
 org.apache.catalina.core.ApplicationDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse, org.apache.catalina.core.ApplicationDispatcher.State);org.apache.catalina.Globals;0;6;7;0.8947368421052632;1.0;109;438;0
 org.apache.catalina.tribes.group.interceptors.TcpPingInterceptor.heartbeat();org.apache.catalina.tribes.group.ChannelInterceptorBase;1;2;1;0.8666666666666667;0.9473684210526316;4;92;66
@@ -6131,7 +6131,7 @@ org.apache.jasper.xmlparser.XMLEncodingDetector.scanXMLDecl();org.apache.jasper.
 org.apache.jasper.compiler.ParamVisitor.visit(org.apache.jasper.compiler.Node.ParamAction);org.apache.jasper.compiler.Node;4;0;3;1.0;0.9738562091503268;14;17;1053
 org.apache.catalina.core.ApplicationJspPropertyGroupDescriptor.getTrimDirectiveWhitespaces();org.apache.catalina.deploy.JspPropertyGroup;1;0;1;1.0;0.9545454545454546;7;79;72
 org.apache.catalina.tribes.transport.nio.PooledParallelSender.getNewDataSender();org.apache.catalina.tribes.transport.AbstractSender;0;0;1;1.0;1.0;10;44;197
-org.apache.tomcat.util.net.AprEndpoint.unlockAccept();org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0
+org.apache.tomcat.util.net.AprEndpoint.unlockAccept();org.apache.tomcat.util.net.AbstractEndpoint;0;0;0;0;0;0;0;0
 org.apache.catalina.manager.HTMLManagerServlet.removeSessionAttribute(java.lang.String, java.lang.String, java.lang.String);org.apache.catalina.manager.ManagerServlet;1;1;1;0.9696969696969697;0.98;19;689;928
 org.apache.jasper.compiler.Generator.generateXmlProlog(org.apache.jasper.compiler.Node.Nodes);org.apache.jasper.compiler.Node;2;0;5;1.0;0.9875776397515528;25;2649;1053
 org.apache.catalina.core.StandardContext.setPublicId(java.lang.String);org.apache.catalina.core.ContainerBase;1;1;1;0.9968652037617555;0.9855072463768116;6;2319;481
@@ -6155,7 +6155,7 @@ org.apache.jasper.compiler.Validator.validateFunctions(org.apache.jasper.compile
 org.apache.el.parser.AstValue.invoke(java.lang.Class[], java.lang.Object[], org.apache.el.lang.EvaluationContext);org.apache.el.parser.AstMethodParameters;2;4;3;0.7894736842105263;0.8;28;161;17
 org.apache.catalina.connector.CoyoteAdapter.service(org.apache.coyote.Request, org.apache.coyote.Response);org.apache.catalina.connector.Response;7;3;10;1.0;0.9396551724137931;76;627;619
 org.apache.catalina.core.NamingContextListener.addResourceEnvRef(org.apache.catalina.deploy.ContextResourceEnvRef);org.apache.catalina.deploy.ResourceBase;4;3;2;0.9534883720930233;0.84;18;745;43
-org.apache.catalina.ha.session.DeltaManager.handleCHANGE_SESSION_ID(org.apache.catalina.ha.session.SessionMessage, org.apache.catalina.tribes.Member);org.apache.catalina.session.ManagerBase;0;0;0;0;0
+org.apache.catalina.ha.session.DeltaManager.handleCHANGE_SESSION_ID(org.apache.catalina.ha.session.SessionMessage, org.apache.catalina.tribes.Member);org.apache.catalina.session.ManagerBase;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.CoyoteAdapter.parseSessionCookiesId(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.tomcat.util.http.mapper.MappingData;1;1;7;0.9565217391304348;0.9473684210526316;26;627;11
 org.apache.catalina.connector.RequestFacade.isRequestedSessionIdFromUrl();org.apache.catalina.connector.Request;1;0;2;1.0;0.9939393939393939;6;468;1247
 org.apache.naming.resources.FileDirContext.rebind(java.lang.Object, java.lang.String, javax.naming.directory.Attributes);org.apache.naming.StringManager;1;1;3;0.9807692307692307;1.0;43;290;50
@@ -6231,7 +6231,7 @@ org.apache.catalina.core.ApplicationContext.addListener(T);org.apache.tomcat.uti
 org.apache.catalina.realm.MemoryRealm.startInternal();org.apache.tomcat.util.res.StringManager;2;2;3;0.9130434782608696;0.9444444444444444;20;94;52
 org.apache.coyote.http11.Http11AprProtocol.getUseSendfile();org.apache.tomcat.util.net.AprEndpoint;1;0;1;1.0;0.9866666666666667;3;534;447
 org.apache.catalina.ha.session.SimpleTcpReplicationManager.readSession(byte[], java.lang.String);org.apache.catalina.ha.session.SerializablePrincipal;1;2;4;0.9821428571428571;0.9722222222222222;36;356;83
-org.apache.catalina.startup.TldConfig.tldScanWebXml();org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0
+org.apache.catalina.startup.TldConfig.tldScanWebXml();org.apache.catalina.startup.XmlErrorHandler;0;0;0;0;0;0;0;0
 org.apache.catalina.ha.session.SimpleTcpReplicationManager.getReplicationStream(byte[], int, int);org.apache.catalina.session.ManagerBase;1;0;1;1.0;0.9882352941176471;17;356;530
 org.apache.catalina.core.NamingContextListener.addEjb(org.apache.catalina.deploy.ContextEjb);org.apache.catalina.deploy.ContextEjb;3;3;3;0.9545454545454546;0.85;17;745;45
 org.apache.catalina.startup.Catalina.load();org.apache.tomcat.util.digester.Digester;2;7;1;0.8478260869565217;0.9870967741935484;59;400;849
@@ -6244,12 +6244,12 @@ org.apache.catalina.connector.Request.getLocalPort();org.apache.coyote.ActionCod
 org.apache.catalina.core.NamingContextListener.addResourceLink(org.apache.catalina.deploy.ContextResourceLink);org.apache.tomcat.util.res.StringManager;1;4;3;0.9375;1.0;21;745;52
 org.apache.jasper.compiler.DeclarationVisitor.visit(org.apache.jasper.compiler.Node.CustomTag);org.apache.jasper.compiler.Node;5;0;1;1.0;0.9662162162162162;14;36;1053
 org.apache.coyote.http11.Http11AprProtocol.setDeferAccept(boolean);org.apache.tomcat.util.net.AprEndpoint;1;0;1;1.0;0.9866666666666667;3;534;447
-org.apache.catalina.connector.Response.doIsEncodeable(java.lang.String, org.apache.catalina.connector.Request, org.apache.catalina.Session);org.apache.catalina.core.ApplicationSessionCookieConfig;0;0;0;0;0
+org.apache.catalina.connector.Response.doIsEncodeable(java.lang.String, org.apache.catalina.connector.Request, org.apache.catalina.Session);org.apache.catalina.core.ApplicationSessionCookieConfig;0;0;0;0;0;0;0;0
 org.apache.coyote.ajp.AjpAprProcessor.process(long);org.apache.coyote.Constants;0;11;9;0.8;1.0;88;674;0
 org.apache.tomcat.util.digester.CallMethodRule.begin(java.lang.String, java.lang.String, org.xml.sax.Attributes);org.apache.tomcat.util.digester.Rule;0;1;2;0.9333333333333333;1.0;9;203;31
 org.apache.catalina.core.StandardContext.findStaticResources();org.apache.catalina.core.ContainerBase;1;0;1;1.0;0.9846153846153847;3;2319;481
 org.apache.catalina.ha.session.JvmRouteSessionIDBinderListener.messageReceived(org.apache.catalina.ha.ClusterMessage);org.apache.catalina.ha.ClusterListener;1;0;4;1.0;0.9583333333333334;32;54;25
-org.apache.catalina.mbeans.ContextResourceLinkMBean.setAttribute(javax.management.Attribute);org.apache.catalina.deploy.ContextResourceLink;0;0;0;0;0
+org.apache.catalina.mbeans.ContextResourceLinkMBean.setAttribute(javax.management.Attribute);org.apache.catalina.deploy.ContextResourceLink;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.net.AprEndpoint.destroy();org.apache.tomcat.jni.Pool;1;7;3;0.9146341463414634;1.0;21;447;0
 org.apache.coyote.ajp.AjpProtocol.setTcpNoDelay(boolean);org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;319;392
 org.apache.catalina.core.StandardContext.startInternal();org.apache.catalina.core.NamingContextListener;2;34;9;0.9098360655737705;0.9821428571428571;186;2319;745
@@ -6284,7 +6284,7 @@ org.apache.catalina.connector.RequestFacade.getRemotePort();org.apache.tomcat.ut
 org.apache.jasper.compiler.Validator.getFunctionMapper(org.apache.jasper.compiler.ELNode.Nodes);org.apache.jasper.compiler.ErrorDispatcher;1;7;3;0.9864864864864865;0.9767441860465116;47;1034;169
 org.apache.tomcat.util.bcel.classfile.ConstantPool.constantToString(org.apache.tomcat.util.bcel.classfile.Constant);org.apache.tomcat.util.bcel.classfile.ConstantString;1;2;11;1.0;0.96875;43;130;17
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.TagDirective);org.apache.jasper.compiler.Node;4;2;3;0.9722222222222222;0.9757575757575757;46;1034;1053
-org.apache.catalina.util.LifecycleBase.setState(java.lang.Object, org.apache.catalina.util.LifecycleState);org.apache.tomcat.util.res.StringManager;0;0;0;0;0
+org.apache.catalina.util.LifecycleBase.setState(java.lang.Object, org.apache.catalina.util.LifecycleState);org.apache.tomcat.util.res.StringManager;0;0;0;0;0;0;0;0
 org.apache.catalina.core.StandardContext.resourcesStart();org.apache.catalina.core.ContainerBase;3;9;7;0.972809667673716;0.9655172413793104;30;2319;481
 org.apache.jasper.compiler.ErrorDispatcher.doVisit(org.apache.jasper.compiler.Node);org.apache.jasper.compiler.Node;2;1;1;0.9583333333333334;0.9865771812080537;5;169;1053
 org.apache.jasper.compiler.Dumper.visit(org.apache.jasper.compiler.Node.TaglibDirective);org.apache.jasper.compiler.Node;1;1;1;1.0;0.9932885906040269;3;138;1053
@@ -6292,7 +6292,7 @@ org.apache.jasper.compiler.DeclarationVisitor.visit(org.apache.jasper.compiler.N
 org.apache.coyote.ajp.AjpMessage.appendBytes(org.apache.tomcat.util.buf.MessageBytes);org.apache.tomcat.util.buf.MessageBytes;2;5;2;0.8214285714285714;0.9565217391304348;19;235;382
 org.apache.coyote.ajp.AjpProcessor.prepareRequest();org.apache.tomcat.util.http.MimeHeaders;4;4;8;0.9365079365079365;0.92;153;705;129
 org.apache.catalina.core.StandardContext.removeWrapperListener(java.lang.String);org.apache.catalina.core.ContainerBase;1;2;1;0.9968553459119497;1.0;19;2319;481
-org.apache.catalina.tribes.tipis.AbstractReplicatedMap.init(int, java.lang.ClassLoader[], java.lang.String, long, org.apache.catalina.tribes.Channel, org.apache.catalina.tribes.tipis.AbstractReplicatedMap.MapOwner);org.apache.catalina.tribes.group.RpcChannel;0;0;0;0;0
+org.apache.catalina.tribes.tipis.AbstractReplicatedMap.init(int, java.lang.ClassLoader[], java.lang.String, long, org.apache.catalina.tribes.Channel, org.apache.catalina.tribes.tipis.AbstractReplicatedMap.MapOwner);org.apache.catalina.tribes.group.RpcChannel;0;0;0;0;0;0;0;0
 org.apache.tomcat.util.net.jsse.JSSESocketFactory.checkConfig();org.apache.tomcat.util.res.StringManager;1;2;1;0.9428571428571428;1.0;20;440;52
 org.apache.catalina.connector.Request.getReader();org.apache.catalina.connector.InputBuffer;1;2;2;0.9879518072289156;0.9696969696969697;9;1247;213
 org.apache.jasper.compiler.Validator.visit(org.apache.jasper.compiler.Node.Expression);org.apache.jasper.compiler.PageInfo;1;0;3;1.0;0.9868421052631579;5;1034;341
@@ -6371,7 +6371,7 @@ org.apache.catalina.ha.session.DeltaManager.handleSESSION_EXPIRED(org.apache.cat
 org.apache.coyote.http11.Http11NioProcessor.parseHost(org.apache.tomcat.util.buf.MessageBytes);org.apache.tomcat.util.net.AbstractEndpoint;1;1;7;0.9666666666666667;0.9866666666666667;54;840;392
 org.apache.jasper.compiler.Parser.parseTagDependentBody(java.lang.String, org.apache.jasper.compiler.Node);org.apache.jasper.compiler.JspReader;3;0;2;1.0;0.9;8;1185;304
 org.apache.coyote.http11.InternalNioOutputBuffer.flush();org.apache.coyote.http11.AbstractOutputBuffer;1;1;1;0.9230769230769231;0.9666666666666667;4;124;203
-org.apache.catalina.core.StandardContext.setClearReferencesStopTimerThreads(boolean);org.apache.catalina.core.ContainerBase;0;0;0;0;0
+org.apache.catalina.core.StandardContext.setClearReferencesStopTimerThreads(boolean);org.apache.catalina.core.ContainerBase;0;0;0;0;0;0;0;0
 org.apache.catalina.tribes.group.interceptors.GzipInterceptor.messageReceived(org.apache.catalina.tribes.ChannelMessage);org.apache.catalina.tribes.io.XByteBuffer;4;0;2;1.0;0.84;11;47;317
 org.apache.jasper.compiler.Dumper.visit(org.apache.jasper.compiler.Node.ForwardAction);org.apache.jasper.compiler.Node;1;3;1;0.9333333333333333;0.9933774834437086;5;138;1053
 org.apache.catalina.core.StandardEngine.startInternal();org.apache.catalina.util.ServerInfo;0;0;2;1.0;1.0;4;78;19
@@ -6418,7 +6418,7 @@ org.apache.catalina.core.StandardContext.addConstraint(org.apache.catalina.deplo
 org.apache.catalina.core.StandardHostValve.status(org.apache.catalina.connector.Request, org.apache.catalina.connector.Response);org.apache.catalina.Globals;0;1;6;0.9523809523809523;1.0;29;160;0
 org.apache.coyote.http11.Http11NioProtocol.process(org.apache.tomcat.util.net.NioChannel);org.apache.tomcat.util.net.NioEndpoint;3;4;9;0.9298245614035088;0.984251968503937;54;302;962
 org.apache.catalina.connector.Request.getParameter(java.lang.String);org.apache.tomcat.util.http.Parameters;1;2;2;0.9878787878787879;0.95;4;1247;246
-org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.coyote.ajp.AjpProcessor.action(java.lang.Object, org.apache.coyote.ActionCode);org.apache.tomcat.util.res.StringManager;1;10;10;0.8214285714285714;0.9722222222222222;122;705;52
 org.apache.tomcat.util.http.fileupload.DiskFileItem.getStoreLocation();org.apache.tomcat.util.http.fileupload.DeferredFileOutputStream;1;0;1;1.0;0.9090909090909091;3;232;60
 org.apache.catalina.ssi.SSIServletExternalResolver.getServletContextAndPathFromVirtualPath(java.lang.String);org.apache.catalina.util.RequestUtil;0;5;1;0.84375;1.0;21;410;189
@@ -6450,7 +6450,7 @@ org.apache.catalina.deploy.WebXml.configureContext(org.apache.catalina.Context);
 org.apache.catalina.authenticator.DigestAuthenticator.authenticate(javax.servlet.http.HttpServletResponse, org.apache.catalina.connector.Request, org.apache.catalina.deploy.LoginConfig);org.apache.catalina.authenticator.AuthenticatorBase;3;4;3;0.9047619047619048;0.9512195121951219;22;123;292
 org.apache.coyote.http11.filters.BufferedInputFilter.available();org.apache.tomcat.util.buf.ByteChunk;1;0;1;1.0;0.9777777777777777;3;49;425
 org.apache.coyote.ajp.AjpProtocol.getThreadPriority();org.apache.tomcat.util.net.AbstractEndpoint;1;0;1;1.0;0.9846153846153847;3;319;392
-org.apache.coyote.http11.Http11AprProcessor.process(long);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0
+org.apache.coyote.http11.Http11AprProcessor.process(long);org.apache.coyote.http11.AbstractHttp11Processor;0;0;0;0;0;0;0;0
 org.apache.el.parser.AstIdentifier.getMethodExpression(org.apache.el.lang.EvaluationContext);org.apache.el.parser.SimpleNode;1;0;2;1.0;0.967741935483871;24;93;123
 org.apache.coyote.memory.MemoryProtocolHandler.doRead(org.apache.coyote.Request, org.apache.tomcat.util.buf.ByteChunk);org.apache.tomcat.util.buf.ByteChunk;1;0;1;1.0;0.9777777777777777;3;44;425
 org.apache.catalina.session.StandardManager.unload();org.apache.catalina.security.SecurityUtil;0;2;1;0.9230769230769231;1.0;17;314;150
@@ -6464,5 +6464,5 @@ org.apache.catalina.manager.HTMLManagerServlet.upload(javax.servlet.http.HttpSer
 org.apache.catalina.users.MemoryUserDatabase.createGroup(java.lang.String, java.lang.String);org.apache.catalina.users.AbstractGroup;1;1;1;0.96875;0.8571428571428572;7;253;15
 org.apache.catalina.startup.SetNextNamingRule.end(java.lang.String, java.lang.String);org.apache.tomcat.util.digester.Rule;0;2;3;0.75;1.0;12;25;31
 org.apache.jasper.servlet.JspServlet.handleMissingResource(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse);org.apache.jasper.compiler.Localizer;0;1;2;0.9473684210526316;1.0;16;168;34
-org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.tomcat.util.buf.MessageBytes;0;0;0;0;0
+org.apache.catalina.connector.CoyoteAdapter.parsePathParameters(org.apache.catalina.connector.Request, org.apache.coyote.Request);org.apache.tomcat.util.buf.MessageBytes;0;0;0;0;0;0;0;0
 org.apache.catalina.connector.Request.recycle();org.apache.catalina.connector.RequestFacade;1;33;9;0.8125;0.9914529914529915;66;1247;468

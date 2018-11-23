@@ -196,8 +196,6 @@ public class CreateMetricFiles {
 			String method = instance.split(";")[0];
 			String enclosingClass = Utils.getEnclosingClass(method);
 			if (newInstances.contains(instance) && reader.contains(enclosingClass)) {
-				//String enclosingClass = Utils.getEnclosingClass(method);
-				//String enclosingClass = Utils.getEnclosingClass(method);
 				String targetClass = instance.split(";")[1];
 				
 				StringBuffer lineBuffer = new StringBuffer();
@@ -222,7 +220,7 @@ public class CreateMetricFiles {
 				
 				line = lineBuffer.toString();
 			}else {
-				line = instance + ";0;0;0;0;0";
+				line = instance + ";0;0;0;0;0;0;0;0";
 			}
 			lines.add(line);
 		}

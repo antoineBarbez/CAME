@@ -1,0 +1,5 @@
+bsh.ParserTokenManager
+bsh.Parser
+com.microstar.xml.XmlParser
+org.gjt.sp.jedit.Buffer
+org.gjt.sp.jedit.textarea.JEditTextArea
