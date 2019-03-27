@@ -1,5 +1,0 @@
-org.jgroups.JChannel
-org.jgroups.util.Util
-org.jgroups.protocols.TP
-org.jgroups.protocols.pbcast.GMS
-org.jgroups.protocols.pbcast.NAKACK

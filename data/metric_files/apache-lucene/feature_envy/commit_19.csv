@@ -1,0 +1,720 @@
+Method;Class;FDP;NIM_D;NAA_D;DISTANCE_D;LOC_D;NMD_D;NAD_D;NIM_E;NAA_E;DISTANCE_E;LOC_E;NMD_E;NAD_E
+org.apache.lucene.index.TermInfosReader.get(Term);org.apache.lucene.index.Term;1;3;3;0.7600;91;12;8;1;0;0.9524;39;7;2
+org.apache.lucene.queryParser.QueryParserTokenManager.jjFillToken();org.apache.lucene.queryParser.CharStream;1;0;3;0.9623;817;32;19;5;0;0.7500;12;12;0
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.index.TermInfosWriter;3;0;2;0.9459;219;7;10;2;0;0.9459;51;4;11
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.store.OutputStream;3;0;2;0.9459;219;7;10;3;0;0.9189;69;14;4
+org.apache.lucene.index.MultiTermPositions.nextPosition();org.apache.lucene.index.TermPositions;0;0;0;1.0000;9;2;0;0;0;1.0000;1;1;0
+org.apache.lucene.index.SegmentReader.getTermFreqVector(int, String);org.apache.lucene.index.FieldInfos;1;0;2;0.9535;217;29;13;1;0;0.9565;109;15;2
+org.apache.lucene.index.SegmentMergeQueue.close();org.apache.lucene.index.SegmentMergeInfo;0;0;0;1.0000;13;2;0;1;0;0.9091;30;2;6
+org.apache.lucene.search.ParallelMultiSearcher.rewrite(Query);org.apache.lucene.search.Searchable;0;0;1;0.8889;82;5;2;1;0;0.9091;9;9;0
+org.apache.lucene.index.TermVectorsWriter.writeDoc();org.apache.lucene.store.OutputStream;0;1;4;0.8148;135;14;13;3;0;0.8750;69;14;4
+org.apache.lucene.search.TermScorer.skipTo(int);org.apache.lucene.index.TermDocs;0;0;6;0.6667;74;5;11;3;0;0.7857;8;8;0
+org.apache.lucene.index.IndexReader.delete(Term);org.apache.lucene.index.TermDocs;0;2;0;0.9545;204;49;7;3;0;0.7000;8;8;0
+org.apache.lucene.search.spans.NearSpans.min();org.apache.lucene.util.PriorityQueue;0;0;1;0.9615;134;14;11;1;0;0.9286;79;10;3
+org.apache.lucene.document.Document.getValues(String);org.apache.lucene.document.Field;1;1;0;0.9167;76;9;2;0;1;0.9231;88;10;8
+org.apache.lucene.index.SegmentReader.maxDoc();org.apache.lucene.index.FieldsReader;1;0;1;0.9756;217;29;13;0;1;0.8750;27;2;4
+org.apache.lucene.index.IndexReader.open(Directory, boolean);org.apache.lucene.index.IndexWriter;1;0;0;1.0000;204;49;7;0;2;1.0000;216;17;20
+org.apache.lucene.search.ParallelMultiSearcher.search(Query, Filter, int);org.apache.lucene.util.PriorityQueue;2;0;2;0.8182;82;5;2;1;1;0.8824;79;10;3
+org.apache.lucene.index.DocumentWriter.writeNorms(Document, String);org.apache.lucene.index.FieldInfos;1;0;5;0.7917;219;7;10;2;0;0.9333;109;15;2
+org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.getNextToken();org.apache.lucene.analysis.standard.CharStream;1;2;6;0.7667;825;16;30;6;0;0.6842;12;12;0
+org.apache.lucene.search.PhraseScorer.skipTo(int);org.apache.lucene.search.PhrasePositions;1;1;2;0.8636;90;11;9;1;1;0.8571;35;4;6
+org.apache.lucene.index.TermInfosReader.close();org.apache.lucene.index.SegmentTermEnum;0;0;1;0.9524;91;12;8;1;0;0.9630;104;11;14
+org.apache.lucene.index.MultipleTermPositions.next();org.apache.lucene.index.TermPositions;1;0;4;0.8333;54;7;4;1;0;0.9412;1;1;0
+org.apache.lucene.index.SegmentTermPositions.skipProx(long);org.apache.lucene.store.InputStream;0;0;2;0.8182;36;7;3;1;0;0.9565;101;15;7
+org.apache.lucene.index.IndexWriter.docCount();org.apache.lucene.index.SegmentInfo;1;0;1;0.9697;216;17;20;0;1;0.8333;5;0;3
+org.apache.lucene.index.FieldsWriter.addDocument(Document);org.apache.lucene.document.Field;1;0;3;0.8125;30;2;3;0;4;0.8182;88;10;8
+org.apache.lucene.index.TermInfosReader.get(Term);org.apache.lucene.index.SegmentTermEnum;1;3;3;0.7600;91;12;8;0;4;0.8788;104;11;14
+org.apache.lucene.index.IndexWriter.deleteSegments(Vector);org.apache.lucene.index.IndexReader;1;4;1;0.8485;216;17;20;0;1;0.9792;204;49;7
+org.apache.lucene.index.SegmentTermEnum.growBuffer(int);org.apache.lucene.index.Term;1;0;2;0.9231;104;11;14;0;1;0.9231;39;7;2
+org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.store.Directory;1;0;4;0.8974;250;14;17;1;0;0.9583;11;11;0
+org.apache.lucene.search.BooleanQuery.BooleanWeight.explain(IndexReader, int);org.apache.lucene.search.BooleanQuery;3;0;2;0.8947;98;6;3;0;1;0.9545;84;10;2
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int);org.apache.lucene.search.Filter;1;0;1;0.9412;86;9;1;1;0;0.8571;1;1;0
+org.apache.lucene.search.Sort.setSort(String, boolean);org.apache.lucene.search.SortField;1;0;1;0.9091;47;5;3;0;2;1.0000;41;1;11
+org.apache.lucene.index.SegmentTermPositions.seek(TermInfo);org.apache.lucene.index.TermInfo;1;0;2;0.8462;36;7;3;0;1;0.9231;25;2;4
+org.apache.lucene.search.spans.NearSpans.queueToList();org.apache.lucene.util.PriorityQueue;0;1;3;0.8519;134;14;11;2;0;0.8824;79;10;3
+org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.TermVectorsReader;0;1;6;0.8444;217;29;13;1;0;0.9565;127;6;5
+org.apache.lucene.index.MultiTermDocs.doc();org.apache.lucene.index.TermDocs;1;0;2;0.8889;75;10;7;0;0;1.0000;8;8;0
+org.apache.lucene.index.SegmentTermDocs.seek(TermEnum);org.apache.lucene.index.SegmentReader;2;1;1;0.9355;113;9;16;0;2;0.9574;217;29;13
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.index.FieldInfos;3;0;2;0.9459;219;7;10;1;0;0.9756;109;15;2
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.index.TermVectorsWriter;3;0;2;0.9459;219;7;10;7;0;0.8205;135;14;13
+org.apache.lucene.index.SegmentMerger.bufferSkip(int);org.apache.lucene.store.OutputStream;0;0;6;0.8065;250;14;17;2;0;0.9130;69;14;4
+org.apache.lucene.index.MultipleTermPositions.TermPositionsQueue.lessThan(Object, Object);org.apache.lucene.index.TermDocs;0;0;0;1.0000;14;2;0;1;0;0.8750;8;8;0
+org.apache.lucene.index.TermInfosReader.readIndex();org.apache.lucene.index.SegmentTermEnum;1;0;6;0.7778;91;12;8;3;3;0.8182;104;11;14
+org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.store.Lock;2;0;4;0.9111;204;49;7;2;0;0.8000;21;4;1
+org.apache.lucene.search.DateFilter.bits(IndexReader);org.apache.lucene.index.IndexReader;0;0;3;0.8235;67;6;3;3;0;0.9434;204;49;7
+org.apache.lucene.index.SegmentTermEnum.seek(long, int, Term, TermInfo);org.apache.lucene.index.TermInfo;1;1;5;0.7857;104;11;14;1;0;0.9412;25;2;4
+org.apache.lucene.analysis.standard.StandardTokenizer.jj_consume_token(int);org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;1;5;0.7500;150;11;10;1;0;0.9697;825;16;30
+org.apache.lucene.index.SegmentMerger.mergeVectors();org.apache.lucene.index.TermFreqVector;0;0;4;0.9000;250;14;17;3;0;0.8333;6;6;0
+org.apache.lucene.search.spans.SpanWeight.sumOfSquaredWeights();org.apache.lucene.search.Similarity;1;0;5;0.6429;66;4;7;1;0;0.9375;55;15;2
+org.apache.lucene.search.TermQuery.TermWeight.explain(IndexReader, int);org.apache.lucene.index.IndexReader;3;2;3;0.7368;58;6;5;1;0;0.9818;204;49;7
+org.apache.lucene.index.IndexReader.open(Directory, boolean);org.apache.lucene.store.Directory;1;0;0;1.0000;204;49;7;1;0;0.9167;11;11;0
+org.apache.lucene.search.RangeQuery.rewrite(IndexReader);org.apache.lucene.search.BooleanQuery;1;1;3;0.7333;80;4;3;1;0;0.9545;84;10;2
+org.apache.lucene.search.BooleanQuery.BooleanWeight.explain(IndexReader, int);org.apache.lucene.search.Explanation;3;0;2;0.8947;98;6;3;2;2;0.7778;63;5;3
+org.apache.lucene.search.spans.SpanTermQuery.getField();org.apache.lucene.index.Term;1;0;1;0.8000;66;4;1;0;1;0.9167;39;7;2
+org.apache.lucene.search.PhrasePositions.skipTo(int);org.apache.lucene.index.TermDocs;0;0;3;0.7692;35;4;6;3;0;0.7273;8;8;0
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int);org.apache.lucene.util.PriorityQueue;1;0;1;0.9412;86;9;1;1;1;0.8889;79;10;3
+org.apache.lucene.index.IndexWriter.addIndexes(Directory[]);org.apache.lucene.index.SegmentInfos;0;1;1;0.9394;216;17;20;2;0;0.7143;68;4;3
+org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.index.IndexWriter;2;0;4;0.9111;204;49;7;0;2;1.0000;216;17;20
+org.apache.lucene.search.BooleanQuery.BooleanWeight.normalize(float);org.apache.lucene.search.BooleanClause;2;0;1;0.9231;98;6;3;0;1;0.9000;13;2;3
+org.apache.lucene.index.FilterIndexReader.FilterTermDocs.seek(Term);org.apache.lucene.index.TermDocs;0;0;1;0.8889;27;8;1;1;0;0.8889;8;8;0
+org.apache.lucene.index.TermEnum.skipTo(Term);org.apache.lucene.index.Term;0;2;0;0.6000;11;5;0;1;0;0.9231;39;7;2
+org.apache.lucene.search.MultiSearcherThread.hits();org.apache.lucene.search.TopDocs;1;0;1;0.9333;48;2;11;0;1;0.7500;4;0;2
+org.apache.lucene.index.SegmentReader.getFieldNames(boolean);org.apache.lucene.index.FieldInfos;1;0;1;0.9773;217;29;13;2;0;0.9091;109;15;2
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.TopFieldDocs;5;0;2;0.9130;107;11;3;0;1;0.9167;4;0;1
+org.apache.lucene.search.PrefixQuery.rewrite(IndexReader);org.apache.lucene.index.TermEnum;1;0;1;0.9091;47;3;1;3;0;0.7273;11;5;0
+org.apache.lucene.index.DocumentWriter.addPosition(String, String, int);org.apache.lucene.index.Term;1;0;2;0.8947;219;7;10;1;0;0.9333;39;7;2
+org.apache.lucene.index.TermInfosReader.getPosition(Term);org.apache.lucene.index.Term;1;2;2;0.8333;91;12;8;1;0;0.9444;39;7;2
+org.apache.lucene.index.SegmentReader.hasSeparateNorms(SegmentInfo);org.apache.lucene.index.SegmentInfo;1;0;0;1.0000;217;29;13;0;2;0.6000;5;0;3
+org.apache.lucene.index.TermInfosWriter.add(Term, TermInfo);org.apache.lucene.store.OutputStream;1;2;9;0.5833;51;4;11;3;0;0.9091;69;14;4
+org.apache.lucene.search.spans.NearSpans.SpansCell.next();org.apache.lucene.search.spans.NearSpans;1;3;2;0.6154;36;6;4;0;2;0.9375;134;14;11
+org.apache.lucene.analysis.ru.RussianLowerCaseFilter.next();org.apache.lucene.analysis.Token;1;0;1;0.8571;16;1;1;0;3;0.7273;30;1;5
+org.apache.lucene.search.PhraseScorer.sort();org.apache.lucene.util.PriorityQueue;1;1;2;0.8696;90;11;9;2;0;0.8824;79;10;3
+org.apache.lucene.index.SegmentReader.getFieldNames();org.apache.lucene.index.FieldInfo;1;0;1;0.9767;217;29;13;0;1;0.8750;6;0;4
+org.apache.lucene.search.SloppyPhraseScorer.phraseFreq();org.apache.lucene.search.PhrasePositions;1;0;1;0.9286;33;1;1;2;2;0.8000;35;4;6
+org.apache.lucene.index.FieldInfos.add(String, boolean, boolean);org.apache.lucene.index.FieldInfo;1;2;0;0.9000;109;15;2;0;2;0.7143;6;0;4
+org.apache.lucene.search.PhraseQuery.PhraseWeight.explain(IndexReader, int);org.apache.lucene.search.Similarity;3;2;3;0.7500;78;6;5;1;0;1.0000;55;15;2
+org.apache.lucene.search.Scorer.score(HitCollector);org.apache.lucene.search.HitCollector;0;3;0;0.5714;16;6;1;1;0;0.7500;1;1;0
+org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.search.TermQuery;2;0;6;0.7600;74;5;11;0;1;0.9500;30;4;1
+org.apache.lucene.search.PhraseScorer.doNext();org.apache.lucene.search.PhrasePositions;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.MultiTermDocs.read(int[], int[]);org.apache.lucene.index.TermDocs;0;1;5;0.6667;75;10;7;0;0;1.0000;8;8;0
+org.apache.lucene.search.RangeQuery.getField();org.apache.lucene.index.Term;1;0;2;0.7500;80;4;3;0;1;0.9231;39;7;2
+org.apache.lucene.search.TermQuery.toString(String);org.apache.lucene.index.Term;1;0;1;0.8571;30;4;1;0;2;0.8462;39;7;2
+org.apache.lucene.index.IndexWriter.readDeleteableFiles();org.apache.lucene.store.InputStream;0;0;1;0.9722;216;17;20;3;0;0.8750;101;15;7
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, HitCollector);org.apache.lucene.search.Weight;0;0;1;0.9333;86;9;1;1;0;0.9000;6;6;0
+org.apache.lucene.index.MultiTermDocs.next();org.apache.lucene.index.TermDocs;0;2;5;0.6667;75;10;7;0;0;1.0000;8;8;0
+org.apache.lucene.index.DocumentWriter.invertDocument(Document);org.apache.lucene.document.Document;2;1;6;0.7586;219;7;10;1;0;0.9677;76;9;2
+org.apache.lucene.analysis.ru.RussianStemFilter.next();org.apache.lucene.analysis.Token;1;0;2;0.8182;21;2;2;0;4;0.6923;30;1;5
+org.apache.lucene.queryParser.QueryParser.getToken(int);org.apache.lucene.queryParser.Token;1;0;4;0.9322;780;33;36;0;1;0.9231;9;1;8
+org.apache.lucene.index.IndexWriter.readDeleteableFiles();org.apache.lucene.store.Directory;0;0;1;0.9722;216;17;20;2;0;0.8667;11;11;0
+org.apache.lucene.search.Hits.getMoreDocs(int);org.apache.lucene.search.TopDocs;2;0;6;0.7500;92;7;10;0;2;0.8462;4;0;2
+org.apache.lucene.index.DocumentWriter.addDocument(String, Document);org.apache.lucene.index.FieldInfos;1;4;6;0.5455;219;7;10;3;0;0.9063;109;15;2
+org.apache.lucene.index.SegmentTermEnum.clone();org.apache.lucene.index.Term;1;1;3;0.8519;104;11;14;0;1;0.9375;39;7;2
+org.apache.lucene.index.TermInfosWriter.writeTerm(Term);org.apache.lucene.util.StringHelper;1;0;3;0.8500;51;4;11;1;0;1.0000;13;1;0
+org.apache.lucene.index.FieldInfos.write(OutputStream);org.apache.lucene.store.OutputStream;1;2;0;0.9167;109;15;2;3;0;0.8636;69;14;4
+org.apache.lucene.search.FieldCacheImpl.getCustom(IndexReader, String, SortComparator);org.apache.lucene.index.TermDocs;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.ParallelMultiSearcher.search(Query, Filter, HitCollector);org.apache.lucene.search.Searchable;0;0;2;0.7500;82;5;2;1;0;0.9091;9;9;0
+org.apache.lucene.index.TermInfosReader.scanEnum(Term);org.apache.lucene.index.SegmentTermEnum;1;0;1;0.9583;91;12;8;2;1;0.8929;104;11;14
+org.apache.lucene.index.SegmentReader.initialize(SegmentInfo);org.apache.lucene.store.Directory;1;2;9;0.7778;217;29;13;2;0;0.9167;11;11;0
+org.apache.lucene.index.IndexReader.open(String);org.apache.lucene.store.FSDirectory;0;1;0;1.0000;204;49;7;1;0;1.0000;178;17;9
+org.apache.lucene.search.IndexSearcher.maxDoc();org.apache.lucene.index.IndexReader;0;0;1;0.9167;86;9;1;1;0;0.9767;204;49;7
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.Scorer;3;0;1;0.9444;86;9;1;1;0;0.9286;16;6;1
+org.apache.lucene.search.FieldCacheImpl.getAuto(IndexReader, String);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.PhraseScorer.score();org.apache.lucene.search.PhrasePositions;1;0;4;0.8261;90;11;9;0;1;0.9412;35;4;6
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int);org.apache.lucene.util.PriorityQueue;3;0;2;0.9048;107;11;3;2;1;0.8421;79;10;3
+org.apache.lucene.index.IndexWriter.deleteFiles(Vector, Vector);org.apache.lucene.store.Directory;0;0;2;0.9394;216;17;20;2;0;0.8462;11;11;0
+org.apache.lucene.index.DocumentWriter.writeNorms(Document, String);org.apache.lucene.search.Similarity;1;0;5;0.7917;219;7;10;2;0;0.9524;55;15;2
+org.apache.lucene.search.BooleanScorer.next();org.apache.lucene.search.HitCollector;0;0;6;0.7931;69;8;10;1;0;0.9412;1;1;0
+org.apache.lucene.search.FieldSortedHitQueue.getCachedComparator(IndexReader, String, int, Locale, SortComparatorSource);org.apache.lucene.search.SortField;6;1;2;1.0000;114;7;3;0;6;1.0000;41;1;11
+org.apache.lucene.search.FieldSortedHitQueue.fillFields(FieldDoc);org.apache.lucene.search.FieldDoc;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.DocumentWriter.addDocument(String, Document);org.apache.lucene.index.FieldsWriter;1;4;6;0.5455;219;7;10;2;0;0.9000;30;2;3
+org.apache.lucene.index.SegmentMerger.mergeTerms();org.apache.lucene.store.OutputStream;1;1;9;0.7059;250;14;17;1;0;0.9677;69;14;4
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.Searchable;3;0;10;0.5238;48;2;11;2;0;0.9167;9;9;0
+org.apache.lucene.analysis.standard.StandardFilter.next();org.apache.lucene.analysis.Token;1;0;2;1.0000;23;1;2;0;4;0.6000;30;1;5
+org.apache.lucene.search.MultiSearcher.doc(int);org.apache.lucene.search.Searchable;0;1;2;0.8000;107;11;3;1;0;0.9167;9;9;0
+org.apache.lucene.search.spans.SpanScorer.skipTo(int);org.apache.lucene.search.spans.Spans;0;0;4;0.7895;48;4;8;5;0;0.5455;5;5;0
+org.apache.lucene.search.TermQuery.TermWeight.explain(IndexReader, int);org.apache.lucene.search.Scorer;3;2;3;0.7368;58;6;5;1;0;0.9500;16;6;1
+org.apache.lucene.index.SegmentReader.norms(String, byte[], int);org.apache.lucene.store.InputStream;0;1;1;0.9565;217;29;13;4;0;0.8400;101;15;7
+org.apache.lucene.search.spans.SpanScorer.explain(int);org.apache.lucene.search.Similarity;1;1;2;0.8125;48;4;8;1;0;0.9333;55;15;2
+org.apache.lucene.index.SegmentReader.usesCompoundFile(SegmentInfo);org.apache.lucene.store.Directory;1;0;0;1.0000;217;29;13;1;0;0.9231;11;11;0
+org.apache.lucene.index.MultiTermDocs.termDocs(int);org.apache.lucene.index.TermDocs;0;1;3;0.7778;75;10;7;0;0;1.0000;8;8;0
+org.apache.lucene.index.SegmentTermDocs.read(int[], int[]);org.apache.lucene.util.BitVector;0;0;6;0.7778;113;9;16;1;0;0.9412;50;5;4
+org.apache.lucene.queryParser.QueryParser.getFieldQuery(String, Analyzer, String);org.apache.lucene.search.PhraseQuery;2;0;1;0.9841;780;33;36;1;1;0.8667;55;6;3
+org.apache.lucene.index.SegmentReader.hasDeletions(SegmentInfo);org.apache.lucene.store.Directory;1;0;0;1.0000;217;29;13;1;0;0.9231;11;11;0
+org.apache.lucene.index.SegmentMerger.mergeTermInfo(SegmentMergeInfo[], int);org.apache.lucene.index.SegmentMergeInfo;1;2;4;0.8182;250;14;17;0;1;0.9444;30;2;6
+org.apache.lucene.index.MultipleTermPositions.skipTo(int);org.apache.lucene.util.PriorityQueue;0;1;1;0.8824;54;7;4;2;0;0.8947;79;10;3
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int);org.apache.lucene.search.Searchable;3;0;2;0.9048;107;11;3;1;0;0.9412;9;9;0
+org.apache.lucene.queryParser.QueryParser.getFieldQuery(String, Analyzer, String);org.apache.lucene.analysis.TokenStream;2;0;1;0.9841;780;33;36;2;0;0.7143;3;2;0
+org.apache.lucene.index.TermVectorsReader.checkValidFormat(InputStream);org.apache.lucene.store.InputStream;1;0;0;1.0000;127;6;5;1;0;0.9524;101;15;7
+org.apache.lucene.index.SegmentMerger.appendPostings(SegmentMergeInfo[], int);org.apache.lucene.store.OutputStream;1;2;3;0.8718;250;14;17;1;0;0.9677;69;14;4
+org.apache.lucene.queryParser.QueryParser.jj_scan_token(int);org.apache.lucene.queryParser.Token;1;1;7;0.8667;780;33;36;0;2;0.8824;9;1;8
+org.apache.lucene.search.FieldCacheImpl.getFloats(IndexReader, String);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.RemoteSearchable.explain(Query, int);org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.index.MultiTermDocs.seek(TermEnum);org.apache.lucene.index.TermEnum;0;1;0;0.9444;75;10;7;1;0;0.8333;11;5;0
+org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.CompoundFileWriter;1;0;5;0.9167;250;14;17;2;0;0.8824;85;3;5
+org.apache.lucene.index.SegmentMerger.mergeTerms();org.apache.lucene.index.TermInfosWriter;1;1;9;0.7059;250;14;17;1;1;0.9310;51;4;11
+org.apache.lucene.index.SegmentTermPositions.seek(TermInfo);org.apache.lucene.store.InputStream;1;0;2;0.8462;36;7;3;1;0;0.9600;101;15;7
+org.apache.lucene.search.FieldCacheImpl.getStringIndex(IndexReader, String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexReader.isLocked(Directory);org.apache.lucene.store.Directory;1;0;0;1.0000;204;49;7;1;0;0.9167;11;11;0
+org.apache.lucene.index.FieldInfos.write(Directory, String);org.apache.lucene.store.Directory;0;1;0;0.9500;109;15;2;1;0;0.9231;11;11;0
+org.apache.lucene.store.RAMOutputStream.reset();org.apache.lucene.store.RAMFile;1;1;1;0.7778;60;6;2;0;1;0.8000;0;0;3
+org.apache.lucene.index.SegmentReader.usesCompoundFile(SegmentInfo);org.apache.lucene.index.SegmentInfo;1;0;0;1.0000;217;29;13;0;2;0.6000;5;0;3
+org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.index.SegmentMerger;2;1;7;0.8462;216;17;20;2;0;0.9524;250;14;17
+org.apache.lucene.search.PhraseQuery.PhraseWeight.sumOfSquaredWeights();org.apache.lucene.search.PhraseQuery;1;0;3;0.7857;78;6;5;0;1;0.9375;55;6;3
+org.apache.lucene.index.MultiTermDocs.freq();org.apache.lucene.index.TermDocs;1;0;1;0.9444;75;10;7;0;0;1.0000;8;8;0
+org.apache.lucene.queryParser.QueryParserTokenManager.getNextToken();org.apache.lucene.queryParser.CharStream;1;5;7;0.7917;817;32;19;6;0;0.7273;12;12;0
+org.apache.lucene.index.IndexWriter.addIndexes(IndexReader[]);org.apache.lucene.store.Directory;0;2;3;0.8889;216;17;20;1;0;0.9474;11;11;0
+org.apache.lucene.queryParser.QueryParser.ReInit(CharStream);org.apache.lucene.queryParser.QueryParserTokenManager;0;0;6;0.8966;780;33;36;1;0;0.9796;817;32;19
+org.apache.lucene.index.IndexReader.unlock(Directory);org.apache.lucene.store.Lock;1;0;0;1.0000;204;49;7;1;0;0.8000;21;4;1
+org.apache.lucene.search.spans.NearSpans.SpansCell.skipTo(int);org.apache.lucene.search.spans.NearSpans;1;3;2;0.6154;36;6;4;0;2;0.9375;134;14;11
+org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.jjMoveNfa_0(int, int);org.apache.lucene.analysis.standard.CharStream;0;8;7;0.5200;825;16;30;1;0;0.9583;12;12;0
+org.apache.lucene.search.Sort.setSort(String[]);org.apache.lucene.search.SortField;1;0;1;0.9091;47;5;3;0;1;1.0000;41;1;11
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, HitCollector);org.apache.lucene.search.Scorer;0;0;1;0.9333;86;9;1;1;0;0.9091;16;6;1
+org.apache.lucene.search.BooleanQuery.BooleanWeight.normalize(float);org.apache.lucene.search.BooleanQuery;2;0;1;0.9231;98;6;3;0;1;0.9333;84;10;2
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.scorer(IndexReader);org.apache.lucene.index.IndexReader;1;0;1;0.9333;67;5;5;2;0;0.9574;204;49;7
+org.apache.lucene.index.SegmentMerger.mergeVectors();org.apache.lucene.index.IndexReader;0;0;4;0.9000;250;14;17;3;0;0.9444;204;49;7
+org.apache.lucene.search.RemoteSearchable.search(Query, Filter, HitCollector);org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.index.SegmentTermPositions.nextPosition();org.apache.lucene.store.InputStream;0;0;3;0.7273;36;7;3;1;0;0.9583;101;15;7
+org.apache.lucene.search.FieldCacheImpl.getInts(IndexReader, String);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.index.TermDocs;2;0;6;0.7600;74;5;11;4;0;0.8000;8;8;0
+org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.store.Directory;2;0;4;0.9111;204;49;7;1;0;0.9444;11;11;0
+org.apache.lucene.index.DocumentWriter.addDocument(String, Document);org.apache.lucene.document.Document;1;4;6;0.5455;219;7;10;0;1;0.9630;76;9;2
+org.apache.lucene.search.FieldCacheImpl.getCustom(IndexReader, String, SortComparator);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.DocumentWriter.writeNorms(Document, String);org.apache.lucene.index.FieldInfo;1;0;5;0.7917;219;7;10;0;2;0.8750;6;0;4
+org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.index.SegmentMergeInfo;1;0;3;0.7857;43;2;3;2;2;0.7647;30;2;6
+org.apache.lucene.index.SegmentReader.terms();org.apache.lucene.index.TermInfosReader;0;0;1;0.9756;217;29;13;1;0;0.9545;91;12;8
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.FieldDocSortedHitQueue;5;0;2;0.9130;107;11;3;0;1;0.9286;84;2;1
+org.apache.lucene.index.IndexWriter.flushRamSegments();org.apache.lucene.index.SegmentInfos;1;1;3;0.8824;216;17;20;1;0;0.9091;68;4;3
+org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.index.Term;2;1;2;0.9231;250;14;17;1;0;0.9565;39;7;2
+org.apache.lucene.search.PhraseScorer.next();org.apache.lucene.search.PhrasePositions;1;3;5;0.6522;90;11;9;2;1;0.8421;35;4;6
+org.apache.lucene.index.FieldInfos.fieldNumber(String);org.apache.lucene.index.FieldInfo;1;1;0;0.9474;109;15;2;0;1;0.8333;6;0;4
+org.apache.lucene.search.spans.NearSpans.SpansCell.next();org.apache.lucene.search.spans.Spans;1;3;2;0.6154;36;6;4;1;0;0.9167;5;5;0
+org.apache.lucene.search.BooleanQuery.BooleanWeight.normalize(float);org.apache.lucene.search.Weight;2;0;1;0.9231;98;6;3;1;0;0.9000;6;6;0
+org.apache.lucene.index.DocumentWriter.quickSort(Posting[], int, int);org.apache.lucene.index.Term;1;1;0;1.0000;219;7;10;1;0;0.9167;39;7;2
+org.apache.lucene.document.Document.toString();org.apache.lucene.document.Field;0;0;1;0.9167;76;9;2;1;0;0.9231;88;10;8
+org.apache.lucene.index.SegmentTermEnum.next();org.apache.lucene.store.InputStream;1;1;11;0.6129;104;11;14;2;0;0.9459;101;15;7
+org.apache.lucene.index.SegmentMerger.mergeTerms();org.apache.lucene.index.SegmentMergeQueue;1;1;9;0.7059;250;14;17;1;0;0.9412;13;2;0
+org.apache.lucene.search.Searcher.search(Query, HitCollector);org.apache.lucene.search.Searchable;0;0;0;1.0000;21;5;1;1;0;0.8889;9;9;0
+org.apache.lucene.search.FieldCacheImpl.getStrings(IndexReader, String);org.apache.lucene.index.TermDocs;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.jjFillToken();org.apache.lucene.analysis.standard.CharStream;1;0;3;0.9429;825;16;30;5;0;0.7500;12;12;0
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.util.PriorityQueue;3;0;10;0.5238;48;2;11;1;0;0.9655;79;10;3
+org.apache.lucene.search.PhrasePositions.firstPosition();org.apache.lucene.index.TermDocs;0;1;2;0.7273;35;4;6;1;0;0.9091;8;8;0
+org.apache.lucene.search.QueryFilter.bits(IndexReader);org.apache.lucene.index.IndexReader;0;0;2;0.5000;25;1;2;1;0;0.9778;204;49;7
+org.apache.lucene.search.FieldDocSortedHitQueue.lessThan(Object, Object);org.apache.lucene.search.SortField;2;0;1;0.8333;84;2;1;0;8;0.8000;41;1;11
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.util.PriorityQueue;5;0;2;0.9130;107;11;3;2;1;0.8571;79;10;3
+org.apache.lucene.search.BooleanQuery.BooleanWeight.explain(IndexReader, int);org.apache.lucene.search.Weight;3;0;2;0.8947;98;6;3;1;0;0.9412;6;6;0
+org.apache.lucene.index.SegmentReader.hasDeletions(SegmentInfo);org.apache.lucene.index.SegmentInfo;1;0;0;1.0000;217;29;13;0;2;0.6000;5;0;3
+org.apache.lucene.index.SegmentReader.Norm.reWrite();org.apache.lucene.store.OutputStream;1;0;3;0.7500;16;1;4;2;0;0.9200;69;14;4
+org.apache.lucene.index.SegmentReader.openNorms(Directory);org.apache.lucene.store.Directory;1;0;3;0.9375;217;29;13;2;0;0.9000;11;11;0
+org.apache.lucene.index.SegmentReader.doDelete(int);org.apache.lucene.util.BitVector;0;1;3;0.9024;217;29;13;1;0;0.9286;50;5;4
+org.apache.lucene.index.SegmentReader.document(int);org.apache.lucene.index.FieldsReader;0;1;1;0.9512;217;29;13;1;0;0.8889;27;2;4
+org.apache.lucene.search.PhraseQuery.PhraseWeight.sumOfSquaredWeights();org.apache.lucene.search.Similarity;1;0;3;0.7857;78;6;5;1;0;0.9333;55;15;2
+org.apache.lucene.search.FieldSortedHitQueue.fillFields(FieldDoc);org.apache.lucene.search.ScoreDoc;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentInfos.readCurrentVersion(Directory);org.apache.lucene.store.Directory;0;1;2;0.7778;68;4;3;1;0;0.9375;11;11;0
+org.apache.lucene.analysis.standard.StandardTokenizer.getNextToken();org.apache.lucene.analysis.standard.Token;1;0;4;0.8261;150;11;10;0;1;0.9231;9;1;8
+org.apache.lucene.search.PhraseScorer.init();org.apache.lucene.search.PhrasePositions;1;1;2;0.8636;90;11;9;1;1;0.8571;35;4;6
+org.apache.lucene.index.TermInfosWriter.writeTerm(Term);org.apache.lucene.store.OutputStream;1;0;3;0.8500;51;4;11;2;0;0.9130;69;14;4
+org.apache.lucene.search.RangeQuery.rewrite(IndexReader);org.apache.lucene.index.Term;1;1;3;0.7333;80;4;3;0;2;0.9048;39;7;2
+org.apache.lucene.queryParser.QueryParserTokenManager.jjStartNfaWithStates_3(int, int, int);org.apache.lucene.queryParser.CharStream;0;1;4;0.8837;817;32;19;1;0;0.9412;12;12;0
+org.apache.lucene.index.TermInfosReader.getIndexOffset(Term);org.apache.lucene.index.Term;0;0;1;0.9524;91;12;8;1;0;0.9167;39;7;2
+org.apache.lucene.index.SegmentReader.docFreq(Term);org.apache.lucene.index.TermInfo;1;0;1;0.9762;217;29;13;0;1;0.9091;25;2;4
+org.apache.lucene.search.FieldCacheImpl.getStrings(IndexReader, String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexReader.isLocked(Directory);org.apache.lucene.index.IndexWriter;1;0;0;1.0000;204;49;7;0;2;1.0000;216;17;20
+org.apache.lucene.index.SegmentMerger.writeSkip();org.apache.lucene.store.OutputStream;0;0;2;0.9355;250;14;17;1;0;0.9500;69;14;4
+org.apache.lucene.queryParser.QueryParser.jj_consume_token(int);org.apache.lucene.queryParser.QueryParserTokenManager;1;1;7;0.8730;780;33;36;1;0;0.9821;817;32;19
+org.apache.lucene.index.TermInfosWriter.add(Term, TermInfo);org.apache.lucene.index.Term;1;2;9;0.5833;51;4;11;1;0;0.9655;39;7;2
+org.apache.lucene.index.TermVectorsReader.checkValidFormat(InputStream);org.apache.lucene.index.TermVectorsWriter;1;0;0;1.0000;127;6;5;0;1;1.0000;135;14;13
+org.apache.lucene.search.spans.SpanWeight.scorer(IndexReader);org.apache.lucene.search.spans.SpanQuery;0;0;2;0.8667;66;4;7;2;0;0.7500;6;4;0
+org.apache.lucene.analysis.StopFilter.next();org.apache.lucene.analysis.Token;1;0;1;0.8571;26;3;1;0;1;0.9091;30;1;5
+org.apache.lucene.search.MultiTermQuery.toString(String);org.apache.lucene.index.Term;1;0;1;0.8571;42;4;1;0;2;0.8462;39;7;2
+org.apache.lucene.analysis.standard.StandardTokenizer.next();org.apache.lucene.analysis.standard.StandardTokenizerConstants;2;2;3;0.8571;150;11;10;0;10;0.6154;0;0;17
+org.apache.lucene.search.Query.weight(Searcher);org.apache.lucene.search.Similarity;0;2;0;0.8333;53;9;1;1;0;0.9286;55;15;2
+org.apache.lucene.search.FieldCacheImpl.getStringIndex(IndexReader, String);org.apache.lucene.search.FieldCache;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.ExactPhraseScorer.phraseFreq();org.apache.lucene.util.PriorityQueue;1;0;0;1.0000;23;1;0;1;0;0.9545;79;10;3
+org.apache.lucene.search.DateFilter.bits(IndexReader);org.apache.lucene.index.Term;0;0;3;0.8235;67;6;3;1;0;0.9583;39;7;2
+org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.store.InputStream;0;1;6;0.8444;217;29;13;1;0;0.9688;101;15;7
+org.apache.lucene.index.SegmentReader.getTermFreqVectors(int);org.apache.lucene.index.TermVectorsReader;0;0;1;0.9756;217;29;13;1;0;0.9231;127;6;5
+org.apache.lucene.search.ParallelMultiSearcher.search(Query, Filter, int);org.apache.lucene.search.MultiSearcherThread;2;0;2;0.8182;82;5;2;1;1;0.8947;48;2;11
+org.apache.lucene.index.IndexReader.termDocs(Term);org.apache.lucene.index.TermDocs;0;1;0;0.9762;204;49;7;1;0;0.8889;8;8;0
+org.apache.lucene.index.SegmentMerger.appendPostings(SegmentMergeInfo[], int);org.apache.lucene.index.TermPositions;1;2;3;0.8718;250;14;17;1;0;0.9333;1;1;0
+org.apache.lucene.search.DateFilter.toString();org.apache.lucene.document.DateField;0;0;3;0.5000;67;6;3;1;0;1.0000;31;6;1
+org.apache.lucene.analysis.standard.StandardTokenizer.next();org.apache.lucene.analysis.standard.Token;2;2;3;0.8571;150;11;10;0;4;0.8261;9;1;8
+org.apache.lucene.search.BooleanScorer.computeCoordFactors();org.apache.lucene.search.Similarity;0;0;2;0.9000;69;8;10;1;0;0.9167;55;15;2
+org.apache.lucene.search.spans.SpanWeight.scorer(IndexReader);org.apache.lucene.index.IndexReader;0;0;2;0.8667;66;4;7;1;0;0.9787;204;49;7
+org.apache.lucene.index.TermVectorsWriter.addTermFreqVectorInternal(TermFreqVector);org.apache.lucene.index.TermFreqVector;0;3;0;0.8846;135;14;13;4;0;0.5556;6;6;0
+org.apache.lucene.document.Document.removeFields(String);org.apache.lucene.document.Field;1;0;1;0.9167;76;9;2;0;1;0.9231;88;10;8
+org.apache.lucene.store.RAMDirectory.touchFile(String);org.apache.lucene.store.RAMFile;1;0;1;0.9412;98;11;1;0;1;0.7500;0;0;3
+org.apache.lucene.index.FieldsReader.doc(int);org.apache.lucene.document.Document;1;0;3;0.8125;27;2;4;1;0;0.9583;76;9;2
+org.apache.lucene.search.MultiSearcher.rewrite(Query);org.apache.lucene.search.Query;0;0;1;0.9375;107;11;3;1;0;0.9091;53;9;1
+org.apache.lucene.index.SegmentTermEnum.docFreq();org.apache.lucene.index.TermInfo;1;0;1;0.9615;104;11;14;0;1;0.9000;25;2;4
+org.apache.lucene.search.BooleanQuery.BooleanWeight.sumOfSquaredWeights();org.apache.lucene.search.BooleanClause;2;0;1;0.9231;98;6;3;0;1;0.9000;13;2;3
+org.apache.lucene.queryParser.QueryParser.jj_ntk();org.apache.lucene.queryParser.QueryParserTokenManager;1;0;4;0.9333;780;33;36;1;0;0.9796;817;32;19
+org.apache.lucene.index.TermVectorsWriter.openDocument();org.apache.lucene.store.OutputStream;0;1;2;0.8696;135;14;13;1;0;0.9500;69;14;4
+org.apache.lucene.index.FieldInfos.hasVectors();org.apache.lucene.index.FieldInfo;1;2;0;0.8947;109;15;2;0;1;0.8571;6;0;4
+org.apache.lucene.search.RangeQuery.rewrite(IndexReader);org.apache.lucene.index.IndexReader;1;1;3;0.7333;80;4;3;1;0;0.9811;204;49;7
+org.apache.lucene.index.MultiTermDocs.close();org.apache.lucene.index.TermDocs;0;0;1;0.9444;75;10;7;0;0;1.0000;8;8;0
+org.apache.lucene.queryParser.QueryParserTokenManager.getNextToken();org.apache.lucene.queryParser.TokenMgrError;1;5;7;0.7917;817;32;19;0;1;1.0000;59;3;5
+org.apache.lucene.index.SegmentTermEnum.close();org.apache.lucene.store.InputStream;0;0;1;0.9615;104;11;14;1;0;0.9545;101;15;7
+org.apache.lucene.index.IndexReader.commit();org.apache.lucene.store.Lock;1;1;4;0.8864;204;49;7;1;0;0.9091;21;4;1
+org.apache.lucene.search.FieldSortedHitQueue.lessThan(Object, Object);org.apache.lucene.search.ScoreDocComparator;0;0;1;0.8333;114;7;3;1;0;0.8000;4;4;2
+org.apache.lucene.search.PhraseScorer.score();org.apache.lucene.search.Similarity;1;0;4;0.8261;90;11;9;2;0;0.9333;55;15;2
+org.apache.lucene.analysis.de.GermanAnalyzer.setStemExclusionTable(File);org.apache.lucene.analysis.de.WordlistLoader;0;0;1;0.9000;29;4;3;1;0;1.0000;37;5;0
+org.apache.lucene.index.TermInfosReader.getPosition(Term);org.apache.lucene.index.SegmentTermEnum;1;2;2;0.8333;91;12;8;1;2;0.9032;104;11;14
+org.apache.lucene.search.IndexSearcher.explain(Query, int);org.apache.lucene.search.Query;0;0;1;0.9231;86;9;1;1;0;0.9091;53;9;1
+org.apache.lucene.index.SegmentTermDocs.seek(TermEnum);org.apache.lucene.index.TermEnum;2;1;1;0.9355;113;9;16;1;0;0.9167;11;5;0
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.index.Posting;3;0;2;0.9459;219;7;10;0;3;0.8750;6;0;3
+org.apache.lucene.search.PhraseScorer.pqToList();org.apache.lucene.util.PriorityQueue;1;0;3;0.8696;90;11;9;2;0;0.8824;79;10;3
+org.apache.lucene.search.FieldCacheImpl.getStringIndex(IndexReader, String);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.PhrasePrefixQuery.add(Term[]);org.apache.lucene.index.Term;1;0;2;0.7143;53;4;3;0;1;0.9231;39;7;2
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int);org.apache.lucene.search.Query;1;0;1;0.9412;86;9;1;1;0;0.9333;53;9;1
+org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.store.Directory;1;0;5;0.9167;250;14;17;1;0;0.9500;11;11;0
+org.apache.lucene.analysis.de.GermanAnalyzer.setStemExclusionTable(String[]);org.apache.lucene.analysis.StopFilter;0;0;1;0.9000;29;4;3;1;0;1.0000;26;3;1
+org.apache.lucene.index.SegmentReader.Norm.reWrite();org.apache.lucene.index.SegmentReader;1;0;3;0.7500;16;1;4;1;1;0.9592;217;29;13
+org.apache.lucene.search.Hits.doc(int);org.apache.lucene.search.Searchable;1;3;4;0.6667;92;7;10;1;0;0.9444;9;9;0
+org.apache.lucene.search.PhrasePrefixQuery.toString(String);org.apache.lucene.index.Term;1;0;3;0.6250;53;4;3;0;1;0.9333;39;7;2
+org.apache.lucene.index.IndexWriter.docCount();org.apache.lucene.index.SegmentInfos;1;0;1;0.9697;216;17;20;1;0;0.8571;68;4;3
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int);org.apache.lucene.search.Scorer;1;0;1;0.9412;86;9;1;1;0;0.9231;16;6;1
+org.apache.lucene.search.TermQuery.TermWeight.scorer(IndexReader);org.apache.lucene.index.Term;2;0;1;0.9333;58;6;5;0;1;0.9375;39;7;2
+org.apache.lucene.search.RemoteSearchable.rewrite(Query);org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.sumOfSquaredWeights();org.apache.lucene.search.Similarity;1;0;3;0.7692;67;5;5;1;0;0.9333;55;15;2
+org.apache.lucene.index.TermInfosReader.seekEnum(int);org.apache.lucene.index.SegmentTermEnum;1;0;4;0.8182;91;12;8;1;1;0.9333;104;11;14
+org.apache.lucene.index.DocumentWriter.invertDocument(Document);org.apache.lucene.analysis.TokenStream;2;1;6;0.7586;219;7;10;2;0;0.9000;3;2;0
+org.apache.lucene.index.SegmentMerger.closeReaders();org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int, Sort);org.apache.lucene.util.PriorityQueue;3;0;1;0.9444;86;9;1;1;1;0.8947;79;10;3
+org.apache.lucene.search.spans.SpanWeight.explain(IndexReader, int);org.apache.lucene.search.spans.SpanQuery;3;1;5;0.7143;66;4;7;1;0;0.9474;6;4;0
+org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.store.Directory;2;1;7;0.8462;216;17;20;1;0;0.9583;11;11;0
+org.apache.lucene.index.FilterIndexReader.FilterTermDocs.freq();org.apache.lucene.index.TermDocs;0;0;1;0.8889;27;8;1;1;0;0.8889;8;8;0
+org.apache.lucene.search.spans.SpanWeight.explain(IndexReader, int);org.apache.lucene.search.Searchable;3;1;5;0.7143;66;4;7;1;0;0.9583;9;9;0
+org.apache.lucene.index.IndexReader.close();org.apache.lucene.store.Directory;0;2;2;0.9048;204;49;7;1;0;0.9333;11;11;0
+org.apache.lucene.search.spans.NearSpans.firstNonOrderedNextToPartialList();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.analysis.standard.StandardTokenizer.jj_ntk();org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;0;4;0.8333;150;11;10;1;0;0.9677;825;16;30
+org.apache.lucene.search.BooleanQuery.BooleanWeight.sumOfSquaredWeights();org.apache.lucene.search.Weight;2;0;1;0.9231;98;6;3;1;0;0.9000;6;6;0
+org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.index.FieldInfo;1;0;4;0.8974;250;14;17;0;2;0.8824;6;0;4
+org.apache.lucene.index.IndexWriter.finalize();org.apache.lucene.store.Lock;0;0;1;0.9688;216;17;20;1;0;0.8000;21;4;1
+org.apache.lucene.index.SegmentReader.files();org.apache.lucene.store.Directory;1;0;2;0.9556;217;29;13;1;0;0.9412;11;11;0
+org.apache.lucene.index.SegmentReader.files();org.apache.lucene.index.FieldInfos;1;0;2;0.9556;217;29;13;2;0;0.9167;109;15;2
+org.apache.lucene.index.MultipleTermPositions.next();org.apache.lucene.index.TermDocs;1;0;4;0.8333;54;7;4;4;0;0.8095;8;8;0
+org.apache.lucene.search.BooleanQuery.BooleanWeight.sumOfSquaredWeights();org.apache.lucene.search.BooleanQuery;2;0;1;0.9231;98;6;3;0;1;0.9333;84;10;2
+org.apache.lucene.index.IndexWriter.optimize();org.apache.lucene.index.SegmentInfos;1;2;4;0.8182;216;17;20;1;0;0.9167;68;4;3
+org.apache.lucene.search.TermQuery.TermWeight.scorer(IndexReader);org.apache.lucene.search.TermQuery;2;0;1;0.9333;58;6;5;0;1;0.9000;30;4;1
+org.apache.lucene.document.Document.getField(String);org.apache.lucene.document.Field;1;0;1;0.9167;76;9;2;0;1;0.9231;88;10;8
+org.apache.lucene.search.TermQuery.TermWeight.scorer(IndexReader);org.apache.lucene.index.IndexReader;2;0;1;0.9333;58;6;5;2;0;0.9565;204;49;7
+org.apache.lucene.search.Sort.toString();org.apache.lucene.search.SortField;0;0;1;0.9167;47;5;3;1;0;0.8889;41;1;11
+org.apache.lucene.search.PhrasePositions.next();org.apache.lucene.index.TermDocs;0;0;3;0.7692;35;4;6;3;0;0.7273;8;8;0
+org.apache.lucene.search.spans.NearSpans.partialListToQueue();org.apache.lucene.util.PriorityQueue;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.IndexSearcher.doc(int);org.apache.lucene.index.IndexReader;0;0;1;0.9167;86;9;1;1;0;0.9767;204;49;7
+org.apache.lucene.search.BooleanQuery.BooleanWeight.scorer(IndexReader);org.apache.lucene.search.BooleanClause;2;0;2;0.8824;98;6;3;0;3;0.7692;13;2;3
+org.apache.lucene.search.IndexSearcher.explain(Query, int);org.apache.lucene.search.Weight;0;0;1;0.9231;86;9;1;1;0;0.8750;6;6;0
+org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.search.Weight;2;0;6;0.7600;74;5;11;1;0;0.9524;6;6;0
+org.apache.lucene.search.FieldSortedHitQueue.getCachedComparator(IndexReader, String, int, Locale, SortComparatorSource);org.apache.lucene.search.SortComparatorSource;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexWriter.flushRamSegments();org.apache.lucene.index.SegmentInfo;1;1;3;0.8824;216;17;20;0;2;0.7778;5;0;3
+org.apache.lucene.index.SegmentReader.numDocs();org.apache.lucene.util.BitVector;0;1;1;0.9512;217;29;13;1;0;0.9167;50;5;4
+org.apache.lucene.index.SegmentTermEnum.freqPointer();org.apache.lucene.index.TermInfo;1;0;1;0.9615;104;11;14;0;1;0.9000;25;2;4
+org.apache.lucene.search.WildcardTermEnum.termCompare(Term);org.apache.lucene.index.Term;1;1;5;0.5833;84;4;9;0;2;0.8750;39;7;2
+org.apache.lucene.index.IndexWriter.optimize();org.apache.lucene.index.SegmentReader;1;2;4;0.8182;216;17;20;3;0;1.0000;217;29;13
+org.apache.lucene.search.DateFilter.Before(String, Date);org.apache.lucene.document.DateField;0;0;1;0.8571;67;6;3;1;0;1.0000;31;6;1
+org.apache.lucene.index.MultiTermPositions.termDocs(IndexReader);org.apache.lucene.index.IndexReader;0;0;0;1.0000;9;2;0;1;0;0.9762;204;49;7
+org.apache.lucene.index.SegmentTermDocs.seek(TermInfo);org.apache.lucene.index.TermInfo;1;0;12;0.6000;113;9;16;0;4;0.8182;25;2;4
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, HitCollector);org.apache.lucene.search.Searchable;0;0;2;0.8667;107;11;3;1;0;0.9091;9;9;0
+org.apache.lucene.index.SegmentReader.openNorms(Directory);org.apache.lucene.index.FieldInfo;1;0;3;0.9375;217;29;13;0;3;0.7692;6;0;4
+org.apache.lucene.search.Hits.getMoreDocs(int);org.apache.lucene.search.ScoreDoc;2;0;6;0.7500;92;7;10;0;2;0.8462;4;0;2
+org.apache.lucene.search.TermScorer.score();org.apache.lucene.search.Similarity;0;0;7;0.6471;74;5;11;2;0;0.9375;55;15;2
+org.apache.lucene.document.Document.removeField(String);org.apache.lucene.document.Field;1;0;1;0.9167;76;9;2;0;1;0.9231;88;10;8
+org.apache.lucene.index.SegmentReader.getTermFreqVector(int, String);org.apache.lucene.index.TermVectorsReader;1;0;2;0.9535;217;29;13;1;0;0.9375;127;6;5
+org.apache.lucene.index.SegmentTermDocs.seek(TermEnum);org.apache.lucene.index.TermInfosReader;2;1;1;0.9355;113;9;16;1;0;0.9643;91;12;8
+org.apache.lucene.index.IndexReader.commit();org.apache.lucene.store.Directory;1;1;4;0.8864;204;49;7;1;0;0.9444;11;11;0
+org.apache.lucene.index.SegmentTermPositions.next();org.apache.lucene.store.InputStream;0;0;3;0.7692;36;7;3;1;0;0.9615;101;15;7
+org.apache.lucene.index.TermInfosWriter.initialize(Directory, String, FieldInfos, boolean);org.apache.lucene.store.OutputStream;0;0;6;0.7222;51;4;11;2;0;0.9130;69;14;4
+org.apache.lucene.analysis.de.GermanStemFilter.next();org.apache.lucene.analysis.Token;1;0;3;0.8000;38;3;3;0;4;0.7143;30;1;5
+org.apache.lucene.search.PhraseQuery.PhraseWeight.scorer(IndexReader);org.apache.lucene.index.IndexReader;1;0;1;0.9375;78;6;5;2;0;0.9574;204;49;7
+org.apache.lucene.search.RemoteSearchable.doc(int);org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.search.FieldCacheImpl.getInts(IndexReader, String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.analysis.de.GermanStemFilter.next();org.apache.lucene.analysis.de.GermanStemmer;1;0;3;0.8000;38;3;3;1;0;0.9444;152;7;2
+org.apache.lucene.search.spans.NearSpans.SpansCell.skipTo(int);org.apache.lucene.search.spans.Spans;1;3;2;0.6154;36;6;4;1;0;0.9167;5;5;0
+org.apache.lucene.queryParser.QueryParser.jj_scan_token(int);org.apache.lucene.queryParser.QueryParserTokenManager;1;1;7;0.8667;780;33;36;1;0;0.9811;817;32;19
+org.apache.lucene.search.spans.NearSpans.next();org.apache.lucene.util.PriorityQueue;0;6;6;0.5862;134;14;11;1;0;0.9643;79;10;3
+org.apache.lucene.search.spans.NearSpans.CellQueue.lessThan(Object, Object);org.apache.lucene.search.spans.NearSpans.SpansCell;1;0;0;1.0000;23;1;0;3;1;0.6364;36;6;4
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int);org.apache.lucene.search.TopDocs;3;0;2;0.9048;107;11;3;0;2;0.8000;4;0;2
+org.apache.lucene.index.SegmentTermEnum.readTerm();org.apache.lucene.index.FieldInfos;0;1;3;0.8571;104;11;14;1;0;0.9600;109;15;2
+org.apache.lucene.queryParser.QueryParserTokenManager.SwitchTo(int);org.apache.lucene.queryParser.TokenMgrError;1;0;1;0.9762;817;32;19;0;1;1.0000;59;3;5
+org.apache.lucene.search.PhraseQueue.lessThan(Object, Object);org.apache.lucene.search.PhrasePositions;1;0;0;1.0000;9;1;0;0;2;0.8182;35;4;6
+org.apache.lucene.search.PhraseScorer.explain(int);org.apache.lucene.search.Similarity;1;2;1;0.8750;90;11;9;1;0;0.9333;55;15;2
+org.apache.lucene.search.FieldSortedHitQueue.lessThan(Object, Object);org.apache.lucene.search.ScoreDoc;0;0;1;0.8333;114;7;3;0;0;1.0000;4;0;2
+org.apache.lucene.search.TermQuery.TermWeight.sumOfSquaredWeights();org.apache.lucene.search.Similarity;1;0;3;0.7857;58;6;5;1;0;0.9333;55;15;2
+org.apache.lucene.search.PhraseQuery.toString(String);org.apache.lucene.index.Term;1;0;3;0.7273;55;6;3;0;1;0.9333;39;7;2
+org.apache.lucene.search.ExactPhraseScorer.phraseFreq();org.apache.lucene.search.PhrasePositions;1;0;0;1.0000;23;1;0;2;2;0.7647;35;4;6
+org.apache.lucene.index.TermVectorsReader.readTermVector(String, long);org.apache.lucene.store.InputStream;0;0;1;0.9286;127;6;5;3;0;0.8636;101;15;7
+org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.store.Lock.With;2;1;7;0.8462;216;17;20;1;0;0.9474;18;2;2
+org.apache.lucene.search.spans.SpanWeight.explain(IndexReader, int);org.apache.lucene.index.IndexReader;3;1;5;0.7143;66;4;7;1;0;0.9825;204;49;7
+org.apache.lucene.index.SegmentTermDocs.close();org.apache.lucene.store.InputStream;0;0;2;0.9231;113;9;16;1;0;0.9565;101;15;7
+org.apache.lucene.index.FieldInfos.write(OutputStream);org.apache.lucene.index.FieldInfo;1;2;0;0.9167;109;15;2;0;3;0.7000;6;0;4
+org.apache.lucene.search.FieldCacheImpl.getCustom(IndexReader, String, SortComparator);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getCustom(IndexReader, String, SortComparator);org.apache.lucene.search.SortComparator;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.BooleanQuery.BooleanWeight.scorer(IndexReader);org.apache.lucene.search.Weight;2;0;2;0.8824;98;6;3;1;0;0.9333;6;6;0
+org.apache.lucene.index.FieldsReader.doc(int);org.apache.lucene.index.FieldInfo;1;0;3;0.8125;27;2;4;0;3;0.8000;6;0;4
+org.apache.lucene.index.SegmentMergeQueue.lessThan(Object, Object);org.apache.lucene.index.Term;1;0;0;1.0000;13;2;0;1;0;0.9231;39;7;2
+org.apache.lucene.queryParser.QueryParser.Term(String);org.apache.lucene.search.Query;4;8;4;0.8481;780;33;36;0;1;0.9762;53;9;1
+org.apache.lucene.search.DateFilter.After(String, long);org.apache.lucene.document.DateField;0;0;1;0.8571;67;6;3;1;0;1.0000;31;6;1
+org.apache.lucene.search.FieldCacheImpl.getStrings(IndexReader, String);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.DateFilter.Before(String, long);org.apache.lucene.document.DateField;0;0;1;0.8571;67;6;3;1;0;1.0000;31;6;1
+org.apache.lucene.store.RAMOutputStream.writeTo(OutputStream);org.apache.lucene.store.RAMFile;1;0;1;0.9167;60;6;2;0;2;0.6667;0;0;3
+org.apache.lucene.analysis.standard.StandardTokenizer.jj_consume_token(int);org.apache.lucene.analysis.standard.Token;1;1;5;0.7500;150;11;10;0;2;0.8667;9;1;8
+org.apache.lucene.search.FieldCacheImpl.getInts(IndexReader, String);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.getFieldNames();org.apache.lucene.index.FieldInfos;1;0;1;0.9767;217;29;13;2;0;0.9048;109;15;2
+org.apache.lucene.queryParser.QueryParser.jj_ntk();org.apache.lucene.queryParser.Token;1;0;4;0.9333;780;33;36;0;2;0.8462;9;1;8
+org.apache.lucene.search.FieldDocSortedHitQueue.lessThan(Object, Object);org.apache.lucene.search.FieldDoc;2;0;1;0.8333;84;2;1;0;1;0.8333;7;0;1
+org.apache.lucene.index.SegmentTermDocs.seek(Term);org.apache.lucene.index.TermInfosReader;1;1;1;0.9259;113;9;16;1;0;0.9583;91;12;8
+org.apache.lucene.search.ParallelMultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.MultiSearcherThread;3;0;2;0.8333;82;5;2;1;1;0.9000;48;2;11
+org.apache.lucene.index.SegmentReader.getFieldNames(boolean);org.apache.lucene.index.FieldInfo;1;0;1;0.9773;217;29;13;0;2;0.7500;6;0;4
+org.apache.lucene.analysis.LowerCaseFilter.next();org.apache.lucene.analysis.Token;1;0;0;1.0000;9;1;0;0;1;0.9000;30;1;5
+org.apache.lucene.search.RemoteSearchable.maxDoc();org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.search.PhraseScorer.explain(int);org.apache.lucene.search.Explanation;1;2;1;0.8750;90;11;9;0;2;0.8667;63;5;3
+org.apache.lucene.index.SegmentMerger.mergeTermInfo(SegmentMergeInfo[], int);org.apache.lucene.index.TermInfo;1;2;4;0.8182;250;14;17;1;0;0.9444;25;2;4
+org.apache.lucene.index.FilterIndexReader.FilterTermDocs.skipTo(int);org.apache.lucene.index.TermDocs;0;0;1;0.8889;27;8;1;1;0;0.8889;8;8;0
+org.apache.lucene.index.DocumentWriter.invertDocument(Document);org.apache.lucene.analysis.Token;2;1;6;0.7586;219;7;10;0;2;0.9231;30;1;5
+org.apache.lucene.search.MultiTermQuery.rewrite(IndexReader);org.apache.lucene.search.BooleanQuery;1;1;0;0.9000;42;4;1;1;0;0.9412;84;10;2
+org.apache.lucene.analysis.PorterStemFilter.next();org.apache.lucene.analysis.PorterStemmer;1;0;1;0.8333;13;1;1;1;0;0.9706;406;24;8
+org.apache.lucene.search.TermQuery.TermWeight.explain(IndexReader, int);org.apache.lucene.search.TermQuery;3;2;3;0.7368;58;6;5;0;1;0.9444;30;4;1
+org.apache.lucene.index.IndexReader.indexExists(Directory);org.apache.lucene.store.Directory;0;0;0;1.0000;204;49;7;1;0;0.9091;11;11;0
+org.apache.lucene.index.FieldInfos.read(InputStream);org.apache.lucene.store.InputStream;0;1;0;0.9524;109;15;2;3;0;0.8636;101;15;7
+org.apache.lucene.index.SegmentTermDocs.skipTo(int);org.apache.lucene.store.InputStream;0;2;13;0.4828;113;9;16;4;0;0.8889;101;15;7
+org.apache.lucene.index.TermVectorsWriter.writeField();org.apache.lucene.util.StringHelper;0;0;3;0.8966;135;14;13;1;0;1.0000;13;1;0
+org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.index.SegmentMergeInfo;2;1;2;0.9231;250;14;17;2;1;0.8421;30;2;6
+org.apache.lucene.index.SegmentMerger.mergeTerms();org.apache.lucene.store.Directory;1;1;9;0.7059;250;14;17;1;0;0.9600;11;11;0
+org.apache.lucene.index.SegmentTermDocs.next();org.apache.lucene.util.BitVector;0;1;6;0.7407;113;9;16;1;0;0.9444;50;5;4
+org.apache.lucene.search.PhraseQuery.PhraseWeight.explain(IndexReader, int);org.apache.lucene.index.Term;3;2;3;0.7500;78;6;5;0;1;0.9600;39;7;2
+org.apache.lucene.search.IndexSearcher.close();org.apache.lucene.index.IndexReader;0;0;1;0.9167;86;9;1;1;0;0.9767;204;49;7
+org.apache.lucene.queryParser.QueryParser.getNextToken();org.apache.lucene.queryParser.QueryParserTokenManager;1;0;4;0.9322;780;33;36;1;0;0.9792;817;32;19
+org.apache.lucene.search.DateFilter.After(String, Date);org.apache.lucene.document.DateField;0;0;1;0.8571;67;6;3;1;0;1.0000;31;6;1
+org.apache.lucene.index.IndexReader.open(Directory, boolean);org.apache.lucene.store.Lock.With;1;0;0;1.0000;204;49;7;1;0;0.8571;18;2;2
+org.apache.lucene.index.SegmentTermEnum.termInfo(TermInfo);org.apache.lucene.index.TermInfo;0;0;1;0.9615;104;11;14;1;0;0.9000;25;2;4
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, HitCollector);org.apache.lucene.search.Query;0;0;1;0.9333;86;9;1;1;0;0.9231;53;9;1
+org.apache.lucene.index.IndexWriter.deleteFiles(Vector, Directory);org.apache.lucene.store.Directory;0;0;0;1.0000;216;17;20;1;0;0.9091;11;11;0
+org.apache.lucene.search.Query.weight(Searcher);org.apache.lucene.search.Weight;0;2;0;0.8333;53;9;1;2;0;0.8000;6;6;0
+org.apache.lucene.index.SegmentReader.initialize(SegmentInfo);org.apache.lucene.index.SegmentInfo;1;2;9;0.7778;217;29;13;0;1;0.9444;5;0;3
+org.apache.lucene.index.IndexReader.lastModified(Directory);org.apache.lucene.store.Directory;0;0;0;1.0000;204;49;7;1;0;0.9091;11;11;0
+org.apache.lucene.search.MultiSearcher.rewrite(Query);org.apache.lucene.search.Searchable;0;0;1;0.9375;107;11;3;1;0;0.9091;9;9;0
+org.apache.lucene.index.FieldInfos.add(Document);org.apache.lucene.document.Document;1;1;0;0.9545;109;15;2;1;0;0.9375;76;9;2
+org.apache.lucene.queryParser.QueryParser.Term(String);org.apache.lucene.queryParser.Token;4;8;4;0.8481;780;33;36;0;2;0.9500;9;1;8
+org.apache.lucene.index.SegmentMerger.appendPostings(SegmentMergeInfo[], int);org.apache.lucene.index.SegmentMergeInfo;1;2;3;0.8718;250;14;17;0;4;0.8000;30;2;6
+org.apache.lucene.search.TermQuery.hashCode();org.apache.lucene.index.Term;0;0;1;0.8333;30;4;1;1;0;0.9231;39;7;2
+org.apache.lucene.search.PrefixQuery.toString(String);org.apache.lucene.index.Term;1;0;1;0.8333;47;3;1;0;2;0.8462;39;7;2
+org.apache.lucene.index.TermInfosReader.terms();org.apache.lucene.index.SegmentTermEnum;1;1;1;0.9091;91;12;8;1;1;0.9286;104;11;14
+org.apache.lucene.search.FieldCacheImpl.getCustom(IndexReader, String, SortComparator);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentMergeInfo.next();org.apache.lucene.index.TermEnum;0;0;2;0.8000;30;2;6;2;0;0.7143;11;5;0
+org.apache.lucene.search.MultiTermQuery.rewrite(IndexReader);org.apache.lucene.search.FilteredTermEnum;1;1;0;0.9000;42;4;1;3;1;0.6923;40;7;2
+org.apache.lucene.document.Document.getFields(String);org.apache.lucene.document.Field;1;0;1;0.9167;76;9;2;0;1;0.9231;88;10;8
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.explain(IndexReader, int);org.apache.lucene.search.Similarity;2;2;2;0.7500;67;5;5;1;0;1.0000;55;15;2
+org.apache.lucene.search.PhraseQuery.add(Term);org.apache.lucene.index.Term;1;0;2;0.8000;55;6;3;0;1;0.9231;39;7;2
+org.apache.lucene.index.SegmentMerger.mergeFields();org.apache.lucene.index.FieldInfos;0;0;4;0.8974;250;14;17;3;0;0.9000;109;15;2
+org.apache.lucene.search.FieldCacheImpl.getAuto(IndexReader, String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.RemoteSearchable.close();org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.search.TermQuery.TermWeight.explain(IndexReader, int);org.apache.lucene.search.Similarity;3;2;3;0.7368;58;6;5;1;0;1.0000;55;15;2
+org.apache.lucene.search.FieldCacheImpl.getInts(IndexReader, String);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getFloats(IndexReader, String);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.util.PriorityQueue;2;1;2;0.9231;250;14;17;3;1;0.8182;79;10;3
+org.apache.lucene.index.IndexReader.setNorm(int, String, float);org.apache.lucene.search.Similarity;0;1;0;0.9756;204;49;7;1;0;1.0000;55;15;2
+org.apache.lucene.index.FieldsReader.doc(int);org.apache.lucene.index.FieldInfos;1;0;3;0.8125;27;2;4;1;0;0.9677;109;15;2
+org.apache.lucene.queryParser.QueryParser.Modifiers();org.apache.lucene.queryParser.QueryParserConstants;1;2;6;0.9167;780;33;36;0;3;0.9286;0;0;37
+org.apache.lucene.index.IndexReader.commit();org.apache.lucene.index.IndexWriter;1;1;4;0.8864;204;49;7;0;2;1.0000;216;17;20
+org.apache.lucene.search.PhraseQuery.PhraseWeight.explain(IndexReader, int);org.apache.lucene.index.IndexReader;3;2;3;0.7500;78;6;5;1;0;0.9821;204;49;7
+org.apache.lucene.search.spans.SpanWeight.scorer(IndexReader);org.apache.lucene.search.Query;0;0;2;0.8667;66;4;7;1;0;0.9286;53;9;1
+org.apache.lucene.index.IndexReader.finalize();org.apache.lucene.store.Lock;0;0;1;0.9762;204;49;7;1;0;0.8000;21;4;1
+org.apache.lucene.queryParser.QueryParser.getFieldQuery(String, Analyzer, String);org.apache.lucene.analysis.Token;2;0;1;0.9841;780;33;36;0;1;0.9286;30;1;5
+org.apache.lucene.store.RAMOutputStream.length();org.apache.lucene.store.RAMFile;1;0;1;0.8889;60;6;2;0;1;0.7500;0;0;3
+org.apache.lucene.search.IndexSearcher.rewrite(Query);org.apache.lucene.search.Query;0;0;1;0.9167;86;9;1;1;0;0.9000;53;9;1
+org.apache.lucene.search.FieldCacheImpl.getFloats(IndexReader, String);org.apache.lucene.index.IndexReader;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.RemoteSearchable.search(Query, Filter, int);org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.search.RemoteSearchable.search(Query, Filter, int, Sort);org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.index.SegmentMerger.merge();org.apache.lucene.index.FieldInfos;0;5;3;0.7419;250;14;17;1;0;0.9643;109;15;2
+org.apache.lucene.search.BooleanQuery.BooleanWeight.explain(IndexReader, int);org.apache.lucene.search.Similarity;3;0;2;0.8947;98;6;3;1;0;0.9500;55;15;2
+org.apache.lucene.index.IndexReader.open(File);org.apache.lucene.store.FSDirectory;0;1;0;1.0000;204;49;7;1;0;1.0000;178;17;9
+org.apache.lucene.queryParser.QueryParserTokenManager.jjStartNfaWithStates_1(int, int, int);org.apache.lucene.queryParser.CharStream;0;1;4;0.8837;817;32;19;1;0;0.9412;12;12;0
+org.apache.lucene.search.spans.NearSpans.listToQueue();org.apache.lucene.util.PriorityQueue;0;0;2;0.9286;134;14;11;2;0;0.8750;79;10;3
+org.apache.lucene.index.SegmentReader.getIndexedFieldNames(boolean);org.apache.lucene.index.FieldInfo;1;0;1;0.9778;217;29;13;0;3;0.6250;6;0;4
+org.apache.lucene.search.SloppyPhraseScorer.phraseFreq();org.apache.lucene.util.PriorityQueue;1;0;1;0.9286;33;1;1;4;0;0.8182;79;10;3
+org.apache.lucene.index.SegmentInfos.write(Directory);org.apache.lucene.store.OutputStream;1;1;3;0.7500;68;4;3;4;0;0.8333;69;14;4
+org.apache.lucene.index.MultipleTermPositions.close();org.apache.lucene.index.TermDocs;1;0;1;0.9286;54;7;4;1;0;0.9091;8;8;0
+org.apache.lucene.search.TermQuery.equals(Object);org.apache.lucene.index.Term;0;0;1;0.8333;30;4;1;1;0;0.9231;39;7;2
+org.apache.lucene.index.MultipleTermPositions.skipTo(int);org.apache.lucene.index.TermDocs;0;1;1;0.8824;54;7;4;3;0;0.7692;8;8;0
+org.apache.lucene.queryParser.QueryParser.getRangeQuery(String, Analyzer, String, String, boolean);org.apache.lucene.document.DateField;0;0;1;0.9825;780;33;36;1;0;1.0000;31;6;1
+org.apache.lucene.index.TermVectorsWriter.close();org.apache.lucene.store.OutputStream;0;1;3;0.8261;135;14;13;1;0;0.9524;69;14;4
+org.apache.lucene.search.PhrasePositions.nextPosition();org.apache.lucene.index.TermPositions;0;0;4;0.6364;35;4;6;1;0;0.8000;1;1;0
+org.apache.lucene.index.FilterIndexReader.FilterTermDocs.read(int[], int[]);org.apache.lucene.index.TermDocs;0;0;1;0.8889;27;8;1;1;0;0.8889;8;8;0
+org.apache.lucene.search.QueryFilter.bits(IndexReader);org.apache.lucene.search.Searcher;0;0;2;0.5000;25;1;2;1;0;0.8889;21;5;1
+org.apache.lucene.index.FilterIndexReader.FilterTermPositions.nextPosition();org.apache.lucene.index.TermPositions;0;0;0;1.0000;6;1;0;1;0;0.5000;1;1;0
+org.apache.lucene.search.FieldCacheImpl.getStringIndex(IndexReader, String);org.apache.lucene.index.TermDocs;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.queryParser.QueryParserTokenManager.jjMoveStringLiteralDfa1_2(long);org.apache.lucene.queryParser.CharStream;0;3;2;0.8837;817;32;19;1;0;0.9412;12;12;0
+org.apache.lucene.queryParser.QueryParser.Term(String);org.apache.lucene.queryParser.QueryParserConstants;4;8;4;0.8481;780;33;36;0;18;0.6604;0;0;37
+org.apache.lucene.search.PhraseQuery.PhraseWeight.scorer(IndexReader);org.apache.lucene.search.PhraseQuery;1;0;1;0.9375;78;6;5;0;3;0.7857;55;6;3
+org.apache.lucene.index.SegmentTermPositions.skippingDoc();org.apache.lucene.store.InputStream;0;0;1;0.9167;36;7;3;1;0;0.9565;101;15;7
+org.apache.lucene.search.spans.NearSpans.skipTo(int);org.apache.lucene.util.PriorityQueue;0;5;4;0.6897;134;14;11;1;0;0.9600;79;10;3
+org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.index.FieldInfos;2;0;3;0.8125;127;6;5;1;0;0.9615;109;15;2
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.index.TermInfo;3;0;2;0.9459;219;7;10;1;0;0.9677;25;2;4
+org.apache.lucene.index.FieldsWriter.close();org.apache.lucene.store.OutputStream;0;0;2;0.6667;30;2;3;1;0;0.9474;69;14;4
+org.apache.lucene.search.spans.SpanScorer.next();org.apache.lucene.search.spans.Spans;0;0;5;0.7222;48;4;8;4;0;0.6667;5;5;0
+org.apache.lucene.index.IndexWriter.addIndexes(IndexReader[]);org.apache.lucene.store.Lock.With;0;2;3;0.8889;216;17;20;1;0;0.9286;18;2;2
+org.apache.lucene.index.CompoundFileReader.close();org.apache.lucene.store.InputStream;0;0;2;0.8824;81;11;5;1;0;0.9565;101;15;7
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.ScoreDoc;5;0;2;0.9130;107;11;3;0;1;0.9231;4;0;2
+org.apache.lucene.index.SegmentMerger.mergeVectors();org.apache.lucene.index.TermVectorsWriter;0;0;4;0.9000;250;14;17;5;0;0.8485;135;14;13
+org.apache.lucene.queryParser.MultiFieldQueryParser.parse(String, String[], Analyzer);org.apache.lucene.search.BooleanQuery;0;0;0;1.0000;36;2;3;1;0;0.9091;84;10;2
+org.apache.lucene.index.SegmentMerger.mergeFields();org.apache.lucene.index.FieldsWriter;0;0;4;0.8974;250;14;17;2;0;0.8889;30;2;3
+org.apache.lucene.search.RangeQuery.toString(String);org.apache.lucene.index.Term;1;1;3;0.5556;80;4;3;0;1;0.9375;39;7;2
+org.apache.lucene.queryParser.QueryParser.getToken(int);org.apache.lucene.queryParser.QueryParserTokenManager;1;0;4;0.9322;780;33;36;1;0;0.9792;817;32;19
+org.apache.lucene.index.MultiTermDocs.termDocs(IndexReader);org.apache.lucene.index.IndexReader;0;0;0;1.0000;75;10;7;1;0;0.9762;204;49;7
+org.apache.lucene.search.FieldSortedHitQueue.fillFields(FieldDoc);org.apache.lucene.search.ScoreDocComparator;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.store.RAMOutputStream.flushBuffer(byte[], int);org.apache.lucene.store.RAMFile;1;0;2;0.8182;60;6;2;0;3;0.4000;0;0;3
+org.apache.lucene.store.RAMDirectory.fileModified(String);org.apache.lucene.store.RAMFile;1;0;1;0.9412;98;11;1;0;1;0.7500;0;0;3
+org.apache.lucene.queryParser.QueryParserTokenManager.jjFillToken();org.apache.lucene.queryParser.Token;1;0;3;0.9623;817;32;19;1;6;0.6000;9;1;8
+org.apache.lucene.search.FieldSortedHitQueue.getCachedComparator(IndexReader, String, int, Locale, SortComparatorSource);org.apache.lucene.search.ScoreDocComparator;6;1;2;1.0000;114;7;3;0;2;1.0000;4;4;2
+org.apache.lucene.search.PhraseQuery.PhraseWeight.explain(IndexReader, int);org.apache.lucene.search.PhraseQuery;3;2;3;0.7500;78;6;5;0;2;0.9130;55;6;3
+org.apache.lucene.index.SegmentMerger.mergeFields();org.apache.lucene.index.IndexReader;0;0;4;0.8974;250;14;17;5;0;0.9020;204;49;7
+org.apache.lucene.search.ParallelMultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.util.PriorityQueue;3;0;2;0.8333;82;5;2;1;1;0.8889;79;10;3
+org.apache.lucene.search.spans.SpanOrQuery.SpanQueue.lessThan(Object, Object);org.apache.lucene.search.spans.Spans;0;0;0;1.0000;18;1;0;3;0;0.4000;5;5;0
+org.apache.lucene.search.FuzzyTermEnum.termCompare(Term);org.apache.lucene.index.Term;1;1;6;0.5714;56;5;10;0;2;0.8824;39;7;2
+org.apache.lucene.search.PhraseScorer.sort();org.apache.lucene.search.PhrasePositions;1;1;2;0.8696;90;11;9;0;1;0.9375;35;4;6
+org.apache.lucene.index.TermVectorsWriter.writeField();org.apache.lucene.store.OutputStream;0;0;3;0.8966;135;14;13;3;0;0.8750;69;14;4
+org.apache.lucene.queryParser.QueryParser.Conjunction();org.apache.lucene.queryParser.QueryParserConstants;1;2;6;0.9153;780;33;36;0;2;0.9524;0;0;37
+org.apache.lucene.analysis.PorterStemFilter.next();org.apache.lucene.analysis.Token;1;0;1;0.8333;13;1;1;0;1;0.9167;30;1;5
+org.apache.lucene.store.Lock.With.run();org.apache.lucene.store.Lock;0;1;2;0.5714;18;2;2;2;0;0.7143;21;4;1
+org.apache.lucene.search.PhraseScorer.doc();org.apache.lucene.search.PhrasePositions;1;0;1;0.9524;90;11;9;0;1;0.9167;35;4;6
+org.apache.lucene.index.SegmentTermEnum.proxPointer();org.apache.lucene.index.TermInfo;1;0;1;0.9615;104;11;14;0;1;0.9000;25;2;4
+org.apache.lucene.search.Similarity.idf(Term, Searcher);org.apache.lucene.search.Searchable;0;1;0;0.9000;55;15;2;2;0;0.8000;9;9;0
+org.apache.lucene.index.MultipleTermPositions.close();org.apache.lucene.util.PriorityQueue;1;0;1;0.9286;54;7;4;1;1;0.8667;79;10;3
+org.apache.lucene.index.SegmentTermDocs.read(int[], int[]);org.apache.lucene.store.InputStream;0;0;6;0.7778;113;9;16;1;0;0.9643;101;15;7
+org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.CompoundFileReader;0;1;6;0.8444;217;29;13;1;0;0.9643;81;11;5
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.explain(IndexReader, int);org.apache.lucene.search.Scorer;2;2;2;0.7500;67;5;5;1;0;0.9412;16;6;1
+org.apache.lucene.index.SegmentTermDocs.seek(Term);org.apache.lucene.index.SegmentReader;1;1;1;0.9259;113;9;16;0;1;0.9773;217;29;13
+org.apache.lucene.search.spans.SpanNearQuery.getSpans(IndexReader);org.apache.lucene.search.spans.SpanOrQuery;0;1;1;0.8000;59;4;4;1;0;0.9000;121;4;2
+org.apache.lucene.queryParser.QueryParser.main(String[]);org.apache.lucene.search.Query;0;1;0;0.9831;780;33;36;1;0;0.9000;53;9;1
+org.apache.lucene.queryParser.ParseException.getMessage();org.apache.lucene.queryParser.Token;1;1;5;0.5714;99;2;5;0;5;0.6429;9;1;8
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.index.FieldInfo;3;0;2;0.9459;219;7;10;0;1;0.9630;6;0;4
+org.apache.lucene.search.spans.NearSpans.SpansCell.doc();org.apache.lucene.search.spans.Spans;0;0;1;0.9091;36;6;4;1;0;0.8333;5;5;0
+org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.FieldInfo;1;0;5;0.9167;250;14;17;0;1;0.9286;6;0;4
+org.apache.lucene.index.DocumentWriter.writeNorms(Document, String);org.apache.lucene.store.Directory;1;0;5;0.7917;219;7;10;1;0;0.9565;11;11;0
+org.apache.lucene.index.IndexReader.isLocked(String);org.apache.lucene.store.Directory;0;1;0;1.0000;204;49;7;1;0;0.9091;11;11;0
+org.apache.lucene.search.Hits.score(int);org.apache.lucene.search.HitDoc;1;1;0;0.9474;92;7;10;0;1;0.8571;4;0;5
+org.apache.lucene.index.CompoundFileWriter.copyFile(FileEntry, OutputStream, byte);org.apache.lucene.store.InputStream;1;0;1;0.9333;85;3;5;2;1;0.8846;101;15;7
+org.apache.lucene.queryParser.QueryParserTokenManager.jjStartNfaWithStates_2(int, int, int);org.apache.lucene.queryParser.CharStream;0;1;4;0.8837;817;32;19;1;0;0.9412;12;12;0
+org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.index.Term;1;0;3;0.7857;43;2;3;1;0;0.9545;39;7;2
+org.apache.lucene.analysis.standard.StandardTokenizer.getToken(int);org.apache.lucene.analysis.standard.Token;1;0;2;0.9130;150;11;10;0;1;0.9091;9;1;8
+org.apache.lucene.search.PhraseScorer.firstToLast();org.apache.lucene.search.PhrasePositions;1;0;2;0.9048;90;11;9;0;1;0.9231;35;4;6
+org.apache.lucene.search.PhraseQuery.PhraseWeight.explain(IndexReader, int);org.apache.lucene.search.Scorer;3;2;3;0.7500;78;6;5;1;0;0.9524;16;6;1
+org.apache.lucene.index.IndexWriter.addIndexes(IndexReader[]);org.apache.lucene.index.SegmentInfos;0;2;3;0.8889;216;17;20;1;0;0.9231;68;4;3
+org.apache.lucene.index.SegmentReader.files();org.apache.lucene.index.FieldInfo;1;0;2;0.9556;217;29;13;0;1;0.9091;6;0;4
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int);org.apache.lucene.search.ScoreDoc;3;0;2;0.9048;107;11;3;0;1;0.9091;4;0;2
+org.apache.lucene.search.PhraseQuery.PhraseWeight.explain(IndexReader, int);org.apache.lucene.search.Explanation;3;2;3;0.7500;78;6;5;1;2;0.8636;63;5;3
+org.apache.lucene.index.IndexWriter.deleteSegments(Vector);org.apache.lucene.index.SegmentReader;1;4;1;0.8485;216;17;20;1;0;0.9787;217;29;13
+org.apache.lucene.index.DocumentWriter.addPosition(String, String, int);org.apache.lucene.index.Posting;1;0;2;0.8947;219;7;10;0;2;0.7143;6;0;3
+org.apache.lucene.search.FieldDocSortedHitQueue.hasCollators(SortField[]);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.CompoundFileWriter.copyFile(FileEntry, OutputStream, byte);org.apache.lucene.store.Directory;1;0;1;0.9333;85;3;5;1;0;0.9444;11;11;0
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.Sort;3;0;1;0.9444;86;9;1;0;1;0.9474;47;5;3
+org.apache.lucene.search.BooleanQuery.rewrite(IndexReader);org.apache.lucene.search.BooleanClause;1;1;1;0.8750;84;10;2;0;3;0.7273;13;2;3
+org.apache.lucene.search.spans.NearSpans.toString();org.apache.lucene.search.Query;0;3;3;0.7692;134;14;11;1;0;0.9333;53;9;1
+org.apache.lucene.index.SegmentTermEnum.clone();org.apache.lucene.store.InputStream;1;1;3;0.8519;104;11;14;1;0;0.9615;101;15;7
+org.apache.lucene.index.SegmentInfos.write(Directory);org.apache.lucene.index.SegmentInfo;1;1;3;0.7500;68;4;3;0;2;0.8462;5;0;3
+org.apache.lucene.search.PrefixQuery.rewrite(IndexReader);org.apache.lucene.search.BooleanQuery;1;0;1;0.9091;47;3;1;1;0;0.9474;84;10;2
+org.apache.lucene.search.spans.NearSpans.SpansCell.start();org.apache.lucene.search.spans.Spans;0;0;1;0.9091;36;6;4;1;0;0.8333;5;5;0
+org.apache.lucene.search.RangeQuery.rewrite(IndexReader);org.apache.lucene.index.TermEnum;1;1;3;0.7333;80;4;3;3;0;0.7857;11;5;0
+org.apache.lucene.search.spans.SpanWeight.explain(IndexReader, int);org.apache.lucene.index.Term;3;1;5;0.7143;66;4;7;0;1;0.9615;39;7;2
+org.apache.lucene.index.IndexReader.termPositions(Term);org.apache.lucene.index.TermDocs;0;1;0;0.9762;204;49;7;1;0;0.8889;8;8;0
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, HitCollector);org.apache.lucene.search.Filter;0;0;1;0.9333;86;9;1;1;0;0.8000;1;1;0
+org.apache.lucene.index.TermVectorsReader.get(int, String);org.apache.lucene.store.InputStream;1;1;3;0.7500;127;6;5;4;0;0.8462;101;15;7
+org.apache.lucene.index.FilterIndexReader.FilterTermDocs.doc();org.apache.lucene.index.TermDocs;0;0;1;0.8889;27;8;1;1;0;0.8889;8;8;0
+org.apache.lucene.index.TermInfosReader.get(int);org.apache.lucene.index.SegmentTermEnum;1;2;2;0.8261;91;12;8;0;3;0.9000;104;11;14
+org.apache.lucene.search.FieldCacheImpl.getAuto(IndexReader, String);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.scorer(IndexReader);org.apache.lucene.search.PhrasePrefixQuery;1;0;1;0.9333;67;5;5;0;3;0.7273;53;4;3
+org.apache.lucene.index.SegmentTermDocs.seek(TermInfo);org.apache.lucene.store.InputStream;1;0;12;0.6000;113;9;16;1;0;0.9730;101;15;7
+org.apache.lucene.store.RAMInputStream.readInternal(byte[], int, int);org.apache.lucene.store.RAMFile;1;0;2;0.6667;25;3;2;0;1;0.8000;0;0;3
+org.apache.lucene.analysis.standard.StandardTokenizer.getToken(int);org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;0;2;0.9130;150;11;10;1;0;0.9643;825;16;30
+org.apache.lucene.index.FieldInfos.add(Document);org.apache.lucene.document.Field;1;1;0;0.9545;109;15;2;0;3;0.7857;88;10;8
+org.apache.lucene.index.SegmentReader.closeNorms();org.apache.lucene.store.InputStream;0;0;1;0.9762;217;29;13;1;0;0.9565;101;15;7
+org.apache.lucene.index.CompoundFileWriter.close();org.apache.lucene.store.Directory;1;0;4;0.7778;85;3;5;1;0;0.9583;11;11;0
+org.apache.lucene.search.Hits.remove(HitDoc);org.apache.lucene.search.HitDoc;1;0;3;0.8571;92;7;10;0;3;0.6667;4;0;5
+org.apache.lucene.queryParser.QueryParserTokenManager.jjMoveNfa_2(int, int);org.apache.lucene.queryParser.CharStream;0;5;7;0.7442;817;32;19;1;0;0.9565;12;12;0
+org.apache.lucene.search.BooleanScorer.Collector.collect(int, float);org.apache.lucene.search.BooleanScorer.BucketTable;2;0;2;0.8000;23;1;2;0;3;0.8333;20;2;5
+org.apache.lucene.search.MultiSearcher.close();org.apache.lucene.search.Searchable;0;0;1;0.9333;107;11;3;1;0;0.9000;9;9;0
+org.apache.lucene.search.FieldCacheImpl.getAuto(IndexReader, String);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexWriter.close();org.apache.lucene.store.Directory;0;1;3;0.8788;216;17;20;1;0;0.9375;11;11;0
+org.apache.lucene.search.PhraseQuery.PhraseWeight.explain(IndexReader, int);org.apache.lucene.search.Searchable;3;2;3;0.7500;78;6;5;1;0;0.9565;9;9;0
+org.apache.lucene.analysis.standard.StandardTokenizer.generateParseException();org.apache.lucene.analysis.standard.StandardTokenizerConstants;1;0;7;0.7273;150;11;10;0;1;0.9565;0;0;17
+org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.index.TermVectorsWriter;2;0;3;0.8125;127;6;5;0;1;1.0000;135;14;13
+org.apache.lucene.queryParser.QueryParserTokenManager.jjMoveNfa_3(int, int);org.apache.lucene.queryParser.CharStream;0;6;7;0.7209;817;32;19;1;0;0.9583;12;12;0
+org.apache.lucene.index.SegmentMerger.mergeTermInfos();org.apache.lucene.index.IndexReader;2;1;2;0.9231;250;14;17;2;0;0.9623;204;49;7
+org.apache.lucene.queryParser.QueryParserTokenManager.jjMoveStringLiteralDfa1_1(long);org.apache.lucene.queryParser.CharStream;0;3;2;0.8837;817;32;19;1;0;0.9412;12;12;0
+org.apache.lucene.search.FieldCacheImpl.getStrings(IndexReader, String);org.apache.lucene.search.SortField;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexWriter.addDocument(Document, Analyzer);org.apache.lucene.index.DocumentWriter;0;2;4;0.8125;216;17;20;1;0;0.9565;219;7;10
+org.apache.lucene.index.SegmentMergeInfo.close();org.apache.lucene.index.TermEnum;0;0;2;0.8000;30;2;6;1;0;0.8750;11;5;0
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.Query;3;0;1;0.9444;86;9;1;1;0;0.9375;53;9;1
+org.apache.lucene.index.TermInfosReader.scanEnum(int);org.apache.lucene.index.SegmentTermEnum;1;0;1;0.9565;91;12;8;1;2;0.8889;104;11;14
+org.apache.lucene.index.SegmentTermPositions.close();org.apache.lucene.store.InputStream;0;0;1;0.9167;36;7;3;1;0;0.9565;101;15;7
+org.apache.lucene.index.IndexReader.commit();org.apache.lucene.store.Lock.With;1;1;4;0.8864;204;49;7;1;0;0.9231;18;2;2
+org.apache.lucene.analysis.standard.StandardTokenizer.ReInit(CharStream);org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;0;0;5;0.7727;150;11;10;1;0;0.9667;825;16;30
+org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.SwitchTo(int);org.apache.lucene.analysis.standard.TokenMgrError;1;0;1;0.9583;825;16;30;0;1;1.0000;59;3;5
+org.apache.lucene.queryParser.QueryParser.Clause(String);org.apache.lucene.search.Query;3;6;3;0.8714;780;33;36;0;1;0.9667;53;9;1
+org.apache.lucene.index.DocumentWriter.writeNorms(Document, String);org.apache.lucene.store.OutputStream;1;0;5;0.7917;219;7;10;2;0;0.9286;69;14;4
+org.apache.lucene.search.MultiSearcher.explain(Query, int);org.apache.lucene.search.Searchable;0;1;2;0.8000;107;11;3;1;0;0.9167;9;9;0
+org.apache.lucene.index.SegmentMerger.resetSkip();org.apache.lucene.store.OutputStream;0;0;6;0.8065;250;14;17;1;0;0.9583;69;14;4
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int);org.apache.lucene.search.Weight;1;0;1;0.9412;86;9;1;1;0;0.9167;6;6;0
+org.apache.lucene.index.SegmentTermEnum.seek(long, int, Term, TermInfo);org.apache.lucene.store.InputStream;1;1;5;0.7857;104;11;14;1;0;0.9655;101;15;7
+org.apache.lucene.index.TermInfosWriter.initialize(Directory, String, FieldInfos, boolean);org.apache.lucene.store.Directory;0;0;6;0.7222;51;4;11;1;0;0.9444;11;11;0
+org.apache.lucene.store.RAMDirectory.fileLength(String);org.apache.lucene.store.RAMFile;1;0;1;0.9412;98;11;1;0;1;0.7500;0;0;3
+org.apache.lucene.search.RemoteSearchable.docFreq(Term);org.apache.lucene.search.Searchable;0;0;1;0.9091;39;10;1;1;0;0.9000;9;9;0
+org.apache.lucene.search.Hits.doc(int);org.apache.lucene.search.HitDoc;1;3;4;0.6667;92;7;10;0;2;0.8571;4;0;5
+org.apache.lucene.util.BitVector.write(Directory, String);org.apache.lucene.store.Directory;0;1;2;0.7692;50;5;4;1;0;0.9412;11;11;0
+org.apache.lucene.search.BooleanQuery.BooleanWeight.scorer(IndexReader);org.apache.lucene.search.BooleanQuery;2;0;2;0.8824;98;6;3;0;1;0.9500;84;10;2
+org.apache.lucene.search.ParallelMultiSearcher.rewrite(Query);org.apache.lucene.search.Query;0;0;1;0.8889;82;5;2;1;0;0.9091;53;9;1
+org.apache.lucene.search.PhraseScorer.pqToList();org.apache.lucene.search.PhrasePositions;1;0;3;0.8696;90;11;9;0;1;0.9375;35;4;6
+org.apache.lucene.index.DocumentWriter.invertDocument(Document);org.apache.lucene.analysis.Analyzer;2;1;6;0.7586;219;7;10;1;0;0.9524;6;2;0
+org.apache.lucene.index.IndexReader.lastModified(File);org.apache.lucene.store.FSDirectory;0;0;0;1.0000;204;49;7;1;0;1.0000;178;17;9
+org.apache.lucene.index.SegmentMerger.mergeTermInfo(SegmentMergeInfo[], int);org.apache.lucene.store.OutputStream;1;2;4;0.8182;250;14;17;1;0;0.9615;69;14;4
+org.apache.lucene.index.SegmentReader.terms(Term);org.apache.lucene.index.TermInfosReader;0;0;1;0.9756;217;29;13;1;0;0.9545;91;12;8
+org.apache.lucene.search.FieldCacheImpl.getCustom(IndexReader, String, SortComparator);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.IndexReader.unlock(Directory);org.apache.lucene.index.IndexWriter;1;0;0;1.0000;204;49;7;0;2;1.0000;216;17;20
+org.apache.lucene.search.spans.SpanTermQuery.toString(String);org.apache.lucene.index.Term;1;0;1;0.8571;66;4;1;1;2;0.7500;39;7;2
+org.apache.lucene.search.FieldSortedHitQueue.comparatorAuto(IndexReader, String);org.apache.lucene.search.FieldCache;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.FieldCacheImpl.getInts(IndexReader, String);org.apache.lucene.index.TermDocs;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermInfosWriter.writeTerm(Term);org.apache.lucene.index.FieldInfos;1;0;3;0.8500;51;4;11;1;0;0.9615;109;15;2
+org.apache.lucene.index.SegmentReader.initialize(SegmentInfo);org.apache.lucene.index.FieldInfos;1;2;9;0.7778;217;29;13;1;0;0.9697;109;15;2
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.explain(IndexReader, int);org.apache.lucene.search.Explanation;2;2;2;0.7500;67;5;5;1;2;0.8333;63;5;3
+org.apache.lucene.index.CompoundFileWriter.copyFile(FileEntry, OutputStream, byte);org.apache.lucene.store.OutputStream;1;0;1;0.9333;85;3;5;2;0;0.9130;69;14;4
+org.apache.lucene.search.spans.SpanWeight.explain(IndexReader, int);org.apache.lucene.search.Scorer;3;1;5;0.7143;66;4;7;1;0;0.9545;16;6;1
+org.apache.lucene.index.SegmentMerger.resetSkip();org.apache.lucene.store.RAMOutputStream;0;0;6;0.8065;250;14;17;1;0;0.9375;60;6;2
+org.apache.lucene.index.FieldsReader.doc(int);org.apache.lucene.store.InputStream;1;0;3;0.8125;27;2;4;5;0;0.8276;101;15;7
+org.apache.lucene.index.MultipleTermPositions.next();org.apache.lucene.util.PriorityQueue;1;0;4;0.8333;54;7;4;2;1;0.8889;79;10;3
+org.apache.lucene.index.SegmentReader.doCommit();org.apache.lucene.store.Directory;0;0;6;0.8723;217;29;13;3;0;0.8571;11;11;0
+org.apache.lucene.index.IndexWriter.close();org.apache.lucene.store.Lock;0;1;3;0.8788;216;17;20;1;0;0.8889;21;4;1
+org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.search.Similarity;2;0;6;0.7600;74;5;11;1;0;0.9583;55;15;2
+org.apache.lucene.search.BooleanQuery.BooleanWeight.explain(IndexReader, int);org.apache.lucene.search.BooleanClause;3;0;2;0.8947;98;6;3;0;2;0.8750;13;2;3
+org.apache.lucene.index.SegmentInfos.read(Directory);org.apache.lucene.store.Directory;1;0;3;0.8182;68;4;3;1;0;0.9474;11;11;0
+org.apache.lucene.index.SegmentMerger.writeSkip();org.apache.lucene.store.RAMOutputStream;0;0;2;0.9355;250;14;17;1;0;0.9167;60;6;2
+org.apache.lucene.index.SegmentReader.getIndexedFieldNames(boolean);org.apache.lucene.index.FieldInfos;1;0;1;0.9778;217;29;13;2;0;0.9130;109;15;2
+org.apache.lucene.search.ParallelMultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.FieldDocSortedHitQueue;3;0;2;0.8333;82;5;2;0;1;0.9000;84;2;1
+org.apache.lucene.index.IndexWriter.maybeMergeSegments();org.apache.lucene.index.SegmentInfos;1;1;4;0.8485;216;17;20;1;0;0.9091;68;4;3
+org.apache.lucene.search.TermScorer.explain(int);org.apache.lucene.search.Explanation;2;0;6;0.7600;74;5;11;0;2;0.9167;63;5;3
+org.apache.lucene.index.IndexReader.isLocked(Directory);org.apache.lucene.store.Lock;1;0;0;1.0000;204;49;7;1;0;0.8000;21;4;1
+org.apache.lucene.index.SegmentReader.isDeleted(int);org.apache.lucene.util.BitVector;0;0;1;0.9756;217;29;13;1;0;0.9091;50;5;4
+org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.index.IndexReader;1;0;4;0.8974;250;14;17;3;0;0.9434;204;49;7
+org.apache.lucene.index.TermVectorsWriter.openField(String);org.apache.lucene.index.FieldInfos;0;2;2;0.8261;135;14;13;1;0;0.9565;109;15;2
+org.apache.lucene.index.IndexReader.isLocked(String);org.apache.lucene.store.FSDirectory;0;1;0;1.0000;204;49;7;1;0;1.0000;178;17;9
+org.apache.lucene.util.BitVector.write(Directory, String);org.apache.lucene.store.OutputStream;0;1;2;0.7692;50;5;4;3;0;0.8571;69;14;4
+org.apache.lucene.search.TermQuery.TermWeight.sumOfSquaredWeights();org.apache.lucene.search.TermQuery;1;0;3;0.7857;58;6;5;0;1;0.9091;30;4;1
+org.apache.lucene.index.IndexReader.getCurrentVersion(Directory);org.apache.lucene.index.SegmentInfos;0;0;0;1.0000;204;49;7;1;0;1.0000;68;4;3
+org.apache.lucene.index.IndexWriter.writeDeleteableFiles(Vector);org.apache.lucene.store.OutputStream;0;0;1;0.9722;216;17;20;3;0;0.8500;69;14;4
+org.apache.lucene.queryParser.QueryParser.Clause(String);org.apache.lucene.queryParser.Token;3;6;3;0.8714;780;33;36;0;1;0.9655;9;1;8
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.Weight;3;0;1;0.9444;86;9;1;1;0;0.9231;6;6;0
+org.apache.lucene.index.TermInfosReader.getSkipInterval();org.apache.lucene.index.SegmentTermEnum;1;0;1;0.9524;91;12;8;0;1;0.9630;104;11;14
+org.apache.lucene.index.IndexReader.unlock(Directory);org.apache.lucene.store.Directory;1;0;0;1.0000;204;49;7;1;0;0.9167;11;11;0
+org.apache.lucene.index.CompoundFileWriter.close();org.apache.lucene.store.OutputStream;1;0;4;0.7778;85;3;5;6;0;0.7600;69;14;4
+org.apache.lucene.search.FieldSortedHitQueue.lessThan(Object, Object);org.apache.lucene.search.SortField;0;0;1;0.8333;114;7;3;0;0;1.0000;41;1;11
+org.apache.lucene.search.HitQueue.lessThan(Object, Object);org.apache.lucene.search.ScoreDoc;1;0;0;1.0000;9;1;0;0;2;0.3333;4;0;2
+org.apache.lucene.index.FieldsWriter.addDocument(Document);org.apache.lucene.index.FieldInfos;1;0;3;0.8125;30;2;3;1;0;0.9688;109;15;2
+org.apache.lucene.index.FieldsReader.close();org.apache.lucene.store.InputStream;0;0;2;0.7143;27;2;4;1;0;0.9565;101;15;7
+org.apache.lucene.search.SloppyPhraseScorer.phraseFreq();org.apache.lucene.search.Similarity;1;0;1;0.9286;33;1;1;1;0;0.9524;55;15;2
+org.apache.lucene.search.spans.SpanWeight.explain(IndexReader, int);org.apache.lucene.search.Explanation;3;1;5;0.7143;66;4;7;1;2;0.8696;63;5;3
+org.apache.lucene.analysis.ru.RussianStemFilter.next();org.apache.lucene.analysis.ru.RussianStemmer;1;0;2;0.8182;21;2;2;1;0;0.9688;184;19;51
+org.apache.lucene.search.Query.getSimilarity(Searcher);org.apache.lucene.search.Searcher;1;0;0;1.0000;53;9;1;0;1;0.8333;21;5;1
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.TopDocs;3;0;10;0.5238;48;2;11;0;1;0.9474;4;0;2
+org.apache.lucene.analysis.standard.StandardTokenizer.jj_ntk();org.apache.lucene.analysis.standard.Token;1;0;4;0.8333;150;11;10;0;2;0.8462;9;1;8
+org.apache.lucene.index.SegmentTermEnum.readTerm();org.apache.lucene.store.InputStream;0;1;3;0.8571;104;11;14;2;0;0.9231;101;15;7
+org.apache.lucene.index.FilterIndexReader.FilterTermDocs.seek(TermEnum);org.apache.lucene.index.TermDocs;0;0;1;0.8889;27;8;1;1;0;0.8889;8;8;0
+org.apache.lucene.queryParser.QueryParserTokenManager.jjMoveNfa_1(int, int);org.apache.lucene.queryParser.CharStream;0;5;7;0.7442;817;32;19;1;0;0.9565;12;12;0
+org.apache.lucene.index.FieldInfos.write(Directory, String);org.apache.lucene.store.OutputStream;0;1;0;0.9500;109;15;2;1;0;0.9474;69;14;4
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.Filter;3;0;1;0.9444;86;9;1;1;0;0.8750;1;1;0
+org.apache.lucene.index.MultiTermEnum.next();org.apache.lucene.util.PriorityQueue;1;0;3;0.7857;43;2;3;3;0;0.8636;79;10;3
+org.apache.lucene.search.ParallelMultiSearcher.docFreq(Term);org.apache.lucene.search.Searchable;0;0;1;0.8750;82;5;2;1;0;0.9000;9;9;0
+org.apache.lucene.search.FieldCacheImpl.getFloats(IndexReader, String);org.apache.lucene.index.TermDocs;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.document.Field.Keyword(String, Date);org.apache.lucene.document.DateField;0;0;0;1.0000;88;10;8;1;0;1.0000;31;6;1
+org.apache.lucene.search.Hits.addToFront(HitDoc);org.apache.lucene.search.HitDoc;1;0;3;0.8500;92;7;10;0;2;0.7778;4;0;5
+org.apache.lucene.search.PrefixQuery.rewrite(IndexReader);org.apache.lucene.index.IndexReader;1;0;1;0.9091;47;3;1;1;0;0.9800;204;49;7
+org.apache.lucene.search.DateFilter.bits(IndexReader);org.apache.lucene.index.TermEnum;0;0;3;0.8235;67;6;3;3;0;0.8125;11;5;0
+org.apache.lucene.index.IndexReader.getCurrentVersion(File);org.apache.lucene.store.Directory;0;1;0;1.0000;204;49;7;1;0;0.9091;11;11;0
+org.apache.lucene.index.DocumentWriter.quickSort(Posting[], int, int);org.apache.lucene.index.Posting;1;1;0;1.0000;219;7;10;0;1;0.8000;6;0;3
+org.apache.lucene.index.SegmentReader.openNorms(Directory);org.apache.lucene.index.FieldInfos;1;0;3;0.9375;217;29;13;2;0;0.9286;109;15;2
+org.apache.lucene.search.TermScorer.next();org.apache.lucene.index.TermDocs;0;0;6;0.6471;74;5;11;2;0;0.8571;8;8;0
+org.apache.lucene.search.TermQuery.TermWeight.explain(IndexReader, int);org.apache.lucene.search.Explanation;3;2;3;0.7368;58;6;5;1;2;0.8571;63;5;3
+org.apache.lucene.index.SegmentReader.docFreq(Term);org.apache.lucene.index.TermInfosReader;1;0;1;0.9762;217;29;13;1;0;0.9565;91;12;8
+org.apache.lucene.search.DateFilter.bits(IndexReader);org.apache.lucene.index.TermDocs;0;0;3;0.8235;67;6;3;4;0;0.7778;8;8;0
+org.apache.lucene.index.SegmentMerger.appendPostings(SegmentMergeInfo[], int);org.apache.lucene.index.TermDocs;1;2;3;0.8718;250;14;17;4;0;0.7895;8;8;0
+org.apache.lucene.search.spans.SpanWeight.explain(IndexReader, int);org.apache.lucene.search.Query;3;1;5;0.7143;66;4;7;1;1;0.9130;53;9;1
+org.apache.lucene.index.TermInfosWriter.close();org.apache.lucene.store.OutputStream;0;1;4;0.7778;51;4;11;3;0;0.8571;69;14;4
+org.apache.lucene.search.spans.SpanScorer.score();org.apache.lucene.search.Similarity;0;0;4;0.7143;48;4;8;2;0;0.9286;55;15;2
+org.apache.lucene.search.spans.NearSpans.SpansCell.end();org.apache.lucene.search.spans.Spans;0;0;1;0.9091;36;6;4;1;0;0.8333;5;5;0
+org.apache.lucene.search.TermQuery.TermWeight.explain(IndexReader, int);org.apache.lucene.index.Term;3;2;3;0.7368;58;6;5;0;1;0.9583;39;7;2
+org.apache.lucene.index.TermInfosReader.terms(Term);org.apache.lucene.index.SegmentTermEnum;0;1;1;0.9048;91;12;8;1;0;0.9643;104;11;14
+org.apache.lucene.index.IndexWriter.optimize();org.apache.lucene.index.SegmentInfo;1;2;4;0.8182;216;17;20;0;1;0.9091;5;0;3
+org.apache.lucene.index.TermVectorsReader.get(int, String);org.apache.lucene.index.TermVectorsWriter;1;1;3;0.7500;127;6;5;0;1;1.0000;135;14;13
+org.apache.lucene.search.Hits.getMoreDocs(int);org.apache.lucene.search.Searchable;2;0;6;0.7500;92;7;10;2;0;0.8947;9;9;0
+org.apache.lucene.index.IndexWriter.maybeMergeSegments();org.apache.lucene.index.SegmentInfo;1;1;4;0.8485;216;17;20;0;1;0.9000;5;0;3
+org.apache.lucene.index.FieldInfos.fieldName(int);org.apache.lucene.index.FieldInfo;1;1;0;0.9474;109;15;2;0;1;0.8333;6;0;4
+org.apache.lucene.search.spans.SpanWeight.sumOfSquaredWeights();org.apache.lucene.search.Query;1;0;5;0.6429;66;4;7;1;1;0.8667;53;9;1
+org.apache.lucene.queryParser.QueryParser.Query(String);org.apache.lucene.queryParser.QueryParserConstants;1;6;5;0.8714;780;33;36;0;13;0.7174;0;0;37
+org.apache.lucene.queryParser.QueryParserTokenManager.jjMoveNfa_0(int, int);org.apache.lucene.queryParser.CharStream;0;3;7;0.7674;817;32;19;1;0;0.9545;12;12;0
+org.apache.lucene.index.SegmentMerger.mergeTermInfo(SegmentMergeInfo[], int);org.apache.lucene.index.TermInfosWriter;1;2;4;0.8182;250;14;17;1;0;0.9600;51;4;11
+org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.store.OutputStream;1;0;4;0.8974;250;14;17;2;0;0.9310;69;14;4
+org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.jjFillToken();org.apache.lucene.analysis.standard.Token;1;0;3;0.9429;825;16;30;1;6;0.6000;9;1;8
+org.apache.lucene.index.FilterIndexReader.FilterTermDocs.close();org.apache.lucene.index.TermDocs;0;0;1;0.8889;27;8;1;1;0;0.8889;8;8;0
+org.apache.lucene.queryParser.QueryParser.jj_consume_token(int);org.apache.lucene.queryParser.Token;1;1;7;0.8730;780;33;36;0;2;0.9000;9;1;8
+org.apache.lucene.index.SegmentInfos.read(Directory);org.apache.lucene.store.InputStream;1;0;3;0.8182;68;4;3;5;1;0.7500;101;15;7
+org.apache.lucene.search.spans.SpanScorer.explain(int);org.apache.lucene.search.Explanation;1;1;2;0.8125;48;4;8;0;2;0.8667;63;5;3
+org.apache.lucene.queryParser.QueryParser.addClause(Vector, int, int, Query);org.apache.lucene.search.BooleanClause;1;0;7;0.9831;780;33;36;0;2;0.7143;13;2;3
+org.apache.lucene.search.IndexSearcher.docFreq(Term);org.apache.lucene.index.IndexReader;0;0;1;0.9167;86;9;1;1;0;0.9767;204;49;7
+org.apache.lucene.index.SegmentMergeInfo.close();org.apache.lucene.index.TermDocs;0;0;2;0.8000;30;2;6;1;0;0.9091;8;8;0
+org.apache.lucene.search.ConjunctionScorer.init();org.apache.lucene.search.Similarity;0;1;4;0.7059;72;10;4;1;0;0.9375;55;15;2
+org.apache.lucene.index.TermInfosReader.readIndex();org.apache.lucene.store.Directory;1;0;6;0.7778;91;12;8;1;0;0.9565;11;11;0
+org.apache.lucene.index.SegmentTermDocs.next();org.apache.lucene.store.InputStream;0;1;6;0.7407;113;9;16;1;0;0.9655;101;15;7
+org.apache.lucene.index.SegmentTermEnum.seek(long, int, Term, TermInfo);org.apache.lucene.index.Term;1;1;5;0.7857;104;11;14;0;1;0.9474;39;7;2
+org.apache.lucene.analysis.ru.RussianLowerCaseFilter.next();org.apache.lucene.analysis.ru.RussianCharsets;1;0;1;0.8571;16;1;1;1;0;1.0000;27;1;3
+org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.FieldsReader;0;1;6;0.8444;217;29;13;1;0;0.9444;27;2;4
+org.apache.lucene.queryParser.QueryParser.getFieldQuery(String, Analyzer, String, int);org.apache.lucene.search.PhraseQuery;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.spans.SpanScorer.next();org.apache.lucene.search.Similarity;0;0;5;0.7222;48;4;8;1;0;0.9474;55;15;2
+org.apache.lucene.search.Hits.id(int);org.apache.lucene.search.HitDoc;1;1;0;0.9474;92;7;10;0;1;0.8571;4;0;5
+org.apache.lucene.index.SegmentMerger.mergeNorms();org.apache.lucene.index.FieldInfos;1;0;4;0.8974;250;14;17;2;0;0.9355;109;15;2
+org.apache.lucene.index.SegmentInfos.readCurrentVersion(Directory);org.apache.lucene.store.InputStream;0;1;2;0.7778;68;4;3;3;0;0.8750;101;15;7
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.sumOfSquaredWeights();org.apache.lucene.search.PhrasePrefixQuery;1;0;3;0.7692;67;5;5;0;1;0.9231;53;4;3
+org.apache.lucene.analysis.standard.ParseException.getMessage();org.apache.lucene.analysis.standard.Token;1;1;5;0.5714;98;2;5;0;5;0.6429;9;1;8
+org.apache.lucene.document.Document.get(String);org.apache.lucene.document.Field;1;1;0;0.9167;76;9;2;0;1;0.9231;88;10;8
+org.apache.lucene.queryParser.QueryParser.jj_3_1();org.apache.lucene.queryParser.QueryParserConstants;1;1;0;0.9831;780;33;36;0;2;0.9474;0;0;37
+org.apache.lucene.index.SegmentMergeQueue.lessThan(Object, Object);org.apache.lucene.index.SegmentMergeInfo;1;0;0;1.0000;13;2;0;0;2;0.8000;30;2;6
+org.apache.lucene.queryParser.QueryParser.Clause(String);org.apache.lucene.queryParser.QueryParserConstants;3;6;3;0.8714;780;33;36;0;11;0.7708;0;0;37
+org.apache.lucene.index.SegmentReader.doCommit();org.apache.lucene.util.BitVector;0;0;6;0.8723;217;29;13;1;0;0.9545;50;5;4
+org.apache.lucene.search.FieldCacheImpl.getStrings(IndexReader, String);org.apache.lucene.index.TermEnum;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.queryParser.QueryParser.getFieldQuery(String, Analyzer, String);org.apache.lucene.analysis.Analyzer;2;0;1;0.9841;780;33;36;1;0;0.8750;6;2;0
+org.apache.lucene.index.SegmentReader.getTermFreqVector(int, String);org.apache.lucene.index.FieldInfo;1;0;2;0.9535;217;29;13;0;1;0.8889;6;0;4
+org.apache.lucene.index.SegmentReader.doClose();org.apache.lucene.index.TermInfosReader;0;1;6;0.8444;217;29;13;1;0;0.9688;91;12;8
+org.apache.lucene.search.TermQuery.TermWeight.explain(IndexReader, int);org.apache.lucene.search.Searchable;3;2;3;0.7368;58;6;5;1;0;0.9545;9;9;0
+org.apache.lucene.index.TermVectorsReader.get(int);org.apache.lucene.store.InputStream;2;0;3;0.8125;127;6;5;4;0;0.8400;101;15;7
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.explain(IndexReader, int);org.apache.lucene.search.PhrasePrefixQuery;2;2;2;0.7500;67;5;5;0;1;0.9412;53;4;3
+org.apache.lucene.index.IndexReader.getCurrentVersion(File);org.apache.lucene.store.FSDirectory;0;1;0;1.0000;204;49;7;1;0;1.0000;178;17;9
+org.apache.lucene.index.FieldsWriter.addDocument(Document);org.apache.lucene.document.Document;1;0;3;0.8125;30;2;3;1;0;0.9600;76;9;2
+org.apache.lucene.search.BooleanQuery.BooleanWeight.scorer(IndexReader);org.apache.lucene.search.BooleanScorer;2;0;2;0.8824;98;6;3;1;0;0.9643;69;8;10
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.TopDocs;5;0;2;0.9130;107;11;3;0;2;0.8333;4;0;2
+org.apache.lucene.queryParser.QueryParser.getBooleanQuery(Vector);org.apache.lucene.search.BooleanQuery;0;0;0;1.0000;780;33;36;1;0;0.9091;84;10;2
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.index.Term;3;0;2;0.9459;219;7;10;0;2;0.9375;39;7;2
+org.apache.lucene.search.BooleanScorer.Collector.collect(int, float);org.apache.lucene.search.BooleanScorer.Bucket;2;0;2;0.8000;23;1;2;0;5;0.4444;0;0;5
+org.apache.lucene.search.spans.SpanScorer.skipTo(int);org.apache.lucene.search.Similarity;0;0;4;0.7895;48;4;8;1;0;0.9474;55;15;2
+org.apache.lucene.search.BooleanQuery.toString(String);org.apache.lucene.search.BooleanClause;1;0;1;0.9333;84;10;2;0;3;0.6667;13;2;3
+org.apache.lucene.index.SegmentInfos.write(Directory);org.apache.lucene.store.Directory;1;1;3;0.7500;68;4;3;2;0;0.9000;11;11;0
+org.apache.lucene.queryParser.QueryParser.parse(String);org.apache.lucene.queryParser.TokenMgrError;0;2;1;0.9483;780;33;36;1;0;0.8750;59;3;5
+org.apache.lucene.index.SegmentMerger.createCompoundFile();org.apache.lucene.index.FieldInfos;1;0;5;0.9167;250;14;17;3;0;0.8846;109;15;2
+org.apache.lucene.index.DocumentWriter.invertDocument(Document);org.apache.lucene.document.Field;2;1;6;0.7586;219;7;10;0;6;0.7692;88;10;8
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.ScoreDoc;3;0;10;0.5238;48;2;11;0;1;0.9474;4;0;2
+org.apache.lucene.index.DocumentWriter.writePostings(Posting[], String);org.apache.lucene.store.Directory;3;0;2;0.9459;219;7;10;1;0;0.9697;11;11;0
+org.apache.lucene.index.FieldsWriter.addDocument(Document);org.apache.lucene.store.OutputStream;1;0;3;0.8125;30;2;3;5;0;0.8077;69;14;4
+org.apache.lucene.queryParser.MultiFieldQueryParser.parse(String, String[], int[], Analyzer);org.apache.lucene.search.BooleanQuery;0;0;2;1.0000;36;2;3;1;0;0.9091;84;10;2
+org.apache.lucene.index.TermInfosWriter.writeTerm(Term);org.apache.lucene.index.Term;1;0;3;0.8500;51;4;11;0;2;0.8824;39;7;2
+org.apache.lucene.index.IndexWriter.newSegmentName();org.apache.lucene.index.SegmentInfos;1;0;1;0.9688;216;17;20;0;1;0.8333;68;4;3
+org.apache.lucene.analysis.standard.StandardTokenizerTokenManager.getNextToken();org.apache.lucene.analysis.standard.TokenMgrError;1;2;6;0.7667;825;16;30;0;1;1.0000;59;3;5
+org.apache.lucene.search.MultiSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.Searchable;5;0;2;0.9130;107;11;3;1;0;0.9474;9;9;0
+org.apache.lucene.search.FieldCacheImpl.getStringIndex(IndexReader, String);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.TermInfosReader.scanEnum(Term);org.apache.lucene.index.Term;1;0;1;0.9583;91;12;8;1;0;0.9333;39;7;2
+org.apache.lucene.index.IndexWriter.writeDeleteableFiles(Vector);org.apache.lucene.store.Directory;0;0;1;0.9722;216;17;20;2;0;0.8667;11;11;0
+org.apache.lucene.index.TermInfosWriter.add(Term, TermInfo);org.apache.lucene.index.TermInfo;1;2;9;0.5833;51;4;11;1;4;0.7826;25;2;4
+org.apache.lucene.index.IndexWriter.getSegmentsCounter();org.apache.lucene.index.SegmentInfos;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.index.SegmentReader.hasSeparateNorms(SegmentInfo);org.apache.lucene.store.Directory;1;0;0;1.0000;217;29;13;1;0;0.9231;11;11;0
+org.apache.lucene.index.DocumentWriter.invertDocument(Document);org.apache.lucene.index.FieldInfos;2;1;6;0.7586;219;7;10;1;0;0.9737;109;15;2
+org.apache.lucene.search.PhrasePrefixQuery.createWeight(Searcher);org.apache.lucene.search.BooleanQuery;0;0;1;0.8889;53;4;3;2;0;0.8462;84;10;2
+org.apache.lucene.index.FilterIndexReader.FilterTermDocs.next();org.apache.lucene.index.TermDocs;0;0;1;0.8889;27;8;1;1;0;0.8889;8;8;0
+org.apache.lucene.index.IndexReader.aquireWriteLock();org.apache.lucene.index.SegmentInfos;2;0;4;0.9111;204;49;7;1;1;0.9167;68;4;3
+org.apache.lucene.search.FieldCacheImpl.getFloats(IndexReader, String);org.apache.lucene.index.Term;0;0;0;0;0;0;0;0;0;0;0;0;0
+org.apache.lucene.search.PhrasePrefixQuery.PhrasePrefixWeight.explain(IndexReader, int);org.apache.lucene.index.IndexReader;2;2;2;0.7500;67;5;5;1;0;0.9808;204;49;7
+org.apache.lucene.index.TermVectorsReader.get(int, String);org.apache.lucene.index.FieldInfos;1;1;3;0.7500;127;6;5;1;0;0.9630;109;15;2
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.FieldDocSortedHitQueue;3;0;10;0.5238;48;2;11;1;0;0.9500;84;2;1
+org.apache.lucene.index.SegmentTermDocs.seek(TermEnum);org.apache.lucene.index.SegmentTermEnum;2;1;1;0.9355;113;9;16;1;1;0.9375;104;11;14
+org.apache.lucene.search.PrefixQuery.rewrite(IndexReader);org.apache.lucene.index.Term;1;0;1;0.9091;47;3;1;0;2;0.8889;39;7;2
+org.apache.lucene.index.TermVectorsReader.close();org.apache.lucene.store.InputStream;0;0;3;0.7500;127;6;5;1;0;0.9583;101;15;7
+org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.index.SegmentInfos;2;1;7;0.8462;216;17;20;1;0;0.9444;68;4;3
+org.apache.lucene.index.SegmentTermEnum.next();org.apache.lucene.index.TermInfo;1;1;11;0.6129;104;11;14;0;4;0.8261;25;2;4
+org.apache.lucene.search.BooleanQuery.BooleanWeight.scorer(IndexReader);org.apache.lucene.search.ConjunctionScorer;2;0;2;0.8824;98;6;3;1;0;0.9583;72;10;4
+org.apache.lucene.search.MultiSearcherThread.run();org.apache.lucene.search.TopFieldDocs;3;0;10;0.5238;48;2;11;0;1;0.9444;4;0;1
+org.apache.lucene.index.SegmentReader.Norm.reWrite();org.apache.lucene.store.Directory;1;0;3;0.7500;16;1;4;2;0;0.8947;11;11;0
+org.apache.lucene.queryParser.QueryParser.getNextToken();org.apache.lucene.queryParser.Token;1;0;4;0.9322;780;33;36;0;1;0.9231;9;1;8
+org.apache.lucene.search.IndexSearcher.search(Query, Filter, int, Sort);org.apache.lucene.search.FieldSortedHitQueue;3;0;1;0.9444;86;9;1;0;0;1.0000;114;7;3
+org.apache.lucene.analysis.standard.StandardTokenizer.getNextToken();org.apache.lucene.analysis.standard.StandardTokenizerTokenManager;1;0;4;0.8261;150;11;10;1;0;0.9667;825;16;30
+org.apache.lucene.search.Query.weight(Searcher);org.apache.lucene.search.Searchable;0;2;0;0.8333;53;9;1;1;0;0.9286;9;9;0
+org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.index.IndexReader;2;1;7;0.8462;216;17;20;0;1;0.9818;204;49;7
+org.apache.lucene.search.spans.SpanWeight.explain(IndexReader, int);org.apache.lucene.search.Similarity;3;1;5;0.7143;66;4;7;1;0;1.0000;55;15;2
+org.apache.lucene.index.MultiTermEnum.close();org.apache.lucene.index.SegmentMergeQueue;0;0;1;0.8333;43;2;3;1;0;0.7500;13;2;0
+org.apache.lucene.search.MultiSearcher.docFreq(Term);org.apache.lucene.search.Searchable;0;0;1;0.9333;107;11;3;1;0;0.9000;9;9;0
+org.apache.lucene.queryParser.QueryParser.generateParseException();org.apache.lucene.queryParser.QueryParserConstants;1;2;9;0.8448;780;33;36;0;1;0.9783;0;0;37
+org.apache.lucene.index.IndexWriter.mergeSegments(int);org.apache.lucene.index.SegmentInfo;2;1;7;0.8462;216;17;20;0;2;0.8750;5;0;3
+org.apache.lucene.index.IndexWriter.addIndexes(IndexReader[]);org.apache.lucene.index.SegmentMerger;0;2;3;0.8889;216;17;20;2;0;0.9459;250;14;17

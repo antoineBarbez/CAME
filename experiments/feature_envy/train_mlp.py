@@ -107,15 +107,15 @@ if __name__ == "__main__":
 	test_systems = ['apache-tomcat', 'jedit', 'android-platform-support']
 
 	#constants
-	starter_learning_rate = 0.190
+	starter_learning_rate = 0.05
 	learning_rate_decay   = 0.7
 	decay_steps           = 100
 	dropout_keep_prob     = 1.0
-	beta                  = 0.197
+	beta                  = 0.05
 	num_steps             = 400
-	num_networks          = 5
+	num_networks          = 1
 
-	layers = [86, 44]
+	layers = [30, 10]
 
 	# Create datasets
 	x_train = []

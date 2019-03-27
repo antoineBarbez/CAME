@@ -1,0 +1,36 @@
+org.apache.xerces.impl.xs.traversers.XSDComplexTypeTraverser.getErrorContent();org.apache.xerces.impl.xs.XSParticleDecl
+org.apache.xerces.impl.dtd.XMLDTDProcessor.normalizeDefaultAttrValue(xmlstring);org.apache.xerces.xni.XMLString
+org.apache.xerces.impl.dtd.DTDGrammar.appendContentSpec(boolean, int, stringbuffer, xmlcontentspec);org.apache.xerces.impl.dtd.XMLContentSpec
+org.apache.xerces.xpointer.XPointerErrorHandler.printError(string, xmlparseexception);org.apache.xerces.xni.parser.XMLParseException
+org.apache.xerces.impl.xpath.regex.RegexParser.getTokenForShorthand(int);org.apache.xerces.impl.xpath.regex.Token
+org.apache.xerces.impl.dtd.XMLDTDValidator.getAttributeTypeName(xmlattributedecl);org.apache.xerces.impl.dtd.XMLSimpleType
+org.apache.xerces.impl.xpath.regex.REUtil.createOptionString(int);org.apache.xerces.impl.xpath.regex.RegularExpression
+org.apache.xerces.impl.xpath.regex.REUtil.getOptionValue(int);org.apache.xerces.impl.xpath.regex.RegularExpression
+org.apache.xerces.impl.xs.SchemaGrammar.Schema4Annotations.createAnnotationElementDecl(string);org.apache.xerces.impl.xs.XSElementDecl
+org.apache.xerces.impl.xs.SchemaGrammar.Schema4Annotations.createChoiceElementParticle(xselementdecl);org.apache.xerces.impl.xs.XSParticleDecl
+org.apache.xerces.impl.xs.SchemaGrammar.Schema4Annotations.createAnyLaxWildcardParticle();org.apache.xerces.impl.xs.XSParticleDecl
+org.apache.xerces.jaxp.validation.ValidatorHandlerImpl.fillXMLAttributes2(attributes2);org.apache.xerces.util.XMLAttributesImpl
+org.apache.xerces.impl.xpath.regex.RegularExpression.compile(boolean, op, token);org.apache.xerces.impl.xpath.regex.Op
+org.apache.xerces.impl.xs.traversers.XSDSimpleTypeTraverser.errorType(short, string, string);org.apache.xerces.impl.dv.SchemaDVFactory
+org.apache.xerces.impl.XMLEntityScanner.getCharacterOffset();org.apache.xerces.impl.XMLEntityManager
+org.apache.xerces.impl.XMLEntityScanner.skipSpaces();org.apache.xerces.impl.XMLEntityManager
+org.apache.xerces.impl.XMLEntityScanner.scanData(string, xmlstringbuffer);org.apache.xerces.impl.XMLEntityManager
+org.apache.xerces.impl.XMLEntityScanner.skipDeclSpaces();org.apache.xerces.impl.XMLEntityManager
+org.apache.xerces.impl.XMLEntityScanner.setEncoding(string);org.apache.xerces.impl.XMLEntityManager
+org.apache.xerces.impl.xs.models.CMBuilder.createAllCM(xsparticledecl);org.apache.xerces.impl.xs.XSParticleDecl
+org.apache.xerces.impl.xs.traversers.XSDAbstractParticleTraverser.hasAllContent(xsparticledecl);org.apache.xerces.impl.xs.XSParticleDecl
+org.apache.xml.serialize.OutputFormat.whichMediaType(string);org.apache.xml.serialize.Method
+org.apache.xerces.parsers.DOMParserImpl.canSetParameter(object, string);org.apache.xerces.impl.Constants
+org.apache.xerces.parsers.DOMParserImpl.getParameterNames();org.apache.xerces.impl.Constants
+org.apache.xml.serialize.BaseMarkupSerializer.modifyDOMError(node, short, string, string);org.apache.xerces.dom.DOMErrorImpl
+org.apache.xml.serialize.BaseMarkupSerializer.enterElementState(boolean, string, string, string);org.apache.xml.serialize.ElementState
+org.apache.xerces.dom.DOMNormalizer.reportDOMError(domerrorhandler, domerrorimpl, domlocatorimpl, short, string, string);org.apache.xerces.dom.DOMErrorImpl
+org.apache.xerces.dom.DOMNormalizer.createGrammarPool(documenttypeimpl);org.apache.xerces.dom.DocumentTypeImpl
+org.apache.xerces.dom.DOMNormalizer.updateQName(node, qname);org.apache.xerces.xni.QName
+org.apache.xerces.dom.DOMErrorImpl.createDOMLocator(xmlparseexception);org.apache.xerces.xni.parser.XMLParseException
+org.apache.xerces.impl.XMLVersionDetector.fixupCurrentEntity(char, int, xmlentitymanager);org.apache.xerces.impl.XMLEntityManager
+org.apache.xerces.xinclude.XIncludeHandler.checkWhitespace(xmlstring);org.apache.xerces.xni.XMLString
+org.apache.xerces.impl.xs.XSConstraints.gatherChildren(int, vector, xsparticledecl);org.apache.xerces.impl.xs.XSParticleDecl
+org.apache.xerces.impl.xs.traversers.XSDHandler.removeParticle(xsmodelgroupimpl, xsparticledecl);org.apache.xerces.impl.xs.XSModelGroupImpl
+org.apache.xerces.util.DefaultErrorHandler.printError(string, xmlparseexception);org.apache.xerces.xni.parser.XMLParseException
+org.apache.xerces.jaxp.validation.DOMValidatorHelper.fillQName(node, qname);org.apache.xerces.xni.QName

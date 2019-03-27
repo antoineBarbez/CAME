@@ -1,9 +1,0 @@
-org.apache.log4j.chainsaw.LoggingEventFieldResolver.getValue(loggingevent, string);org.apache.log4j.spi.LoggingEvent
-org.apache.log4j.chainsaw.filter.FilterModel.processNewLoggingEvent(loggingevent, string);org.apache.log4j.spi.LoggingEvent
-org.apache.log4j.lf5.LF5Appender.append(loggingevent);org.apache.log4j.spi.LoggingEvent
-org.apache.log4j.lf5.util.LogFileParser.createLogRecord(string);org.apache.log4j.lf5.LogRecord
-org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeRenderer.buildToolTip(categorynode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
-org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor.getDisplayedProperties(categorynode);org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNode
-org.apache.log4j.lf5.viewer.FilteredLogTableModel.getColumn(int, logrecord);org.apache.log4j.lf5.LogRecord
-org.apache.log4j.lf5.viewer.LogBrokerMonitor.matches(logrecord, string);org.apache.log4j.lf5.LogRecord
-org.apache.log4j.xml.XMLLayout.format(loggingevent, writer);org.apache.log4j.spi.LoggingEvent

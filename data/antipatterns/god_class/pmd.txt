@@ -1,9 +1,0 @@
-net.sourceforge.pmd.PMD
-net.sourceforge.pmd.RuleSetFactory
-net.sourceforge.pmd.ant.PMDTask
-net.sourceforge.pmd.util.designer.Designer
-net.sourceforge.pmd.lang.java.rule.AbstractJavaRule
-net.sourceforge.pmd.lang.java.ast.JavaParserVisitorAdapter
-net.sourceforge.pmd.lang.plsql.rule.AbstractPLSQLRule
-net.sourceforge.pmd.lang.plsql.ast.PLSQLParserVisitorAdapter
-net.sourceforge.pmd.cpd.CPD

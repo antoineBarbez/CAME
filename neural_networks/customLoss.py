@@ -21,4 +21,4 @@ def f_measure_approx(logits, labels, gamma):
 
 # Custom loss function that maximizes f-measure  
 def loss(logits, labels):
-	return 1 - f_measure_approx(logits, labels, 1)
+	return 1 - f_measure_approx(logits, labels, 4)

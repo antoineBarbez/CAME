@@ -1,2 +1,0 @@
-org.javacc.parser.OptionsTest.testDefaults();org.javacc.parser.Options
-org.javacc.parser.ParseGen.start(boolean);org.javacc.parser.Options

@@ -1,2 +1,0 @@
-org.javacc.parser.JavaCCParser
-org.javacc.jjtree.JJTreeParser

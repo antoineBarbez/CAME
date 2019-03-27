@@ -32,7 +32,6 @@ def optimize():
 						model.input_x: x_train[i],
 						model.input_y: y_train[i],
 						model.constants: c_train[i],
-						model.training: True,
 						model.learning_rate:learning_rate,
 						model.beta:beta}
 
@@ -49,7 +48,6 @@ def optimize():
 						model.input_x: batch_x,
 						model.input_y: y_test[i],
 						model.constants: constants,
-						model.training: True,
 						model.beta:beta}
 
 			l = session.run(model.loss, feed_dict=feed_dict_valid)
@@ -71,7 +69,7 @@ def ensemble_predictions(c, x):
 		saver.restore(sess=session, save_path=get_save_path(i))
 
 		#Perform forward calculation
-		feed_dict_test = {model.input_x: x, model.constants: c, model.training: False}
+		feed_dict_test = {model.input_x: x, model.constants: c}
 		pred = session.run(model.inference, feed_dict=feed_dict_test)
 		predictions.append(pred)
   	

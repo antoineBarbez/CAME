@@ -1,0 +1,517 @@
+Method;Class;FDP;NIM_D;NAA_D;DISTANCE_D;LOC_D;NMD_D;NAD_D;NIM_E;NAA_E;DISTANCE_E;LOC_E;NMD_E;NAD_E
+android.support.v4.app.ActivityCompat.invalidateOptionsMenu(Activity);android.support.v4.app.ActivityCompatHoneycomb;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.PagerTitleStrip.PagerTitleStripImplIcs.setSingleLineAllCaps(TextView);android.support.v4.view.PagerTitleStripIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.dispatchResume();android.support.v4.app.Fragment;1;1;1;0.9767;1331;70;39;0;1;1.0000;457;58;46
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityManagerIcsImpl.removeAccessibilityStateChangeListener(AccessibilityManager, AccessibilityStateChangeListenerCompat);android.support.v4.view.accessibility.AccessibilityManagerCompatIcs;1;0;0;1.0000;23;6;0;1;0;1.0000;23;6;0
+android.support.v4.widget.EdgeEffectCompat.EdgeEffectIcsImpl.newEdgeEffect(Context);android.support.v4.widget.EdgeEffectCompatIcs;0;0;0;1.0000;24;8;0;1;0;1.0000;28;8;0
+android.support.v4.app.LoaderManagerImpl.restartLoader(int, Bundle, LoaderManager.LoaderCallbacks<D>);android.support.v4.content.Loader;2;0;5;0.9032;246;17;9;1;0;0.9714;116;18;7
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getToIndex(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setLongClickable(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.widget.EdgeEffectCompat.EdgeEffectIcsImpl.onRelease(Object);android.support.v4.widget.EdgeEffectCompatIcs;0;0;0;1.0000;24;8;0;1;0;1.0000;28;8;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordJellyBeanImpl.setSource(Object, View, int);android.support.v4.view.accessibility.AccessibilityRecordCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setItemCount(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentManagerImpl.dispatchConfigurationChanged(Configuration);android.support.v4.app.Fragment;0;0;2;0.9770;1331;70;39;1;0;0.9898;457;58;46
+android.support.v4.app.FragmentManagerImpl.hideFragment(Fragment, int, int);android.support.v4.app.Fragment;1;1;3;0.9783;1331;70;39;1;5;0.9388;457;58;46
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setContentDescription(Object, CharSequence);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentActivity.onConfigurationChanged(Configuration);android.support.v4.app.FragmentManagerImpl;0;0;1;0.9767;376;31;17;1;0;0.9886;1331;70;39
+android.support.v4.app.FragmentManagerImpl.addFragment(Fragment, boolean);android.support.v4.app.Fragment;1;2;4;0.9560;1331;70;39;0;5;0.9500;457;58;46
+android.support.v4.view.ViewCompat.ICSViewCompatImpl.canScrollVertically(View, int);android.support.v4.view.ViewCompatICS;0;0;0;1.0000;18;6;0;1;0;1.0000;18;6;0
+android.support.v4.view.ViewPager.dataSetChanged();android.support.v4.view.PagerAdapter;1;2;4;0.9580;1489;64;58;5;2;0.8333;52;20;3
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.newAccessiblityDelegateDefaultImpl();android.support.v4.view.AccessibilityDelegateCompatIcs;0;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.onLoadComplete(Loader<Object>, Object);android.support.v4.util.SparseArrayCompat;3;2;7;0.7097;219;10;14;0;0;1.0000;183;19;5
+android.support.v4.app.Fragment.setUserVisibleHint(boolean);android.support.v4.app.FragmentManagerImpl;0;0;5;0.9583;457;58;46;1;0;0.9890;1331;70;39
+android.support.v4.app.BackStackRecord.getBreadCrumbShortTitle();android.support.v4.app.FragmentManagerImpl;1;0;3;0.9412;481;32;28;0;1;0.9889;1331;70;39
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.obtain(View, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.PagerTitleStrip.updateAdapter(PagerAdapter, PagerAdapter);android.support.v4.view.PagerAdapter;1;2;4;0.8000;236;13;17;2;0;0.9286;52;20;3
+android.support.v4.app.NotificationCompat.Builder.build();android.support.v4.app.NotificationCompat.NotificationCompatImpl;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityManagerIcsImpl.newAccessiblityStateChangeListener(AccessibilityStateChangeListenerCompat);android.support.v4.view.accessibility.AccessibilityManagerCompatIcs;0;0;0;1.0000;23;6;0;1;0;1.0000;23;6;0
+android.support.v4.view.MenuCompat.HoneycombMenuVersionImpl.setShowAsAction(MenuItem, int);android.support.v4.view.MenuItemCompatHoneycomb;0;0;0;1.0000;4;1;0;1;0;1.0000;6;2;0
+android.support.v4.app.TaskStackBuilder.TaskStackBuilderImplJellybean.getPendingIntent(Context, Intent[], int, int, Bundle);android.support.v4.app.TaskStackBuilderJellybean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getParcelableData(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getClassName(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.LoaderManagerImpl.hasRunningLoaders();android.support.v4.util.SparseArrayCompat;1;0;1;0.9615;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.app.Fragment.startActivityForResult(Intent, int);android.support.v4.app.FragmentActivity;0;0;1;0.9896;457;58;46;1;0;0.9773;376;31;17
+android.support.v4.app.NotificationCompat.Builder.build();android.support.v4.app.NotificationCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.NotificationCompat.NotificationCompatImplJellybean.build(Builder);android.support.v4.app.NotificationCompat.InboxStyle;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.performDrag(float);android.support.v4.view.PagerAdapter;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityManagerIcsImpl.isTouchExplorationEnabled(AccessibilityManager);android.support.v4.view.accessibility.AccessibilityManagerCompatIcs;0;0;0;1.0000;23;6;0;1;0;1.0000;23;6;0
+android.support.v4.view.PagerTitleStrip.PageListener.onPageSelected(int);android.support.v4.view.PagerTitleStrip;2;0;1;0.8750;20;4;1;1;1;0.9355;236;13;17
+android.support.v4.view.MotionEventCompat.EclairMotionEventVersionImpl.findPointerIndex(MotionEvent, int);android.support.v4.view.MotionEventCompatEclair;0;0;0;1.0000;12;4;0;1;0;1.0000;12;4;0
+android.support.v4.app.Fragment.startActivity(Intent);android.support.v4.app.FragmentActivity;0;0;1;0.9896;457;58;46;1;0;0.9773;376;31;17
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getWindowId(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.callOnLoadFinished(Loader<Object>, Object);android.support.v4.app.LoaderManagerImpl;5;0;2;0.9259;219;10;14;0;3;0.9655;246;17;9
+android.support.v4.view.ViewPager.canScroll(View, boolean, int, int, int);android.support.v4.view.ViewCompat;0;1;0;1.0000;1489;64;58;1;0;1.0000;24;8;4
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat.AccessibilityServiceInfoIcsImpl.getSettingsActivityName(AccessibilityServiceInfo);android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs;0;0;0;1.0000;15;5;0;1;0;1.0000;15;5;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setToIndex(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.ViewCompat.JBViewCompatImpl.postInvalidateOnAnimation(View, int, int, int, int);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.dispatchPause();android.support.v4.app.Fragment;1;1;0;0.9884;1331;70;39;0;1;1.0000;457;58;46
+android.support.v4.app.NotificationCompat.Builder.setFullScreenIntent(PendingIntent, boolean);android.support.v4.app.NotificationCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.Fragment.setHasOptionsMenu(boolean);android.support.v4.app.FragmentActivity;0;1;3;0.9583;457;58;46;1;0;0.9787;376;31;17
+android.support.v4.app.FragmentActivity.onLowMemory();android.support.v4.app.FragmentManagerImpl;0;0;1;0.9767;376;31;17;1;0;0.9886;1331;70;39
+android.support.v4.widget.SearchViewCompat.SearchViewCompatHoneycombImpl.newSearchView(Context);android.support.v4.widget.SearchViewCompatHoneycomb;0;0;0;1.0000;17;3;0;1;0;1.0000;17;3;0
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2.createFromParcel(Parcel);android.support.v4.os.ParcelableCompatCreatorCallbacks;0;0;1;0.7500;12;3;1;1;0;0.6667;2;2;0
+android.support.v4.app.ShareCompat.ShareCompatImplICS.configureMenuItem(MenuItem, IntentBuilder);android.support.v4.app.ShareCompat.IntentBuilder;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewCompat.JBViewCompatImpl.postOnAnimation(View, Runnable);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.popBackStackImmediate();android.support.v4.app.FragmentActivity;1;3;1;0.9540;1331;70;39;0;1;0.9787;376;31;17
+android.support.v4.app.FragmentActivity.invalidateSupportFragmentIndex(int);android.support.v4.util.SparseArrayCompat;2;0;1;0.9773;376;31;17;0;0;1.0000;183;19;5
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateJellyBeanImpl.newAccessiblityDelegateBridge(AccessibilityDelegateCompat);android.support.v4.view.AccessibilityDelegateCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.DialogFragment.show(FragmentManager, String);android.support.v4.app.FragmentTransaction;0;0;0;1.0000;170;16;18;2;0;0.9200;24;24;7
+android.support.v4.os.ParcelableCompat.CompatCreator.newArray(int);android.support.v4.os.ParcelableCompatCreatorCallbacks;0;0;1;0.6667;9;2;1;1;0;0.6667;2;2;0
+android.support.v4.app.NotificationCompat.Style.build();android.support.v4.app.NotificationCompat.Builder;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.destroy();android.support.v4.content.Loader;5;1;8;0.7143;219;10;14;1;0;0.9730;116;18;7
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setClickable(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentManagerImpl.dispatchLowMemory();android.support.v4.app.Fragment;0;0;2;0.9770;1331;70;39;1;0;0.9898;457;58;46
+android.support.v4.app.FragmentManagerImpl.reverseTransit(int);android.support.v4.app.FragmentTransaction;1;0;0;1.0000;1331;70;39;0;3;1.0000;24;24;7
+android.support.v4.app.FragmentManagerImpl.dispatchDestroy();android.support.v4.app.Fragment;1;2;2;0.9535;1331;70;39;0;1;1.0000;457;58;46
+android.support.v4.app.FragmentState.instantiate(FragmentActivity);android.support.v4.app.FragmentManagerImpl;2;0;11;0.5769;61;3;12;0;0;1.0000;1331;70;39
+android.support.v4.view.ViewPager.MyAccessibilityDelegate.performAccessibilityAction(View, int, Bundle);android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.PagerTitleStrip.PageListener.onChanged();android.support.v4.view.ViewPager;2;0;0;1.0000;20;4;1;0;2;0.9823;1489;64;58
+android.support.v4.view.PagerTitleStrip.updateAdapter(PagerAdapter, PagerAdapter);android.support.v4.view.ViewPager;1;2;4;0.8000;236;13;17;0;1;0.9916;1489;64;58
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.retain();android.support.v4.app.LoaderManagerImpl;1;0;4;0.8333;219;10;14;0;2;1.0000;246;17;9
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isPassword(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.NotificationCompat.NotificationCompatImplJellybean.build(Builder);android.support.v4.app.NotificationCompat.Builder;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.LoaderManagerImpl.initLoader(int, Bundle, LoaderManager.LoaderCallbacks<D>);android.support.v4.util.SparseArrayCompat;2;0;5;0.8966;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.app.NavUtils.NavUtilsImplJB.navigateUpTo(Activity, Intent);android.support.v4.app.NavUtilsJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.content.ModernAsyncTask.InternalHandler.handleMessage(Message);android.support.v4.content.ModernAsyncTask;2;0;0;1.0000;11;1;0;0;2;1.0000;110;18;16
+android.support.v4.app.FragmentState.instantiate(FragmentActivity);android.support.v4.app.Fragment;2;0;11;0.5769;61;3;12;2;9;0.9074;457;58;46
+android.support.v4.view.ViewPager.populate(int);android.support.v4.view.PagerAdapter;0;5;7;0.9174;1489;64;58;5;0;0.8649;52;20;3
+android.support.v4.app.FragmentManagerImpl.loadAnimation(Fragment, int, boolean, int);android.support.v4.app.Fragment;1;3;7;0.9886;1331;70;39;1;1;0.9794;457;58;46
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.obtain(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.content.Loader.ForceLoadContentObserver.onChange(boolean);android.support.v4.content.Loader;0;0;0;1.0000;9;2;0;1;0;0.9615;116;18;7
+android.support.v4.app.TaskStackBuilder.TaskStackBuilderImplHoneycomb.getPendingIntent(Context, Intent[], int, int, Bundle);android.support.v4.content.IntentCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.os.ParcelableCompat.newCreator(ParcelableCompatCreatorCallbacks<T>);android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub;0;0;0;1.0000;6;1;0;1;0;1.0000;3;1;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getParent(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.content.AsyncTaskLoader.LoadTask.doInBackground(Void);android.support.v4.content.AsyncTaskLoader;1;0;1;0.8571;28;4;3;1;2;0.9444;133;11;7
+android.support.v4.app.Fragment.performReallyStop();android.support.v4.app.FragmentActivity;1;0;5;0.9495;457;58;46;1;1;0.9600;376;31;17
+android.support.v4.app.FragmentActivity.onRetainNonConfigurationInstance();android.support.v4.app.LoaderManagerImpl;2;2;3;0.9000;376;31;17;1;1;0.9444;246;17;9
+android.support.v4.app.FragmentActivity.onPanelClosed(int, Menu);android.support.v4.app.FragmentManagerImpl;0;0;1;0.9767;376;31;17;1;0;0.9886;1331;70;39
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.destroy();android.support.v4.app.FragmentManagerImpl;5;1;8;0.7143;219;10;14;0;1;0.9898;1331;70;39
+android.support.v4.app.FragmentManagerImpl.restoreAllState(Parcelable, ArrayList<Fragment>);android.support.v4.app.BackStackState;4;1;8;0.9406;1331;70;39;1;0;0.9706;102;3;10
+android.support.v4.app.ShareCompat.IntentReader.getHtmlText();android.support.v4.app.ShareCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.saveFragmentViewState(Fragment);android.support.v4.app.Fragment;1;0;1;0.9886;1331;70;39;0;2;0.9794;457;58;46
+android.support.v4.view.MotionEventCompat.EclairMotionEventVersionImpl.getX(MotionEvent, int);android.support.v4.view.MotionEventCompatEclair;0;0;0;1.0000;12;4;0;1;0;1.0000;12;4;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.getMovementGranularities(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.PagerTitleStrip.updateText(int, PagerAdapter);android.support.v4.view.PagerAdapter;0;1;7;0.7241;236;13;17;2;0;0.9310;52;20;3
+android.support.v4.view.MenuItemCompat.HoneycombMenuVersionImpl.setActionView(MenuItem, View);android.support.v4.view.MenuItemCompatHoneycomb;0;0;0;1.0000;7;2;0;1;0;1.0000;6;2;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.start();android.support.v4.content.Loader;2;0;8;0.6923;219;10;14;1;0;0.9714;116;18;7
+android.support.v4.app.LoaderManagerImpl.doDestroy();android.support.v4.util.SparseArrayCompat;1;0;5;0.8800;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.app.LoaderManagerImpl.getLoader(int);android.support.v4.util.SparseArrayCompat;1;0;2;0.9231;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.view.ViewPager.MyAccessibilityDelegate.performAccessibilityAction(View, int, Bundle);android.support.v4.view.PagerAdapter;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.widget.ScrollerCompat.ScrollerCompatImplIcs.getCurrVelocity();android.support.v4.widget.ScrollerCompatIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.initViewPager();android.support.v4.view.ViewCompat;0;0;9;0.9364;1489;64;58;0;0;1.0000;24;8;4
+android.support.v4.view.ViewCompat.ICSViewCompatImpl.canScrollHorizontally(View, int);android.support.v4.view.ViewCompatICS;0;0;0;1.0000;18;6;0;1;0;1.0000;18;6;0
+android.support.v4.app.NotificationCompat.NotificationCompatImplHoneycomb.build(Builder);android.support.v4.app.NotificationCompat.Builder;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.dump(String, FileDescriptor, PrintWriter, String[]);android.support.v4.app.BackStackRecord;0;0;13;0.8539;1331;70;39;1;0;0.9848;481;32;28
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getRemovedCount(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.isVisibleToUser(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setFocusable(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.content.AsyncTaskLoader.LoadTask.onPostExecute(D);android.support.v4.content.AsyncTaskLoader;1;0;1;0.8571;28;4;3;1;2;0.9444;133;11;7
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.performAction(Object, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.addAction(Object, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.NotificationCompat.NotificationCompatImplBase.build(Builder);android.support.v4.app.NotificationCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.TaskStackBuilder.startActivities(Bundle);android.support.v4.content.ContextCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.NavUtils.NavUtilsImplJB.getParentActivityIntent(Activity);android.support.v4.app.NavUtilsJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.NotificationCompat.Style.setBuilder(Builder);android.support.v4.app.NotificationCompat.Builder;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.NotificationCompat.Builder.getNotification();android.support.v4.app.NotificationCompat.NotificationCompatImpl;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.makeInactive(Fragment);android.support.v4.app.Fragment;1;0;5;0.9663;1331;70;39;1;1;0.9800;457;58;46
+android.support.v4.view.ViewPager.endFakeDrag();android.support.v4.view.VelocityTrackerCompat;0;4;7;0.9027;1489;64;58;1;0;1.0000;6;2;1
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setFullScreen(Object, boolean);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.ViewPager.computeScroll();android.support.v4.view.ViewCompat;0;2;3;0.9727;1489;64;58;0;0;1.0000;24;8;4
+android.support.v4.app.FragmentManagerImpl.dispatchCreate();android.support.v4.app.Fragment;1;1;1;0.9767;1331;70;39;0;1;1.0000;457;58;46
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.obtain();android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentStatePagerAdapter.restoreState(Parcelable, ClassLoader);android.support.v4.app.FragmentManager;0;0;4;0.8000;118;9;7;1;0;0.9565;24;20;1
+android.support.v4.view.ViewCompat.HCViewCompatImpl.getFrameTime();android.support.v4.view.ViewCompatHC;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.NavUtils.NavUtilsImplBase.getParentActivityName(Context, ActivityInfo);android.support.v4.app.NavUtils;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.moveToState(int, int, int, boolean);android.support.v4.app.FragmentActivity;1;2;4;0.9326;1331;70;39;1;0;0.9804;376;31;17
+android.support.v4.view.ViewPager.pageRight();android.support.v4.view.PagerAdapter;0;1;2;0.9730;1489;64;58;1;0;0.9583;52;20;3
+android.support.v4.app.Fragment.performReallyStop();android.support.v4.app.LoaderManagerImpl;1;0;5;0.9495;457;58;46;2;0;0.9375;246;17;9
+android.support.v4.view.ViewPager.infoForChild(View);android.support.v4.view.PagerAdapter;0;0;2;0.9821;1489;64;58;1;0;0.9583;52;20;3
+android.support.v4.view.ViewPager.PagerObserver.onChanged();android.support.v4.view.ViewPager;0;0;0;1.0000;6;2;0;1;0;0.9910;1489;64;58
+android.support.v4.net.TrafficStatsCompat.IcsTrafficStatsCompatImpl.incrementOperationCount(int, int);android.support.v4.net.TrafficStatsCompatIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsMr1Impl.setMaxScrollY(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.PagerTitleStrip.PageListener.onAdapterChanged(PagerAdapter, PagerAdapter);android.support.v4.view.PagerTitleStrip;0;0;0;1.0000;20;4;1;1;0;0.9643;236;13;17
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setParcelableData(Object, Parcelable);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentManagerImpl.execPendingActions();android.support.v4.app.LoaderManagerImpl;2;1;7;0.9101;1331;70;39;1;0;0.9714;246;17;9
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.isPassword(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentStatePagerAdapter.destroyItem(ViewGroup, int, Object);android.support.v4.app.FragmentTransaction;1;0;6;0.7647;118;9;7;1;0;0.9677;24;24;7
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getChild(Object, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.ViewPager.smoothScrollTo(int, int, int);android.support.v4.view.ViewCompat;0;4;8;0.9189;1489;64;58;0;0;1.0000;24;8;4
+android.support.v4.view.PagerTitleStrip.PageListener.onPageSelected(int);android.support.v4.view.ViewPager;2;0;1;0.8750;20;4;1;0;3;0.9825;1489;64;58
+android.support.v4.app.FragmentActivity.getLoaderManager(int, boolean, boolean);android.support.v4.util.SparseArrayCompat;2;0;1;0.9767;376;31;17;0;0;1.0000;183;19;5
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.isScrollable(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentManagerImpl.execPendingActions();android.support.v4.app.Fragment;2;1;7;0.9101;1331;70;39;0;1;0.9906;457;58;46
+android.support.v4.app.FragmentManagerImpl.removeFragment(Fragment, int, int);android.support.v4.app.Fragment;1;1;4;0.9677;1331;70;39;1;8;0.9293;457;58;46
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getChildCount(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.LoaderManagerImpl.toString();android.support.v4.util.DebugUtils;0;0;1;0.9583;246;17;9;1;0;1.0000;18;1;0
+android.support.v4.view.ViewCompat.GBViewCompatImpl.getOverScrollMode(View);android.support.v4.view.ViewCompatGingerbread;0;0;0;1.0000;6;2;0;1;0;1.0000;6;2;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setSelected(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.ViewPager.MyAccessibilityDelegate.performAccessibilityAction(View, int, Bundle);android.support.v4.view.ViewPager;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2.createFromParcel(Parcel, ClassLoader);android.support.v4.os.ParcelableCompatCreatorCallbacks;0;0;1;0.7500;12;3;1;1;0;0.6667;2;2;0
+android.support.v4.view.PagerTitleStrip.PageListener.onChanged();android.support.v4.view.PagerTitleStrip;2;0;0;1.0000;20;4;1;1;1;0.9333;236;13;17
+android.support.v4.view.ViewCompat.JBViewCompatImpl.postInvalidateOnAnimation(View);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.MenuItemCompat.HoneycombMenuVersionImpl.setShowAsAction(MenuItem, int);android.support.v4.view.MenuItemCompatHoneycomb;0;0;0;1.0000;7;2;0;1;0;1.0000;6;2;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setPassword(Object, boolean);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.onInitializeAccessibilityNodeInfo(Object, View, AccessibilityNodeInfoCompat);android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;1;0;0;1.0000;50;9;0;0;1;0.9787;184;50;6
+android.support.v4.app.FragmentManagerImpl.saveFragmentInstanceState(Fragment);android.support.v4.app.Fragment;1;1;0;0.9886;1331;70;39;0;3;0.9794;457;58;46
+android.support.v4.content.AsyncTaskLoader.LoadTask.run();android.support.v4.content.AsyncTaskLoader;0;0;1;0.8571;28;4;3;1;0;0.9444;133;11;7
+android.support.v4.app.FragmentPagerAdapter.isViewFromObject(View, Object);android.support.v4.app.Fragment;1;0;0;1.0000;66;10;5;0;1;0.9896;457;58;46
+android.support.v4.app.FragmentManagerImpl.dispatchOptionsMenuClosed(Menu);android.support.v4.app.Fragment;1;0;2;0.9778;1331;70;39;1;3;0.9592;457;58;46
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setScrollable(Object, boolean);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.ViewPager.completeScroll(boolean);android.support.v4.view.ViewCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.KeyEventCompat.HoneycombKeyEventVersionImpl.metaStateHasNoModifiers(int);android.support.v4.view.KeyEventCompatHoneycomb;0;0;0;1.0000;9;3;0;1;0;1.0000;9;3;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.obtain(View);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.content.ModernAsyncTask.InternalHandler.handleMessage(Message);android.support.v4.content.ModernAsyncTask.AsyncTaskResult;2;0;0;1.0000;11;1;0;0;2;0.3333;4;0;2
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsMr1Impl.getMaxScrollX(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setPackageName(Object, CharSequence);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityManagerIcsImpl.addAccessibilityStateChangeListener(AccessibilityManager, AccessibilityStateChangeListenerCompat);android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityStateChangeListenerCompat;1;0;0;1.0000;23;6;0;0;1;0.6667;4;1;1
+android.support.v4.app.BackStackRecord.commitInternal(boolean);android.support.v4.app.FragmentManagerImpl;1;0;5;0.9231;481;32;28;2;1;0.9780;1331;70;39
+android.support.v4.view.ViewPager.setAdapter(PagerAdapter);android.support.v4.view.PagerAdapter;0;3;10;0.8908;1489;64;58;6;0;0.8378;52;20;3
+android.support.v4.net.TrafficStatsCompat.IcsTrafficStatsCompatImpl.tagSocket(Socket);android.support.v4.net.TrafficStatsCompatIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.initViewPager();android.support.v4.view.ViewConfigurationCompat;0;0;9;0.9364;1489;64;58;1;0;1.0000;3;1;1
+android.support.v4.view.ViewPager.onTouchEvent(MotionEvent);android.support.v4.view.VelocityTrackerCompat;1;10;21;0.7672;1489;64;58;1;0;1.0000;6;2;1
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.addChild(Object, View);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentManagerImpl.dump(String, FileDescriptor, PrintWriter, String[]);android.support.v4.app.Fragment;0;0;13;0.8539;1331;70;39;2;0;0.9818;457;58;46
+android.support.v4.view.PagerTabStrip.onTouchEvent(MotionEvent);android.support.v4.view.ViewPager;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.ShareCompat.ShareCompatImplBase.configureMenuItem(MenuItem, IntentBuilder);android.support.v4.app.ShareCompat.IntentBuilder;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.BackStackRecord.doAddOp(int, Fragment, String, int);android.support.v4.app.Fragment;1;1;1;0.9643;481;32;28;0;4;0.9600;457;58;46
+android.support.v4.view.ViewPager.PagerObserver.onInvalidated();android.support.v4.view.ViewPager;0;0;0;1.0000;6;2;0;1;0;0.9910;1489;64;58
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat.AccessibilityServiceInfoIcsImpl.getDescription(AccessibilityServiceInfo);android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs;0;0;0;1.0000;15;5;0;1;0;1.0000;15;5;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setBoundsInScreen(Object, Rect);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.net.TrafficStatsCompat.IcsTrafficStatsCompatImpl.setThreadStatsTag(int);android.support.v4.net.TrafficStatsCompatIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.TaskStackBuilder.getPendingIntent(int, int, Bundle);android.support.v4.content.IntentCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getItemCount(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentStatePagerAdapter.instantiateItem(ViewGroup, int);android.support.v4.app.FragmentTransaction;0;1;6;0.7059;118;9;7;1;0;0.9688;24;24;7
+android.support.v4.app.FragmentManagerImpl.moveToState(Fragment, int, int, int, boolean);android.support.v4.app.NoSaveStateFrameLayout;2;5;9;0.9449;1331;70;39;1;0;1.0000;20;3;0
+android.support.v4.app.FragmentActivity.onStop();android.support.v4.app.FragmentManagerImpl;0;0;4;0.9302;376;31;17;1;0;0.9889;1331;70;39
+android.support.v4.view.PagerTitleStrip.onAttachedToWindow();android.support.v4.view.ViewPager;1;1;2;0.9000;236;13;17;1;2;0.9737;1489;64;58
+android.support.v4.app.FragmentManagerImpl.execPendingActions();android.support.v4.app.FragmentActivity;2;1;7;0.9101;1331;70;39;0;1;0.9811;376;31;17
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.onLoadComplete(Loader<Object>, Object);android.support.v4.app.FragmentActivity;3;2;7;0.7097;219;10;14;0;1;0.9828;376;31;17
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.onInitializeAccessibilityEvent(Object, View, AccessibilityEvent);android.support.v4.view.AccessibilityDelegateCompatIcs;0;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.app.FragmentActivity.supportInvalidateOptionsMenu();android.support.v4.app.ActivityCompatHoneycomb;0;0;2;0.9762;376;31;17;1;0;1.0000;6;2;0
+android.support.v4.app.LoaderManagerImpl.doStop();android.support.v4.util.SparseArrayCompat;1;0;4;0.9200;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.view.accessibility.AccessibilityEventCompat.AccessibilityEventIcsImpl.getRecordCount(AccessibilityEvent);android.support.v4.view.accessibility.AccessibilityEventCompatIcs;0;0;0;1.0000;9;3;0;1;0;1.0000;9;3;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getCurrentItemIndex(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.LoaderManagerImpl.finishRetain();android.support.v4.util.SparseArrayCompat;1;0;4;0.9200;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getSource(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentManagerImpl.performPendingDeferredStart(Fragment);android.support.v4.app.Fragment;1;1;3;0.9540;1331;70;39;0;1;0.9900;457;58;46
+android.support.v4.app.LoaderManagerImpl.createLoader(int, Bundle, LoaderManager.LoaderCallbacks<Object>);android.support.v4.app.LoaderManager.LoaderCallbacks;0;0;0;1.0000;246;17;9;1;0;0.7500;3;3;0
+android.support.v4.widget.CursorAdapter.ChangeObserver.onChange(boolean);android.support.v4.widget.CursorAdapter;0;0;0;1.0000;9;2;0;1;0;0.9655;170;17;11
+android.support.v4.view.ViewPager.onSecondaryPointerUp(MotionEvent);android.support.v4.view.MotionEventCompat;0;0;3;0.9727;1489;64;58;3;0;1.0000;18;6;8
+android.support.v4.widget.CursorAdapter.MyDataSetObserver.onInvalidated();android.support.v4.widget.CursorAdapter;1;0;0;1.0000;8;2;0;0;1;0.9655;170;17;11
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setChecked(Object, boolean);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.callOnLoadFinished(Loader<Object>, Object);android.support.v4.app.FragmentManagerImpl;5;0;2;0.9259;219;10;14;0;1;0.9890;1331;70;39
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.obtain();android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getText(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getBeforeText(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.ViewPager.draw(Canvas);android.support.v4.widget.EdgeEffectCompat;1;0;5;0.9565;1489;64;58;4;0;0.7333;24;7;2
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.onLoadComplete(Loader<Object>, Object);android.support.v4.app.LoaderManagerImpl;3;2;7;0.7097;219;10;14;2;5;0.8611;246;17;9
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2.newArray(int);android.support.v4.os.ParcelableCompatCreatorCallbacks;0;0;1;0.7500;12;3;1;1;0;0.6667;2;2;0
+android.support.v4.widget.SearchViewCompat.SearchViewCompatHoneycombImpl.setOnQueryTextListener(Object, Object);android.support.v4.widget.SearchViewCompatHoneycomb;0;0;0;1.0000;17;3;0;1;0;1.0000;17;3;0
+android.support.v4.view.ViewPager.onInterceptTouchEvent(MotionEvent);android.support.v4.view.ViewCompat;1;5;14;0.8727;1489;64;58;0;0;1.0000;24;8;4
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.start();android.support.v4.app.LoaderManagerImpl;2;0;8;0.6923;219;10;14;0;2;1.0000;246;17;9
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getAddedCount(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentPagerAdapter.destroyItem(ViewGroup, int, Object);android.support.v4.app.FragmentManager;1;0;4;0.8571;66;10;5;1;0;0.9565;24;20;1
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setContentDescription(Object, CharSequence);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.ViewPager.performDrag(float);android.support.v4.widget.EdgeEffectCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.fakeDragBy(float);android.support.v4.view.PagerAdapter;0;1;8;0.9204;1489;64;58;1;0;0.9688;52;20;3
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getWindowId(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentManagerImpl.dispatchCreateOptionsMenu(Menu, MenuInflater);android.support.v4.app.Fragment;1;0;3;0.9670;1331;70;39;2;3;0.9495;457;58;46
+android.support.v4.app.FragmentActivity.onSaveInstanceState(Bundle);android.support.v4.app.FragmentManagerImpl;0;0;2;0.9767;376;31;17;1;0;0.9886;1331;70;39
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getBoundsInParent(Object, Rect);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentStatePagerAdapter.instantiateItem(ViewGroup, int);android.support.v4.app.Fragment;0;1;6;0.7059;118;9;7;2;0;0.9806;457;58;46
+android.support.v4.view.ViewCompat.JBViewCompatImpl.setHasTransientState(View, boolean);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.onRestoreInstanceState(Parcelable);android.support.v4.view.PagerAdapter;0;1;4;0.9561;1489;64;58;1;0;0.9655;52;20;3
+android.support.v4.view.ViewCompat.JBViewCompatImpl.getAccessibilityNodeProvider(View);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.NotificationCompat.Builder.getNotification();android.support.v4.app.NotificationCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentActivity.onCreateView(String, Context, AttributeSet);android.support.v4.app.Fragment;2;0;2;0.9821;376;31;17;2;9;0.9010;457;58;46
+android.support.v4.content.Loader.toString();android.support.v4.util.DebugUtils;0;0;1;0.9600;116;18;7;1;0;1.0000;18;1;0
+android.support.v4.os.ParcelableCompat.CompatCreator.createFromParcel(Parcel);android.support.v4.os.ParcelableCompatCreatorCallbacks;0;0;1;0.6667;9;2;1;1;0;0.6667;2;2;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setFromIndex(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentPagerAdapter.destroyItem(ViewGroup, int, Object);android.support.v4.app.FragmentTransaction;1;0;4;0.8571;66;10;5;1;0;0.9643;24;24;7
+android.support.v4.app.FragmentActivity.dump(String, FileDescriptor, PrintWriter, String[]);android.support.v4.app.FragmentManagerImpl;0;0;8;0.8409;376;31;17;1;0;0.9895;1331;70;39
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.dispatchPopulateAccessibilityEvent(Object, View, AccessibilityEvent);android.support.v4.view.AccessibilityDelegateCompatIcs;0;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.view.ViewPager.MyAccessibilityDelegate.onInitializeAccessibilityNodeInfo(View, AccessibilityNodeInfoCompat);android.support.v4.view.PagerAdapter;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.dispatchReallyStop();android.support.v4.app.Fragment;1;1;0;0.9884;1331;70;39;0;1;1.0000;457;58;46
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getPackageName(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setChecked(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.ViewPager.infoForCurrentScrollPosition();android.support.v4.view.PagerAdapter;0;0;4;0.9649;1489;64;58;1;0;0.9643;52;20;3
+android.support.v4.app.FragmentStatePagerAdapter.destroyItem(ViewGroup, int, Object);android.support.v4.app.Fragment;1;0;6;0.7647;118;9;7;0;1;0.9903;457;58;46
+android.support.v4.app.DialogFragment.show(FragmentManager, String);android.support.v4.app.FragmentManager;0;0;0;1.0000;170;16;18;1;0;0.9524;24;20;1
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getClassName(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.destroy();android.support.v4.app.LoaderManagerImpl;5;1;8;0.7143;219;10;14;0;3;0.9722;246;17;9
+android.support.v4.app.NotificationCompat.NotificationCompatImplIceCreamSandwich.build(Builder);android.support.v4.app.NotificationCompatIceCreamSandwich;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentActivity.onPause();android.support.v4.app.FragmentManagerImpl;0;0;4;0.9318;376;31;17;2;0;0.9778;1331;70;39
+android.support.v4.view.ViewPager.MyAccessibilityDelegate.onInitializeAccessibilityNodeInfo(View, AccessibilityNodeInfoCompat);android.support.v4.view.ViewPager;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.widget.EdgeEffectCompat.EdgeEffectIcsImpl.isFinished(Object);android.support.v4.widget.EdgeEffectCompatIcs;0;0;0;1.0000;24;8;0;1;0;1.0000;28;8;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.setVisibleToUser(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentActivity.onBackPressed();android.support.v4.app.FragmentManagerImpl;0;0;1;0.9767;376;31;17;1;0;0.9886;1331;70;39
+android.support.v4.net.ConnectivityManagerCompat.HoneycombMR2ConnectivityManagerCompatImpl.isActiveNetworkMetered(ConnectivityManager);android.support.v4.net.ConnectivityManagerCompatHoneycombMR2;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewCompat.ICSViewCompatImpl.onInitializeAccessibilityNodeInfo(View, AccessibilityNodeInfoCompat);android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;1;0;0;1.0000;18;6;0;0;1;0.9787;184;50;6
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getContentDescription(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.content.AsyncTaskLoader.LoadTask.onCancelled();android.support.v4.content.AsyncTaskLoader;1;0;2;0.7143;28;4;3;1;2;0.9474;133;11;7
+android.support.v4.app.LoaderManagerImpl.doReportStart();android.support.v4.util.SparseArrayCompat;1;0;1;0.9600;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.app.FragmentPagerAdapter.setPrimaryItem(ViewGroup, int, Object);android.support.v4.app.Fragment;0;0;1;0.9231;66;10;5;2;0;0.9794;457;58;46
+android.support.v4.app.BackStackState.instantiate(FragmentManagerImpl);android.support.v4.app.BackStackRecord;3;0;9;0.7188;102;3;10;2;9;0.8382;481;32;28
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.dump(String, FileDescriptor, PrintWriter, String[]);android.support.v4.content.Loader;0;1;14;0.4400;219;10;14;1;0;0.9750;116;18;7
+android.support.v4.app.FragmentManagerImpl.restoreAllState(Parcelable, ArrayList<Fragment>);android.support.v4.app.Fragment;4;1;8;0.9406;1331;70;39;0;7;0.9364;457;58;46
+android.support.v4.app.NotificationCompat.NotificationCompatImplJellybean.build(Builder);android.support.v4.app.NotificationCompat.BigPictureStyle;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setFocused(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.TaskStackBuilder.TaskStackBuilderImplJellybean.getPendingIntent(Context, Intent[], int, int, Bundle);android.support.v4.content.IntentCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getContentDescription(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentManagerImpl.popBackStackState(Handler, String, int, int);android.support.v4.app.BackStackRecord;1;1;3;0.9775;1331;70;39;1;2;0.9434;481;32;28
+android.support.v4.app.FragmentActivity.onCreateView(String, Context, AttributeSet);android.support.v4.app.FragmentManagerImpl;2;0;2;0.9821;376;31;17;4;1;0.9592;1331;70;39
+android.support.v4.app.FragmentState.instantiate(FragmentActivity);android.support.v4.app.FragmentActivity;2;0;11;0.5769;61;3;12;0;1;0.9844;376;31;17
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsMr1Impl.getMaxScrollY(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getScrollX(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentManagerImpl.moveToState(Fragment, int, int, int, boolean);android.support.v4.app.FragmentActivity;2;5;9;0.9449;1331;70;39;1;1;0.9775;376;31;17
+android.support.v4.view.ViewPager.draw(Canvas);android.support.v4.view.PagerAdapter;1;0;5;0.9565;1489;64;58;1;0;0.9667;52;20;3
+android.support.v4.view.ViewPager.onTouchEvent(MotionEvent);android.support.v4.view.ViewCompat;1;10;21;0.7672;1489;64;58;0;0;1.0000;24;8;4
+android.support.v4.app.LoaderManagerImpl.destroyLoader(int);android.support.v4.app.FragmentManagerImpl;2;1;6;0.8148;246;17;9;1;0;0.9894;1331;70;39
+android.support.v4.view.ViewGroupCompat.ViewGroupCompatIcsImpl.onRequestSendAccessibilityEvent(ViewGroup, View, AccessibilityEvent);android.support.v4.view.ViewGroupCompatIcs;0;0;0;1.0000;3;1;0;1;0;1.0000;3;1;0
+android.support.v4.app.BackStackRecord.popFromBackStack(boolean);android.support.v4.app.FragmentManagerImpl;2;1;13;0.9091;481;32;28;9;2;0.9100;1331;70;39
+android.support.v4.app.FragmentManagerImpl.putFragment(Bundle, String, Fragment);android.support.v4.app.Fragment;1;0;0;1.0000;1331;70;39;0;1;0.9896;457;58;46
+android.support.v4.view.VelocityTrackerCompat.HoneycombVelocityTrackerVersionImpl.getYVelocity(VelocityTracker, int);android.support.v4.view.VelocityTrackerCompatHoneycomb;0;0;0;1.0000;6;2;0;1;0;1.0000;6;2;0
+android.support.v4.app.FragmentActivity.onStart();android.support.v4.util.SparseArrayCompat;1;1;10;0.7959;376;31;17;0;0;1.0000;183;19;5
+android.support.v4.view.ViewCompat.ICSViewCompatImpl.onInitializeAccessibilityEvent(View, AccessibilityEvent);android.support.v4.view.ViewCompatICS;0;0;0;1.0000;18;6;0;1;0;1.0000;18;6;0
+android.support.v4.view.ViewCompat.GBViewCompatImpl.setOverScrollMode(View, int);android.support.v4.view.ViewCompatGingerbread;0;0;0;1.0000;6;2;0;1;0;1.0000;6;2;0
+android.support.v4.app.FragmentActivity.onCreatePanelMenu(int, Menu);android.support.v4.app.FragmentManagerImpl;0;0;2;0.9767;376;31;17;1;0;0.9886;1331;70;39
+android.support.v4.app.NotificationCompat.NotificationCompatImplBase.build(Builder);android.support.v4.app.NotificationCompat.Builder;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.TaskStackBuilder.addParentStack(Activity);android.support.v4.app.NavUtils;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewCompat.ICSViewCompatImpl.onPopulateAccessibilityEvent(View, AccessibilityEvent);android.support.v4.view.ViewCompatICS;0;0;0;1.0000;18;6;0;1;0;1.0000;18;6;0
+android.support.v4.app.FragmentManagerImpl.retainNonConfig();android.support.v4.app.Fragment;1;0;1;0.9890;1331;70;39;0;5;0.9485;457;58;46
+android.support.v4.app.FragmentManagerImpl.transitToStyleIndex(int, boolean);android.support.v4.app.FragmentTransaction;1;0;6;1.0000;1331;70;39;0;3;1.0000;24;24;7
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.isFullScreen(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentActivity.onDestroy();android.support.v4.app.FragmentManagerImpl;0;1;2;0.9318;376;31;17;1;0;0.9890;1331;70;39
+android.support.v4.view.ViewCompat.JBViewCompatImpl.postOnAnimationDelayed(View, Runnable, long);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentActivity.onPreparePanel(int, View, Menu);android.support.v4.app.FragmentManagerImpl;0;1;2;0.9302;376;31;17;1;0;0.9889;1331;70;39
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.destroy();android.support.v4.app.FragmentActivity;5;1;8;0.7143;219;10;14;0;1;0.9815;376;31;17
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.obtain(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.widget.CursorAdapter.MyDataSetObserver.onChanged();android.support.v4.widget.CursorAdapter;1;0;0;1.0000;8;2;0;0;1;0.9655;170;17;11
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.findAccessibilityNodeInfosByText(Object, String);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setParent(Object, View);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setScrollable(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.setParent(Object, View, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.BackStackRecord.run();android.support.v4.app.Fragment;2;1;14;0.8986;481;32;28;0;3;0.9748;457;58;46
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isFocused(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isEnabled(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.KeyEventCompat.HoneycombKeyEventVersionImpl.metaStateHasModifiers(int, int);android.support.v4.view.KeyEventCompatHoneycomb;0;0;0;1.0000;9;3;0;1;0;1.0000;9;3;0
+android.support.v4.app.FragmentManagerImpl.makeActive(Fragment);android.support.v4.app.Fragment;1;0;2;0.9773;1331;70;39;1;1;0.9796;457;58;46
+android.support.v4.app.LoaderManagerImpl.doStart();android.support.v4.util.SparseArrayCompat;1;0;4;0.9200;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.app.TaskStackBuilder.TaskStackBuilderImplHoneycomb.getPendingIntent(Context, Intent[], int, int, Bundle);android.support.v4.app.TaskStackBuilderHoneycomb;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setBeforeText(Object, CharSequence);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.accessibility.AccessibilityEventCompat.AccessibilityEventIcsImpl.getRecord(AccessibilityEvent, int);android.support.v4.view.accessibility.AccessibilityEventCompatIcs;0;0;0;1.0000;9;3;0;1;0;1.0000;9;3;0
+android.support.v4.app.Fragment.toString();android.support.v4.util.DebugUtils;0;0;3;0.9684;457;58;46;1;0;1.0000;18;1;0
+android.support.v4.app.Fragment.onDestroy();android.support.v4.app.LoaderManagerImpl;0;0;6;0.9381;457;58;46;1;0;0.9688;246;17;9
+android.support.v4.app.FragmentManagerImpl.dispatchStop();android.support.v4.app.Fragment;1;1;1;0.9767;1331;70;39;0;1;1.0000;457;58;46
+android.support.v4.view.accessibility.AccessibilityEventCompat.appendRecord(AccessibilityEvent, AccessibilityRecordCompat);android.support.v4.view.accessibility.AccessibilityRecordCompat;1;0;1;1.0000;11;3;8;0;1;0.9787;165;47;2
+android.support.v4.app.FragmentActivity.invalidateSupportFragmentIndex(int);android.support.v4.app.LoaderManagerImpl;2;0;1;0.9773;376;31;17;1;1;0.9231;246;17;9
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setEnabled(Object, boolean);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.ViewCompat.JBViewCompatImpl.setImportantForAccessibility(View, int);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewCompat.ICSViewCompatImpl.setAccessibilityDelegate(View, AccessibilityDelegateCompat);android.support.v4.view.ViewCompatICS;1;0;0;1.0000;18;6;0;1;0;1.0000;18;6;0
+android.support.v4.app.LoaderManagerImpl.dump(String, FileDescriptor, PrintWriter, String[]);android.support.v4.util.SparseArrayCompat;1;0;2;0.9231;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.view.PagerTitleStrip.PageListener.onPageScrolled(int, float, int);android.support.v4.view.PagerTitleStrip;0;0;0;1.0000;20;4;1;1;0;0.9643;236;13;17
+android.support.v4.app.FragmentManagerImpl.dispatchContextItemSelected(MenuItem);android.support.v4.app.Fragment;1;0;2;0.9773;1331;70;39;1;1;0.9796;457;58;46
+android.support.v4.app.FragmentManagerImpl.saveAllState();android.support.v4.app.FragmentState;3;4;9;0.9158;1331;70;39;0;1;0.9688;61;3;12
+android.support.v4.app.TaskStackBuilder.addParentStack(Class<?>);android.support.v4.app.NavUtils;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.LoaderManagerImpl.restartLoader(int, Bundle, LoaderManager.LoaderCallbacks<D>);android.support.v4.util.SparseArrayCompat;2;0;5;0.9032;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.net.TrafficStatsCompat.IcsTrafficStatsCompatImpl.getThreadStatsTag();android.support.v4.net.TrafficStatsCompatIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.dispatchStart();android.support.v4.app.Fragment;1;1;1;0.9767;1331;70;39;0;1;1.0000;457;58;46
+android.support.v4.widget.EdgeEffectCompat.EdgeEffectIcsImpl.onPull(Object, float);android.support.v4.widget.EdgeEffectCompatIcs;0;0;0;1.0000;24;8;0;1;0;1.0000;28;8;0
+android.support.v4.app.FragmentPagerAdapter.destroyItem(ViewGroup, int, Object);android.support.v4.app.Fragment;1;0;4;0.8571;66;10;5;0;1;0.9900;457;58;46
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setEnabled(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.LoaderManagerImpl.doReportNextStart();android.support.v4.util.SparseArrayCompat;1;0;1;0.9600;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isChecked(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityManagerIcsImpl.addAccessibilityStateChangeListener(AccessibilityManager, AccessibilityStateChangeListenerCompat);android.support.v4.view.accessibility.AccessibilityManagerCompatIcs;1;0;0;1.0000;23;6;0;1;0;1.0000;23;6;0
+android.support.v4.app.LoaderManagerImpl.destroyLoader(int);android.support.v4.util.SparseArrayCompat;2;1;6;0.8148;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.app.FragmentActivity.startActivityFromFragment(Fragment, Intent, int);android.support.v4.app.Fragment;1;0;0;1.0000;376;31;17;0;1;0.9896;457;58;46
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.start();android.support.v4.app.LoaderManager.LoaderCallbacks;2;0;8;0.6923;219;10;14;1;0;0.9167;3;3;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.finishRetain();android.support.v4.app.LoaderManagerImpl;1;2;7;0.6250;219;10;14;0;2;1.0000;246;17;9
+android.support.v4.app.BackStackRecord.popFromBackStack(boolean);android.support.v4.app.Fragment;2;1;13;0.9091;481;32;28;0;1;0.9915;457;58;46
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setSource(Object, View);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentActivity.onMenuItemSelected(int, MenuItem);android.support.v4.app.FragmentManagerImpl;0;0;1;0.9773;376;31;17;2;0;0.9773;1331;70;39
+android.support.v4.app.Fragment.setMenuVisibility(boolean);android.support.v4.app.FragmentActivity;0;1;4;0.9479;457;58;46;1;0;0.9792;376;31;17
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.recycle(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.setSource(Object, View, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getSource(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;0;0;0;1.0000;123;41;0;1;0;1.0000;184;50;6
+android.support.v4.view.ViewPager.executeKeyEvent(KeyEvent);android.support.v4.view.KeyEventCompat;0;1;0;0.9909;1489;64;58;2;0;1.0000;15;5;1
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setCheckable(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentPagerAdapter.finishUpdate(ViewGroup);android.support.v4.app.FragmentManager;0;0;2;0.8462;66;10;5;1;0;0.9545;24;20;1
+android.support.v4.app.FragmentManagerImpl.dispatchOptionsItemSelected(MenuItem);android.support.v4.app.Fragment;1;0;2;0.9778;1331;70;39;1;3;0.9592;457;58;46
+android.support.v4.app.FragmentStatePagerAdapter.destroyItem(ViewGroup, int, Object);android.support.v4.app.FragmentManager;1;0;6;0.7647;118;9;7;2;0;0.9200;24;20;1
+android.support.v4.app.FragmentStatePagerAdapter.saveState();android.support.v4.app.FragmentManager;0;0;3;0.7857;118;9;7;1;0;0.9545;24;20;1
+android.support.v4.view.ViewPager.onInterceptTouchEvent(MotionEvent);android.support.v4.view.MotionEventCompat;1;5;14;0.8727;1489;64;58;4;2;1.0000;18;6;8
+android.support.v4.view.KeyEventCompat.HoneycombKeyEventVersionImpl.normalizeMetaState(int);android.support.v4.view.KeyEventCompatHoneycomb;0;0;0;1.0000;9;3;0;1;0;1.0000;9;3;0
+android.support.v4.app.FragmentManagerImpl.moveToState(int, int, int, boolean);android.support.v4.app.Fragment;1;2;4;0.9326;1331;70;39;0;3;0.9904;457;58;46
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.onRequestSendAccessibilityEvent(Object, ViewGroup, View, AccessibilityEvent);android.support.v4.view.AccessibilityDelegateCompatIcs;0;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.view.ViewPager.setCurrentItemInternal(int, boolean, boolean, int);android.support.v4.view.PagerAdapter;0;5;6;0.9035;1489;64;58;1;0;0.9714;52;20;3
+android.support.v4.view.ViewPager.MyAccessibilityDelegate.onInitializeAccessibilityNodeInfo(View, AccessibilityNodeInfoCompat);android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setSource(Object, View);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.onInitializeAccessibilityNodeInfo(Object, View, AccessibilityNodeInfoCompat);android.support.v4.view.AccessibilityDelegateCompatIcs;1;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.content.Loader.dataToString(D);android.support.v4.util.DebugUtils;0;0;0;1.0000;116;18;7;1;0;1.0000;18;1;0
+android.support.v4.app.TaskStackBuilder.startActivities(Bundle);android.support.v4.content.IntentCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.onLoadComplete(Loader<Object>, Object);android.support.v4.app.FragmentManagerImpl;3;2;7;0.7097;219;10;14;1;0;0.9902;1331;70;39
+android.support.v4.view.PagerTitleStrip.updateTextPositions(int, float, boolean);android.support.v4.view.ViewPager;1;1;9;0.6429;236;13;17;0;1;0.9917;1489;64;58
+android.support.v4.app.NotificationCompat.NotificationCompatImplHoneycomb.build(Builder);android.support.v4.app.NotificationCompatHoneycomb;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.BackStackState.instantiate(FragmentManagerImpl);android.support.v4.app.BackStackRecord.Op;3;0;9;0.7188;102;3;10;0;7;0.7667;0;0;9
+android.support.v4.app.FragmentManagerImpl.makeInactive(Fragment);android.support.v4.app.FragmentActivity;1;0;5;0.9663;1331;70;39;1;0;0.9792;376;31;17
+android.support.v4.app.FragmentManagerImpl.saveAllState();android.support.v4.app.Fragment;3;4;9;0.9158;1331;70;39;0;6;0.9537;457;58;46
+android.support.v4.app.FragmentActivity.onCreate(Bundle);android.support.v4.app.FragmentManagerImpl;0;0;3;0.9574;376;31;17;3;0;0.9670;1331;70;39
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setScrollX(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.NotificationCompat.NotificationCompatImplJellybean.build(Builder);android.support.v4.app.NotificationCompat.Style;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.newAccessiblityDelegateBridge(AccessibilityDelegateCompat);android.support.v4.view.AccessibilityDelegateCompatIcs;0;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getFromIndex(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isScrollable(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.ShareCompat.IntentBuilder.setHtmlText(String);android.support.v4.content.IntentCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentActivity.onReallyStop();android.support.v4.app.LoaderManagerImpl;0;0;4;0.9111;376;31;17;2;0;0.9333;246;17;9
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isCheckable(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentManagerImpl.restoreAllState(Parcelable, ArrayList<Fragment>);android.support.v4.app.BackStackRecord;4;1;8;0.9406;1331;70;39;0;1;0.9859;481;32;28
+android.support.v4.app.Fragment.getLoaderManager();android.support.v4.app.FragmentActivity;0;0;5;0.9479;457;58;46;1;0;0.9792;376;31;17
+android.support.v4.app.FragmentStatePagerAdapter.instantiateItem(ViewGroup, int);android.support.v4.app.FragmentManager;0;1;6;0.7059;118;9;7;1;0;0.9630;24;20;1
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateJellyBeanImpl.getAccessibilityNodeProvider(Object, View);android.support.v4.view.AccessibilityDelegateCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.onTouchEvent(MotionEvent);android.support.v4.widget.EdgeEffectCompat;1;10;21;0.7672;1489;64;58;2;0;0.9500;24;7;2
+android.support.v4.app.FragmentStatePagerAdapter.setPrimaryItem(ViewGroup, int, Object);android.support.v4.app.Fragment;0;0;1;0.9286;118;9;7;1;0;0.9897;457;58;46
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.toString();android.support.v4.util.DebugUtils;0;0;2;0.9167;219;10;14;1;0;1.0000;18;1;0
+android.support.v4.app.FragmentActivity.onActivityResult(int, int, Intent);android.support.v4.app.FragmentManagerImpl;1;0;2;0.9773;376;31;17;0;1;0.9888;1331;70;39
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setBoundsInParent(Object, Rect);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentManagerImpl.toString();android.support.v4.util.DebugUtils;0;0;1;0.9884;1331;70;39;1;0;1.0000;18;1;0
+android.support.v4.app.NotificationCompat.NotificationCompatImplJellybean.build(Builder);android.support.v4.app.NotificationCompat.BigTextStyle;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat.AccessibilityServiceInfoIcsImpl.getResolveInfo(AccessibilityServiceInfo);android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs;0;0;0;1.0000;15;5;0;1;0;1.0000;15;5;0
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.sendAccessibilityEvent(Object, View, int);android.support.v4.view.AccessibilityDelegateCompatIcs;0;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.view.ViewCompat.ICSViewCompatImpl.setAccessibilityDelegate(View, AccessibilityDelegateCompat);android.support.v4.view.AccessibilityDelegateCompat;1;0;0;1.0000;18;6;0;0;1;0.8889;27;7;3
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.isChecked(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.view.ViewPager.draw(Canvas);android.support.v4.view.ViewCompat;1;0;5;0.9565;1489;64;58;1;2;1.0000;24;8;4
+android.support.v4.view.ViewConfigurationCompat.FroyoViewConfigurationVersionImpl.getScaledPagingTouchSlop(ViewConfiguration);android.support.v4.view.ViewConfigurationCompatFroyo;0;0;0;1.0000;3;1;0;1;0;1.0000;3;1;0
+android.support.v4.app.FragmentManagerImpl.findFragmentByTag(String);android.support.v4.app.Fragment;1;0;2;0.9770;1331;70;39;0;1;0.9898;457;58;46
+android.support.v4.app.FragmentStatePagerAdapter.finishUpdate(ViewGroup);android.support.v4.app.FragmentTransaction;0;0;2;0.8667;118;9;7;1;0;0.9630;24;24;7
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.isEnabled(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.FragmentManagerImpl.reportBackStackChanged();android.support.v4.app.FragmentManager.OnBackStackChangedListener;0;0;1;0.9885;1331;70;39;1;0;0.5000;1;1;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getText(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentManagerImpl.restoreAllState(Parcelable, ArrayList<Fragment>);android.support.v4.app.FragmentState;4;1;8;0.9406;1331;70;39;1;2;0.9118;61;3;12
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.getScrollY(Object);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.content.AsyncTaskLoader.dump(String, FileDescriptor, PrintWriter, String[]);android.support.v4.util.TimeUtils;0;0;4;0.7778;133;11;7;2;0;1.0000;118;7;6
+android.support.v4.net.ConnectivityManagerCompat.GingerbreadConnectivityManagerCompatImpl.isActiveNetworkMetered(ConnectivityManager);android.support.v4.net.ConnectivityManagerCompatGingerbread;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.addChild(Object, View, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.dispatchPrepareOptionsMenu(Menu);android.support.v4.app.Fragment;1;0;2;0.9778;1331;70;39;1;3;0.9592;457;58;46
+android.support.v4.content.ContextCompat.startActivities(Context, Intent[], Bundle);android.support.v4.content.ContextCompatHoneycomb;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewCompat.BaseViewCompatImpl.getOverScrollMode(View);android.support.v4.view.ViewCompat;1;0;0;1.0000;19;8;0;0;1;1.0000;24;8;4
+android.support.v4.net.TrafficStatsCompat.IcsTrafficStatsCompatImpl.clearThreadStatsTag();android.support.v4.net.TrafficStatsCompatIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setClassName(Object, CharSequence);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.content.AsyncTaskLoader.executePendingTask();android.support.v4.content.ModernAsyncTask;1;0;7;0.7059;133;11;7;0;1;1.0000;110;18;16
+android.support.v4.app.FragmentActivity.onRetainNonConfigurationInstance();android.support.v4.app.FragmentManagerImpl;2;2;3;0.9000;376;31;17;1;0;0.9899;1331;70;39
+android.support.v4.app.BackStackRecord.bumpBackStackNesting(int);android.support.v4.app.FragmentManagerImpl;2;0;3;0.9630;481;32;28;0;1;1.0000;1331;70;39
+android.support.v4.app.FragmentActivity.onPostResume();android.support.v4.app.FragmentManagerImpl;0;0;3;0.9545;376;31;17;2;0;0.9775;1331;70;39
+android.support.v4.app.BackStackRecord.run();android.support.v4.app.FragmentManagerImpl;2;1;14;0.8986;481;32;28;8;3;0.9029;1331;70;39
+android.support.v4.app.FragmentPagerAdapter.instantiateItem(ViewGroup, int);android.support.v4.app.FragmentManager;0;2;5;0.7647;66;10;5;2;0;0.9259;24;20;1
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateJellyBeanImpl.performAccessibilityAction(Object, View, int, Bundle);android.support.v4.view.AccessibilityDelegateCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.LoaderManagerImpl.doRetain();android.support.v4.util.SparseArrayCompat;1;0;5;0.8800;246;17;9;0;0;1.0000;183;19;5
+android.support.v4.view.MotionEventCompat.EclairMotionEventVersionImpl.getY(MotionEvent, int);android.support.v4.view.MotionEventCompatEclair;0;0;0;1.0000;12;4;0;1;0;1.0000;12;4;0
+android.support.v4.app.FragmentManagerImpl.dispatchActivityCreated();android.support.v4.app.Fragment;1;1;1;0.9767;1331;70;39;0;1;1.0000;457;58;46
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getBoundsInScreen(Object, Rect);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentManagerImpl.attachFragment(Fragment, int, int);android.support.v4.app.Fragment;1;1;5;0.9556;1331;70;39;0;4;0.9600;457;58;46
+android.support.v4.app.DialogFragment.dismissInternal(boolean);android.support.v4.app.FragmentManager;1;0;3;0.9000;170;16;18;2;1;0.9231;24;20;1
+android.support.v4.view.ViewPager.onTouchEvent(MotionEvent);android.support.v4.view.MotionEventCompat;1;10;21;0.7672;1489;64;58;5;3;1.0000;18;6;8
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.sendAccessibilityEventUnchecked(Object, View, AccessibilityEvent);android.support.v4.view.AccessibilityDelegateCompatIcs;0;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.content.ContextCompat.startActivities(Context, Intent[], Bundle);android.support.v4.content.ContextCompatJellybean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.isAccessibilityFocused(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.widget.EdgeEffectCompat.EdgeEffectIcsImpl.finish(Object);android.support.v4.widget.EdgeEffectCompatIcs;0;0;0;1.0000;24;8;0;1;0;1.0000;28;8;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isLongClickable(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.NotificationCompat.NotificationCompatImplJellybean.build(Builder);android.support.v4.app.NotificationCompatJellybean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentActivity.onStart();android.support.v4.app.LoaderManagerImpl;1;1;10;0.7959;376;31;17;3;0;0.9231;246;17;9
+android.support.v4.app.FragmentManagerImpl.enqueueAction(Runnable, boolean);android.support.v4.app.FragmentActivity;1;1;3;0.9540;1331;70;39;0;1;0.9787;376;31;17
+android.support.v4.app.ShareCompat.ShareCompatImplJB.escapeHtml(CharSequence);android.support.v4.app.ShareCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.NotificationCompat.Builder.setStyle(Style);android.support.v4.app.NotificationCompat.Style;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setCurrentItemIndex(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.ShareCompat.IntentReader.getHtmlText();android.support.v4.content.IntentCompat;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.DialogFragment.dismissInternal(boolean);android.support.v4.app.FragmentTransaction;1;0;3;0.9000;170;16;18;3;0;0.9000;24;24;7
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat.AccessibilityNodeProviderJellyBeanImpl.newAccessibilityNodeProviderBridge(AccessibilityNodeProviderCompat);android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.onTouchEvent(MotionEvent);android.support.v4.view.PagerAdapter;1;10;21;0.7672;1489;64;58;1;0;0.9811;52;20;3
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.focusSearch(Object, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setScrollY(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.Fragment.onDestroy();android.support.v4.app.FragmentActivity;0;0;6;0.9381;457;58;46;1;0;0.9800;376;31;17
+android.support.v4.app.FragmentManagerImpl.saveAllState();android.support.v4.app.FragmentManagerState;3;4;9;0.9158;1331;70;39;0;3;0.8571;15;2;4
+android.support.v4.app.FragmentManagerImpl.popBackStackImmediate(String, int);android.support.v4.app.FragmentActivity;1;3;1;0.9540;1331;70;39;0;1;0.9787;376;31;17
+android.support.v4.view.VelocityTrackerCompat.HoneycombVelocityTrackerVersionImpl.getXVelocity(VelocityTracker, int);android.support.v4.view.VelocityTrackerCompatHoneycomb;0;0;0;1.0000;6;2;0;1;0;1.0000;6;2;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.stop();android.support.v4.content.Loader;2;0;4;0.8400;219;10;14;1;0;0.9667;116;18;7
+android.support.v4.app.FragmentActivity.onReallyStop();android.support.v4.app.FragmentManagerImpl;0;0;4;0.9111;376;31;17;1;0;0.9892;1331;70;39
+android.support.v4.view.ViewCompat.ICSViewCompatImpl.onInitializeAccessibilityNodeInfo(View, AccessibilityNodeInfoCompat);android.support.v4.view.ViewCompatICS;1;0;0;1.0000;18;6;0;1;0;1.0000;18;6;0
+android.support.v4.app.FragmentActivity.getLoaderManager(int, boolean, boolean);android.support.v4.app.LoaderManagerImpl;2;0;1;0.9767;376;31;17;0;1;0.9615;246;17;9
+android.support.v4.app.NotificationCompat.NotificationCompatImplIceCreamSandwich.build(Builder);android.support.v4.app.NotificationCompat.Builder;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.Fragment.performStart();android.support.v4.app.LoaderManagerImpl;0;1;1;0.9792;457;58;46;1;0;0.9630;246;17;9
+android.support.v4.widget.EdgeEffectCompat.EdgeEffectIcsImpl.draw(Object, Canvas);android.support.v4.widget.EdgeEffectCompatIcs;0;0;0;1.0000;24;8;0;1;0;1.0000;28;8;0
+android.support.v4.app.FragmentManagerImpl.findFragmentByWho(String);android.support.v4.app.Fragment;1;0;1;0.9885;1331;70;39;0;1;0.9897;457;58;46
+android.support.v4.app.FragmentPagerAdapter.instantiateItem(ViewGroup, int);android.support.v4.app.FragmentTransaction;0;2;5;0.7647;66;10;5;2;0;0.9375;24;24;7
+android.support.v4.widget.SearchViewCompat.SearchViewCompatHoneycombImpl.newOnQueryTextListener(OnQueryTextListenerCompat);android.support.v4.widget.SearchViewCompatHoneycomb;0;0;0;1.0000;17;3;0;1;0;1.0000;17;3;0
+android.support.v4.app.FragmentActivity.onActivityResult(int, int, Intent);android.support.v4.app.Fragment;1;0;2;0.9773;376;31;17;1;0;0.9898;457;58;46
+android.support.v4.view.AccessibilityDelegateCompat.AccessibilityDelegateIcsImpl.onPopulateAccessibilityEvent(Object, View, AccessibilityEvent);android.support.v4.view.AccessibilityDelegateCompatIcs;0;0;0;1.0000;50;9;0;1;0;1.0000;50;9;0
+android.support.v4.app.Fragment.dump(String, FileDescriptor, PrintWriter, String[]);android.support.v4.app.LoaderManagerImpl;0;0;33;0.6563;457;58;46;1;0;0.9828;246;17;9
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isFocusable(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.DialogFragment.show(FragmentTransaction, String);android.support.v4.app.FragmentTransaction;0;0;2;0.9231;170;16;18;2;0;0.9231;24;24;7
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setText(Object, CharSequence);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.PagerTitleStrip.onDetachedFromWindow();android.support.v4.view.ViewPager;1;1;1;0.9333;236;13;17;1;2;0.9735;1489;64;58
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setClassName(Object, CharSequence);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityManagerIcsImpl.getInstalledAccessibilityServiceList(AccessibilityManager);android.support.v4.view.accessibility.AccessibilityManagerCompatIcs;0;0;0;1.0000;23;6;0;1;0;1.0000;23;6;0
+android.support.v4.view.ViewCompat.JBViewCompatImpl.hasTransientState(View);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.callOnLoadFinished(Loader<Object>, Object);android.support.v4.app.FragmentActivity;5;0;2;0.9259;219;10;14;0;1;0.9787;376;31;17
+android.support.v4.app.FragmentStatePagerAdapter.isViewFromObject(View, Object);android.support.v4.app.Fragment;1;0;0;1.0000;118;9;7;0;1;0.9896;457;58;46
+android.support.v4.widget.EdgeEffectCompat.EdgeEffectIcsImpl.setSize(Object, int, int);android.support.v4.widget.EdgeEffectCompatIcs;0;0;0;1.0000;24;8;0;1;0;1.0000;28;8;0
+android.support.v4.app.FragmentActivity.onResumeFragments();android.support.v4.app.FragmentManagerImpl;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat.AccessibilityServiceInfoIcsImpl.getCanRetrieveWindowContent(AccessibilityServiceInfo);android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs;0;0;0;1.0000;15;5;0;1;0;1.0000;15;5;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.findFocus(Object, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setAddedCount(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.ShareCompat.ShareCompatImplICS.configureMenuItem(MenuItem, IntentBuilder);android.support.v4.app.ShareCompatICS;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.moveToState(Fragment, int, int, int, boolean);android.support.v4.app.Fragment;2;5;9;0.9449;1331;70;39;15;30;0.6286;457;58;46
+android.support.v4.app.FragmentActivity.onRetainNonConfigurationInstance();android.support.v4.util.SparseArrayCompat;2;2;3;0.9000;376;31;17;0;0;1.0000;183;19;5
+android.support.v4.app.FragmentActivity.onDestroy();android.support.v4.app.LoaderManagerImpl;0;1;2;0.9318;376;31;17;1;0;0.9655;246;17;9
+android.support.v4.app.FragmentActivity.onResume();android.support.v4.app.FragmentManagerImpl;0;0;4;0.9302;376;31;17;1;0;0.9889;1331;70;39
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.setAccessibilityFocused(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsMr1Impl.setMaxScrollX(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentPagerAdapter.finishUpdate(ViewGroup);android.support.v4.app.FragmentTransaction;0;0;2;0.8462;66;10;5;1;0;0.9630;24;24;7
+android.support.v4.app.FragmentManagerImpl.showFragment(Fragment, int, int);android.support.v4.app.Fragment;1;1;3;0.9783;1331;70;39;1;5;0.9388;457;58;46
+android.support.v4.app.Fragment.onStart();android.support.v4.app.LoaderManagerImpl;0;0;6;0.9381;457;58;46;1;0;0.9688;246;17;9
+android.support.v4.net.TrafficStatsCompat.IcsTrafficStatsCompatImpl.incrementOperationCount(int);android.support.v4.net.TrafficStatsCompatIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentStatePagerAdapter.finishUpdate(ViewGroup);android.support.v4.app.FragmentManager;0;0;2;0.8667;118;9;7;1;0;0.9545;24;20;1
+android.support.v4.app.LoaderManagerImpl.destroyLoader(int);android.support.v4.app.FragmentActivity;2;1;6;0.8148;246;17;9;0;1;0.9800;376;31;17
+android.support.v4.app.FragmentManagerImpl.moveToState(int, int, int, boolean);android.support.v4.app.LoaderManagerImpl;1;2;4;0.9326;1331;70;39;1;0;0.9697;246;17;9
+android.support.v4.app.ShareCompat.IntentReader.getHtmlText();android.support.v4.app.ShareCompat.ShareCompatImpl;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.onDraw(Canvas);android.support.v4.view.PagerAdapter;0;0;6;0.9474;1489;64;58;1;0;0.9667;52;20;3
+android.support.v4.app.BackStackRecord.getBreadCrumbTitle();android.support.v4.app.FragmentManagerImpl;1;0;3;0.9412;481;32;28;0;1;0.9889;1331;70;39
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isSelected(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.ViewPager.addNewItem(int, int);android.support.v4.view.PagerAdapter;0;0;2;0.9826;1489;64;58;2;0;0.9231;52;20;3
+android.support.v4.view.ViewCompat.JBViewCompatImpl.getImportantForAccessibility(View);android.support.v4.view.ViewCompatJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentStatePagerAdapter.restoreState(Parcelable, ClassLoader);android.support.v4.app.Fragment;0;0;4;0.8000;118;9;7;1;0;0.9900;457;58;46
+android.support.v4.app.BackStackRecord.bumpBackStackNesting(int);android.support.v4.app.Fragment;2;0;3;0.9630;481;32;28;0;1;0.9901;457;58;46
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.isClickable(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat.AccessibilityServiceInfoIcsImpl.getId(AccessibilityServiceInfo);android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs;0;0;0;1.0000;15;5;0;1;0;1.0000;15;5;0
+android.support.v4.app.NavUtils.NavUtilsImplJB.getParentActivityName(Context, ActivityInfo);android.support.v4.app.NavUtilsJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.recycle(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentManagerImpl.popBackStackImmediate(int, int);android.support.v4.app.FragmentActivity;1;3;1;0.9540;1331;70;39;0;1;0.9787;376;31;17
+android.support.v4.app.FragmentManagerImpl.detachFragment(Fragment, int, int);android.support.v4.app.Fragment;1;1;4;0.9667;1331;70;39;0;5;0.9596;457;58;46
+android.support.v4.view.MotionEventCompat.EclairMotionEventVersionImpl.getPointerId(MotionEvent, int);android.support.v4.view.MotionEventCompatEclair;0;0;0;1.0000;12;4;0;1;0;1.0000;12;4;0
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityManagerIcsImpl.getEnabledAccessibilityServiceList(AccessibilityManager, int);android.support.v4.view.accessibility.AccessibilityManagerCompatIcs;0;0;0;1.0000;23;6;0;1;0;1.0000;23;6;0
+android.support.v4.net.ConnectivityManagerCompat.JellyBeanConnectivityManagerCompatImpl.isActiveNetworkMetered(ConnectivityManager);android.support.v4.net.ConnectivityManagerCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.smoothScrollTo(int, int, int);android.support.v4.view.PagerAdapter;0;4;8;0.9189;1489;64;58;1;0;0.9667;52;20;3
+android.support.v4.view.accessibility.AccessibilityEventCompat.AccessibilityEventIcsImpl.appendRecord(AccessibilityEvent, Object);android.support.v4.view.accessibility.AccessibilityEventCompatIcs;0;0;0;1.0000;9;3;0;1;0;1.0000;9;3;0
+android.support.v4.app.NotificationCompat.NotificationCompatImplJellybean.build(Builder);android.support.v4.app.NotificationCompat.Action;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.Fragment.onStart();android.support.v4.app.FragmentActivity;0;0;6;0.9381;457;58;46;1;0;0.9800;376;31;17
+android.support.v4.app.BackStackState.instantiate(FragmentManagerImpl);android.support.v4.app.FragmentManagerImpl;3;0;9;0.7188;102;3;10;0;3;0.9912;1331;70;39
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.performAction(Object, int, Bundle);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityManagerIcsImpl.removeAccessibilityStateChangeListener(AccessibilityManager, AccessibilityStateChangeListenerCompat);android.support.v4.view.accessibility.AccessibilityManagerCompat.AccessibilityStateChangeListenerCompat;1;0;0;1.0000;23;6;0;0;1;0.6667;4;1;1
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoJellybeanImpl.setMovementGranularities(Object, int);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.net.TrafficStatsCompat.IcsTrafficStatsCompatImpl.untagSocket(Socket);android.support.v4.net.TrafficStatsCompatIcs;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.accessibility.AccessibilityRecordCompat.AccessibilityRecordIcsImpl.setRemovedCount(Object, int);android.support.v4.view.accessibility.AccessibilityRecordCompatIcs;0;0;0;1.0000;123;41;0;1;0;1.0000;123;41;0
+android.support.v4.app.NavUtils.NavUtilsImplJB.shouldUpRecreateTask(Activity, Intent);android.support.v4.app.NavUtilsJB;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.app.FragmentManagerImpl.saveFragmentBasicState(Fragment);android.support.v4.app.Fragment;1;1;3;0.9778;1331;70;39;1;3;0.9592;457;58;46
+android.support.v4.app.LoaderManagerImpl.LoaderInfo.stop();android.support.v4.app.LoaderManagerImpl;2;0;4;0.8400;219;10;14;0;2;1.0000;246;17;9
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.setPassword(Object, boolean);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.view.ViewPager.onSaveInstanceState();android.support.v4.view.PagerAdapter;0;0;2;0.9823;1489;64;58;1;0;0.9600;52;20;3
+android.support.v4.app.FragmentActivity.onStart();android.support.v4.app.FragmentManagerImpl;1;1;10;0.7959;376;31;17;4;0;0.9600;1331;70;39
+android.support.v4.app.NavUtils.NavUtilsImplBase.getParentActivityIntent(Activity);android.support.v4.app.NavUtils;0;0;0;0;0;0;0;0;0;0;0;0;0
+android.support.v4.view.ViewPager.calculatePageOffsets(ItemInfo, int, ItemInfo);android.support.v4.view.PagerAdapter;0;0;6;0.9478;1489;64;58;2;0;0.9333;52;20;3
+android.support.v4.app.FragmentManagerImpl.restoreAllState(Parcelable, ArrayList<Fragment>);android.support.v4.app.FragmentManagerState;4;1;8;0.9406;1331;70;39;0;3;0.8800;15;2;4
+android.support.v4.app.Fragment.performDestroyView();android.support.v4.app.LoaderManagerImpl;0;1;1;0.9792;457;58;46;1;0;0.9630;246;17;9
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat.AccessibilityNodeInfoIcsImpl.getActions(Object);android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs;0;0;0;1.0000;141;47;0;1;0;1.0000;142;47;0
+android.support.v4.app.FragmentPagerAdapter.instantiateItem(ViewGroup, int);android.support.v4.app.Fragment;0;2;5;0.7647;66;10;5;2;0;0.9808;457;58;46
+android.support.v4.app.FragmentActivity.dump(String, FileDescriptor, PrintWriter, String[]);android.support.v4.app.LoaderManagerImpl;0;0;8;0.8409;376;31;17;1;0;0.9697;246;17;9
+android.support.v4.widget.EdgeEffectCompat.EdgeEffectIcsImpl.onAbsorb(Object, int);android.support.v4.widget.EdgeEffectCompatIcs;0;0;0;1.0000;24;8;0;1;0;1.0000;28;8;0
+android.support.v4.content.AsyncTaskLoader.cancelLoad();android.support.v4.content.ModernAsyncTask;0;0;5;0.8333;133;11;7;1;0;0.9615;110;18;16
+android.support.v4.app.FragmentManagerImpl.findFragmentById(int);android.support.v4.app.Fragment;1;0;2;0.9770;1331;70;39;0;1;0.9898;457;58;46

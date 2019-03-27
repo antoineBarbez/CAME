@@ -1,2 +1,0 @@
-org.bson.LazyBSONObject.getElementBSONSize(int);org.bson.BSON
-com.mongodb.MongoURI.parseOptions(string);com.mongodb.MongoOptions
