@@ -1,88 +1,65 @@
-from context import customLoss
+from context import loss
 
 import tensorflow as tf
 import numpy as np
 
 
 class CAME(object):
-	def __init__(self, nb_metrics, nb_filters1, pool_size1, nb_filters2, kernel_size2, pool_size2, dense_shape):
-		history_length = 1001
-		output_size = 2
-		constants_size = 2
+	def __init__(self, nb_metrics, history_length, filters, kernel_sizes, pool_sizes, dense_sizes):
+		assert (len(filters) == len(kernel_sizes)) & (len(kernel_sizes) == len(pool_sizes)), "filters, kernel_sizes and pool_sizes must have same length"
 
 		# Placeholders for instances and labels
 		self.input_x = tf.placeholder(tf.float32,[None, history_length, nb_metrics], name="input_x")
-		self.input_y = tf.placeholder(tf.float32,[None, output_size], name="input_y")
-
-		# Placeholders for batch constants
-		self.constants = tf.placeholder(tf.float32, [constants_size], name="batch_constants")
+		self.input_y = tf.placeholder(tf.float32,[None, 1], name="input_y")
 		
 		# Placeholders for learning parameters
-		#self.dropout_keep_prob = tf.placeholder(tf.float32, name="dropout_keep_prob")
-		self.learning_rate     = tf.placeholder(tf.float32, name="learning_rate")
-		self.beta              = tf.placeholder(tf.float32, name="beta")
+		self.learning_rate = tf.placeholder(tf.float32, name="learning_rate")
+		self.beta          = tf.placeholder(tf.float32, name="beta")
+		self.gamma         = tf.placeholder(tf.float32, name="gamma")
 
 		# L2 regularization & initialization
 		l2_reg = tf.contrib.layers.l2_regularizer(scale=self.beta)
 		xavier = tf.contrib.layers.xavier_initializer()
 
-		# Convolution layers
-		with tf.name_scope("conv1"):
-			conv1 = tf.layers.conv1d(
-				inputs=self.input_x,
-				filters=nb_filters1,
-				kernel_size=2,
-				padding = "valid",
-				activation=tf.tanh,
-				kernel_regularizer=l2_reg,
-				kernel_initializer=xavier
-			)
 
-		with tf.name_scope("pool1"):
-			pool1 = tf.layers.max_pooling1d(
-				inputs= conv1,
-				pool_size= pool_size1,
-				strides = pool_size1,
-				padding= "valid"
-			)
+		# Convolutional layers
+		previous_layer = self.input_x
+		for i in range(len(kernel_sizes)):
+			with tf.name_scope("conv-%s" % str(i+1)):
+				previous_layer = tf.layers.conv1d(
+					inputs=previous_layer,
+					filters=filters[i],
+					kernel_size=kernel_sizes[i],
+					padding = "same",
+					activation=tf.tanh,
+					kernel_regularizer=l2_reg,
+					kernel_initializer=xavier
+				)
 
-		with tf.name_scope("conv2"):
-			conv2 = tf.layers.conv1d(
-				inputs=pool1,
-				filters=nb_filters2,
-				kernel_size=kernel_size2,
-				padding = "same",
-				activation=tf.tanh,
-				kernel_regularizer=l2_reg,
-				kernel_initializer=xavier
-			)
+				print(previous_layer.get_shape())
 
-		with tf.name_scope("pool2"):
-			pool2 = tf.layers.max_pooling1d(
-				inputs= conv2,
-				pool_size= pool_size2,
-				strides = pool_size2,
-				padding="same"
-			)
+			with tf.name_scope("pool-%s" % str(i+1)):
+				previous_layer = tf.layers.max_pooling1d(
+					inputs= previous_layer,
+					pool_size= pool_sizes[i],
+					strides = pool_sizes[i],
+					padding= "same"
+				)
+
+				print(previous_layer.get_shape())
 
 		with tf.name_scope("pool_flat"):
-			pool_flat = tf.contrib.layers.flatten(pool2)
+			previous_layer = tf.contrib.layers.flatten(previous_layer)
 
-
-		# Add batch constants to the input of the dense layers
-		with tf.name_scope("dense_input"):
-			batch_constants = tf.expand_dims(self.constants, 0)
-			batch_constants = tf.tile(batch_constants, [tf.shape(self.input_x)[0], 1])
-			dense_input = tf.concat([pool_flat, batch_constants], axis=1)
-
+			print(previous_layer.get_shape())
+		
 		
 		# Dense layers
-		h_in = dense_input
-		for size in dense_shape:
-			with tf.name_scope("dense%s" % size):
-				h_in = tf.layers.dense(
-					inputs=h_in,
-					units=size,
+		for i in range(len(dense_sizes)):
+			with tf.name_scope("dense-%s" % str(i+1)):
+				previous_layer = tf.layers.dense(
+					inputs=previous_layer,
+					units=dense_sizes[i],
 					activation=tf.tanh,
 					kernel_initializer=xavier,
 					kernel_regularizer=l2_reg,
@@ -93,19 +70,19 @@ class CAME(object):
 		# Output layer
 		with tf.name_scope("output"):
 			self.logits = tf.layers.dense(
-				inputs=h_in,
-				units=output_size,
+				inputs=previous_layer,
+				units=1,
 				kernel_initializer=xavier,
 				kernel_regularizer=l2_reg,
 				bias_regularizer=l2_reg
 			)
 
-			self.inference = tf.nn.softmax(self.logits)
+			self.inference = tf.nn.sigmoid(self.logits)
 
 
 		# Loss function
 		with tf.name_scope("loss"):
-			self.loss = customLoss.loss(self.logits, self.input_y)
+			self.loss = loss.compute(self.logits, self.input_y, self.gamma)
 			l2_loss = tf.losses.get_regularization_loss()
 			loss_reg = self.loss + l2_loss
 
