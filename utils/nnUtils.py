@@ -92,6 +92,7 @@ def get_instances(systemName, antipattern):
 		scaler.fit(instances)
 		return scaler.transform(instances)
 
+
 def get_came_instances(systemName, antipattern, history_length):
 	entities = dataUtils.getEntities(systemName, antipattern)
 	instances = np.zeros((len(entities), history_length, get_nb_metric(antipattern)))

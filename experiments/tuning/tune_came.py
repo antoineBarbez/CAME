@@ -12,36 +12,34 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 def parse_args():
 	parser = argparse.ArgumentParser()
 	parser.add_argument("antipattern", help="either 'god_class' or 'feature_envy'")
-	parser.add_argument("history_length")
-	parser.add_argument("-n_batch", type=int, default=1)
+	parser.add_argument("history_length", type=int)
 	parser.add_argument("-n_fold", type=int, default=5)
 	parser.add_argument("-n_step", type=int, default=100)
-	parser.add_argument("-n_test", type=int, default=200)
+	parser.add_argument("-n_test", type=int, default=100)
 	return parser.parse_args()
 
 def generateRandomHyperParameters(history_length):
-	learning_rate = 10**-random.uniform(0.5, 3.0)
-	beta = 10**-random.uniform(0.5, 3.0)
+	learning_rate = 10**-random.uniform(0.0, 2.5)
+	beta = 10**-random.uniform(0.0, 2.5)
 	gamma = random.randint(1, 10)
 
 	nb_filters    = []
 	kernel_sizes  = []
 	pool_sizes    = []
-	nb_conv_layer = random.randint(0,1) if history_length <= 10 else random.randint(1,2)
+	nb_conv_layer = 0 if history_length <= 1 else random.randint(0,1) if history_length <= 10 else random.randint(1,2) if history_length <= 100 else 2
 	for _ in range(nb_conv_layer):
 		nb_filter   = random.randint(10,60)
-		kernel_size = random.randint(2,5)
+		kernel_size = random.randint(2,4)
 		pool_size   = random.choice([2, 5, 10]) if history_length <=100 else random.choice([5, 10, 15, 20])
 		
 		nb_filters.append(nb_filter)
 		kernel_sizes.append(kernel_size)
 		pool_sizes.append(pool_size)
-		
 
 	minBound = 4
 	maxBound = 100
 	dense_sizes = []
-	nb_dense_layer = random.randint(1,2)
+	nb_dense_layer = random.randint(1, 3)
 	for _ in range(nb_dense_layer):
 		dense_size = random.randint(minBound, maxBound)
 		dense_sizes.append(dense_size)
@@ -60,10 +58,22 @@ def get_cross_validation_dataset(X, Y, fold_index, n_fold):
 
 	return x_train, y_train, folds_x[fold_index], folds_y[fold_index]
 
+def train(session, model, x_train, y_train, num_step, lr, beta, gamma):
+	learning_rate = lr
+	for step in range(num_step):
+		feed_dict_train = {
+					model.input_x: x_train,
+					model.input_y: y_train,
+					model.learning_rate:learning_rate,
+					model.beta:beta,
+					model.gamma:gamma}
+
+		session.run(model.learning_step, feed_dict=feed_dict_train)
+
 if __name__ == "__main__":
 	args = parse_args()
 
-	data_x, data_y = train_mlp.build_dataset(train_mlp.training_systems, args.antipattern)
+	data_x, data_y = train_came.build_dataset(train_came.training_systems, args.antipattern, args.history_length)
 	data_x, data_y = nnUtils.shuffle(data_x, data_y)
 
 	bar = progressbar.ProgressBar(maxval=args.n_test, \
@@ -84,7 +94,7 @@ if __name__ == "__main__":
 
 			# New graph
 			tf.reset_default_graph()
-
+            
 			# Create model
 			model = came.CAME(
 				nb_metrics=x_train.shape[-1],
@@ -99,18 +109,15 @@ if __name__ == "__main__":
 				# Initialize the variables of the TensorFlow graph.
 				session.run(tf.global_variables_initializer())
 
-				train_came.train(
+				train(
 					session=session,
 					model=model,
 					x_train=x_train,
 					y_train=y_train,
 					num_step=args.n_step,
-					num_batch=args.n_batch,
-					start_lr=learning_rate,
+					lr=learning_rate,
 					beta=beta,
-					gamma=gamma,
-					decay_step=1000,
-					lr_decay=1.0)
+					gamma=gamma)
 
 				predictions = np.concatenate((predictions, session.run(model.inference, feed_dict={model.input_x: x_test})), axis=0)
 		

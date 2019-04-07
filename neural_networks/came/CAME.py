@@ -36,8 +36,6 @@ class CAME(object):
 					kernel_initializer=xavier
 				)
 
-				print(previous_layer.get_shape())
-
 			with tf.name_scope("pool-%s" % str(i+1)):
 				previous_layer = tf.layers.max_pooling1d(
 					inputs= previous_layer,
@@ -46,12 +44,8 @@ class CAME(object):
 					padding= "same"
 				)
 
-				print(previous_layer.get_shape())
-
 		with tf.name_scope("pool_flat"):
 			previous_layer = tf.contrib.layers.flatten(previous_layer)
-
-			print(previous_layer.get_shape())
 		
 		
 		# Dense layers
