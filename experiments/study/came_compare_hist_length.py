@@ -59,21 +59,6 @@ for history_length in history_lengths:
 		precisions.append(pres)
 		recalls.append(recs)
 
-m1 = np.mean(np.array(precisions[0]))
-std1 = np.std(np.array(precisions[0]))
-m2 = np.mean(np.array(precisions[5]))
-std2 = np.std(np.array(precisions[5]))
-
-m12 = m2 - m1
-std12 = ((std1**2 + std2**2)/10.)**0.5
-
-print(m1)
-print(std1)
-print(m2)
-print(std2)
-print((m12/m1)*100)
-print((std12/m1)*100)
-
 
 plt.figure()
 plt.ylim((0.2, 1.0))

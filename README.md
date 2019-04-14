@@ -1,4 +1,4 @@
-# CAME (Convolutional Analysis of code Metrics Evolution)
+# Project
 Most of the anti-patterns detection approaches rely on structural properties of software systems (i.e., source code metrics). However, anti-patterns also impact how code components (i.e., classes or methods) evolve together when changes are applied to the system via commits. This project leverages both structural and historical informations to detect anti-patterns. The main idea is to analyze how code metrics related to code components evolve throught the history of the systems. For each component to be classified, the input vector consists in a matrix containing the values of several code metrics computed at each revision of the system under investigation. We then use a Convolutional Neural Network to process this matrix and perform classification.
 
 This approach has been experimented for **God Class** and we are currently extending it for **Feature Envy**.

@@ -41,7 +41,7 @@ def parse_args():
 	return parser.parse_args()
 
 def get_save_path(antipattern, history_length, net_number):
-	models_dir = os.path.join(ROOT_DIR, 'neural_networks', 'came', 'trained_models', antipattern, 'hist_' + str(history_length))
+	models_dir = os.path.join(ROOT_DIR, 'approaches', 'came', 'trained_models', antipattern, 'hist_' + str(history_length))
 	if not os.path.exists(models_dir):
 			os.makedirs(models_dir)
 

@@ -1,0 +1,2 @@
+min_samples_split;max_features;max_depth;min_samples_leaf;
+15;sqrt;80;6;
