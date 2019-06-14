@@ -5,8 +5,6 @@ from sklearn import tree
 import argparse
 import os
 
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 def parse_args():
 	parser = argparse.ArgumentParser()
 	parser.add_argument("-n_fold", type=int, default=5)

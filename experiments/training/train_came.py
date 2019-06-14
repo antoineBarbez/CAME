@@ -101,8 +101,7 @@ def cool_plot(losses_train, losses_test):
                      color="g")
     plt.plot(range(len(losses_train[0])), mean_train, color="r")
     plt.plot(range(len(losses_test[0])), mean_test, color="g")
-
-    return plt
+    plt.show()
 
 if __name__ == "__main__":
 	args = parse_args()
@@ -179,4 +178,4 @@ if __name__ == "__main__":
 
 		# Plot learning curve
 		cool_plot(all_losses_train, all_losses_test)
-		plt.show()
+		
