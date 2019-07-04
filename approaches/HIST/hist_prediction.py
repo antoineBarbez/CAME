@@ -38,16 +38,22 @@ def getSmells(systemName, threshold):
     classToIdxMap = {c:i for i, c in enumerate(dataUtils.getEntities(systemName, 'god_class'))}
     history = getHistory(systemName)
 
-    # Compute number of occurences for each class
-    nbCommit = 0.0
+    # Compute for each class, the number of commits involving at least another class,
+    # and the number of occurences in this set of commit.
+    nbCommit = np.zeros(len(classToIdxMap))
     occurences = np.zeros(len(classToIdxMap))
     for commit in history:
+        nbCommit += 1.0
         if len(commit) > 1:
-            nbCommit += 1.0
             for className in commit:
                 if className in classToIdxMap:
                     idx = classToIdxMap[className]
-                    occurences[idx] = occurences[idx] + 1
+                    occurences[idx] = occurences[idx] + 1.0
+        else:
+            className = commit[0]
+            if className in classToIdxMap:
+                idx = classToIdxMap[className]
+                nbCommit[idx] = nbCommit[idx] - 1
 
 
-    return np.array([[1.0] if (occ/nbCommit)>threshold else [0.0] for occ in occurences])
+    return np.array([[1.0] if (occurences[i]/nbCommit[i])>threshold else [0.0] for i in range(len(classToIdxMap))])
